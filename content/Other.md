@@ -1,5 +1,11 @@
 ## Experience
 
+**Master’s Thesis Supervisor**
+Dublin City University
+*2025 - 2026*
+
+* Supervised MSc students on research design, academic writing, data collection, and empirical methodology.
+
 **Research Assistant**
 University College Dublin
 *2025 - Present*
@@ -14,12 +20,6 @@ University College Dublin
 * Support teaching in finance and quantitative methods.
 * Provide academic assistance to undergraduate and postgraduate students.
 
-**Master’s Thesis Supervisor**
-Dublin City University
-*2025 - 2026*
-
-* Supervised MSc students on research design, academic writing, data collection, and empirical methodology.
-
 **Academic Reviewer**
 Taylor & Francis Group and Wiley
 *2025 - Present*
@@ -29,8 +29,13 @@ Taylor & Francis Group and Wiley
 ## Skills
 
 * **Programming:** Stata, Python, R, MATLAB, Julia, LaTeX
-* **Financial Data:** Compustat, CRSP, ExecuComp, DealScan, HMDA, CFPB Consumer Complaints, Bloomberg, LSEG, S&P Trucost
-* **Research Methods:** Panel Data Econometrics, Difference-in-Differences, Machine Learning, Large-Scale Financial Data Analysis
+
+## Data Expertise
+* **Corporate Finance:** Compustat, ExecuComp, CRSP, LSEG, Bloomberg, NNDB, S&P Trucost, Violation Tracker
+* **Banking and Credit Markets:** HMDA, Fannie Mae and Freddie Mac Single-Family Loan-Level Datasets, DealScan, NMLS, CFPB Consumer Complaints
+* **Household Finance:** Panel Study of Income Dynamics (PSID), Health and Retirement Study (HRS)
+
+
 
 ## Awards & Honors
 
