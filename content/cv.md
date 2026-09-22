@@ -1,14 +1,3 @@
-## Education
-
-**University College Dublin**, PhD in Banking and Finance, *2023 - Present*
-
-* Research interests: Financial Intermediation, Corporate Finance, Machine Learning, and Information Frictions
-* Supervisor: Prof. Cal Muckley
-
-**University College Dublin**, MSc in Financial Data Science, *2022 - 2023*
-
-**Shanghai Polytechnic University**, BEng in Information Engineering, *2016 - 2020*
-
 ## Experience
 
 **Research Assistant**
