@@ -15,9 +15,9 @@ source = "bio.md"
 title = "About"
 
 [[sections]]
-id = "news"
-type = "list"
-title = "News"
-source = "news.toml"
+id = "conferences"
+type = "markdown"
+source = "conferences.md"
+title = "Conferences & Seminars"
 
 
