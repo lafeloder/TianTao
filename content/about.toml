@@ -1,17 +1,19 @@
 type = "about"
 title = "About"
 
-[[sections]]
-id = "research-interests"
-type = "markdown"
-source = "research-interests.md"
-title = "Research Interests"
+
 
 [[sections]]
 id = "about"
 type = "markdown"
 source = "bio.md"
 title = "About"
+
+[[sections]]
+id = "research-interests"
+type = "markdown"
+source = "research-interests.md"
+title = "Research Interests"
 
 [[sections]]
 id = "selected-working-paper"
