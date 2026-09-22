@@ -1,14 +1,14 @@
 [site]
 title = "Tian Tao"
 description = "PhD student at University College Dublin."
-favicon = "/favicon.svg"
+favicon = "/lafeloder/favicon.svg"
 last_updated = "August 18, 2026"
 
 [author]
 name = "Tian Tao"
 title = "PhD Student"
 institution = "University College Dublin"
-avatar = "/PRISM/bio.jpg"
+avatar = "/lafeloder/bio.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
