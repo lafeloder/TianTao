@@ -1,16 +1,20 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  output: "export",
   trailingSlash: true,
+
+  basePath: "/PRISM",
+  assetPrefix: "/PRISM",
+
   images: {
     unoptimized: true,
   },
-  /* config options here */
+
   webpack: (config) => {
     config.module.rules.push({
       test: /\.bib$/,
-      type: 'asset/source',
+      type: "asset/source",
     });
     return config;
   },
