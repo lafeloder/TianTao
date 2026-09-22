@@ -1,12 +1,11 @@
 type = "about"
 title = "About"
 
-[profile]
-research_interests = [
-  "Financial Intermediation",
-  "Corporate Finance",
-  "Machine Learning"
-]
+[[sections]]
+id = "research-interests"
+type = "markdown"
+source = "research-interests.md"
+title = "Research Interests"
 
 [[sections]]
 id = "about"
