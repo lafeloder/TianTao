@@ -4,8 +4,8 @@ const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
 
-  basePath: "/PRISM",
-  assetPrefix: "/PRISM",
+  basePath: "/lafeloder",
+  assetPrefix: "/lafeloder",
 
   images: {
     unoptimized: true,
