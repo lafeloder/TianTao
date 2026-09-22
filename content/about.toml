@@ -15,9 +15,9 @@ source = "bio.md"
 title = "About"
 
 [[sections]]
-id = "conferences"
+id = "selected-working-paper"
 type = "markdown"
-source = "conferences.md"
-title = "Conferences & Seminars"
+source = "selected-working-paper.md"
+title = "Selected Working Paper"
 
 
