@@ -14,6 +14,10 @@ type = "markdown"
 source = "bio.md"
 title = "About"
 
-
+[[sections]]
+id = "news"
+type = "list"
+title = "News"
+source = "news.toml"
 
 
