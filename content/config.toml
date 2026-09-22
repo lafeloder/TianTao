@@ -64,6 +64,12 @@ target = "Research"
 href = "/Research"
 
 [[navigation]]
+title = "Data and Code"
+type = "page"
+target = "Data"
+href = "/Data"
+
+[[navigation]]
 title = "Other"
 type = "page"
 target = "Other"
