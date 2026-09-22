@@ -62,16 +62,16 @@ title = "Research"
 type = "page"
 target = "Research"
 href = "/Research"
-
+[[navigation]]
+title = "CV"
+type = "page"
+target = "Other"
+href = "/Other"
 [[navigation]]
 title = "Data and Code"
 type = "page"
 target = "Data"
 href = "/Data"
 
-[[navigation]]
-title = "Other"
-type = "page"
-target = "Other"
-href = "/Other"
+
 
