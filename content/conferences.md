@@ -2,4 +2,4 @@
 
 **2025:** Paris December Finance Meeting, IFABS Oxford Conference, China Finance Annual Meeting, Irish Annual Doctoral Colloquium in Finance, IAF Cork PhD Conference, UCD PhD Symposium, Renmin University of China Research Seminar.
 
-**2024:** UCD PhD Symposium.
+**2024:** COST Action FinTech and AI, UCD PhD Symposium.
