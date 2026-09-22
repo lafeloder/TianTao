@@ -8,22 +8,25 @@ last_updated = "August 18, 2026"
 name = "Tian Tao"
 title = "PhD Student"
 institution = "University College Dublin"
-avatar = "/lafeloder/bio.jpg"
+avatar = "/TianTao/bio.jpg"
 
 [social]
-# Contact information (leave blank or delete to hide)
-
-email = "tian.tao@ucdconnet.ie"
+[social]
+# Contact information
+email = "tian.tao@ucdconnect.ie"
 location = "Dublin, Ireland"
-location_url = "https://maps.google.com"
-location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
-]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+
+# Leave office details blank until a public address is provided
+location_url = ""
+location_details = []
+
+# Personal profiles
+# Leave unavailable profile links blank
+google_scholar = ""
+orcid = ""
+github = "https://github.com/lafeloder"
+linkedin = ""
+
 
 [features]
 # Show a like button on the about page
@@ -60,26 +63,4 @@ type = "page"
 target = "publications"
 href = "/publications"
 
-[[navigation]]
-title = "Teaching"
-type = "page"
-target = "teaching"
-href = "/teaching"
 
-[[navigation]]
-title = "Awards"
-type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "Services"
-type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
-title = "CV"
-type = "page"
-target = "cv"
-href = "/cv"
