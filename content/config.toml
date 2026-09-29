@@ -10,11 +10,6 @@ title = "PhD Student"
 institution = "University College Dublin"
 avatar = "/TianTao/bio.jpg"
 
-[[navigation]]
-title = "Google Verification"
-type = "page"
-href = "/googlec554e6be99a7d685.html"
-
 [social]
 # Contact information
 email = "tian.tao@ucdconnect.ie"
