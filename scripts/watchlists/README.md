@@ -6,7 +6,8 @@ site layout and theme. Existing About, Research, CV and Data pages are retained.
 
 ## Scope
 
-- Finance journals: JF, JFE, RFS, RF, JFQA. This is an explicit monitoring
+- Finance journals: JF, JFE, RFS, RF, JFQA; all reference-list extended journals
+  are retained under the extended scope. This is an explicit monitoring
   definition, not a claim of a universal top-five ranking.
 - Author eligibility: at least one retrievable journal article first published
   in the rolling five-year window in those journals. The first edition covers
@@ -30,7 +31,7 @@ Use `bootstrap.load()` or Python's `gzip` module to inspect them.
   provisional names and affiliations. Normalized name groups are not definitive
   unique people: namesakes, name variants and duplicate affiliations need care.
 - `homepages.json`: publication-level approved author/source identities.
-- `rr.json`: only explicit revise-and-resubmit disclosures. `first_seen` is our
+- `rr.json`: R&R, reject-and-resubmit and changed decision statuses kept separately. `first_seen` is our
   discovery date, not a decision date; `source_updated` is a source's own update
   label, not a guaranteed decision date.
 - `postdocs.json`: official evidence, deadlines, uncertainties and application
@@ -42,8 +43,10 @@ Use `bootstrap.load()` or Python's `gzip` module to inspect them.
 - `run-report.json`, `meta.json` and `history/`: source outcomes, current
   coverage and dated snapshots. Fetch failures do not change verification dates.
 
-Initial coverage is limited to five approved author pages and a small verified
-job shortlist. The complete retrievable publication universe is indexed; the
+The expanded edition includes the complete Chen Yang paper-status reference,
+all matching European records in OpenPostdoc and EJM public pagination, and
+additional primary-source records. `coverage-manifest.json` preserves every
+reference identifier; validation fails if a reference record disappears. The complete retrievable publication universe is indexed; the
 homepages of every author have not yet been identified or checked. A successful
 HTML feed fetch does not prove exhaustive vacancy coverage. Public LinkedIn
 access may be blocked, and no signed-in or complete LinkedIn coverage is claimed.
@@ -52,8 +55,10 @@ access may be blocked, and no signed-in or complete LinkedIn coverage is claimed
 
 `watchlists-weekly.yml` runs Mondays at 06:15 UTC, with manual dispatch available.
 It refreshes the bibliography, rechecks approved pages and current adverts,
-checks the configured school feeds, queries up to 30 new ORCID identities, saves
-review candidates, validates data, commits changes and calls the deployment
+checks the configured school feeds, queries new ORCID identities, then imports
+complete public reference pagination through `benchmarks.py`. It retains dated
+cached snapshots when a provider is blocked or pagination is incomplete, saves
+review candidates, validates coverage, commits changes and calls the deployment
 workflow. The bot's commit does not need to trigger another push workflow.
 
 The separately scheduled ChatGPT task reviews new evidence, expands homepage
@@ -87,3 +92,24 @@ After approved edits, run `refresh.py` to update the public exports and metadata
 then validate and build before committing. Keep failed or ambiguous evidence
 visible in the coverage report. Never convert an inaccessible source into an
 empty-success result.
+
+## Reference coverage contract
+
+The expanded edition reconciled all 76 Chen Yang reference rows (75 unique
+papers), all 36 matching European OpenPostdoc IDs from 3,230 worldwide board
+and archive records, and all 44 matching EJM IDs from the six status and five
+positions pages. Records are deduplicated without losing provider identifiers.
+
+Coverage means every same-scope fetched reference record is accounted for; it
+does not mean every source is current or that every five-year author homepage
+has been searched. The publication universe remains a separate expansion task.
+Explicit changes such as JF forthcoming supersede an older R&R report.
+An author page without a current decision retains the original report under a
+reference-only label. Closed/filled searches remain in the historical job view.
+
+When an official website is blocked, use a coauthor/CV/institution page for
+papers, and an employer-written EJM advert, official department recruitment
+page, public recruitment PDF, public LinkedIn or a second board for jobs. Never
+let a generic fetch or listing-page deadline silently remove or misdate records.
+The source snapshots and public-page screening logic are factual metadata;
+full job adverts and paper abstracts are not republished.

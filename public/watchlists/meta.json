@@ -5,8 +5,8 @@
   "articles": 2402,
   "author_name_groups": 4301,
   "author_identity_records": 5833,
-  "approved_homepages": 5,
-  "homepages_scanned_this_run": 5,
+  "approved_homepages": 31,
+  "homepages_scanned_this_run": 31,
   "journals": {
     "JF": {
       "status": "complete",
@@ -38,6 +38,53 @@
   "feeds_fetched": 21,
   "review_queue": 12,
   "schedule": "Weekly Mondays: source refresh at 06:15 UTC; evidence review on Monday mornings, Europe/London.",
-  "coverage_note": "Homepage coverage is partial. Name/affiliation identities are provisional. A fetched career feed is not an exhaustive vacancy search.",
-  "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed."
+  "coverage_note": "Complete same-scope reference snapshots are included; the five-year author universe continues to expand beyond them.",
+  "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
+  "paper_sources_checked": 40,
+  "reference_paper_rows": 76,
+  "job_counts": {
+    "total": 63,
+    "historical": 25,
+    "active": 34,
+    "uncertain": 4
+  },
+  "benchmark_sources": {
+    "papers": [
+      {
+        "name": "Chen Yang paper status",
+        "url": "https://chenyangfinance.github.io/paper-status/",
+        "total_scanned": 76,
+        "in_scope": 76,
+        "matched": 76,
+        "missing": 0,
+        "checked_on": "2026-10-12",
+        "status": "complete public pagination",
+        "note": ""
+      }
+    ],
+    "jobs": [
+      {
+        "name": "OpenPostdoc",
+        "url": "https://www.openpostdoc.org/board",
+        "total_scanned": 3230,
+        "in_scope": 36,
+        "matched": 36,
+        "missing": 0,
+        "checked_on": "2026-10-12",
+        "status": "complete public pagination",
+        "note": "All 33 active and archived pages across all fields were scanned. Only European economics, finance and explicitly related postdoctoral records are included; mechanically focused jobs mislabeled Economics are excluded."
+      },
+      {
+        "name": "Econ Job Market",
+        "url": "https://econjobmarket.org/statuses?page=5",
+        "total_scanned": 288,
+        "in_scope": 44,
+        "matched": 44,
+        "missing": 0,
+        "checked_on": "2026-10-12",
+        "status": "complete public pagination",
+        "note": "All six public status pages and all five public position pages were scanned. Public EJM omits some login-only/free advertisements."
+      }
+    ]
+  }
 }

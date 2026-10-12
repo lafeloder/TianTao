@@ -28,7 +28,11 @@
         "title": "Collateral quality and intervention traps",
         "published": "2023-01-01",
         "author": "Daniel Neuhann"
-      }
+      },
+      "reference_ids": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "eligibility_status": "verified"
     },
     {
       "id": "rr-2",
@@ -57,7 +61,11 @@
         "title": "Collateral quality and intervention traps",
         "published": "2023-01-01",
         "author": "Daniel Neuhann"
-      }
+      },
+      "reference_ids": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "eligibility_status": "verified"
     },
     {
       "id": "rr-3",
@@ -84,7 +92,11 @@
         "title": "Collateral quality and intervention traps",
         "published": "2023-01-01",
         "author": "Daniel Neuhann"
-      }
+      },
+      "reference_ids": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "eligibility_status": "verified"
     },
     {
       "id": "rr-4",
@@ -115,7 +127,11 @@
         "title": "Collateral quality and intervention traps",
         "published": "2023-01-01",
         "author": "Daniel Neuhann"
-      }
+      },
+      "reference_ids": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "eligibility_status": "verified"
     },
     {
       "id": "rr-5",
@@ -145,38 +161,72 @@
         "title": "Broken promises, competition, and capital allocation in the mutual fund industry",
         "published": "2024-12-01",
         "author": "Anton Lines"
-      }
+      },
+      "reference_ids": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "eligibility_status": "verified"
     },
     {
       "id": "rr-6",
-      "title": "Household Leverage and Mental Health Fragility",
+      "title": "Household leverage and mental health fragility",
       "authors": [
-        "Asger Andersen",
+        "Asger Lau Andersen",
         "Rajkamal Iyer",
         "Niels Johannesen",
-        "Mia Jorgensen",
-        "Jose-Luis Peydro"
+        "Mia Jørgensen",
+        "José-Luis Peydró"
       ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
       "journal": "RFS",
+      "journal_name_original": "The Review of Financial Studies",
       "status": "R&R",
-      "evidence_url": "https://nielsjohannesen.net/papers/",
-      "paper_url": "https://nielsjohannesen.net/wp-content/uploads/Household_Debt_and_Mental_Health-03-06-26.pdf",
-      "source_author": "Niels Johannesen",
+      "status_original": "Revise and resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "The Review of Financial Studies",
+      "evidence_url": "https://sites.google.com/site/asgerlauandersen/research",
+      "source_author": "Asger Lau Andersen",
+      "source_updated": "",
+      "source_status_date": null,
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
-      "source_updated": "June 2026",
-      "topics": [
-        "Household finance"
-      ],
-      "evidence_excerpt": "Revise and Resubmit, Review of Financial Studies",
+      "last_attempted": "2026-10-12",
       "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
       "eligibility": {
         "doi": "10.1111/jofi.13262",
         "journal": "JF",
         "title": "Monetary Policy and Inequality",
         "published": "2023-07-27",
-        "author": "Niels Johannesen"
-      }
+        "author": "Asger Lau Andersen",
+        "corpus_author_name": "ASGER LAU ANDERSEN",
+        "doi_url": "https://doi.org/10.1111/jofi.13262",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/asgerlauandersen/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://drive.google.com/file/d/1tW8XT63MBBj6czaGY1I7GRVS_F5_Clg_/view?usp=drive_link",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:585b85605aaceef8"
+      ],
+      "topics": [
+        "Household finance"
+      ],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
     },
     {
       "id": "rr-7",
@@ -207,7 +257,11 @@
         "title": "Filing Agents and Information Leakage",
         "published": "2025-03-14",
         "author": "Tian Qiu"
-      }
+      },
+      "reference_ids": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "eligibility_status": "verified"
     },
     {
       "id": "rr-8",
@@ -238,7 +292,4362 @@
         "title": "The Oligopoly Lucas Tree",
         "published": "2021-11-06",
         "author": "Winston Wei Dou"
-      }
+      },
+      "reference_ids": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "chenyang-001",
+      "title": "Industrial Policy and Capital Misallocation in Exporting",
+      "authors": [
+        "Adrien Matray",
+        "Karsten Müller",
+        "Chenzi Xu",
+        "Poorya Kabir"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "ReStud",
+      "journal_name_original": "NBER WP 32019, R&R Review of Economic Studies",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "NBER WP 32019, R&R Review of Economic Studies",
+      "evidence_url": "https://sites.google.com/view/adrienmatray/workingpapers",
+      "source_author": "Adrien Matray",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Economic Studies",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2024.103854",
+        "journal": "JFE",
+        "title": "Financial inclusion, economic development, and inequality: Evidence from Brazil",
+        "published": "2024-06-01",
+        "author": "Adrien Matray",
+        "corpus_author_name": "Adrien Matray",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2024.103854",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/adrienmatray/workingpapers",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://amatray.github.io/papers/papers/EXIM_MMXK.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:df024879fe996151"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-002",
+      "title": "Making Your Own Rules: Contractual Flexibility and Entrepreneurial Success",
+      "authors": [
+        "Adrien Matray",
+        "Paul Beaumont",
+        "Johan Hombert"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://sites.google.com/view/adrienmatray/workingpapers",
+      "source_author": "Adrien Matray",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2024.103854",
+        "journal": "JFE",
+        "title": "Financial inclusion, economic development, and inequality: Evidence from Brazil",
+        "published": "2024-06-01",
+        "author": "Adrien Matray",
+        "corpus_author_name": "Adrien Matray",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2024.103854",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/adrienmatray/workingpapers",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://amatray.github.io/papers/papers/Contractual_Flexibility.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:e0f62e94d65b959a"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-003",
+      "title": "Human Financial Advice in the Age of Automation",
+      "authors": [
+        "Alberto Rossi",
+        "Fiona Greig",
+        "Tarun Ramadorai",
+        "Stephen Utkus",
+        "Ansgar Walther"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "status_original": "Revise & Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://sites.google.com/site/albertorossifrb/home",
+      "source_author": "Alberto Rossi",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2024.103869",
+        "journal": "JFE",
+        "title": "The diversification and welfare effects of robo-advising",
+        "published": "2024-07-01",
+        "author": "Stephen Utkus",
+        "corpus_author_name": "Stephen Utkus",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2024.103869",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/albertorossifrb/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://drive.google.com/file/d/1yQJ4_pwGpzRgyPL4ZsyM1wW8IZ4KBhsu/view?usp=sharing",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:92316eb8318e6623"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-004",
+      "title": "Improving Household Debt Management with Robo-advice",
+      "authors": [
+        "Alberto Rossi",
+        "Ida Chak",
+        "Karen Croxson",
+        "Francesco D'Acunto",
+        "Jonathan Reuter",
+        "Jonathan Shaw"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "Reject & Resubmit",
+      "status_original": "R eject & Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "Reject & Resubmit",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://sites.google.com/site/albertorossifrb/home",
+      "source_author": "Alberto Rossi",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "Reject & Resubmit, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2024.103858",
+        "journal": "JFE",
+        "title": "Crowdsourcing peer information to change spending behavior",
+        "published": "2024-07-01",
+        "author": "Francesco D'Acunto",
+        "corpus_author_name": "Francesco D’Acunto",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2024.103858",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/albertorossifrb/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "Reject & Resubmit"
+        }
+      ],
+      "paper_url": "https://drive.google.com/open?id=10hjcsQjmJpfjCkDyBZU0DrDynAHgtLoo&authuser=albertogprossi%40gmail.com&usp=drive_fs",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:1ebf3648fb775a61"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-005",
+      "title": "Selecting Mutual Funds from the Stocks they Hold: a Machine Learning Approach",
+      "authors": [
+        "Alberto Rossi",
+        "Bin Li"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "Revise & Res ubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://sites.google.com/site/albertorossifrb/home",
+      "source_author": "Alberto Rossi",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104138",
+        "journal": "JFE",
+        "title": "Machine learning from a “Universe” of signals: The role of feature engineering",
+        "published": "2025-10-01",
+        "author": "Bin Li",
+        "corpus_author_name": "Bin Li",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104138",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/albertorossifrb/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://drive.google.com/file/d/1W05MmDfrAGZSsMHp_ume3X1b8sFz_KGS/view?usp=sharing",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:236b2e950eaa92cc"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-006",
+      "title": "Industry competition, credit spreads, and levered equity returns",
+      "authors": [
+        "Alexandre Corhay"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "Revise & Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://sites.google.com/site/alexandrecorhay/",
+      "source_author": "Alexandre Corhay",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13282",
+        "journal": "JF",
+        "title": "Discount Rates, Debt Maturity, and the Fiscal Theory",
+        "published": "2023-10-13",
+        "author": "Alexandre Corhay",
+        "corpus_author_name": "ALEXANDRE CORHAY",
+        "doi_url": "https://doi.org/10.1111/jofi.13282",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/alexandrecorhay/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://drive.google.com/file/d/1-MSYv6GkTCJ_Uj-nW98YOlMkuGTgOO_7/view?usp=sharing",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:28938c5ea397b710"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-008",
+      "title": "Birth Cohort and the Black-White Achievement Gap: The Role of Access and Health Soon After Birth",
+      "authors": [
+        "Bhashkar Mazumder",
+        "Kenneth Chay",
+        "Jonathan Guryan"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "QJE",
+      "journal_name_original": "Quarterly Journal of Economics",
+      "status": "R&R",
+      "status_original": "Revise and resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Quarterly Journal of Economics",
+      "evidence_url": "https://sites.google.com/view/bhash/home",
+      "source_author": "Bhashkar Mazumder",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Quarterly Journal of Economics",
+      "scope": "extended",
+      "eligibility": null,
+      "eligibility_status": "not_yet_matched",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/bhash/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": [
+        "chenyang:7665101d9dfc853e"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-009",
+      "title": "Water Works: Causes and Consequences of Safe Drinking Water in America",
+      "authors": [
+        "Bhashkar Mazumder",
+        "Dave Keiser",
+        "David Molitor",
+        "Joseph Shapiro"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "QJE",
+      "journal_name_original": "Quarterly Journal of Economics",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Quarterly Journal of Economics",
+      "evidence_url": "https://sites.google.com/view/bhash/home",
+      "source_author": "Bhashkar Mazumder",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Quarterly Journal of Economics",
+      "scope": "extended",
+      "eligibility": null,
+      "eligibility_status": "not_yet_matched",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/bhash/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://www.dropbox.com/scl/fi/d2lu0x8sr822ue0fivrsa/DrinkingWaterPollution_NBERSI.pdf?dl=0&rlkey=pxy6kylmsbetx88sqg3qgfxeq",
+      "reference_ids": [
+        "chenyang:b59d7b6a14e3072e"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-010",
+      "title": "Conflicting Fiduciary Duties and Fire Sales of VC-backed Start-ups",
+      "authors": [
+        "Bo Bian",
+        "Yingxiang Li",
+        "Casimiro A. Nigro"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RF",
+      "journal_name_original": "Review of Finance",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Finance",
+      "evidence_url": "https://www.bo-bian.com/research",
+      "source_author": "Bo Bian",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1017/s0022109024000735",
+        "journal": "JFQA",
+        "title": "Cross-Border Property Rights and the Globalization of Innovation",
+        "published": "2025-07-01",
+        "author": "Bo Bian",
+        "corpus_author_name": "Bo Bian",
+        "doi_url": "https://doi.org/10.1017/s0022109024000735",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.bo-bian.com/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4139724",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:345a8f4786611bf1"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-011",
+      "title": "Data as a Networked Asset",
+      "authors": [
+        "Bo Bian",
+        "Qiushi Huang",
+        "Ye Li",
+        "Huan Tang"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JPE",
+      "journal_name_original": "Journal of Political Economy",
+      "status": "R&R",
+      "status_original": "R evise and Resubmit at Journal of Political Economy",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Political Economy",
+      "evidence_url": "https://www.bo-bian.com/research",
+      "source_author": "Bo Bian",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Political Economy",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1017/s0022109024000735",
+        "journal": "JFQA",
+        "title": "Cross-Border Property Rights and the Globalization of Innovation",
+        "published": "2025-07-01",
+        "author": "Bo Bian",
+        "corpus_author_name": "Bo Bian",
+        "doi_url": "https://doi.org/10.1017/s0022109024000735",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5183829",
+      "eligibility_checked_on": "2026-10-12",
+      "evidence_sources": [
+        {
+          "url": "https://www.bo-bian.com/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": [
+        "chenyang:e10d7694adab8b0a"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-012",
+      "title": "Does Mandating Women on Corporate Boards Backfire?",
+      "authors": [
+        "Bo Bian",
+        "Jingjing Li",
+        "Kai Li"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://www.bo-bian.com/research",
+      "source_author": "Bo Bian",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1017/s0022109024000735",
+        "journal": "JFQA",
+        "title": "Cross-Border Property Rights and the Globalization of Innovation",
+        "published": "2025-07-01",
+        "author": "Bo Bian",
+        "corpus_author_name": "Bo Bian",
+        "doi_url": "https://doi.org/10.1017/s0022109024000735",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.bo-bian.com/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4422726",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:a0b3d7c252a3a7a5"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-013",
+      "title": "The Supply and Demand for Data Privacy: Evidence from Mobile Apps",
+      "authors": [
+        "Bo Bian",
+        "Xinchen Ma",
+        "Huan Tang"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JPE",
+      "journal_name_original": "Journal of Political Economy",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Political Economy",
+      "evidence_url": "https://www.bo-bian.com/research",
+      "source_author": "Bo Bian",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Political Economy",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1017/s0022109024000735",
+        "journal": "JFQA",
+        "title": "Cross-Border Property Rights and the Globalization of Innovation",
+        "published": "2025-07-01",
+        "author": "Bo Bian",
+        "corpus_author_name": "Bo Bian",
+        "doi_url": "https://doi.org/10.1017/s0022109024000735",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.bo-bian.com/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3987541",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:98f300fefaa10188"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-014",
+      "title": "Executive pay, hidden compensation and managerial entrenchment",
+      "authors": [
+        "Camelia M. Kuhnen",
+        "Jeffrey Zwiebel"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0",
+      "source_author": "Camelia M. Kuhnen",
+      "source_updated": "November 2009",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13426",
+        "journal": "JF",
+        "title": "Wealth and Insurance Choices: Evidence from U.S. Households",
+        "published": "2025-01-30",
+        "author": "Camelia M. Kuhnen",
+        "corpus_author_name": "CAMELIA M. KUHNEN",
+        "doi_url": "https://doi.org/10.1111/jofi.13426",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_version_date": "2009-11",
+      "staleness_note": "The author still lists this status, but the displayed paper/status date is old; editorial status is not independently confirmed.",
+      "paper_url": "https://drive.google.com/open?id=1TYD-y_OrRip5ZK035Nb44VxPkUpktb7p",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:deeb8443fce63c17"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-015",
+      "title": "Searching for jobs: Evidence from MBA graduates",
+      "authors": [
+        "Camelia M. Kuhnen"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "MS",
+      "journal_name_original": "Management Science",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Management Science",
+      "evidence_url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0",
+      "source_author": "Camelia M. Kuhnen",
+      "source_updated": "May 2017",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Management Science",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1111/jofi.13426",
+        "journal": "JF",
+        "title": "Wealth and Insurance Choices: Evidence from U.S. Households",
+        "published": "2025-01-30",
+        "author": "Camelia M. Kuhnen",
+        "corpus_author_name": "CAMELIA M. KUHNEN",
+        "doi_url": "https://doi.org/10.1111/jofi.13426",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_version_date": "2017-05",
+      "staleness_note": "The author still lists this status, but the displayed paper/status date is old; editorial status is not independently confirmed.",
+      "paper_url": "https://drive.google.com/open?id=1-nZRZBSzJNmqEKWWzNImiaR6luglr_eF",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:6d1bd0956a303f4a"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-016",
+      "title": "The effect of prior choices on expectations and subsequent portfolio decisions",
+      "authors": [
+        "Camelia M. Kuhnen",
+        "Sarah Rudorf",
+        "Bernd Weber"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0",
+      "source_author": "Camelia M. Kuhnen",
+      "source_updated": "May 2017",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13426",
+        "journal": "JF",
+        "title": "Wealth and Insurance Choices: Evidence from U.S. Households",
+        "published": "2025-01-30",
+        "author": "Camelia M. Kuhnen",
+        "corpus_author_name": "CAMELIA M. KUHNEN",
+        "doi_url": "https://doi.org/10.1111/jofi.13426",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_version_date": "2017-05",
+      "staleness_note": "The author still lists this status, but the displayed paper/status date is old; editorial status is not independently confirmed.",
+      "paper_url": "https://drive.google.com/open?id=1Qd4QXwf9PbtZ9Avj9VYO8xkneD_c8VpU",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:06c0c1dfadad012d"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-017",
+      "title": "Leasing as a Risk-Sharing Mechanism",
+      "authors": [
+        "Chi-Yang Tsou",
+        "Kai Li",
+        "Chenjie Xu"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://sites.google.com/view/chiyangtsou/home",
+      "source_author": "Chi-Yang Tsou",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13217",
+        "journal": "JF",
+        "title": "The Pollution Premium",
+        "published": "2023-04-10",
+        "author": "Chi-Yang Tsou",
+        "corpus_author_name": "CHI‐YANG TSOU",
+        "doi_url": "https://doi.org/10.1111/jofi.13217",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/chiyangtsou/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3416247",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:197c007c87701374"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-018",
+      "title": "Imagine your Life at 25: Gender Conformity and Later-Life Outcomes",
+      "authors": [
+        "Cormac O'Dea",
+        "Sreevidya Ayyar",
+        "Uta Bolt",
+        "Eric French"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JPE Micro",
+      "journal_name_original": "Journal of Political Economy: Microeconomics",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Political Economy: Microeconomics",
+      "evidence_url": "https://www.cormacodea.com/research.html",
+      "source_author": "Cormac O'Dea",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Political Economy: Microeconomics",
+      "scope": "extended",
+      "eligibility": null,
+      "eligibility_status": "not_yet_matched",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.cormacodea.com/research.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": [
+        "chenyang:5171eec8fe97509a"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-019",
+      "title": "Improving 401(k) Matches Using Hypothetical Choices",
+      "authors": [
+        "Cormac O'Dea",
+        "Guillermo Carranza",
+        "Taha Choukhmane",
+        "Fiona Greig",
+        "Lawrence Schmidt"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "QJE",
+      "journal_name_original": "Quarterly Journal of Economics",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Quarterly Journal of Economics",
+      "evidence_url": "https://www.cormacodea.com/research.html",
+      "source_author": "Cormac O'Dea",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Quarterly Journal of Economics",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1111/jofi.70013",
+        "journal": "JF",
+        "title": "What Drives Investors' Portfolio Choices? Separating Risk Preferences from Frictions",
+        "published": "2025-12-17",
+        "author": "Taha Choukhmane",
+        "corpus_author_name": "TAHA CHOUKHMANE",
+        "doi_url": "https://doi.org/10.1111/jofi.70013",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.cormacodea.com/research.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:35d29af14f4306d9"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-020",
+      "title": "Intergenerational Altruism and Transfers of Time and Money: A Life Cycle Perspective",
+      "authors": [
+        "Cormac O'Dea",
+        "Uta Bolt",
+        "Eric French",
+        "Jamie Hentall Maccuish"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "ReStud",
+      "journal_name_original": "Review of Economic Studies",
+      "status": "R&R",
+      "status_original": "Revise & Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Economic Studies",
+      "evidence_url": "https://www.cormacodea.com/research.html",
+      "source_author": "Cormac O'Dea",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Economic Studies",
+      "scope": "extended",
+      "eligibility": null,
+      "eligibility_status": "not_yet_matched",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.cormacodea.com/research.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": [
+        "chenyang:60f597b445be398f"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-021",
+      "title": "Artificial Intelligence and the Labor Market",
+      "authors": [
+        "Dimitris Papanikolaou",
+        "Menaka Hampole",
+        "Lawrence Schmidt",
+        "Bryan Seegmiller"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "QJE",
+      "journal_name_original": "Quarterly Journal of Economics",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Quarterly Journal of Economics",
+      "evidence_url": "https://dimitris-papanikolaou.github.io/website/wp.html",
+      "source_author": "Dimitris Papanikolaou",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Quarterly Journal of Economics",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1111/jofi.13229",
+        "journal": "JF",
+        "title": "Pockets of Predictability",
+        "published": "2023-05-09",
+        "author": "Lawrence Schmidt",
+        "corpus_author_name": "LAWRENCE SCHMIDT",
+        "doi_url": "https://doi.org/10.1111/jofi.13229",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://dimitris-papanikolaou.github.io/website/wp.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:0350fd28ede6432b"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-022",
+      "title": "Evaluation and Learning in R&D Investment",
+      "authors": [
+        "Alexander P. Frankel",
+        "Joshua L. Krieger",
+        "Danielle Li",
+        "Dimitris Papanikolaou"
+      ],
+      "authors_note": "Full names corroborated by a primary author, institution, NBER, or SSRN record.",
+      "journal": "MS",
+      "journal_name_original": "Management Science",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Management Science",
+      "evidence_url": "https://dimitris-papanikolaou.github.io/website/wp.html",
+      "source_author": "Dimitris Papanikolaou",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Management Science",
+      "scope": "extended",
+      "eligibility": null,
+      "eligibility_status": "not_yet_matched",
+      "baseline_record": true,
+      "author_metadata_url": "https://www.nber.org/papers/w31290",
+      "evidence_sources": [
+        {
+          "url": "https://dimitris-papanikolaou.github.io/website/wp.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": [
+        "chenyang:5a191383aa0bc5fe"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-023",
+      "title": "Inflation and Innovation",
+      "authors": [
+        "Dimitris Papanikolaou",
+        "Qiushi Huang",
+        "Leonid Kogan"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://dimitris-papanikolaou.github.io/website/wp.html",
+      "source_author": "Dimitris Papanikolaou",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "",
+      "last_attempted": "2026-10-12",
+      "verification": "Reference-listed R&R; current primary decision unconfirmed",
+      "verification_status": "reference_only",
+      "evidence_excerpt": "Reference tracker lists R&R at Review of Financial Studies; current primary status unconfirmed.",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13275",
+        "journal": "JF",
+        "title": "Operating Hedge and Gross Profitability Premium",
+        "published": "2023-09-27",
+        "author": "Leonid Kogan",
+        "corpus_author_name": "LEONID KOGAN",
+        "doi_url": "https://doi.org/10.1111/jofi.13275",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "verification_note": "The current listed author page no longer contains this title. A coauthor MIT page, author-hosted paper, and SSRN confirm the title and authors, but no current primary R&R statement was found.",
+      "evidence_sources": [
+        {
+          "url": "https://chenyangfinance.github.io/paper-status/",
+          "type": "reference tracker",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        },
+        {
+          "url": "https://www.mit.edu/~lkogan2/research.htm",
+          "type": "coauthor homepage",
+          "checked_on": "2026-10-12",
+          "metadata_only": true
+        },
+        {
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5026987",
+          "type": "SSRN author metadata",
+          "checked_on": "2026-10-12",
+          "metadata_only": true
+        }
+      ],
+      "paper_url": "https://dimitris-papanikolaou.github.io/website/assets/papers/InflationRiskSharing.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:f2d78f263a464c7d"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-024",
+      "title": "Measuring Creative Destruction",
+      "authors": [
+        "Dimitris Papanikolaou",
+        "Ali Kakhbod",
+        "Leonid Kogan",
+        "Peiyao Li"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://dimitris-papanikolaou.github.io/website/wp.html",
+      "source_author": "Dimitris Papanikolaou",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2024.103914",
+        "journal": "JFE",
+        "title": "The credit supply channel of monetary policy tightening and its distributional impacts",
+        "published": "2024-10-01",
+        "author": "Ali Kakhbod",
+        "corpus_author_name": "Ali Kakhbod",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2024.103914",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://dimitris-papanikolaou.github.io/website/wp.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:372456ad274a5303"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-025",
+      "title": "Technology and Labor Displacement: Evidence from Linking Patents with Worker-Level Data",
+      "authors": [
+        "Dimitris Papanikolaou",
+        "Leonid Kogan",
+        "Lawrence Schmidt",
+        "Bryan Seegmiller"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "ReStud",
+      "journal_name_original": "Review of Economic Studies",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Economic Studies",
+      "evidence_url": "https://dimitris-papanikolaou.github.io/website/wp.html",
+      "source_author": "Dimitris Papanikolaou",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Economic Studies",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1111/jofi.13275",
+        "journal": "JF",
+        "title": "Operating Hedge and Gross Profitability Premium",
+        "published": "2023-09-27",
+        "author": "Leonid Kogan",
+        "corpus_author_name": "LEONID KOGAN",
+        "doi_url": "https://doi.org/10.1111/jofi.13275",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://dimitris-papanikolaou.github.io/website/wp.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:2223a98bce57c241"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-026",
+      "title": "Information Frictions and Firm Take up of Government Support: A Randomised Controlled Experiment",
+      "authors": [
+        "Diogo Mendes",
+        "Cláudia Custódio",
+        "Christopher Hansman"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RF",
+      "journal_name_original": "Review of Finance",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Finance",
+      "evidence_url": "https://sites.google.com/view/diogo-mendes/research",
+      "source_author": "Diogo Mendes",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13476",
+        "journal": "JF",
+        "title": "The Impact of the Financial Education of Executives on the Financial Practices of Medium and Large Enterprises",
+        "published": "2025-08-18",
+        "author": "Diogo Mendes",
+        "corpus_author_name": "DIOGO MENDES",
+        "doi_url": "https://doi.org/10.1111/jofi.13476",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/diogo-mendes/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3857851",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:760727cdbfa75590"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-027",
+      "title": "Dynamic Competition with Bargaining: Implications for Subsidy and Competition Policies",
+      "authors": [
+        "Dun Calvin Jia",
+        "Andrew Sweeting",
+        "Shanglyu Deng",
+        "Mario Leccese"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JPE Micro",
+      "journal_name_original": "Journal of Political Economy: Microeconomics",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Political Economy: Microeconomics",
+      "evidence_url": "https://jiadun.weebly.com/store/c1/Featured_Products.html",
+      "source_author": "Dun Calvin Jia",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Political Economy: Microeconomics",
+      "scope": "extended",
+      "eligibility": null,
+      "eligibility_status": "not_yet_matched",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://jiadun.weebly.com/store/c1/Featured_Products.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": [
+        "chenyang:0e84f7d046a3d3d3"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-028",
+      "title": "Lobbying Congress versus Agencies",
+      "authors": [
+        "Ekaterina Volkova",
+        "Michelle Lowry"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "The Journal of Finance",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "The Journal of Finance",
+      "evidence_url": "https://www.evolkova.info/",
+      "source_author": "Ekaterina Volkova",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13423",
+        "journal": "JF",
+        "title": "Regulatory Fragmentation",
+        "published": "2025-01-30",
+        "author": "Ekaterina Volkova",
+        "corpus_author_name": "EKATERINA VOLKOVA",
+        "doi_url": "https://doi.org/10.1111/jofi.13423",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.evolkova.info/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://www.evolkova.info/research/lobby/index.html",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:46e500086547d18b"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-029",
+      "title": "The Real Effects of Corporate Restructuring",
+      "authors": [
+        "Elena Simintzi"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "MS",
+      "journal_name_original": "Management Science",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Management Science",
+      "evidence_url": "https://sites.google.com/site/elenasimintzi/home",
+      "source_author": "Elena Simintzi",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Management Science",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1111/jofi.13136",
+        "journal": "JF",
+        "title": "Do Firms Respond to Gender Pay Gap Transparency?",
+        "published": "2022-06-03",
+        "author": "Elena Simintzi",
+        "corpus_author_name": "ELENA SIMINTZI",
+        "doi_url": "https://doi.org/10.1111/jofi.13136",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/elenasimintzi/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2740745",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:bf73b186dd54a543"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-030",
+      "title": "Women in the Financial Sector",
+      "authors": [
+        "Spyridon Lagaras",
+        "Maria-Teresa Marchica",
+        "Elena Simintzi",
+        "Margarita Tsoutsoura"
+      ],
+      "authors_note": "Full names corroborated by a primary author, institution, NBER, or SSRN record.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "status_original": "Revise & Resubmit Journal of Finance",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://tsoutsoura.com/research.html",
+      "source_author": "Margarita Tsoutsoura",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage via indexed public page and coauthor homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13083",
+        "journal": "JF",
+        "title": "Partisan Professionals: Evidence from Credit Rating Analysts",
+        "published": "2021-10-21",
+        "author": "Margarita Tsoutsoura",
+        "corpus_author_name": "MARGARITA TSOUTSOURA",
+        "doi_url": "https://doi.org/10.1111/jofi.13083",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "author_metadata_url": "https://tsoutsoura.com/research.html",
+      "evidence_sources": [
+        {
+          "url": "https://tsoutsoura.com/research.html",
+          "type": "author homepage indexed public page",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        },
+        {
+          "url": "https://sites.google.com/site/elenasimintzi/home",
+          "type": "coauthor homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "verification_note": "Direct fetch returned only a page heading; the public indexed author page and a coauthor homepage confirm the status.",
+      "paper_url": "https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=4098229",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:0d05e41fa4a61593",
+        "chenyang:6f1e27f9ac67e641"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-031",
+      "title": "Subjective earnings and employment dynamics",
+      "authors": [
+        "Gonzalo Paz-Pardo",
+        "Manuel Arellano",
+        "Orazio Attanasio",
+        "Margherita Borella",
+        "Mariacristina De Nardi"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "ECTA",
+      "journal_name_original": "Econometrica",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Econometrica",
+      "evidence_url": "https://sites.google.com/site/gonzalopazpardo/",
+      "source_author": "Gonzalo Paz-Pardo",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Econometrica",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104206",
+        "journal": "JFE",
+        "title": "Richer earnings dynamics, consumption and portfolio choice over the life cycle",
+        "published": "2026-02-01",
+        "author": "Gonzalo Paz-Pardo",
+        "corpus_author_name": "Gonzalo Paz-Pardo",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104206",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/gonzalopazpardo/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://gonzalopazpardo.github.io/jm/AABDP_Subjective_Expectations.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:2bcb4871d1a198b6"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-032",
+      "title": "The life-cycle dynamics of wealth mobility",
+      "authors": [
+        "Gonzalo Paz-Pardo",
+        "Richard Audoly",
+        "Rory McGee",
+        "Sergio Ocampo Díaz"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "Journal of Public Economics",
+      "journal_name_original": "Journal of Public Economics",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Public Economics",
+      "evidence_url": "https://sites.google.com/site/gonzalopazpardo/",
+      "source_author": "Gonzalo Paz-Pardo",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Public Economics",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104206",
+        "journal": "JFE",
+        "title": "Richer earnings dynamics, consumption and portfolio choice over the life cycle",
+        "published": "2026-02-01",
+        "author": "Gonzalo Paz-Pardo",
+        "corpus_author_name": "Gonzalo Paz-Pardo",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104206",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/gonzalopazpardo/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://gonzalopazpardo.github.io/jm/Wealth_Dynamics_Norway_2025.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:6faedc9a1c8e89d8"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-033",
+      "title": "Kyle Meets Friedman: Informed Trading When Anticipating Future Information",
+      "authors": [
+        "Hongjun Yan",
+        "Liyan Yang",
+        "Xueyong Zhang",
+        "Deqing Zhou"
+      ],
+      "authors_note": "Full names corroborated by a primary author, institution, NBER, or SSRN record.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://sites.google.com/site/hongjunyanhomepage",
+      "source_author": "Hongjun Yan",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2023.103776",
+        "journal": "JFE",
+        "title": "Personality differences and investment decision-making",
+        "published": "2024-03-01",
+        "author": "Hongjun Yan",
+        "corpus_author_name": "Hongjun Yan",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2023.103776",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "author_metadata_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5042739",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/hongjunyanhomepage",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4737312",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:02b955e10225603e"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-034",
+      "title": "The Road to Negative Futures Prices Is Paved with Financialization",
+      "authors": [
+        "Yiqing Ge",
+        "Wenjin Kang",
+        "Ke Tang",
+        "Hongjun Yan",
+        "Liyan Yang"
+      ],
+      "authors_note": "Full names corroborated by a primary author, institution, NBER, or SSRN record.",
+      "journal": "MS",
+      "journal_name_original": "Management Science",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Management Science",
+      "evidence_url": "https://sites.google.com/site/hongjunyanhomepage",
+      "source_author": "Hongjun Yan",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Management Science",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2023.103776",
+        "journal": "JFE",
+        "title": "Personality differences and investment decision-making",
+        "published": "2024-03-01",
+        "author": "Hongjun Yan",
+        "corpus_author_name": "Hongjun Yan",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2023.103776",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "author_metadata_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4080137",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/hongjunyanhomepage",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4080137",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:6da5b847e2364def"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-035",
+      "title": "Market Power, Technology Shocks, and the Profitability Premium",
+      "authors": [
+        "Jincheng Tong",
+        "Yao Deng",
+        "Ding Luo"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JFE",
+      "journal_name_original": "Journal of Financial Economics",
+      "status": "R&R",
+      "status_original": "Revise & Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Financial Economics",
+      "evidence_url": "https://www.jincheng-tong.com/research.html",
+      "source_author": "Jincheng Tong",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Financial Economics",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2024.103945",
+        "journal": "JFE",
+        "title": "Estimating and testing investment-based asset pricing models",
+        "published": "2024-12-01",
+        "author": "Yao Deng",
+        "corpus_author_name": "Yao Deng",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2024.103945",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.jincheng-tong.com/research.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4714159",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:9478aff371760ce7"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-036",
+      "title": "Decomposed Games, focal points, and the framing of collective and individual interests",
+      "authors": [
+        "Stefan P. Penczynski",
+        "Stefania Sitzia",
+        "Jiwei Zheng"
+      ],
+      "authors_note": "Full names corroborated by a primary author, institution, NBER, or SSRN record.",
+      "journal": "Experimental Economics",
+      "journal_name_original": "Experimental Economics",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Experimental Economics",
+      "evidence_url": "https://jwzheng.wixsite.com/jiweizheng",
+      "source_author": "Jiwei Zheng",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Experimental Economics",
+      "scope": "extended",
+      "eligibility": null,
+      "eligibility_status": "not_yet_matched",
+      "baseline_record": true,
+      "author_metadata_url": "https://research-portal.uea.ac.uk/en/publications/decomposed-games-focal-points-and-the-framing-of-collective-and-i/",
+      "evidence_sources": [
+        {
+          "url": "https://jwzheng.wixsite.com/jiweizheng",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": [
+        "chenyang:ef213933e13c30e1"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-037",
+      "title": "Are Mutual Fund Managers Paid for Performance? Evidence from U.S. Administrative Earnings Data",
+      "authors": [
+        "John Bai",
+        "Linlin Ma",
+        "Kevin Mullally",
+        "Yuehua Tang"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JFE",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "source_author": "John Bai",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Financial Economics",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.001",
+        "journal": "JFE",
+        "title": "What do outside CEOs really do? Evidence from plant-level data",
+        "published": "2023-01-01",
+        "author": "John Bai",
+        "corpus_author_name": "John (Jianqiu) Bai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2022.10.001",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4658990",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:d705c1f8c4cd8546"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-038",
+      "title": "Beyond Profit: Unraveling the Social Face of State-Owned Enterprises in Labor Events",
+      "authors": [
+        "John Bai",
+        "Liu Yang",
+        "Donghua Zhou"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "MS",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "source_author": "John Bai",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "Minor R&R, Management Science",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.001",
+        "journal": "JFE",
+        "title": "What do outside CEOs really do? Evidence from plant-level data",
+        "published": "2023-01-01",
+        "author": "John Bai",
+        "corpus_author_name": "John (Jianqiu) Bai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2022.10.001",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "status_detail": "Minor R&R",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:79bfb6bc2fdf921e"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-039",
+      "title": "Cloud Adoption and Firm Performance: Evidence from Labor Demand",
+      "authors": [
+        "John Bai",
+        "Wang Jin"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "MS",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "R &R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "source_author": "John Bai",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Management Science",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.001",
+        "journal": "JFE",
+        "title": "What do outside CEOs really do? Evidence from plant-level data",
+        "published": "2023-01-01",
+        "author": "John Bai",
+        "corpus_author_name": "John (Jianqiu) Bai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2022.10.001",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4082436",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:75527fbcccebc741"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-040",
+      "title": "Creativity without Walls: the Case of Open Innovation",
+      "authors": [
+        "John Bai",
+        "Rui Dai",
+        "Anahit Mkrtchyan",
+        "Chi Wan"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JFQA",
+      "journal_name_original": "",
+      "status": "Reject & Resubmit",
+      "status_original": "Reject and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "Reject & Resubmit",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "source_author": "John Bai",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "Reject & Resubmit, Journal of Financial and Quantitative Analysis",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.001",
+        "journal": "JFE",
+        "title": "What do outside CEOs really do? Evidence from plant-level data",
+        "published": "2023-01-01",
+        "author": "John Bai",
+        "corpus_author_name": "John (Jianqiu) Bai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2022.10.001",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "Reject & Resubmit"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5150413",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:dcd8151ce7cf9385"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-041",
+      "title": "Deciphering the Intentional Obfuscation: Machine Learning Decomposition of Financial Reporting Readability",
+      "authors": [
+        "John Bai",
+        "Yi Cao",
+        "Feng Li",
+        "Uchenna Onuoha",
+        "Chi Wan"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "The Accounting Review",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "source_author": "John Bai",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, The Accounting Review",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.001",
+        "journal": "JFE",
+        "title": "What do outside CEOs really do? Evidence from plant-level data",
+        "published": "2023-01-01",
+        "author": "John Bai",
+        "corpus_author_name": "John (Jianqiu) Bai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2022.10.001",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:1013961c15f1a6fe"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-042",
+      "title": "Executives vs. Chatbots: Unmasking Insights through Human-AI Differences in Earnings Conference Q&A",
+      "authors": [
+        "John Bai",
+        "Nicole Boyson",
+        "Yi Cao",
+        "Miao Liu",
+        "Chi Wan"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "MS",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "source_author": "John Bai",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Management Science",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.001",
+        "journal": "JFE",
+        "title": "What do outside CEOs really do? Evidence from plant-level data",
+        "published": "2023-01-01",
+        "author": "John Bai",
+        "corpus_author_name": "John (Jianqiu) Bai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2022.10.001",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4480056",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:9d766bc970fc69ba"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-043",
+      "title": "Racial Diversity and Financial Advisor Misconduct",
+      "authors": [
+        "John Bai",
+        "Douglas Cumming",
+        "Lei Jin",
+        "Chi Wan",
+        "Alptug Yorulmaz"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "Journal of Business Ethics",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "source_author": "John Bai",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Business Ethics",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.001",
+        "journal": "JFE",
+        "title": "What do outside CEOs really do? Evidence from plant-level data",
+        "published": "2023-01-01",
+        "author": "John Bai",
+        "corpus_author_name": "John (Jianqiu) Bai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2022.10.001",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:6c41f30f4bb30fee"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-044",
+      "title": "The Price of a News Desert: Local Newspaper Closure and Financial Service Quality",
+      "authors": [
+        "John Bai",
+        "Poojan Patel",
+        "Chi Wan",
+        "Donghua Zhou"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "Contemporary Accounting Review",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "source_author": "John Bai",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Contemporary Accounting Review",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.001",
+        "journal": "JFE",
+        "title": "What do outside CEOs really do? Evidence from plant-level data",
+        "published": "2023-01-01",
+        "author": "John Bai",
+        "corpus_author_name": "John (Jianqiu) Bai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2022.10.001",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:27e7e2f536d4c679"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-045",
+      "title": "Weathering the Storm: How Remote Work Protects Firm Performance during Natural Disasters",
+      "authors": [
+        "John Bai",
+        "Erik Brynjolfsson",
+        "Wang Jin",
+        "Sebastian Steffen",
+        "Chi Wan"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "MIS Quarterly",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "source_author": "John Bai",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, MIS Quarterly",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.001",
+        "journal": "JFE",
+        "title": "What do outside CEOs really do? Evidence from plant-level data",
+        "published": "2023-01-01",
+        "author": "John Bai",
+        "corpus_author_name": "John (Jianqiu) Bai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2022.10.001",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3616893",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:d6dd83bfedd303d7"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-046",
+      "title": "Peer Pressure and Manager Pressure in Organisations",
+      "authors": [
+        "Jordi Blanes i Vidal",
+        "Diego Battiston",
+        "Tom Kirchmaier",
+        "Katalin Szemeredi"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JEEA",
+      "journal_name_original": "Journal of the European Economic Association",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of the European Economic Association",
+      "evidence_url": "https://sites.google.com/site/jordiblanesvidal/research",
+      "source_author": "Jordi Blanes i Vidal",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of the European Economic Association",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1111/jofi.70041",
+        "journal": "JF",
+        "title": "The Effect of Advisors' Incentives on Clients' Investments",
+        "published": "2026-04-27",
+        "author": "Jordi Blanes i Vidal",
+        "corpus_author_name": "JORDI BLANES I VIDAL",
+        "doi_url": "https://doi.org/10.1111/jofi.70041",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/jordiblanesvidal/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://drive.google.com/file/d/1IGg5cctEZj0d1wlcK0xZWI-I_LmdiZal/view?usp=drive_link",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:ced810cf48e32351"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-047",
+      "title": "Capital Gains Tax Relief and Entrepreneurship: Evidence from the QSBS Exemption",
+      "authors": [
+        "Jun Chen",
+        "Joan Farre-Mensa"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://www.junchenphd.com/",
+      "source_author": "Jun Chen",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13451",
+        "journal": "JF",
+        "title": "Venture Capital and Startup Agglomeration",
+        "published": "2025-04-01",
+        "author": "Jun Chen",
+        "corpus_author_name": "JUN CHEN",
+        "doi_url": "https://doi.org/10.1111/jofi.13451",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.junchenphd.com/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4482626",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:17eba3abe0557db2"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-048",
+      "title": "Equilibrium Value and Profitability Premiums",
+      "authors": [
+        "Jun E. Li",
+        "Hengjie Ai",
+        "Jincheng Tong"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://junliweb.weebly.com/research.html",
+      "source_author": "Jun E. Li",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2021.07.002",
+        "journal": "JFE",
+        "title": "The cross section of the monetary policy announcement premium",
+        "published": "2022-01-01",
+        "author": "Hengjie Ai",
+        "corpus_author_name": "Hengjie Ai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2021.07.002",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://junliweb.weebly.com/research.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://junliweb.weebly.com/uploads/1/0/9/5/109525229/alt_2022_value_profty.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:acb018de2175e384"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-049",
+      "title": "Capital Flows in the Financial System and Supply of Credit",
+      "authors": [
+        "Lin Shen"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://sites.google.com/view/linshen",
+      "source_author": "Lin Shen",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13295",
+        "journal": "JF",
+        "title": "Intervention with Screening in Panic‐Based Runs",
+        "published": "2023-11-22",
+        "author": "Lin Shen",
+        "corpus_author_name": "LIN SHEN",
+        "doi_url": "https://doi.org/10.1111/jofi.13295",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/linshen",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3847983",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:2901a9fae3e4ef47"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-050",
+      "title": "The Corporate Supply of (Quasi) Safe Assets",
+      "authors": [
+        "Lira Mota"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "The Journal of Finance",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "The Journal of Finance",
+      "evidence_url": "https://sites.google.com/view/liramota/research",
+      "source_author": "Lira Mota",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1093/rfs/hhae030",
+        "journal": "RFS",
+        "title": "The Savings of Corporate Giants",
+        "published": "2024-07-02",
+        "author": "Lira Mota",
+        "corpus_author_name": "Lira Mota",
+        "doi_url": "https://doi.org/10.1093/rfs/hhae030",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/liramota/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3732444",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:58c6247e4d9db6f6"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-052",
+      "title": "A Temporary VAT Cut as Unconventional Fiscal Policy",
+      "authors": [
+        "Michael Weber",
+        "Rüdiger Bachmann",
+        "Benjamin Born",
+        "Olga Goldfayn-Frank",
+        "Georgi Kocharkov",
+        "Ralph Luetticke"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "ReStud",
+      "journal_name_original": "Review of Economic Studies",
+      "status": "R&R",
+      "status_original": "Revise and resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Economic Studies",
+      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "source_author": "Michael Weber",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Economic Studies",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104166",
+        "journal": "JFE",
+        "title": "Inflation and Trading",
+        "published": "2025-11-01",
+        "author": "Michael Weber",
+        "corpus_author_name": "Michael Weber",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104166",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://faculty.chicagobooth.edu/michael-weber/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/bbgklw_unconventional_fiscal_policy_oct2021.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:ee6356d4058ec0de"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-053",
+      "title": "Beliefs and Portfolios: Causal Evidence",
+      "authors": [
+        "Michael Weber",
+        "Johannes Beutel"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "Revise and resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "source_author": "Michael Weber",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104166",
+        "journal": "JFE",
+        "title": "Inflation and Trading",
+        "published": "2025-11-01",
+        "author": "Michael Weber",
+        "corpus_author_name": "Michael Weber",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104166",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://faculty.chicagobooth.edu/michael-weber/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/beutelandweber20211022beliefsandportfolioscausalevidence.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:486da419ea3bcd56"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-054",
+      "title": "Greater Than The Sum of Its Parts: Aggregate vs. Aggregated Inflation Expectations",
+      "authors": [
+        "Michael Weber",
+        "Alexander M. Dietrich",
+        "Edward S. Knotek II",
+        "Kristian Ove R. Myrseth",
+        "Robert W. Rich",
+        "Raphael S. Schoenle"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "AEJ: Macroeconomics",
+      "journal_name_original": "AEJ: Macroeconomics",
+      "status": "R&R",
+      "status_original": "Revise and resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "AEJ: Macroeconomics",
+      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "source_author": "Michael Weber",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, AEJ: Macroeconomics",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104166",
+        "journal": "JFE",
+        "title": "Inflation and Trading",
+        "published": "2025-11-01",
+        "author": "Michael Weber",
+        "corpus_author_name": "Michael Weber",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104166",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://faculty.chicagobooth.edu/michael-weber/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/greater-than-the-sum-of-its-parts.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:630fc8cf089df9b2"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-055",
+      "title": "Monetary Policy through Production Networks: Evidence from the Stock Market",
+      "authors": [
+        "Michael Weber",
+        "Ali Ozdagli"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "Revise and resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "source_author": "Michael Weber",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104166",
+        "journal": "JFE",
+        "title": "Inflation and Trading",
+        "published": "2025-11-01",
+        "author": "Michael Weber",
+        "corpus_author_name": "Michael Weber",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104166",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://faculty.chicagobooth.edu/michael-weber/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/networks.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:03dd13871dc601c0"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-056",
+      "title": "Nominal Rigidities and Asset Pricing",
+      "authors": [
+        "Michael Weber"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JPE",
+      "journal_name_original": "Journal of Political Economy",
+      "status": "R&R",
+      "status_original": "Revise and resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Political Economy",
+      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "source_author": "Michael Weber",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Political Economy",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104166",
+        "journal": "JFE",
+        "title": "Inflation and Trading",
+        "published": "2025-11-01",
+        "author": "Michael Weber",
+        "corpus_author_name": "Michael Weber",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104166",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://faculty.chicagobooth.edu/michael-weber/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/nominalrigidities.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:2e7f35dd2c83805d"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-057",
+      "title": "Price Rigidities and Credit Risk",
+      "authors": [
+        "Michael Weber",
+        "Patrick Augustin",
+        "Linxiao Francis Cong",
+        "Alexandre Corhay"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JFQA",
+      "journal_name_original": "Journal of Finances and Quantitative Analysis",
+      "status": "R&R",
+      "status_original": "Revise and resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finances and Quantitative Analysis",
+      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "source_author": "Michael Weber",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Financial and Quantitative Analysis",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104166",
+        "journal": "JFE",
+        "title": "Inflation and Trading",
+        "published": "2025-11-01",
+        "author": "Michael Weber",
+        "corpus_author_name": "Michael Weber",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104166",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://faculty.chicagobooth.edu/michael-weber/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/credit-risk.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:876c02c5a4716110"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-058",
+      "title": "Distrust and Political Turnover",
+      "authors": [
+        "Nancy Qian",
+        "Nathan Nunn",
+        "Jaya Wen"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "The Economic Journal",
+      "journal_name_original": "The Economic Journal",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "The Economic Journal",
+      "evidence_url": "https://nancyqian.org/research-cv",
+      "source_author": "Nancy Qian",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, The Economic Journal",
+      "scope": "extended",
+      "eligibility": null,
+      "eligibility_status": "not_yet_matched",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://nancyqian.org/research-cv",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://storage.googleapis.com/production-sitebuilder-v1-0-1/741/319741/PkwWoHa4/55530cd915814375aedf8cc1d382afaa?fileName=trust_leader_2023.7.27 EJ submission.pdf",
+      "reference_ids": [
+        "chenyang:92bf8e9a760133e8"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-059",
+      "title": "Making Democracy Work: Culture, Social Capital and Elections in China",
+      "authors": [
+        "Nancy Qian",
+        "Monica Martinez-Bravo",
+        "Gerard Padro-i-Miquel",
+        "Yiqing Xu",
+        "Yang Yao"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "The Journal of European Economic Review",
+      "journal_name_original": "The Journal of European Economic Review",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "The Journal of European Economic Review",
+      "evidence_url": "https://nancyqian.org/research-cv",
+      "source_author": "Nancy Qian",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, The Journal of European Economic Review",
+      "scope": "extended",
+      "eligibility": null,
+      "eligibility_status": "not_yet_matched",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://nancyqian.org/research-cv",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": [
+        "chenyang:f71cade717d67d94"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-060",
+      "title": "Best Short",
+      "authors": [
+        "Pasquale Della Corte",
+        "R. Kosowski",
+        "N. Rapanos"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RF",
+      "journal_name_original": "Review of Finance",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Finance",
+      "evidence_url": "https://sites.google.com/view/pasqualedellacorte/research/working-papers?authuser=0",
+      "source_author": "Pasquale Della Corte",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2023.06.002",
+        "journal": "JFE",
+        "title": "A credit-based theory of the currency risk premium",
+        "published": "2023-09-01",
+        "author": "Pasquale Della Corte",
+        "corpus_author_name": "Pasquale Della Corte",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2023.06.002",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/pasqualedellacorte/research/working-papers?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3436433",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:5bbd13182ff551a4"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-061",
+      "title": "Can financial education reduce domestic violence?",
+      "authors": [
+        "Phong T. H. Ngo",
+        "Diego Puente"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JFQA",
+      "journal_name_original": "Journal of Financial and Quantitative Analysis",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Financial and Quantitative Analysis",
+      "evidence_url": "https://sites.google.com/site/phongthngo/research",
+      "source_author": "Phong T. H. Ngo",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Financial and Quantitative Analysis",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1017/s0022109022000126",
+        "journal": "JFQA",
+        "title": "De Facto Bank Bailouts",
+        "published": "2022-03-04",
+        "author": "Phong T. H. Ngo",
+        "corpus_author_name": "Phong T. H. Ngo",
+        "doi_url": "https://doi.org/10.1017/s0022109022000126",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/phongthngo/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809469",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:960420a28fa5db86"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-062",
+      "title": "Effects of Cryptocurrency Wealth on Household Consumption and Investment",
+      "authors": [
+        "Scott R. Baker",
+        "Darren Aiello",
+        "Tetyana Balyuk",
+        "Marco Di Maggio",
+        "Mark Johnson",
+        "Jason Kotter"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "status_original": "Revise & Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://sites.google.com/site/srbaker/academic-work",
+      "source_author": "Scott R. Baker",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2023.103758",
+        "journal": "JFE",
+        "title": "Financial returns to household inventory management",
+        "published": "2024-01-01",
+        "author": "Scott R. Baker",
+        "corpus_author_name": "Scott R. Baker",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2023.103758",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/srbaker/academic-work",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4455756",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:91117a146a05f247"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-063",
+      "title": "What Triggers Stock Market Jumps?",
+      "authors": [
+        "Scott R. Baker",
+        "Nicholas Bloom",
+        "Steven J. Davis",
+        "Marco C. Sammon"
+      ],
+      "authors_note": "Full names corroborated by a primary author, institution, NBER, or SSRN record.",
+      "journal": "Journal of Monetary Economics",
+      "journal_name_original": "Journal of Monetary Economics",
+      "status": "R&R",
+      "status_original": "Revise & Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Monetary Economics",
+      "evidence_url": "https://sites.google.com/site/srbaker/academic-work",
+      "source_author": "Scott R. Baker",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Monetary Economics",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2023.103758",
+        "journal": "JFE",
+        "title": "Financial returns to household inventory management",
+        "published": "2024-01-01",
+        "author": "Scott R. Baker",
+        "corpus_author_name": "Scott R. Baker",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2023.103758",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "author_metadata_url": "https://www.nber.org/papers/w28687",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/srbaker/academic-work",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://www.nber.org/papers/w28687",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:694c5d15064e2b18"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-064",
+      "title": "Applications or Approvals: What Drives Racial Disparities in the Paycheck Protection Program?",
+      "authors": [
+        "Sergey Chernenko",
+        "Nathan Kaplan",
+        "Asani Sarkar",
+        "David Scharfstein"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "MS",
+      "journal_name_original": "Management Science",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Management Science",
+      "evidence_url": "https://sites.google.com/site/chernenkosergey/",
+      "source_author": "Sergey Chernenko",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Management Science",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2024.103911",
+        "journal": "JFE",
+        "title": "Racial disparities in the Paycheck Protection Program",
+        "published": "2024-10-01",
+        "author": "Sergey Chernenko",
+        "corpus_author_name": "Sergey Chernenko",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2024.103911",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/chernenkosergey/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:6e085b49ba407c12"
+      ],
+      "paper_url": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-065",
+      "title": "Post-merger restructuring of the labor force",
+      "authors": [
+        "Stefan Obernberger",
+        "Britta Gehrke",
+        "Ernst Maug",
+        "Christoph Schneider"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/stefanobernberger/research?authuser=0",
+      "source_author": "Stefan Obernberger",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.70012",
+        "journal": "JF",
+        "title": "Going Public and the Internal Organization of the Firm",
+        "published": "2025-12-09",
+        "author": "Stefan Obernberger",
+        "corpus_author_name": "STEFAN OBERNBERGER",
+        "doi_url": "https://doi.org/10.1111/jofi.70012",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/stefanobernberger/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3838865",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:55c9e9fbc065be23"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-066",
+      "title": "Supervising Failing Banks",
+      "authors": [
+        "Stephan Luck",
+        "Sergio Correia",
+        "Emil Verner"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "Accepted",
+      "status_original": "Journal of Finance, forthcoming",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://sites.google.com/site/stephanluck/Home/research",
+      "source_author": "Stephan Luck",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage publications section",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "Forthcoming, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13411",
+        "journal": "JF",
+        "title": "Bank Funding Risk, Reference Rates, and Credit Supply",
+        "published": "2024-12-20",
+        "author": "Stephan Luck",
+        "corpus_author_name": "STEPHAN LUCK",
+        "doi_url": "https://doi.org/10.1111/jofi.13411",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/stephanluck/Home/research",
+          "type": "author homepage publications section",
+          "checked_on": "2026-10-12",
+          "status": "Forthcoming"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5185769",
+      "eligibility_checked_on": "2026-10-12",
+      "verification_note": "The author now places this paper under academic publications as Journal of Finance forthcoming. An older R&R mention still appears elsewhere on the same page; the publication listing takes precedence.",
+      "status_change": "R&R → Forthcoming",
+      "reference_ids": [
+        "chenyang:2f533abcdee50f53"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-067",
+      "title": "Do Index Funds Monitor? Revisited",
+      "authors": [
+        "Todd Gormley",
+        "Hwanki Brian Kim"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "Unspecified",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "Revise & Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://www.gormley.info/research.html",
+      "source_author": "Todd Gormley",
+      "source_updated": "March 2026",
+      "source_status_date": "2026-03",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Unspecified",
+      "scope": "journal_unconfirmed",
+      "eligibility": {
+        "doi": "10.1111/jofi.70093",
+        "journal": "JF",
+        "title": "The Politicization of Social Responsibility",
+        "published": "2026-09-30",
+        "author": "Todd Gormley",
+        "corpus_author_name": "TODD A. GORMLEY",
+        "doi_url": "https://doi.org/10.1111/jofi.70093",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.gormley.info/research.html",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "verification_note": "The author confirms R&R but does not name the journal. No target journal is inferred.",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5004197",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:c3a8bd2c02ebfdb5"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-068",
+      "title": "International Portfolio Frictions",
+      "authors": [
+        "Wenxin Du",
+        "Alessandro Fontana",
+        "Petr Jakubik",
+        "Ralph Koijen",
+        "Hyun Song Shin"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "Unspecified",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/site/wenxindu/research?authuser=0",
+      "source_author": "Wenxin Du",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Unspecified",
+      "scope": "journal_unconfirmed",
+      "eligibility": {
+        "doi": "10.1111/jofi.13478",
+        "journal": "JF",
+        "title": "Arbitrage Capital of Global Banks",
+        "published": "2025-08-18",
+        "author": "Wenxin Du",
+        "corpus_author_name": "WENXIN DU",
+        "doi_url": "https://doi.org/10.1111/jofi.13478",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/wenxindu/research?authuser=0",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_version_date": "2023-11",
+      "verification_note": "The author confirms R&R but does not name the journal. No target journal is inferred.",
+      "paper_url": "https://www.bis.org/publ/work1137.htm",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:26011f5955848e18"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-069",
+      "title": "Inflation, Default, and Corporate Bond Returns",
+      "authors": [
+        "Xiaomeng Lu",
+        "Yoshio Nozawa",
+        "Zhaogang Song"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://sites.google.com/view/xiaomenglu/home",
+      "source_author": "Xiaomeng Lu",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13409",
+        "journal": "JF",
+        "title": "The Global Credit Spread Puzzle",
+        "published": "2024-12-20",
+        "author": "Yoshio Nozawa",
+        "corpus_author_name": "YOSHIO NOZAWA",
+        "doi_url": "https://doi.org/10.1111/jofi.13409",
+        "match_method": "exact normalized full author name in Crossref corpus"
+      },
+      "eligibility_status": "corpus_match",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/xiaomenglu/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://sites.google.com/view/xiaomenglu/working-papers/inflation-default-and-corporate-bond-returns",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:94204c56b6e0a146"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-070",
+      "title": "A Dynamic Theory of Mutual Fund Runs and Liquidity Management",
+      "authors": [
+        "Yao Zeng"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit, Review of Financial Studies, invited submission",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://sites.google.com/site/yaozengwebsite/",
+      "source_author": "Yao Zeng",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R; invited submission, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.70003",
+        "journal": "JF",
+        "title": "FinTech Lending and Cashless Payments",
+        "published": "2025-12-18",
+        "author": "Yao Zeng",
+        "corpus_author_name": "YAO ZENG",
+        "doi_url": "https://doi.org/10.1111/jofi.70003",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/yaozengwebsite/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "status_detail": "R&R; invited submission",
+      "paper_url": "https://drive.google.com/file/d/14PgUoTusrTTkcANEITOXjGslFX_Bi8j7/view?usp=sharing",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:bbff58c6cf4824cb"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-071",
+      "title": "Coordination and Fragility in Liquidity Provision",
+      "authors": [
+        "Yao Zeng",
+        "Ming Yang"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "Revise and Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://sites.google.com/site/yaozengwebsite/",
+      "source_author": "Yao Zeng",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.70003",
+        "journal": "JF",
+        "title": "FinTech Lending and Cashless Payments",
+        "published": "2025-12-18",
+        "author": "Yao Zeng",
+        "corpus_author_name": "YAO ZENG",
+        "doi_url": "https://doi.org/10.1111/jofi.70003",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/yaozengwebsite/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://drive.google.com/file/d/1hCM6QF14HY_2rvI2Cmwf_6j0rNy1qmpf/view?usp=sharing",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:10fdfe0e837bf9e5"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-072",
+      "title": "Accounting for Cryptocurrency Value",
+      "authors": [
+        "Yukun Liu",
+        "Aleh Tsyvinski",
+        "Xi Wu"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JAR",
+      "journal_name_original": "Journal of Accounting Research",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Accounting Research",
+      "evidence_url": "https://www.yukunliu.com/research/",
+      "source_author": "Yukun Liu",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Accounting Research",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1111/jofi.13119",
+        "journal": "JF",
+        "title": "Common Risk Factors in Cryptocurrency",
+        "published": "2022-02-24",
+        "author": "Yukun Liu",
+        "corpus_author_name": "YUKUN LIU",
+        "doi_url": "https://doi.org/10.1111/jofi.13119",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.yukunliu.com/research/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3951514",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:c8d2490f1b5e0543"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-073",
+      "title": "Forward Selection Fama-MacBeth Regression with Higher-Order Asset Pricing Factors",
+      "authors": [
+        "Yukun Liu",
+        "Nicola Borri",
+        "Denis Chetverikov",
+        "Aleh Tsyvinski"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "RFS",
+      "journal_name_original": "Review of Financial Studies",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Review of Financial Studies",
+      "evidence_url": "https://www.yukunliu.com/research/",
+      "source_author": "Yukun Liu",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13119",
+        "journal": "JF",
+        "title": "Common Risk Factors in Cryptocurrency",
+        "published": "2022-02-24",
+        "author": "Yukun Liu",
+        "corpus_author_name": "YUKUN LIU",
+        "doi_url": "https://doi.org/10.1111/jofi.13119",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.yukunliu.com/research/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5181447",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:f88994d808d15d35"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-074",
+      "title": "One Factor to Bind the Cross Section of Returns",
+      "authors": [
+        "Yukun Liu",
+        "Nicola Borri",
+        "Denis Chetverikov",
+        "Aleh Tsyvinski"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Journal of Finance",
+      "evidence_url": "https://www.yukunliu.com/research/",
+      "source_author": "Yukun Liu",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Finance",
+      "scope": "top5",
+      "eligibility": {
+        "doi": "10.1111/jofi.13119",
+        "journal": "JF",
+        "title": "Common Risk Factors in Cryptocurrency",
+        "published": "2022-02-24",
+        "author": "Yukun Liu",
+        "corpus_author_name": "YUKUN LIU",
+        "doi_url": "https://doi.org/10.1111/jofi.13119",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://www.yukunliu.com/research/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4791496",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:190396f2bb5d10a5"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "id": "chenyang-075",
+      "title": "The Effect of the Tax Cuts and Jobs Act on Payout Policies",
+      "authors": [
+        "Zexi Wang",
+        "Ana Albuquerque",
+        "Benjamin Bennett",
+        "Petro Lisowsky"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "JAR",
+      "journal_name_original": "",
+      "status": "R&R",
+      "status_original": "Revise & Resubmit",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "",
+      "evidence_url": "https://sites.google.com/view/zexiwang",
+      "source_author": "Zexi Wang",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Journal of Accounting Research",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2021.05.027",
+        "journal": "JFE",
+        "title": "The effect of stock liquidity on cash holdings: The repurchase motive",
+        "published": "2021-11-01",
+        "author": "Zexi Wang",
+        "corpus_author_name": "Zexi Wang",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2021.05.027",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/zexiwang",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3443656",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:ea2f1da372e2a54f"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "id": "chenyang-076",
+      "title": "An Economic Model of Consensus on Distributed Ledgers",
+      "authors": [
+        "Zhiguo He",
+        "Hanna Halaburda",
+        "Jiasun Li"
+      ],
+      "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
+      "journal": "MS",
+      "journal_name_original": "Management Science",
+      "status": "R&R",
+      "status_original": "R&R",
+      "reference_url": "https://chenyangfinance.github.io/paper-status/",
+      "reference_date": "2026-09-29",
+      "reference_status": "R&R",
+      "reference_journal": "Management Science",
+      "evidence_url": "https://zhiguohe.net/publications/research/",
+      "source_author": "Zhiguo He",
+      "source_updated": "",
+      "source_status_date": null,
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, Management Science",
+      "scope": "extended",
+      "eligibility": {
+        "doi": "10.1111/jofi.13266",
+        "journal": "JF",
+        "title": "Pledgeability and Asset Prices: Evidence from the Chinese Corporate Bond Markets",
+        "published": "2023-07-29",
+        "author": "Zhiguo He",
+        "corpus_author_name": "ZHIGUO HE",
+        "doi_url": "https://doi.org/10.1111/jofi.13266",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "baseline_record": true,
+      "evidence_sources": [
+        {
+          "url": "https://zhiguohe.net/publications/research/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "paper_url": "https://zhiguohe.net/wp-content/uploads/2023/12/d6778-gamify_bft__edits_2023.pdf",
+      "eligibility_checked_on": "2026-10-12",
+      "reference_ids": [
+        "chenyang:7cb686de25220f20"
+      ],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "extended"
+    },
+    {
+      "title": "Inflation and Trading",
+      "journal": "JFE",
+      "journal_name_original": "Journal of Financial Economics",
+      "status": "R&R",
+      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "source_author": "Michael Weber",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, JFE",
+      "scope": "top5",
+      "baseline_record": false,
+      "evidence_sources": [
+        {
+          "url": "https://faculty.chicagobooth.edu/michael-weber/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "id": "primary-extra-1",
+      "authors": [
+        "Michael Weber",
+        "Philip Schnorpfeil",
+        "Andreas Hackethal"
+      ],
+      "status_original": "Revise and resubmit, Journal of Financial Economics",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104166",
+        "journal": "JFE",
+        "title": "Inflation and Trading",
+        "published": "2025-11-01",
+        "author": "Michael Weber",
+        "corpus_author_name": "Michael Weber",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104166",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "authors_note": "Full author names from author homepage.",
+      "paper_url": "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/inflation-and-trading.pdf",
+      "reference_ids": [],
+      "source_updated": "",
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "title": "ETF Arbitrage under Liquidity Mismatch",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/yaozengwebsite/",
+      "source_author": "Yao Zeng",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "R&R, JF",
+      "scope": "top5",
+      "baseline_record": false,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/yaozengwebsite/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "R&R"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "id": "primary-extra-2",
+      "authors": [
+        "Kevin Pan",
+        "Yao Zeng"
+      ],
+      "status_original": "Revise and resubmit, Journal of Finance",
+      "eligibility": {
+        "doi": "10.1111/jofi.70003",
+        "journal": "JF",
+        "title": "FinTech Lending and Cashless Payments",
+        "published": "2025-12-18",
+        "author": "Yao Zeng",
+        "corpus_author_name": "YAO ZENG",
+        "doi_url": "https://doi.org/10.1111/jofi.70003",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "authors_note": "Full author names from author homepage.",
+      "paper_url": "https://drive.google.com/file/d/1sX5cxhOosbItKz8w2OHcrKFLqhSPoc1d/view?usp=sharing",
+      "paper_version_date": "2023-08",
+      "source_updated": "August 2023",
+      "reference_ids": [],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
+    },
+    {
+      "title": "Tracing the Impact of Payment Convenience on Deposits: Evidence from Depositor Activeness",
+      "journal": "JF",
+      "journal_name_original": "Journal of Finance",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/site/yaozengwebsite/",
+      "source_author": "Yao Zeng",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "last_attempted": "2026-10-12",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "evidence_excerpt": "Reject & Resubmit, Journal of Finance",
+      "scope": "top5",
+      "baseline_record": false,
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/yaozengwebsite/",
+          "type": "author homepage",
+          "checked_on": "2026-10-12",
+          "status": "Reject & Resubmit"
+        }
+      ],
+      "eligibility_checked_on": "2026-10-12",
+      "id": "primary-extra-3",
+      "authors": [
+        "Yao Zeng",
+        "Xu Lu",
+        "Yang Song"
+      ],
+      "status_original": "Re ject and Resubmit, Journal of Finance",
+      "eligibility": {
+        "doi": "10.1111/jofi.70003",
+        "journal": "JF",
+        "title": "FinTech Lending and Cashless Payments",
+        "published": "2025-12-18",
+        "author": "Yao Zeng",
+        "corpus_author_name": "YAO ZENG",
+        "doi_url": "https://doi.org/10.1111/jofi.70003",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "authors_note": "Full author names from author homepage.",
+      "paper_url": "https://drive.google.com/file/d/1ekaMRkpWQ5WCPkvnWWpNK76E-A1yl_2G/view?usp=sharing",
+      "paper_version_date": "2026-08",
+      "source_updated": "August 2026",
+      "reference_ids": [],
+      "topics": [],
+      "reference_checked_on": "2026-10-12",
+      "source_scope": "top5"
     }
   ]
 }

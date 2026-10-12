@@ -79,6 +79,500 @@
       "last_attempted": "2026-10-12",
       "scan_status": "scanned",
       "last_scanned": "2026-10-12"
+    },
+    {
+      "name": "Asger Lau Andersen",
+      "url": "https://sites.google.com/site/asgerlauandersen/research",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13262",
+        "journal": "JF",
+        "title": "Monetary Policy and Inequality",
+        "published": "2023-07-27",
+        "author": "Asger Lau Andersen",
+        "corpus_author_name": "ASGER LAU ANDERSEN",
+        "doi_url": "https://doi.org/10.1111/jofi.13262",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/asgerlauandersen/research",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Alexandre Corhay",
+      "url": "https://sites.google.com/site/alexandrecorhay/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13282",
+        "journal": "JF",
+        "title": "Discount Rates, Debt Maturity, and the Fiscal Theory",
+        "published": "2023-10-13",
+        "author": "Alexandre Corhay",
+        "corpus_author_name": "ALEXANDRE CORHAY",
+        "doi_url": "https://doi.org/10.1111/jofi.13282",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/alexandrecorhay/",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Bo Bian",
+      "url": "https://www.bo-bian.com/research",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1017/s0022109024000735",
+        "journal": "JFQA",
+        "title": "Cross-Border Property Rights and the Globalization of Innovation",
+        "published": "2025-07-01",
+        "author": "Bo Bian",
+        "corpus_author_name": "Bo Bian",
+        "doi_url": "https://doi.org/10.1017/s0022109024000735",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://www.bo-bian.com/research",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Camelia M. Kuhnen",
+      "url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13426",
+        "journal": "JF",
+        "title": "Wealth and Insurance Choices: Evidence from U.S. Households",
+        "published": "2025-01-30",
+        "author": "Camelia M. Kuhnen",
+        "corpus_author_name": "CAMELIA M. KUHNEN",
+        "doi_url": "https://doi.org/10.1111/jofi.13426",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Chi-Yang Tsou",
+      "url": "https://sites.google.com/view/chiyangtsou/home",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13217",
+        "journal": "JF",
+        "title": "The Pollution Premium",
+        "published": "2023-04-10",
+        "author": "Chi-Yang Tsou",
+        "corpus_author_name": "CHI‐YANG TSOU",
+        "doi_url": "https://doi.org/10.1111/jofi.13217",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/view/chiyangtsou/home",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Ekaterina Volkova",
+      "url": "https://www.evolkova.info/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13423",
+        "journal": "JF",
+        "title": "Regulatory Fragmentation",
+        "published": "2025-01-30",
+        "author": "Ekaterina Volkova",
+        "corpus_author_name": "EKATERINA VOLKOVA",
+        "doi_url": "https://doi.org/10.1111/jofi.13423",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://www.evolkova.info/",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Elena Simintzi",
+      "url": "https://sites.google.com/site/elenasimintzi/home",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13136",
+        "journal": "JF",
+        "title": "Do Firms Respond to Gender Pay Gap Transparency?",
+        "published": "2022-06-03",
+        "author": "Elena Simintzi",
+        "corpus_author_name": "ELENA SIMINTZI",
+        "doi_url": "https://doi.org/10.1111/jofi.13136",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/elenasimintzi/home",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Gonzalo Paz-Pardo",
+      "url": "https://sites.google.com/site/gonzalopazpardo/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104206",
+        "journal": "JFE",
+        "title": "Richer earnings dynamics, consumption and portfolio choice over the life cycle",
+        "published": "2026-02-01",
+        "author": "Gonzalo Paz-Pardo",
+        "corpus_author_name": "Gonzalo Paz-Pardo",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104206",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/gonzalopazpardo/",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Hongjun Yan",
+      "url": "https://sites.google.com/site/hongjunyanhomepage",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2023.103776",
+        "journal": "JFE",
+        "title": "Personality differences and investment decision-making",
+        "published": "2024-03-01",
+        "author": "Hongjun Yan",
+        "corpus_author_name": "Hongjun Yan",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2023.103776",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/hongjunyanhomepage",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "John Bai",
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.001",
+        "journal": "JFE",
+        "title": "What do outside CEOs really do? Evidence from plant-level data",
+        "published": "2023-01-01",
+        "author": "John Bai",
+        "corpus_author_name": "John (Jianqiu) Bai",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2022.10.001",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Jordi Blanes i Vidal",
+      "url": "https://sites.google.com/site/jordiblanesvidal/research",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.70041",
+        "journal": "JF",
+        "title": "The Effect of Advisors' Incentives on Clients' Investments",
+        "published": "2026-04-27",
+        "author": "Jordi Blanes i Vidal",
+        "corpus_author_name": "JORDI BLANES I VIDAL",
+        "doi_url": "https://doi.org/10.1111/jofi.70041",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/jordiblanesvidal/research",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Jun Chen",
+      "url": "https://www.junchenphd.com/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13451",
+        "journal": "JF",
+        "title": "Venture Capital and Startup Agglomeration",
+        "published": "2025-04-01",
+        "author": "Jun Chen",
+        "corpus_author_name": "JUN CHEN",
+        "doi_url": "https://doi.org/10.1111/jofi.13451",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://www.junchenphd.com/",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Lin Shen",
+      "url": "https://sites.google.com/view/linshen",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13295",
+        "journal": "JF",
+        "title": "Intervention with Screening in Panic‐Based Runs",
+        "published": "2023-11-22",
+        "author": "Lin Shen",
+        "corpus_author_name": "LIN SHEN",
+        "doi_url": "https://doi.org/10.1111/jofi.13295",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/view/linshen",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Lira Mota",
+      "url": "https://sites.google.com/view/liramota/research",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1093/rfs/hhae030",
+        "journal": "RFS",
+        "title": "The Savings of Corporate Giants",
+        "published": "2024-07-02",
+        "author": "Lira Mota",
+        "corpus_author_name": "Lira Mota",
+        "doi_url": "https://doi.org/10.1093/rfs/hhae030",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/view/liramota/research",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Michael Weber",
+      "url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104166",
+        "journal": "JFE",
+        "title": "Inflation and Trading",
+        "published": "2025-11-01",
+        "author": "Michael Weber",
+        "corpus_author_name": "Michael Weber",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2025.104166",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Phong T. H. Ngo",
+      "url": "https://sites.google.com/site/phongthngo/research",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1017/s0022109022000126",
+        "journal": "JFQA",
+        "title": "De Facto Bank Bailouts",
+        "published": "2022-03-04",
+        "author": "Phong T. H. Ngo",
+        "corpus_author_name": "Phong T. H. Ngo",
+        "doi_url": "https://doi.org/10.1017/s0022109022000126",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/phongthngo/research",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Scott R. Baker",
+      "url": "https://sites.google.com/site/srbaker/academic-work",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2023.103758",
+        "journal": "JFE",
+        "title": "Financial returns to household inventory management",
+        "published": "2024-01-01",
+        "author": "Scott R. Baker",
+        "corpus_author_name": "Scott R. Baker",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2023.103758",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/srbaker/academic-work",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Sergey Chernenko",
+      "url": "https://sites.google.com/site/chernenkosergey/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2024.103911",
+        "journal": "JFE",
+        "title": "Racial disparities in the Paycheck Protection Program",
+        "published": "2024-10-01",
+        "author": "Sergey Chernenko",
+        "corpus_author_name": "Sergey Chernenko",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2024.103911",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/chernenkosergey/",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Stefan Obernberger",
+      "url": "https://sites.google.com/site/stefanobernberger/research?authuser=0",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.70012",
+        "journal": "JF",
+        "title": "Going Public and the Internal Organization of the Firm",
+        "published": "2025-12-09",
+        "author": "Stefan Obernberger",
+        "corpus_author_name": "STEFAN OBERNBERGER",
+        "doi_url": "https://doi.org/10.1111/jofi.70012",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/stefanobernberger/research?authuser=0",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Stephan Luck",
+      "url": "https://sites.google.com/site/stephanluck/Home/research",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13411",
+        "journal": "JF",
+        "title": "Bank Funding Risk, Reference Rates, and Credit Supply",
+        "published": "2024-12-20",
+        "author": "Stephan Luck",
+        "corpus_author_name": "STEPHAN LUCK",
+        "doi_url": "https://doi.org/10.1111/jofi.13411",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/stephanluck/Home/research",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Todd Gormley",
+      "url": "https://www.gormley.info/research.html",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.70093",
+        "journal": "JF",
+        "title": "The Politicization of Social Responsibility",
+        "published": "2026-09-30",
+        "author": "Todd Gormley",
+        "corpus_author_name": "TODD A. GORMLEY",
+        "doi_url": "https://doi.org/10.1111/jofi.70093",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://www.gormley.info/research.html",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Wenxin Du",
+      "url": "https://sites.google.com/site/wenxindu/research?authuser=0",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13478",
+        "journal": "JF",
+        "title": "Arbitrage Capital of Global Banks",
+        "published": "2025-08-18",
+        "author": "Wenxin Du",
+        "corpus_author_name": "WENXIN DU",
+        "doi_url": "https://doi.org/10.1111/jofi.13478",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/wenxindu/research?authuser=0",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Yao Zeng",
+      "url": "https://sites.google.com/site/yaozengwebsite/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.70003",
+        "journal": "JF",
+        "title": "FinTech Lending and Cashless Payments",
+        "published": "2025-12-18",
+        "author": "Yao Zeng",
+        "corpus_author_name": "YAO ZENG",
+        "doi_url": "https://doi.org/10.1111/jofi.70003",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/site/yaozengwebsite/",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Yukun Liu",
+      "url": "https://www.yukunliu.com/research/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13119",
+        "journal": "JF",
+        "title": "Common Risk Factors in Cryptocurrency",
+        "published": "2022-02-24",
+        "author": "Yukun Liu",
+        "corpus_author_name": "YUKUN LIU",
+        "doi_url": "https://doi.org/10.1111/jofi.13119",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://www.yukunliu.com/research/",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Zexi Wang",
+      "url": "https://sites.google.com/view/zexiwang",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2021.05.027",
+        "journal": "JFE",
+        "title": "The effect of stock liquidity on cash holdings: The repurchase motive",
+        "published": "2021-11-01",
+        "author": "Zexi Wang",
+        "corpus_author_name": "Zexi Wang",
+        "doi_url": "https://doi.org/10.1016/j.jfineco.2021.05.027",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://sites.google.com/view/zexiwang",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
+    },
+    {
+      "name": "Zhiguo He",
+      "url": "https://zhiguohe.net/publications/research/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13266",
+        "journal": "JF",
+        "title": "Pledgeability and Asset Prices: Evidence from the Chinese Corporate Bond Markets",
+        "published": "2023-07-29",
+        "author": "Zhiguo He",
+        "corpus_author_name": "ZHIGUO HE",
+        "doi_url": "https://doi.org/10.1111/jofi.13266",
+        "match_method": "exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "identity_evidence_url": "https://zhiguohe.net/publications/research/",
+      "last_scanned": "2026-10-12",
+      "scan_status": "scanned"
     }
   ]
 }

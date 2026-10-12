@@ -254,6 +254,10 @@ def main():
         for paper in rr['items']:
             if paper['evidence_url']!=author['url']:
                 continue
+            if paper['status'] in ['Accepted','Published'] or paper['journal'] not in JOURNAL_NAMES:
+                # Extended-journal reports and acceptance evidence are reconciled
+                # by the reference/research layer, not the five-journal matcher.
+                continue
             paper['eligibility']={**author['eligibility'],'author':author['name']}
             if error:
                 paper['last_attempted']=today
@@ -270,8 +274,13 @@ def main():
                         if link.startswith('https://'):paper['paper_url']=link
                         break
             else:
-                paper['status']='needs recheck'
+                paper['verification_status']='needs_recheck'
+                paper['verification']='Previously reported status; latest primary parsing incomplete'
     for job in jobs['items']:
+        if 'econjobmarket.org' in job['source_url'] or 'openpostdoc.org' in job['source_url']:
+            # A listing-page date belongs to a specific card, never to all jobs.
+            # These records are updated by the structured provider adapter.
+            continue
         body,error=results.get(job['source_url'],('','not attempted'))
         job['last_attempted']=today
         if job.get('deadline') and job['deadline']<today:
@@ -310,7 +319,7 @@ def main():
     save('schools.json',schools);save('discovery-state.json',state)
     save('review-queue.json',{'updated_on':today,'items':queue});save('run-report.json',report)
     names={normalize(a['name']) for a in universe}
-    meta={'last_run':today,'publication_window_start':corpus.get('window_start',''),
+    meta={**load('meta.json',{}),'last_run':today,'publication_window_start':corpus.get('window_start',''),
           'publication_window_end':corpus.get('window_end',''),'articles':len(corpus['works']),
           'author_name_groups':len(names),'author_identity_records':len(universe),
           'approved_homepages':sum(bool(a.get('approved') and a.get('eligibility')) for a in homes),

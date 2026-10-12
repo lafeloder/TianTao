@@ -1,0 +1,870 @@
+{
+  "checked_on": "2026-10-12",
+  "source_updated": "2026-09-29",
+  "rows": [
+    {
+      "scholar": "Adrien Matray",
+      "title": "Industrial Policy and Capital Misallocation in Exporting",
+      "coauthors": [
+        "Karsten Müller",
+        "Chenzi Xu",
+        "Poorya Kabir"
+      ],
+      "journal": "NBER WP 32019, R&R Review of Economic Studies",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/adrienmatray/workingpapers"
+    },
+    {
+      "scholar": "Adrien Matray",
+      "title": "Making Your Own Rules: Contractual Flexibility and Entrepreneurial Success",
+      "coauthors": [
+        "Paul Beaumont",
+        "Johan Hombert"
+      ],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/adrienmatray/workingpapers"
+    },
+    {
+      "scholar": "Alberto Rossi",
+      "title": "Human Financial Advice in the Age of Automation",
+      "coauthors": [
+        "Fiona Greig",
+        "Tarun Ramadorai",
+        "Stephen Utkus",
+        "Ansgar Walther"
+      ],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/albertorossifrb/home"
+    },
+    {
+      "scholar": "Alberto Rossi",
+      "title": "Improving Household Debt Management with Robo-advice",
+      "coauthors": [
+        "Ida Chak",
+        "Karen Croxson",
+        "Francesco D'Acunto",
+        "Jonathan Reuter",
+        "Jonathan Shaw"
+      ],
+      "journal": "Journal of Finance",
+      "status": "Reject & Resubmit",
+      "url": "https://sites.google.com/site/albertorossifrb/home"
+    },
+    {
+      "scholar": "Alberto Rossi",
+      "title": "Selecting Mutual Funds from the Stocks they Hold: a Machine Learning Approach",
+      "coauthors": [
+        "Bin Li"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/albertorossifrb/home"
+    },
+    {
+      "scholar": "Alexandre Corhay",
+      "title": "Industry competition, credit spreads, and levered equity returns",
+      "coauthors": [],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/alexandrecorhay/"
+    },
+    {
+      "scholar": "Asger Lau Andersen",
+      "title": "Household leverage and mental health fragility",
+      "coauthors": [
+        "Rajkamal Iyer",
+        "Niels Johannesen",
+        "Mia Jørgensen",
+        "José-Luis Peydró"
+      ],
+      "journal": "The Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/asgerlauandersen/research"
+    },
+    {
+      "scholar": "Bhashkar Mazumder",
+      "title": "Birth Cohort and the Black-White Achievement Gap: The Role of Access and Health Soon After Birth",
+      "coauthors": [
+        "Kenneth Chay",
+        "Jonathan Guryan"
+      ],
+      "journal": "Quarterly Journal of Economics",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/bhash/home"
+    },
+    {
+      "scholar": "Bhashkar Mazumder",
+      "title": "Water Works: Causes and Consequences of Safe Drinking Water in America",
+      "coauthors": [
+        "Dave Keiser",
+        "David Molitor",
+        "Joseph Shapiro"
+      ],
+      "journal": "Quarterly Journal of Economics",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/bhash/home"
+    },
+    {
+      "scholar": "Bo Bian",
+      "title": "Conflicting Fiduciary Duties and Fire Sales of VC-backed Start-ups",
+      "coauthors": [
+        "Yingxiang Li",
+        "Casimiro A. Nigro"
+      ],
+      "journal": "Review of Finance",
+      "status": "R&R",
+      "url": "https://www.bo-bian.com/research"
+    },
+    {
+      "scholar": "Bo Bian",
+      "title": "Data as a Networked Asset",
+      "coauthors": [
+        "Qiushi Huang",
+        "Ye Li",
+        "Huan Tang"
+      ],
+      "journal": "Journal of Political Economy",
+      "status": "R&R",
+      "url": "https://www.bo-bian.com/research"
+    },
+    {
+      "scholar": "Bo Bian",
+      "title": "Does Mandating Women on Corporate Boards Backfire?",
+      "coauthors": [
+        "Jingjing Li",
+        "Kai Li"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://www.bo-bian.com/research"
+    },
+    {
+      "scholar": "Bo Bian",
+      "title": "The Supply and Demand for Data Privacy: Evidence from Mobile Apps",
+      "coauthors": [
+        "Xinchen Ma",
+        "Huan Tang"
+      ],
+      "journal": "Journal of Political Economy",
+      "status": "R&R",
+      "url": "https://www.bo-bian.com/research"
+    },
+    {
+      "scholar": "Camelia M. Kuhnen",
+      "title": "Executive pay, hidden compensation and managerial entrenchment",
+      "coauthors": [
+        "Jeffrey Zwiebel"
+      ],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0"
+    },
+    {
+      "scholar": "Camelia M. Kuhnen",
+      "title": "Searching for jobs: Evidence from MBA graduates",
+      "coauthors": [],
+      "journal": "Management Science",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0"
+    },
+    {
+      "scholar": "Camelia M. Kuhnen",
+      "title": "The effect of prior choices on expectations and subsequent portfolio decisions",
+      "coauthors": [
+        "Sarah Rudorf",
+        "Bernd Weber"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0"
+    },
+    {
+      "scholar": "Chi-Yang Tsou",
+      "title": "Leasing as a Risk-Sharing Mechanism",
+      "coauthors": [
+        "Kai Li",
+        "Chenjie Xu"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/chiyangtsou/home"
+    },
+    {
+      "scholar": "Cormac O'Dea",
+      "title": "Imagine your Life at 25: Gender Conformity and Later-Life Outcomes",
+      "coauthors": [
+        "Sreevidya Ayyar",
+        "Uta Bolt",
+        "Eric French"
+      ],
+      "journal": "Journal of Political Economy: Microeconomics",
+      "status": "R&R",
+      "url": "https://www.cormacodea.com/research.html"
+    },
+    {
+      "scholar": "Cormac O'Dea",
+      "title": "Improving 401(k) Matches Using Hypothetical Choices",
+      "coauthors": [
+        "Guillermo Carranza",
+        "Taha Choukhmane",
+        "Fiona Greig",
+        "Lawrence Schmidt"
+      ],
+      "journal": "Quarterly Journal of Economics",
+      "status": "R&R",
+      "url": "https://www.cormacodea.com/research.html"
+    },
+    {
+      "scholar": "Cormac O'Dea",
+      "title": "Intergenerational Altruism and Transfers of Time and Money: A Life Cycle Perspective",
+      "coauthors": [
+        "Uta Bolt",
+        "Eric French",
+        "Jamie Hentall Maccuish"
+      ],
+      "journal": "Review of Economic Studies",
+      "status": "R&R",
+      "url": "https://www.cormacodea.com/research.html"
+    },
+    {
+      "scholar": "Dimitris Papanikolaou",
+      "title": "Artificial Intelligence and the Labor Market",
+      "coauthors": [
+        "Menaka Hampole",
+        "Lawrence Schmidt",
+        "Bryan Seegmiller"
+      ],
+      "journal": "Quarterly Journal of Economics",
+      "status": "R&R",
+      "url": "https://dimitris-papanikolaou.github.io/website/wp.html"
+    },
+    {
+      "scholar": "Dimitris Papanikolaou",
+      "title": "Evaluation and Learning in R&D Investment",
+      "coauthors": [
+        "Alex Frankel",
+        "Danielle Li",
+        "Joshua Krieger"
+      ],
+      "journal": "Management Science",
+      "status": "R&R",
+      "url": "https://dimitris-papanikolaou.github.io/website/wp.html"
+    },
+    {
+      "scholar": "Dimitris Papanikolaou",
+      "title": "Inflation and Innovation",
+      "coauthors": [
+        "Qiushi Huang",
+        "Leonid Kogan"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://dimitris-papanikolaou.github.io/website/wp.html"
+    },
+    {
+      "scholar": "Dimitris Papanikolaou",
+      "title": "Measuring Creative Destruction",
+      "coauthors": [
+        "Ali Kakhbod",
+        "Leonid Kogan",
+        "Peiyao Li"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://dimitris-papanikolaou.github.io/website/wp.html"
+    },
+    {
+      "scholar": "Dimitris Papanikolaou",
+      "title": "Technology and Labor Displacement: Evidence from Linking Patents with Worker-Level Data",
+      "coauthors": [
+        "Leonid Kogan",
+        "Lawrence Schmidt",
+        "Bryan Seegmiller"
+      ],
+      "journal": "Review of Economic Studies",
+      "status": "R&R",
+      "url": "https://dimitris-papanikolaou.github.io/website/wp.html"
+    },
+    {
+      "scholar": "Diogo Mendes",
+      "title": "Information Frictions and Firm Take up of Government Support: A Randomised Controlled Experiment",
+      "coauthors": [
+        "Cláudia Custódio",
+        "Christopher Hansman"
+      ],
+      "journal": "Review of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/diogo-mendes/research"
+    },
+    {
+      "scholar": "Dun Calvin Jia",
+      "title": "Dynamic Competition with Bargaining: Implications for Subsidy and Competition Policies",
+      "coauthors": [
+        "Andrew Sweeting",
+        "Shanglyu Deng",
+        "Mario Leccese"
+      ],
+      "journal": "Journal of Political Economy: Microeconomics",
+      "status": "R&R",
+      "url": "https://jiadun.weebly.com/store/c1/Featured_Products.html"
+    },
+    {
+      "scholar": "Ekaterina Volkova",
+      "title": "Lobbying Congress versus Agencies",
+      "coauthors": [
+        "Michelle Lowry"
+      ],
+      "journal": "The Journal of Finance",
+      "status": "R&R",
+      "url": "https://www.evolkova.info/"
+    },
+    {
+      "scholar": "Elena Simintzi",
+      "title": "The Real Effects of Corporate Restructuring",
+      "coauthors": [],
+      "journal": "Management Science",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/elenasimintzi/home"
+    },
+    {
+      "scholar": "Elena Simintzi",
+      "title": "Women in the Financial Sector",
+      "coauthors": [
+        "S. Lagaras",
+        "M. Marchica",
+        "M. Tsoutsoura"
+      ],
+      "journal": "The Journal of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/elenasimintzi/home"
+    },
+    {
+      "scholar": "Gonzalo Paz-Pardo",
+      "title": "Subjective earnings and employment dynamics",
+      "coauthors": [
+        "Manuel Arellano",
+        "Orazio Attanasio",
+        "Margherita Borella",
+        "Mariacristina De Nardi"
+      ],
+      "journal": "Econometrica",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/gonzalopazpardo/"
+    },
+    {
+      "scholar": "Gonzalo Paz-Pardo",
+      "title": "The life-cycle dynamics of wealth mobility",
+      "coauthors": [
+        "Richard Audoly",
+        "Rory McGee",
+        "Sergio Ocampo Díaz"
+      ],
+      "journal": "Journal of Public Economics",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/gonzalopazpardo/"
+    },
+    {
+      "scholar": "Hongjun Yan",
+      "title": "Kyle Meets Friedman: Informed Trading When Anticipating Future Information",
+      "coauthors": [
+        "L. Yang",
+        "X. Zhang",
+        "D. Zhou"
+      ],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/hongjunyanhomepage"
+    },
+    {
+      "scholar": "Hongjun Yan",
+      "title": "The Road to Negative Futures Prices Is Paved with Financialization",
+      "coauthors": [
+        "Y. Ge",
+        "W. Kang",
+        "K. Tang",
+        "L. Yang"
+      ],
+      "journal": "Management Science",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/hongjunyanhomepage"
+    },
+    {
+      "scholar": "Jincheng Tong",
+      "title": "Market Power, Technology Shocks, and the Profitability Premium",
+      "coauthors": [
+        "Yao Deng",
+        "Ding Luo"
+      ],
+      "journal": "Journal of Financial Economics",
+      "status": "R&R",
+      "url": "https://www.jincheng-tong.com/research.html"
+    },
+    {
+      "scholar": "Jiwei Zheng",
+      "title": "Decomposed Games, focal points, and the framing of collective and individual interests",
+      "coauthors": [
+        "Penczynski, S.",
+        "Sitzia, S."
+      ],
+      "journal": "Experimental Economics",
+      "status": "R&R",
+      "url": "https://jwzheng.wixsite.com/jiweizheng"
+    },
+    {
+      "scholar": "John Bai",
+      "title": "Are Mutual Fund Managers Paid for Performance? Evidence from U.S. Administrative Earnings Data",
+      "coauthors": [
+        "Linlin Ma",
+        "Kevin Mullally",
+        "Yuehua Tang"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0"
+    },
+    {
+      "scholar": "John Bai",
+      "title": "Beyond Profit: Unraveling the Social Face of State-Owned Enterprises in Labor Events",
+      "coauthors": [
+        "Liu Yang",
+        "Donghua Zhou"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0"
+    },
+    {
+      "scholar": "John Bai",
+      "title": "Cloud Adoption and Firm Performance: Evidence from Labor Demand",
+      "coauthors": [
+        "Wang Jin"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0"
+    },
+    {
+      "scholar": "John Bai",
+      "title": "Creativity without Walls: the Case of Open Innovation",
+      "coauthors": [
+        "Rui Dai",
+        "Anahit Mkrtchyan",
+        "Chi Wan"
+      ],
+      "journal": "",
+      "status": "Reject & Resubmit",
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0"
+    },
+    {
+      "scholar": "John Bai",
+      "title": "Deciphering the Intentional Obfuscation: Machine Learning Decomposition of Financial Reporting Readability",
+      "coauthors": [
+        "Yi Cao",
+        "Feng Li",
+        "Uchenna Onuoha",
+        "Chi Wan"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0"
+    },
+    {
+      "scholar": "John Bai",
+      "title": "Executives vs. Chatbots: Unmasking Insights through Human-AI Differences in Earnings Conference Q&A",
+      "coauthors": [
+        "Nicole Boyson",
+        "Yi Cao",
+        "Miao Liu",
+        "Chi Wan"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0"
+    },
+    {
+      "scholar": "John Bai",
+      "title": "Racial Diversity and Financial Advisor Misconduct",
+      "coauthors": [
+        "Douglas Cumming",
+        "Lei Jin",
+        "Chi Wan",
+        "Alptug Yorulmaz"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0"
+    },
+    {
+      "scholar": "John Bai",
+      "title": "The Price of a News Desert: Local Newspaper Closure and Financial Service Quality",
+      "coauthors": [
+        "Poojan Patel",
+        "Chi Wan",
+        "Donghua Zhou"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0"
+    },
+    {
+      "scholar": "John Bai",
+      "title": "Weathering the Storm: How Remote Work Protects Firm Performance during Natural Disasters",
+      "coauthors": [
+        "Erik Brynjolfsson",
+        "Wang Jin",
+        "Sebastian Steffen",
+        "Chi Wan"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0"
+    },
+    {
+      "scholar": "Jordi Blanes i Vidal",
+      "title": "Peer Pressure and Manager Pressure in Organisations",
+      "coauthors": [
+        "Diego Battiston",
+        "Tom Kirchmaier",
+        "Katalin Szemeredi"
+      ],
+      "journal": "Journal of the European Economic Association",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/jordiblanesvidal/research"
+    },
+    {
+      "scholar": "Jun Chen",
+      "title": "Capital Gains Tax Relief and Entrepreneurship: Evidence from the QSBS Exemption",
+      "coauthors": [
+        "Joan Farre-Mensa"
+      ],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://www.junchenphd.com/"
+    },
+    {
+      "scholar": "Jun E. Li",
+      "title": "Equilibrium Value and Profitability Premiums",
+      "coauthors": [
+        "Hengjie Ai",
+        "Jincheng Tong"
+      ],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://junliweb.weebly.com/research.html"
+    },
+    {
+      "scholar": "Lin Shen",
+      "title": "Capital Flows in the Financial System and Supply of Credit",
+      "coauthors": [],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/linshen"
+    },
+    {
+      "scholar": "Lira Mota",
+      "title": "The Corporate Supply of (Quasi) Safe Assets",
+      "coauthors": [],
+      "journal": "The Journal of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/liramota/research"
+    },
+    {
+      "scholar": "Margarita Tsoutsoura",
+      "title": "Women in the Financial Sector",
+      "coauthors": [
+        "Spyridon Lagaras",
+        "Maria-Teresa Marchica",
+        "Elena Simintzi"
+      ],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://tsoutsoura.com/research.html"
+    },
+    {
+      "scholar": "Michael Weber",
+      "title": "A Temporary VAT Cut as Unconventional Fiscal Policy",
+      "coauthors": [
+        "Rüdiger Bachmann",
+        "Benjamin Born",
+        "Olga Goldfayn-Frank",
+        "Georgi Kocharkov",
+        "Ralph Luetticke"
+      ],
+      "journal": "Review of Economic Studies",
+      "status": "R&R",
+      "url": "https://faculty.chicagobooth.edu/michael-weber/research"
+    },
+    {
+      "scholar": "Michael Weber",
+      "title": "Beliefs and Portfolios: Causal Evidence",
+      "coauthors": [
+        "Johannes Beutel"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://faculty.chicagobooth.edu/michael-weber/research"
+    },
+    {
+      "scholar": "Michael Weber",
+      "title": "Greater Than The Sum of Its Parts: Aggregate vs. Aggregated Inflation Expectations",
+      "coauthors": [
+        "Alexander M. Dietrich",
+        "Edward S. Knotek II",
+        "Kristian Ove R. Myrseth",
+        "Robert W. Rich",
+        "Raphael S. Schoenle"
+      ],
+      "journal": "AEJ: Macroeconomics",
+      "status": "R&R",
+      "url": "https://faculty.chicagobooth.edu/michael-weber/research"
+    },
+    {
+      "scholar": "Michael Weber",
+      "title": "Monetary Policy through Production Networks: Evidence from the Stock Market",
+      "coauthors": [
+        "Ali Ozdagli"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://faculty.chicagobooth.edu/michael-weber/research"
+    },
+    {
+      "scholar": "Michael Weber",
+      "title": "Nominal Rigidities and Asset Pricing",
+      "coauthors": [],
+      "journal": "Journal of Political Economy",
+      "status": "R&R",
+      "url": "https://faculty.chicagobooth.edu/michael-weber/research"
+    },
+    {
+      "scholar": "Michael Weber",
+      "title": "Price Rigidities and Credit Risk",
+      "coauthors": [
+        "Patrick Augustin",
+        "Linxiao Francis Cong",
+        "Alexandre Corhay"
+      ],
+      "journal": "Journal of Finances and Quantitative Analysis",
+      "status": "R&R",
+      "url": "https://faculty.chicagobooth.edu/michael-weber/research"
+    },
+    {
+      "scholar": "Nancy Qian",
+      "title": "Distrust and Political Turnover",
+      "coauthors": [
+        "Nathan Nunn",
+        "Jaya Wen"
+      ],
+      "journal": "The Economic Journal",
+      "status": "R&R",
+      "url": "https://nancyqian.org/research-cv"
+    },
+    {
+      "scholar": "Nancy Qian",
+      "title": "Making Democracy Work: Culture, Social Capital and Elections in China",
+      "coauthors": [
+        "Monica Martinez-Bravo",
+        "Gerard Padro-i-Miquel",
+        "Yiqing Xu",
+        "Yang Yao"
+      ],
+      "journal": "The Journal of European Economic Review",
+      "status": "R&R",
+      "url": "https://nancyqian.org/research-cv"
+    },
+    {
+      "scholar": "Pasquale Della Corte",
+      "title": "Best Short",
+      "coauthors": [
+        "R. Kosowski",
+        "N. Rapanos"
+      ],
+      "journal": "Review of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/pasqualedellacorte/research/working-papers?authuser=0"
+    },
+    {
+      "scholar": "Phong T. H. Ngo",
+      "title": "Can financial education reduce domestic violence?",
+      "coauthors": [
+        "Diego Puente"
+      ],
+      "journal": "Journal of Financial and Quantitative Analysis",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/phongthngo/research"
+    },
+    {
+      "scholar": "Scott R. Baker",
+      "title": "Effects of Cryptocurrency Wealth on Household Consumption and Investment",
+      "coauthors": [
+        "Darren Aiello",
+        "Tetyana Balyuk",
+        "Marco Di Maggio",
+        "Mark Johnson",
+        "Jason Kotter"
+      ],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/srbaker/academic-work"
+    },
+    {
+      "scholar": "Scott R. Baker",
+      "title": "What Triggers Stock Market Jumps?",
+      "coauthors": [
+        "Nicholas Bloom",
+        "Steve Davis",
+        "Marco Sammon"
+      ],
+      "journal": "Journal of Monetary Economics",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/srbaker/academic-work"
+    },
+    {
+      "scholar": "Sergey Chernenko",
+      "title": "Applications or Approvals: What Drives Racial Disparities in the Paycheck Protection Program?",
+      "coauthors": [
+        "Nathan Kaplan",
+        "Asani Sarkar",
+        "David Scharfstein"
+      ],
+      "journal": "Management Science",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/chernenkosergey/"
+    },
+    {
+      "scholar": "Stefan Obernberger",
+      "title": "Post-merger restructuring of the labor force",
+      "coauthors": [
+        "Britta Gehrke",
+        "Ernst Maug",
+        "Christoph Schneider"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/stefanobernberger/research?authuser=0"
+    },
+    {
+      "scholar": "Stephan Luck",
+      "title": "Supervising Failing Banks",
+      "coauthors": [
+        "Sergio Correia",
+        "Emil Verner"
+      ],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/stephanluck/Home/research"
+    },
+    {
+      "scholar": "Todd Gormley",
+      "title": "Do Index Funds Monitor? Revisited",
+      "coauthors": [
+        "Hwanki Brian Kim"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://www.gormley.info/research.html"
+    },
+    {
+      "scholar": "Wenxin Du",
+      "title": "International Portfolio Frictions",
+      "coauthors": [
+        "Alessandro Fontana",
+        "Petr Jakubik",
+        "Ralph Koijen",
+        "Hyun Song Shin"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/wenxindu/research?authuser=0"
+    },
+    {
+      "scholar": "Xiaomeng Lu",
+      "title": "Inflation, Default, and Corporate Bond Returns",
+      "coauthors": [
+        "Yoshio Nozawa",
+        "Zhaogang Song"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/xiaomenglu/home"
+    },
+    {
+      "scholar": "Yao Zeng",
+      "title": "A Dynamic Theory of Mutual Fund Runs and Liquidity Management",
+      "coauthors": [],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/yaozengwebsite/"
+    },
+    {
+      "scholar": "Yao Zeng",
+      "title": "Coordination and Fragility in Liquidity Provision",
+      "coauthors": [
+        "Ming Yang"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://sites.google.com/site/yaozengwebsite/"
+    },
+    {
+      "scholar": "Yukun Liu",
+      "title": "Accounting for Cryptocurrency Value",
+      "coauthors": [
+        "Aleh Tsyvinski",
+        "Xi Wu"
+      ],
+      "journal": "Journal of Accounting Research",
+      "status": "R&R",
+      "url": "https://www.yukunliu.com/research/"
+    },
+    {
+      "scholar": "Yukun Liu",
+      "title": "Forward Selection Fama-MacBeth Regression with Higher-Order Asset Pricing Factors",
+      "coauthors": [
+        "Nicola Borri",
+        "Denis Chetverikov",
+        "Aleh Tsyvinski"
+      ],
+      "journal": "Review of Financial Studies",
+      "status": "R&R",
+      "url": "https://www.yukunliu.com/research/"
+    },
+    {
+      "scholar": "Yukun Liu",
+      "title": "One Factor to Bind the Cross Section of Returns",
+      "coauthors": [
+        "Nicola Borri",
+        "Denis Chetverikov",
+        "Aleh Tsyvinski"
+      ],
+      "journal": "Journal of Finance",
+      "status": "R&R",
+      "url": "https://www.yukunliu.com/research/"
+    },
+    {
+      "scholar": "Zexi Wang",
+      "title": "The Effect of the Tax Cuts and Jobs Act on Payout Policies",
+      "coauthors": [
+        "Ana Albuquerque",
+        "Benjamin Bennett",
+        "Petro Lisowsky"
+      ],
+      "journal": "",
+      "status": "R&R",
+      "url": "https://sites.google.com/view/zexiwang"
+    },
+    {
+      "scholar": "Zhiguo He",
+      "title": "An Economic Model of Consensus on Distributed Ledgers",
+      "coauthors": [
+        "Hanna Halaburda",
+        "Jiasun Li"
+      ],
+      "journal": "Management Science",
+      "status": "R&R",
+      "url": "https://zhiguohe.net/publications/research/"
+    }
+  ]
+}

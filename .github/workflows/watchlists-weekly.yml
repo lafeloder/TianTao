@@ -35,6 +35,8 @@ jobs:
         env:
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
         run: python scripts/watchlists/refresh.py --discover-limit 30
+      - name: Complete public reference pagination and coverage reconciliation
+        run: python scripts/watchlists/benchmarks.py
       - name: Validate public data
         run: python scripts/watchlists/validate.py
       - name: Save evidence and coverage report
@@ -45,6 +47,7 @@ jobs:
             content/watchlists/review-queue.json
             content/watchlists/run-report.json
             content/watchlists/meta.json
+            content/watchlists/coverage-manifest.json
       - name: Commit refreshed data
         run: |
           git config user.name 'github-actions[bot]'

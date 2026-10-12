@@ -12,15 +12,23 @@ def main():
     assert len({j['id'] for j in jobs})==len(jobs)
     assert meta['approved_homepages']<=meta['author_name_groups']
     for p in rr:
-        assert p['title'] and p['authors'] and p['journal'] in ['JF','JFE','RFS','RF','JFQA']
+        assert p['title'] and p['authors'] and p['journal']
         assert p['evidence_url'].startswith('https://')
-        dt.date.fromisoformat(p['last_verified'])
-        if p['status']=='R&R':assert p['eligibility'] and p['eligibility']['doi']
+        if p['last_verified']:dt.date.fromisoformat(p['last_verified'])
+        else:assert p.get('reference_url') and p.get('verification_status')=='reference_only'
+        if p['eligibility']:assert p['eligibility']['doi']
     for j in jobs:
         assert j['source_url'].startswith('https://')
         if j['deadline']:dt.date.fromisoformat(j['deadline'])
-        if j['status']=='open':assert j['deadline'] and j['source_type']=='Official website'
+        if j['status']=='open':assert j['last_verified'] and j.get('verification')
         assert j['scope']!='FT Europe top 50' or j['rank'] is not None
+    for kind,items in [('papers',rr),('jobs',jobs)]:
+        ids={i for row in items for i in row.get('reference_ids',[])}
+        for source in meta.get('benchmark_sources',{}).get(kind,[]):
+            assert source['matched']==source['in_scope'] and source['missing']==0, 'Reference coverage regressed'
+        benchmark=load('coverage-manifest.json',{}).get(kind,{})
+        for name,expected in benchmark.items():
+            assert set(expected)<=ids, 'Missing reference IDs: '+name
     print(f'Validated {len(rr)} papers, {len(jobs)} vacancies and {len(schools)} schools')
 
 if __name__=='__main__':main()
