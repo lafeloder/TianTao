@@ -5,7 +5,7 @@
   "articles": 2402,
   "author_name_groups": 4301,
   "author_identity_records": 5833,
-  "approved_homepages": 3472,
+  "approved_homepages": 3470,
   "homepages_scanned_this_run": 675,
   "journals": {
     "JF": {
@@ -88,10 +88,10 @@
     ]
   },
   "author_homepage_coverage": {
-    "linked_authors": 3471,
+    "linked_authors": 3469,
     "author_rows": 4302,
-    "percent": 80.68,
-    "live_checked": 2540,
+    "percent": 80.64,
+    "live_checked": 2538,
     "indexed_primary": 256,
     "prior_approved": 675
   }
