@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "id": "cbs-clone-2026",
+      "title": "Postdoc in corporate networks and computational social science",
+      "institution": "Copenhagen Business School",
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "rank": 45,
+      "scope": "FT Europe top 50",
+      "topics": [
+        "Corporate finance"
+      ],
+      "fit": "Related field: corporate networks, accounting and textual data; Department of Organization.",
+      "deadline": "2026-10-21",
+      "status": "open",
+      "duration": "1 year",
+      "start": "Not specified",
+      "salary": "Collective agreement; amount not stated",
+      "source_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/postdoc-corporate-networks-and-computational-social",
+      "apply_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/postdoc-corporate-networks-and-computational-social",
+      "source_type": "Official website",
+      "last_verified": "2026-10-12",
+      "notes": "Requires experience with corporate network data. This is an adjacent corporate research role.",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "frankfurt-finance-2026",
+      "title": "Postdoctoral Researcher, Finance Department",
+      "institution": "Frankfurt School of Finance and Management",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "rank": 31,
+      "scope": "FT Europe top 50",
+      "topics": [
+        "Banking",
+        "Corporate finance",
+        "General interest"
+      ],
+      "fit": "Empirical economics, AI methods and regulatory policy evaluation.",
+      "deadline": "",
+      "status": "deadline unknown",
+      "duration": "2 years",
+      "start": "Autumn 2026",
+      "salary": "Not stated",
+      "source_url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-researcher-finance",
+      "apply_url": "https://apply.interfolio.com/181107",
+      "source_type": "Official website",
+      "last_verified": "2026-10-12",
+      "notes": "The official advertisement remains available. Its closing date and whether applications are still accepted could not be confirmed.",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "safe-finance-2026",
+      "title": "Postdoctoral Researcher in Finance",
+      "institution": "Leibniz Institute SAFE",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "rank": null,
+      "scope": "Additional institute",
+      "topics": [
+        "Banking",
+        "General interest"
+      ],
+      "fit": "Financial intermediation or macro finance; contact Karsten Muller.",
+      "deadline": "2026-11-26",
+      "status": "needs official confirmation",
+      "duration": "Conflicting fields: advert body says 2 years + possible 1-year extension; header says 1 year",
+      "start": "Earliest possible date",
+      "salary": "EUR 60,000–75,000 gross/year, TV-H E13 (advert)",
+      "source_url": "https://de.linkedin.com/jobs/view/postdoctoral-researcher-in-finance-m-f-d-at-leibniz-institute-for-financial-research-safe-4465693501",
+      "apply_url": "https://safe-frankfurt.de/about-safe/career.html",
+      "source_type": "LinkedIn",
+      "last_verified": "2026-10-12",
+      "notes": "Public LinkedIn advert located; official vacancy confirmation pending. SAFE is an additional institute, outside the FT top-50 business-school list.",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "rfberlin-economics-2026",
+      "title": "Postdoctoral Fellow in Economics",
+      "institution": "ROCKWOOL Foundation Berlin",
+      "country": "Germany",
+      "city": "Berlin",
+      "rank": null,
+      "scope": "Additional institute",
+      "topics": [
+        "Labor",
+        "General interest"
+      ],
+      "fit": "Applied economics, labor markets, inequality, migration and technology.",
+      "deadline": "2026-11-10",
+      "status": "open",
+      "duration": "2 years initially; possible renewals up to 6 years total",
+      "start": "Not specified",
+      "salary": "Not stated",
+      "source_url": "https://www.rfberlin.com/job/postdoctoral-fellow-economics/",
+      "apply_url": "https://www.rfberlin.com/job/postdoctoral-fellow-economics/",
+      "source_type": "Official website",
+      "last_verified": "2026-10-12",
+      "notes": "Deadline is 00:00 UTC on 10 November: plan to submit by 9 November. No teaching obligation. Additional institute, outside FT top 50.",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "frankfurt-cfet-2026",
+      "title": "Postdoctoral Fellowship",
+      "institution": "Frankfurt School of Finance and Management",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "rank": 31,
+      "scope": "FT Europe top 50",
+      "topics": [
+        "Banking"
+      ],
+      "fit": "Broad finance research; preference for financial intermediation and capital markets, at the Centre for European Transformation.",
+      "deadline": "",
+      "status": "deadline unknown",
+      "duration": "2 years",
+      "start": "By agreement",
+      "salary": "Competitive, by agreement",
+      "source_url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-fellowship-cfet",
+      "apply_url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-fellowship-cfet",
+      "source_type": "Official website",
+      "last_verified": "2026-10-12",
+      "notes": "No teaching duties. R/Python and empirical panel-data experience required; ML/AI experience is an asset. Closing date is not stated.",
+      "last_attempted": "2026-10-12"
+    }
+  ]
+}

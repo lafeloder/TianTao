@@ -1,0 +1,43 @@
+{
+  "last_run": "2026-10-12",
+  "publication_window_start": "2021-10-12",
+  "publication_window_end": "2026-10-12",
+  "articles": 2402,
+  "author_name_groups": 4301,
+  "author_identity_records": 5833,
+  "approved_homepages": 5,
+  "homepages_scanned_this_run": 5,
+  "journals": {
+    "JF": {
+      "status": "complete",
+      "articles": 402,
+      "checked_on": "2026-10-12"
+    },
+    "RFS": {
+      "status": "complete",
+      "articles": 503,
+      "checked_on": "2026-10-12"
+    },
+    "RF": {
+      "status": "complete",
+      "articles": 267,
+      "checked_on": "2026-10-12"
+    },
+    "JFQA": {
+      "status": "complete",
+      "articles": 546,
+      "checked_on": "2026-10-12"
+    },
+    "JFE": {
+      "status": "complete",
+      "articles": 684,
+      "checked_on": "2026-10-12"
+    }
+  },
+  "schools": 50,
+  "feeds_fetched": 21,
+  "review_queue": 12,
+  "schedule": "Weekly Mondays: source refresh at 06:15 UTC; evidence review on Monday mornings, Europe/London.",
+  "coverage_note": "Homepage coverage is partial. Name/affiliation identities are provisional. A fetched career feed is not an exhaustive vacancy search.",
+  "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed."
+}

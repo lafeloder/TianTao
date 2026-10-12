@@ -67,6 +67,16 @@ type = "page"
 target = "Other"
 href = "/Other"
 [[navigation]]
+title = "Top 5 R&R"
+type = "page"
+target = "Top5RR"
+href = "/Top5RR"
+[[navigation]]
+title = "Europe Postdocs"
+type = "page"
+target = "EuropePostdocs"
+href = "/EuropePostdocs"
+[[navigation]]
 title = "Data and Code"
 type = "page"
 target = "Data"

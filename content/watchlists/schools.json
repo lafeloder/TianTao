@@ -1,0 +1,529 @@
+{
+  "ranking_year": 2025,
+  "ranking_url": "https://rankings.ft.com/rankings/3042/european-business-school-rankings-2025",
+  "interpretation": "Top 50 by rank in FT European Business School Rankings, not the FT50 journal list. TIAS membership does not make every Tilburg department a ranked business school.",
+  "schools": [
+    {
+      "id": "ft2025-1",
+      "rank": 1,
+      "name": "INSEAD",
+      "country": "France",
+      "career_url": "https://www.insead.edu/jobs",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-2",
+      "rank": 2,
+      "name": "HEC Paris",
+      "country": "France",
+      "career_url": "https://www.hec.edu/en/recruitment",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-3",
+      "rank": 3,
+      "name": "London Business School",
+      "country": "United Kingdom",
+      "career_url": "https://www.london.edu/faculty-and-research/faculty-recruitment",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-4",
+      "rank": 4,
+      "name": "ESCP Business School",
+      "country": "France",
+      "career_url": "https://escp.eu/jobs",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-5",
+      "rank": 5,
+      "name": "IESE Business School",
+      "country": "Spain",
+      "career_url": "https://www.iese.edu/faculty-research/faculty-openings/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-6",
+      "rank": 6,
+      "name": "SDA Bocconi School of Management",
+      "country": "Italy",
+      "career_url": "https://www.unibocconi.it/en/faculty-and-research/recruiting",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-7",
+      "rank": 7,
+      "name": "ESSEC Business School",
+      "country": "France",
+      "career_url": "https://www.essec.edu/en/pages/about-essec/careers/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-8",
+      "rank": 8,
+      "name": "University of St Gallen",
+      "country": "Switzerland",
+      "career_url": "https://jobs.unisg.ch/",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-9",
+      "rank": 9,
+      "name": "EDHEC Business School",
+      "country": "France",
+      "career_url": "https://www.edhec.edu/en/recruitment",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-10",
+      "rank": 10,
+      "name": "emlyon business school",
+      "country": "France",
+      "career_url": "https://em-lyon.com/en/faculty-recruitment",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-11",
+      "rank": 11,
+      "name": "Esade Business School",
+      "country": "Spain",
+      "career_url": "https://www.esade.edu/faculty-research/en/faculty-recruitment",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-12",
+      "rank": 12,
+      "name": "ESMT Berlin",
+      "country": "Germany",
+      "career_url": "https://esmt.berlin/about-us/jobs",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-13",
+      "rank": 13,
+      "name": "IMD",
+      "country": "Switzerland",
+      "career_url": "https://www.imd.org/about/careers/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-14",
+      "rank": 14,
+      "name": "University of Oxford: Said",
+      "country": "United Kingdom",
+      "career_url": "https://www.jobs.ox.ac.uk/",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-15",
+      "rank": 15,
+      "name": "Mannheim Business School",
+      "country": "Germany",
+      "career_url": "https://www.uni-mannheim.de/en/about/working-at-the-university/job-opportunities/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-16",
+      "rank": 16,
+      "name": "SKEMA Business School",
+      "country": "France",
+      "career_url": "https://www.skema.edu/en/careers",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-17",
+      "rank": 17,
+      "name": "Nova School of Business and Economics",
+      "country": "Portugal",
+      "career_url": "https://www.novasbe.unl.pt/en/about-us/careers",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-18",
+      "rank": 18,
+      "name": "Warwick Business School",
+      "country": "United Kingdom",
+      "career_url": "https://warwick.ac.uk/services/humanresources/jobslive/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-19",
+      "rank": 19,
+      "name": "Stockholm School of Economics",
+      "country": "Sweden",
+      "career_url": "https://www.hhs.se/en/about-us/vacancies/",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-20",
+      "rank": 20,
+      "name": "WHU Otto Beisheim School of Management",
+      "country": "Germany",
+      "career_url": "https://www.whu.edu/en/about-whu/career/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-21",
+      "rank": 21,
+      "name": "IE Business School",
+      "country": "Spain",
+      "career_url": "https://www.ie.edu/working-at-ie/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-22",
+      "rank": 22,
+      "name": "University of Cambridge: Judge",
+      "country": "United Kingdom",
+      "career_url": "https://www.jobs.cam.ac.uk/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-23",
+      "rank": 23,
+      "name": "University College Dublin: Smurfit",
+      "country": "Ireland",
+      "career_url": "https://www.ucd.ie/workatucd/jobs/",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-24",
+      "rank": 24,
+      "name": "Grenoble Ecole de Management",
+      "country": "France",
+      "career_url": "https://www.grenoble-em.com/en/jobs",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-25",
+      "rank": 25,
+      "name": "Vlerick Business School",
+      "country": "Belgium",
+      "career_url": "https://www.vlerick.com/en/about-vlerick/careers/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-26",
+      "rank": 26,
+      "name": "Audencia",
+      "country": "France",
+      "career_url": "https://www.audencia.com/en/join-us",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-27",
+      "rank": 26,
+      "name": "Catolica Lisbon School of Business and Economics",
+      "country": "Portugal",
+      "career_url": "https://www.clsbe.lisboa.ucp.pt/faculty-and-research/faculty-recruitment",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-28",
+      "rank": 28,
+      "name": "NEOMA Business School",
+      "country": "France",
+      "career_url": "https://neoma-bs.com/about-neoma/join-us/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-29",
+      "rank": 29,
+      "name": "Cranfield School of Management",
+      "country": "United Kingdom",
+      "career_url": "https://jobs.cranfield.ac.uk/",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-30",
+      "rank": 30,
+      "name": "EADA Business School Barcelona",
+      "country": "Spain",
+      "career_url": "https://www.eada.edu/en/about-eada/work-us",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-31",
+      "rank": 31,
+      "name": "Frankfurt School of Finance and Management",
+      "country": "Germany",
+      "career_url": "https://www.frankfurt-school.de/en/about/careers",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-32",
+      "rank": 32,
+      "name": "KEDGE Business School",
+      "country": "France",
+      "career_url": "https://kedge.edu/recruitment",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-33",
+      "rank": 33,
+      "name": "Rotterdam School of Management, Erasmus University",
+      "country": "Netherlands",
+      "career_url": "https://www.eur.nl/en/working-erasmus-university/vacancies",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-34",
+      "rank": 34,
+      "name": "Bayes Business School",
+      "country": "United Kingdom",
+      "career_url": "https://www.citystgeorges.ac.uk/about/working-at-city",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-35",
+      "rank": 35,
+      "name": "Polimi School of Management",
+      "country": "Italy",
+      "career_url": "https://www.polimi.it/en/faculty-and-researchers/calls-and-competitions",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-36",
+      "rank": 36,
+      "name": "Alliance Manchester Business School",
+      "country": "United Kingdom",
+      "career_url": "https://www.jobs.manchester.ac.uk/",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-37",
+      "rank": 37,
+      "name": "Henley Business School",
+      "country": "United Kingdom",
+      "career_url": "https://jobs.reading.ac.uk/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-38",
+      "rank": 38,
+      "name": "University of Porto FEP / PBS",
+      "country": "Portugal",
+      "career_url": "https://sigarra.up.pt/up/en/WEB_BASE.GERA_PAGINA?p_pagina=121271",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-39",
+      "rank": 39,
+      "name": "Imperial Business School",
+      "country": "United Kingdom",
+      "career_url": "https://www.imperial.ac.uk/jobs/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-40",
+      "rank": 40,
+      "name": "BI Norwegian Business School",
+      "country": "Norway",
+      "career_url": "https://www.bi.edu/about-bi/vacancies/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-41",
+      "rank": 41,
+      "name": "WU Vienna University of Economics and Business",
+      "country": "Austria",
+      "career_url": "https://www.wu.ac.at/en/careers/careers-at-wu",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-42",
+      "rank": 42,
+      "name": "Kozminski University",
+      "country": "Poland",
+      "career_url": "https://www.kozminski.edu.pl/en/careers",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-43",
+      "rank": 43,
+      "name": "Trinity College Dublin, Trinity Business School",
+      "country": "Ireland",
+      "career_url": "https://www.tcd.ie/hr/vacancies/",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-44",
+      "rank": 44,
+      "name": "ISCTE Business School",
+      "country": "Portugal",
+      "career_url": "https://www.iscte-iul.pt/conteudos/iscte/working-at-iscte/1458/jobs",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-45",
+      "rank": 45,
+      "name": "Copenhagen Business School",
+      "country": "Denmark",
+      "career_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-46",
+      "rank": 46,
+      "name": "Aalto University",
+      "country": "Finland",
+      "career_url": "https://www.aalto.fi/en/open-positions",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-47",
+      "rank": 47,
+      "name": "IESEG School of Management",
+      "country": "France",
+      "career_url": "https://www.ieseg.fr/en/faculty-and-research/recruitment/",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-48",
+      "rank": 48,
+      "name": "Prague University of Economics and Business",
+      "country": "Czech Republic",
+      "career_url": "https://www.vse.cz/english/jobs/",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    },
+    {
+      "id": "ft2025-49",
+      "rank": 49,
+      "name": "TIAS Business School, Tilburg University",
+      "country": "Netherlands",
+      "career_url": "https://www.tilburguniversity.edu/about/working/vacancies",
+      "scope": "FT Europe top 50",
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-12",
+      "last_fetched": "2026-10-12"
+    },
+    {
+      "id": "ft2025-50",
+      "rank": 50,
+      "name": "Luiss University / Luiss Business School",
+      "country": "Italy",
+      "career_url": "https://www.luiss.edu/university/job-opportunities",
+      "scope": "FT Europe top 50",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-12"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "attempted_on": "2026-10-12",
+  "sources": [
+    {
+      "url": "https://danielneuhann.com/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://de.linkedin.com/jobs/view/postdoctoral-researcher-in-finance-m-f-d-at-leibniz-institute-for-financial-research-safe-4465693501",
+      "result": "failed",
+      "error": "PermissionError"
+    },
+    {
+      "url": "https://em-lyon.com/en/faculty-recruitment",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://escp.eu/jobs",
+      "result": "failed",
+      "error": "URLError"
+    },
+    {
+      "url": "https://esmt.berlin/about-us/jobs",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://finance-faculty.wharton.upenn.edu/wdou/2025/07/24/industry-distress-anomaly/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://jobs.cranfield.ac.uk/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://jobs.reading.ac.uk/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://jobs.unisg.ch/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://kedge.edu/recruitment",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://neoma-bs.com/about-neoma/join-us/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://nielsjohannesen.net/papers/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sigarra.up.pt/up/en/WEB_BASE.GERA_PAGINA?p_pagina=121271",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://sites.google.com/site/tianqiufinance/research",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://warwick.ac.uk/services/humanresources/jobslive/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.aalto.fi/en/open-positions",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.antonlines.com/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.audencia.com/en/join-us",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.bi.edu/about-bi/vacancies/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/postdoc-corporate-networks-and-computational-social",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.citystgeorges.ac.uk/about/working-at-city",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.clsbe.lisboa.ucp.pt/faculty-and-research/faculty-recruitment",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.eada.edu/en/about-eada/work-us",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.edhec.edu/en/recruitment",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.esade.edu/faculty-research/en/faculty-recruitment",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.essec.edu/en/pages/about-essec/careers/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.eur.nl/en/working-erasmus-university/vacancies",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.frankfurt-school.de/en/about/careers",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-fellowship-cfet",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-researcher-finance",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.grenoble-em.com/en/jobs",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.hec.edu/en/recruitment",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.hhs.se/en/about-us/vacancies/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.ie.edu/working-at-ie/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.iese.edu/faculty-research/faculty-openings/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.ieseg.fr/en/faculty-and-research/recruitment/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.imd.org/about/careers/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/jobs/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.insead.edu/jobs",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.iscte-iul.pt/conteudos/iscte/working-at-iscte/1458/jobs",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.jobs.cam.ac.uk/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.jobs.manchester.ac.uk/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.jobs.ox.ac.uk/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.kozminski.edu.pl/en/careers",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.london.edu/faculty-and-research/faculty-recruitment",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.luiss.edu/university/job-opportunities",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.novasbe.unl.pt/en/about-us/careers",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.polimi.it/en/faculty-and-researchers/calls-and-competitions",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.rfberlin.com/job/postdoctoral-fellow-economics/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.skema.edu/en/careers",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.tcd.ie/hr/vacancies/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.tilburguniversity.edu/about/working/vacancies",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.ucd.ie/workatucd/jobs/",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.uni-mannheim.de/en/about/working-at-the-university/job-opportunities/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.unibocconi.it/en/faculty-and-research/recruiting",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.vlerick.com/en/about-vlerick/careers/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.vse.cz/english/jobs/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.whu.edu/en/about-whu/career/",
+      "result": "failed",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.wu.ac.at/en/careers/careers-at-wu",
+      "result": "fetched",
+      "error": ""
+    }
+  ]
+}

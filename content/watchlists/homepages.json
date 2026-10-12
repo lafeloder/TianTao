@@ -1,0 +1,84 @@
+{
+  "authors": [
+    {
+      "name": "Daniel Neuhann",
+      "url": "https://danielneuhann.com/",
+      "identity_evidence_url": "https://danielneuhann.com/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2022.10.005",
+        "journal": "JFE",
+        "title": "Collateral quality and intervention traps",
+        "published": "2023-01-01"
+      },
+      "last_attempted": "2026-10-12",
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-12"
+    },
+    {
+      "name": "Anton Lines",
+      "url": "https://www.antonlines.com/",
+      "identity_evidence_url": "https://www.antonlines.com/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2024.103948",
+        "journal": "JFE",
+        "title": "Broken promises, competition, and capital allocation in the mutual fund industry",
+        "published": "2024-12-01"
+      },
+      "last_attempted": "2026-10-12",
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-12"
+    },
+    {
+      "name": "Niels Johannesen",
+      "url": "https://nielsjohannesen.net/papers/",
+      "identity_evidence_url": "https://nielsjohannesen.net/publications/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1111/jofi.13262",
+        "journal": "JF",
+        "title": "Monetary Policy and Inequality",
+        "published": "2023-07-27"
+      },
+      "last_attempted": "2026-10-12",
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-12"
+    },
+    {
+      "name": "Tian Qiu",
+      "url": "https://sites.google.com/site/tianqiufinance/research",
+      "identity_evidence_url": "https://sites.google.com/site/tianqiufinance/research",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1017/s0022109025000110",
+        "journal": "JFQA",
+        "title": "Filing Agents and Information Leakage",
+        "published": "2025-03-14"
+      },
+      "last_attempted": "2026-10-12",
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-12"
+    },
+    {
+      "name": "Winston Wei Dou",
+      "url": "https://finance-faculty.wharton.upenn.edu/wdou/2025/07/24/industry-distress-anomaly/",
+      "identity_evidence_url": "https://finance-faculty.wharton.upenn.edu/wdou/",
+      "approved": true,
+      "approved_on": "2026-10-12",
+      "eligibility": {
+        "doi": "10.1093/rfs/hhab120",
+        "journal": "RFS",
+        "title": "The Oligopoly Lucas Tree",
+        "published": "2021-11-06"
+      },
+      "last_attempted": "2026-10-12",
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-12"
+    }
+  ]
+}
