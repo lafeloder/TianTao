@@ -1,0 +1,73 @@
+{
+  "updated_on": "2026-10-12",
+  "status": "blocked_environment_offline",
+  "published_design_commit": "4b6da36431de02ba32f6eb1458280a5efb40cc2b",
+  "initial_workbook": {
+    "library_file_id": "libfile_2ab0f8a976908191b02144892ce72f6e",
+    "file_name": "Top5_Authors_Websites_RR.xlsx",
+    "version": 0,
+    "author_name_rows": 4301,
+    "verified_homepages": 29,
+    "complete": false
+  },
+  "author_scope": {
+    "articles": 2402,
+    "normalized_name_groups": 4301,
+    "provisional_author_ids": 5833,
+    "after_confirmed_Meng_Gao_split_rows": 4302
+  },
+  "completed": [
+    "Minimal page design deployed and verified",
+    "Initial XLSX created, rendered and saved",
+    "802 ORCID identities attempted; 220 verified personal websites",
+    "74383 RePEc names, 1764 public profile pages, 1296 homepage candidates, 216 official individual pages reviewed; 749 verified owned sites",
+    "Full-range first-round author-name searches completed",
+    "Two Meng Gao scholars disambiguated; Ilias Filippou metadata aliases reconciled",
+    "Static parser regression: 39/39 cached five-finance-journal disclosures recovered; publisher reconciliation required"
+  ],
+  "not_completed": [
+    "Final website ownership ledger merge and revocation of obsolete shared identity-only sites",
+    "Full R&R traversal: deliberately not started before completing website phase",
+    "Full SSRN-title checks and final enriched XLSX",
+    "Expanded paper data publication after workbook"
+  ],
+  "blocking_error": "409 Conflict, environment_offline: Environment is not connected. Local read/write, candidate fetches and builds unavailable.",
+  "resume": {
+    "repo": "lafeloder/TianTao",
+    "workspace": "/workspace/scratch/575f2e6df432",
+    "research": "/workspace/scratch/575f2e6df432/author-research",
+    "read": [
+      "orcid-homepages.json",
+      "directory-homepages.json",
+      "directory-homepages-stats.json",
+      "verified-institution-map.json",
+      "web-homepages-1.json",
+      "web-homepages-2.json",
+      "web-homepages-3.json",
+      "manual-homepages-3.json",
+      "identity-resolution.json",
+      "rr_parser_improved.py",
+      "test_rr_parser_improved.py",
+      "rr-parser-evaluation.json",
+      "rr-parser-link-audit.json"
+    ],
+    "audit_rules": [
+      "Directory sites require real_homepage_verified=true and matching verified_author_ids",
+      "Ignore stale reuse_verified_identity URLs unless independently owned-site verified",
+      "Web batch 1: last confirmed 1396/1434 rows; confirm last38 and shared-source revocations",
+      "Web batch 2: final stricter reread blocked; treat unvisited snippet-only sites and 47 declaration-only URLs as candidates",
+      "Web batch 3: latest completed snapshot 1433,635 primary,604 identity,194 unresolved predates final RePEc revocations; rerun final audit",
+      "Use complete surname/token boundaries: Li must not match Liu; reject coauthor pages, generic directories, news, background aggregators and expired nonacademic domains",
+      "Meng Gao UIBE: ORCID0000-0003-0374-8607, https://menggaosite.github.io/; UConn: ORCID0000-0001-6805-2323, https://sites.google.com/view/menggao/home",
+      "Merge accepted/published before current R&R; exact-title plus verified-author publisher DOI wins",
+      "First save enriched XLSX, then publish paper/SSRN updates; preserve minimalist website"
+    ],
+    "scripts_pending_local": [
+      "scripts/watchlists/author_table.py",
+      "scripts/watchlists/export-authors.mjs",
+      "scripts/watchlists/author_papers.py",
+      "scripts/watchlists/test_author_papers.py",
+      "content/watchlists/author-identity-resolutions.json"
+    ]
+  }
+}

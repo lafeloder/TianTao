@@ -3145,22 +3145,22 @@
       "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
       "journal": "RFS",
       "journal_name_original": "Review of Financial Studies",
-      "status": "R&R",
+      "status": "Published",
       "status_original": "Revise and resubmit",
       "reference_url": "https://chenyangfinance.github.io/paper-status/",
       "reference_date": "2026-09-29",
       "reference_status": "R&R",
       "reference_journal": "Review of Financial Studies",
-      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "evidence_url": "https://doi.org/10.1093/rfs/hhag011",
       "source_author": "Michael Weber",
       "source_updated": "",
       "source_status_date": null,
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-12",
-      "verification": "author homepage",
-      "verification_status": "primary_confirmed",
-      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "verification": "Published journal article; publisher metadata supersedes the earlier homepage revision report",
+      "verification_status": "publisher_confirmed",
+      "evidence_excerpt": "Published, RFS",
       "scope": "top5",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2025.104166",
@@ -3189,7 +3189,19 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "previous_status": "R&R",
+      "previous_evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "publication_doi": "10.1093/rfs/hhag011",
+      "publication_date": "2026-03-30",
+      "publication_journal": "RFS",
+      "status_history": [
+        {
+          "status": "Published",
+          "checked_on": "2026-10-12",
+          "evidence_url": "https://doi.org/10.1093/rfs/hhag011"
+        }
+      ]
     },
     {
       "id": "chenyang-054",
@@ -3261,22 +3273,22 @@
       "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
       "journal": "RFS",
       "journal_name_original": "Review of Financial Studies",
-      "status": "R&R",
+      "status": "Published",
       "status_original": "Revise and resubmit",
       "reference_url": "https://chenyangfinance.github.io/paper-status/",
       "reference_date": "2026-09-29",
       "reference_status": "R&R",
       "reference_journal": "Review of Financial Studies",
-      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "evidence_url": "https://doi.org/10.1093/rfs/hhaf106",
       "source_author": "Michael Weber",
       "source_updated": "",
       "source_status_date": null,
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-12",
-      "verification": "author homepage",
-      "verification_status": "primary_confirmed",
-      "evidence_excerpt": "R&R, Review of Financial Studies",
+      "verification": "Published journal article; publisher metadata supersedes the earlier homepage revision report",
+      "verification_status": "publisher_confirmed",
+      "evidence_excerpt": "Published, RFS",
       "scope": "top5",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2025.104166",
@@ -3305,7 +3317,19 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "previous_status": "R&R",
+      "previous_evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "publication_doi": "10.1093/rfs/hhaf106",
+      "publication_date": "2025-12-02",
+      "publication_journal": "RFS",
+      "status_history": [
+        {
+          "status": "Published",
+          "checked_on": "2026-10-12",
+          "evidence_url": "https://doi.org/10.1093/rfs/hhaf106"
+        }
+      ]
     },
     {
       "id": "chenyang-056",
@@ -3374,22 +3398,22 @@
       "authors_note": "Author order not asserted; source scholar followed by listed coauthors. Some baseline coauthors are abbreviated.",
       "journal": "JFQA",
       "journal_name_original": "Journal of Finances and Quantitative Analysis",
-      "status": "R&R",
+      "status": "Published",
       "status_original": "Revise and resubmit",
       "reference_url": "https://chenyangfinance.github.io/paper-status/",
       "reference_date": "2026-09-29",
       "reference_status": "R&R",
       "reference_journal": "Journal of Finances and Quantitative Analysis",
-      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "evidence_url": "https://doi.org/10.1017/s0022109025102512",
       "source_author": "Michael Weber",
       "source_updated": "",
       "source_status_date": null,
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-12",
-      "verification": "author homepage",
-      "verification_status": "primary_confirmed",
-      "evidence_excerpt": "R&R, Journal of Financial and Quantitative Analysis",
+      "verification": "Published journal article; publisher metadata supersedes the earlier homepage revision report",
+      "verification_status": "publisher_confirmed",
+      "evidence_excerpt": "Published, JFQA",
       "scope": "top5",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2025.104166",
@@ -3418,7 +3442,19 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "previous_status": "R&R",
+      "previous_evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "publication_doi": "10.1017/s0022109025102512",
+      "publication_date": "2025-12-29",
+      "publication_journal": "JFQA",
+      "status_history": [
+        {
+          "status": "Published",
+          "checked_on": "2026-10-12",
+          "evidence_url": "https://doi.org/10.1017/s0022109025102512"
+        }
+      ]
     },
     {
       "id": "chenyang-058",
@@ -4502,15 +4538,15 @@
       "title": "Inflation and Trading",
       "journal": "JFE",
       "journal_name_original": "Journal of Financial Economics",
-      "status": "R&R",
-      "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "status": "Published",
+      "evidence_url": "https://doi.org/10.1016/j.jfineco.2025.104166",
       "source_author": "Michael Weber",
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-12",
-      "verification": "author homepage",
-      "verification_status": "primary_confirmed",
-      "evidence_excerpt": "R&R, JFE",
+      "verification": "Published journal article; publisher metadata supersedes the earlier homepage revision report",
+      "verification_status": "publisher_confirmed",
+      "evidence_excerpt": "Published, JFE",
       "scope": "top5",
       "baseline_record": false,
       "evidence_sources": [
@@ -4546,7 +4582,19 @@
       "source_updated": "",
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "previous_status": "R&R",
+      "previous_evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "publication_doi": "10.1016/j.jfineco.2025.104166",
+      "publication_date": "2025-11-01",
+      "publication_journal": "JFE",
+      "status_history": [
+        {
+          "status": "Published",
+          "checked_on": "2026-10-12",
+          "evidence_url": "https://doi.org/10.1016/j.jfineco.2025.104166"
+        }
+      ]
     },
     {
       "title": "ETF Arbitrage under Liquidity Mismatch",
