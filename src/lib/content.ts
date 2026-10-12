@@ -57,7 +57,7 @@ export function getTomlContent<T>(filename: string, locale?: string): T | null {
   }
 
   try {
-    return parse(content) as unknown as T;
+    return JSON.parse(JSON.stringify(parse(content))) as T;
   } catch (error) {
     console.error(`Error parsing TOML file ${filename}:`, error);
     return null;

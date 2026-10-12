@@ -32,7 +32,8 @@
       "reference_ids": [],
       "source_scope": "top5",
       "verification_status": "primary_confirmed",
-      "eligibility_status": "verified"
+      "eligibility_status": "verified",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4799706"
     },
     {
       "id": "rr-2",
@@ -65,7 +66,8 @@
       "reference_ids": [],
       "source_scope": "top5",
       "verification_status": "primary_confirmed",
-      "eligibility_status": "verified"
+      "eligibility_status": "verified",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4672473"
     },
     {
       "id": "rr-3",
@@ -96,7 +98,8 @@
       "reference_ids": [],
       "source_scope": "top5",
       "verification_status": "primary_confirmed",
-      "eligibility_status": "verified"
+      "eligibility_status": "verified",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3095730"
     },
     {
       "id": "rr-4",
@@ -131,7 +134,8 @@
       "reference_ids": [],
       "source_scope": "top5",
       "verification_status": "primary_confirmed",
-      "eligibility_status": "verified"
+      "eligibility_status": "verified",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4447765"
     },
     {
       "id": "rr-5",
@@ -165,7 +169,8 @@
       "reference_ids": [],
       "source_scope": "top5",
       "verification_status": "primary_confirmed",
-      "eligibility_status": "verified"
+      "eligibility_status": "verified",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2580551"
     },
     {
       "id": "rr-6",
@@ -261,7 +266,8 @@
       "reference_ids": [],
       "source_scope": "top5",
       "verification_status": "primary_confirmed",
-      "eligibility_status": "verified"
+      "eligibility_status": "verified",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5507318"
     },
     {
       "id": "rr-8",
@@ -296,7 +302,8 @@
       "reference_ids": [],
       "source_scope": "top5",
       "verification_status": "primary_confirmed",
-      "eligibility_status": "verified"
+      "eligibility_status": "verified",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4738806"
     },
     {
       "id": "chenyang-001",
@@ -641,7 +648,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2981793"
     },
     {
       "id": "chenyang-008",
@@ -793,7 +801,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4139724"
     },
     {
       "id": "chenyang-011",
@@ -908,7 +917,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4422726"
     },
     {
       "id": "chenyang-013",
@@ -1196,7 +1206,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3416247"
     },
     {
       "id": "chenyang-018",
@@ -1701,7 +1712,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3857851"
     },
     {
       "id": "chenyang-027",
@@ -1805,7 +1817,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5006884"
     },
     {
       "id": "chenyang-029",
@@ -1927,7 +1940,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4098229"
     },
     {
       "id": "chenyang-031",
@@ -2103,7 +2117,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4737312"
     },
     {
       "id": "chenyang-034",
@@ -2220,7 +2235,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4714159"
     },
     {
       "id": "chenyang-036",
@@ -2326,7 +2342,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4658990"
     },
     {
       "id": "chenyang-038",
@@ -2498,7 +2515,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5150413"
     },
     {
       "id": "chenyang-041",
@@ -2906,7 +2924,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4482626"
     },
     {
       "id": "chenyang-048",
@@ -3018,7 +3037,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3847983"
     },
     {
       "id": "chenyang-050",
@@ -3073,7 +3093,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3732444"
     },
     {
       "id": "chenyang-052",
@@ -3607,7 +3628,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3436433"
     },
     {
       "id": "chenyang-061",
@@ -3663,7 +3685,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809469"
     },
     {
       "id": "chenyang-062",
@@ -3723,7 +3746,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4455756"
     },
     {
       "id": "chenyang-063",
@@ -3898,7 +3922,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3838865"
     },
     {
       "id": "chenyang-066",
@@ -4359,7 +4384,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5181447"
     },
     {
       "id": "chenyang-074",
@@ -4417,7 +4443,8 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "top5"
+      "source_scope": "top5",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4791496"
     },
     {
       "id": "chenyang-075",
@@ -4696,6 +4723,1106 @@
       "topics": [],
       "reference_checked_on": "2026-10-12",
       "source_scope": "top5"
+    },
+    {
+      "id": "author-site-20261012-001",
+      "title": "Dash for Dollars",
+      "authors": [
+        "Robert Czech",
+        "Ambrogio Cesa-Bianchi",
+        "Fernando Eguren-Martin"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/robertczech/research",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Robert Czech",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "The Market for Inflation Risk [Data Appendix]with Saleem Bahaj (UCL/BoE), Sitong Ding (LSE) and Ricardo Reis (LSE). Revise & Resubmit, American Economic Review.Dash for Dollarswith Ambrogio Cesa-Bianchi (BoE) and Fernando Eguren-Martin (SPX Capital). Revise & Resubmit, Review of Financial Studies.LASH Risk and Interest Rateswith Laura Alfaro (HBS),",
+      "eligibility": {
+        "author": "Robert Czech",
+        "doi": "10.1016/j.jfineco.2021.05.049",
+        "journal": "JFE",
+        "title": "Informed trading in government bond markets",
+        "published": "2021-12-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-002",
+      "title": "Commonalities in Firm-level Implied Volatilities",
+      "authors": [
+        "Mykola Babiak",
+        "Jozef Barunik",
+        "Mattia Bevilacqua",
+        "Michael Ellington"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://barunik.github.io",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4565218",
+      "source_author": "Jozef Baruník",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Commonalities in Firm-level Implied Volatilities (with M.Babiak, M.Ellington, and M.Bevilacqua) preprint draft on SSRN (Nov 2024) R & R, Journal of Financial and Quantitative Analysis When David becomes Goliath:Repo dealer-driven bond mispricing (with C. Salazar, E. Gerba) submitted (Mar 2026 - updated version available) Bank of England Staff Worki",
+      "eligibility": {
+        "author": "Jozef Baruník",
+        "doi": "10.1017/s002210902610307x",
+        "journal": "JFQA",
+        "title": "Common Idiosyncratic Quantile Factors and Asset Prices",
+        "published": "2026-06-10"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-003",
+      "title": "Aggregate Collateral Demand",
+      "authors": [
+        "Chase P. Ross",
+        "Sriya Anbil",
+        "Toomas Laarits",
+        "Sharon Y. Ross"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://chaseross.com",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6662218",
+      "source_author": "Chase P. Ross",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Aggregate Collateral Demand (Updated 6/2026) with Sriya Anbil, Toomas Laarits, and Sharon Y. Ross Revise & Resubmit, Journal of Financial Economics Abstract · SSRN",
+      "eligibility": {
+        "author": "Chase P. Ross",
+        "doi": "10.1017/s0022109025000134",
+        "journal": "JFQA",
+        "title": "Leverage and Stablecoin Pegs",
+        "published": "2025-03-14"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-004",
+      "title": "Strategic claim payment delays and denials? Evidence from property and casualty insurance",
+      "authors": [
+        "Tarun Ramadorai",
+        "Chotibhak Jotikasthira",
+        "Christian Lundblad",
+        "Anastasia Kartasheva"
+      ],
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.tarunramadorai.com",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5115108",
+      "source_author": "Tarun Ramadorai",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Strategic claim payment delays and denials? Evidence from property and casualty insuranceWith Chotibhak Jotikasthira, Christian Lundblad, and Anastasia Kartasheva2026.Revise and resubmit, Journal of Finance",
+      "eligibility": {
+        "author": "Tarun Ramadorai",
+        "doi": "10.1093/rfs/hhag029",
+        "journal": "RFS",
+        "title": "New Frontiers in Household Finance",
+        "published": "2026-04-16"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-005",
+      "title": "Geopolitical Risk and Global Banking",
+      "authors": [
+        "Leslie Sheng Shen",
+        "Friederike Niepmann"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://lsshen.com/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5200724",
+      "source_author": "Leslie Sheng Shen",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Geopolitical Risk and Global Banking, with Friederike Niepmann. Revise and Resubmit, Review of Financial Studies In Media: Le Monde, Boston Fed, S&P Global, POLITICO, Faculti, Forbes",
+      "eligibility": {
+        "author": "Leslie Sheng Shen",
+        "doi": "10.1093/rfs/hhad067",
+        "journal": "RFS",
+        "title": "Local Effects of Global Capital Flows: A China Shock in the U.S. Housing Market",
+        "published": "2023-08-21"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-006",
+      "title": "Public Debt and Investment Under Political Competition",
+      "authors": [
+        "Boris Vallée",
+        "Julien Sauvagnat"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://www.borisvallee.com/",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Boris Vallee",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "with Julien Sauvagnat Revise and Resubmit, Review of Finance",
+      "eligibility": {
+        "author": "Boris Vallee",
+        "doi": "10.1111/jofi.70003",
+        "journal": "JF",
+        "title": "FinTech Lending and Cashless Payments",
+        "published": "2025-12-18"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-007",
+      "title": "Government guarantees and dynamic debt runs",
+      "authors": [
+        "Jacopo Magnani",
+        "Yabin Wang"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/jacopomagnani/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4268058",
+      "source_author": "Jacopo Magnani",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Government guarantees and dynamic debt runs, with Yabin Wang - revise and resubmit at the Review of Finance",
+      "eligibility": {
+        "author": "Jacopo Magnani",
+        "doi": "10.1093/rfs/hhag070",
+        "journal": "RFS",
+        "title": "Stocks as Lotteries? An Experimental Test of Expected Utility versus Behavioral Models",
+        "published": "2026-07-30"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-008",
+      "title": "Security Comes at a Cost: The Economic Consequences of U.S. Government Interventions in Foreign Investments",
+      "authors": [
+        "Yuehua Tang",
+        "Sichong Chen",
+        "Andy Naranjo"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/yuehuatang/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4738490",
+      "source_author": "Yuehua Tang",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "5. “Security Comes at a Cost: The Economic Consequences of U.S. Government Interventions in Foreign Investments” (with Sichong Chen and Andy Naranjo), 2026. Revise & Resubmit, Journal of Financial and Quantitative Analysis",
+      "eligibility": {
+        "author": "Yuehua Tang",
+        "doi": "10.1016/j.jfineco.2026.104335",
+        "journal": "JFE",
+        "title": "Can ChatGPT forecast stock price movements? Return predictability and large language models",
+        "published": "2026-10-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-009",
+      "title": "Relationship Discounts in Corporate Bond Trading",
+      "authors": [
+        "Karamfil Todorov",
+        "Simon Jurkatis",
+        "Nicholas Vause",
+        "Andreas Schrimpf"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://ktodorov.com",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4301416",
+      "source_author": "Karamfil Todorov",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Relationship Discounts in Corporate Bond Trading Review of Finance, R&R Joint with Simon Jurkatis (Bank of England), Nicholas Vause (Bank of England) and Andreas Schrimpf (Bank for International Settlements) We find that clients with stronger past trading relationships with a dealer receive consistently better prices in corporate bond trading. The ",
+      "eligibility": {
+        "author": "Karamfil Todorov",
+        "doi": "10.1093/rof/rfad038",
+        "journal": "RF",
+        "title": "When passive funds affect prices: evidence from volatility and commodity ETFs",
+        "published": "2023-11-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-010",
+      "title": "Free-Riders and Underdogs: Participation in Corporate Voting",
+      "authors": [
+        "Konstantinos E. Zachariadis",
+        "Dragana Cvijanović",
+        "Moqi Groen-Xu"
+      ],
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.konstantinosezachariadis.com",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2939744",
+      "source_author": "Konstantinos E. Zachariadis",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "“Free-Riders and Underdogs: Participation in Corporate Voting”, with D. Cvijanovic and M. Groen-Xu, 2nd round revise and resubmit at the Journal of Finance.Harvard Law School Forum on Corporate Governance and Financial Regulation entryQueen Mary Policy Briefs",
+      "eligibility": {
+        "author": "Konstantinos E. Zachariadis",
+        "doi": "10.1016/j.jfineco.2022.02.005",
+        "journal": "JFE",
+        "title": "The Wall Street stampede: Exit as governance with interacting blockholders",
+        "published": "2022-05-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-011",
+      "title": "Climate Risk, Soft Information, and Credit Supply",
+      "authors": [
+        "Laura Álvarez-Román",
+        "Sergio Mayordomo",
+        "Carles Vergara-Alert",
+        "Xavier Vives"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://blog.iese.edu/xvives/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4652671",
+      "source_author": "Xavier Vives",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "“Climate Risk, Soft Information, and Credit Supply” (with L. Álvarez, S. Mayordomo and C. Vergara-Alert), R&R at Review of Finance.",
+      "eligibility": {
+        "author": "Xavier Vives",
+        "doi": "10.1016/j.jfineco.2025.104040",
+        "journal": "JFE",
+        "title": "Fintech entry, lending market competition, and welfare",
+        "published": "2025-06-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-012",
+      "title": "Endogenous Default Risk and Heterogeneous Credit Transmission",
+      "authors": [
+        "Pierre Mabille",
+        "Olivier Wang"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://www.olivierwang.com",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3948052",
+      "source_author": "OLIVIER WANG",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Journal of Financial Economics, revise and resubmit",
+      "eligibility": {
+        "author": "OLIVIER WANG",
+        "doi": "10.1111/jofi.70034",
+        "journal": "JF",
+        "title": "Deposit Franchise Runs",
+        "published": "2026-04-07"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-013",
+      "title": "Counting Pennies, Losing Pounds: Biased Learning About own Trading Ability",
+      "authors": [
+        "Fernando Chague",
+        "Bruno Giovannetti",
+        "Bernardo Guimarães",
+        "Bernardo Maciel"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/fchague/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4636623",
+      "source_author": "Fernando Chague",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "\"Counting Pennies, Losing Pounds: Biased Learning About own Trading Ability\" with Bruno Giovannetti, Bernardo Guimarães and Bernardo Maciel. R&R Journal of Financial and Quantitative Analysis.",
+      "eligibility": {
+        "author": "Fernando Chague",
+        "doi": "10.1016/j.jfineco.2021.05.033",
+        "journal": "JFE",
+        "title": "Price transparency in OTC equity lending markets: Evidence from a loan fee benchmark",
+        "published": "2022-01-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-014",
+      "title": "Custom proxy voting advice",
+      "authors": [
+        "Edwin Hu",
+        "Nadya Malenko",
+        "Jonathon Zytnick"
+      ],
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.nmalenko.com/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4770971",
+      "source_author": "Nadya Malenko",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Revise and resubmit, Journal of Finance (Slides, Internet Appendix)",
+      "eligibility": {
+        "author": "Nadya Malenko",
+        "doi": "10.1111/jofi.70072",
+        "journal": "JF",
+        "title": "Board Dynamics over the Startup Life Cycle",
+        "published": "2026-08-02"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-015",
+      "title": "Corporate governance in the presence of active and passive delegated investment",
+      "authors": [
+        "Adrian Aycan Corum",
+        "Andrey Malenko",
+        "Nadya Malenko"
+      ],
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.nmalenko.com/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3681095",
+      "source_author": "Nadya Malenko",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Revise and resubmit, Journal of Finance (Slides, Internet Appendix)",
+      "eligibility": {
+        "author": "Nadya Malenko",
+        "doi": "10.1111/jofi.70072",
+        "journal": "JF",
+        "title": "Board Dynamics over the Startup Life Cycle",
+        "published": "2026-08-02"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-016",
+      "title": "A Century of Municipal Bond Financing",
+      "authors": [
+        "Gustavo S. Cortes",
+        "Igor Cunha",
+        "Klenio Barbosa"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/cortesgustavos",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4061043",
+      "source_author": "Gustavo S. Cortes",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "A Century of Municipal Bond Financing [ R&R: RFS ]",
+      "eligibility": {
+        "author": "Gustavo S. Cortes",
+        "doi": "10.1017/s0022109022001259",
+        "journal": "JFQA",
+        "title": "Exporting Uncertainty: The Impact of Brexit on Corporate America—CORRIGENDUM",
+        "published": "2022-12-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-017",
+      "title": "The Downstream Channel of Financial Constraints and the Amplification of Aggregate Downturns",
+      "authors": [
+        "Sergio H. Rocha",
+        "Gustavo S. Cortes"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/cortesgustavos",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5638190",
+      "source_author": "Gustavo S. Cortes",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "The Downstream Channel of Financial Constraints and the Amplification of Aggregate Downturns [ R&R: JFQA ]",
+      "eligibility": {
+        "author": "Gustavo S. Cortes",
+        "doi": "10.1017/s0022109022001259",
+        "journal": "JFQA",
+        "title": "Exporting Uncertainty: The Impact of Brexit on Corporate America—CORRIGENDUM",
+        "published": "2022-12-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-018",
+      "title": "Options Market Makers",
+      "authors": [
+        "Jianfeng Hu",
+        "Antonia Kirilova",
+        "Dmitriy Muravyev"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://dmurav.com/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4633451",
+      "source_author": "Dmitriy Muravyev",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Options Market Makers, with Jianfeng Hu, Antonia Kirilova, and Doojin Ryu R&R at Journal of Financial Economics, ~ Cancun Derivatives Workshop",
+      "eligibility": {
+        "author": "Dmitriy Muravyev",
+        "doi": "10.1093/rfs/hhag036",
+        "journal": "RFS",
+        "title": "What Drives Momentum and Reversal? Evidence from Day and Night Signals",
+        "published": "2026-04-07"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-019",
+      "title": "Do auctions impact quote competition?",
+      "authors": [
+        "Dmitriy Muravyev",
+        "Amber Anand"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://dmurav.com/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4891227",
+      "source_author": "Dmitriy Muravyev",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Do auctions impact quote competition?, with Amber Anand R&R at Review of Financial Studies, ~ MicrostructureExchange",
+      "eligibility": {
+        "author": "Dmitriy Muravyev",
+        "doi": "10.1093/rfs/hhag036",
+        "journal": "RFS",
+        "title": "What Drives Momentum and Reversal? Evidence from Day and Night Signals",
+        "published": "2026-04-07"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-020",
+      "title": "Paid Sick Leave Mandates and Household Portfolio Choice",
+      "authors": [
+        "Duc Duy Nguyen",
+        "Yibing Wang",
+        "Steven Ongena",
+        "Tarik Driouchi"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/louisnguyen6589/home",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5153691",
+      "source_author": "Duc Duy Nguyen",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "SELECTED WORKING PAPERS Paid Sick Leave Mandates and Household Portfolio Choice (with Yibing Wang, Steven Ongena &Tarik Driouchi) R&R, Journal of Financial and Quantitative Analysis Biodiversity Transition Risk and Corporate Employment (with Huyen Nguyen, Trang Nguyen & Vathunyoo Sila) R&R, Review of Finance Biodiversity Risk and Small Business Len",
+      "eligibility": {
+        "author": "Duc Duy Nguyen",
+        "doi": "10.1093/rof/rfag008",
+        "journal": "RF",
+        "title": "Regulating zombie mortgages",
+        "published": "2026-04-26"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-021",
+      "title": "Sleep Disruption and Retail Investor Trading",
+      "authors": [
+        "Hee-Seo Han",
+        "David Hirshleifer",
+        "Jinfei Sheng",
+        "Zheng Sun"
+      ],
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/shengjinfei/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5125295",
+      "source_author": "Jinfei Sheng",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "1. Sleep Disruption and Retial Investor Trading, (Revise & Resubmit, Journal of Finance)(with Hee-Seo Han, David Hirshleifer, and Zheng Sun) NBER NB2025 FMA Best Paper Award in Asset Pricing & Investments (Semifinalist)Conference: CFEA, CICF, MFA, FMA, International Behavioural Finance Conference, California Corporate Finance Conference Media cover",
+      "eligibility": {
+        "author": "Jinfei Sheng",
+        "doi": "10.1093/rfs/hhag020",
+        "journal": "RFS",
+        "title": "Do Mutual Funds Walk the Talk? Evidence from Fund Risk Disclosure",
+        "published": "2026-05-20"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-022",
+      "title": "Bailing out (Firms’) Uninsured Deposits: A Quantitative Analysis",
+      "authors": [
+        "N. Aaron Pancost",
+        "Roberto Robatto"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/aaronpancost/research",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4507550",
+      "source_author": "N Aaron Pancost",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Second round revise & resubmit at the Review of Financial Studies",
+      "eligibility": {
+        "author": "N Aaron Pancost",
+        "doi": "10.1016/j.jfineco.2025.104217",
+        "journal": "JFE",
+        "title": "The benchmark greenium",
+        "published": "2026-02-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-023",
+      "title": "Labor Market Polarization and Student Debt",
+      "authors": [
+        "Sanket Korgaonkar",
+        "Elena Loutskina",
+        "Constantine Yannelis"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://www.sanketk.com",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4658803",
+      "source_author": "Sanket Korgaonkar",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Labor Market Polarization and Student Debt is now Revise and Resubmit at RFS",
+      "eligibility": {
+        "author": "Sanket Korgaonkar",
+        "doi": "10.1017/s0022109023000509",
+        "journal": "JFQA",
+        "title": "Information in Financial Contracts: Evidence from Securitization Agreements",
+        "published": "2023-04-18"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-024",
+      "title": "Political Preferences and Financial Market Equilibrium",
+      "authors": [
+        "Youchang Wu",
+        "Josef Zechner"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://www.youchangwu.com/index_files/publications.html",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4645132",
+      "source_author": "Youchang Wu",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "· Wu, Youchang and Josef Zechner, 2026, Political Preferences and Financial Market Equilibrium, Revise and Resubmit, Review of Financial Studies",
+      "eligibility": {
+        "author": "Youchang Wu",
+        "doi": "10.1017/s0022109026103159",
+        "journal": "JFQA",
+        "title": "Private Equity and Gas Emissions: Evidence from Electric Power Plants",
+        "published": "2026-09-17"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-025",
+      "title": "Corporate Espionage and Innovation: Evidence from the Theft of Trade Secrets",
+      "authors": [
+        "Marco Macchiavelli",
+        "Filippo Curti",
+        "Atanas Mihov",
+        "Kevin Pisciotta"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/marco-macchiavelli-webpage/home/research",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4613975",
+      "source_author": "Marco Macchiavelli",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Working Papers & Work in ProgressCorporate Espionage and Innovation: Evidence from the Theft of Trade Secrets, with F. Curti, A. Mihov, and K. Pisciotta Revise & Resubmit at the Journal of Financial EconomicsCity Hall Has Been Hacked! The Financial Costs of Lax Cybersecurity, with F. Curti, I. Ivanov, and T. Zimmermann Revise & Resubmit at the Revi",
+      "eligibility": {
+        "author": "Marco Macchiavelli",
+        "doi": "10.1016/j.jfineco.2025.104192",
+        "journal": "JFE",
+        "title": "Securing technological leadership? The cost of export controls on firms",
+        "published": "2026-01-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-026",
+      "title": "City Hall Has Been Hacked! The Financial Costs of Lax Cybersecurity",
+      "authors": [
+        "Marco Macchiavelli",
+        "Filippo Curti",
+        "Ivan Ivanov",
+        "Tim Zimmermann"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/marco-macchiavelli-webpage/home/research",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4465071",
+      "source_author": "Marco Macchiavelli",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "City Hall Has Been Hacked! The Financial Costs of Lax Cybersecurity, with F. Curti, I. Ivanov, and T. Zimmermann Revise & Resubmit at the Review of Financial Studies",
+      "eligibility": {
+        "author": "Marco Macchiavelli",
+        "doi": "10.1016/j.jfineco.2025.104192",
+        "journal": "JFE",
+        "title": "Securing technological leadership? The cost of export controls on firms",
+        "published": "2026-01-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-027",
+      "title": "Runs and Flights to Safety: Are Stablecoins the New Money Market Funds?",
+      "authors": [
+        "Kenechukwu Anadu",
+        "Pablo Azar",
+        "Marco Cipriani",
+        "Thomas M. Eisenbach",
+        "Catherine Huang",
+        "Mattia Landoni",
+        "Gabriele La Spada",
+        "Marco Macchiavelli",
+        "Antoine Malfroy-Camine",
+        "J. Christina Wang"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/marco-macchiavelli-webpage/home/research",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4580392",
+      "source_author": "Marco Macchiavelli",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Runs and Flights to Safety: Are Stablecoins the New Money Market Funds?, with K. Anadu, P. Azar, M. Cipriani, T. Eisenbach, C. Huang, M. Landoni, G. La Spada, A. Malfroy-Camine, and C. Wang, Revise & Resubmit at the Journal of Financial and Quantitative Analysis",
+      "eligibility": {
+        "author": "Marco Macchiavelli",
+        "doi": "10.1016/j.jfineco.2025.104192",
+        "journal": "JFE",
+        "title": "Securing technological leadership? The cost of export controls on firms",
+        "published": "2026-01-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-028",
+      "title": "Trade Uncertainty and U.S. Bank Lending",
+      "authors": [
+        "Ricardo Correa",
+        "Julian di Giovanni",
+        "Linda S. Goldberg",
+        "Camelia Minoiu"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://julian.digiovanni.ca/research/",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4225203",
+      "source_author": "JULIAN DI GIOVANNI",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "2026 March Banking & creditTrade Trade Uncertainty and U.S. Bank Lending J. di Giovanni, Ricardo Correa, Linda Goldberg, Camelia Minoiu · CEPR Discussion Paper 18631, Fed Board IFDP 1383, FRBNY Staff Report No. 1076, NBER Working Paper 31860. Revise & resubmit, Journal of Financial Economics. Abstract This paper uses U.S. credit register data and t",
+      "eligibility": {
+        "author": "JULIAN DI GIOVANNI",
+        "doi": "10.1111/jofi.13181",
+        "journal": "JF",
+        "title": "Stock Market Spillovers via the Global Production Network: Transmission of U.S. Monetary Policy",
+        "published": "2022-10-10"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-029",
+      "title": "Business Cycles and the Balance Sheets of the Financial and Non-Financial Sectors",
+      "authors": [
+        "Alonso Villacorta"
+      ],
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/alonsovillacorta/home/research_1",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3066452",
+      "source_author": "Alonso Villacorta",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Business Cycles and the Balance Sheets of the Financial and Non-Financial Sectors Revise and resubmit, Journal of Finance[ESRB Working Paper No. 68]Abstract. I propose and estimate a model in which bank and ﬁrm net worth inﬂuence macroeconomic ﬂuctuations. Firm net worth aﬀects borrowing capacity. Bank net worth is necessary for intermediation: ban",
+      "eligibility": {
+        "author": "Alonso Villacorta",
+        "doi": "10.1016/j.jfineco.2023.05.002",
+        "journal": "JFE",
+        "title": "Firm-bank linkages and optimal policies after a rare disaster",
+        "published": "2023-08-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified",
+      "authors_note": "Coauthors not transcribed from primary page; source author shown."
+    },
+    {
+      "id": "author-site-20261012-030",
+      "title": "Competition and exchange data fees",
+      "authors": [
+        "James Brugler",
+        "Jonathan Brogaard",
+        "Dominik Roesch"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://www.jamesbrugler.net/home/research",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3703431",
+      "source_author": "James Brugler",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Competition and exchange data fees with Jonathan Brogaard and Dominik Roesch Revise and Resubmit (2nd Round), Journal of Financial and Quantitative AnalysisWe investigate how the introduction of market data fees impacts trading and market quality. We find that data fees decrease the fee-introducing exchange’s market volume, time with competitive qu",
+      "eligibility": {
+        "author": "James Brugler",
+        "doi": "10.1016/j.jfineco.2025.104086",
+        "journal": "JFE",
+        "title": "Differential access to dark markets and execution outcomes",
+        "published": "2025-09-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-031",
+      "title": "The Aggregate Return to Venture Investors",
+      "authors": [
+        "Shumiao Ouyang",
+        "Ravi Jagannathan",
+        "Jiaheng Yu"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://www.shumiaoouyang.com/research",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Shumiao Ouyang",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "The Aggregate Return to Venture Investors [NBER Link] [pdf]with Ravi Jagannathan and Jiaheng Yu ​​ Review of Finance, R&R ​ Abstract: We measure the aggregate lifetime return to equity investments in venture companies. We consider the aggregate portfolio of all equity investments made in various funding rounds of 17,242 ventures that had their firs",
+      "eligibility": {
+        "author": "Shumiao Ouyang",
+        "doi": "10.1016/j.jfineco.2026.104277",
+        "journal": "JFE",
+        "title": "Cashless payment and financial inclusion",
+        "published": "2026-06-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-032",
+      "title": "Public Forecasts, Internal Projections, and Corporate Financial Policy",
+      "authors": [
+        "Ben Charoenwong",
+        "Alan Kwan",
+        "Yosuke Kimura"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://www.bencharoenwong.info/research",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3592103",
+      "source_author": "Ben Charoenwong",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "\"Public Forecasts, Internal Projections, and Corporate Financial Policy\" with Alan Kwan and Yosuke Kimura. (R&R Review of Finance)Presentations: AFA 2021, SFS Asia-Pacific 2019, Greater Bay Area Finance 2019, 2020 Japanese Economic Association Meeting, HKU, Renmin University, SAIF, CityUHK, HKUSTCompared to internal forecasts, public forecasts appe",
+      "eligibility": {
+        "author": "Ben Charoenwong",
+        "doi": "10.1017/s0022109025102214",
+        "journal": "JFQA",
+        "title": "Active Mutual Fund Common Owners’ Returns and Proxy Voting Behavior",
+        "published": "2025-10-20"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-033",
+      "title": "US Interest Rate Surprises and Currency Returns",
+      "authors": [
+        "Lucio Sarno",
+        "Juan Antolin-Diaz",
+        "Gino Cenedese",
+        "Shangqi Han"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/luciosarno/research",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4565111",
+      "source_author": "Lucio Sarno",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "US Interest Rate Surprises and Currency Returns, with Juan Antolin-Diaz, Gino Cenedese and Shangqi Han, revise and resubmit Review of Financial Studies",
+      "eligibility": {
+        "author": "Lucio Sarno",
+        "doi": "10.1016/j.jfineco.2025.104112",
+        "journal": "JFE",
+        "title": "The trade imbalance network and currency returns",
+        "published": "2025-10-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
+    },
+    {
+      "id": "author-site-20261012-034",
+      "title": "Currency Return Dynamics: What Is the Role of U.S. Macroeconomic Regimes?",
+      "authors": [
+        "Lucio Sarno",
+        "Guanhao Feng",
+        "Jingyu He",
+        "Junye Li",
+        "Qianshu Zhang"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/luciosarno/research",
+      "paper_url": "",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4888163",
+      "source_author": "Lucio Sarno",
+      "first_seen": "2026-10-12",
+      "last_verified": "2026-10-12",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Currency Return Dynamics: What Is the Role of U.S. Macroeconomic Regimes? with Guanhao Feng, Jingyu He, Junye Li and Qianshu Zhang, revise and resubmit Journal of Financial and Quantitative Analysis",
+      "eligibility": {
+        "author": "Lucio Sarno",
+        "doi": "10.1016/j.jfineco.2025.104112",
+        "journal": "JFE",
+        "title": "The trade imbalance network and currency returns",
+        "published": "2025-10-01"
+      },
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
     }
   ]
 }

@@ -14,6 +14,7 @@ export interface Paper {
   status: string;
   evidence_url: string;
   paper_url: string;
+  ssrn_url?: string;
   source_author: string;
   first_seen: string;
   last_verified: string;

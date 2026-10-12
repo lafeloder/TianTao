@@ -57,7 +57,7 @@ function normalizeLocale(locale: string): string {
 function readConfigFromPath(configPath: string): Partial<SiteConfig> | null {
   try {
     const fileContent = fs.readFileSync(configPath, 'utf-8');
-    return parse(fileContent) as unknown as Partial<SiteConfig>;
+    return JSON.parse(JSON.stringify(parse(fileContent))) as Partial<SiteConfig>;
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
       return null;

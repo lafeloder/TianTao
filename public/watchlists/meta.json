@@ -5,8 +5,8 @@
   "articles": 2402,
   "author_name_groups": 4301,
   "author_identity_records": 5833,
-  "approved_homepages": 31,
-  "homepages_scanned_this_run": 31,
+  "approved_homepages": 677,
+  "homepages_scanned_this_run": 675,
   "journals": {
     "JF": {
       "status": "complete",
@@ -38,7 +38,7 @@
   "feeds_fetched": 21,
   "review_queue": 12,
   "schedule": "Weekly Mondays: source refresh at 06:15 UTC; evidence review on Monday mornings, Europe/London.",
-  "coverage_note": "Complete same-scope reference snapshots are included; the five-year author universe continues to expand beyond them.",
+  "coverage_note": "Homepage coverage is partial; author identities without ORCID or publication-level page matches remain provisional.",
   "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
   "paper_sources_checked": 40,
   "reference_paper_rows": 76,
