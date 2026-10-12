@@ -6,7 +6,7 @@
   "author_name_groups": 4301,
   "author_identity_records": 5833,
   "approved_homepages": 3470,
-  "homepages_scanned_this_run": 675,
+  "homepages_scanned_this_run": 3210,
   "journals": {
     "JF": {
       "status": "complete",
@@ -40,7 +40,7 @@
   "schedule": "Weekly Mondays: source refresh at 06:15 UTC; evidence review on Monday mornings, Europe/London.",
   "coverage_note": "Author links include personal sites and institution/employer profiles. Indexed primary profiles were confirmed in search results but could not be opened directly. Author identities without ORCID or publication-level page matches remain provisional.",
   "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
-  "paper_sources_checked": 40,
+  "paper_sources_checked": 4439,
   "reference_paper_rows": 76,
   "job_counts": {
     "total": 63,
@@ -94,5 +94,14 @@
     "live_checked": 2538,
     "indexed_primary": 256,
     "prior_approved": 675
+  },
+  "rr_scan_summary": {
+    "approved_homepages_attempted": 3470,
+    "approved_homepages_read": 3210,
+    "research_links_attempted": 2178,
+    "research_links_read": 1892,
+    "new_top5_rr_papers": 139,
+    "new_papers_with_ssrn": 79,
+    "checked_on": "2026-10-12"
   }
 }
