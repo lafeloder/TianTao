@@ -5,7 +5,7 @@
   "articles": 2402,
   "author_name_groups": 4301,
   "author_identity_records": 5833,
-  "approved_homepages": 677,
+  "approved_homepages": 3472,
   "homepages_scanned_this_run": 675,
   "journals": {
     "JF": {
@@ -38,7 +38,7 @@
   "feeds_fetched": 21,
   "review_queue": 12,
   "schedule": "Weekly Mondays: source refresh at 06:15 UTC; evidence review on Monday mornings, Europe/London.",
-  "coverage_note": "Homepage coverage is partial; author identities without ORCID or publication-level page matches remain provisional.",
+  "coverage_note": "Author links include personal sites and institution/employer profiles. Indexed primary profiles were confirmed in search results but could not be opened directly. Author identities without ORCID or publication-level page matches remain provisional.",
   "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
   "paper_sources_checked": 40,
   "reference_paper_rows": 76,
@@ -86,5 +86,13 @@
         "note": "All six public status pages and all five public position pages were scanned. Public EJM omits some login-only/free advertisements."
       }
     ]
+  },
+  "author_homepage_coverage": {
+    "linked_authors": 3471,
+    "author_rows": 4302,
+    "percent": 80.68,
+    "live_checked": 2540,
+    "indexed_primary": 256,
+    "prior_approved": 675
   }
 }

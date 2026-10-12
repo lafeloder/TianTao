@@ -22,7 +22,7 @@ function Heading({ title, date }: { title: string; date: string }) {
   return <header className={s.heading}><h1>{title}</h1><p>Updated {fmt(date)}</p></header>;
 }
 
-export function PaperWatch({ items, date }: { items: PaperView[]; date: string }) {
+export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]; date: string; authorCoverage?: { linked_authors: number; author_rows: number; percent: number } }) {
   const [query, setQuery] = useState('');
   const [page, setPage] = useState(1);
   useEffect(() => setPage(1), [query]);
@@ -32,6 +32,7 @@ export function PaperWatch({ items, date }: { items: PaperView[]; date: string }
   const currentPage = Math.min(page, Math.max(1, Math.ceil(filtered.length / 25)));
   return <main className={s.page}>
     <Heading title="R&R Papers" date={date}/>
+    {authorCoverage && <p className={s.directory}>{authorCoverage.linked_authors.toLocaleString()} of {authorCoverage.author_rows.toLocaleString()} Top 5 authors have a linked personal site or institution profile ({authorCoverage.percent.toFixed(2)}%). <a href="/TianTao/watchlists/Top5_Authors_Websites_RR.xlsx">Download author and R&R workbook</a></p>}
     <Search value={query} change={setQuery} placeholder="Search papers, authors or journals"/>
     <p className={s.count} role="status" aria-live="polite">{filtered.length} papers</p>
     <div className={s.list}>{filtered.slice((currentPage-1)*25,currentPage*25).map(p =>
