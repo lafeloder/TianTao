@@ -20,7 +20,7 @@ TODAY=dt.date.today().isoformat()
 RR_URL='https://chenyangfinance.github.io/paper-status/'
 OP_URL='https://www.openpostdoc.org/board'
 EJM_URL='https://econjobmarket.org/'
-FINANCE={'JF','JFE','RFS','RF','JFQA'}
+TRACKED_JOURNALS={'JF','JFE','RFS','RF','JFQA','MS'}
 EUROPE={'Austria','Belgium','Bulgaria','Croatia','Cyprus','Czech Republic','Czechia','Denmark','Estonia','Finland','France','Germany','Greece','Hungary','Iceland','Ireland','Italy','Latvia','Lithuania','Luxembourg','Malta','Netherlands','Norway','Poland','Portugal','Romania','Slovakia','Slovenia','Spain','Sweden','Switzerland','United Kingdom','UK','Turkey','Türkiye'}
 
 def download(url):
@@ -29,7 +29,7 @@ def download(url):
 
 def journal_code(text):
     aliases=[('Journal of Financial and Quantitative Analysis','JFQA'),('Journal of Finances and Quantitative Analysis','JFQA'),('Journal of Financial Economics','JFE'),('Review of Financial Studies','RFS'),('Review of Finance','RF'),('Journal of Finance','JF'),('Review of Economic Studies','ReStud'),('Quarterly Journal of Economics','QJE'),('Journal of Political Economy: Microeconomics','JPE Micro'),('Journal of Political Economy','JPE'),('Management Science','MS'),('Econometrica','ECTA'),('Journal of Accounting Research','JAR'),('Journal of the European Economic Association','JEEA')]
-    if text in FINANCE:return text
+    if text in TRACKED_JOURNALS:return text
     for label,code in aliases:
         if label.lower() in (text or '').lower():return code
     return text or 'Undisclosed'
@@ -118,7 +118,7 @@ def normalize_paper(row,snapshot):
        'eligibility':None,'verification':'Reference-listed; primary status check pending',
        'verification_status':'reference_only','reference_url':RR_URL,'reference_date':snapshot.get('source_updated',''),
        'reference_checked_on':snapshot['checked_on'],'reference_ids':[rr_key(row)],
-       'source_scope':'top5' if code in FINANCE else 'extended','authors_note':'Names are listed as reported by the reference; author order is not asserted.'}
+       'source_scope':'top5' if code in TRACKED_JOURNALS else 'extended','authors_note':'Names are listed as reported by the reference; author order is not asserted.'}
 
 def job_from_op(row,snapshot):
     deadline=row.get('deadlineDate') or '';closed=row.get('statusKind')=='closed' or bool(deadline and deadline<TODAY)
@@ -173,6 +173,9 @@ def merge(items,new_items,kind):
             old['reference_ids']=sorted(set(old.get('reference_ids',[])+new.get('reference_ids',[])))
             if kind=='papers':
                 for field in ['reference_url','reference_date','reference_checked_on']:old[field]=new.get(field,old.get(field,''))
+                if old.get('journal')==new.get('journal') and new.get('source_scope')=='top5':
+                    old['source_scope']='top5'
+                    if old.get('scope')=='extended':old['scope']='top5'
             else:
                 old['source_reports']=list({r['name']+'|'+r['url']:r for r in old.get('source_reports',[])+new.get('source_reports',[])}.values())
                 if new['source_type']=='OpenPostdoc' and new.get('status')=='closed':old['status']='closed'

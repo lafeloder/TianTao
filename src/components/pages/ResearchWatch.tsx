@@ -12,6 +12,7 @@ const journalNames: Record<string, string> = {
   RFS: 'The Review of Financial Studies',
   JFQA: 'Journal of Financial and Quantitative Analysis',
   RF: 'Review of Finance',
+  MS: 'Management Science',
 };
 const fullJournalName = (journal: string) => journalNames[journal] || journal;
 const fmt = (date: string) => /^\d{4}-\d{2}-\d{2}$/.test(date || '')
@@ -35,13 +36,13 @@ function WatchHero({ title, intro, date }: { title: string; intro: string; date:
   </header>;
 }
 
-export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]; date: string; authorCoverage?: { linked_authors: number; author_rows: number; percent: number } }) {
+export function PaperWatch({ items, date, authorCoverage, msAuthorAudit }: { items: PaperView[]; date: string; authorCoverage?: { linked_authors: number; author_rows: number; percent: number }; msAuthorAudit?: { author_name_groups: number; linked_homepages: number; verified_homepages: number; profile_linked_homepages: number; homepage_percent: number } }) {
   const [query, setQuery] = useState('');
   const [journal, setJournal] = useState('');
   const [status, setStatus] = useState('');
   const [page, setPage] = useState(1);
   useEffect(() => setPage(1), [query, journal, status]);
-  const availableJournals = Object.keys(journalNames).filter(code => items.some(p => p.journal === code));
+  const availableJournals = Object.keys(journalNames);
   const availableStatuses = revisionStatuses.filter(value => items.some(p => p.status === value));
   const rrCounts = availableJournals.map(code => ({ code, count: items.filter(p => p.journal === code && p.status === 'R&R').length }));
   const totalRR = rrCounts.reduce((total, entry) => total + entry.count, 0);
@@ -56,8 +57,9 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
     .sort((a,b) => a.title.localeCompare(b.title));
   const currentPage = Math.min(page, Math.max(1, Math.ceil(filtered.length / 25)));
   return <main className={`${s.page} ${s.widePage}`}>
-    <WatchHero title="Top 5 Finance R&R" intro="Working papers with publicly disclosed revise-and-resubmit decisions at five leading finance journals. Tracked through author research pages." date={date}/>
-    {authorCoverage && <p className={s.directory}>{authorCoverage.linked_authors.toLocaleString()} of {authorCoverage.author_rows.toLocaleString()} Top 5 authors have a linked personal site or institution profile ({authorCoverage.percent.toFixed(2)}%).</p>}
+    <WatchHero title="Top 5 Finance R&R" intro="Working papers with publicly disclosed revise-and-resubmit decisions at six journals. Tracked through author research pages." date={date}/>
+    {authorCoverage && <p className={s.directory}>{authorCoverage.linked_authors.toLocaleString()} of {authorCoverage.author_rows.toLocaleString()} author name groups in the six-journal publication universe have a linked personal site or institution profile ({authorCoverage.percent.toFixed(2)}%).</p>}
+    {msAuthorAudit && <p className={s.directory}>Management Science: {msAuthorAudit.linked_homepages.toLocaleString()} of {msAuthorAudit.author_name_groups.toLocaleString()} author name groups linked ({msAuthorAudit.homepage_percent.toFixed(2)}%); {msAuthorAudit.profile_linked_homepages.toLocaleString()} rely on profile-only identity evidence.</p>}
     <section className={s.chart} aria-labelledby="rr-chart-heading">
       <div className={s.chartHeading}><div><p className={s.chartKicker}>Journal distribution</p><h2 id="rr-chart-heading">R&amp;R papers by journal</h2></div><p className={s.chartTotal}><strong>{totalRR}</strong><span>R&amp;R papers</span></p></div>
       <p className={s.chartHint}>Select a journal to filter the paper list. Counts include R&amp;R decisions only.</p>
@@ -78,6 +80,7 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
         <div className={s.itemHeading}><h2>{p.paper_url ? <a href={p.paper_url} {...external}>{p.title}</a> : p.title}</h2><span className={`${s.status} ${s.paperStatus}`}>{fullJournalName(p.journal)} · {p.status}</span></div>
         <p className={s.authors}>{p.authors.join(' · ')}</p>
         {p.ssrn_url && <a className={s.link} href={p.ssrn_url} {...external}>SSRN</a>}
+        {p.evidence_url && <a className={s.link} href={p.evidence_url} {...external}>Author source · checked {fmt(p.last_verified)}</a>}
         {p.verification_status === 'reference_only' && <p className={s.note}>Current status awaiting confirmation</p>}
       </article>
     )}</div>

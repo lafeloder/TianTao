@@ -1060,7 +1060,7 @@
       "verification": "author homepage",
       "verification_status": "primary_confirmed",
       "evidence_excerpt": "R&R, Management Science",
-      "scope": "extended",
+      "scope": "top5",
       "eligibility": {
         "doi": "10.1111/jofi.13426",
         "journal": "JF",
@@ -1090,7 +1090,7 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "extended"
+      "source_scope": "top5"
     },
     {
       "id": "chenyang-016",
@@ -1450,7 +1450,7 @@
       "verification": "author homepage",
       "verification_status": "primary_confirmed",
       "evidence_excerpt": "R&R, Management Science",
-      "scope": "extended",
+      "scope": "top5",
       "eligibility": null,
       "eligibility_status": "not_yet_matched",
       "baseline_record": true,
@@ -1469,7 +1469,7 @@
       "paper_url": "",
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "extended"
+      "source_scope": "top5"
     },
     {
       "id": "chenyang-023",
@@ -1845,7 +1845,7 @@
       "verification": "author homepage",
       "verification_status": "primary_confirmed",
       "evidence_excerpt": "R&R, Management Science",
-      "scope": "extended",
+      "scope": "top5",
       "eligibility": {
         "doi": "10.1111/jofi.13136",
         "journal": "JF",
@@ -1873,7 +1873,7 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "extended"
+      "source_scope": "top5"
     },
     {
       "id": "chenyang-030",
@@ -2149,7 +2149,7 @@
       "verification": "author homepage",
       "verification_status": "primary_confirmed",
       "evidence_excerpt": "R&R, Management Science",
-      "scope": "extended",
+      "scope": "top5",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2023.103776",
         "journal": "JFE",
@@ -2178,7 +2178,7 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "extended"
+      "source_scope": "top5"
     },
     {
       "id": "chenyang-035",
@@ -2372,7 +2372,7 @@
       "verification": "author homepage",
       "verification_status": "primary_confirmed",
       "evidence_excerpt": "Minor R&R, Management Science",
-      "scope": "extended",
+      "scope": "top5",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2022.10.001",
         "journal": "JFE",
@@ -2401,7 +2401,7 @@
       "paper_url": "",
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "extended"
+      "source_scope": "top5"
     },
     {
       "id": "chenyang-039",
@@ -2429,7 +2429,7 @@
       "verification": "author homepage",
       "verification_status": "primary_confirmed",
       "evidence_excerpt": "R&R, Management Science",
-      "scope": "extended",
+      "scope": "top5",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2022.10.001",
         "journal": "JFE",
@@ -2457,7 +2457,7 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "extended"
+      "source_scope": "top5"
     },
     {
       "id": "chenyang-040",
@@ -2606,7 +2606,7 @@
       "verification": "author homepage",
       "verification_status": "primary_confirmed",
       "evidence_excerpt": "R&R, Management Science",
-      "scope": "extended",
+      "scope": "top5",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2022.10.001",
         "journal": "JFE",
@@ -2634,7 +2634,7 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "extended"
+      "source_scope": "top5"
     },
     {
       "id": "chenyang-043",
@@ -3836,7 +3836,7 @@
       "verification": "author homepage",
       "verification_status": "primary_confirmed",
       "evidence_excerpt": "R&R, Management Science",
-      "scope": "extended",
+      "scope": "top5",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2024.103911",
         "journal": "JFE",
@@ -3864,7 +3864,7 @@
       "paper_url": "",
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "extended"
+      "source_scope": "top5"
     },
     {
       "id": "chenyang-065",
@@ -4531,7 +4531,7 @@
       "verification": "author homepage",
       "verification_status": "primary_confirmed",
       "evidence_excerpt": "R&R, Management Science",
-      "scope": "extended",
+      "scope": "top5",
       "eligibility": {
         "doi": "10.1111/jofi.13266",
         "journal": "JF",
@@ -4559,7 +4559,7 @@
       ],
       "topics": [],
       "reference_checked_on": "2026-10-12",
-      "source_scope": "extended"
+      "source_scope": "top5"
     },
     {
       "title": "Inflation and Trading",
@@ -10150,6 +10150,1627 @@
       "source_scope": "top5",
       "eligibility_status": "verified",
       "authors_note": "Only the source author was confirmed in this record; coauthors may not be listed."
+    },
+    {
+      "id": "ms-549480ed9bad0fd4",
+      "title": "The Causal Effect of Information Costs on Asset Pricing Anomalies",
+      "authors": [
+        "Zoran Ivkovich",
+        "Yong Hyuck Kim",
+        "Dmitriy Muravyev"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://dmurav.com/",
+      "primary_source_url": "https://dmurav.com/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3921785",
+      "source_author": "Dmitriy Muravyev",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "R&R at Management Science",
+      "verification": "author homepage",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.4543",
+        "journal": "MS",
+        "title": "Option Trading Activity, News Releases, and Stock Return Predictability",
+        "published": "2023-08-01",
+        "author": "Dmitriy Muravyev",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.4543",
+        "match_method": "Exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "verification_status": "primary_confirmed",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://dmurav.com/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-3875f0fbb13d2011",
+      "title": "Top Government Meetings in China",
+      "authors": [
+        "Jun Pan",
+        "Qing Peng"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://en.saif.sjtu.edu.cn/junpan/",
+      "primary_source_url": "https://en.saif.sjtu.edu.cn/junpan/",
+      "paper_url": "https://en.saif.sjtu.edu.cn/junpan/Gov_Meeting.pdf",
+      "source_author": "Jun Pan",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Management Science, R&R",
+      "verification": "institution profile",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.01966",
+        "journal": "MS",
+        "title": "Fintech Platforms and Mutual Fund Distribution",
+        "published": "2024-04-08",
+        "author": "Jun Pan",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.01966",
+        "match_method": "Exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "verification_status": "primary_confirmed",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://en.saif.sjtu.edu.cn/junpan/",
+          "type": "institution profile",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-4cc1870099107596",
+      "title": "The Stock-Bond Correlation: A Tale of Two Days in the U.S. Treasury Market",
+      "authors": [
+        "Grace Xing Hu",
+        "Zhao Jin",
+        "Jun Pan"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://en.saif.sjtu.edu.cn/junpan/",
+      "primary_source_url": "https://en.saif.sjtu.edu.cn/junpan/",
+      "paper_url": "https://en.saif.sjtu.edu.cn/junpan/Correlation.pdf",
+      "source_author": "Jun Pan",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Management Science, R&R",
+      "verification": "institution profile",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.01966",
+        "journal": "MS",
+        "title": "Fintech Platforms and Mutual Fund Distribution",
+        "published": "2024-04-08",
+        "author": "Jun Pan",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.01966",
+        "match_method": "Exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "verification_status": "primary_confirmed",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://en.saif.sjtu.edu.cn/junpan/",
+          "type": "institution profile",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-94e8e7d3b586f1a6",
+      "title": "Equilibrium in a DeFi Lending Market",
+      "authors": [
+        "Thomas J. Rivera",
+        "Fahad Saleh",
+        "Quentin Vandeweyer"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://quentinvandeweyer.com/",
+      "primary_source_url": "https://quentinvandeweyer.com/",
+      "paper_url": "https://quentinvandeweyer.com/papers/defi_lending_sep2026.pdf",
+      "source_author": "Quentin Vandeweyer",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Working paper Revise and resubmit, Management Science",
+      "verification": "author homepage",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.04037",
+        "journal": "MS",
+        "title": "Intraday Liquidity and Money Market Dislocations",
+        "published": "2025-12-01",
+        "author": "Quentin Vandeweyer",
+        "doi_url": "https://doi.org/10.1287/mnsc.2023.04037",
+        "match_method": "Exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "verification_status": "primary_confirmed",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://quentinvandeweyer.com/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-8d943eccb22686d6",
+      "title": "Reputation-Building Actions After Corporate Social Irresponsibility",
+      "authors": [
+        "Wei Cai",
+        "Aneesh Raghunandan",
+        "Shivaram Rajgopal",
+        "Wenxin Wang"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.aneeshraghunandan.com/",
+      "primary_source_url": "https://www.aneeshraghunandan.com/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4305248",
+      "source_author": "Aneesh Raghunandan",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Revise and Resubmit, Management Science",
+      "verification": "author homepage",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.05125",
+        "journal": "MS",
+        "title": "Misreporting of Mandatory ESG Disclosures: Evidence from Gender Pay Gap Information",
+        "published": "2026-08-01",
+        "author": "Aneesh Raghunandan",
+        "doi_url": "https://doi.org/10.1287/mnsc.2024.05125",
+        "match_method": "Exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "verification_status": "primary_confirmed",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://www.aneeshraghunandan.com/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-cdc3957d62b582bd",
+      "title": "The Effects of Overconfidence on the Political and Financial Behavior of a Representative Sample",
+      "authors": [
+        "Ciril Bosch-Rosa",
+        "Bernhard Kassner",
+        "Steffen Ahrens"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.boschrosa.com/",
+      "primary_source_url": "https://www.boschrosa.com/",
+      "paper_url": "https://papers.boschrosa.com/ExpectedError.pdf",
+      "source_author": "Ciril Bosch-Rosa",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "r&r at Management Science",
+      "verification": "author homepage",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2021.03947",
+        "journal": "MS",
+        "title": "Risk Taking Under Limited Liability and Moral Hazard: Quantifying the Role of Motivated Beliefs",
+        "published": "2025-02-01",
+        "author": "Ciril Bosch-Rosa",
+        "doi_url": "https://doi.org/10.1287/mnsc.2021.03947",
+        "match_method": "Exact normalized author name in Crossref corpus; publication also listed on source page"
+      },
+      "eligibility_status": "verified",
+      "verification_status": "primary_confirmed",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://www.boschrosa.com/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-c8e30784b697a557",
+      "title": "Market-Based Incentives for Optimal Audit Quality",
+      "authors": [
+        "Huaizhi Chen",
+        "Andrew Acito",
+        "Amir Amel-Zadeh",
+        "James Anderson",
+        "William L. Anderson",
+        "Daniel Aobdia",
+        "Thomas Bourveau",
+        "Francois Brochet",
+        "Jonathan Fluharty-Jaidee",
+        "Martin C. Schmalz",
+        "Manyun Tang",
+        "Scott J. Wang",
+        "Joshua White",
+        "William Zame"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.huaizhichen.com",
+      "primary_source_url": "https://www.huaizhichen.com",
+      "paper_url": "https://papers.ssrn.com/abstract=4997362",
+      "source_author": "Huaizhi Chen",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Market-Based Incentives for Optimal Audit QualityLast Update: October 2024 Solicited at Management Science With Andrew Acito, Amir Amel-Zadeh, James Anderson, William L. Anderson, Daniel Aobdia, Thomas Bourveau, Francois Brochet, Jonathan Fluharty-Jaidee, Martin C. Schmalz, Manyun Tang, Scott J. Wang, Joshua White, and William Zame Revise and Resubmit at Management ScienceWe document that equity markets react to the public release of audit-firm level audit inspection reports by a regulator if an",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.00444",
+        "journal": "MS",
+        "title": "Calling All Issuers: The Market for Debt Monitoring",
+        "published": "2025-08-01",
+        "author": "Huaizhi Chen",
+        "doi_url": "https://doi.org/10.1287/mnsc.2023.00444",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://www.huaizhichen.com",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-8943cf67e594d1e7",
+      "title": "Propagation of Climate Disasters through Ownership Networks",
+      "authors": [
+        "Ai He",
+        "Matthew Gustafson",
+        "Ugur Lel",
+        "Zhongling Qin"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.aihefinance.com/home",
+      "primary_source_url": "https://www.aihefinance.com/home",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4652225",
+      "source_author": "Ai He",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Propagation of Climate Disasters through Ownership Networks (Revise and Resubmit, Management Science)(with Matthew Gustafson, Ugur Lel, and Zhongling Qin)ECGI Blog | Duke Financial Economics Center FinReg Blog 2025 Weinberg Center Corporate Governance Symposium; 2024 AFA, CICF, CFEA, RBFC, Bretton Woods Accounting and Finance Ski Conference, Canadian Sustainable Finance Network Conference; 2023 Texas A&M Young Scholars Finance Consortium, FIRS, JCF SI in Helsinki, AFFECT AFA Mentoring Workshop, ",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.4563",
+        "journal": "MS",
+        "title": "Shrinking Factor Dimension: A Reduced-Rank Approach",
+        "published": "2023-09-01",
+        "author": "Ai He",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.4563",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://www.aihefinance.com/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-3868b9a68913d39e",
+      "title": "Money Market Funds and the Pricing of Near-Money Assets",
+      "authors": [
+        "Egemen Eren",
+        "Sebastian Doerr"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://egemeneren.net/",
+      "primary_source_url": "https://egemeneren.net/",
+      "paper_url": "",
+      "source_author": "Egemen Eren",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Money Market Funds and the Pricing of Near-Money Assets (with Sebastian Doerr), Revise & Resubmit, Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2025.00332",
+        "journal": "MS",
+        "title": "The Demand for Government Debt",
+        "published": "2026-03-26",
+        "author": "Egemen Eren",
+        "doi_url": "https://doi.org/10.1287/mnsc.2025.00332",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://egemeneren.net/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-15916a572725e3ed",
+      "title": "Signaling and Positive Lender Profits in Competitive Capital Markets",
+      "authors": [
+        "Giulio Trigilia",
+        "Dan Bernhardt",
+        "Kostas Koufopoulos"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/giulio-trigilia/home",
+      "primary_source_url": "https://sites.google.com/view/giulio-trigilia/home",
+      "paper_url": "",
+      "source_author": "Giulio Trigilia",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Signaling and positive lender profits in competitive capital markets, with Dan Bernhardt and Kostas Koufopoulos, 2026, R&R at Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.4860",
+        "journal": "MS",
+        "title": "Voluntary Disclosure, Moral Hazard, and Default Risk",
+        "published": "2024-06-01",
+        "author": "Giulio Trigilia",
+        "doi_url": "https://doi.org/10.1287/mnsc.2023.4860",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/giulio-trigilia/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-d751ca85b198c965",
+      "title": "Ubiquitous Comovement",
+      "authors": [
+        "William Grieser",
+        "Jung Hoon Lee",
+        "Morad Zekhnini"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://billygrieser.com/",
+      "primary_source_url": "https://billygrieser.com/",
+      "paper_url": "",
+      "source_author": "William Grieser",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Ubiquitous Comovement with Jung Hoon Lee and Morad Zekhnini R&R at Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2021.4133",
+        "journal": "MS",
+        "title": "Industry Networks and the Geography of Firm Behavior",
+        "published": "2022-08-01",
+        "author": "William Grieser",
+        "doi_url": "https://doi.org/10.1287/mnsc.2021.4133",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://billygrieser.com/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-21d5e1c2abd72556",
+      "title": "Democratized Access, Preferred Allocation: Quid Pro Quo and Regulatory Scrutiny in Marketplace Lending",
+      "authors": [
+        "Woongsun Yoo",
+        "Li-Ting Chiu",
+        "Brian Wolfe"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/woongsunyoo/home",
+      "primary_source_url": "https://sites.google.com/view/woongsunyoo/home",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3281358",
+      "source_author": "WOONGSUN YOO",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Democratized Access, Preferred Allocation: Quid Pro Quo and Regulatory Scrutiny in Marketplace Lending (with Li-Ting Chiu and Brian Wolfe), Revise & Resubmit, Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.4918",
+        "journal": "MS",
+        "title": "The SEC’s Short-Sale Experiment: Evidence on Causal Channels and Reassessment of Indirect Effects",
+        "published": "2024-08-01",
+        "author": "WOONGSUN YOO",
+        "doi_url": "https://doi.org/10.1287/mnsc.2023.4918",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/woongsunyoo/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-c1d7008be612e0e6",
+      "title": "Financial Fragility in Open-Ended Mutual Funds: The Role of Liquidity Management Tools",
+      "authors": [
+        "Anna Bayona",
+        "Peter Dunne",
+        "Lorenz Emter",
+        "Falko Fecht",
+        "Raffaele Giuliana"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://oanapeiablog.wordpress.com/my-research/",
+      "primary_source_url": "https://oanapeiablog.wordpress.com/my-research/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4282841",
+      "source_author": "Anna Bayona",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Financial fragility in open-ended mutual funds: the role of liquidity management tools, with Peter Dunne, Lorenz Emter, Falko Fecht and Raffaele Giuliana [Cited in the IMF Global Financial Stability Report (October 2022)] [Deutsche Bundesbank Discussion Paper No. 36/2024] (R&R second round at Management Science)",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.06886",
+        "journal": "MS",
+        "title": "Credit Ratings and Investments",
+        "published": "2026-07-28",
+        "author": "Anna Bayona",
+        "doi_url": "https://doi.org/10.1287/mnsc.2024.06886",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://oanapeiablog.wordpress.com/my-research/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-529ae4594bcd1744",
+      "title": "Costly Capacity Signaling Increases Matching Efficiency: Evidence from a Field Experiment",
+      "authors": [
+        "Apostolos Filippas",
+        "John Horton",
+        "Prasanna Parasurama",
+        "Diego Urraca"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.apostolos-filippas.com/",
+      "primary_source_url": "https://www.apostolos-filippas.com/",
+      "paper_url": "",
+      "source_author": "Apostolos Filippas",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Costly capacity signaling increases matching efficiency: Evidence from a field experiment (with John Horton, Prasanna Parasurama, and Diego Urraca) Management Science, R&R",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.00060",
+        "journal": "MS",
+        "title": "The Production and Consumption of Social Media",
+        "published": "2026-07-01",
+        "author": "Apostolos Filippas",
+        "doi_url": "https://doi.org/10.1287/mnsc.2023.00060",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://www.apostolos-filippas.com/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-b2029c174b99000a",
+      "title": "Chicken or the Egg? Forecast and Order Adjustments in Supply-Chain Planning",
+      "authors": [
+        "Enno Siemsen",
+        "E. Spiliotopoulou"
+      ],
+      "authors_note": "Names are transcribed from the source page; abbreviated names are preserved as shown.",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://siemsen.edutool.org",
+      "primary_source_url": "https://siemsen.edutool.org",
+      "paper_url": "",
+      "source_author": "Enno Siemsen",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Chicken or the Egg? Forecast and Order Adjustments in Supply-Chain Planning Siemsen, E., Spiliotopoulou, E. Revise & Resubmit at Management Science",
+      "verification": "institution profile",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.4485",
+        "journal": "MS",
+        "title": "Forecast Selection and Representativeness",
+        "published": "2023-05-01",
+        "author": "Enno Siemsen",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.4485",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://siemsen.edutool.org",
+          "type": "institution profile",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-66d986e0f74e2fca",
+      "title": "When You Get What You Want, but Not What You Need: Digital versus Traditional Resources",
+      "authors": [
+        "Enno Siemsen",
+        "M. Carraro",
+        "M. Mohadikar",
+        "A. Upadhyay",
+        "D. Wuttke"
+      ],
+      "authors_note": "Names are transcribed from the source page; abbreviated names are preserved as shown.",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://siemsen.edutool.org",
+      "primary_source_url": "https://siemsen.edutool.org",
+      "paper_url": "",
+      "source_author": "Enno Siemsen",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "When You Get What You Want, but Not What You Need: Digital versus Traditional Resources Carraro, M., Mohadikar, M., Upadhyay, A., Wuttke, D., Siemsen, E. Revise & Resubmit at Management Science",
+      "verification": "institution profile",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.4485",
+        "journal": "MS",
+        "title": "Forecast Selection and Representativeness",
+        "published": "2023-05-01",
+        "author": "Enno Siemsen",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.4485",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://siemsen.edutool.org",
+          "type": "institution profile",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-be8ec214cd79034f",
+      "title": "The Optimal Design of Green Securities",
+      "authors": [
+        "Federica Zeni",
+        "A. Barbalau"
+      ],
+      "authors_note": "Names are transcribed from the source page; abbreviated names are preserved as shown.",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://federicazeni.wordpress.com",
+      "primary_source_url": "https://federicazeni.wordpress.com",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4155721",
+      "source_author": "Federica Zeni",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "The Optimal Design of Green Securities, r&r Management Science, with A. Barbalau",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2021.00482",
+        "journal": "MS",
+        "title": "Climate Regulation and Emissions Abatement: Theory and Evidence from Firms’ Disclosures",
+        "published": "2024-12-01",
+        "author": "Federica Zeni",
+        "doi_url": "https://doi.org/10.1287/mnsc.2021.00482",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://federicazeni.wordpress.com",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-153bdb3078554c82",
+      "title": "Centralized vs. Decentralized Markets with Cash and Contingent Payments: Experimental Evidence",
+      "authors": [
+        "Jean Paul Rabanal",
+        "Tom-Reiel Heggedal",
+        "O. Rud"
+      ],
+      "authors_note": "Names are transcribed from the source page; abbreviated names are preserved as shown.",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://rabsjp.github.io/",
+      "primary_source_url": "https://rabsjp.github.io/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5835422",
+      "source_author": "Jean Paul Rabanal",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Centralized vs. Decentralized markets with Cash and Contingent Payments: Experimental Evidence , joint with Tom-Reiel Heggedal and O. Rud R&R at Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.02125",
+        "journal": "MS",
+        "title": "The Impact of Exchange-Traded Fund Index Inclusion on Stock Prices",
+        "published": "2024-03-20",
+        "author": "Jean Paul Rabanal",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.02125",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://rabsjp.github.io/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-553f7d7774878c4e",
+      "title": "Labeling AI-Generated Content on Platforms: Misinformation, Consumer Inference, and Creator Incentives",
+      "authors": [
+        "Jieteng Chen",
+        "T. Tony Ke",
+        "Jiwoong Shin"
+      ],
+      "authors_note": "Names are transcribed from the source page; abbreviated names are preserved as shown.",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://jietengchen.github.io/",
+      "primary_source_url": "https://jietengchen.github.io/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5271493",
+      "source_author": "Jieteng Chen",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "1. Labeling AI-Generated Content on Platforms: Misinformation, Consumer Inference, and Creator Incentives (with T. Tony Ke and Jiwoong Shin), Management Science, Revise & Resubmit. This paper shows that the content platform's \"Generated by AI\" label can be an endogenous signal for misinformation and explores the platform's optimal design of labeling strategy.",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.03810",
+        "journal": "MS",
+        "title": "From Canvas to Blockchain: Impact of Royalties on Art Market Efficiency",
+        "published": "2026-08-04",
+        "author": "Jieteng Chen",
+        "doi_url": "https://doi.org/10.1287/mnsc.2023.03810",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://jietengchen.github.io/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-e4db278653d9b99b",
+      "title": "Adaptive Priority Mechanisms",
+      "authors": [
+        "Joel P. Flynn",
+        "Oguzhan Celebi"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://joelflynn.com/",
+      "primary_source_url": "https://joelflynn.com/",
+      "paper_url": "",
+      "source_author": "Joel P. Flynn",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Adaptive Priority Mechanisms (with Oguzhan Celebi)Revise and Resubmit, Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.02412",
+        "journal": "MS",
+        "title": "Dynamic Unraveling",
+        "published": "2026-10-01",
+        "author": "Joel P. Flynn",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.02412",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://joelflynn.com/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-97a200c8875e2ea5",
+      "title": "Make It or Break It: Corporate Bankruptcy and Management Careers",
+      "authors": [
+        "Morten Grindaker"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/mortengrindaker/start",
+      "primary_source_url": "https://sites.google.com/view/mortengrindaker/start",
+      "paper_url": "",
+      "source_author": "Morten Grindaker",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Make it or break it: Corporate Bankruptcy and Management Careers (Revise and Resubmit, Management Science)",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.08149",
+        "journal": "MS",
+        "title": "Transaction Sequencing and House Price Pressures",
+        "published": "2026-10-01",
+        "author": "Morten Grindaker",
+        "doi_url": "https://doi.org/10.1287/mnsc.2024.08149",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/mortengrindaker/start",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-b60a901e4db97e31",
+      "title": "Shareholder Power under Political Retaliation",
+      "authors": [
+        "Ole-Andreas Elvik Næss"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/ole-andreas-elvik-naess/home",
+      "primary_source_url": "https://sites.google.com/view/ole-andreas-elvik-naess/home",
+      "paper_url": "",
+      "source_author": "Ole-Andreas Elvik Næss",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Shareholder Power under Political Retaliation, Revise and Resubmit, Management Science.",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2025.01277",
+        "journal": "MS",
+        "title": "Beating Expectations: Turning Polarized Beliefs into Support for Sustainable Initiatives",
+        "published": "2026-08-05",
+        "author": "Ole-Andreas Elvik Næss",
+        "doi_url": "https://doi.org/10.1287/mnsc.2025.01277",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/ole-andreas-elvik-naess/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-d2e8dd1d5d7179fd",
+      "title": "Monitoring with Small Stakes",
+      "authors": [
+        "Douglas Xu",
+        "Sheila Jiang",
+        "Shohini Kundu"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.douglasxu.com/home/research",
+      "primary_source_url": "https://www.douglasxu.com/home/research",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4271851",
+      "source_author": "Douglas Xu",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Monitoring with Small Stakes (with Sheila Jiang and Shohini Kundu), Revise and resubmit, Management Science, 2025",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.04608",
+        "journal": "MS",
+        "title": "Investing in Lending Technology: IT Spending in Banking",
+        "published": "2026-04-22",
+        "author": "Douglas Xu",
+        "doi_url": "https://doi.org/10.1287/mnsc.2024.04608",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://www.douglasxu.com/home/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-3b8d6e7afd245d4e",
+      "title": "Banking on Technology: Bank Technology Adoption and Its Effects",
+      "authors": [
+        "Sheila Jiang",
+        "Alessandro Rebucci",
+        "Gang Zhang"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.sheilajiangfinance.com/",
+      "primary_source_url": "https://www.sheilajiangfinance.com/",
+      "paper_url": "",
+      "source_author": "Sheila Jiang",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Banking on Technology: Bank Technology Adoption and Its Effects (with Alessandro Rebucci and Gang Zhang) R&R at Management Science (NBER Working Paper 33551)",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.04608",
+        "journal": "MS",
+        "title": "Investing in Lending Technology: IT Spending in Banking",
+        "published": "2026-04-22",
+        "author": "Sheila Jiang",
+        "doi_url": "https://doi.org/10.1287/mnsc.2024.04608",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://www.sheilajiangfinance.com/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-f23d97b2e72aab32",
+      "title": "Decision Making with Ordinal Ratings",
+      "authors": [
+        "Yael Grushka-Cockayne",
+        "J. Merrick",
+        "C. Massey",
+        "Z. Drapkin"
+      ],
+      "authors_note": "Names are transcribed from the source page; abbreviated names are preserved as shown.",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.darden.virginia.edu/faculty-research/directory/yael-grushka-cockayne",
+      "primary_source_url": "https://www.darden.virginia.edu/faculty-research/directory/yael-grushka-cockayne",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5035307",
+      "source_author": "Yael Grushka-Cockayne",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Merrick, J., Massey, C., Grushka-Cockayne Y, and Drapkin Z. Decision Making with Ordinal Ratings, Revise and Resubmit requested from Management Science.",
+      "verification": "institution profile",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2021.02929",
+        "journal": "MS",
+        "title": "Managerial Mental Accounting and Downstream Project Decisions",
+        "published": "2024-12-01",
+        "author": "Yael Grushka-Cockayne",
+        "doi_url": "https://doi.org/10.1287/mnsc.2021.02929",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://www.darden.virginia.edu/faculty-research/directory/yael-grushka-cockayne",
+          "type": "institution profile",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-cba01c9d5c630aa9",
+      "title": "How Private Is Private Equity?",
+      "authors": [
+        "YoungJun Song",
+        "Niklas Huether"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/yjsong199024/home",
+      "primary_source_url": "https://sites.google.com/site/yjsong199024/home",
+      "paper_url": "",
+      "source_author": "YoungJun Song",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "2. \"How Private Is Private Equity? (with Niklas Huether)Revise and Resubmit at Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.01486",
+        "journal": "MS",
+        "title": "Private Equity, Consumers, and Competition: Evidence from the Nursing Home Industry",
+        "published": "2026-04-03",
+        "author": "YoungJun Song",
+        "doi_url": "https://doi.org/10.1287/mnsc.2023.01486",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/yjsong199024/home",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-15118b6dee9ed965",
+      "title": "Persistent Bias in Advice-Giving",
+      "authors": [
+        "Zhuoqiong Chen",
+        "Tobias Gesche"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/zhuoqiongchen/",
+      "primary_source_url": "https://sites.google.com/site/zhuoqiongchen/",
+      "paper_url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2787825",
+      "source_author": "Zhuoqiong Chen",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "\"Persistent Bias in Advice-Giving\" (with Tobias Gesche). (Coverage: Oxford Business Law Blog ). R&R at Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2021.02754",
+        "journal": "MS",
+        "title": "Information Spillovers in Experience Goods Competition",
+        "published": "2024-06-01",
+        "author": "Zhuoqiong Chen",
+        "doi_url": "https://doi.org/10.1287/mnsc.2021.02754",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/site/zhuoqiongchen/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-98449cebeac68863",
+      "title": "Do Retail Traders Suffer from High Frequency Traders?",
+      "authors": [
+        "Andreas Park",
+        "Katya Malinova",
+        "Ryan Riordan"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://andreaspark.com/research/",
+      "primary_source_url": "https://andreaspark.com/research/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2183806",
+      "source_author": "ANDREAS PARK",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Do Retail Traders Suffer from High Frequency Traders? (with Katya Malinova, Ryan Riordan) Revise and resubmit at Management Science; revision in progress, with resubmission planned for early 2027. SSRN",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2021.02802",
+        "journal": "MS",
+        "title": "The Conceptual Flaws of Decentralized Automated Market Making",
+        "published": "2023-11-01",
+        "author": "ANDREAS PARK",
+        "doi_url": "https://doi.org/10.1287/mnsc.2021.02802",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://andreaspark.com/research/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-208ba4d270a2ea57",
+      "title": "Rematching with Contracts under Labor Mobility Restrictions: Theory and Application",
+      "authors": [
+        "M. Utku Ünver",
+        "Umut Dur",
+        "Robert G. Hammond"
+      ],
+      "authors_note": "Names are transcribed from the source page; abbreviated names are preserved as shown.",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.bc.edu/utku-unver/home/research",
+      "primary_source_url": "https://sites.bc.edu/utku-unver/home/research",
+      "paper_url": "",
+      "source_author": "M. Utku Ünver",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "“Rematching with Contracts under Labor Mobility Restrictions: Theory and Application.” Revise-and-resubmit, Management Science (with Umut Dur, Robert G. Hammond). [December 2025 draft]",
+      "verification": "institution profile",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.00930",
+        "journal": "MS",
+        "title": "Fair Allocation of Vaccines, Ventilators and Antiviral Treatments: Leaving No Ethical Value Behind in Healthcare Rationing",
+        "published": "2024-06-01",
+        "author": "M. Utku Ünver",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.00930",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.bc.edu/utku-unver/home/research",
+          "type": "institution profile",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-cd9f5735a424e90c",
+      "title": "Cognitive Diversity Promotes Social Learning—But Only When Cognitive Differences Are Obscured",
+      "authors": [
+        "Austin van Loon",
+        "Doug Guilbeault",
+        "Katharina Lix",
+        "Amir Goldberg",
+        "Sameer Srivastava"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sociology.stanford.edu/people/austin-van-loon",
+      "primary_source_url": "https://sociology.stanford.edu/people/austin-van-loon",
+      "paper_url": "",
+      "source_author": "Austin van Loon",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Guilbeault, Doug, Austin van Loon, Katharina Lix, Amir Goldberg, and Sameer Srivastava. “Cognitive Diversity Promotes Social Learning—But Only When Cognitive Differences Are Obscured”, Revise and Resubmit at Management Science. (check out the working paper here)",
+      "verification": "institution profile",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.00895",
+        "journal": "MS",
+        "title": "Exposure to the Views of Opposing Others with Latent Cognitive Differences Results in Social Influence—But Only When Those Differences Remain Obscured",
+        "published": "2024-10-01",
+        "author": "Austin van Loon",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.00895",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sociology.stanford.edu/people/austin-van-loon",
+          "type": "institution profile",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-3c134e9009b948b3",
+      "title": "Supplier-Side Mechanism Design for Platforms in a Sharing Economy when Supplier Cost Is Private",
+      "authors": [
+        "Chenglong Zhang",
+        "J. Chen",
+        "S. Raghunathan"
+      ],
+      "authors_note": "Names are transcribed from the source page; abbreviated names are preserved as shown.",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/chenglong-zhang/research",
+      "primary_source_url": "https://sites.google.com/view/chenglong-zhang/research",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5049092",
+      "source_author": "Chenglong Zhang",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Working papers:1. Zhang, C., Chen, J., Raghunathan, S. Supplier-Side Mechanism Design for Platforms in a Sharing Economy when Supplier Cost Is Private. Management Science (under 3rd round revise and resubmit) https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5049092 2. Zhang, C., Jiang, Z. Compete or Complement? Generative AI’s Dual Role in the Sharing Economy. MIS Quarterly (under 2nd round revise and resubmit)3. Zhang, C., Jiang, Z. Competing Through GAI: The Role of Exclusive Partnerships. ",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.4302",
+        "journal": "MS",
+        "title": "Two-Sided Platform Competition in a Sharing Economy",
+        "published": "2022-12-01",
+        "author": "Chenglong Zhang",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.4302",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/chenglong-zhang/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-1fb2b21532629aa1",
+      "title": "Generative AI and the Nature of Work",
+      "authors": [
+        "Manuel Hoffmann",
+        "Sam Boysel",
+        "Frank Nagle",
+        "Sida Peng",
+        "Kevin Xu"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/manuel-hoffmann/",
+      "primary_source_url": "https://sites.google.com/view/manuel-hoffmann/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5007084",
+      "source_author": "Manuel Hoffmann",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Generative AI and the Nature of Work - HBS Version, NBER Version (w/ Sam Boysel, Frank Nagle, Sida Peng, and Kevin Xu) - R&R at Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.04908",
+        "journal": "MS",
+        "title": "Vaccines at Work: Experimental Evidence from a Firm Campaign",
+        "published": "2026-06-01",
+        "author": "Manuel Hoffmann",
+        "doi_url": "https://doi.org/10.1287/mnsc.2024.04908",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/manuel-hoffmann/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-ac84158e057bfb3e",
+      "title": "All-or-Nothing vs Keep-It-All: Comparing Campaign Designs in Rewards-Based Crowdfunding Platforms",
+      "authors": [
+        "Simone Marinesi",
+        "Ekaterina Astashkina"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://oid.wharton.upenn.edu/profile/marinesi/",
+      "primary_source_url": "https://oid.wharton.upenn.edu/profile/marinesi/",
+      "paper_url": "",
+      "source_author": "Simone Marinesi",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Ekaterina Astashkina and Simone Marinesi (2023), All-or-Nothing vs Keep-It-All: Comparing Campaign Designs in Rewards-Based Crowdfunding Platforms, R&R at Management Science.",
+      "verification": "institution profile",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2021.04129",
+        "journal": "MS",
+        "title": "When Should the Off-Grid Sun Shine at Night? Optimum Renewable Generation and Energy Storage Investments",
+        "published": "2023-12-01",
+        "author": "Simone Marinesi",
+        "doi_url": "https://doi.org/10.1287/mnsc.2021.04129",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://oid.wharton.upenn.edu/profile/marinesi/",
+          "type": "institution profile",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-9a97df98ec6b8b8a",
+      "title": "Labor Mobility and Corporate Environmental Performance",
+      "authors": [
+        "Tiancheng Yu",
+        "Viet Anh Dang",
+        "Ning Gao"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/tianchengyuhomepage/research",
+      "primary_source_url": "https://sites.google.com/view/tianchengyuhomepage/research",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4322618",
+      "source_author": "Tiancheng Yu",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Labor Mobility and Corporate Environmental Performance (with Viet Anh Dang and Ning Gao) - 2nd Round R&R at Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.4617",
+        "journal": "MS",
+        "title": "Climate Policy Risk and Corporate Financial Decisions: Evidence from the NO\n                    <sub>x</sub>\n                    Budget Trading Program",
+        "published": "2023-12-01",
+        "author": "Tiancheng Yu",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.4617",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.google.com/view/tianchengyuhomepage/research",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-9a838024f7029d20",
+      "title": "Offsetable Derivative Exposures and Investor Risk Assessment",
+      "authors": [
+        "Biqin Xie",
+        "Jed Neilson",
+        "Philip Wang",
+        "Chris Williams"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.psu.edu/biqinxie/",
+      "primary_source_url": "https://sites.psu.edu/biqinxie/",
+      "paper_url": "",
+      "source_author": "Biqin Xie",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Offsetable Derivative Exposures and Investor Risk Assessment (with Jed Neilson, Philip Wang, and Chris Williams), R & R at Management Science.",
+      "verification": "institution profile",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.4831",
+        "journal": "MS",
+        "title": "Offsetable Derivatives and Investor Risk Assessment",
+        "published": "2024-05-01",
+        "author": "Biqin Xie",
+        "doi_url": "https://doi.org/10.1287/mnsc.2023.4831",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://sites.psu.edu/biqinxie/",
+          "type": "institution profile",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
+    },
+    {
+      "id": "ms-58e0e27c3825ca6d",
+      "title": "Timing the Factor Zoo via Deep Visualization",
+      "authors": [
+        "Yuecheng Jia",
+        "Junye Li",
+        "Vera Zhang",
+        "Jiangyu Zhao"
+      ],
+      "authors_note": "",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://junye-li.github.io/",
+      "primary_source_url": "https://junye-li.github.io/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5981095",
+      "source_author": "Junye Li",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "last_attempted": "2026-10-13",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Jia, Y., Li, J., Zhang, H., and Zhao, J. \"Timing the Factor Zoo via Deep Visualization\". First version: July 2025; This version: December 2025 PDF Revise & Resubmit: Management Science",
+      "verification": "author homepage",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.04054",
+        "journal": "MS",
+        "title": "Estimating and Testing Long-Run Risk Models: International Evidence",
+        "published": "2025-04-01",
+        "author": "Junye Li",
+        "doi_url": "https://doi.org/10.1287/mnsc.2022.04054",
+        "match_method": "Exact normalized author name in Crossref six-journal author corpus"
+      },
+      "eligibility_status": "verified",
+      "scope": "top5",
+      "source_scope": "top5",
+      "evidence_sources": [
+        {
+          "url": "https://junye-li.github.io/",
+          "type": "author homepage",
+          "checked_on": "2026-10-13",
+          "status": "R&R"
+        }
+      ],
+      "reference_ids": []
     }
   ]
 }

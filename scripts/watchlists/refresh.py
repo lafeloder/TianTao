@@ -26,8 +26,10 @@ RR = re.compile(r'\b(?:revise[\s-]*and[\s-]*resubmit|R\s*&\s*R)\b', re.I)
 REJECT = re.compile(r'\breject[\s-]*and[\s-]*resubmit\b', re.I)
 JOURNAL_NAMES = {'JF': 'Journal of Finance', 'JFE': 'Journal of Financial Economics',
                  'RFS': 'Review of Financial Studies', 'RF': 'Review of Finance',
-                 'JFQA': 'Journal of Financial and Quantitative Analysis'}
+                 'JFQA': 'Journal of Financial and Quantitative Analysis',
+                 'MS': 'Management Science'}
 POSTDOC = re.compile(r'\bpost[\s-]?(?:doc(?:toral)?|doctorate)\b|research (?:fellow|associate)', re.I)
+RESEARCH_LINK = re.compile(r'\b(research|working papers?|publications?|papers?|manuscripts?)\b', re.I)
 FIELDS = {'Banking': r'bank(?:ing|s)?|financial intermediation|credit|mortgage',
           'Corporate finance': r'corporate|firm financ|capital structure|merger|acquisition',
           'Labor': r'labou?r|employment|wage|inequality|migration',
@@ -78,6 +80,78 @@ def journal_in(text):
         match=re.search(r'\b(?:the\s+)?'+re.escape(name)+r'\b',text,re.I)
         if match:matches.append((match.start(),-len(name),key))
     return min(matches)[2] if matches else None
+
+def homepage_coverage(universe, homes, corpus):
+    """Count linked author name groups without multiplying namesakes by affiliation."""
+    names={normalize(a['name']) for a in universe if a.get('name')}
+    eligible_dois={work['doi'] for work in corpus['works']}
+    linked={normalize(a['name']) for a in homes if a.get('approved') and a.get('url')
+            and a.get('eligibility') and a['eligibility'].get('doi') in eligible_dois}
+    count=len(names & linked)
+    return {'linked_authors':count,'author_rows':len(names),
+            'percent':round(100*count/len(names),2) if names else 0,
+            'basis':'Provisional normalized author name groups. Profile-only links and unreadable sources are separately flagged in the author audit; namesakes remain possible.'}
+
+def ms_author_ledger(universe, homes, state, today):
+    """Account for every recent MS author name, including unresolved sites."""
+    grouped={}
+    for author in universe:
+        publications=[p for p in author['publications'] if p['journal']=='MS']
+        if not publications:
+            continue
+        key=normalize(author['name'])
+        row=grouped.setdefault(key,{'name':author['name'],'ms_publication_dois':set()})
+        if row['name'].isupper() and not author['name'].isupper():
+            row['name']=author['name']
+        row['ms_publication_dois'].update(p['doi'] for p in publications)
+    linked={normalize(a['name']):a for a in homes if a.get('approved') and a.get('url')}
+    searched=set(state.get('ms_search_done',[]))
+    rows=[]
+    for key,row in sorted(grouped.items()):
+        home=linked.get(key)
+        status=('profile_linked' if home and home.get('identity_method') else 'verified' if home else 'unresolved')
+        rows.append({'name_key':key,'name':row['name'],
+                     'ms_publication_dois':sorted(row['ms_publication_dois']),
+                     'homepage_url':home['url'] if home else '',
+                     'homepage_type':home.get('site_type','') if home else '',
+                     'identity_evidence_url':home.get('identity_evidence_url','') if home else '',
+                     'homepage_status':status,
+                     'identity_method':home.get('identity_method','publication or affiliation match') if home else '',
+                     'search_attempted_on':state.get('ms_search_checked_on','') if key in searched else '',
+                     'last_scanned':home.get('last_scanned','') if home else '',
+                     'scan_status':home.get('scan_status','') if home else ''})
+    verified=sum(r['homepage_status']=='verified' for r in rows)
+    profile_linked=sum(r['homepage_status']=='profile_linked' for r in rows)
+    scanned=sum(bool(r['last_scanned']==today) for r in rows)
+    return {'window':'rolling five years','checked_on':today,'authors':rows}, {
+        'author_name_groups':len(rows),'verified_homepages':verified,
+        'profile_linked_homepages':profile_linked,
+        'linked_homepages':verified+profile_linked,
+        'homepage_percent':round(100*(verified+profile_linked)/len(rows),2) if rows else 0,
+        'searched_by_name':sum(bool(r['search_attempted_on']) for r in rows),
+        'homepages_scanned_this_run':scanned,
+        'basis':'Normalized author name groups from MS publications. Publication/affiliation matches and profile-only links are reported separately; namesakes remain provisional.'}
+
+def research_links(body, base_url):
+    """Follow a few paper-listing pages within the same author's site."""
+    base=urllib.parse.urlsplit(base_url)
+    base_parts=[part for part in base.path.split('/') if part]
+    candidates=[]
+    for anchor in parse_html(body).find_all('a',href=True):
+        url=urllib.parse.urljoin(base_url,anchor['href']).split('#')[0]
+        parts=urllib.parse.urlsplit(url)
+        if parts.scheme!='https' or parts.hostname!=base.hostname:
+            continue
+        if base.hostname=='sites.google.com' and len(base_parts)>=2:
+            if [part for part in parts.path.split('/') if part][:2]!=base_parts[:2]:
+                continue
+        if re.search(r'\.(?:pdf|docx?|pptx?|xlsx?)(?:$|\?)',parts.path,re.I):
+            continue
+        label=clean(anchor.get_text(' ',strip=True))
+        if RESEARCH_LINK.search(label) or RESEARCH_LINK.search(parts.path.replace('-',' ')):
+            if url.rstrip('/')!=base_url.split('#')[0].rstrip('/'):
+                candidates.append((0 if RESEARCH_LINK.search(label) else 1,url))
+    return [url for _,url in sorted(set(candidates))[:3]]
 
 def rr_blocks(body, url):
     """Only a title and status within a bounded paper block become a candidate."""
@@ -173,9 +247,13 @@ def safe_get(url):
     except Exception as e:
         return url, '', type(e).__name__
 
-def discover_homepages(universe, already, limit, state):
+def discover_homepages(universe, already, limit, state, covered_names=None):
     candidates=[]
-    eligible=[a for a in universe if a.get('orcid') and a['orcid'] not in state.get('orcid_done',[])]
+    covered_names=set(covered_names or [])
+    priority=lambda a:(normalize(a['name']) in covered_names,
+                       not any(p['journal']=='MS' for p in a['publications']),
+                       normalize(a['name']))
+    eligible=sorted((a for a in universe if a.get('orcid') and a['orcid'] not in state.get('orcid_done',[])),key=priority)
     done=state.setdefault('orcid_done',[])
     for author in eligible[:limit]:
         try:
@@ -194,8 +272,8 @@ def discover_homepages(universe, already, limit, state):
     key=os.getenv('BRAVE_SEARCH_API_KEY')
     if key:
         name_done=state.setdefault('search_done',[])
-        authors=[a for a in universe if normalize(a['name']) not in name_done]
-        for a in authors[:min(limit,30)]:
+        authors=sorted((a for a in universe if normalize(a['name']) not in name_done),key=priority)
+        for a in authors[:limit]:
             try:
                 q=a['name']+' finance research personal website '+(' '.join(a['affiliations'])[:100])
                 url='https://api.search.brave.com/res/v1/web/search?'+urllib.parse.urlencode({'q':q,'count':3})
@@ -225,6 +303,8 @@ def main():
     state=load('discovery-state.json',{})
     queue=load('review-queue.json',{'items':[]})['items']
     urls={a['url'] for a in homes if a.get('approved')} | {j['source_url'] for j in jobs['items']}
+    urls|={p['evidence_url'] for p in rr['items'] if p.get('evidence_url','').startswith('https://')
+           and p.get('journal') in JOURNAL_NAMES}
     if not args.skip_feeds:
         urls|={s['career_url'] for s in schools['schools']}
     results={}
@@ -234,6 +314,21 @@ def main():
     report={'attempted_on':today,'sources':[]}
     for url,(body,error) in results.items():
         report['sources'].append({'url':url,'result':'failed' if error else 'fetched','error':error})
+    author_links={}
+    for author in homes:
+        if not author.get('approved'):
+            continue
+        body,error=results.get(author['url'],('','not attempted'))
+        if not error:
+            try:
+                author_links[author['url']]=research_links(body,author['url'])
+            except Exception:
+                author_links[author['url']]=[]
+    linked_urls={url for links in author_links.values() for url in links if url not in results}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        for url,body,error in pool.map(safe_get,sorted(linked_urls)):
+            results[url]=(body,error)
+            report['sources'].append({'url':url,'result':'failed' if error else 'fetched','error':error})
     verified_names=set()
     for author in homes:
         matches=[a for a in universe if normalize(a['name'])==normalize(author['name'])]
@@ -241,27 +336,36 @@ def main():
         if not author.get('approved') or not pubs:
             continue
         author['eligibility']=min(pubs,key=lambda p:p['published'])
-        body,error=results.get(author['url'],('','not attempted'))
-        author['last_attempted']=today;author['scan_status']='failed' if error else 'scanned'
-        if not error:
+        home_body,home_error=results.get(author['url'],('','not attempted'))
+        author['last_attempted']=today;author['scan_status']='failed' if home_error else 'scanned'
+        if not home_error:
             author['last_scanned']=today;verified_names.add(normalize(author['name']))
-            existing={normalize(p['title'])+p['journal'] for p in rr['items']}
-            for candidate in rr_blocks(body,author['url']):
+        author_pages=set([author['url']]+author_links.get(author['url'],[]))
+        author_pages|={p['evidence_url'] for p in rr['items'] if p.get('journal') in JOURNAL_NAMES
+                       and normalize(p.get('source_author',''))==normalize(author['name'])
+                       and p.get('evidence_url','').startswith('https://')}
+        existing={normalize(p['title'])+p['journal'] for p in rr['items']}
+        for page_url in author_pages:
+            body,error=results.get(page_url,('','not attempted'))
+            if error:
+                continue
+            for candidate in rr_blocks(body,page_url):
                 if normalize(candidate['title'])+candidate['journal'] not in existing:
                     queue.append(dict(candidate,kind='paper',source_author=author['name'],discovered_on=today,
                                       review='Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance.'))
-        titles=[p['title'] for p in rr['items'] if p['evidence_url']==author['url']]
         for paper in rr['items']:
-            if paper['evidence_url']!=author['url']:
+            if paper.get('evidence_url') not in author_pages:
                 continue
             if paper['status'] in ['Accepted','Published'] or paper['journal'] not in JOURNAL_NAMES:
                 # Extended-journal reports and acceptance evidence are reconciled
-                # by the reference/research layer, not the five-journal matcher.
+                # by the reference/research layer, not the tracked-journal matcher.
                 continue
             paper['eligibility']={**author['eligibility'],'author':author['name']}
+            body,error=results.get(paper['evidence_url'],('','not attempted'))
             if error:
                 paper['last_attempted']=today
                 continue
+            titles=[p['title'] for p in rr['items'] if p.get('evidence_url')==paper['evidence_url']]
             block=find_paper_block(body,paper['title'],titles)
             if RR.search(block) and journal_in(block)==paper['journal'] and not REJECT.search(block):
                 paper['last_verified']=today;paper['status']='R&R'
@@ -270,7 +374,7 @@ def main():
                 soup=parse_html(body)
                 for a in soup.find_all('a',href=True):
                     if normalize(a.get_text(' ',strip=True))==normalize(paper['title']):
-                        link=urllib.parse.urljoin(author['url'],a['href'])
+                        link=urllib.parse.urljoin(paper['evidence_url'],a['href'])
                         if link.startswith('https://'):paper['paper_url']=link
                         break
             else:
@@ -312,7 +416,8 @@ def main():
                                   'url':url,'rank':school['rank'],'discovered_on':today,
                                   'review':'Verify field, employer, Europe location, deadline, postdoctoral qualification and application status.'})
     if not args.skip_discovery:
-        queue.extend(discover_homepages(universe,{a['url'] for a in homes},args.discover_limit,state))
+        queue.extend(discover_homepages(universe,{a['url'] for a in homes},args.discover_limit,state,
+                                          {normalize(a['name']) for a in homes if a.get('approved')}))
     # Keep stable historical identities; retain failed-source evidence dates.
     queue=list({x['kind']+'|'+x.get('url',x.get('evidence_url',''))+'|'+normalize(x.get('title',x.get('name',''))):x for x in queue}.values())
     save('rr.json',rr);save('postdocs.json',jobs);save('homepages.json',{'authors':homes})
@@ -324,11 +429,15 @@ def main():
           'author_name_groups':len(names),'author_identity_records':len(universe),
           'approved_homepages':sum(bool(a.get('approved') and a.get('eligibility')) for a in homes),
           'homepages_scanned_this_run':len(verified_names),'journals':corpus['journals'],
+          'research_pages_scanned_this_run':sum(not results[url][1] for url in linked_urls),
           'schools':len(schools['schools']),
           'feeds_fetched':sum(s['feed_status'].startswith('fetched') for s in schools['schools']),
           'review_queue':len(queue),'schedule':'Weekly on Mondays (GitHub Actions; activation requires repository deployment)',
           'coverage_note':'Homepage coverage is partial. Name/affiliation identities are provisional. A fetched career feed is not an exhaustive vacancy search.',
           'linkedin_note':'Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.'}
+    meta['author_homepage_coverage']=homepage_coverage(universe,homes,corpus)
+    ms_ledger,meta['ms_author_audit']=ms_author_ledger(universe,homes,state,today)
+    save('ms-author-ledger.json',ms_ledger)
     save('meta.json',meta)
     public=ROOT/'public'/'watchlists';public.mkdir(parents=True,exist_ok=True)
     for name in ['rr','postdocs','meta','schools']:

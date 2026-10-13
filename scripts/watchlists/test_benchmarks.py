@@ -1,6 +1,6 @@
 import json
 import unittest
-from benchmarks import parse_rr, parse_openpostdoc, op_in_scope, merge, rr_key
+from benchmarks import parse_rr, parse_openpostdoc, op_in_scope, merge, rr_key, normalize_paper
 
 class BenchmarkTests(unittest.TestCase):
     def test_full_rr_array_and_date(self):
@@ -18,6 +18,20 @@ class BenchmarkTests(unittest.TestCase):
         self.assertEqual(len(result),1)
         self.assertEqual(result[0]['reference_ids'],['first','second'])
         self.assertEqual(result[0]['status'],'Accepted')
+
+    def test_management_science_reference_joins_tracked_scope(self):
+        row={'scholar':'Author One','title':'A Finance Paper','coauthors':[],
+             'journal':'Management Science','status':'R&R','url':'https://example.com/research'}
+        paper=normalize_paper(row,{'source_updated':'2026-10-12','checked_on':'2026-10-12'})
+        self.assertEqual(paper['journal'],'MS')
+        self.assertEqual(paper['source_scope'],'top5')
+
+    def test_existing_management_science_paper_is_promoted(self):
+        old={'title':'A Finance Paper','journal':'MS','source_scope':'extended','scope':'extended',
+             'reference_ids':['first']}
+        new={'title':'A Finance Paper','journal':'MS','source_scope':'top5','reference_ids':['second']}
+        merged=merge([old],[new],'papers')[0]
+        self.assertEqual((merged['source_scope'],merged['scope']),('top5','top5'))
 
     def test_public_rsc_data(self):
         body='1:'+json.dumps({'positions':[{'id':'job1','title':'Postdoc in Economics'}],'total':1,'pageCount':1})

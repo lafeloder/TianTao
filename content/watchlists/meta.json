@@ -1,44 +1,49 @@
 {
-  "last_run": "2026-10-12",
-  "publication_window_start": "2021-10-12",
-  "publication_window_end": "2026-10-12",
-  "articles": 2402,
-  "author_name_groups": 4301,
-  "author_identity_records": 5833,
-  "approved_homepages": 3470,
-  "homepages_scanned_this_run": 3210,
+  "last_run": "2026-10-13",
+  "publication_window_start": "2021-10-13",
+  "publication_window_end": "2026-10-13",
+  "articles": 4947,
+  "author_name_groups": 8867,
+  "author_identity_records": 11298,
+  "approved_homepages": 7065,
+  "homepages_scanned_this_run": 4288,
   "journals": {
     "JF": {
       "status": "complete",
-      "articles": 402,
-      "checked_on": "2026-10-12"
-    },
-    "RFS": {
-      "status": "complete",
-      "articles": 503,
-      "checked_on": "2026-10-12"
-    },
-    "RF": {
-      "status": "complete",
-      "articles": 267,
-      "checked_on": "2026-10-12"
-    },
-    "JFQA": {
-      "status": "complete",
-      "articles": 546,
-      "checked_on": "2026-10-12"
+      "articles": 403,
+      "checked_on": "2026-10-13"
     },
     "JFE": {
       "status": "complete",
       "articles": 684,
-      "checked_on": "2026-10-12"
+      "checked_on": "2026-10-13"
+    },
+    "RFS": {
+      "status": "complete",
+      "articles": 503,
+      "checked_on": "2026-10-13"
+    },
+    "JFQA": {
+      "status": "complete",
+      "articles": 546,
+      "checked_on": "2026-10-13"
+    },
+    "RF": {
+      "status": "complete",
+      "articles": 267,
+      "checked_on": "2026-10-13"
+    },
+    "MS": {
+      "status": "complete",
+      "articles": 2544,
+      "checked_on": "2026-10-13"
     }
   },
   "schools": 50,
   "feeds_fetched": 21,
   "review_queue": 12,
   "schedule": "Weekly Mondays: source refresh at 06:15 UTC; evidence review on Monday mornings, Europe/London.",
-  "coverage_note": "Author links include personal sites and institution/employer profiles. Indexed primary profiles were confirmed in search results but could not be opened directly. Author identities without ORCID or publication-level page matches remain provisional.",
+  "coverage_note": "Six-journal homepage coverage remains below the 80% target. The denominator is normalized author name groups across all publications in the rolling five-year corpus. Profile-only links and source-restricted pages are flagged in the MS author audit; some namesakes remain possible. R&R records require author or institution evidence.",
   "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
   "paper_sources_checked": 4439,
   "reference_paper_rows": 76,
@@ -88,12 +93,10 @@
     ]
   },
   "author_homepage_coverage": {
-    "linked_authors": 3469,
-    "author_rows": 4302,
-    "percent": 80.64,
-    "live_checked": 2538,
-    "indexed_primary": 256,
-    "prior_approved": 675
+    "linked_authors": 7063,
+    "author_rows": 8867,
+    "percent": 79.65,
+    "basis": "Provisional normalized author name groups. Profile-only links and unreadable sources are separately flagged in the author audit; namesakes remain possible."
   },
   "rr_scan_summary": {
     "approved_homepages_attempted": 3470,
@@ -103,5 +106,32 @@
     "new_top5_rr_papers": 139,
     "new_papers_with_ssrn": 79,
     "checked_on": "2026-10-12"
+  },
+  "ms_author_audit": {
+    "author_name_groups": 5506,
+    "verified_homepages": 3705,
+    "profile_linked_homepages": 583,
+    "linked_homepages": 4288,
+    "homepage_percent": 77.88,
+    "searched_by_name": 4670,
+    "homepages_scanned_this_run": 4288,
+    "basis": "Normalized author name groups from MS publications. Publication/affiliation matches and profile-only links are reported separately; namesakes remain provisional."
+  },
+  "ms_rr_scan_summary": {
+    "checked_on": "2026-10-13",
+    "ms_author_pages": 4288,
+    "homepages_attempted": 4257,
+    "homepages_read": 3960,
+    "research_links_attempted": 2251,
+    "research_links_read": 1780,
+    "candidate_count": 73
+  },
+  "rr_counts_by_journal": {
+    "JF": 49,
+    "JFE": 37,
+    "RFS": 71,
+    "JFQA": 26,
+    "RF": 29,
+    "MS": 45
   }
 }

@@ -1,7 +1,7 @@
 import datetime as dt
 import unittest
 from bootstrap import publication_date
-from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block
+from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, research_links, ms_author_ledger
 
 class EvidenceTests(unittest.TestCase):
     def test_reject_is_not_revise(self):
@@ -19,6 +19,32 @@ class EvidenceTests(unittest.TestCase):
 
     def test_first_journal_wins(self):
         self.assertEqual(journal_in('Revise and resubmit, Review of Finance. Publications: Journal of Financial Economics'),'RF')
+
+    def test_management_science_is_tracked(self):
+        html='<li><h3><a href="/ms.pdf">A Confirmed Management Paper</a></h3>Revise and Resubmit, Management Science</li>'
+        result=rr_blocks(html,'https://author.example/')
+        self.assertEqual([(p['title'],p['journal']) for p in result],[('A Confirmed Management Paper','MS')])
+
+    def test_homepage_coverage_deduplicates_name_groups(self):
+        universe=[{'name':'A. Author'},{'name':'A Author'},{'name':'B Author'}]
+        homes=[{'name':'A. Author','url':'https://example.com','approved':True,
+                'eligibility':{'doi':'10.1234/paper'}}]
+        corpus={'works':[{'doi':'10.1234/paper'}]}
+        self.assertEqual(homepage_coverage(universe,homes,corpus)['percent'],50.0)
+
+    def test_research_links_stay_on_author_site(self):
+        body='<a href="/view/alice-finance/research">Research</a><a href="/view/bob-finance/research">Research</a><a href="https://other.example/research">Papers</a>'
+        self.assertEqual(research_links(body,'https://sites.google.com/view/alice-finance/'),
+                         ['https://sites.google.com/view/alice-finance/research'])
+
+    def test_ms_ledger_keeps_unresolved_authors(self):
+        universe=[{'name':'A. Author','publications':[{'doi':'10.1/ms','journal':'MS'}]},
+                  {'name':'B Author','publications':[{'doi':'10.1/jf','journal':'JF'}]}]
+        ledger,summary=ms_author_ledger(universe,[],{'ms_search_done':['aauthor'],
+                                      'ms_search_checked_on':'2026-10-13'},'2026-10-13')
+        self.assertEqual(summary['author_name_groups'],1)
+        self.assertEqual(summary['searched_by_name'],1)
+        self.assertEqual(ledger['authors'][0]['homepage_status'],'unresolved')
 
     def test_deadline_not_start(self):
         self.assertEqual(extract_deadline('Starts 1 November 2026. Application deadline: 21 October 2026'),'2026-10-21')

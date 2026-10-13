@@ -7,6 +7,7 @@
 .watchUpdate{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:22px;font-size:13px;color:var(--neutral-500)}
 .updateDot{width:7px;height:7px;background:var(--accent);border-radius:50%;display:inline-block;flex:none}
 .directory{font-size:13px;line-height:1.7;color:var(--neutral-600);margin:0 0 28px}
+.directory + .directory{margin-top:-22px}
 .chart{padding:26px 28px;margin-bottom:28px;border:1px solid var(--neutral-200);border-radius:10px;background:var(--neutral-50)}
 .chartHeading{display:flex;align-items:flex-start;justify-content:space-between;gap:18px}
 .chartKicker{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-dark);font-weight:700;margin:0 0 7px}

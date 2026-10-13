@@ -17,7 +17,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -34,7 +34,7 @@ jobs:
       - name: Recheck sources and discover candidates
         env:
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
-        run: python scripts/watchlists/refresh.py --discover-limit 30
+        run: python scripts/watchlists/refresh.py --discover-limit 100
       - name: Complete public reference pagination and coverage reconciliation
         run: python scripts/watchlists/benchmarks.py
       - name: Validate public data

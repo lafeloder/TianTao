@@ -21,7 +21,7 @@ import urllib.request
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / 'content' / 'watchlists'
 JOURNALS = {'JF': '0022-1082', 'JFE': '0304-405X', 'RFS': '0893-9454',
-            'RF': '1572-3097', 'JFQA': '0022-1090'}
+            'RF': '1572-3097', 'JFQA': '0022-1090', 'MS': '0025-1909'}
 
 def normalize(text):
     return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode().lower())
@@ -30,13 +30,13 @@ def load(name, default):
     p = DATA / name
     if not p.exists() and p.with_suffix(p.suffix+'.gz').exists():
         return json.loads(gzip.decompress(p.with_suffix(p.suffix+'.gz').read_bytes()))
-    return json.loads(p.read_text()) if p.exists() else default
+    return json.loads(p.read_text(encoding='utf-8')) if p.exists() else default
 
 def save(name, obj):
     DATA.mkdir(parents=True, exist_ok=True)
     p = DATA / name
     p.parent.mkdir(parents=True, exist_ok=True)
-    if name in ['corpus.json','author-universe.json']:
+    if name in ['corpus.json','author-universe.json','ms-author-ledger.json']:
         encoded=json.dumps(obj,ensure_ascii=False,separators=(',',':')).encode()
         target=p.with_suffix(p.suffix+'.gz')
         temp=target.with_suffix('.tmp')
@@ -45,7 +45,7 @@ def save(name, obj):
         if p.exists():p.unlink()
         return
     temp = p.with_suffix('.tmp')
-    temp.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n')
+    temp.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     temp.replace(p)
 
 def get_json(url):

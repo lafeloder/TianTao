@@ -6,12 +6,15 @@ site layout and theme. Existing About, Research, CV and Data pages are retained.
 
 ## Scope
 
-- Finance journals: JF, JFE, RFS, RF, JFQA; all reference-list extended journals
-  are retained under the extended scope. This is an explicit monitoring
-  definition, not a claim of a universal top-five ranking.
+- Tracked journals: JF, JFE, RFS, RF, JFQA and Management Science (MS).
+  The route and page title retain `Top5RR` / `Top 5 Finance R&R` for continuity;
+  the chart and filter cover all six. Other reference-list journals remain in
+  the extended scope. This is an explicit monitoring definition, not a claim
+  of a universal top-five ranking. The data value `source_scope: top5` remains
+  the legacy marker for the page's tracked six-journal set.
 - Author eligibility: at least one retrievable journal article first published
-  in the rolling five-year window in those journals. The first edition covers
-  2021-10-12 through 2026-10-12.
+  in the rolling five-year window in those journals. The current window and
+  per-journal article counts are recorded in `meta.json`.
 - Schools: ranks 1–50 in the FT European Business School Rankings 2025,
   including ties. Revisit membership when the next annual ranking is published.
   This is unrelated to the FT50 journal list.
@@ -30,7 +33,13 @@ Use `bootstrap.load()` or Python's `gzip` module to inspect them.
 - `author-universe.json.gz`: ORCID identities where available, otherwise
   provisional names and affiliations. Normalized name groups are not definitive
   unique people: namesakes, name variants and duplicate affiliations need care.
-- `homepages.json`: publication-level approved author/source identities.
+- `homepages.json`: linked personal sites and institution profiles. Each new
+  link records its discovery source and, where identity cannot be tied to a
+  publication or affiliation on the page, a profile-only identity method.
+- `ms-author-ledger.json.gz`: every normalized author name group with a recent
+  Management Science publication, including unresolved names, homepage URL,
+  identity method, search attempt and scan status. It is an internal audit file,
+  not a downloadable spreadsheet.
 - `rr.json`: R&R, reject-and-resubmit and changed decision statuses kept separately. `first_seen` is our
   discovery date, not a decision date; `source_updated` is a source's own update
   label, not a guaranteed decision date.
@@ -50,6 +59,13 @@ reference identifier; validation fails if a reference record disappears. The com
 homepages of every author have not yet been identified or checked. A successful
 HTML feed fetch does not prove exhaustive vacancy coverage. Public LinkedIn
 access may be blocked, and no signed-in or complete LinkedIn coverage is claimed.
+
+The homepage coverage denominator is all normalized author name groups with a
+publication in the six journals during the rolling five-year window. The goal
+is 80% linked personal or institution profiles. `meta.json` reports the actual
+rate and `ms_author_audit` separates publication/affiliation corroboration from
+profile-only links. Search-index evidence may locate a school page whose robots
+rules prevent an automated R&R scan; those pages remain visibly unscanned.
 
 ## Updates
 
@@ -81,8 +97,10 @@ npm ci --no-audit --no-fund
 npm run build
 ```
 
-Approve a new author page only after matching the person to an eligible DOI and
-publication on that page or an official profile. To promote a paper, verify its
+Prefer a DOI/publication or institution match for author identity. A precise
+personal or official school profile can be linked as profile-only when its
+identity evidence is weaker; do not treat it as proof of an R&R decision. To
+promote a paper, verify its
 title and complete author list, strict R&R wording, target journal, source URL
 and whether any newer source says accepted or published. For vacancies verify
 the employer/unit, European location, PhD requirement, relevant field and
