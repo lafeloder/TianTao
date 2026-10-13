@@ -26,8 +26,13 @@ function Pager({ total, page, change }: { total: number; page: number; change: (
   if (pages === 1) return null;
   return <nav className={s.pager} aria-label="Results pagination"><button disabled={page <= 1} onClick={() => change(page - 1)}>Previous</button><span>{page} / {pages}</span><button disabled={page >= pages} onClick={() => change(page + 1)}>Next</button></nav>;
 }
-function Heading({ title, date }: { title: string; date: string }) {
-  return <header className={s.heading}><h1>{title}</h1><p>Updated {fmt(date)}</p></header>;
+function WatchHero({ title, intro, date }: { title: string; intro: string; date: string }) {
+  return <header className={s.watchHero}>
+    <p className={s.eyebrow}>Research watch · Tian Tao</p>
+    <h1 className={s.watchTitle}>{title}</h1>
+    <p className={s.watchIntro}>{intro}</p>
+    <div className={s.watchUpdate}><span className={s.updateDot}/><span>Last updated: {fmt(date)}</span><span aria-hidden="true">·</span><span>Updated weekly · Mondays</span></div>
+  </header>;
 }
 
 export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]; date: string; authorCoverage?: { linked_authors: number; author_rows: number; percent: number } }) {
@@ -50,13 +55,8 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
     [p.title, ...p.authors, p.journal, fullJournalName(p.journal), p.status].join(' ').toLowerCase().includes(query.trim().toLowerCase()))
     .sort((a,b) => a.title.localeCompare(b.title));
   const currentPage = Math.min(page, Math.max(1, Math.ceil(filtered.length / 25)));
-  return <main className={`${s.page} ${s.paperPage}`}>
-    <header className={s.paperHero}>
-      <p className={s.eyebrow}>Research watch · Tian Tao</p>
-      <h1 className={s.paperTitle}>Top 5 Finance R&amp;R</h1>
-      <p className={s.paperIntro}>Working papers with publicly disclosed revise-and-resubmit decisions at five leading finance journals. Tracked through author research pages.</p>
-      <div className={s.paperUpdate}><span className={s.updateDot}/><span>Last updated: {fmt(date)}</span><span aria-hidden="true">·</span><span>Updated weekly · Mondays</span></div>
-    </header>
+  return <main className={`${s.page} ${s.widePage}`}>
+    <WatchHero title="Top 5 Finance R&R" intro="Working papers with publicly disclosed revise-and-resubmit decisions at five leading finance journals. Tracked through author research pages." date={date}/>
     {authorCoverage && <p className={s.directory}>{authorCoverage.linked_authors.toLocaleString()} of {authorCoverage.author_rows.toLocaleString()} Top 5 authors have a linked personal site or institution profile ({authorCoverage.percent.toFixed(2)}%).</p>}
     <section className={s.chart} aria-labelledby="rr-chart-heading">
       <div className={s.chartHeading}><div><p className={s.chartKicker}>Journal distribution</p><h2 id="rr-chart-heading">R&amp;R papers by journal</h2></div><p className={s.chartTotal}><strong>{totalRR}</strong><span>R&amp;R papers</span></p></div>
@@ -88,18 +88,46 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
 
 export function PostdocWatch({ items, date }: { items: VacancyView[]; date: string }) {
   const [query, setQuery] = useState('');
+  const [country, setCountry] = useState('');
+  const [statusFilter, setStatusFilter] = useState('');
   const [page, setPage] = useState(1);
   const [today, setToday] = useState(date);
-  useEffect(() => setPage(1), [query]);
-  useEffect(() => { setToday(new Date().toISOString().slice(0,10)); }, []);
-  const filtered = items.map(j => ({...j,status:j.deadline && j.deadline < today ? 'closed' : j.status}))
-    .filter(j => [j.title,j.institution,j.country,j.city,...j.topics,j.status].join(' ').toLowerCase().includes(query.trim().toLowerCase()))
+  useEffect(() => setPage(1), [query, country, statusFilter]);
+  useEffect(() => { setToday(new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/London' })); }, []);
+  const effective = items.map(j => ({...j,status:j.deadline && j.deadline < today ? 'closed' : j.status}));
+  const active = effective.filter(j => j.status !== 'closed');
+  const countryCounts = [...new Set(active.map(j => j.country).filter(Boolean))]
+    .map(name => ({ name, count: active.filter(j => j.country === name).length }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+  const maxCountryCount = Math.max(1, ...countryCounts.map(entry => entry.count));
+  const availableCountries = [...new Set(items.map(j => j.country).filter(Boolean))].sort();
+  const chooseChartCountry = (name: string) => {
+    setCountry(country === name && statusFilter === 'active' ? '' : name);
+    setStatusFilter('active');
+  };
+  const filtered = effective
+    .filter(j => (!country || j.country === country) &&
+      (!statusFilter || (statusFilter === 'active' ? j.status !== 'closed' : j.status === statusFilter)) &&
+      [j.title,j.institution,j.country,j.city,...j.topics,j.status].join(' ').toLowerCase().includes(query.trim().toLowerCase()))
     .sort((a,b) => Number(a.status === 'closed') - Number(b.status === 'closed') ||
       (a.deadline || '9999').localeCompare(b.deadline || '9999') || a.institution.localeCompare(b.institution));
   const currentPage = Math.min(page, Math.max(1, Math.ceil(filtered.length / 25)));
-  return <main className={s.page}>
-    <Heading title="European Postdocs" date={date}/>
-    <Search value={query} change={setQuery} placeholder="Search positions, institutions or fields"/>
+  return <main className={`${s.page} ${s.widePage}`}>
+    <WatchHero title="European Postdocs" intro="Postdoctoral opportunities in banking, corporate finance, labor economics and general economics. Built around Europe’s top 50 business schools in the FT ranking." date={date}/>
+    <section className={s.chart} aria-labelledby="postdoc-chart-heading">
+      <div className={s.chartHeading}><div><p className={s.chartKicker}>Country distribution</p><h2 id="postdoc-chart-heading">Active postdocs by country</h2></div><p className={s.chartTotal}><strong>{active.length}</strong><span>active or deadline unknown</span></p></div>
+      <p className={s.chartHint}>Select a country to show its active and deadline-unknown positions. Closed positions remain available in the filters below.</p>
+      <div className={`${s.chartRows} ${s.countryChartRows}`} role="group" aria-label="Filter active postdocs by country">
+        {countryCounts.map(({ name, count }) => <button type="button" key={name} className={s.chartRow} aria-pressed={country === name && statusFilter === 'active'} onClick={() => chooseChartCountry(name)} title={`Show ${count} active or deadline-unknown positions in ${name}`}>
+          <span className={s.chartLabel}>{name}</span><span className={s.chartTrack}><span className={s.chartBar} style={{ width: `${count / maxCountryCount * 100}%` }}/></span><strong className={s.chartValue}>{count}</strong>
+        </button>)}
+      </div>
+    </section>
+    <div className={s.filters}>
+      <Search value={query} change={setQuery} placeholder="Search positions, institutions or fields"/>
+      <label className={s.filter}>Country<select value={country} onChange={e => setCountry(e.target.value)}><option value="">All countries</option>{availableCountries.map(name => <option key={name} value={name}>{name}</option>)}</select></label>
+      <label className={s.filter}>Status<select value={statusFilter} onChange={e => setStatusFilter(e.target.value)}><option value="">All statuses</option><option value="active">Active &amp; uncertain</option><option value="open">Open only</option><option value="deadline unknown">Deadline unknown</option><option value="closed">Closed only</option></select></label>
+    </div>
     <p className={s.count} role="status" aria-live="polite">{filtered.length} positions</p>
     <div className={s.list}>{filtered.slice((currentPage-1)*25,currentPage*25).map(j =>
       <article className={s.item} key={j.id}>
