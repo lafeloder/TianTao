@@ -11771,6 +11771,44 @@
         }
       ],
       "reference_ids": []
+    },
+    {
+      "id": "author-site-20261013-zhengwei-jfe-001",
+      "title": "Subjective Expectations and Financial Intermediation",
+      "authors": [
+        "Francesco D’Acunto",
+        "Janet Gao",
+        "Lu Liu",
+        "Kai Lu",
+        "Zhengwei Wang",
+        "Jun Yang"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://eng.pbcsf.tsinghua.edu.cn/info/1084/2105.htm",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5064830",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5064830",
+      "source_author": "Zhengwei Wang",
+      "first_seen": "2026-10-13",
+      "last_verified": "2026-10-13",
+      "source_updated": "",
+      "topics": [
+        "Financial intermediation",
+        "Expectations"
+      ],
+      "evidence_excerpt": "Subjective Expectations and Financial Intermediation ... JFE, R&R",
+      "eligibility": {
+        "author": "Zhengwei Wang",
+        "doi": "10.1287/mnsc.2023.00681",
+        "journal": "MS",
+        "title": "Angry Borrowers: Ex Post Effects of Social Shaming on Debt Repayment",
+        "published": "2026-04-01"
+      },
+      "verification": "institution profile",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified"
     }
   ]
 }

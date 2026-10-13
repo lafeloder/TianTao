@@ -5,8 +5,8 @@
   "articles": 4947,
   "author_name_groups": 8867,
   "author_identity_records": 11298,
-  "approved_homepages": 7065,
-  "homepages_scanned_this_run": 4288,
+  "approved_homepages": 7100,
+  "homepages_scanned_this_run": 4323,
   "journals": {
     "JF": {
       "status": "complete",
@@ -43,7 +43,7 @@
   "feeds_fetched": 21,
   "review_queue": 12,
   "schedule": "Weekly Mondays: source refresh at 06:15 UTC; evidence review on Monday mornings, Europe/London.",
-  "coverage_note": "Six-journal homepage coverage remains below the 80% target. The denominator is normalized author name groups across all publications in the rolling five-year corpus. Profile-only links and source-restricted pages are flagged in the MS author audit; some namesakes remain possible. R&R records require author or institution evidence.",
+  "coverage_note": "Six-journal homepage coverage meets the 80% target. The denominator is normalized author name groups across all publications in the rolling five-year corpus. Profile-only links and source-restricted pages are flagged in the MS author audit; some namesakes remain possible. R&R records require author or institution evidence.",
   "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
   "paper_sources_checked": 4439,
   "reference_paper_rows": 76,
@@ -93,9 +93,9 @@
     ]
   },
   "author_homepage_coverage": {
-    "linked_authors": 7063,
+    "linked_authors": 7098,
     "author_rows": 8867,
-    "percent": 79.65,
+    "percent": 80.05,
     "basis": "Provisional normalized author name groups. Profile-only links and unreadable sources are separately flagged in the author audit; namesakes remain possible."
   },
   "rr_scan_summary": {
@@ -110,25 +110,25 @@
   "ms_author_audit": {
     "author_name_groups": 5506,
     "verified_homepages": 3705,
-    "profile_linked_homepages": 583,
-    "linked_homepages": 4288,
-    "homepage_percent": 77.88,
+    "profile_linked_homepages": 618,
+    "linked_homepages": 4323,
+    "homepage_percent": 78.51,
     "searched_by_name": 4670,
-    "homepages_scanned_this_run": 4288,
+    "homepages_scanned_this_run": 4323,
     "basis": "Normalized author name groups from MS publications. Publication/affiliation matches and profile-only links are reported separately; namesakes remain provisional."
   },
   "ms_rr_scan_summary": {
     "checked_on": "2026-10-13",
-    "ms_author_pages": 4288,
-    "homepages_attempted": 4257,
-    "homepages_read": 3960,
-    "research_links_attempted": 2251,
-    "research_links_read": 1780,
+    "ms_author_pages": 4323,
+    "homepages_attempted": 4292,
+    "homepages_read": 3992,
+    "research_links_attempted": 2263,
+    "research_links_read": 1792,
     "candidate_count": 73
   },
   "rr_counts_by_journal": {
     "JF": 49,
-    "JFE": 37,
+    "JFE": 38,
     "RFS": 71,
     "JFQA": 26,
     "RF": 29,

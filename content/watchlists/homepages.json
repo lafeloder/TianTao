@@ -23358,7 +23358,7 @@
         "title": "Empirical evaluation of overspecified asset pricing models",
         "published": "2023-02-01"
       },
-      "scan_status": "unavailable",
+      "scan_status": "read",
       "last_attempted": "2026-10-12",
       "last_scanned": "2026-10-13"
     },
@@ -106408,7 +106408,7 @@
         "published": "2024-04-02"
       },
       "last_attempted": "2026-10-13",
-      "scan_status": "unavailable",
+      "scan_status": "read",
       "page_readable": false,
       "last_scanned": "2026-10-13"
     },
@@ -121561,6 +121561,671 @@
         "journal": "MS",
         "title": "Quality Improvement Spillovers: Evidence from the Hospital Readmissions Reduction Program",
         "published": "2025-07-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "A. Emanuele Rizzo",
+      "url": "https://sites.google.com/site/aemanuelerizzo/home",
+      "identity_evidence_url": "https://sites.google.com/site/aemanuelerizzo/home",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "personal website",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2025.104227",
+        "journal": "JFE",
+        "title": "Constrained by law: The impact of fiduciary duties on portfolios and prices in US equity markets",
+        "published": "2026-03-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Alexandra Steiny Wellsjo",
+      "url": "https://www.alexwellsjo.com/",
+      "identity_evidence_url": "https://www.alexwellsjo.com/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "personal website",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2025.00480",
+        "journal": "MS",
+        "title": "Goals, Expectations, and Performance",
+        "published": "2026-08-24"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Alexander F. Wagner",
+      "url": "https://www.df.uzh.ch/en/people/professor/wagner.html",
+      "identity_evidence_url": "https://www.df.uzh.ch/en/people/professor/wagner.html",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1093/rfs/hhaf116",
+        "journal": "RFS",
+        "title": "The Intangibles Song in Takeover Announcements: Good Tempo, Hollow Tune",
+        "published": "2025-12-29"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Anahit Mkrtchyan",
+      "url": "https://www.isenberg.umass.edu/people/anya-mkrtchyan",
+      "identity_evidence_url": "https://www.isenberg.umass.edu/people/anya-mkrtchyan",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.4971",
+        "journal": "MS",
+        "title": "CEO Activism and Firm Value",
+        "published": "2024-10-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Benedikt Franke",
+      "url": "https://www.wiwi.uni-wuerzburg.de/bwl3/team/lehrstuhlinhaber/",
+      "identity_evidence_url": "https://www.wiwi.uni-wuerzburg.de/bwl3/team/lehrstuhlinhaber/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.4718",
+        "journal": "MS",
+        "title": "The (Limited) Power of Blockchain Networks for Information Provision",
+        "published": "2024-02-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Bibo Liu",
+      "url": "https://eng.pbcsf.tsinghua.edu.cn/info/1084/2110.htm",
+      "identity_evidence_url": "https://eng.pbcsf.tsinghua.edu.cn/info/1084/2110.htm",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2026.104255",
+        "journal": "JFE",
+        "title": "Market feedback: Evidence from the horse’s mouth",
+        "published": "2026-06-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Christopher Stanton",
+      "url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452",
+      "identity_evidence_url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.07524",
+        "journal": "MS",
+        "title": "Should Human Capital Development Programs be Mandatory or Voluntary? Evidence from a Field Experiment on Mentorship",
+        "published": "2026-06-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "unavailable",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Chunhua Lan",
+      "url": "https://www.unb.ca/faculty-staff/directory/management/lan-chunhua.html",
+      "identity_evidence_url": "https://www.unb.ca/faculty-staff/directory/management/lan-chunhua.html",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.4693",
+        "journal": "MS",
+        "title": "Cashflow Timing vs. Discount-Rate Timing: An Examination of Mutual Fund Market-Timing Skills",
+        "published": "2024-02-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "unavailable",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Dmitry Bazhutov",
+      "url": "https://www.uni-wuppertal.de/en/third-mission/business-meets-science/researcher-database/scientist/dmitry-bazhutov/",
+      "identity_evidence_url": "https://www.uni-wuppertal.de/en/third-mission/business-meets-science/researcher-database/scientist/dmitry-bazhutov/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1017/s0022109024000541",
+        "journal": "JFQA",
+        "title": "Does Speculative News Hurt Productivity? Evidence from Takeover Rumors",
+        "published": "2025-05-13"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Fotis Grigoris",
+      "url": "https://www.fotig.com/",
+      "identity_evidence_url": "https://www.fotig.com/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "personal website",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1111/jofi.70010",
+        "journal": "JF",
+        "title": "Investment under Upstream and Downstream Uncertainty",
+        "published": "2025-12-22"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "G. Andrew Karolyi",
+      "url": "https://business.cornell.edu/profiles/gak56/",
+      "identity_evidence_url": "https://business.cornell.edu/profiles/gak56/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.05875",
+        "journal": "MS",
+        "title": "Crypto Value, Factor Pricing, and Market Segmentation",
+        "published": "2026-06-05"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Guanhao Feng",
+      "url": "https://www.gavinfeng702.com/",
+      "identity_evidence_url": "https://www.gavinfeng702.com/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "personal website",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.07804",
+        "journal": "MS",
+        "title": "Selecting and Testing Asset-Pricing Models: A Stepwise Approach",
+        "published": "2026-06-02"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Hannes Mohrschladt",
+      "url": "https://www.uni-potsdam.de/en/bwl-fin/unser-team/lehrstuhlinhaber",
+      "identity_evidence_url": "https://www.uni-potsdam.de/en/bwl-fin/unser-team/lehrstuhlinhaber",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.08815",
+        "journal": "MS",
+        "title": "Systematic Mispricing of Speculative Stocks and the Cross-Sectional Risk-Return Trade-off",
+        "published": "2026-07-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Henry Friedman",
+      "url": "https://www.anderson.ucla.edu/faculty-and-research/accounting/faculty/friedman",
+      "identity_evidence_url": "https://www.anderson.ucla.edu/faculty-and-research/accounting/faculty/friedman",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2023.05.003",
+        "journal": "JFE",
+        "title": "Economic uncertainty and investor attention",
+        "published": "2023-08-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Jeffery (Jinfan) Chang",
+      "url": "https://sfi.cuhk.edu.cn/en/node/6236",
+      "identity_evidence_url": "https://sfi.cuhk.edu.cn/en/node/6236",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2025.01449",
+        "journal": "MS",
+        "title": "Superstition Everywhere",
+        "published": "2026-09-23"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "unavailable",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "João F. Cocco",
+      "url": "https://www.london.edu/faculty-and-research/faculty-profiles/c/cocco-j-f",
+      "identity_evidence_url": "https://www.london.edu/faculty-and-research/faculty-profiles/c/cocco-j-f",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2026.104236",
+        "journal": "JFE",
+        "title": "Investments that make our homes greener: The role of regulation",
+        "published": "2026-03-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Jun “QJ” Qian",
+      "url": "https://fisf.fudan.edu.cn/show-65-69.html",
+      "identity_evidence_url": "https://fisf.fudan.edu.cn/show-65-69.html",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.04233",
+        "journal": "MS",
+        "title": "Fiscal Stimulus, Deposit Competition, and the Rise of Shadow Banking: Evidence from China",
+        "published": "2025-07-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "K. J. Martijn Cremers",
+      "url": "https://mendoza.nd.edu/mendoza-directory/profile/martijn-cremers/",
+      "identity_evidence_url": "https://mendoza.nd.edu/mendoza-directory/profile/martijn-cremers/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1017/s0022109024000784",
+        "journal": "JFQA",
+        "title": "Poison Pills in the Shadow of the Law",
+        "published": "2025-04-07"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Laurence Daures-Lescourret",
+      "url": "https://www.laurencedaures.com/home",
+      "identity_evidence_url": "https://www.laurencedaures.com/home",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "personal website",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.03998",
+        "journal": "MS",
+        "title": "Click First or Last? Strategic Order Submission During the Euronext Preopening Session",
+        "published": "2026-03-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "M. Deniz Yavuz",
+      "url": "https://business.purdue.edu/faculty/?username=myavuz",
+      "identity_evidence_url": "https://business.purdue.edu/faculty/?username=myavuz",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2026.104322",
+        "journal": "JFE",
+        "title": "Measuring firms’ capability to absorb external knowledge",
+        "published": "2026-09-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Peter Limbach",
+      "url": "https://www.uni-bielefeld.de/fakultaeten/wirtschaftswissenschaften/lehrbereiche/corporate-finance-and-governance/",
+      "identity_evidence_url": "https://www.uni-bielefeld.de/fakultaeten/wirtschaftswissenschaften/lehrbereiche/corporate-finance-and-governance/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1017/s0022109024000541",
+        "journal": "JFQA",
+        "title": "Does Speculative News Hurt Productivity? Evidence from Takeover Rumors",
+        "published": "2025-05-13"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Redouane Elkamhi",
+      "url": "https://www.rotman.utoronto.ca/the-rotman-experience/our-community/people/elkamhi-redouane/",
+      "identity_evidence_url": "https://www.rotman.utoronto.ca/the-rotman-experience/our-community/people/elkamhi-redouane/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2022.00097",
+        "journal": "MS",
+        "title": "A Benchmark for Collateralized Loan Obligations",
+        "published": "2025-03-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "unavailable",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Shujing Wang",
+      "url": "https://sem.tongji.edu.cn/semen/18918.html",
+      "identity_evidence_url": "https://sem.tongji.edu.cn/semen/18918.html",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.00816",
+        "journal": "MS",
+        "title": "Big Data Availability and Asymmetric Voluntary Disclosures",
+        "published": "2026-04-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Siew H. Teoh",
+      "url": "https://www.anderson.ucla.edu/faculty-and-research/accounting/faculty/teoh",
+      "identity_evidence_url": "https://www.anderson.ucla.edu/faculty-and-research/accounting/faculty/teoh",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1017/s0022109022001260",
+        "journal": "JFQA",
+        "title": "Bringing Innovation to Fruition: Insights From New Trademarks",
+        "published": "2022-11-08"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Terrence Tianshuo Shi",
+      "url": "https://www.anderson.ucla.edu/faculty-and-research/accounting/faculty/shi",
+      "identity_evidence_url": "https://www.anderson.ucla.edu/faculty-and-research/accounting/faculty/shi",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.07272",
+        "journal": "MS",
+        "title": "Communicating Corporate Culture in Labor Markets: Evidence from Job Postings",
+        "published": "2026-09-21"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Vivian W. Fang",
+      "url": "https://fangvivian.weebly.com/",
+      "identity_evidence_url": "https://fangvivian.weebly.com/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "personal website",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1017/s0022109024000814",
+        "journal": "JFQA",
+        "title": "Is It all Noise? The Microstructure Implications of Corporate Recurring Advertisements",
+        "published": "2025-04-25"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Xi Liu",
+      "url": "https://miamioh.edu/fsb/directory/?up=%2Fdirectory%2Fliux60",
+      "identity_evidence_url": "https://miamioh.edu/fsb/directory/?up=%2Fdirectory%2Fliux60",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.4919",
+        "journal": "MS",
+        "title": "Washington Policy Analysts and the Propagation of Political Information",
+        "published": "2024-08-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Yuan Ren",
+      "url": "https://person.zju.edu.cn/en/renyuanfinance",
+      "identity_evidence_url": "https://person.zju.edu.cn/en/renyuanfinance",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.03947",
+        "journal": "MS",
+        "title": "The Real Impact of FinTech: Evidence from Mobile Payment Technology",
+        "published": "2026-05-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "unavailable",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Yuzhao Zhang",
+      "url": "https://www.business.rutgers.edu/faculty/yuzhao-zhang",
+      "identity_evidence_url": "https://www.business.rutgers.edu/faculty/yuzhao-zhang",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1093/rfs/hhaf016",
+        "journal": "RFS",
+        "title": "Common Pricing of Decentralized Risk: A Linear Option Pricing Model",
+        "published": "2025-03-13"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Zhengwei Wang",
+      "url": "https://eng.pbcsf.tsinghua.edu.cn/info/1084/2105.htm",
+      "identity_evidence_url": "https://eng.pbcsf.tsinghua.edu.cn/info/1084/2105.htm",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.00681",
+        "journal": "MS",
+        "title": "Angry Borrowers: Ex Post Effects of Social Shaming on Debt Repayment",
+        "published": "2026-04-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Zhongjin Lu",
+      "url": "https://sites.google.com/view/genelu/home",
+      "identity_evidence_url": "https://sites.google.com/view/genelu/home",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "personal website",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.05808",
+        "journal": "MS",
+        "title": "Expectations Matter: When (Not) to Use Machine Learning Earnings Forecasts",
+        "published": "2026-10-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Sung Joo Kim",
+      "url": "https://sungjook.github.io/Research/",
+      "identity_evidence_url": "https://sungjook.github.io/Research/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "personal website",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.03625",
+        "journal": "MS",
+        "title": "Revisiting the CEO Effect Through a Machine Learning Lens",
+        "published": "2025-06-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Jing Ding",
+      "url": "https://sem.tongji.edu.cn/semen/24338.html",
+      "identity_evidence_url": "https://sem.tongji.edu.cn/semen/24338.html",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2023.4857",
+        "journal": "MS",
+        "title": "Dynamic Market Timing in Mutual Funds",
+        "published": "2024-06-01"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Ke Na",
+      "url": "https://english.ckgsb.edu.cn/faculty/na-ke/",
+      "identity_evidence_url": "https://english.ckgsb.edu.cn/faculty/na-ke/",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "institution profile",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1017/s0022109026103202",
+        "journal": "JFQA",
+        "title": "Political Connections, Financial Constraints, and Corporate Taxation",
+        "published": "2026-09-24"
+      },
+      "last_attempted": "2026-10-13",
+      "scan_status": "read",
+      "last_scanned": "2026-10-13"
+    },
+    {
+      "name": "Sean Shun Cao",
+      "url": "https://sites.google.com/view/seancao/home",
+      "identity_evidence_url": "https://sites.google.com/view/seancao/home",
+      "identity_method": "Author homepage or dedicated institution profile; research area and publication affiliation checked",
+      "approved": true,
+      "approved_on": "2026-10-13",
+      "site_type": "personal website",
+      "discovery_source": "manual author and institution research, 2026-10-13",
+      "eligibility": {
+        "doi": "10.1287/mnsc.2024.08833",
+        "journal": "MS",
+        "title": "Do Hedge Funds Strategically Misreport Their Holdings? Evidence from 13F Restatements",
+        "published": "2026-06-17"
       },
       "last_attempted": "2026-10-13",
       "scan_status": "read",
