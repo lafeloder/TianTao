@@ -1,7 +1,7 @@
 import datetime as dt
 import unittest
 from bootstrap import publication_date
-from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, research_links, ms_author_ledger
+from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger
 
 class EvidenceTests(unittest.TestCase):
     def test_reject_is_not_revise(self):
@@ -31,6 +31,17 @@ class EvidenceTests(unittest.TestCase):
                 'eligibility':{'doi':'10.1234/paper'}}]
         corpus={'works':[{'doi':'10.1234/paper'}]}
         self.assertEqual(homepage_coverage(universe,homes,corpus)['percent'],50.0)
+
+    def test_finance_top5_coverage_excludes_ms_only_authors(self):
+        universe=[{'name':'Finance Author','publications':[{'doi':'10.1/jf','journal':'JF'}]},
+                  {'name':'Management Author','publications':[{'doi':'10.1/ms','journal':'MS'}]}]
+        homes=[{'name':'Finance Author','url':'https://example.com/finance','approved':True,
+                'eligibility':{'doi':'10.1/jf'}},
+               {'name':'Management Author','url':'https://example.com/management','approved':True,
+                'eligibility':{'doi':'10.1/ms'}}]
+        corpus={'works':[{'doi':'10.1/jf','journal':'JF'},{'doi':'10.1/ms','journal':'MS'}]}
+        result=finance_top5_homepage_coverage(universe,homes,corpus)
+        self.assertEqual((result['linked_authors'],result['author_rows'],result['percent']),(1,1,100.0))
 
     def test_research_links_stay_on_author_site(self):
         body='<a href="/view/alice-finance/research">Research</a><a href="/view/bob-finance/research">Research</a><a href="https://other.example/research">Papers</a>'

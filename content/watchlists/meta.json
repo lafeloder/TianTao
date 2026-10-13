@@ -133,5 +133,11 @@
     "JFQA": 26,
     "RF": 29,
     "MS": 45
+  },
+  "finance_top5_author_homepage_coverage": {
+    "linked_authors": 3625,
+    "author_rows": 4301,
+    "percent": 84.28,
+    "basis": "Normalized author name groups with publications in JF, JFE, RFS, JFQA or RF; homepage eligibility must match a publication in those journals."
   }
 }

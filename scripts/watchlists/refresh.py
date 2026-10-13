@@ -92,6 +92,19 @@ def homepage_coverage(universe, homes, corpus):
             'percent':round(100*count/len(names),2) if names else 0,
             'basis':'Provisional normalized author name groups. Profile-only links and unreadable sources are separately flagged in the author audit; namesakes remain possible.'}
 
+def finance_top5_homepage_coverage(universe, homes, corpus):
+    """Report author coverage for the five finance journals, excluding MS-only authors."""
+    journals={'JF','JFE','RFS','JFQA','RF'}
+    names={normalize(a['name']) for a in universe if a.get('name')
+           and any(p.get('journal') in journals for p in a.get('publications',[]))}
+    eligible_dois={work['doi'] for work in corpus['works'] if work.get('journal') in journals}
+    linked={normalize(a['name']) for a in homes if a.get('approved') and a.get('url')
+            and a.get('eligibility') and a['eligibility'].get('doi') in eligible_dois}
+    count=len(names & linked)
+    return {'linked_authors':count,'author_rows':len(names),
+            'percent':round(100*count/len(names),2) if names else 0,
+            'basis':'Normalized author name groups with publications in JF, JFE, RFS, JFQA or RF; homepage eligibility must match a publication in those journals.'}
+
 def ms_author_ledger(universe, homes, state, today):
     """Account for every recent MS author name, including unresolved sites."""
     grouped={}
@@ -436,6 +449,7 @@ def main():
           'coverage_note':'Homepage coverage is partial. Name/affiliation identities are provisional. A fetched career feed is not an exhaustive vacancy search.',
           'linkedin_note':'Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.'}
     meta['author_homepage_coverage']=homepage_coverage(universe,homes,corpus)
+    meta['finance_top5_author_homepage_coverage']=finance_top5_homepage_coverage(universe,homes,corpus)
     ms_ledger,meta['ms_author_audit']=ms_author_ledger(universe,homes,state,today)
     save('ms-author-ledger.json',ms_ledger)
     save('meta.json',meta)

@@ -36,7 +36,7 @@ function WatchHero({ title, intro, date }: { title: string; intro: string; date:
   </header>;
 }
 
-export function PaperWatch({ items, date, authorCoverage, msAuthorAudit }: { items: PaperView[]; date: string; authorCoverage?: { linked_authors: number; author_rows: number; percent: number }; msAuthorAudit?: { author_name_groups: number; linked_homepages: number; verified_homepages: number; profile_linked_homepages: number; homepage_percent: number } }) {
+export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]; date: string; authorCoverage?: { linked_authors: number; author_rows: number; percent: number } }) {
   const [query, setQuery] = useState('');
   const [journal, setJournal] = useState('');
   const [status, setStatus] = useState('');
@@ -57,9 +57,8 @@ export function PaperWatch({ items, date, authorCoverage, msAuthorAudit }: { ite
     .sort((a,b) => a.title.localeCompare(b.title));
   const currentPage = Math.min(page, Math.max(1, Math.ceil(filtered.length / 25)));
   return <main className={`${s.page} ${s.widePage}`}>
-    <WatchHero title="Top 5 Finance R&R" intro="Working papers with publicly disclosed revise-and-resubmit decisions at six journals. Tracked through author research pages." date={date}/>
-    {authorCoverage && <p className={s.directory}>{authorCoverage.linked_authors.toLocaleString()} of {authorCoverage.author_rows.toLocaleString()} author name groups in the six-journal publication universe have a linked personal site or institution profile ({authorCoverage.percent.toFixed(2)}%).</p>}
-    {msAuthorAudit && <p className={s.directory}>Management Science: {msAuthorAudit.linked_homepages.toLocaleString()} of {msAuthorAudit.author_name_groups.toLocaleString()} author name groups linked ({msAuthorAudit.homepage_percent.toFixed(2)}%); {msAuthorAudit.profile_linked_homepages.toLocaleString()} rely on profile-only identity evidence.</p>}
+    <WatchHero title="Top 5 Finance R&R" intro="Working papers with publicly disclosed revise-and-resubmit decisions. Tracked through author research pages." date={date}/>
+    {authorCoverage && <p className={s.directory}>{authorCoverage.linked_authors.toLocaleString()} of {authorCoverage.author_rows.toLocaleString()} author name groups publishing in the five leading finance journals have a linked personal site or institution profile ({authorCoverage.percent.toFixed(2)}%).</p>}
     <section className={s.chart} aria-labelledby="rr-chart-heading">
       <div className={s.chartHeading}><div><p className={s.chartKicker}>Journal distribution</p><h2 id="rr-chart-heading">R&amp;R papers by journal</h2></div><p className={s.chartTotal}><strong>{totalRR}</strong><span>R&amp;R papers</span></p></div>
       <p className={s.chartHint}>Select a journal to filter the paper list. Counts include R&amp;R decisions only.</p>
