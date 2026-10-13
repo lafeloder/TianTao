@@ -38,14 +38,35 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
   useEffect(() => setPage(1), [query, journal, status]);
   const availableJournals = Object.keys(journalNames).filter(code => items.some(p => p.journal === code));
   const availableStatuses = revisionStatuses.filter(value => items.some(p => p.status === value));
+  const rrCounts = availableJournals.map(code => ({ code, count: items.filter(p => p.journal === code && p.status === 'R&R').length }));
+  const totalRR = rrCounts.reduce((total, entry) => total + entry.count, 0);
+  const maxRR = Math.max(1, ...rrCounts.map(entry => entry.count));
+  const chooseChartJournal = (code: string) => {
+    setJournal(journal === code && status === 'R&R' ? '' : code);
+    setStatus('R&R');
+  };
   const filtered = items.filter(p => revisionStatuses.includes(p.status) &&
     (!journal || p.journal === journal) && (!status || p.status === status) &&
     [p.title, ...p.authors, p.journal, fullJournalName(p.journal), p.status].join(' ').toLowerCase().includes(query.trim().toLowerCase()))
     .sort((a,b) => a.title.localeCompare(b.title));
   const currentPage = Math.min(page, Math.max(1, Math.ceil(filtered.length / 25)));
-  return <main className={s.page}>
-    <Heading title="R&R Papers" date={date}/>
+  return <main className={`${s.page} ${s.paperPage}`}>
+    <header className={s.paperHero}>
+      <p className={s.eyebrow}>Research watch · Tian Tao</p>
+      <h1 className={s.paperTitle}>Top 5 Finance R&amp;R</h1>
+      <p className={s.paperIntro}>Working papers with publicly disclosed revise-and-resubmit decisions at five leading finance journals. Tracked through author research pages.</p>
+      <div className={s.paperUpdate}><span className={s.updateDot}/><span>Last updated: {fmt(date)}</span><span aria-hidden="true">·</span><span>Updated weekly · Mondays</span></div>
+    </header>
     {authorCoverage && <p className={s.directory}>{authorCoverage.linked_authors.toLocaleString()} of {authorCoverage.author_rows.toLocaleString()} Top 5 authors have a linked personal site or institution profile ({authorCoverage.percent.toFixed(2)}%).</p>}
+    <section className={s.chart} aria-labelledby="rr-chart-heading">
+      <div className={s.chartHeading}><div><p className={s.chartKicker}>Journal distribution</p><h2 id="rr-chart-heading">R&amp;R papers by journal</h2></div><p className={s.chartTotal}><strong>{totalRR}</strong><span>R&amp;R papers</span></p></div>
+      <p className={s.chartHint}>Select a journal to filter the paper list. Counts include R&amp;R decisions only.</p>
+      <div className={s.chartRows} role="group" aria-label="Filter R&R papers by journal">
+        {rrCounts.map(({ code, count }) => <button type="button" key={code} className={s.chartRow} aria-pressed={journal === code && status === 'R&R'} onClick={() => chooseChartJournal(code)} title={`Show ${count} R&R papers at ${fullJournalName(code)}`}>
+          <span className={s.chartLabel}>{fullJournalName(code)}</span><span className={s.chartTrack}><span className={s.chartBar} style={{ width: `${count / maxRR * 100}%` }}/></span><strong className={s.chartValue}>{count}</strong>
+        </button>)}
+      </div>
+    </section>
     <div className={s.filters}>
       <Search value={query} change={setQuery} placeholder="Search papers, authors or journals"/>
       <label className={s.filter}>Journal<select value={journal} onChange={e => setJournal(e.target.value)}><option value="">All journals</option>{availableJournals.map(code => <option key={code} value={code}>{fullJournalName(code)}</option>)}</select></label>
