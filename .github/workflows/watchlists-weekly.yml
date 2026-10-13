@@ -60,3 +60,5 @@ jobs:
   deploy:
     needs: refresh
     uses: ./.github/workflows/deploy.yml
+    with:
+      checkout_ref: main
