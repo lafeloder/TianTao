@@ -1,0 +1,127 @@
+{
+  "checked_on": "2026-10-14",
+  "fixed_author_rows": 10762,
+  "source_urls_attempted": 21658,
+  "source_urls_readable": 20088,
+  "stage_counts": {
+    "homepage": {
+      "attempted": 11066,
+      "readable": 10083
+    },
+    "research1": {
+      "attempted": 7200,
+      "readable": 6848
+    },
+    "research2": {
+      "attempted": 3152,
+      "readable": 2967
+    },
+    "cv": {
+      "attempted": 240,
+      "readable": 190
+    }
+  },
+  "reviewed_records": 6,
+  "new_papers": 5,
+  "duplicate_candidates": [
+    {
+      "title": "Managing Expectations and Corporate Financial Policy",
+      "existing_id": "author-site-20261012-032",
+      "existing_title": "Public Forecasts, Internal Projections, and Corporate Financial Policy",
+      "existing_journal": "RF"
+    }
+  ],
+  "published_candidates_excluded": [],
+  "pending": [],
+  "status_updates": [],
+  "new_counts_by_journal": {
+    "JF": 0,
+    "JFE": 0,
+    "RFS": 0,
+    "RF": 5,
+    "JFQA": 0,
+    "MS": 0
+  },
+  "source_readability_note": "Previously cached pages and fresh public reads were scanned; selected HTML paper evidence was fetched again before release. Failed sources remain failures.",
+  "correction": "Review of Finance public abbreviation RoF/R o F was absent from the RF matcher; explicit unlinked author/year citations also needed support.",
+  "method": "Reparse saved HTML/CV text for every readable fixed-roster source with shared journal matching; reparse 85 RF signal pages with the repaired weekly extractor; fetch selected evidence again and check publication metadata.",
+  "saved_sources_reparsed": 20088,
+  "rf_signal_pages_reparsed": 85,
+  "fresh_html_sources": 6,
+  "added_papers": [
+    {
+      "id": "author-roster-20261014-ec6c79c18c81",
+      "title": "Strategically Staying Small: The Consequences of Regulatory Avoidance",
+      "authors": [
+        "Jacelly Cespedes",
+        "Jordan Nickerson",
+        "Carlos Parra"
+      ],
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/site/jacellycespedes/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3874987"
+    },
+    {
+      "id": "author-roster-20261014-6a0cc3f3ae12",
+      "title": "The Price of Silence: Local Newspaper Closures and Mortgage Pricing",
+      "authors": [
+        "Tran Huynh",
+        "Huyen Nguyen"
+      ],
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/view/huyenngocphuongnguyen/research",
+      "paper_url": ""
+    },
+    {
+      "id": "author-roster-20261014-1e89478883d0",
+      "title": "Central Bank Swap Lines: Micro-level Evidence",
+      "authors": [
+        "Gerardo Ferrara",
+        "Philippe Mueller",
+        "Ganesh Viswanath-Natraj",
+        "Junxuan Wang"
+      ],
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/view/junxuanwang/research",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4106664"
+    },
+    {
+      "id": "author-roster-20261014-5ff830fd9101",
+      "title": "Exchange Rate Risk and Foreign Discount in International USD Corporate Bonds",
+      "authors": [
+        "Junxuan Wang"
+      ],
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/view/junxuanwang/research",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4326975"
+    },
+    {
+      "id": "author-roster-20261014-e82fa1dcf8b8",
+      "title": "Beliefs and the Disposition Effect",
+      "authors": [
+        "Steffen Andersen",
+        "Tobin Hanspal",
+        "Jimmy Martinez-Correa",
+        "Kasper Meisner Nielsen"
+      ],
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/site/tobinhanspal/research",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3516567"
+    }
+  ],
+  "before_strict_rr": 493,
+  "after_strict_rr": 498,
+  "after_counts_by_journal": {
+    "JF": 85,
+    "JFE": 68,
+    "RFS": 126,
+    "RF": 56,
+    "JFQA": 55,
+    "MS": 108
+  },
+  "screening_notes": [
+    "Managing Expectations and Corporate Financial Policy is the same SSRN 3592103 as the already-listed Public Forecasts, Internal Projections, and Corporate Financial Policy; no new entry.",
+    "The old 2003 Playing the Field listing and generic media/conference link labels did not establish a current additional paper.",
+    "Failed sources were not counted as newly read. Author roster and homepage coverage denominators were preserved."
+  ]
+}

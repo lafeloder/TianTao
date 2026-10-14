@@ -20453,6 +20453,219 @@
       "eligibility_status": "verified",
       "working_paper_doi": "10.2139/ssrn.4184044",
       "authors_note": "Author names follow the R&R primary source; working-paper metadata differs."
+    },
+    {
+      "id": "author-roster-20261014-ec6c79c18c81",
+      "title": "Strategically Staying Small: The Consequences of Regulatory Avoidance",
+      "authors": [
+        "Jacelly Cespedes",
+        "Jordan Nickerson",
+        "Carlos Parra"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/jacellycespedes/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3874987",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3874987",
+      "source_author": "Jacelly Cespedes",
+      "first_seen": "2026-10-14",
+      "last_verified": "2026-10-14",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Revise and resubmit, Review of Finance",
+      "eligibility": {
+        "doi": "10.1093/rfs/hhaf104",
+        "journal": "RFS",
+        "title": "The Effect of Principal Reduction on Household Distress: Evidence from Mortgage Cramdown",
+        "published": "2025-11-26",
+        "author": "Jacelly Cespedes"
+      },
+      "verification": "Author research page fetched again on 2026-10-14; strict R&R decision and journal confirmed; publication metadata checked.",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified",
+      "working_paper_doi": "10.2139/ssrn.3874987",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Branching Out Inequality: The Impact of Credit Equality Policies",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Jacelly Cespedes",
+        "doctoral_session": false,
+        "author": "Jacelly Cespedes"
+      },
+      "title_aliases": [
+        "Strategically Staying Small: Regulatory Avoidance and the CRA"
+      ]
+    },
+    {
+      "id": "author-roster-20261014-6a0cc3f3ae12",
+      "title": "The Price of Silence: Local Newspaper Closures and Mortgage Pricing",
+      "authors": [
+        "Tran Huynh",
+        "Huyen Nguyen"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/huyenngocphuongnguyen/research",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Huyen Nguyen",
+      "first_seen": "2026-10-14",
+      "last_verified": "2026-10-14",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Revise and resubmit, Review of Finance",
+      "eligibility": {
+        "doi": "10.1093/rof/rfag008",
+        "journal": "RF",
+        "title": "Regulating zombie mortgages",
+        "published": "2026-04-26",
+        "author": "Huyen Nguyen"
+      },
+      "verification": "Author research page fetched again on 2026-10-14; strict R&R decision and journal confirmed; publication metadata checked.",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified",
+      "working_paper_doi": ""
+    },
+    {
+      "id": "author-roster-20261014-1e89478883d0",
+      "title": "Central Bank Swap Lines: Micro-level Evidence",
+      "authors": [
+        "Gerardo Ferrara",
+        "Philippe Mueller",
+        "Ganesh Viswanath-Natraj",
+        "Junxuan Wang"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/junxuanwang/research",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4106664",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4106664",
+      "source_author": "Junxuan Wang",
+      "first_seen": "2026-10-14",
+      "last_verified": "2026-10-14",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Revise and resubmit, Review of Finance",
+      "eligibility": {
+        "doi": "10.1017/s0022109026102841",
+        "journal": "JFQA",
+        "title": "Blockchain Currency Markets",
+        "published": "2026-04-13",
+        "author": "Junxuan Wang"
+      },
+      "verification": "Author research page fetched again on 2026-10-14; strict R&R decision and journal confirmed; publication metadata checked.",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified",
+      "working_paper_doi": "10.2139/ssrn.4106664",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2026",
+        "year": 2026,
+        "paper_title": "Under Pressure? Central Bank Independence Meets Blockchain Prediction Markets",
+        "program_url": "https://www.conftool.com/sfs-cavalcade-2026/index.php?page=browseSessions&print=export&form_date=2026-05-19&mode=authors",
+        "program_page": 6,
+        "raw_name": "Wang, Junxuan",
+        "doctoral_session": false,
+        "author": "Junxuan Wang"
+      }
+    },
+    {
+      "id": "author-roster-20261014-5ff830fd9101",
+      "title": "Exchange Rate Risk and Foreign Discount in International USD Corporate Bonds",
+      "authors": [
+        "Junxuan Wang"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/junxuanwang/research",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4326975",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4326975",
+      "source_author": "Junxuan Wang",
+      "first_seen": "2026-10-14",
+      "last_verified": "2026-10-14",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Revise and resubmit, Review of Finance",
+      "eligibility": {
+        "doi": "10.1017/s0022109026102841",
+        "journal": "JFQA",
+        "title": "Blockchain Currency Markets",
+        "published": "2026-04-13",
+        "author": "Junxuan Wang"
+      },
+      "verification": "Author research page fetched again on 2026-10-14; strict R&R decision and journal confirmed; publication metadata checked.",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified",
+      "working_paper_doi": "10.2139/ssrn.4326975",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2026",
+        "year": 2026,
+        "paper_title": "Under Pressure? Central Bank Independence Meets Blockchain Prediction Markets",
+        "program_url": "https://www.conftool.com/sfs-cavalcade-2026/index.php?page=browseSessions&print=export&form_date=2026-05-19&mode=authors",
+        "program_page": 6,
+        "raw_name": "Wang, Junxuan",
+        "doctoral_session": false,
+        "author": "Junxuan Wang"
+      },
+      "title_aliases": [
+        "When the Dollar Moves: Exchange Rate Frictions in USD Corporate Bond Pricing"
+      ]
+    },
+    {
+      "id": "author-roster-20261014-e82fa1dcf8b8",
+      "title": "Beliefs and the Disposition Effect",
+      "authors": [
+        "Steffen Andersen",
+        "Tobin Hanspal",
+        "Jimmy Martinez-Correa",
+        "Kasper Meisner Nielsen"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/tobinhanspal/research",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3516567",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3516567",
+      "source_author": "Steffen Andersen",
+      "first_seen": "2026-10-14",
+      "last_verified": "2026-10-14",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Revise and resubmit, Review of Finance",
+      "eligibility": {
+        "doi": "10.1016/j.jfineco.2026.104291",
+        "journal": "JFE",
+        "title": "Extrapolators and contrarians: Forecast bias and individual investor stock trading",
+        "published": "2026-07-01",
+        "author": "Steffen Andersen"
+      },
+      "verification": "Author research page fetched again on 2026-10-14; strict R&R decision and journal confirmed; publication metadata checked.",
+      "verification_status": "primary_confirmed",
+      "reference_ids": [],
+      "source_scope": "top5",
+      "eligibility_status": "verified",
+      "working_paper_doi": "10.2139/ssrn.3516567",
+      "conference_eligibility": {
+        "conference": "Paris-2024",
+        "year": 2024,
+        "paper_title": "A Breath of Change: Can Personal Exposures Drive Green Preferences?",
+        "program_url": "https://web.archive.org/web/20241203020053id_/https://www.paris-december.eu/",
+        "program_page": null,
+        "raw_name": "Andersen Steffen",
+        "doctoral_session": false,
+        "author": "Steffen Andersen"
+      },
+      "title_aliases": [
+        "Beliefs and Behavioral Biases"
+      ]
     }
   ]
 }

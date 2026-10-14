@@ -4,6 +4,32 @@ from bootstrap import publication_date
 from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility, listed_homepages
 
 class EvidenceTests(unittest.TestCase):
+    def test_review_of_finance_public_aliases(self):
+        for label in ['RoF','ROF','R o F','RF','Review of Finance']:
+            with self.subTest(label=label):
+                self.assertEqual(journal_in('Revise & Resubmit '+label),'RF')
+        self.assertIsNone(journal_in('A proof of regulatory avoidance'))
+        self.assertIsNone(journal_in('Review of Corporate Finance Studies'))
+        self.assertEqual(journal_in('Review of Financial Studies'),'RFS')
+
+    def test_jacelly_google_sites_rof_and_coauthor_links(self):
+        body='<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3874987">Strategically Staying Small: The Consequences of Regulatory Avoidance</a> (with <a href="http://www.jordannickerson.com/">Jordan Nickerson</a> and <a href="http://www.carlosrparra.com/">Carlos Parra</a>) <i>Revise &amp; Resubmit <span>R</span><span>o</span><span>F</span></i></p>'
+        rows=rr_blocks(body,'https://sites.google.com/site/jacellycespedes/')
+        self.assertEqual([(r['title'],r['journal'])for r in rows],[('Strategically Staying Small: The Consequences of Regulatory Avoidance','RF')])
+        self.assertIn('3874987',rows[0]['paper_url'])
+
+    def test_unlinked_author_year_citation(self):
+        body='<p>(3) Huynh, T., Nguyen, H. (2025): The Price of Silence: Local Newspaper Closures and Mortgage Pricing. <i>(R&amp;R Review of Finance.)</i></p>'
+        self.assertEqual([(r['title'],r['journal'])for r in rr_blocks(body,'https://author.example/')],[('The Price of Silence: Local Newspaper Closures and Mortgage Pricing','RF')])
+
+    def test_unlinked_dated_title_with_coauthors(self):
+        body='<li><p><span>Managing Expectations and Corporate Financial Policy (2022)</span> with Yosuke Kimura and Ben Charoenwong (R&amp;R Review of Finance)</p></li>'
+        self.assertEqual([r['title']for r in rr_blocks(body,'https://author.example/')],['Managing Expectations and Corporate Financial Policy'])
+
+    def test_unlinked_section_cannot_supply_a_paper_title(self):
+        body='<div><p>One Working Paper (2025): A Plain Citation Without Status.</p><p>R&amp;R, RoF</p></div>'
+        self.assertEqual(rr_blocks(body,'https://author.example/'),[])
+
     def test_journal_name_spans_and_ampersand(self):
         self.assertEqual(journal_in('Revise & Resubmit, Management Scie nc e'),'MS')
         self.assertEqual(journal_in('Journal of Financial & Quantitative Analysis, R&R'),'JFQA')

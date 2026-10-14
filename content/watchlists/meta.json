@@ -130,7 +130,7 @@
     "JF": 85,
     "JFE": 68,
     "RFS": 126,
-    "RF": 51,
+    "RF": 56,
     "JFQA": 55,
     "MS": 108
   },
@@ -192,5 +192,14 @@
     "new_strict_rr_papers": 120,
     "published_leads_excluded": 10,
     "ambiguous_reviewed_records": 0
+  },
+  "rr_rof_alias_rescan": {
+    "checked_on": "2026-10-14",
+    "saved_sources_reparsed": 20088,
+    "rf_signal_pages_reparsed": 85,
+    "fresh_html_sources": 6,
+    "new_strict_rr_papers": 5,
+    "duplicate_title_variants_excluded": 1,
+    "audit_file": "rof-alias-rescan-audit.json"
   }
 }

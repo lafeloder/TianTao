@@ -78,14 +78,22 @@ def fetch(url, timeout=20):
             return '\n'.join(p.extract_text() or '' for p in PdfReader(io.BytesIO(raw)).pages)
         return raw.decode(r.headers.get_content_charset() or 'utf8', 'replace')
 
+def journal_pattern(code):
+    """Match public journal names/aliases, independently of our storage code."""
+    name=JOURNAL_NAMES[code]
+    # Styling spans and PDF extraction can split words and abbreviations.
+    letters=r'\s*'.join(re.escape(ch)for ch in name if ch!=' ')
+    letters=letters.replace(r'a\s*n\s*d',r'(?:a\s*n\s*d|&)')
+    aliases=[re.escape(code)]
+    if code=='RF':aliases.append(r'R\s*o\s*F')
+    return r'\b(?:(?:the\s+)?'+letters+r'|'+'|'.join(aliases)+r')\b'
+
+JOURNAL_PATTERNS={code:re.compile(journal_pattern(code),re.I)for code in JOURNAL_NAMES}
+
 def journal_in(text):
     matches=[]
     for key,name in JOURNAL_NAMES.items():
-        # Styling spans and PDF extraction sometimes split a word ("Scie nc e").
-        # Match complete journal names across whitespace, including "&" for and.
-        letters=r'\s*'.join(re.escape(ch)for ch in name if ch!=' ')
-        letters=letters.replace(r'a\s*n\s*d',r'(?:a\s*n\s*d|&)')
-        match=re.search(r'\b(?:(?:the\s+)?'+letters+r'|'+key+r')\b',text,re.I)
+        match=JOURNAL_PATTERNS[key].search(text)
         if match:matches.append((match.start(),-len(name),key))
     return min(matches)[2] if matches else None
 
@@ -214,6 +222,17 @@ def research_links(body, base_url):
                 candidates.append((-1 if personal else 0 if RESEARCH_LINK.search(label) else 1,url))
     return list(dict.fromkeys(url for _,url in sorted(set(candidates))))[:3]
 
+def citation_title(text):
+    """Read a single explicit author/year citation without requiring a paper link."""
+    decision=RR.search(text)
+    if not decision or len(RR.findall(text))!=1 or len(text)>800:
+        return ''
+    prefix=text[:decision.start()].strip()
+    citation=re.search(r'\(\s*(?:19|20)\d\s*\d\s*\)\s*:\s*(.+)$',prefix)
+    dated_title=re.match(r'(.+?)\s*\((?:19|20)\d{2}\)\s+(?:joint\s+)?with\s+\S',prefix)
+    title=(citation.group(1) if citation else dated_title.group(1) if dated_title else '').rstrip(' .,(;:')
+    return title if 12<=len(title)<=240 and not journal_in(title) else ''
+
 def rr_blocks(body, url):
     """Only a title and status within a bounded paper block become a candidate."""
     soup = parse_html(body)
@@ -241,7 +260,8 @@ def rr_blocks(body, url):
                 paper_links=[a for a in tag.find_all('a',href=True)
                              if re.search(r'\.pdf(?:$|\?)|ssrn\.com|/papers?/',a['href'],re.I)
                              and 12<=len(clean(a.get_text(' ',strip=True)))<=240]
-                if len(paper_links)!=1 or len(RR.findall(txt))!=1:
+                plain_title=citation_title(txt) if tag.name=='p' and not paper_links else ''
+                if (len(paper_links)!=1 and not plain_title) or len(RR.findall(txt))!=1:
                     continue
         else:
             pieces = [tag.get_text(' ',strip=True)]
@@ -259,10 +279,12 @@ def rr_blocks(body, url):
             continue
         anchor = tag.find('a', href=True)
         heading = tag if tag.name.startswith('h') else tag.find(['h2','h3','h4','h5'])
-        if tag.name in ('p','div'):anchor=paper_links[0]
+        if tag.name in ('p','div'):anchor=paper_links[0] if paper_links else None
         # Coauthor anchors often precede the title/status within a heading's
         # containing block; the heading supplies the paper title.
         title = clean((heading or anchor).get_text(' ',strip=True)) if (heading or anchor) else ''
+        if not title and tag.name in ('p','li'):
+            title=citation_title(txt)
         title = re.sub(r'\s*\((?:joint\s+)?with\b.*$','',title,flags=re.I).strip(' \"“”.,;:')
         if heading:
             exact=next((a for a in heading.find_all('a',href=True) if normalize(a.get_text(' ',strip=True))==normalize(title)),None)

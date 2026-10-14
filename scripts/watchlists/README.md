@@ -158,6 +158,20 @@ empty-success result.
 
 ## Reference coverage contract
 
+Journal matching uses `refresh.JOURNAL_PATTERNS` for the canonical full names
+and public abbreviations. Review of Finance is stored as `RF`, while author
+pages may say `RoF`, `ROF`, or use styling spans that render `R o F`. These
+aliases must enter the same review and deduplication process. An unlinked
+paper title is also eligible for review when one bounded paragraph has an
+explicit author/year citation, its own strict R&R status, and target journal.
+Never borrow the title or decision from a neighboring paper.
+
+The 14 October RoF correction reprocessed all 20,088 readable saved sources
+from the fixed roster, then fetched selected primary evidence again. See
+`content/watchlists/rof-alias-rescan-audit.json` for additions and duplicate
+decisions. This was a cached-source rescan plus fresh checks of selected
+evidence, not 20,088 new network fetches.
+
 The expanded edition reconciled all 76 Chen Yang reference rows (75 unique
 papers), all 36 matching European OpenPostdoc IDs from 3,230 worldwide board
 and archive records, and all 44 matching EJM IDs from the six status and five
