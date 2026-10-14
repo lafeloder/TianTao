@@ -1,9 +1,31 @@
 import datetime as dt
 import unittest
 from bootstrap import publication_date
-from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger
+from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility
 
 class EvidenceTests(unittest.TestCase):
+    def test_conference_only_student_is_scanned_without_publication_doi(self):
+        proof={'conference':'SFS-NA-2024','year':2024,'paper_title':'Language Frictions in Consumer Credit','program_url':'https://sfs.org/program.pdf','program_page':14}
+        author={'name':'Chao Liu','conference_name_keys':['chaoliu'],'eligibility':None,'eligibility_status':'conference_verified'}
+        cohort=[{'name':'Chao Liu','name_keys':['chaoliu'],'conferences':[proof]}]
+        publication,conference=author_eligibility(author,[],cohort)
+        self.assertIsNone(publication)
+        self.assertEqual(conference['paper_title'],proof['paper_title'])
+
+    def test_conference_name_alias_retains_program_evidence(self):
+        proof={'conference':'AFA-2025','year':2025,'paper_title':'A Student Paper','program_url':'https://afajof.org/program'}
+        author={'name':'A. Student','conference_name_keys':['alicebethstudent'],'eligibility_status':'conference_verified'}
+        cohort=[{'name':'Alice Beth Student','name_keys':['alicebethstudent'],'conferences':[proof]}]
+        publication,conference=author_eligibility(author,[],cohort)
+        self.assertIsNone(publication)
+        self.assertEqual(conference['conference'],'AFA-2025')
+
+    def test_incomplete_program_row_uses_complete_paper_evidence(self):
+        author={'name':'Chaojun Wang','conference_eligibility':{'conference':'SFS-AP-2025','year':2025,'paper_title':''}}
+        proof={'conference':'AFA-2026','year':2026,'paper_title':'The Modern Bond Market','program_url':'https://afajof.org/program'}
+        _,conference=author_eligibility(author,[],[{'name':'Chaojun Wang','conferences':[proof]}])
+        self.assertEqual(conference['paper_title'],'The Modern Bond Market')
+
     def test_reject_is_not_revise(self):
         html='<li><h3><a href="/p.pdf">Corporate Debt and Financial Crises</a></h3>Reject and Resubmit, Journal of Finance</li>'
         self.assertEqual(rr_blocks(html,'https://author.example/'),[])

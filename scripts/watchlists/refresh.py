@@ -105,6 +105,22 @@ def finance_top5_homepage_coverage(universe, homes, corpus):
             'percent':round(100*count/len(names),2) if names else 0,
             'basis':'Normalized author name groups with publications in JF, JFE, RFS, JFQA or RF; homepage eligibility must match a publication in those journals.'}
 
+def author_eligibility(author, universe, conference_authors):
+    """Keep conference-only authors eligible without inventing publication DOIs."""
+    name=normalize(author['name'])
+    matches=[a for a in universe if normalize(a['name'])==name]
+    pubs=[p for a in matches for p in a.get('publications',[])]
+    aliases=set(author.get('conference_name_keys',[]))|{name}
+    candidates=[c for a in conference_authors if aliases & (set(a.get('name_keys',[]))|{normalize(a['name'])})
+                for c in a.get('conferences',[]) if c.get('paper_title')]
+    conference=author.get('conference_eligibility')
+    if not conference or not conference.get('paper_title'):
+        conference=min(candidates,key=lambda c:(c['year'],c['conference'])) if candidates else None
+    publication=(min(pubs,key=lambda p:p['published']) if pubs else None)
+    if author.get('eligibility_status')=='conference_verified' and not author.get('eligibility'):
+        publication=None
+    return publication,conference
+
 def ms_author_ledger(universe, homes, state, today):
     """Account for every recent MS author name, including unresolved sites."""
     grouped={}
@@ -311,6 +327,7 @@ def main():
     args=parser.parse_args();today=args.as_of
     corpus=load('corpus.json',{'works':[],'journals':{}})
     universe=load('author-universe.json',{'authors':[]})['authors']
+    conference_authors=load('conference-authors.json',{'authors':[]})['authors']
     rr=load('rr.json',{'items':[]});jobs=load('postdocs.json',{'items':[]})
     homes=load('homepages.json',{'authors':[]})['authors'];schools=load('schools.json',{'schools':[]})
     state=load('discovery-state.json',{})
@@ -321,7 +338,7 @@ def main():
     if not args.skip_feeds:
         urls|={s['career_url'] for s in schools['schools']}
     results={}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
         for url,body,error in pool.map(safe_get,sorted(urls)):
             results[url]=(body,error)
     report={'attempted_on':today,'sources':[]}
@@ -344,11 +361,11 @@ def main():
             report['sources'].append({'url':url,'result':'failed' if error else 'fetched','error':error})
     verified_names=set()
     for author in homes:
-        matches=[a for a in universe if normalize(a['name'])==normalize(author['name'])]
-        pubs=[p for a in matches for p in a['publications']]
-        if not author.get('approved') or not pubs:
+        publication,conference=author_eligibility(author,universe,conference_authors)
+        if not author.get('approved') or not (publication or conference):
             continue
-        author['eligibility']=min(pubs,key=lambda p:p['published'])
+        author['eligibility']=publication
+        if conference:author['conference_eligibility']=conference
         home_body,home_error=results.get(author['url'],('','not attempted'))
         author['last_attempted']=today;author['scan_status']='failed' if home_error else 'scanned'
         if not home_error:
@@ -373,7 +390,11 @@ def main():
                 # Extended-journal reports and acceptance evidence are reconciled
                 # by the reference/research layer, not the tracked-journal matcher.
                 continue
-            paper['eligibility']={**author['eligibility'],'author':author['name']}
+            if publication:paper['eligibility']={**publication,'author':author['name']}
+            elif conference:
+                paper['eligibility']=None
+                paper['conference_eligibility']={**conference,'author':author['name']}
+                paper['eligibility_status']='conference_verified'
             body,error=results.get(paper['evidence_url'],('','not attempted'))
             if error:
                 paper['last_attempted']=today
@@ -437,7 +458,7 @@ def main():
     save('schools.json',schools);save('discovery-state.json',state)
     save('review-queue.json',{'updated_on':today,'items':queue});save('run-report.json',report)
     names={normalize(a['name']) for a in universe}
-    meta={**load('meta.json',{}),'last_run':today,'publication_window_start':corpus.get('window_start',''),
+    meta={**load('meta.json',{}),'last_run':today,'rr_last_run':today,'publication_window_start':corpus.get('window_start',''),
           'publication_window_end':corpus.get('window_end',''),'articles':len(corpus['works']),
           'author_name_groups':len(names),'author_identity_records':len(universe),
           'approved_homepages':sum(bool(a.get('approved') and a.get('eligibility')) for a in homes),

@@ -1,0 +1,1915 @@
+{
+  "checked_on": "2026-10-14",
+  "scope_years": [
+    2024,
+    2025,
+    2026
+  ],
+  "coverage": {
+    "checked_on": "2026-10-14",
+    "scope_years": [
+      2024,
+      2025,
+      2026
+    ],
+    "author_rows": 3894,
+    "linked_authors": 3522,
+    "percent": 90.4468,
+    "raw_name_groups": 4020,
+    "name_variant_rows_merged": 126,
+    "basis": "Public program paper authors, normalized names; compatible variants merged when they share a verified dedicated author webpage. Personal websites preferred, with individual institution research profiles as fallback. Name-based identity matches remain provisional where explicitly flagged.",
+    "roster_limitations": [
+      "EFA 2026 doctoral tutorial full roster is not publicly available; its named award winner is included.",
+      "SFS Asia-Pacific 2026 program is not yet publicly available."
+    ]
+  },
+  "program_limitations": [
+    "EFA 2026 doctoral tutorial full roster is not publicly available; its named award winner is included.",
+    "SFS Asia-Pacific 2026 program is not yet publicly available."
+  ],
+  "source_scan": {
+    "attempted": 6682,
+    "readable": 5851,
+    "unreadable": 831
+  },
+  "new_papers": [
+    {
+      "id": "conference-38a0f7d0047bfe18",
+      "title": "APT or “AIPT”? The Surprising Dominance of Large Factor Models",
+      "journal": "JF",
+      "evidence_url": "https://www.shikunke.com/research-papers",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Complexity in Factor Pricing Models",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Shikun Ke",
+        "doctoral_session": false,
+        "author": "Shikun {Barry} Ke"
+      }
+    },
+    {
+      "id": "conference-b80979207c8898c1",
+      "title": "Buy Now, Pay Later Credit: User Characteristics and Effects on Spending Patterns",
+      "journal": "JF",
+      "evidence_url": "https://jdikatz.github.io/",
+      "conference_eligibility": {
+        "conference": "WFA-2025",
+        "year": 2025,
+        "paper_title": "Saving and Consumption Responses to Student Loan Forbearance",
+        "program_url": "https://westernfinance.org/wp-content/uploads/2025.pdf",
+        "program_page": 25,
+        "raw_name": "Justin Katz",
+        "doctoral_session": false,
+        "author": "Justin Katz"
+      }
+    },
+    {
+      "id": "conference-c9573767f1ecb61c",
+      "title": "Stagflationary Stock Returns",
+      "journal": "JF",
+      "evidence_url": "https://sites.google.com/view/benjaminknox/home",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Stagflationary Stock Returns and the Role of Market Power",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Ben Knox",
+        "doctoral_session": false,
+        "author": "Ben Knox"
+      }
+    },
+    {
+      "id": "conference-d68462aca0f06f86",
+      "title": "The Information Advantage of Banks: Evidence From Their Private Credit Assessments",
+      "journal": "JF",
+      "evidence_url": "https://sites.google.com/view/cooperhowes/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Their Private Credit Assessments",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 47,
+        "raw_name": "Cooper Howes",
+        "doctoral_session": false,
+        "author": "Cooper Howes"
+      }
+    },
+    {
+      "id": "conference-548697a2bb57c731",
+      "title": "Language Frictions in Consumer Credit",
+      "journal": "JF",
+      "evidence_url": "https://chaoliu-cuhk.github.io/",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2024",
+        "year": 2024,
+        "paper_title": "Language Frictions in Consumer Credit",
+        "program_url": "https://sfs.org/wp-content/uploads/2025/02/2024-cavalcade-program.pdf",
+        "program_page": 14,
+        "raw_name": "Chao Liu",
+        "doctoral_session": false,
+        "author": "Chao Liu"
+      }
+    },
+    {
+      "id": "conference-04e76faf9cd68627",
+      "title": "Monetary Policy Amplification through Bond Fund Flows",
+      "journal": "JF",
+      "evidence_url": "https://www.chuckfang.finance/",
+      "conference_eligibility": {
+        "conference": "EFA-2025",
+        "year": 2025,
+        "paper_title": "Go with the Flow: Debt Structure Changes and Monetary Policy Transmission",
+        "program_url": "https://efa2025.efa-finance.org/wp-content/uploads/sites/8/2026/01/EFA2025_Program.pdf",
+        "program_page": 22,
+        "raw_name": "Chuck Fang",
+        "doctoral_session": false,
+        "author": "Chuck Fang"
+      }
+    },
+    {
+      "id": "conference-129aa7c501e80601",
+      "title": "Reducing Carbon using Regulatory and Financial Market Tools",
+      "journal": "JF",
+      "evidence_url": "https://adelinabarbalau.com/",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Reducing Carbon Using Regulatory and Financial Market Tools",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Adelina Barbalau",
+        "doctoral_session": false,
+        "author": "Adelina Barbalau"
+      }
+    },
+    {
+      "id": "conference-c494278b0dbb0d46",
+      "title": "Rich and Responsible: Is ESG a Luxury Good?",
+      "journal": "JF",
+      "evidence_url": "https://www.fatimazahrafilaliadib.com/research",
+      "conference_eligibility": {
+        "conference": "Paris-2024",
+        "year": 2024,
+        "paper_title": "A Breath of Change: Can Personal Exposures Drive Green Preferences?",
+        "program_url": "https://web.archive.org/web/20241203020053id_/https://www.paris-december.eu/",
+        "program_page": null,
+        "raw_name": "Filali-Adib Fatima Zahra",
+        "doctoral_session": false,
+        "author": "Adib Fatima Zahra Filali"
+      }
+    },
+    {
+      "id": "conference-31bf94f91dde3e2f",
+      "title": "Search in Over-the-Counter Markets",
+      "journal": "JF",
+      "evidence_url": "https://wang-chaojun.github.io/",
+      "conference_eligibility": {
+        "conference": "AFA-2026",
+        "year": 2026,
+        "paper_title": "The Modern Bond Market",
+        "program_url": "https://afajof.org/management/full-program2026.html",
+        "program_page": null,
+        "raw_name": "Chaojun Wang",
+        "doctoral_session": false,
+        "author": "Chaojun Wang"
+      }
+    },
+    {
+      "id": "conference-c5ddf414c91766e4",
+      "title": "Systemic Risk in Financial Networks Revisited: Debt Dilution as a Backdoor Bail-In",
+      "journal": "JF",
+      "evidence_url": "https://xiaobo-yu.com",
+      "conference_eligibility": {
+        "conference": "WFA-2024",
+        "year": 2024,
+        "paper_title": "A General Theory of Holdouts",
+        "program_url": "https://westernfinance.org/wp-content/uploads/2024.pdf",
+        "program_page": 24,
+        "raw_name": "Xiaobo Yu",
+        "doctoral_session": false,
+        "author": "Xiaobo Yu"
+      }
+    },
+    {
+      "id": "conference-cbb9785e5831c0a8",
+      "title": "The Effect of Monetary Policy on Systemic Bank Funding Stability",
+      "journal": "JF",
+      "evidence_url": "https://maximiliangrimm.com/research.html",
+      "conference_eligibility": {
+        "conference": "EFA-DT-2024",
+        "year": 2024,
+        "paper_title": "The Effect of Monetary Policy on Bank Funding Stability",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 18,
+        "raw_name": "Maximilian Grimm",
+        "doctoral_session": true,
+        "author": "Maximilian Grimm"
+      }
+    },
+    {
+      "id": "conference-d88b22e745001119",
+      "title": "Asset Prices, Global Portfolios, and the International Financial System",
+      "journal": "JF",
+      "evidence_url": "https://sites.google.com/view/maximesauzet/research",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Green Intermediary Asset Pricing",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Maxime Sauzet",
+        "doctoral_session": false,
+        "author": "Maxime Sauzet"
+      }
+    },
+    {
+      "id": "conference-9d19c0321dc8d44b",
+      "title": "Hiring Difficulties and Firms' Growth",
+      "journal": "JF",
+      "evidence_url": "https://maddalenaronchi.weebly.com/research.html",
+      "conference_eligibility": {
+        "conference": "WFA-2024",
+        "year": 2024,
+        "paper_title": "Female Representation and Talent Allocation in Entrepreneurship: The Role of Early Exposure to Entrepreneurs",
+        "program_url": "https://westernfinance.org/wp-content/uploads/2024.pdf",
+        "program_page": 33,
+        "raw_name": "Maddalena Ronchi",
+        "doctoral_session": false,
+        "author": "Maddalena Ronchi"
+      }
+    },
+    {
+      "id": "conference-3736f22b5b20c505",
+      "title": "Using Lotteries to Attract Deposits",
+      "journal": "JF",
+      "evidence_url": "https://seankhiggins.com/research/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Price Comparison Tools in Consumer Credit Markets",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 45,
+        "raw_name": "Sean Higgins",
+        "doctoral_session": false,
+        "author": "Sean Higgins"
+      }
+    },
+    {
+      "id": "conference-bf70bd151eaec846",
+      "title": "Corporate Behavior When Running the Firm for Stakeholders: Evidence from Hospitals",
+      "journal": "JFE",
+      "evidence_url": "https://www.jianzhanglin.com/",
+      "conference_eligibility": {
+        "conference": "WFA-2024",
+        "year": 2024,
+        "paper_title": "Corporate Behavior When Running the Firm for Stakeholders: Evidence from Hospitals",
+        "program_url": "https://westernfinance.org/wp-content/uploads/2024.pdf",
+        "program_page": 40,
+        "raw_name": "Jianzhang Lin",
+        "doctoral_session": false,
+        "author": "Jianzhang Lin"
+      }
+    },
+    {
+      "id": "conference-0e068e723c456379",
+      "title": "Decoupling Voting and Cash Flow Rights",
+      "journal": "JFE",
+      "evidence_url": "https://www.andrasdanis.com/",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2025",
+        "year": 2025,
+        "paper_title": "Decoupling Voting and Cash Flow Rights",
+        "program_url": "https://sfs.org/wp-content/uploads/2026/04/SFS-Cavalcade-NA-2025-Program.pdf",
+        "program_page": 8,
+        "raw_name": "Andras Danis",
+        "doctoral_session": false,
+        "author": "András Danis"
+      }
+    },
+    {
+      "id": "conference-19e58606f0b8b7d0",
+      "title": "Information Acquisition by Mutual Fund Investors: Evidence from Stock Trading Suspensions",
+      "journal": "JFE",
+      "evidence_url": "https://davidxiaoyuxu.com/research.html",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Information Acquisition by Mutual Fund Investors: Evidence from Stock Trading Suspensions",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "David Xiaoyu Xu",
+        "doctoral_session": false,
+        "author": "David Xiaoyu Xu"
+      }
+    },
+    {
+      "id": "conference-f11463dffbef7606",
+      "title": "Investment Targets as Reference Points",
+      "journal": "JFE",
+      "evidence_url": "https://www.matteovacca.com/",
+      "conference_eligibility": {
+        "conference": "EFA-2025",
+        "year": 2025,
+        "paper_title": "Insider Trading With Options",
+        "program_url": "https://efa2025.efa-finance.org/wp-content/uploads/sites/8/2026/01/EFA2025_Program.pdf",
+        "program_page": 44,
+        "raw_name": "Matteo Vacca",
+        "doctoral_session": false,
+        "author": "Matteo Vacca"
+      }
+    },
+    {
+      "id": "conference-ff6c3ffb6ffa0094",
+      "title": "Liquidity and Volatility",
+      "journal": "JFE",
+      "evidence_url": "https://sites.google.com/view/alanmoreira/home",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2025",
+        "year": 2025,
+        "paper_title": "Asset Purchase Rules: How QE Transformed the Bond Market",
+        "program_url": "https://sfs.org/wp-content/uploads/2026/04/SFS-Cavalcade-NA-2025-Program.pdf",
+        "program_page": 5,
+        "raw_name": "Alan Moreira",
+        "doctoral_session": false,
+        "author": "Alan Moreira"
+      }
+    },
+    {
+      "id": "conference-af6aa626630896d0",
+      "title": "Minding Your Business or Your Child? Childbirth and the Organization of Entrepreneurial Firms",
+      "journal": "JFE",
+      "evidence_url": "https://www.valentinarutigliano.com/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Motherhood and the Entrepreneurship Gap",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 58,
+        "raw_name": "Valentina Rutigliano",
+        "doctoral_session": false,
+        "author": "Valentina Rutigliano"
+      }
+    },
+    {
+      "id": "conference-302f7b65fa2b6538",
+      "title": "Shared Culture and Technological Innovation: Evidence from Corporate R&D Teams",
+      "journal": "JFE",
+      "evidence_url": "https://sites.google.com/site/tristanjfitzgerald/",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2024",
+        "year": 2024,
+        "paper_title": "Shared Culture and Technological Innovation: Evidence from Corporate R&D Teams",
+        "program_url": "https://sfs.org/wp-content/uploads/2025/02/2024-cavalcade-program.pdf",
+        "program_page": 13,
+        "raw_name": "Tristan James Fitzgerald",
+        "doctoral_session": false,
+        "author": "Tristan James Fitzgerald"
+      }
+    },
+    {
+      "id": "conference-d3c7cc95c215ae2a",
+      "title": "The Costs of Self-Preferencing: Loan Prioritization in CMBS Market",
+      "journal": "JFE",
+      "evidence_url": "https://www.brandonzborowski.com/cv",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Delay Your Rivals: Vertical Integration in Securitization and Lending Competition",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Brandon Zborowski",
+        "doctoral_session": true,
+        "author": "Brandon Zborowski"
+      }
+    },
+    {
+      "id": "conference-fa32a1e1ffcdeff7",
+      "title": "U.S. Exorbitant Privilege: Expected vs. Realized",
+      "journal": "JFE",
+      "evidence_url": "https://anguslewis.com/",
+      "conference_eligibility": {
+        "conference": "WFA-2024",
+        "year": 2024,
+        "paper_title": "The Geography of Capital Allocation in the Euro Area",
+        "program_url": "https://westernfinance.org/wp-content/uploads/2024.pdf",
+        "program_page": 42,
+        "raw_name": "Angus Lewis",
+        "doctoral_session": false,
+        "author": "Angus Lewis"
+      }
+    },
+    {
+      "id": "conference-492a5eceb066cef3",
+      "title": "Racial Diversity in Private Capital Fundraising",
+      "journal": "JFE",
+      "evidence_url": "https://www.eyimfor.com/research",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2024",
+        "year": 2024,
+        "paper_title": "Board Diversity in Private Vs. Public Firms",
+        "program_url": "https://sfs.org/wp-content/uploads/2025/02/2024-cavalcade-program.pdf",
+        "program_page": 1,
+        "raw_name": "Emmanuel Yimfor",
+        "doctoral_session": false,
+        "author": "Emmanuel Yimfor"
+      }
+    },
+    {
+      "id": "conference-e2e3ddb329f28962",
+      "title": "Basis Portfolios",
+      "journal": "JFQA",
+      "evidence_url": "https://sinaseyfi.com/",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Neighbouring Assets",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Sina Seyfi",
+        "doctoral_session": true,
+        "author": "Sina Seyfi"
+      }
+    },
+    {
+      "id": "conference-655f4b81a7b671db",
+      "title": "Corporate Bond ETFs & Volatility",
+      "journal": "JFQA",
+      "evidence_url": "https://www.eglekarmaziene.com/",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Competing for Dark Trades",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Egle Karmaziene",
+        "doctoral_session": false,
+        "author": "EGLE KARMAZIENE"
+      }
+    },
+    {
+      "id": "conference-34235190764ae3fc",
+      "title": "Credit Constraints and the Redistribution of Housing Wealth",
+      "journal": "JFQA",
+      "evidence_url": "https://sites.google.com/view/belindatracey/home",
+      "conference_eligibility": {
+        "conference": "EFA-2026",
+        "year": 2026,
+        "paper_title": "Credit Constraints and the Redistribution of Housing Wealth",
+        "program_url": "https://www.conftool.com/efa2026/index.php?page=browseSessions&print=export&form_date=2026-08-20&mode=authors",
+        "program_page": 2,
+        "raw_name": "Tracey, Belinda",
+        "doctoral_session": false,
+        "author": "Belinda Tracey"
+      }
+    },
+    {
+      "id": "conference-47905098e682604e",
+      "title": "Dealers and the Dealer of Last Resort: Evidence from MBS Markets in the COVID-19 Crisis",
+      "journal": "JFQA",
+      "evidence_url": "https://jiakaichen.github.io/",
+      "conference_eligibility": {
+        "conference": "AFA-2026",
+        "year": 2026,
+        "paper_title": "Credit Union Expansions: A Fork in the Road for Local Banks?",
+        "program_url": "https://afajof.org/management/full-program2026.html",
+        "program_page": null,
+        "raw_name": "Jiakai Chen",
+        "doctoral_session": false,
+        "author": "Jiakai Chen"
+      }
+    },
+    {
+      "id": "conference-d7cb4fab71004419",
+      "title": "Don't Sweat the Clear Stuff: Mutual Fund Shorts and Research Intensity",
+      "journal": "JFQA",
+      "evidence_url": "https://www.boonebowles.com/research",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "(Not) Everybody’s Working for the Weekend: A Study of Mutual Fund Manager Effort",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 47,
+        "raw_name": "Boone Bowles",
+        "doctoral_session": false,
+        "author": "BOONE BOWLES"
+      }
+    },
+    {
+      "id": "conference-c3f64b84bf536bd7",
+      "title": "Fintech and Gender Discrimination",
+      "journal": "JFQA",
+      "evidence_url": "https://daxuanzhao.weebly.com/research.html",
+      "conference_eligibility": {
+        "conference": "WFA-2026",
+        "year": 2026,
+        "paper_title": "Climate Policy Abroad, Emissions at Home: Pollution Reshoring by U.S. Multinationals",
+        "program_url": "https://westernfinance.org/wp-content/uploads/2026_links.pdf",
+        "program_page": 24,
+        "raw_name": "Daxuan Zhao",
+        "doctoral_session": false,
+        "author": "Daxuan Zhao"
+      }
+    },
+    {
+      "id": "conference-21acf32a89349ba0",
+      "title": "Misforecasting Earnings: Management Expectations and Capital Market Anomalies",
+      "journal": "JFQA",
+      "evidence_url": "https://sites.google.com/view/tcliftongreen",
+      "conference_eligibility": {
+        "conference": "AFA-2026",
+        "year": 2026,
+        "paper_title": "What Does ChatGPT Make of Historical Stock Returns? Extrapolation and Miscalibration in LLM Stock Return Forecasts",
+        "program_url": "https://afajof.org/management/full-program2026.html",
+        "program_page": null,
+        "raw_name": "Clifton Green",
+        "doctoral_session": false,
+        "author": "T. Clifton Green"
+      }
+    },
+    {
+      "id": "conference-176bce9a6a757c4a",
+      "title": "Pay Inequality, Job Satisfaction, and Firm Performance",
+      "journal": "JFQA",
+      "evidence_url": "https://sites.google.com/view/tcliftongreen",
+      "conference_eligibility": {
+        "conference": "AFA-2026",
+        "year": 2026,
+        "paper_title": "What Does ChatGPT Make of Historical Stock Returns? Extrapolation and Miscalibration in LLM Stock Return Forecasts",
+        "program_url": "https://afajof.org/management/full-program2026.html",
+        "program_page": null,
+        "raw_name": "Clifton Green",
+        "doctoral_session": false,
+        "author": "T. Clifton Green"
+      }
+    },
+    {
+      "id": "conference-9f7368f1d2761b6b",
+      "title": "Seasonal Inventory Leverage",
+      "journal": "JFQA",
+      "evidence_url": "https://sites.google.com/view/kevinschneider",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Gianpaolo Parise EDHEC Uncertainty Creates Zombie Firms: Implications for Industry Dynamics and Creative Destruction",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 58,
+        "raw_name": "Kevin Schneider",
+        "doctoral_session": false,
+        "author": "Kevin Schneider"
+      }
+    },
+    {
+      "id": "conference-2a5f66df7edb98a4",
+      "title": "Social Media and Stock Market Participation",
+      "journal": "JFQA",
+      "evidence_url": "https://www.karstenmueller.com/cv.html",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "EXIM’s Exit: The Real Effects of Trade Financing by Export Credit Agencies",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 62,
+        "raw_name": "Karsten Muller",
+        "doctoral_session": false,
+        "author": "Karsten Müller"
+      }
+    },
+    {
+      "id": "conference-292c4b49f3b49918",
+      "title": "What Drives Household Responses to Corporate Social Irresponsibility?",
+      "journal": "JFQA",
+      "evidence_url": "https://sites.google.com/view/yongseok-kim-finance/cv",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Commitment in Debt Financing: The Role of Coordination Problem",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Yongseok Kim",
+        "doctoral_session": true,
+        "author": "Yongseok Kim"
+      }
+    },
+    {
+      "id": "conference-0b4db5b2248fb306",
+      "title": "Artificial Intelligence and the Rents of Finance Workers",
+      "journal": "MS",
+      "evidence_url": "https://junlizhao1.github.io/research/",
+      "conference_eligibility": {
+        "conference": "Paris-2024",
+        "year": 2024,
+        "paper_title": "Specialization and integration in markets for financial information",
+        "program_url": "https://web.archive.org/web/20241203020053id_/https://www.paris-december.eu/",
+        "program_page": null,
+        "raw_name": "Zhao Junli",
+        "doctoral_session": false,
+        "author": "Junli Zhao"
+      }
+    },
+    {
+      "id": "conference-fa9adccbefa7ddc7",
+      "title": "CEO Experience and Value Creation: Evidence from Green Lab Locations",
+      "journal": "MS",
+      "evidence_url": "https://leoliu0.github.io/",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Is ESG a Managerial Style?",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Leo Liu",
+        "doctoral_session": false,
+        "author": "Leo Liu"
+      }
+    },
+    {
+      "id": "conference-1d4d9e22188a7da0",
+      "title": "CEO Pay Disclosure and Within-Firm Wage Inequality",
+      "journal": "MS",
+      "evidence_url": "https://sites.google.com/site/vpezone/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Careers and Wages in Family Firms: Evidence from Administrative Data",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 58,
+        "raw_name": "Vincenzo Pezone",
+        "doctoral_session": false,
+        "author": "Vincenzo Pezone"
+      }
+    },
+    {
+      "id": "conference-f4bcd893bf0e03b9",
+      "title": "Electoral Uncertainty over the Investment Life Cycle",
+      "journal": "MS",
+      "evidence_url": "https://sukritpuri.github.io/",
+      "conference_eligibility": {
+        "conference": "Paris-2026",
+        "year": 2026,
+        "paper_title": "Corporate Dark Money in Politics: Evidence from India",
+        "program_url": "https://www.paris-december.eu/",
+        "program_page": null,
+        "raw_name": "Puri Sukrit",
+        "doctoral_session": false,
+        "program_status": "scheduled",
+        "author": "Sukrit Puri"
+      }
+    },
+    {
+      "id": "conference-2698dc4a8eee52f1",
+      "title": "Empirical Asset Pricing with Probability Forecasts",
+      "journal": "MS",
+      "evidence_url": "https://www.songrunhe.com/",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Empirical Asset Pricing with Probability Forecasts",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Songrun He",
+        "doctoral_session": true,
+        "author": "Songrun He"
+      }
+    },
+    {
+      "id": "conference-8a49395612a15e8e",
+      "title": "Good Inflation, Bad Inflation, and the Dynamics of Credit Risk",
+      "journal": "MS",
+      "evidence_url": "https://ramsyamarthy.wixsite.com/home",
+      "conference_eligibility": {
+        "conference": "EFA-2025",
+        "year": 2025,
+        "paper_title": "Good Inflation, Bad Inflation, and the Dynamics of Credit Risk",
+        "program_url": "https://efa2025.efa-finance.org/wp-content/uploads/sites/8/2026/01/EFA2025_Program.pdf",
+        "program_page": 40,
+        "raw_name": "Ram Yamarthy",
+        "doctoral_session": false,
+        "author": "Ram Yamarthy"
+      }
+    },
+    {
+      "id": "conference-1de9e7c94d0e70ce",
+      "title": "Information Diffusion on Social Media: Does It Affect Trading, Return, and Liquidity?",
+      "journal": "MS",
+      "evidence_url": "https://yemaofin.com/",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "When A Market Is Not Legally Defined As A Market: Evidence From Two Types of Dark Trading",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Mao Ye",
+        "doctoral_session": false,
+        "author": "Mao Ye"
+      }
+    },
+    {
+      "id": "conference-9d408e336f1d898b",
+      "title": "Managerial Risk Assessment and Fund Performance: Evidence from Textual Disclosure",
+      "journal": "MS",
+      "evidence_url": "https://www.alanlzhang.com/",
+      "conference_eligibility": {
+        "conference": "SFS-AP-2024",
+        "year": 2024,
+        "paper_title": "AI in Finance I - 1 Ji Yeol Jimmy Oh Shumiao Ouyang Generative AI and Asset Management",
+        "program_url": "https://sfs.org/wp-content/uploads/2024/12/Brochure_Final.pdf",
+        "program_page": 8,
+        "raw_name": "Alan Zhang",
+        "doctoral_session": false,
+        "author": "Alan L Zhang"
+      }
+    },
+    {
+      "id": "conference-fb580549c6395b5f",
+      "title": "Mandatory vs. Voluntary ESG Disclosure, Efficiency, and Real Effects",
+      "journal": "MS",
+      "evidence_url": "https://sites.google.com/site/cyrusaghamolla/home",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "When Private Equity comes to Town: The Local Economic Consequences of Rising Healthcare Costs",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Cyrus Aghamolla",
+        "doctoral_session": false,
+        "author": "Cyrus Aghamolla"
+      }
+    },
+    {
+      "id": "conference-c73fdd6116061183",
+      "title": "Option Market Maker Hedging and Stock Market Liquidity",
+      "journal": "MS",
+      "evidence_url": "https://james-o-donovan.com/research/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Daniel Fricke Deutsche Bundesbank Monetary Policy and Fragility in Corporate Bond Mutual Funds",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 25,
+        "raw_name": "James O’Donovan",
+        "doctoral_session": false,
+        "author": "James O'Donovan"
+      }
+    },
+    {
+      "id": "conference-e32f6182958b66a1",
+      "title": "Personal Taxes and Unrelated Mergers and Acquisitions",
+      "journal": "MS",
+      "evidence_url": "https://jasonsandvik.com",
+      "conference_eligibility": {
+        "conference": "EFA-2025",
+        "year": 2025,
+        "paper_title": "Small-Scale Mentoring, Large-Scale Innovation: Evidence from a Superstar Firm",
+        "program_url": "https://efa2025.efa-finance.org/wp-content/uploads/sites/8/2026/01/EFA2025_Program.pdf",
+        "program_page": 41,
+        "raw_name": "Jason Sandvik",
+        "doctoral_session": false,
+        "author": "Jason Sandvik"
+      }
+    },
+    {
+      "id": "conference-4523fc5a3902ae12",
+      "title": "Proposer-Builder Separation, Payment for Order Flows, and Centralization in Blockchain",
+      "journal": "MS",
+      "evidence_url": "https://rj2536.github.io/",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Price Discovery on Decentralized Exchanges",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Ruizhe Jia",
+        "doctoral_session": false,
+        "author": "Ruizhe Jia"
+      }
+    },
+    {
+      "id": "conference-b85241aa8331e333",
+      "title": "Security Lending and Corporate Financing: Evidence from Bond Issuance",
+      "journal": "MS",
+      "evidence_url": "https://www.jenniebai.com/research",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "The Ripple Effects of China’s Global Ownership",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Jennie Bai",
+        "doctoral_session": true,
+        "author": "Jennie Bai"
+      }
+    },
+    {
+      "id": "conference-5255a65acc5144b5",
+      "title": "The Asset Pricing Implications of Financial Shocks for the Cross Section of Returns: Theory and Measurement",
+      "journal": "MS",
+      "evidence_url": "https://sites.google.com/view/juliana-salomao/home",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Performance Capital Flows in DC Pensions",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Juliana Salomao",
+        "doctoral_session": false,
+        "author": "Juliana Salomao"
+      }
+    },
+    {
+      "id": "conference-b467cb54be0fdfe4",
+      "title": "The Geography of Corporate Investment: Role of History Beyond Institutions",
+      "journal": "MS",
+      "evidence_url": "https://nishvats.github.io/research/",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Bridging the Information Gap: Sowing the Seeds of Productivity with High-Speed 4G Internet",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Nishant Vats",
+        "doctoral_session": false,
+        "author": "Nishant Vats"
+      }
+    },
+    {
+      "id": "conference-3a5aca488a5c345c",
+      "title": "The Memorization Problem: Can We Trust LLMs’ Economic Forecasts?",
+      "journal": "MS",
+      "evidence_url": "https://mingyinzhu.github.io/research.html",
+      "conference_eligibility": {
+        "conference": "AFA-2026",
+        "year": 2026,
+        "paper_title": "The Memorization Problem: Can We Trust LLMs’ Economic Forecasts?",
+        "program_url": "https://afajof.org/management/full-program2026.html",
+        "program_page": null,
+        "raw_name": "Mingyin Zhu",
+        "doctoral_session": false,
+        "author": "Mingyin Zhu"
+      }
+    },
+    {
+      "id": "conference-36f4f6a000a4fd71",
+      "title": "What Does ChatGPT Make of Historical Stock Returns? Extrapolation and Miscalibration in LLM Stock Return Forecasts",
+      "journal": "MS",
+      "evidence_url": "https://www.shuaiyuchen.com/",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Market Power in the Securities Lending Market",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Shuaiyu Chen",
+        "doctoral_session": false,
+        "author": "Shuaiyu Chen"
+      }
+    },
+    {
+      "id": "conference-0dc19c34d35f7dd4",
+      "title": "When A Market Is Not Legally Defined As A Market: Evidence From Two Types of Dark Trading",
+      "journal": "MS",
+      "evidence_url": "https://yemaofin.com/",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "When A Market Is Not Legally Defined As A Market: Evidence From Two Types of Dark Trading",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Mao Ye",
+        "doctoral_session": false,
+        "author": "Mao Ye"
+      }
+    },
+    {
+      "id": "conference-c97af4c2e79a7e2e",
+      "title": "Partisanship and Portfolio Choice: Evidence from Mutual Funds",
+      "journal": "MS",
+      "evidence_url": "https://williamcassidy.com/research/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "(via courtyard, floor 2) Partisanship and Portfolio Choice: Evidence from Mutual Funds",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 29,
+        "raw_name": "Will Cassidy",
+        "doctoral_session": false,
+        "author": "Will Cassidy"
+      }
+    },
+    {
+      "id": "conference-7da4497d91c51ef3",
+      "title": "Cash me if you can: ATM explosions, payment choice, and consumption",
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/view/theresa-spickers/research",
+      "conference_eligibility": {
+        "conference": "EFA-2025",
+        "year": 2025,
+        "paper_title": "Cash me if you can: ATM explosions, payment choice, and consumption",
+        "program_url": "https://efa2025.efa-finance.org/wp-content/uploads/sites/8/2026/01/EFA2025_Program.pdf",
+        "program_page": 43,
+        "raw_name": "Theresa Spickers",
+        "doctoral_session": false,
+        "author": "Theresa Spickers"
+      }
+    },
+    {
+      "id": "conference-066acb2451fdcf3f",
+      "title": "Cash, Financial Flexibility, and Product Prices: Evidence from a Natural Experiment in the Airline Industry",
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/site/sehoonkimfinance/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Carbon Offsets: Decarbonization or Transition-Washing?",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 45,
+        "raw_name": "Sehoon Kim",
+        "doctoral_session": false,
+        "author": "Sehoon Kim"
+      }
+    },
+    {
+      "id": "conference-bca5c0be18597f2f",
+      "title": "Collateral Constraints, Wealth Effects, and Volatility: Evidence from Real Estate Markets",
+      "journal": "RF",
+      "evidence_url": "https://www.barneyhglaser.com/",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2026",
+        "year": 2026,
+        "paper_title": "Intangible Intensity",
+        "program_url": "https://www.conftool.com/sfs-cavalcade-2026/index.php?page=browseSessions&print=export&form_date=2026-05-19&mode=authors",
+        "program_page": 4,
+        "raw_name": "Hartman-Glaser, Barney",
+        "doctoral_session": false,
+        "author": "Barney Hartman-Glaser"
+      }
+    },
+    {
+      "id": "conference-5289b80282003220",
+      "title": "Deposit diversification and funding stability",
+      "journal": "RF",
+      "evidence_url": "https://www.sdoerr.com/research",
+      "conference_eligibility": {
+        "conference": "SFS-AP-2024",
+        "year": 2024,
+        "paper_title": "Paul Whelan Haonan Zhou Money Market Funds and the Pricing of Near-Money Assets",
+        "program_url": "https://sfs.org/wp-content/uploads/2024/12/Brochure_Final.pdf",
+        "program_page": 14,
+        "raw_name": "Sebastian Doerr",
+        "doctoral_session": false,
+        "author": "Sebastian Doerr"
+      }
+    },
+    {
+      "id": "conference-dd7be94eb9d25864",
+      "title": "Platform Credit, Advertising, and Customer Capital",
+      "journal": "RF",
+      "evidence_url": "https://matthiasefing.com/",
+      "conference_eligibility": {
+        "conference": "Paris-2025",
+        "year": 2025,
+        "paper_title": "Platform Credit, Advertising, and Customer Capital",
+        "program_url": "https://web.archive.org/web/20251205075722id_/https://www.paris-december.eu/",
+        "program_page": null,
+        "raw_name": "Efing Matthias",
+        "doctoral_session": false,
+        "author": "Matthias Efing"
+      }
+    },
+    {
+      "id": "conference-0dc3d84d0d1a3025",
+      "title": "Private Equity and Debt Contract Enforcement: Evidence from Covenant Violations",
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/site/anyakleymenova/cv",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Private Equity and Debt Contract Enforcement: Evidence from Covenant Violations",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Anya Kleymenova",
+        "doctoral_session": false,
+        "author": "Anya Kleymenova"
+      }
+    },
+    {
+      "id": "conference-5886511d9eedeaf9",
+      "title": "Stablecoins and safe asset prices",
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/view/inakialdasoro",
+      "conference_eligibility": {
+        "conference": "EFA-2026",
+        "year": 2026,
+        "paper_title": "Monetary Policy, Insurers, and Real Estate Markets",
+        "program_url": "https://www.conftool.com/efa2026/index.php?page=browseSessions&print=export&form_date=2026-08-20&mode=authors",
+        "program_page": 6,
+        "raw_name": "Aldasoro, Iñaki",
+        "doctoral_session": false,
+        "author": "Iñaki Aldasoro"
+      }
+    },
+    {
+      "id": "conference-ee3e2f390ffaced6",
+      "title": "How (in)active was bank supervision during the 2022 monetary tightening?",
+      "journal": "RFS",
+      "evidence_url": "https://voices.uchicago.edu/joaogranja/research/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "(via courtyard, floor 2) Current Expected Credit Losses and Consumer Loans",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 61,
+        "raw_name": "Joao Granja",
+        "doctoral_session": false,
+        "author": "João Granja"
+      }
+    },
+    {
+      "id": "conference-a4c9e8c3e824b864",
+      "title": "Financially Constrained Procurement",
+      "journal": "RFS",
+      "evidence_url": "https://sites.google.com/view/arkodiptasarkar/home",
+      "conference_eligibility": {
+        "conference": "EFA-2025",
+        "year": 2025,
+        "paper_title": "Financially Constrained Procurement",
+        "program_url": "https://efa2025.efa-finance.org/wp-content/uploads/sites/8/2026/01/EFA2025_Program.pdf",
+        "program_page": 25,
+        "raw_name": "Arkodipta Sarkar",
+        "doctoral_session": false,
+        "author": "Arkodipta Sarkar"
+      }
+    },
+    {
+      "id": "conference-c0876caee1fcde1f",
+      "title": "Fundamentals of Perpetual Futures",
+      "journal": "RFS",
+      "evidence_url": "https://www.songrunhe.com/",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Empirical Asset Pricing with Probability Forecasts",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Songrun He",
+        "doctoral_session": true,
+        "author": "Songrun He"
+      }
+    },
+    {
+      "id": "conference-ac202835f304e00a",
+      "title": "Go with the Flow: Debt Structure Changes and Monetary Policy Transmission",
+      "journal": "RFS",
+      "evidence_url": "https://www.chuckfang.finance/",
+      "conference_eligibility": {
+        "conference": "EFA-2025",
+        "year": 2025,
+        "paper_title": "Go with the Flow: Debt Structure Changes and Monetary Policy Transmission",
+        "program_url": "https://efa2025.efa-finance.org/wp-content/uploads/sites/8/2026/01/EFA2025_Program.pdf",
+        "program_page": 22,
+        "raw_name": "Chuck Fang",
+        "doctoral_session": false,
+        "author": "Chuck Fang"
+      }
+    },
+    {
+      "id": "conference-ff61e2d9a9a6ff16",
+      "title": "Green Price Pressure",
+      "journal": "RFS",
+      "evidence_url": "https://seanshin.com/research",
+      "conference_eligibility": {
+        "conference": "AFA-2026",
+        "year": 2026,
+        "paper_title": "The Growing Index Effect in the Corporate Bond Market",
+        "program_url": "https://afajof.org/management/full-program2026.html",
+        "program_page": null,
+        "raw_name": "Sean Shin",
+        "doctoral_session": false,
+        "author": "Sean Seunghun Shin"
+      }
+    },
+    {
+      "id": "conference-f851596a35a0a55f",
+      "title": "Heterogenous beliefs recovery",
+      "journal": "RFS",
+      "evidence_url": "https://www.epfl.ch/labs/sfi-jh/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Admissible Surplus Dynamics and the Government Debt Puzzle",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 32,
+        "raw_name": "Julien Hugonnier",
+        "doctoral_session": false,
+        "author": "Julien Hugonnier"
+      }
+    },
+    {
+      "id": "conference-9ab74799ef72ea8d",
+      "title": "Illiquidity Meets Intelligence: AI-Driven Price Discovery in Corporate Bonds",
+      "journal": "RFS",
+      "evidence_url": "https://davidxiaoyuxu.com/research.html",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Information Acquisition by Mutual Fund Investors: Evidence from Stock Trading Suspensions",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "David Xiaoyu Xu",
+        "doctoral_session": false,
+        "author": "David Xiaoyu Xu"
+      }
+    },
+    {
+      "id": "conference-45c223213785efaf",
+      "title": "Learning about housing cost: survey evidence from the German house price boom",
+      "journal": "RFS",
+      "evidence_url": "https://stanford.edu/~schneidr/",
+      "conference_eligibility": {
+        "conference": "AFA-2026",
+        "year": 2026,
+        "paper_title": "Asset Returns as Carbon Taxes",
+        "program_url": "https://afajof.org/management/full-program2026.html",
+        "program_page": null,
+        "raw_name": "Martin Schneider",
+        "doctoral_session": false,
+        "author": "Martin Schneider"
+      }
+    },
+    {
+      "id": "conference-d522b57bbda2f49a",
+      "title": "Local Journalism under Private Equity Ownership",
+      "journal": "RFS",
+      "evidence_url": "https://arpitgupta.info/papers2",
+      "conference_eligibility": {
+        "conference": "EFA-2026",
+        "year": 2026,
+        "paper_title": "Inflation Through the Mortgage Market",
+        "program_url": "https://www.conftool.com/efa2026/index.php?page=browseSessions&print=export&form_date=2026-08-20&mode=authors",
+        "program_page": 5,
+        "raw_name": "Gupta, Arpit",
+        "doctoral_session": false,
+        "author": "Arpit Gupta"
+      }
+    },
+    {
+      "id": "conference-c0d08c899af79950",
+      "title": "Monetary Policy Exposure of Banks and Loan Contracting",
+      "journal": "RFS",
+      "evidence_url": "https://sites.google.com/site/jingwangfinance",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "The Rise of Nonbanks and the Quality of Financial Services: Evidence from Consumer Complaints",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Jing Wang",
+        "doctoral_session": false,
+        "author": "Jing Wang"
+      }
+    },
+    {
+      "id": "conference-6668ca6d03bbc8a1",
+      "title": "Monetary policy, the yield curve, and the repo market",
+      "journal": "RFS",
+      "evidence_url": "https://sites.google.com/view/ruggerojappelli",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Monetary Policy, the Yield Curve, and the Repo Market",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 20,
+        "raw_name": "Ruggero Jappelli",
+        "doctoral_session": false,
+        "author": "Ruggero Jappelli"
+      }
+    },
+    {
+      "id": "conference-5d757c6269d56e60",
+      "title": "Public Monitoring, Private Lending: Evidence From Tax Audit Reform in Ecuador",
+      "journal": "RFS",
+      "evidence_url": "https://www.rebeccadesimone.com/",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2024",
+        "year": 2024,
+        "paper_title": "Opening the Brown Box: Production Responses to Environmental Regulation",
+        "program_url": "https://sfs.org/wp-content/uploads/2025/02/2024-cavalcade-program.pdf",
+        "program_page": 7,
+        "raw_name": "Rebecca De Simone",
+        "doctoral_session": false,
+        "author": "Rebecca De Simone"
+      }
+    },
+    {
+      "id": "conference-8ae2f178e03fa6bf",
+      "title": "Regulatory Model Secrecy and Bank Reporting Discretion",
+      "journal": "RFS",
+      "evidence_url": "https://www.shuo-zhao.com/research",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Regulatory Model Secrecy and Bank Reporting Discretion",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Shuo Zhao",
+        "doctoral_session": true,
+        "author": "Shuo Zhao"
+      }
+    },
+    {
+      "id": "conference-c286b0618f054d36",
+      "title": "Rethinking Volume: Has the Market Become More Liquid?",
+      "journal": "RFS",
+      "evidence_url": "https://www.pvanderbeck.net/research",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "On the Estimation of Demand-Based Asset Pricing Models",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 43,
+        "raw_name": "Philippe van der Beck",
+        "doctoral_session": false,
+        "author": "PHILIPPE VAN DER BECK"
+      }
+    },
+    {
+      "id": "conference-59d318839cad1adf",
+      "title": "Revenue-Based Financing",
+      "journal": "RFS",
+      "evidence_url": "https://dominicrussel.com/",
+      "conference_eligibility": {
+        "conference": "AFA-2026",
+        "year": 2026,
+        "paper_title": "Behavioral Cross-Selling: Evidence from Retail Credit Cards",
+        "program_url": "https://afajof.org/management/full-program2026.html",
+        "program_page": null,
+        "raw_name": "Dominic Russel",
+        "doctoral_session": true,
+        "author": "Dominic Russel"
+      }
+    },
+    {
+      "id": "conference-306f0ae9397b5ca6",
+      "title": "Similarity in Financial Markets",
+      "journal": "RFS",
+      "evidence_url": "https://sites.google.com/view/constantin-charles/home",
+      "conference_eligibility": {
+        "conference": "WFA-2026",
+        "year": 2026,
+        "paper_title": "Similarity in Financial Markets",
+        "program_url": "https://westernfinance.org/wp-content/uploads/2026_links.pdf",
+        "program_page": 39,
+        "raw_name": "Constantin Charles",
+        "doctoral_session": false,
+        "author": "Constantin Charles"
+      }
+    },
+    {
+      "id": "conference-4f58683f07b90871",
+      "title": "Small Firm Investment under Uncertainty: The Role of Equity Finance",
+      "journal": "RFS",
+      "evidence_url": "https://mmeki.com/",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Small Firm Investment under Uncertainty: The Role of Equity Finance",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Muhammad Meki",
+        "doctoral_session": false,
+        "author": "Muhammad Meki"
+      }
+    },
+    {
+      "id": "conference-4471ad1db6c59ef9",
+      "title": "The Quality of Advice in Shareholder Voting",
+      "journal": "RFS",
+      "evidence_url": "https://patrickblonien.com/research",
+      "conference_eligibility": {
+        "conference": "WFA-2026",
+        "year": 2026,
+        "paper_title": "Is 24/7 Trading Better?",
+        "program_url": "https://westernfinance.org/wp-content/uploads/2026_links.pdf",
+        "program_page": 46,
+        "raw_name": "Patrick Blonien",
+        "doctoral_session": false,
+        "author": "Patrick Blonien"
+      }
+    },
+    {
+      "id": "conference-0d58963aa75cdebc",
+      "title": "The Value of Off-Exchange Data",
+      "journal": "RFS",
+      "evidence_url": "https://terpconnect.umd.edu/~ternst/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "What Does Best Execution Look Like?",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 41,
+        "raw_name": "Thomas Ernst",
+        "doctoral_session": false,
+        "author": "Thomas Ernst"
+      }
+    },
+    {
+      "id": "conference-b4a6f919792db108",
+      "title": "Uncoordinated Climate Policy and Carbon Leakage: Evidence from Supply Chains",
+      "journal": "RFS",
+      "evidence_url": "https://emanuelabenincasa.com/research/",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Rewiring supply chains through climate policy",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Emanuela Benincasa",
+        "doctoral_session": true,
+        "author": "Emanuela Benincasa"
+      }
+    },
+    {
+      "id": "conference-e49b51e2ea09715f",
+      "title": "Up the Capital Ladder: The Role of Labor Mobility in the Mutual Fund Industry",
+      "journal": "RFS",
+      "evidence_url": "https://sites.google.com/view/maxime-bonelli/research",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Financial Product Incentives to Differentiate: Evidence from Mutual Funds",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Maxime Bonelli",
+        "doctoral_session": false,
+        "author": "Maxime Bonelli"
+      }
+    },
+    {
+      "id": "conference-0300e2e24ecb241d",
+      "title": "What Do Lead Banks Learn from Leveraged Loan Investors?",
+      "journal": "RFS",
+      "evidence_url": "https://davidxiaoyuxu.com/research.html",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Information Acquisition by Mutual Fund Investors: Evidence from Stock Trading Suspensions",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "David Xiaoyu Xu",
+        "doctoral_session": false,
+        "author": "David Xiaoyu Xu"
+      }
+    },
+    {
+      "id": "conference-375e605912a129a2",
+      "title": "When Privacy Protects but Excludes: The Costs and Benefits of Privacy Regulation in Credit Markets",
+      "journal": "RFS",
+      "evidence_url": "https://nishvats.github.io/research/",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Bridging the Information Gap: Sowing the Seeds of Productivity with High-Speed 4G Internet",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Nishant Vats",
+        "doctoral_session": false,
+        "author": "Nishant Vats"
+      }
+    },
+    {
+      "id": "conference-9b8346422ef3b37c",
+      "title": "Liquidity Based Contracting: A Path to Greater Efficiency in Payday Lending",
+      "journal": "RFS",
+      "evidence_url": "https://www.sharadasridhar.com/research",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2026",
+        "year": 2026,
+        "paper_title": "Bank Fees and Household Financial Well-Being",
+        "program_url": "https://www.conftool.com/sfs-cavalcade-2026/index.php?page=browseSessions&print=export&form_date=2026-05-19&mode=authors",
+        "program_page": 1,
+        "raw_name": "Sridhar, Sharada",
+        "doctoral_session": false,
+        "author": "Sharada Sridhar"
+      }
+    },
+    {
+      "id": "conference-f4b36addbf18fafc",
+      "title": "AI in Finance and Information Overload",
+      "journal": "JFQA",
+      "evidence_url": "https://hanqing-tian.github.io/research.html",
+      "conference_eligibility": {
+        "conference": "EFA-2026",
+        "year": 2026,
+        "paper_title": "A Financial Brain Scan of the LLM",
+        "program_url": "https://www.conftool.com/efa2026/index.php?page=browseSessions&print=export&form_date=2026-08-20&mode=authors",
+        "program_page": 1,
+        "raw_name": "Tian, Hanqing",
+        "doctoral_session": false,
+        "author": "Hanqing Tian"
+      }
+    },
+    {
+      "id": "conference-bee7005277b42784",
+      "title": "Reputation, Entrenchment, and Dynamic Managerial Incentives",
+      "journal": "JFE",
+      "evidence_url": "https://www.noahlyman.com/research.html",
+      "conference_eligibility": {
+        "conference": "AFA-2026",
+        "year": 2026,
+        "paper_title": "Opportunistic Borrowing Before Default? A New Test Using Multiple Delinquent Credit Cards",
+        "program_url": "https://afajof.org/management/full-program2026.html",
+        "program_page": null,
+        "raw_name": "Noah Lyman",
+        "doctoral_session": false,
+        "author": "Noah Lyman"
+      }
+    },
+    {
+      "id": "conference-636f58b898d2c2f4",
+      "title": "Dusting Off the Old Ones: Drug Licensing to Startups, Innovation Success and Efficiency",
+      "journal": "MS",
+      "evidence_url": "https://sites.google.com/view/mosab-hammoudeh/home",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Competition and Executive Compensation: Evidence from Pharmaceutical Breakthrough Designations",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Mosab Hammoudeh",
+        "doctoral_session": false,
+        "author": "Mosab Hammoudeh"
+      }
+    },
+    {
+      "id": "conference-2e28c8f1792c83bb",
+      "title": "Monetary Policy and the Maturity Structure of Corporate Debt",
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/view/andreafabianiweb/research",
+      "conference_eligibility": {
+        "conference": "EFA-2026",
+        "year": 2026,
+        "paper_title": "The Ripple Effect: Supply Chain Reconfigurations and Cross-border Credit Dynamics",
+        "program_url": "https://www.conftool.com/efa2026/index.php?page=browseSessions&print=export&form_date=2026-08-20&mode=authors",
+        "program_page": 9,
+        "raw_name": "Fabiani, Andrea",
+        "doctoral_session": false,
+        "author": "Andrea Fabiani"
+      }
+    },
+    {
+      "id": "conference-0df19ee2f073c20d",
+      "title": "Inflation, Leverage and Stock Returns",
+      "journal": "MS",
+      "evidence_url": "https://sites.google.com/view/andreafabianiweb/research",
+      "conference_eligibility": {
+        "conference": "EFA-2026",
+        "year": 2026,
+        "paper_title": "The Ripple Effect: Supply Chain Reconfigurations and Cross-border Credit Dynamics",
+        "program_url": "https://www.conftool.com/efa2026/index.php?page=browseSessions&print=export&form_date=2026-08-20&mode=authors",
+        "program_page": 9,
+        "raw_name": "Fabiani, Andrea",
+        "doctoral_session": false,
+        "author": "Andrea Fabiani"
+      }
+    },
+    {
+      "id": "conference-42ce38192b961628",
+      "title": "Cost Pass-Through and Mortgage Credit: The Case of Guarantee Fees",
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/view/davidsovich/",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Tax Incidence in Consumer Financial Markets: Evidence from Auto Leases",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "David Sovich",
+        "doctoral_session": true,
+        "author": "DAVID SOVICH"
+      }
+    },
+    {
+      "id": "conference-4ec9f5b4650aa7c6",
+      "title": "The Market Value of Natural Capital: Evidence from Wetland Changes and Immobile Assets",
+      "journal": "MS",
+      "evidence_url": "https://claudiorizzi.github.io/",
+      "conference_eligibility": {
+        "conference": "EFA-2025",
+        "year": 2025,
+        "paper_title": "Catalysts for the Green Transition",
+        "program_url": "https://efa2025.efa-finance.org/wp-content/uploads/sites/8/2026/01/EFA2025_Program.pdf",
+        "program_page": 47,
+        "raw_name": "Claudio Rizzi",
+        "doctoral_session": false,
+        "author": "Claudio Rizzi"
+      }
+    },
+    {
+      "id": "conference-09d786cc788457ba",
+      "title": "Looking Online to Understand Firms’ Intangible Capital",
+      "journal": "MS",
+      "evidence_url": "https://gauravkankanhalli.com/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Gianpaolo Parise EDHEC Uncertainty Creates Zombie Firms: Implications for Industry Dynamics and Creative Destruction",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 58,
+        "raw_name": "Gaurav Kankanhalli",
+        "doctoral_session": false,
+        "author": "Gaurav Kankanhalli"
+      }
+    },
+    {
+      "id": "conference-761ffc426e593464",
+      "title": "Option Mispricing and Alpha Portfolios",
+      "journal": "JFE",
+      "evidence_url": "https://junye-li.github.io/",
+      "conference_eligibility": {
+        "conference": "EFA-2026",
+        "year": 2026,
+        "paper_title": "Asset Heterogeneity and Uncommon Factors",
+        "program_url": "https://www.conftool.com/efa2026/index.php?page=browseSessions&print=export&form_date=2026-08-20&mode=authors",
+        "program_page": 1,
+        "raw_name": "Li, Junye",
+        "doctoral_session": false,
+        "author": "Junye Li"
+      }
+    },
+    {
+      "id": "conference-24356168da0919b0",
+      "title": "When Jane Goes Green and John Stays Put: The Gender Gap in Sustainable Investing",
+      "journal": "JFQA",
+      "evidence_url": "https://lijing-jane.vercel.app/",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "The Market for Sharing Interest Rate Risk: Quantities and Asset Prices",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 28,
+        "raw_name": "Jane Li",
+        "doctoral_session": false,
+        "author": "Jane Li"
+      }
+    },
+    {
+      "id": "conference-15008e8c2dcf6604",
+      "title": "ChatGPT and Corporate Policies",
+      "journal": "MS",
+      "evidence_url": "https://mjha91.github.io/",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "The Politicization of Social Responsibility",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Manish Jha",
+        "doctoral_session": false,
+        "author": "Manish Jha"
+      }
+    },
+    {
+      "id": "conference-78c499a5ebd295b6",
+      "title": "Capturing Time-Varying Return Predictability: the Multi-Asset Momentum Strategy with Dynamic Trading Signals",
+      "journal": "MS",
+      "evidence_url": "https://rosamondwang.github.io/",
+      "conference_eligibility": {
+        "conference": "Paris-2025",
+        "year": 2025,
+        "paper_title": "Deviations from Covered Interest Parity, Dollar Funding Pressure, and Currency Risk Premia (Job Market Paper)",
+        "program_url": "https://web.archive.org/web/20251205075722id_/https://www.paris-december.eu/",
+        "program_page": null,
+        "raw_name": "Wang Yirong",
+        "doctoral_session": true,
+        "author": "Yirong Wang"
+      }
+    },
+    {
+      "id": "conference-c4ecb09e88c22068",
+      "title": "When Political Influence Loses Value: Import Competition and Investment in Corporate Lobbying",
+      "journal": "JFQA",
+      "evidence_url": "https://sampiotrowski.com/?page_id=24",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Geographic Overlap, Agglomeration Externalities and Post-Merger Restructuring",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 48,
+        "raw_name": "Samuel Piotrowski",
+        "doctoral_session": false,
+        "author": "Samuel Piotrowski"
+      }
+    },
+    {
+      "id": "conference-4a85804cd92779c6",
+      "title": "Stock Volatility and the War Puzzle: The Military Demand Channel",
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/site/cortesgustavos",
+      "conference_eligibility": {
+        "conference": "EFA-2025",
+        "year": 2025,
+        "paper_title": "from 300 Million Retail Transactions",
+        "program_url": "https://efa2025.efa-finance.org/wp-content/uploads/sites/8/2026/01/EFA2025_Program.pdf",
+        "program_page": 59,
+        "raw_name": "Gustavo Cortes",
+        "doctoral_session": false,
+        "author": "Gustavo S. Cortes"
+      }
+    },
+    {
+      "id": "conference-d3f05284cd2a7ce0",
+      "title": "Passive Demand and Active Supply: Evidence from Maturity-mandated Corporate Bond Funds",
+      "journal": "RFS",
+      "evidence_url": "https://sites.google.com/site/lorenzobretscher/home",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Passive Demand and Active Supply: Evidence from Maturity-mandated Corporate Bond Funds",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Lorenzo Bretscher",
+        "doctoral_session": false,
+        "author": "Lorenzo Bretscher"
+      }
+    },
+    {
+      "id": "conference-c6b579977a1508ed",
+      "title": "Liquid–Illiquid Conversion via Singular Control: Staking and Partial Commitment",
+      "journal": "MS",
+      "evidence_url": "https://sites.google.com/site/minsukkwak/research",
+      "conference_eligibility": {
+        "conference": "SFS-AP-2024",
+        "year": 2024,
+        "paper_title": "Jongsub Lee Hyun Soo Doh Optimal Staking and Liquid Token Holding Decisions in Cryptocurrency Markets",
+        "program_url": "https://sfs.org/wp-content/uploads/2024/12/Brochure_Final.pdf",
+        "program_page": 8,
+        "raw_name": "Minsuk Kwak",
+        "doctoral_session": false,
+        "author": "Minsuk Kwak"
+      }
+    },
+    {
+      "id": "conference-640b2bdfdf95621c",
+      "title": "Assaying Anomalies",
+      "journal": "RFS",
+      "evidence_url": "https://sites.google.com/site/velikovmihail/home",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "The Expected Returns on Machine-Learning Strategies",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Mihail Velikov",
+        "doctoral_session": false,
+        "author": "Mihail Velikov"
+      }
+    },
+    {
+      "id": "conference-e64e003eafd4bd2d",
+      "title": "Peer Momentum",
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/site/velikovmihail/home",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "The Expected Returns on Machine-Learning Strategies",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Mihail Velikov",
+        "doctoral_session": false,
+        "author": "Mihail Velikov"
+      }
+    },
+    {
+      "id": "conference-4c0a0fc7916c6c4f",
+      "title": "Institutional Synergies and the Fragility of Loan Funds",
+      "journal": "RFS",
+      "evidence_url": "https://sites.google.com/view/jinglu/",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Institutional Synergies and the Fragility of Loan Funds",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Jing Lu",
+        "doctoral_session": false,
+        "author": "Jing Lu"
+      }
+    },
+    {
+      "id": "conference-e8712d5cddd89e61",
+      "title": "Large Funds and Corporate Bond Market Fragility",
+      "journal": "RF",
+      "evidence_url": "https://sites.google.com/view/mengqiao-du",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Beyond Old Boys’ Clubs: Financial Analysts’ Utilization of Professional Connections",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Mengqiao Du",
+        "doctoral_session": false,
+        "author": "Mengqiao Du"
+      }
+    },
+    {
+      "id": "conference-8f5d6edc8a25bf53",
+      "title": "Unintended Consequences of QE: Real Estate Prices and Financial Stability",
+      "journal": "JF",
+      "evidence_url": "https://sites.google.com/view/tobias-berg/startseite/current-research",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Unintended Consequences of QE: Real Estate Prices and Financial Stability",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 39,
+        "raw_name": "Tobias Berg",
+        "doctoral_session": false,
+        "author": "Tobias Berg"
+      }
+    },
+    {
+      "id": "conference-f75e24777f72db99",
+      "title": "Financial Constraints and Household Green Technology Adoption",
+      "journal": "RFS",
+      "evidence_url": "https://sites.google.com/view/tobias-berg/startseite/current-research",
+      "conference_eligibility": {
+        "conference": "EFA-2024",
+        "year": 2024,
+        "paper_title": "Unintended Consequences of QE: Real Estate Prices and Financial Stability",
+        "program_url": "https://efa2024.efa-finance.org/wp-content/uploads/sites/7/2026/01/EFA2024_Program.pdf",
+        "program_page": 39,
+        "raw_name": "Tobias Berg",
+        "doctoral_session": false,
+        "author": "Tobias Berg"
+      }
+    },
+    {
+      "id": "conference-ab279dd8a1036193",
+      "title": "The Wall Street Put",
+      "journal": "JFE",
+      "evidence_url": "https://sites.google.com/view/zhao-zhang/home",
+      "conference_eligibility": {
+        "conference": "AFA-2025",
+        "year": 2025,
+        "paper_title": "Talent Market Competition and Firm Growth",
+        "program_url": "https://afajof.org/management/full-program2025.html",
+        "program_page": null,
+        "raw_name": "Zhao Zhang",
+        "doctoral_session": false,
+        "author": "Zhao Zhang"
+      }
+    },
+    {
+      "id": "conference-6fc62675a6c92b3f",
+      "title": "Retention or Regressivity? The Empirical Effects of 401(k) Vesting Schedules",
+      "journal": "JF",
+      "evidence_url": "https://www.aaronsgoodman.com/",
+      "conference_eligibility": {
+        "conference": "WFA-2024",
+        "year": 2024,
+        "paper_title": "Bulls and Binaries",
+        "program_url": "https://westernfinance.org/wp-content/uploads/2024.pdf",
+        "program_page": 20,
+        "raw_name": "Aaron Goodman",
+        "doctoral_session": false,
+        "author": "Aaron Goodman"
+      }
+    },
+    {
+      "id": "conference-3face07a37c7555b",
+      "title": "Time Out for Trading",
+      "journal": "JF",
+      "evidence_url": "https://www.fatimazahrafilaliadib.com/research",
+      "conference_eligibility": {
+        "conference": "Paris-2024",
+        "year": 2024,
+        "paper_title": "A Breath of Change: Can Personal Exposures Drive Green Preferences?",
+        "program_url": "https://web.archive.org/web/20241203020053id_/https://www.paris-december.eu/",
+        "program_page": null,
+        "raw_name": "Filali-Adib Fatima Zahra",
+        "doctoral_session": false,
+        "author": "Adib Fatima Zahra Filali"
+      }
+    },
+    {
+      "id": "conference-922b8807b01adeb5",
+      "title": "The Participation Reversal Puzzle",
+      "journal": "JFE",
+      "evidence_url": "https://www.fmainardi.com/research",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Asset Demand of U.S. Households",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Federico Mainardi",
+        "doctoral_session": false,
+        "author": "Federico Mainardi"
+      }
+    },
+    {
+      "id": "conference-70514db9da315379",
+      "title": "Graying Bonds: Aging, School Finance, and House Prices",
+      "journal": "RFS",
+      "evidence_url": "https://www.livia-yi.com/research.html",
+      "conference_eligibility": {
+        "conference": "SFS-NA-2026",
+        "year": 2026,
+        "paper_title": "HUSTLING FROM HOME? WORK FROM HOME FLEXIBILITY AND ENTREPRENEURIAL ENTRY",
+        "program_url": "https://www.conftool.com/sfs-cavalcade-2026/index.php?page=browseSessions&print=export&form_date=2026-05-19&mode=authors",
+        "program_page": 3,
+        "raw_name": "Yi, Hanyi Livia",
+        "doctoral_session": false,
+        "author": "Hanyi Livia Yi"
+      }
+    },
+    {
+      "id": "conference-d18db2e1c0be71be",
+      "title": "Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation",
+      "journal": "JF",
+      "evidence_url": "https://www.vadimelenev.com",
+      "conference_eligibility": {
+        "conference": "AFA-2024",
+        "year": 2024,
+        "paper_title": "Asset Pricing with Optimal Under-Diversification",
+        "program_url": "https://afajof.org/management/full-program2024.html",
+        "program_page": null,
+        "raw_name": "Vadim Elenev",
+        "doctoral_session": false,
+        "author": "Vadim Elenev"
+      }
+    }
+  ],
+  "existing_duplicates": [
+    {
+      "title": "Ubiquitous Comovement",
+      "existing_id": "ms-d751ca85b198c965",
+      "existing_title": "Ubiquitous Comovement"
+    },
+    {
+      "title": "Applications or Approvals: What Drives Racial Disparities in the Paycheck Protection Program?",
+      "existing_id": "chenyang-064",
+      "existing_title": "Applications or Approvals: What Drives Racial Disparities in the Paycheck Protection Program?"
+    },
+    {
+      "title": "Branching Out Inequality: The Impact of Credit Equality Policies",
+      "existing_id": "author-site-expanded-20261012-015",
+      "existing_title": "Branching Out Inequality: The Impact of Credit Equality Policies in the Non-Bank Era"
+    },
+    {
+      "title": "The Inefficient Pricing of News",
+      "existing_id": "author-site-expanded-20261012-116",
+      "existing_title": "The Inefficient Pricing of News"
+    },
+    {
+      "title": "Leverage Regulation and Housing Inequality",
+      "existing_id": "author-site-expanded-20261012-074",
+      "existing_title": "Leverage Regulation and Housing Inequality"
+    },
+    {
+      "title": "Systematic Labor Income Risk, Firm Insurance, and the Financial Behavior of Households",
+      "existing_id": "author-site-expanded-20261012-101",
+      "existing_title": "Systematic Labor Income Risk, Firm Insurance, and the Financial Behavior of Households"
+    },
+    {
+      "title": "An Economic Model of Consensus on Distributed Ledgers",
+      "existing_id": "chenyang-076",
+      "existing_title": "An Economic Model of Consensus on Distributed Ledgers"
+    }
+  ],
+  "excluded_stale_decisions": [
+    {
+      "title": "Can the Market Multiply and Divide? Non-Proportional Thinking in Financial Markets",
+      "reason": "Published in Journal of Finance (2021)",
+      "evidence_url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.13059"
+    },
+    {
+      "title": "Limited Attention, Marital Events and Hedge Funds",
+      "reason": "Published in Journal of Financial Economics (2016)",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0304405X16301556"
+    },
+    {
+      "title": "What Can Macro-Active Bond Funds Tell Us About Monetary Policy Change?",
+      "reason": "Publisher article available; homepage R&R superseded",
+      "evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S0304405X26001492"
+    },
+    {
+      "title": "Asymmetric Naïveté: Beliefs About Self-Control",
+      "reason": "Published online 22 October 2024",
+      "evidence_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2021.01780"
+    },
+    {
+      "title": "Does Career Risk Deter Potential Entrepreneurs?",
+      "reason": "Published in Review of Financial Studies (2022)",
+      "evidence_url": "https://academic.oup.com/rfs/article-abstract/35/9/3973/6373389"
+    }
+  ],
+  "notes": [
+    "Only explicit current public revise-and-resubmit decisions are added. Rejected/resubmitted, accepted and published papers are excluded from this addition.",
+    "Source-restricted pages are retained with their scan errors; finding a webpage does not imply that its research content was readable.",
+    "Conference author names and compatible variants are provisional identities when explicitly flagged. Program affiliation contexts can pool coauthor institutions."
+  ]
+}

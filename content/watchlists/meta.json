@@ -127,17 +127,50 @@
     "candidate_count": 73
   },
   "rr_counts_by_journal": {
-    "JF": 49,
-    "JFE": 38,
-    "RFS": 71,
-    "JFQA": 26,
-    "RF": 29,
-    "MS": 45
+    "RFS": 100,
+    "JF": 67,
+    "RF": 41,
+    "JFQA": 40,
+    "JFE": 52,
+    "MS": 71
   },
   "finance_top5_author_homepage_coverage": {
     "linked_authors": 3625,
     "author_rows": 4301,
     "percent": 84.28,
     "basis": "Normalized author name groups with publications in JF, JFE, RFS, JFQA or RF; homepage eligibility must match a publication in those journals."
+  },
+  "rr_last_run": "2026-10-14",
+  "conference_author_homepage_coverage": {
+    "checked_on": "2026-10-14",
+    "scope_years": [
+      2024,
+      2025,
+      2026
+    ],
+    "author_rows": 3894,
+    "linked_authors": 3522,
+    "percent": 90.4468,
+    "raw_name_groups": 4020,
+    "name_variant_rows_merged": 126,
+    "basis": "Public program paper authors, normalized names; compatible variants merged when they share a verified dedicated author webpage. Personal websites preferred, with individual institution research profiles as fallback. Name-based identity matches remain provisional where explicitly flagged.",
+    "roster_limitations": [
+      "EFA 2026 doctoral tutorial full roster is not publicly available; its named award winner is included.",
+      "SFS Asia-Pacific 2026 program is not yet publicly available."
+    ]
+  },
+  "conference_rr_scan_summary": {
+    "checked_on": "2026-10-14",
+    "attempted_sources": 6682,
+    "readable_sources": 5851,
+    "added_papers": 113,
+    "paper_counts_added": {
+      "JF": 18,
+      "JFE": 14,
+      "JFQA": 14,
+      "MS": 26,
+      "RF": 12,
+      "RFS": 29
+    }
   }
 }

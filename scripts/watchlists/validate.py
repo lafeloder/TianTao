@@ -17,6 +17,11 @@ def main():
         if p['last_verified']:dt.date.fromisoformat(p['last_verified'])
         else:assert p.get('reference_url') and p.get('verification_status')=='reference_only'
         if p['eligibility']:assert p['eligibility']['doi']
+        if p.get('eligibility_status')=='conference_verified':
+            proof=p.get('conference_eligibility',{})
+            assert proof.get('conference') and proof.get('paper_title')
+            assert proof.get('program_url','').startswith('https://')
+            assert proof.get('year') in [2024,2025,2026]
     for j in jobs:
         assert j['source_url'].startswith('https://')
         if j['deadline']:dt.date.fromisoformat(j['deadline'])

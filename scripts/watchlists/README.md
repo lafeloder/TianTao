@@ -15,6 +15,13 @@ site layout and theme. Existing About, Research, CV and Data pages are retained.
 - Author eligibility: at least one retrievable journal article first published
   in the rolling five-year window in those journals. The current window and
   per-journal article counts are recorded in `meta.json`.
+- Conference supplement: paper authors in public 2024–2026 AFA, WFA, EFA,
+  SFS North America / Asia-Pacific and Paris December Finance programs, including
+  publicly named doctoral presenters. Personal sites are preferred; individual
+  institution research profiles are a fallback. Conference-only authors retain
+  program evidence with no invented DOI and enter the weekly homepage scan.
+  The displayed Finance Top5 publication-author statistic keeps its original
+  five-journal denominator. No author-pool or MS-author totals are added to the UI.
 - Schools: ranks 1–50 in the FT European Business School Rankings 2025,
   including ties. Revisit membership when the next annual ranking is published.
   This is unrelated to the FT50 journal list.
@@ -40,6 +47,12 @@ Use `bootstrap.load()` or Python's `gzip` module to inspect them.
   Management Science publication, including unresolved names, homepage URL,
   identity method, search attempt and scan status. It is an internal audit file,
   not a downloadable spreadsheet.
+- `conference-authors.json.gz`, `conference-author-ledger.json.gz`: source
+  program evidence, supported name variants, every unresolved author, identified
+  personal/institution page, and scan outcomes. Coverage is calculated after
+  merging compatible aliases sharing verified individual pages. The EFA 2026
+  doctoral tutorial's complete roster and SFS Asia-Pacific 2026 program are not
+  publicly available; these source limits remain explicit in the ledger.
 - `rr.json`: R&R, reject-and-resubmit and changed decision statuses kept separately. `first_seen` is our
   discovery date, not a decision date; `source_updated` is a source's own update
   label, not a guaranteed decision date.

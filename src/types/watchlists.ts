@@ -33,6 +33,14 @@ export interface Paper {
   status_original?: string;
   primary_source_url?: string;
   eligibility_status?: string;
+  conference_eligibility?: {
+    conference: string;
+    year: number;
+    paper_title: string;
+    program_url: string;
+    program_page?: number | null;
+    author?: string;
+  };
 }
 
 export interface Vacancy {
