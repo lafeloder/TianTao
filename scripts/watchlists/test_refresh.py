@@ -1,9 +1,34 @@
 import datetime as dt
 import unittest
 from bootstrap import publication_date
-from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility
+from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility, listed_homepages
 
 class EvidenceTests(unittest.TestCase):
+    def test_google_sites_title_and_status_in_adjacent_lists(self):
+        html='<ol><li><p><a href="https://papers.ssrn.com/abstract=5025423">Where to Hire? Political Alignment and Internal Labor Allocation</a> (with Wanyi Wang)</p></li></ol><ul><li>Journal of Financial and Quantitative Analysis, Revise and Resubmit</li></ul>'
+        rows=rr_blocks(html,'https://sites.google.com/view/linghang-zeng')
+        self.assertEqual([(r['title'],r['journal']) for r in rows],[('Where to Hire? Political Alignment and Internal Labor Allocation','JFQA')])
+
+    def test_adjacent_paper_status_is_not_bridged(self):
+        html='<ul><li><a href="/a.pdf">An Unrelated Working Paper</a></li><li><a href="/b.pdf">A Confirmed Banking Paper</a> Revise and Resubmit, Review of Finance</li></ul>'
+        self.assertEqual([r['title']for r in rr_blocks(html,'https://author.example')],['A Confirmed Banking Paper'])
+
+    def test_school_profile_follows_explicit_external_personal_site(self):
+        html='<a href="https://sites.google.com/view/linghang-zeng">Personal Website</a><a href="https://coauthor.example/research">Papers</a>'
+        self.assertEqual(research_links(html,'https://www.babson.edu/faculty/linghang-zeng.php'),['https://sites.google.com/view/linghang-zeng'])
+
+    def test_fixed_watchlist_keeps_aliases_without_admitting_new_authors(self):
+        homes=[{'name':'A. Student'},{'name':'A New Author'}]
+        roster=[{'name':'Alice Student','name_keys':['astudent']}]
+        self.assertEqual(listed_homepages(homes,roster),[{'name':'A. Student'}])
+
+    def test_fixed_roster_preferred_personal_site_is_added_once(self):
+        homes=[{'name':'A. Student','url':'https://school.example/alice','approved':True,'eligibility':{'doi':'10.1/paper'}}]
+        roster=[{'name':'Alice Student','name_keys':['astudent'],'homepage_url':'https://alice.example'}]
+        selected=listed_homepages(homes,roster)
+        self.assertEqual(len(selected),2)
+        self.assertEqual(listed_homepages(selected,roster),selected)
+
     def test_conference_only_student_is_scanned_without_publication_doi(self):
         proof={'conference':'SFS-NA-2024','year':2024,'paper_title':'Language Frictions in Consumer Credit','program_url':'https://sfs.org/program.pdf','program_page':14}
         author={'name':'Chao Liu','conference_name_keys':['chaoliu'],'eligibility':None,'eligibility_status':'conference_verified'}

@@ -130,7 +130,7 @@
     "RFS": 100,
     "JF": 67,
     "RF": 41,
-    "JFQA": 40,
+    "JFQA": 41,
     "JFE": 52,
     "MS": 71
   },
@@ -172,5 +172,11 @@
       "RF": 12,
       "RFS": 29
     }
+  },
+  "author_update_mode": "fixed saved author watchlist; conference additions only on user request",
+  "author_watchlist": {
+    "author_rows": 10762,
+    "linked_authors": 8719,
+    "saved_on": "2026-10-14"
   }
 }

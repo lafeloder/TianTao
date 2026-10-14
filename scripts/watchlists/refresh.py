@@ -30,6 +30,7 @@ JOURNAL_NAMES = {'JF': 'Journal of Finance', 'JFE': 'Journal of Financial Econom
                  'MS': 'Management Science'}
 POSTDOC = re.compile(r'\bpost[\s-]?(?:doc(?:toral)?|doctorate)\b|research (?:fellow|associate)', re.I)
 RESEARCH_LINK = re.compile(r'\b(research|working papers?|publications?|papers?|manuscripts?)\b', re.I)
+PERSONAL_SITE_LINK = re.compile(r'^(?:(?:my|personal|research|academic)\s+)(?:web\s*site|home\s*page)$',re.I)
 FIELDS = {'Banking': r'bank(?:ing|s)?|financial intermediation|credit|mortgage',
           'Corporate finance': r'corporate|firm financ|capital structure|merger|acquisition',
           'Labor': r'labou?r|employment|wage|inequality|migration',
@@ -162,24 +163,25 @@ def ms_author_ledger(universe, homes, state, today):
         'basis':'Normalized author name groups from MS publications. Publication/affiliation matches and profile-only links are reported separately; namesakes remain provisional.'}
 
 def research_links(body, base_url):
-    """Follow a few paper-listing pages within the same author's site."""
+    """Follow research tabs and explicitly identified personal-site links."""
     base=urllib.parse.urlsplit(base_url)
     base_parts=[part for part in base.path.split('/') if part]
     candidates=[]
     for anchor in parse_html(body).find_all('a',href=True):
         url=urllib.parse.urljoin(base_url,anchor['href']).split('#')[0]
         parts=urllib.parse.urlsplit(url)
-        if parts.scheme!='https' or parts.hostname!=base.hostname:
+        label=clean(anchor.get_text(' ',strip=True))
+        personal=bool(PERSONAL_SITE_LINK.fullmatch(label))
+        if parts.scheme!='https' or (parts.hostname!=base.hostname and not personal):
             continue
-        if base.hostname=='sites.google.com' and len(base_parts)>=2:
+        if base.hostname=='sites.google.com' and len(base_parts)>=2 and not personal:
             if [part for part in parts.path.split('/') if part][:2]!=base_parts[:2]:
                 continue
         if re.search(r'\.(?:pdf|docx?|pptx?|xlsx?)(?:$|\?)',parts.path,re.I):
             continue
-        label=clean(anchor.get_text(' ',strip=True))
-        if RESEARCH_LINK.search(label) or RESEARCH_LINK.search(parts.path.replace('-',' ')):
+        if personal or RESEARCH_LINK.search(label) or RESEARCH_LINK.search(parts.path.replace('-',' ')):
             if url.rstrip('/')!=base_url.split('#')[0].rstrip('/'):
-                candidates.append((0 if RESEARCH_LINK.search(label) else 1,url))
+                candidates.append((-1 if personal else 0 if RESEARCH_LINK.search(label) else 1,url))
     return [url for _,url in sorted(set(candidates))[:3]]
 
 def rr_blocks(body, url):
@@ -189,6 +191,17 @@ def rr_blocks(body, url):
     for tag in soup.find_all(['li','article','h2','h3','h4']):
         if tag.name in ('li','article'):
             txt = clean(tag.get_text(' ',strip=True))
+            # Google Sites puts the title and status in separate adjacent lists.
+            # Only bridge a title-bearing list item to its immediate status list.
+            if not RR.search(txt) and tag.name=='li' and tag.find('a',href=True):
+                following=tag.find_next_sibling()
+                if following is None and tag.parent.name in ('ol','ul'):
+                    following=tag.parent.find_next_sibling()
+                if following is not None:
+                    extra=clean(following.get_text(' ',strip=True))
+                    new_title=following.find(['h2','h3','h4']) or any(len(clean(a.get_text(' ',strip=True)))>20 and not journal_in(a.get_text(' ',strip=True)) for a in following.find_all('a',href=True))
+                    if RR.search(extra) and len(extra)<=600 and journal_in(extra) and not new_title:
+                        txt=clean(txt+' '+extra)
             if len(txt) > 1600:
                 continue
         else:
@@ -209,6 +222,8 @@ def rr_blocks(body, url):
         heading = tag if tag.name.startswith('h') else tag.find(['h2','h3','h4'])
         title = clean((anchor or heading).get_text(' ',strip=True)) if (heading or anchor) else ''
         title = re.sub(r'^\d+[.)]?\s*','',title)
+        if any(normalize(title) in {normalize(name),normalize('The '+name)} for name in JOURNAL_NAMES.values()):
+            continue
         if not title or not (12 <= len(title) <= 240) or RR.search(title) or title.lower() in ['working papers','publications','research papers']:
             continue
         link = urllib.parse.urljoin(url,anchor['href']) if anchor else ''
@@ -217,6 +232,25 @@ def rr_blocks(body, url):
         blocks.append({'title':title,'journal':journal,'paper_url':link,'evidence_url':url,
                        'evidence_excerpt':RR.search(txt).group(0) + ', ' + JOURNAL_NAMES[journal]})
     return list({normalize(x['title'])+x['journal']:x for x in blocks}.values())
+
+def listed_homepages(homes, watchlist):
+    """Limit weekly author scans to the saved roster, including known aliases."""
+    allowed={normalize(row['name']) for row in watchlist}
+    allowed|={key for row in watchlist for key in row.get('name_keys',[])}
+    selected=[home for home in homes if normalize(home['name']) in allowed]
+    known={(normalize(home['name']),home.get('url','').rstrip('/')) for home in selected}
+    for row in watchlist:
+        url=row.get('homepage_url','')
+        if not url:continue
+        key=(normalize(row['name']),url.rstrip('/'))
+        names=set(row.get('name_keys',[]))|{normalize(row['name'])}
+        if any((name,url.rstrip('/')) in known for name in names):continue
+        prior=next((home for home in selected if normalize(home['name']) in names),None)
+        if not prior:continue
+        selected.append({**prior,'url':url,'identity_evidence_url':row.get('identity_evidence_url',url),
+                         'identity_method':'preferred author webpage in the fixed watchlist'})
+        known.add((normalize(prior['name']),url.rstrip('/')))
+    return selected
 
 def find_paper_block(body, title, titles):
     # Bound the excerpt at the next known paper; journal/status on a neighbouring
@@ -324,12 +358,17 @@ def main():
     parser.add_argument('--discover-limit',type=int,default=30)
     parser.add_argument('--skip-feeds',action='store_true')
     parser.add_argument('--skip-discovery',action='store_true')
+    parser.add_argument('--fixed-author-list',action='store_true')
     args=parser.parse_args();today=args.as_of
     corpus=load('corpus.json',{'works':[],'journals':{}})
     universe=load('author-universe.json',{'authors':[]})['authors']
     conference_authors=load('conference-authors.json',{'authors':[]})['authors']
     rr=load('rr.json',{'items':[]});jobs=load('postdocs.json',{'items':[]})
     homes=load('homepages.json',{'authors':[]})['authors'];schools=load('schools.json',{'schools':[]})
+    if args.fixed_author_list:
+        watchlist=load('author-watchlist.json',{})
+        if not watchlist.get('authors'):raise RuntimeError('The fixed author watchlist is missing or empty')
+        homes=listed_homepages(homes,watchlist['authors'])
     state=load('discovery-state.json',{})
     queue=load('review-queue.json',{'items':[]})['items']
     urls={a['url'] for a in homes if a.get('approved')} | {j['source_url'] for j in jobs['items']}
@@ -449,7 +488,7 @@ def main():
                     queue.append({'kind':'vacancy','title':title,'institution':school['name'],
                                   'url':url,'rank':school['rank'],'discovered_on':today,
                                   'review':'Verify field, employer, Europe location, deadline, postdoctoral qualification and application status.'})
-    if not args.skip_discovery:
+    if not args.skip_discovery and not args.fixed_author_list:
         queue.extend(discover_homepages(universe,{a['url'] for a in homes},args.discover_limit,state,
                                           {normalize(a['name']) for a in homes if a.get('approved')}))
     # Keep stable historical identities; retain failed-source evidence dates.
@@ -470,6 +509,8 @@ def main():
           'coverage_note':'Homepage coverage is partial. Name/affiliation identities are provisional. A fetched career feed is not an exhaustive vacancy search.',
           'linkedin_note':'Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.'}
     meta['author_homepage_coverage']=homepage_coverage(universe,homes,corpus)
+    meta['rr_counts_by_journal']={code:sum(p.get('source_scope')=='top5' and p['status']=='R&R' and p['journal']==code for p in rr['items']) for code in JOURNAL_NAMES}
+    if args.fixed_author_list:meta['author_update_mode']='fixed saved author watchlist; conference additions only on user request'
     meta['finance_top5_author_homepage_coverage']=finance_top5_homepage_coverage(universe,homes,corpus)
     ms_ledger,meta['ms_author_audit']=ms_author_ledger(universe,homes,state,today)
     save('ms-author-ledger.json',ms_ledger)

@@ -36,7 +36,7 @@ def save(name, obj):
     DATA.mkdir(parents=True, exist_ok=True)
     p = DATA / name
     p.parent.mkdir(parents=True, exist_ok=True)
-    if name in ['corpus.json','author-universe.json','ms-author-ledger.json','conference-authors.json','conference-author-ledger.json']:
+    if name in ['corpus.json','author-universe.json','ms-author-ledger.json','conference-authors.json','conference-author-ledger.json','author-watchlist.json']:
         encoded=json.dumps(obj,ensure_ascii=False,separators=(',',':')).encode()
         target=p.with_suffix(p.suffix+'.gz')
         temp=target.with_suffix('.tmp')

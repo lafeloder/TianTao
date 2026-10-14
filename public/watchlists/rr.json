@@ -15848,6 +15848,40 @@
       "eligibility_status": "conference_verified",
       "reference_ids": [],
       "source_scope": "top5"
+    },
+    {
+      "id": "author-where-to-hire-5025423",
+      "title": "Where to Hire? Political Alignment and Internal Labor Allocation",
+      "authors": [
+        "Wanyi Wang",
+        "Linghang Zeng"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/linghang-zeng/home",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5025423",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5025423",
+      "source_author": "Linghang Zeng",
+      "first_seen": "2026-10-14",
+      "last_verified": "2026-10-14",
+      "source_updated": "",
+      "topics": [
+        "Corporate finance",
+        "Labor"
+      ],
+      "evidence_excerpt": "Journal of Financial and Quantitative Analysis, Revise and Resubmit",
+      "verification": "author and coauthor research pages",
+      "verification_status": "primary_confirmed",
+      "eligibility": {
+        "doi": "10.1093/rfs/hhad039",
+        "journal": "RFS",
+        "title": "Shocked by Bank Funding Shocks: Evidence from Consumer Credit Cards",
+        "published": "2023-05-08",
+        "author": "Linghang Zeng"
+      },
+      "eligibility_status": "verified",
+      "reference_ids": [],
+      "source_scope": "top5"
     }
   ]
 }

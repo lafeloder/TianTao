@@ -27,16 +27,10 @@ jobs:
         run: pip install -r scripts/watchlists/requirements.txt
       - name: Evidence regression checks
         run: python -m unittest discover -s scripts/watchlists -p 'test_*.py'
-      - name: Refresh the rolling five-year publication and author universe
-        env:
-          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
-        run: python scripts/watchlists/bootstrap.py
-      - name: Recheck sources and discover candidates
-        env:
-          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
-        run: python scripts/watchlists/refresh.py --discover-limit 100
+      - name: Recheck existing author watchlist and postdoc sources
+        run: python scripts/watchlists/refresh.py --fixed-author-list --skip-discovery
       - name: Complete public reference pagination and coverage reconciliation
-        run: python scripts/watchlists/benchmarks.py
+        run: python scripts/watchlists/benchmarks.py --jobs-only
       - name: Validate public data
         run: python scripts/watchlists/validate.py
       - name: Save evidence and coverage report

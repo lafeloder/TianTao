@@ -188,9 +188,12 @@ def merge(items,new_items,kind):
     return result
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--offline',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--offline',action='store_true');parser.add_argument('--jobs-only',action='store_true');args=parser.parse_args()
     sources=[('chenyang',RR_URL,lambda:parse_rr(download(RR_URL))),('openpostdoc',OP_URL,fetch_openpostdoc),('ejm',EJM_URL+'statuses?page=5',fetch_ejm)]
     papers=load('rr.json',{})['items'];jobs=load('postdocs.json',{})['items'];coverage={'papers':[],'jobs':[]}
+    if args.jobs_only:
+        sources=[source for source in sources if source[0]!='chenyang']
+        coverage['papers']=load('meta.json',{}).get('benchmark_sources',{}).get('papers',[])
     for name,url,fetcher in sources:
         cached=load('references/'+name+'.json',{})
         status='cached complete snapshot'
