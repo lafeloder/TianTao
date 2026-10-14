@@ -23,8 +23,8 @@ from bootstrap import DATA, ROOT, load, save, normalize, get_json
 from author_identity import identity_key,personal_site_links
 
 UA = 'TianTao-ResearchWatch/1.0'
-RR = re.compile(r'\b(?:revise[\s-]*and[\s-]*resubmit|R\s*&\s*R)\b', re.I)
-REJECT = re.compile(r'\breject[\s-]*and[\s-]*resubmit\b', re.I)
+RR = re.compile(r'\b(?:revise[\s-]*(?:and|&)[\s-]*resubmit|R\s*&\s*R)\b', re.I)
+REJECT = re.compile(r'\breject[\s-]*(?:and|&)[\s-]*resubmit\b', re.I)
 JOURNAL_NAMES = {'JF': 'Journal of Finance', 'JFE': 'Journal of Financial Economics',
                  'RFS': 'Review of Financial Studies', 'RF': 'Review of Finance',
                  'JFQA': 'Journal of Financial and Quantitative Analysis',
@@ -81,7 +81,11 @@ def fetch(url, timeout=20):
 def journal_in(text):
     matches=[]
     for key,name in JOURNAL_NAMES.items():
-        match=re.search(r'\b(?:the\s+)?'+re.escape(name)+r'\b',text,re.I)
+        # Styling spans and PDF extraction sometimes split a word ("Scie nc e").
+        # Match complete journal names across whitespace, including "&" for and.
+        letters=r'\s*'.join(re.escape(ch)for ch in name if ch!=' ')
+        letters=letters.replace(r'a\s*n\s*d',r'(?:a\s*n\s*d|&)')
+        match=re.search(r'\b(?:(?:the\s+)?'+letters+r'|'+key+r')\b',text,re.I)
         if match:matches.append((match.start(),-len(name),key))
     return min(matches)[2] if matches else None
 
@@ -214,8 +218,8 @@ def rr_blocks(body, url):
     """Only a title and status within a bounded paper block become a candidate."""
     soup = parse_html(body)
     blocks = []
-    for tag in soup.find_all(['li','article','h2','h3','h4']):
-        if tag.name in ('li','article'):
+    for tag in soup.find_all(['li','article','p','div','h2','h3','h4','h5']):
+        if tag.name in ('li','article','p','div'):
             txt = clean(tag.get_text(' ',strip=True))
             # Google Sites puts the title and status in separate adjacent lists.
             # Only bridge a title-bearing list item to its immediate status list.
@@ -230,10 +234,19 @@ def rr_blocks(body, url):
                         txt=clean(txt+' '+extra)
             if len(txt) > 1600:
                 continue
+            if tag.name in ('p','div'):
+                # A containing page/section cannot borrow a title from another
+                # paper. These formats enter review only with one explicit
+                # title link and a single decision in a bounded record.
+                paper_links=[a for a in tag.find_all('a',href=True)
+                             if re.search(r'\.pdf(?:$|\?)|ssrn\.com|/papers?/',a['href'],re.I)
+                             and 12<=len(clean(a.get_text(' ',strip=True)))<=240]
+                if len(paper_links)!=1 or len(RR.findall(txt))!=1:
+                    continue
         else:
             pieces = [tag.get_text(' ',strip=True)]
             for sib in tag.next_siblings:
-                if getattr(sib, 'name', None) in ('h1','h2','h3','h4'):
+                if getattr(sib, 'name', None) in ('h1','h2','h3','h4','h5'):
                     break
                 pieces.append(sib.get_text(' ',strip=True) if hasattr(sib,'get_text') else str(sib))
                 if len(' '.join(pieces)) > 1600:
@@ -245,12 +258,19 @@ def rr_blocks(body, url):
         if not journal:
             continue
         anchor = tag.find('a', href=True)
-        heading = tag if tag.name.startswith('h') else tag.find(['h2','h3','h4'])
-        title = clean((anchor or heading).get_text(' ',strip=True)) if (heading or anchor) else ''
+        heading = tag if tag.name.startswith('h') else tag.find(['h2','h3','h4','h5'])
+        if tag.name in ('p','div'):anchor=paper_links[0]
+        # Coauthor anchors often precede the title/status within a heading's
+        # containing block; the heading supplies the paper title.
+        title = clean((heading or anchor).get_text(' ',strip=True)) if (heading or anchor) else ''
+        title = re.sub(r'\s*\((?:joint\s+)?with\b.*$','',title,flags=re.I).strip(' \"“”.,;:')
+        if heading:
+            exact=next((a for a in heading.find_all('a',href=True) if normalize(a.get_text(' ',strip=True))==normalize(title)),None)
+            anchor=exact
         title = re.sub(r'^\d+[.)]?\s*','',title)
         if any(normalize(title) in {normalize(name),normalize('The '+name)} for name in JOURNAL_NAMES.values()):
             continue
-        if not title or not (12 <= len(title) <= 240) or RR.search(title) or title.lower() in ['working papers','publications','research papers']:
+        if not title or not (12 <= len(title) <= 240) or RR.search(title) or re.match(r'^(?:with\b|joint with|working papers$|publications$|research papers$|selected research$|download paper$|most recent version$)',title,re.I):
             continue
         link = urllib.parse.urljoin(url,anchor['href']) if anchor else ''
         if not link.startswith('https://'):

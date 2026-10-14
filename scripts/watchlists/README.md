@@ -104,6 +104,12 @@ retains its five-journal denominator of 4,301. Name-based biography matches keep
 their identity caveats. Locating a source-restricted webpage does not count as a
 successful R&R scan.
 
+The subsequent fixed-roster R&R pass records source outcomes and publication /
+duplicate exclusions in `author-rr-scan-audit.json`. Reviewed HTML paper evidence
+is fetched again before publication; public CVs retain their section context.
+Journal names and decision wording can span styling elements. Both "and" and
+"&" are recognized, while reject-and-resubmit remains a separate status.
+
 ## Updates
 
 `watchlists-weekly.yml` runs Mondays at 06:15 UTC, with manual dispatch available.

@@ -1,0 +1,289 @@
+{
+  "checked_on": "2026-10-14",
+  "fixed_author_rows": 10762,
+  "source_urls_attempted": 21658,
+  "source_urls_readable": 20088,
+  "stage_counts": {
+    "homepage": {
+      "attempted": 11066,
+      "readable": 10083
+    },
+    "research1": {
+      "attempted": 7200,
+      "readable": 6848
+    },
+    "research2": {
+      "attempted": 3152,
+      "readable": 2967
+    },
+    "cv": {
+      "attempted": 240,
+      "readable": 190
+    }
+  },
+  "reviewed_records": 161,
+  "new_papers": 120,
+  "duplicate_candidates": [
+    {
+      "title": "Runs and Flights to Safety: Are Stablecoins the New Money Market Funds?",
+      "existing_id": "author-site-20261012-027",
+      "existing_title": "Runs and Flights to Safety: Are Stablecoins the New Money Market Funds?",
+      "existing_journal": "JFQA"
+    },
+    {
+      "title": "Ideological Shifts in the Supreme Court and Firm Value: Evidence from Ruth Bader Ginsburg’s Death",
+      "existing_id": "author-site-expanded-20261012-060",
+      "existing_title": "Ideological Shifts in the Supreme Court and Firm Value: Evidence from Ruth Bader Ginsburg's Death",
+      "existing_journal": "RF"
+    },
+    {
+      "title": "Land (Mis)allocation and Local Public Finance in China",
+      "existing_id": "author-site-expanded-20261012-069",
+      "existing_title": "Land (Mis)allocation and Local Public Finance in China",
+      "existing_journal": "RFS"
+    },
+    {
+      "title": "Competition and Exchange Data Fees",
+      "existing_id": "author-site-20261012-030",
+      "existing_title": "Competition and exchange data fees",
+      "existing_journal": "JFQA"
+    },
+    {
+      "title": "Foreign Demand for Safety and Macroeconomic Instability",
+      "existing_id": "author-site-expanded-20261012-050",
+      "existing_title": "Foreign Demand for Safety and Macroeconomic Instability",
+      "existing_journal": "RFS"
+    },
+    {
+      "title": "The Dynamics of Deposit Flightiness and Its Impact on Financial Stability",
+      "existing_id": "author-site-expanded-20261012-042",
+      "existing_title": "Dynamics of Deposit Flightiness and its Impact on Financial Stability",
+      "existing_journal": "RFS"
+    },
+    {
+      "title": "The Value of Off-Exchange Data",
+      "existing_id": "conference-0d58963aa75cdebc",
+      "existing_title": "The Value of Off-Exchange Data",
+      "existing_journal": "RFS"
+    },
+    {
+      "title": "The Impact of a Climate Shock on Credit Markets: El Nino and U.S. Banks",
+      "existing_id": "author-site-expanded-20261012-115",
+      "existing_title": "The Impact of a Climate Shock on Credit Markets: El Nino and U.S. Banks",
+      "existing_journal": "RF"
+    },
+    {
+      "title": "Making Your Own Rules: Contractual Flexibility and Entrepreneurial Success",
+      "existing_id": "chenyang-002",
+      "existing_title": "Making Your Own Rules: Contractual Flexibility and Entrepreneurial Success",
+      "existing_journal": "JF"
+    },
+    {
+      "title": "The Memorization Problem: Can We Trust LLMs’ Economic Forecasts?",
+      "existing_id": "conference-3a5aca488a5c345c",
+      "existing_title": "The Memorization Problem: Can We Trust LLMs’ Economic Forecasts?",
+      "existing_journal": "MS"
+    },
+    {
+      "title": "Executives vs. Chatbots: Unmasking Insights through Human-AI Differences in Earnings Conference Q&A",
+      "existing_id": "chenyang-042",
+      "existing_title": "Executives vs. Chatbots: Unmasking Insights through Human-AI Differences in Earnings Conference Q&A",
+      "existing_journal": "MS"
+    },
+    {
+      "title": "The Foreign Liability Channel of Bank Capital Requirements",
+      "existing_id": "author-site-expanded-20261012-109",
+      "existing_title": "The Foreign Liabilities Channel of Bank Capital Requirements",
+      "existing_journal": "JFE"
+    },
+    {
+      "title": "Market Power, Technology Shocks, and the Profitability Premium",
+      "existing_id": "chenyang-035",
+      "existing_title": "Market Power, Technology Shocks, and the Profitability Premium",
+      "existing_journal": "JFE"
+    },
+    {
+      "title": "What Do Interest Rates Reveal about the Stock Market? A Noisy Rational Expectations Model of Stock and Bond Markets",
+      "existing_id": "author-site-expanded-20261012-132",
+      "existing_title": "What do Interest Rates Reveal about the Stock Market? A Noisy Rational Expectations Model of Stock and Bond Markets",
+      "existing_journal": "JF"
+    },
+    {
+      "title": "Data Specialists and Market Efficiency",
+      "existing_id": "author-site-expanded-20261012-032",
+      "existing_title": "Data Specialists and Market Efficiency",
+      "existing_journal": "RFS"
+    },
+    {
+      "title": "Latency and the Look-Ahead Bias in Trade and Quote Data",
+      "existing_id": "author-site-expanded-20261012-070",
+      "existing_title": "Latency and the Look-Ahead Bias in Trade and Quote Data",
+      "existing_journal": "JF"
+    },
+    {
+      "title": "Monitoring with Small Stakes",
+      "existing_id": "ms-d2e8dd1d5d7179fd",
+      "existing_title": "Monitoring with Small Stakes",
+      "existing_journal": "MS"
+    },
+    {
+      "title": "Banking on Technology: Bank Technology Adoption and Its Effects",
+      "existing_id": "ms-3b8d6e7afd245d4e",
+      "existing_title": "Banking on Technology: Bank Technology Adoption and Its Effects",
+      "existing_journal": "MS"
+    },
+    {
+      "title": "More Money, More Options? The Effect of Cash Windfalls on Entrepreneurial Activities in Small Businesses",
+      "existing_id": "author-site-expanded-20261012-082",
+      "existing_title": "More Money, More Options? The Effect of Cash Windfalls on Entrepreneurial Activities in Small Businesses",
+      "existing_journal": "RFS"
+    },
+    {
+      "title": "Equilibrium in a DeFi Lending Market",
+      "existing_id": "ms-94e8e7d3b586f1a6",
+      "existing_title": "Equilibrium in a DeFi Lending Market",
+      "existing_journal": "MS"
+    },
+    {
+      "title": "The Puzzling Internal Inconsistencies in Term Structures of Bank CD Rates",
+      "existing_id": "author-site-expanded-20261012-121",
+      "existing_title": "The Puzzling Internal Inconsistencies in Term Structures of Bank CD Rates",
+      "existing_journal": "JFE"
+    },
+    {
+      "title": "CEO Contract Horizon and Innovation",
+      "existing_id": "author-site-expanded-20261012-020",
+      "existing_title": "CEO Contract Horizon and Innovation",
+      "existing_journal": "JFE"
+    },
+    {
+      "title": "The Pricing of Property Tax Revenues",
+      "existing_id": "author-site-expanded-20261012-120",
+      "existing_title": "The Pricing of Property Tax Revenues",
+      "existing_journal": "JFE"
+    },
+    {
+      "title": "Trade Uncertainty and U.S. Bank Lending",
+      "existing_id": "author-site-20261012-028",
+      "existing_title": "Trade Uncertainty and U.S. Bank Lending",
+      "existing_journal": "JFE"
+    },
+    {
+      "title": "The Housing Channel of Intergenerational Wealth Persistence",
+      "existing_id": "author-site-expanded-20261012-114",
+      "existing_title": "The Housing Channel of Intergenerational Wealth Persistence",
+      "existing_journal": "JFE"
+    },
+    {
+      "title": "Currency Return Dynamics: What Is the Role of U.S. Macroeconomic Regimes?",
+      "existing_id": "author-site-20261012-034",
+      "existing_title": "Currency Return Dynamics: What Is the Role of U.S. Macroeconomic Regimes?",
+      "existing_journal": "JFQA"
+    },
+    {
+      "title": "Timing the Factor Zoo via Deep Visualization",
+      "existing_id": "ms-58e0e27c3825ca6d",
+      "existing_title": "Timing the Factor Zoo via Deep Visualization",
+      "existing_journal": "MS"
+    },
+    {
+      "title": "Extrapolation and Market Reaction to News",
+      "existing_id": "author-site-expanded-20261012-046",
+      "existing_title": "Extrapolation and Market Reactions to News",
+      "existing_journal": "RF"
+    },
+    {
+      "title": "Credit Constraints and the Redistribution of Housing Wealth",
+      "existing_id": "conference-34235190764ae3fc",
+      "existing_title": "Credit Constraints and the Redistribution of Housing Wealth",
+      "existing_journal": "JFQA"
+    },
+    {
+      "title": "Offsetable Derivative Exposures and Investor Risk Assessment",
+      "existing_id": "ms-9a838024f7029d20",
+      "existing_title": "Offsetable Derivative Exposures and Investor Risk Assessment",
+      "existing_journal": "MS"
+    }
+  ],
+  "published_candidates_excluded": [
+    {
+      "title": "Does Career Risk Deter Potential Entrepreneurs?",
+      "journal": "RFS",
+      "reason": "already published or publisher article record exists",
+      "doi": "10.1093/rfs/hhab105"
+    },
+    {
+      "title": "How Does Benchmarking Affect Market Efficiency? The Role of Learning Technology",
+      "journal": "JFQA",
+      "reason": "already published or publisher article record exists",
+      "doi": "10.1017/s0022109026103160"
+    },
+    {
+      "title": "The Demand for, and Avoidance of, Information",
+      "journal": "MS",
+      "reason": "already published or publisher article record exists",
+      "doi": "10.1287/mnsc.2021.4244"
+    },
+    {
+      "title": "The Labor Market Consequences of Student Loan Forbearance",
+      "journal": "MS",
+      "reason": "already published or publisher article record exists",
+      "doi": "10.1287/mnsc.2023.04047"
+    },
+    {
+      "title": "An Information-Theoretic Asset Pricing Model",
+      "journal": "MS",
+      "reason": "already published or publisher article record exists",
+      "doi": "10.1093/jjfinec/nbae033"
+    },
+    {
+      "title": "Insurers as Asset Managers and Systemic Risk",
+      "journal": "RFS",
+      "reason": "already published or publisher article record exists",
+      "doi": "10.1093/rfs/hhac056"
+    },
+    {
+      "title": "Valuing Financial Data",
+      "journal": "RFS",
+      "reason": "already published or publisher article record exists",
+      "doi": "10.1093/rfs/hhae034"
+    },
+    {
+      "title": "Printing Away the Mortgages: Fiscal Inflation and the Post-Covid Housing Boom",
+      "journal": "JFE",
+      "reason": "already published or publisher article record exists",
+      "doi": "10.1016/j.jfineco.2025.104072"
+    },
+    {
+      "title": "Keep Calm and Bank On: Panic-Driven Bank Runs and the Role of Public Communication",
+      "journal": "JFE",
+      "reason": "Fresh author page explicitly says accepted for publication in Journal of Financial Economics",
+      "evidence_url": "https://eml.berkeley.edu/~ygorodni/"
+    },
+    {
+      "title": "Sponsored Content Advertising in a Two Sided Market",
+      "journal": "MS",
+      "reason": "already published or publisher article record exists",
+      "doi": "10.1287/mnsc.2020.3873"
+    }
+  ],
+  "pending": [],
+  "status_updates": [
+    {
+      "id": "chenyang-040",
+      "title": "Creativity without Walls: The Case of Open Innovation",
+      "previous_status": "Reject & Resubmit",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/chiwansite/home"
+    }
+  ],
+  "new_counts_by_journal": {
+    "JF": 18,
+    "JFE": 16,
+    "RFS": 26,
+    "RF": 10,
+    "JFQA": 13,
+    "MS": 37
+  },
+  "source_readability_note": "Previously cached pages and fresh public reads were scanned; selected HTML paper evidence was fetched again before release. Failed sources remain failures."
+}

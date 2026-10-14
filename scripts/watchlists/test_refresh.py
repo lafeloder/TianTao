@@ -4,6 +4,26 @@ from bootstrap import publication_date
 from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility, listed_homepages
 
 class EvidenceTests(unittest.TestCase):
+    def test_journal_name_spans_and_ampersand(self):
+        self.assertEqual(journal_in('Revise & Resubmit, Management Scie nc e'),'MS')
+        self.assertEqual(journal_in('Journal of Financial & Quantitative Analysis, R&R'),'JFQA')
+    def test_ampersand_revision_and_abbreviated_journal(self):
+        body='<div><a href="/paper.pdf">The Pricing of Property Tax Revenues</a><p>Revise &amp; Resubmit, JFE</p></div>'
+        self.assertEqual([(r['title'],r['journal'])for r in rr_blocks(body,'https://author.example/')],[('The Pricing of Property Tax Revenues','JFE')])
+
+    def test_heading_wins_over_coauthor_anchor(self):
+        body='<article><h3>Tunneling and Hidden Profits in Health Care</h3><a href="/andrew">Andrew Olenski</a><p>Revise &amp; Resubmit, Journal of Finance</p></article>'
+        rows=rr_blocks(body,'https://author.example/')
+        self.assertEqual({r['title']for r in rows},{'Tunneling and Hidden Profits in Health Care'})
+
+    def test_div_cannot_borrow_a_different_papers_status(self):
+        body='<div><a href="/a.pdf">A Paper Without a Decision</a><a href="/b.pdf">A Confirmed Finance Paper</a><p>R&amp;R, JFE</p></div>'
+        self.assertEqual(rr_blocks(body,'https://author.example/'),[])
+
+    def test_ampersand_rejection_is_separate(self):
+        body='<li><a href="/p.pdf">A Paper With Rejection and Resubmission</a>Reject &amp; Resubmit, Journal of Finance</li>'
+        self.assertEqual(rr_blocks(body,'https://author.example/'),[])
+
     def test_research_content_inside_navigation_wrapper_is_not_discarded(self):
         html='<nav><h1>Alice Author</h1><p>Professor of Finance</p><ul><li><a href="/paper.pdf">A Confirmed Corporate Finance Paper</a> Revise and Resubmit, Journal of Finance</li></ul></nav>'
         self.assertEqual([(r['title'],r['journal'])for r in rr_blocks(html,'https://author.example/')],[('A Confirmed Corporate Finance Paper','JF')])
