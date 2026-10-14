@@ -4,6 +4,10 @@ from bootstrap import publication_date
 from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility, listed_homepages
 
 class EvidenceTests(unittest.TestCase):
+    def test_research_content_inside_navigation_wrapper_is_not_discarded(self):
+        html='<nav><h1>Alice Author</h1><p>Professor of Finance</p><ul><li><a href="/paper.pdf">A Confirmed Corporate Finance Paper</a> Revise and Resubmit, Journal of Finance</li></ul></nav>'
+        self.assertEqual([(r['title'],r['journal'])for r in rr_blocks(html,'https://author.example/')],[('A Confirmed Corporate Finance Paper','JF')])
+
     def test_google_sites_title_and_status_in_adjacent_lists(self):
         html='<ol><li><p><a href="https://papers.ssrn.com/abstract=5025423">Where to Hire? Political Alignment and Internal Labor Allocation</a> (with Wanyi Wang)</p></li></ol><ul><li>Journal of Financial and Quantitative Analysis, Revise and Resubmit</li></ul>'
         rows=rr_blocks(html,'https://sites.google.com/view/linghang-zeng')
@@ -24,10 +28,33 @@ class EvidenceTests(unittest.TestCase):
 
     def test_fixed_roster_preferred_personal_site_is_added_once(self):
         homes=[{'name':'A. Student','url':'https://school.example/alice','approved':True,'eligibility':{'doi':'10.1/paper'}}]
-        roster=[{'name':'Alice Student','name_keys':['astudent'],'homepage_url':'https://alice.example'}]
+        roster=[{'name':'Alice Student','name_keys':['astudent'],'homepage_url':'https://alice.example','alternate_urls':['https://school.example/alice']}]
         selected=listed_homepages(homes,roster)
         self.assertEqual(len(selected),2)
         self.assertEqual(listed_homepages(selected,roster),selected)
+
+    def test_rejected_old_source_is_not_reintroduced_by_weekly_scan(self):
+        homes=[{'name':'Alice Student','url':'https://index.example/alice','approved':True}]
+        roster=[{'name':'Alice Student','homepage_url':'https://alice.example','alternate_urls':[]}]
+        self.assertEqual([h['url']for h in listed_homepages(homes,roster)],['https://alice.example'])
+        self.assertEqual(listed_homepages(homes,[{'name':'Alice Student','homepage_url':'','alternate_urls':[]}]),[])
+
+    def test_newly_linked_fixed_author_enters_weekly_scan(self):
+        roster=[{'name':'Doruk Gunaydin','name_keys':['adorukgunaydin','dorukgunaydin'],
+                 'homepage_url':'https://dorukgunaydin.com/','homepage_linked_on':'2026-10-14'}]
+        selected=listed_homepages([],roster)
+        self.assertEqual(len(selected),1)
+        self.assertTrue(selected[0]['approved'])
+        self.assertEqual(selected[0]['url'],roster[0]['homepage_url'])
+        self.assertEqual(listed_homepages(selected,roster),selected)
+        publication={'doi':'10.1016/j.jfineco.2023.103715','published':'2023-11-01','journal':'JFE'}
+        proof,_=author_eligibility(selected[0],[{'name':'A. Doruk Gunaydin','publications':[publication]}],[])
+        self.assertEqual(proof,publication)
+
+    def test_turkish_name_keeps_actual_publication_eligibility(self):
+        publication={'doi':'10.1/example','published':'2023-11-01','journal':'JFE'}
+        proof,_=author_eligibility({'name':'A. Doruk Gunaydın'},[{'name':'A. Doruk Gunaydin','publications':[publication]}],[])
+        self.assertEqual(proof,publication)
 
     def test_conference_only_student_is_scanned_without_publication_doi(self):
         proof={'conference':'SFS-NA-2024','year':2024,'paper_title':'Language Frictions in Consumer Credit','program_url':'https://sfs.org/program.pdf','program_page':14}
@@ -78,6 +105,20 @@ class EvidenceTests(unittest.TestCase):
                 'eligibility':{'doi':'10.1234/paper'}}]
         corpus={'works':[{'doi':'10.1234/paper'}]}
         self.assertEqual(homepage_coverage(universe,homes,corpus)['percent'],50.0)
+
+    def test_saved_publication_alias_is_counted_without_changing_denominator(self):
+        universe=[{'name':'A. Student','publications':[{'doi':'10.1/jf','journal':'JF'}]}]
+        homes=[{'name':'Alice Student','name_keys':['astudent'],'approved':True,'url':'https://alice.example','eligibility':{'doi':'10.1/jf'}}]
+        corpus={'works':[{'doi':'10.1/jf','journal':'JF'}]}
+        self.assertEqual(homepage_coverage(universe,homes,corpus)['linked_authors'],1)
+        self.assertEqual(finance_top5_homepage_coverage(universe,homes,corpus)['author_rows'],1)
+
+    def test_verified_finance_eligibility_is_not_replaced_by_earlier_ms_article(self):
+        finance={'doi':'10.1/jf','published':'2024-01-01','journal':'JF'}
+        ms={'doi':'10.1/ms','published':'2022-01-01','journal':'MS'}
+        author={'name':'Alice Student','eligibility':finance}
+        publication,_=author_eligibility(author,[{'name':'Alice Student','publications':[ms,finance]}],[])
+        self.assertEqual(publication['doi'],'10.1/jf')
 
     def test_finance_top5_coverage_excludes_ms_only_authors(self):
         universe=[{'name':'Finance Author','publications':[{'doi':'10.1/jf','journal':'JF'}]},

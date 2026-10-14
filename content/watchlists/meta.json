@@ -5,7 +5,7 @@
   "articles": 4947,
   "author_name_groups": 8867,
   "author_identity_records": 11298,
-  "approved_homepages": 7100,
+  "approved_homepages": 8513,
   "homepages_scanned_this_run": 4323,
   "journals": {
     "JF": {
@@ -93,9 +93,9 @@
     ]
   },
   "author_homepage_coverage": {
-    "linked_authors": 7098,
+    "linked_authors": 8513,
     "author_rows": 8867,
-    "percent": 80.05,
+    "percent": 96.01,
     "basis": "Provisional normalized author name groups. Profile-only links and unreadable sources are separately flagged in the author audit; namesakes remain possible."
   },
   "rr_scan_summary": {
@@ -135,9 +135,9 @@
     "MS": 71
   },
   "finance_top5_author_homepage_coverage": {
-    "linked_authors": 3625,
+    "linked_authors": 4074,
     "author_rows": 4301,
-    "percent": 84.28,
+    "percent": 94.72,
     "basis": "Normalized author name groups with publications in JF, JFE, RFS, JFQA or RF; homepage eligibility must match a publication in those journals."
   },
   "rr_last_run": "2026-10-14",
@@ -176,7 +176,14 @@
   "author_update_mode": "fixed saved author watchlist; conference additions only on user request",
   "author_watchlist": {
     "author_rows": 10762,
-    "linked_authors": 8719,
+    "linked_authors": 10356,
+    "coverage_percent": 96.2275,
+    "coverage_basis": "Original fixed 10,762 author rows; personal websites preferred, with dedicated institution profiles as fallback. URL discovery and successful R&R content scanning are separate measures.",
     "saved_on": "2026-10-14"
+  },
+  "author_website_audit": {
+    "checked_on": "2026-10-14",
+    "newly_linked_authors": 1660,
+    "unresolved": 406
   }
 }

@@ -20,6 +20,7 @@ import urllib.error
 from urllib.robotparser import RobotFileParser
 from bs4 import BeautifulSoup
 from bootstrap import DATA, ROOT, load, save, normalize, get_json
+from author_identity import identity_key,personal_site_links
 
 UA = 'TianTao-ResearchWatch/1.0'
 RR = re.compile(r'\b(?:revise[\s-]*and[\s-]*resubmit|R\s*&\s*R)\b', re.I)
@@ -43,7 +44,9 @@ def clean(text):
 
 def parse_html(body):
     soup = BeautifulSoup(body, 'html.parser')
-    for tag in soup(['script','style','nav','footer','header','noscript']):
+    # Some faculty templates put their whole biography/research page inside nav.
+    # These structural tags cannot be assumed to contain only navigation chrome.
+    for tag in soup(['script','style','noscript']):
         tag.decompose()
     return soup
 
@@ -86,8 +89,9 @@ def homepage_coverage(universe, homes, corpus):
     """Count linked author name groups without multiplying namesakes by affiliation."""
     names={normalize(a['name']) for a in universe if a.get('name')}
     eligible_dois={work['doi'] for work in corpus['works']}
-    linked={normalize(a['name']) for a in homes if a.get('approved') and a.get('url')
-            and a.get('eligibility') and a['eligibility'].get('doi') in eligible_dois}
+    linked={key for a in homes if a.get('approved') and a.get('url')
+            and a.get('eligibility') and a['eligibility'].get('doi') in eligible_dois
+            for key in homepage_name_keys(a)}
     count=len(names & linked)
     return {'linked_authors':count,'author_rows':len(names),
             'percent':round(100*count/len(names),2) if names else 0,
@@ -99,25 +103,47 @@ def finance_top5_homepage_coverage(universe, homes, corpus):
     names={normalize(a['name']) for a in universe if a.get('name')
            and any(p.get('journal') in journals for p in a.get('publications',[]))}
     eligible_dois={work['doi'] for work in corpus['works'] if work.get('journal') in journals}
-    linked={normalize(a['name']) for a in homes if a.get('approved') and a.get('url')
-            and a.get('eligibility') and a['eligibility'].get('doi') in eligible_dois}
+    linked={key for a in homes if a.get('approved') and a.get('url')
+            and a.get('eligibility') and a['eligibility'].get('doi') in eligible_dois
+            for key in homepage_name_keys(a)}
     count=len(names & linked)
     return {'linked_authors':count,'author_rows':len(names),
             'percent':round(100*count/len(names),2) if names else 0,
             'basis':'Normalized author name groups with publications in JF, JFE, RFS, JFQA or RF; homepage eligibility must match a publication in those journals.'}
 
-def author_eligibility(author, universe, conference_authors):
+def homepage_name_keys(home):
+    """Count only saved, supported aliases; search nickname hints are not aliases."""
+    return {normalize(home['name'])}|set(home.get('name_keys',[]))|set(home.get('conference_name_keys',[]))|{normalize(n)for n in home.get('name_aliases',[])}
+
+def eligibility_indexes(universe,conference_authors):
+    """Index immutable saved cohorts once for the full weekly scan."""
+    publication_index={};conference_index={}
+    for row in universe:
+        for key in {normalize(row['name']),identity_key(row['name'])}:
+            publication_index.setdefault(key,[]).append(row)
+    for row in conference_authors:
+        for key in set(row.get('name_keys',[]))|{normalize(row['name']),identity_key(row['name'])}:
+            conference_index.setdefault(key,[]).append(row)
+    return publication_index,conference_index
+
+def author_eligibility(author, universe, conference_authors,indexes=None):
     """Keep conference-only authors eligible without inventing publication DOIs."""
     name=normalize(author['name'])
-    matches=[a for a in universe if normalize(a['name'])==name]
+    aliases=set(author.get('conference_name_keys',[]))|set(author.get('name_keys',[]))|{name,identity_key(author['name'])}
+    aliases|={identity_key(n) for n in author.get('name_aliases',[])}
+    publication_index,conference_index=indexes if indexes is not None else eligibility_indexes(universe,conference_authors)
+    matches={id(a):a for key in aliases for a in publication_index.get(key,[])}.values()
     pubs=[p for a in matches for p in a.get('publications',[])]
-    aliases=set(author.get('conference_name_keys',[]))|{name}
-    candidates=[c for a in conference_authors if aliases & (set(a.get('name_keys',[]))|{normalize(a['name'])})
-                for c in a.get('conferences',[]) if c.get('paper_title')]
+    conference_matches={id(a):a for key in aliases for a in conference_index.get(key,[])}.values()
+    candidates=[c for a in conference_matches for c in a.get('conferences',[]) if c.get('paper_title')]
     conference=author.get('conference_eligibility')
     if not conference or not conference.get('paper_title'):
         conference=min(candidates,key=lambda c:(c['year'],c['conference'])) if candidates else None
-    publication=(min(pubs,key=lambda p:p['published']) if pubs else None)
+    proven=set(author.get('publication_doi_hits',[]))
+    verified=[p for p in pubs if p.get('doi')in proven]
+    prior=author.get('eligibility')or{}
+    preserved=next((p for p in pubs if p.get('doi')==prior.get('doi')),None)
+    publication=min(verified,key=lambda p:p['published'])if verified else preserved or (min(pubs,key=lambda p:p['published']) if pubs else None)
     if author.get('eligibility_status')=='conference_verified' and not author.get('eligibility'):
         publication=None
     return publication,conference
@@ -166,7 +192,7 @@ def research_links(body, base_url):
     """Follow research tabs and explicitly identified personal-site links."""
     base=urllib.parse.urlsplit(base_url)
     base_parts=[part for part in base.path.split('/') if part]
-    candidates=[]
+    candidates=[(-2,url)for url in personal_site_links(body,base_url)if url.startswith('https://')]
     for anchor in parse_html(body).find_all('a',href=True):
         url=urllib.parse.urljoin(base_url,anchor['href']).split('#')[0]
         parts=urllib.parse.urlsplit(url)
@@ -182,7 +208,7 @@ def research_links(body, base_url):
         if personal or RESEARCH_LINK.search(label) or RESEARCH_LINK.search(parts.path.replace('-',' ')):
             if url.rstrip('/')!=base_url.split('#')[0].rstrip('/'):
                 candidates.append((-1 if personal else 0 if RESEARCH_LINK.search(label) else 1,url))
-    return [url for _,url in sorted(set(candidates))[:3]]
+    return list(dict.fromkeys(url for _,url in sorted(set(candidates))))[:3]
 
 def rr_blocks(body, url):
     """Only a title and status within a bounded paper block become a candidate."""
@@ -237,19 +263,34 @@ def listed_homepages(homes, watchlist):
     """Limit weekly author scans to the saved roster, including known aliases."""
     allowed={normalize(row['name']) for row in watchlist}
     allowed|={key for row in watchlist for key in row.get('name_keys',[])}
-    selected=[home for home in homes if normalize(home['name']) in allowed]
-    known={(normalize(home['name']),home.get('url','').rstrip('/')) for home in selected}
+    source_urls={};legacy_names=set()
+    for row in watchlist:
+        names=set(row.get('name_keys',[]))|{normalize(row['name'])}
+        if 'homepage_url'not in row:
+            legacy_names|=names
+            continue
+        urls={url.rstrip('/')for url in [row.get('homepage_url','')]+row.get('alternate_urls',[])if url}
+        for name in names:source_urls.setdefault(name,set()).update(urls)
+    selected=[home for home in homes if normalize(home['name'])in allowed and
+              (normalize(home['name'])in legacy_names or home.get('url','').rstrip('/')in source_urls.get(normalize(home['name']),set()))]
+    known={(normalize(home['name']),home.get('url','').rstrip('/')) for home in selected if home.get('approved')}
     for row in watchlist:
         url=row.get('homepage_url','')
         if not url:continue
         key=(normalize(row['name']),url.rstrip('/'))
         names=set(row.get('name_keys',[]))|{normalize(row['name'])}
         if any((name,url.rstrip('/')) in known for name in names):continue
-        prior=next((home for home in selected if normalize(home['name']) in names),None)
-        if not prior:continue
-        selected.append({**prior,'url':url,'identity_evidence_url':row.get('identity_evidence_url',url),
-                         'identity_method':'preferred author webpage in the fixed watchlist'})
-        known.add((normalize(prior['name']),url.rstrip('/')))
+        prior=next((home for home in selected if normalize(home['name']) in names and home.get('approved')),None)
+        seed=prior or {'name':row['name'],'approved':True,
+                       'approved_on':row.get('homepage_linked_on',''),
+                       'eligibility':None}
+        selected.append({**seed,'url':url,'identity_evidence_url':row.get('identity_evidence_url',url),
+                         'identity_method':row.get('identity_method','preferred author webpage in the fixed watchlist'),
+                         'name_keys':row.get('name_keys',[]),'name_aliases':row.get('name_aliases',[]),
+                           'site_type':row.get('homepage_type',seed.get('site_type','')),
+                           'publication_doi_hits':row.get('publication_doi_hits',[]),
+                         'conference_name_keys':sorted(names)})
+        known.add((normalize(seed['name']),url.rstrip('/')))
     return selected
 
 def find_paper_block(body, title, titles):
@@ -363,6 +404,7 @@ def main():
     corpus=load('corpus.json',{'works':[],'journals':{}})
     universe=load('author-universe.json',{'authors':[]})['authors']
     conference_authors=load('conference-authors.json',{'authors':[]})['authors']
+    eligibility=eligibility_indexes(universe,conference_authors)
     rr=load('rr.json',{'items':[]});jobs=load('postdocs.json',{'items':[]})
     homes=load('homepages.json',{'authors':[]})['authors'];schools=load('schools.json',{'schools':[]})
     if args.fixed_author_list:
@@ -400,7 +442,7 @@ def main():
             report['sources'].append({'url':url,'result':'failed' if error else 'fetched','error':error})
     verified_names=set()
     for author in homes:
-        publication,conference=author_eligibility(author,universe,conference_authors)
+        publication,conference=author_eligibility(author,universe,conference_authors,eligibility)
         if not author.get('approved') or not (publication or conference):
             continue
         author['eligibility']=publication
@@ -500,7 +542,7 @@ def main():
     meta={**load('meta.json',{}),'last_run':today,'rr_last_run':today,'publication_window_start':corpus.get('window_start',''),
           'publication_window_end':corpus.get('window_end',''),'articles':len(corpus['works']),
           'author_name_groups':len(names),'author_identity_records':len(universe),
-          'approved_homepages':sum(bool(a.get('approved') and a.get('eligibility')) for a in homes),
+          'approved_homepages':homepage_coverage(universe,homes,corpus)['linked_authors'],
           'homepages_scanned_this_run':len(verified_names),'journals':corpus['journals'],
           'research_pages_scanned_this_run':sum(not results[url][1] for url in linked_urls),
           'schools':len(schools['schools']),

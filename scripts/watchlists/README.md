@@ -30,6 +30,16 @@ site layout and theme. Existing About, Research, CV and Data pages are retained.
   roster only when the user requests it or announces a completed conference.
   Missing URLs stay blank; known institution profiles remain an allowed fallback.
   Explicit external Personal Website links are followed as author sources.
+  URL-labelled links are also followed when a surrounding paragraph identifies
+  them as a personal website. Author matching preserves Turkish dotless i and
+  common accented-name domain spellings without changing saved author IDs.
+  Newly linked roster rows seed weekly scans even when they had no earlier
+  `homepages.json` entry. Eligibility follows only saved name aliases.
+  Saved aliases also count toward publication-author coverage. A valid existing
+  publication proof is retained; an earlier MS article does not overwrite a
+  previously verified finance-journal eligibility record.
+  Research content inside header/navigation wrappers is retained: those tags
+  are used as page-layout containers by some personal-site templates.
 - Schools: ranks 1–50 in the FT European Business School Rankings 2025,
   including ties. Revisit membership when the next annual ranking is published.
   This is unrelated to the FT50 journal list.
@@ -64,6 +74,8 @@ Use `bootstrap.load()` or Python's `gzip` module to inspect them.
 - `author-watchlist.json.gz`: fixed author membership, supported name aliases,
   preferred personal / individual institution webpage and known alternatives.
   The Excel is delivered locally and is never copied into `public/`.
+- `author-website-audit.json`: URL repairs against the unchanged fixed roster,
+  identity evidence, content-readability limits and remaining blank URLs.
 - `rr.json`: R&R, reject-and-resubmit and changed decision statuses kept separately. `first_seen` is our
   discovery date, not a decision date; `source_updated` is a source's own update
   label, not a guaranteed decision date.
@@ -84,25 +96,28 @@ homepages of every author have not yet been identified or checked. A successful
 HTML feed fetch does not prove exhaustive vacancy coverage. Public LinkedIn
 access may be blocked, and no signed-in or complete LinkedIn coverage is claimed.
 
-The homepage coverage denominator is all normalized author name groups with a
-publication in the six journals during the rolling five-year window. The goal
-is 80% linked personal or institution profiles. `meta.json` reports the actual
-rate and `ms_author_audit` separates publication/affiliation corroboration from
-profile-only links. Search-index evidence may locate a school page whose robots
-rules prevent an automated R&R scan; those pages remain visibly unscanned.
+Publication-author coverage retains the six-journal normalized-name denominator.
+The October 14 URL-completion pass uses the unchanged 10,762-row saved watchlist,
+with a target above 96% linked personal or individual institution profiles.
+`meta.json` reports these measures separately. The displayed Finance Top5 count
+retains its five-journal denominator of 4,301. Name-based biography matches keep
+their identity caveats. Locating a source-restricted webpage does not count as a
+successful R&R scan.
 
 ## Updates
 
 `watchlists-weekly.yml` runs Mondays at 06:15 UTC, with manual dispatch available.
-It refreshes the bibliography, rechecks approved pages and current adverts,
-checks the configured school feeds, queries new ORCID identities, then imports
-complete public reference pagination through `benchmarks.py`. It retains dated
+It rechecks saved author websites, research tabs and current adverts, checks
+the configured school feeds, then imports public vacancy reference pagination
+through `benchmarks.py --jobs-only`. Author discovery, bibliography expansion and
+conference ingestion remain disabled until requested. It retains dated
 cached snapshots when a provider is blocked or pagination is incomplete, saves
 review candidates, validates coverage, commits changes and calls the deployment
 workflow. The bot's commit does not need to trigger another push workflow.
 
-The separately scheduled ChatGPT task reviews new evidence, expands homepage
-coverage and adds verified entries. It is authorized to update this repository
+The separately scheduled review task checks new evidence from the fixed saved
+author roster and adds verified entries. Author or conference expansion requires
+a user instruction. It is authorized to update this repository
 and publish the two requested pages, while keeping existing personal content.
 
 Optional GitHub Actions secrets:
