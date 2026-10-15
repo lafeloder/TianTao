@@ -33,7 +33,7 @@ function WatchHero({ title, intro, date, acknowledgements = false }: { title: st
     <p className={s.eyebrow}>Research watch · Tian Tao</p>
     <h1 className={s.watchTitle}>{title}</h1>
     <p className={s.watchIntro}>{intro}</p>
-    {acknowledgements && <p className={s.authors}>With support and inspiration from <a href="https://www.chenyangfinance.com/" {...external} style={{ color: 'var(--accent-dark)', textDecoration: 'underline', textUnderlineOffset: '3px' }}>Dr Chen Yang</a> and funding from UCD-SATLE.</p>}
+    {acknowledgements && <p className={s.watchIntro} style={{ maxWidth: 'none', marginTop: '7px' }}>With support and inspiration from <a href="https://www.chenyangfinance.com/" {...external} style={{ color: 'var(--accent-dark)', textDecoration: 'underline', textUnderlineOffset: '3px' }}>Dr Chen Yang</a> and funding from UCD-SATLE.</p>}
     <div className={s.watchUpdate}><span className={s.updateDot}/><span>Last updated: {fmt(date)}</span><span aria-hidden="true">·</span><span>Updated weekly · Mondays</span></div>
   </header>;
 }
