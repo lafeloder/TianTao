@@ -28,6 +28,8 @@
 .chartRow:hover .chartBar,.chartRow[aria-pressed="true"] .chartBar{background:var(--accent-dark)}
 .chartValue{font-size:14px;color:var(--primary);font-variant-numeric:tabular-nums;text-align:right}
 .filters{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,1fr) minmax(145px,.6fr);gap:12px;align-items:end}
+.paperFilters{grid-template-columns:minmax(190px,1fr) minmax(220px,1.1fr) minmax(180px,.8fr) minmax(125px,.6fr)}
+.fieldHint{font-size:12px;line-height:1.6;color:var(--neutral-500);margin:10px 0 0}
 .filter{display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--neutral-600)}
 .filter select{width:100%;min-height:45px;padding:10px 12px;font-size:14px;color:var(--foreground);background:var(--background);border:1px solid var(--neutral-300);border-radius:4px}
 .search{display:block}
@@ -50,5 +52,6 @@
 .pager button{border:1px solid var(--neutral-200);padding:8px 12px;border-radius:4px;background:var(--background);color:var(--primary);cursor:pointer}
 .pager button:disabled{opacity:.35;cursor:default}
 @media(max-width:760px){.filters{grid-template-columns:1fr 1fr}.filters .search{grid-column:1/-1}.chartRow{grid-template-columns:minmax(180px,240px) minmax(80px,1fr) 38px}}
+@media(min-width:761px) and (max-width:1000px){.paperFilters{grid-template-columns:1fr 1fr}.paperFilters .search{grid-column:1/-1}}
 @media(max-width:640px){.page{padding:106px 18px 44px}.watchHero{margin-bottom:22px}.watchTitle{font-size:38px}.watchIntro{font-size:15px}.watchUpdate{gap:8px}.chart{padding:20px 16px}.chartHeading{flex-wrap:wrap}.chartHeading h2{font-size:22px}.chartTotal strong{font-size:29px}.countryChartRows{grid-template-columns:1fr}.chartRow,.countryChartRows .chartRow{grid-template-columns:1fr 38px;gap:8px;padding:10px}.chartTrack{grid-column:1/-1;grid-row:2}.chartValue{grid-column:2;grid-row:1}.itemHeading{align-items:flex-start;flex-direction:column;gap:5px}.itemHeading h2{font-size:19px}.paperStatus{flex:auto;text-align:left}.item{padding:19px 0}}
 @media(max-width:480px){.filters{grid-template-columns:1fr}.filters .search{grid-column:auto}}

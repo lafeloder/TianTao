@@ -112,6 +112,18 @@ Journal names and decision wording can span styling elements. Both "and" and
 
 ## Updates
 
+The paper page has a Field selector next to Journal. `src/lib/paper-fields.ts`
+maps existing topic tags and title keywords to multiple browsing fields, with
+an Unclassified fallback and explicit overrides for verified opaque titles.
+These are browsing aids, not journal-assigned classifications. Source excerpts
+and authors' qualifying publications are not used to infer a paper's field.
+`paperView()` applies the same rules at each build, so weekly additions receive
+fields automatically. The field filter combines with journal, status and search;
+it resets pagination without changing the overall journal distribution totals.
+
+Run `node --experimental-strip-types --test scripts/watchlists/paper-fields.test.mjs`
+for the classification regression checks (Node 22 or later).
+
 `watchlists-weekly.yml` runs Mondays at 06:15 UTC, with manual dispatch available.
 It rechecks saved author websites, research tabs and current adverts, checks
 the configured school feeds, then imports public vacancy reference pagination

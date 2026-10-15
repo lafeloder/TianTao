@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import type { PaperView, VacancyView } from '@/lib/watchlists-public';
+import { paperFields } from '@/lib/paper-fields';
 import s from './Watchlists.module.css';
 
 const external = { target: '_blank', rel: 'noopener noreferrer' };
@@ -39,10 +40,12 @@ function WatchHero({ title, intro, date }: { title: string; intro: string; date:
 export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]; date: string; authorCoverage?: { linked_authors: number; author_rows: number; percent: number } }) {
   const [query, setQuery] = useState('');
   const [journal, setJournal] = useState('');
+  const [field, setField] = useState('');
   const [status, setStatus] = useState('');
   const [page, setPage] = useState(1);
-  useEffect(() => setPage(1), [query, journal, status]);
+  useEffect(() => setPage(1), [query, journal, field, status]);
   const availableJournals = Object.keys(journalNames);
+  const availableFields = paperFields.filter(value => items.some(p => p.topics.includes(value)));
   const availableStatuses = revisionStatuses.filter(value => items.some(p => p.status === value));
   const rrCounts = availableJournals.map(code => ({ code, count: items.filter(p => p.journal === code && p.status === 'R&R').length }));
   const totalRR = rrCounts.reduce((total, entry) => total + entry.count, 0);
@@ -52,8 +55,8 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
     setStatus('R&R');
   };
   const filtered = items.filter(p => revisionStatuses.includes(p.status) &&
-    (!journal || p.journal === journal) && (!status || p.status === status) &&
-    [p.title, ...p.authors, p.journal, fullJournalName(p.journal), p.status].join(' ').toLowerCase().includes(query.trim().toLowerCase()))
+    (!journal || p.journal === journal) && (!field || p.topics.includes(field)) && (!status || p.status === status) &&
+    [p.title, ...p.authors, ...p.topics, p.journal, fullJournalName(p.journal), p.status].join(' ').toLowerCase().includes(query.trim().toLowerCase()))
     .sort((a,b) => a.title.localeCompare(b.title));
   const currentPage = Math.min(page, Math.max(1, Math.ceil(filtered.length / 25)));
   return <main className={`${s.page} ${s.widePage}`}>
@@ -68,11 +71,13 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
         </button>)}
       </div>
     </section>
-    <div className={s.filters}>
+    <div className={`${s.filters} ${s.paperFilters}`}>
       <Search value={query} change={setQuery} placeholder="Search papers, authors or journals"/>
       <label className={s.filter}>Journal<select value={journal} onChange={e => setJournal(e.target.value)}><option value="">All journals</option>{availableJournals.map(code => <option key={code} value={code}>{fullJournalName(code)}</option>)}</select></label>
+      <label className={s.filter}>Field<select value={field} onChange={e => setField(e.target.value)}><option value="">All fields</option>{availableFields.map(value => <option key={value} value={value}>{value}</option>)}</select></label>
       <label className={s.filter}>Status<select value={status} onChange={e => setStatus(e.target.value)}><option value="">All statuses</option>{availableStatuses.map(value => <option key={value} value={value}>{value}</option>)}</select></label>
     </div>
+    <p className={s.fieldHint}>Fields use available topic tags and title keywords; papers may span multiple fields.</p>
     <p className={s.count} role="status" aria-live="polite">{filtered.length} papers</p>
     <div className={s.list}>{filtered.slice((currentPage-1)*25,currentPage*25).map(p =>
       <article className={s.item} key={p.id}>
