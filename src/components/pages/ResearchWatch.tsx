@@ -28,11 +28,12 @@ function Pager({ total, page, change }: { total: number; page: number; change: (
   if (pages === 1) return null;
   return <nav className={s.pager} aria-label="Results pagination"><button disabled={page <= 1} onClick={() => change(page - 1)}>Previous</button><span>{page} / {pages}</span><button disabled={page >= pages} onClick={() => change(page + 1)}>Next</button></nav>;
 }
-function WatchHero({ title, intro, date }: { title: string; intro: string; date: string }) {
+function WatchHero({ title, intro, date, acknowledgements = false }: { title: string; intro: string; date: string; acknowledgements?: boolean }) {
   return <header className={s.watchHero}>
     <p className={s.eyebrow}>Research watch · Tian Tao</p>
     <h1 className={s.watchTitle}>{title}</h1>
     <p className={s.watchIntro}>{intro}</p>
+    {acknowledgements && <p className={s.authors}>With support and inspiration from <a href="https://www.chenyangfinance.com/" {...external} style={{ color: 'var(--accent-dark)', textDecoration: 'underline', textUnderlineOffset: '3px' }}>Dr Chen Yang</a> and funding from UCD-SATLE.</p>}
     <div className={s.watchUpdate}><span className={s.updateDot}/><span>Last updated: {fmt(date)}</span><span aria-hidden="true">·</span><span>Updated weekly · Mondays</span></div>
   </header>;
 }
@@ -60,7 +61,7 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
     .sort((a,b) => a.title.localeCompare(b.title));
   const currentPage = Math.min(page, Math.max(1, Math.ceil(filtered.length / 25)));
   return <main className={`${s.page} ${s.widePage}`}>
-    <WatchHero title="Top 5 Finance R&R" intro="Working papers with publicly disclosed revise-and-resubmit decisions. Tracked through author research pages." date={date}/>
+    <WatchHero title="Top 5 Finance R&R" intro="Working papers with publicly disclosed revise-and-resubmit decisions. Tracked through author research pages." date={date} acknowledgements/>
     {authorCoverage && <p className={s.directory}>{authorCoverage.linked_authors.toLocaleString()} of {authorCoverage.author_rows.toLocaleString()} author name groups publishing in the five leading finance journals have a linked personal site or institution profile ({authorCoverage.percent.toFixed(2)}%).</p>}
     <section className={s.chart} aria-labelledby="rr-chart-heading">
       <div className={s.chartHeading}><div><p className={s.chartKicker}>Journal distribution</p><h2 id="rr-chart-heading">R&amp;R papers by journal</h2></div><p className={s.chartTotal}><strong>{totalRR}</strong><span>R&amp;R papers</span></p></div>
