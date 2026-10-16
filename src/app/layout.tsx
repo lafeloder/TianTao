@@ -12,11 +12,13 @@ export async function generateMetadata(): Promise<Metadata> {
   const config = getConfig();
   const runtimeI18n = getRuntimeI18nConfig(config.i18n);
   const openGraphLocale = runtimeI18n.defaultLocale === 'zh' ? 'zh_CN' : 'en_US';
+  const seoTitle = config.site.seo_title || config.site.title;
 
   return {
+    metadataBase: new URL(new URL(config.site.url).origin),
     title: {
-      default: config.site.title,
-      template: `%s | ${config.site.title}`,
+      default: seoTitle,
+      template: `%s | ${config.author.name}`,
     },
     description: config.site.description,
     keywords: [config.author.name, 'PhD', 'Research', config.author.institution],
@@ -29,7 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       type: 'website',
       locale: openGraphLocale,
-      title: config.site.title,
+      title: seoTitle,
       description: config.site.description,
       siteName: `${config.author.name}'s Academic Website`,
     },

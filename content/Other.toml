@@ -1,3 +1,4 @@
 type = "text"
 title = "Other"
+description = "Tian Tao's academic CV: research and teaching experience, programming skills, data expertise, awards and honors."
 source = "Other.md"

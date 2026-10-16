@@ -5,6 +5,12 @@ import HomePageClient, { type HomePageLocaleData } from '@/components/home/HomeP
 import { Publication } from '@/types/publication';
 import { BasePageConfig, PublicationPageConfig, TextPageConfig, CardPageConfig } from '@/types/page';
 import { getRuntimeI18nConfig } from '@/lib/i18n/config';
+import { getPageMetadata } from '@/lib/seo';
+
+export function generateMetadata() {
+  const config = getConfig();
+  return getPageMetadata('', config.site.seo_title || config.site.title, config.site.description);
+}
 
 interface SectionConfig {
   id: string;
