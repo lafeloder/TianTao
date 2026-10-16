@@ -1,6 +1,8 @@
 [site]
 title = "Tian Tao"
-description = "PhD student at University College Dublin."
+seo_title = "Tian Tao | Finance PhD Candidate at UCD"
+description = "Tian Tao is a PhD candidate in Banking and Finance at University College Dublin (UCD), specializing in financial intermediation, corporate finance and AI."
+url = "https://lafeloder.github.io/TianTao/"
 favicon = "/TianTao/favicon.svg"
 last_updated = "August 18, 2026"
 

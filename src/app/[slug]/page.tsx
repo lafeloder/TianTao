@@ -12,6 +12,7 @@ import {
 
 import { Metadata } from 'next';
 import { getRuntimeI18nConfig } from '@/lib/i18n/config';
+import { getPageMetadata } from '@/lib/seo';
 
 function loadDynamicPageData(slug: string, locale?: string): DynamicPageLocaleData | null {
   const pageConfig = getPageConfig(slug, locale) as BasePageConfig | null;
@@ -63,14 +64,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const pageConfig = getPageConfig(slug) as BasePageConfig | null;
 
-  if (!pageConfig) {
+  if (!pageConfig?.title || !['publication', 'text', 'card'].includes(pageConfig.type)) {
     return {};
   }
 
-  return {
-    title: pageConfig.title,
-    description: pageConfig.description,
-  };
+  return getPageMetadata(
+    slug,
+    pageConfig.title,
+    pageConfig.description || `${pageConfig.title} by ${getConfig().author.name}.`,
+  );
 }
 
 export default async function DynamicPage({ params }: { params: Promise<{ slug: string }> }) {
