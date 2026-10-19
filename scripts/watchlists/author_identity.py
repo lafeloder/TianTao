@@ -52,11 +52,14 @@ def name_in_text(name,text):
 
 def personal_site_links(body,base_url):
     """Recognize explicit personal links even when the anchor label is a URL."""
-    soup=BeautifulSoup(body,'html.parser');links=[]
+    soup=BeautifulSoup(body,'lxml');links=[]
     label=re.compile(r'\b(?:personal|academic|my|new|research|external)\s+(?:web\s*site|web\s*page|home\s*page)|\bwebsite\s+(?:has\s+)?moved\b|\b(?:website|homepage|webpage|www)\s*:',re.I)
     for a in soup.find_all('a',href=True):
-        url=urljoin(base_url,a['href']).split('#')[0]
-        p=urlsplit(url)
+        try:
+            url=urljoin(base_url,a['href']).split('#')[0]
+            p=urlsplit(url)
+        except ValueError:
+            continue
         if p.scheme not in ('https','http')or not p.hostname:continue
         if re.search(r'linkedin|twitter|facebook|scholar\.google|ssrn|orcid',p.hostname,re.I):continue
         own=a.get_text(' ',strip=True)

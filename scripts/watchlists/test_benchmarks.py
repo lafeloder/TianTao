@@ -1,6 +1,6 @@
 import json
 import unittest
-from benchmarks import parse_rr, parse_openpostdoc, op_in_scope, merge, rr_key, normalize_paper
+from benchmarks import parse_rr, parse_openpostdoc, op_in_scope, merge, rr_key, normalize_paper, stage_unverified_jobs
 
 class BenchmarkTests(unittest.TestCase):
     def test_full_rr_array_and_date(self):
@@ -63,5 +63,35 @@ class BenchmarkTests(unittest.TestCase):
         self.assertFalse(op_in_scope({'region':'eu','primaryField':'Economics','title':'Mechanical design of flexure mechanisms'}))
         self.assertFalse(op_in_scope({'region':'us','primaryField':'Economics','title':'Postdoc in Economics'}))
         self.assertTrue(op_in_scope({'region':'eu','primaryField':'Economics','title':'Postdoc in Labour Economics'}))
+
+    def test_unverified_new_board_job_stays_in_review_queue(self):
+        job={'id':'new','title':'Postdoc in Economics','institution':'University',
+             'apply_url':'https://example.org/job','last_verified':'',
+             'verification':'Reference-listed; employer verification pending',
+             'reference_ids':['openpostdoc:new']}
+        public,queue=stage_unverified_jobs([job],set(),[],'2026-10-19')
+        self.assertEqual(public,[])
+        self.assertEqual(queue[0]['reference_ids'],['openpostdoc:new'])
+        self.assertEqual(queue[0]['candidate'],job)
+
+    def test_employer_verified_new_job_is_public_and_existing_records_remain(self):
+        old={'id':'old','title':'Earlier advert','last_verified':''}
+        verified={'id':'new','title':'Postdoc','last_verified':'2026-10-19',
+                  'verification':'Employer-published EJM advertisement'}
+        public,queue=stage_unverified_jobs([old,verified],{'old'},[],'2026-10-19')
+        self.assertEqual(public,[old,verified])
+        self.assertEqual(queue,[])
+
+    def test_employer_crosspost_resolves_reference_only_provenance(self):
+        old={'id':'old','apply_url':'https://example.org/job','reference_ids':['op:1'],
+             'source_reports':[],'verification':'Reference-listed; employer verification pending'}
+        new={'id':'new','apply_url':'https://example.org/job','reference_ids':['ejm:1'],
+             'source_reports':[],'source_type':'Econ Job Market employer advert',
+             'source_url':'https://econjobmarket.org/positions/1',
+             'deadline':'2026-11-15','status':'open','last_verified':'2026-10-19',
+             'verification':'Employer-published EJM advertisement'}
+        merged=merge([old],[new],'jobs')[0]
+        self.assertEqual(merged['verification'],new['verification'])
+        self.assertEqual(merged['source_url'],new['source_url'])
 
 if __name__=='__main__':unittest.main()

@@ -1,9 +1,18 @@
 import datetime as dt
 import unittest
 from bootstrap import publication_date
-from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility, listed_homepages
+from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility, listed_homepages, matching_revision, extend_personal_research_pages
 
 class EvidenceTests(unittest.TestCase):
+    def test_grant_credit_is_not_the_decision_journal(self):
+        body='<p><a href="/paper.pdf">Diversity and Access in Academic Finance Seminars</a>. Winner of the AFFECT/JFE Grant. Revise &amp; Resubmit at Review of Corporate Finance Studies.</p>'
+        self.assertEqual(rr_blocks(body,'https://author.example/'),[])
+
+    def test_same_bounded_title_with_link_labels_can_verify(self):
+        candidates=[{'title':'[ 4 ] A Paper About Bank Regulation [ SSRN ] [ Slides ]','journal':'RF','status':'R&R'}]
+        self.assertIsNotNone(matching_revision(candidates,{'title':'A Paper About Bank Regulation','journal':'RF'}))
+        self.assertIsNone(matching_revision(candidates,{'title':'A Different Paper About Bank Regulation','journal':'RF'}))
+
     def test_review_of_finance_public_aliases(self):
         for label in ['RoF','ROF','R o F','RF','Review of Finance']:
             with self.subTest(label=label):
@@ -50,6 +59,35 @@ class EvidenceTests(unittest.TestCase):
         body='<li><a href="/p.pdf">A Paper With Rejection and Resubmission</a>Reject &amp; Resubmit, Journal of Finance</li>'
         self.assertEqual(rr_blocks(body,'https://author.example/'),[])
 
+    def test_review_queue_collects_reject_separately_without_neighbor_status_leak(self):
+        body='<ul><li><a href="/a.pdf">An Explicit Rejection and Resubmission Paper</a>Reject &amp; Resubmit, Journal of Finance</li><li><a href="/b.pdf">A Different Banking Paper</a>Revise and Resubmit, Review of Finance</li></ul>'
+        rows=rr_blocks(body,'https://author.example/',include_reject=True)
+        self.assertEqual([(r['journal'],r['status'])for r in rows],[('JF','Reject & Resubmit'),('RF','R&R')])
+
+    def test_unlinked_dated_reject_citation_is_a_separate_review_candidate(self):
+        body='<p>Author One (2026): The Consequences of Capital Constraints. Reject and Resubmit, Management Science.</p>'
+        rows=rr_blocks(body,'https://author.example/',include_reject=True)
+        self.assertEqual([(r['title'],r['status'])for r in rows],[('The Consequences of Capital Constraints','Reject & Resubmit')])
+
+    def test_existing_paper_cannot_take_an_unindexed_neighbors_decision(self):
+        html='<ul><li><a href="/a.pdf">An Existing Working Paper</a>No decision stated.</li><li><a href="/b.pdf">A Previously Unknown Banking Paper</a>Revise &amp; Resubmit, Journal of Finance</li></ul>'
+        rows=rr_blocks(html,'https://author.example/',include_reject=True)
+        self.assertIsNone(matching_revision(rows,{'title':'An Existing Working Paper','journal':'JF'}))
+        self.assertEqual(matching_revision(rows,{'title':'A Previously Unknown Banking Paper','journal':'JF'})['status'],'R&R')
+
+    def test_revision_signal_preserves_styled_rr_and_numeric_ampersand(self):
+        for amp in ['&amp;','&#38;','&#x26;']:
+            body='<p><a href="/paper.pdf">A Styled Banking Research Paper</a><span>R</span><b>'+amp+'</b><span>R</span>, Review of Finance</p>'
+            self.assertEqual(rr_blocks(body,'https://author.example/')[0]['journal'],'RF')
+
+    def test_malformed_link_does_not_hide_valid_personal_research_tab(self):
+        body='<a href="https://[broken">Broken</a><a href="/research">Research</a>'
+        self.assertEqual(research_links(body,'https://author.example/'),['https://author.example/research'])
+
+    def test_raw_url_is_not_a_paper_title(self):
+        body='<li><a href="https://example.org/paper.pdf">http://dx.doi.org</a>R&amp;R, Review of Financial Studies</li>'
+        self.assertEqual(rr_blocks(body,'https://author.example/'),[])
+
     def test_research_content_inside_navigation_wrapper_is_not_discarded(self):
         html='<nav><h1>Alice Author</h1><p>Professor of Finance</p><ul><li><a href="/paper.pdf">A Confirmed Corporate Finance Paper</a> Revise and Resubmit, Journal of Finance</li></ul></nav>'
         self.assertEqual([(r['title'],r['journal'])for r in rr_blocks(html,'https://author.example/')],[('A Confirmed Corporate Finance Paper','JF')])
@@ -66,6 +104,11 @@ class EvidenceTests(unittest.TestCase):
     def test_school_profile_follows_explicit_external_personal_site(self):
         html='<a href="https://sites.google.com/view/linghang-zeng">Personal Website</a><a href="https://coauthor.example/research">Papers</a>'
         self.assertEqual(research_links(html,'https://www.babson.edu/faculty/linghang-zeng.php'),['https://sites.google.com/view/linghang-zeng'])
+
+    def test_external_personal_site_research_tab_is_followed_after_school_profile(self):
+        links={'https://school.example/alice':['https://alice.example/']}
+        results={'https://alice.example/':('<a href="/research">Research</a><a href="https://someone.example/research">Coauthor research</a>','')}
+        self.assertEqual(extend_personal_research_pages(links,results)['https://school.example/alice'],['https://alice.example/','https://alice.example/research'])
 
     def test_fixed_watchlist_keeps_aliases_without_admitting_new_authors(self):
         homes=[{'name':'A. Student'},{'name':'A New Author'}]
@@ -163,6 +206,13 @@ class EvidenceTests(unittest.TestCase):
         finance={'doi':'10.1/jf','published':'2024-01-01','journal':'JF'}
         ms={'doi':'10.1/ms','published':'2022-01-01','journal':'MS'}
         author={'name':'Alice Student','eligibility':finance}
+        publication,_=author_eligibility(author,[{'name':'Alice Student','publications':[ms,finance]}],[])
+        self.assertEqual(publication['doi'],'10.1/jf')
+
+    def test_prior_finance_proof_survives_verified_ms_doi_hits(self):
+        finance={'doi':'10.1/jf','published':'2024-01-01','journal':'JF'}
+        ms={'doi':'10.1/ms','published':'2022-01-01','journal':'MS'}
+        author={'name':'Alice Student','eligibility':finance,'publication_doi_hits':['10.1/jf','10.1/ms']}
         publication,_=author_eligibility(author,[{'name':'Alice Student','publications':[ms,finance]}],[])
         self.assertEqual(publication['doi'],'10.1/jf')
 

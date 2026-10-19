@@ -10,8 +10,8 @@
       "country": "France",
       "career_url": "https://www.insead.edu/jobs",
       "scope": "FT Europe top 50",
-      "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-19",
       "last_fetched": "2026-10-12"
     },
     {
@@ -22,7 +22,7 @@
       "career_url": "https://www.hec.edu/en/recruitment",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-3",
@@ -32,8 +32,8 @@
       "career_url": "https://www.london.edu/faculty-and-research/faculty-recruitment",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-4",
@@ -43,7 +43,7 @@
       "career_url": "https://escp.eu/jobs",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-5",
@@ -53,7 +53,7 @@
       "career_url": "https://www.iese.edu/faculty-research/faculty-openings/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-6",
@@ -63,7 +63,7 @@
       "career_url": "https://www.unibocconi.it/en/faculty-and-research/recruiting",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-7",
@@ -73,7 +73,7 @@
       "career_url": "https://www.essec.edu/en/pages/about-essec/careers/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-8",
@@ -83,8 +83,8 @@
       "career_url": "https://jobs.unisg.ch/",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-9",
@@ -94,8 +94,8 @@
       "career_url": "https://www.edhec.edu/en/recruitment",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-10",
@@ -105,7 +105,7 @@
       "career_url": "https://em-lyon.com/en/faculty-recruitment",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-11",
@@ -115,7 +115,7 @@
       "career_url": "https://www.esade.edu/faculty-research/en/faculty-recruitment",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-12",
@@ -125,8 +125,8 @@
       "career_url": "https://esmt.berlin/about-us/jobs",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-13",
@@ -136,7 +136,7 @@
       "career_url": "https://www.imd.org/about/careers/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-14",
@@ -145,8 +145,8 @@
       "country": "United Kingdom",
       "career_url": "https://www.jobs.ox.ac.uk/",
       "scope": "FT Europe top 50",
-      "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-19",
       "last_fetched": "2026-10-12"
     },
     {
@@ -157,7 +157,7 @@
       "career_url": "https://www.uni-mannheim.de/en/about/working-at-the-university/job-opportunities/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-16",
@@ -167,7 +167,7 @@
       "career_url": "https://www.skema.edu/en/careers",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-17",
@@ -177,8 +177,8 @@
       "career_url": "https://www.novasbe.unl.pt/en/about-us/careers",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-18",
@@ -188,7 +188,7 @@
       "career_url": "https://warwick.ac.uk/services/humanresources/jobslive/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-19",
@@ -198,8 +198,8 @@
       "career_url": "https://www.hhs.se/en/about-us/vacancies/",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-20",
@@ -209,7 +209,7 @@
       "career_url": "https://www.whu.edu/en/about-whu/career/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-21",
@@ -219,7 +219,7 @@
       "career_url": "https://www.ie.edu/working-at-ie/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-22",
@@ -228,9 +228,9 @@
       "country": "United Kingdom",
       "career_url": "https://www.jobs.cam.ac.uk/",
       "scope": "FT Europe top 50",
-      "feed_status": "failed",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-23",
@@ -239,8 +239,8 @@
       "country": "Ireland",
       "career_url": "https://www.ucd.ie/workatucd/jobs/",
       "scope": "FT Europe top 50",
-      "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-19",
       "last_fetched": "2026-10-12"
     },
     {
@@ -251,7 +251,7 @@
       "career_url": "https://www.grenoble-em.com/en/jobs",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-25",
@@ -261,7 +261,7 @@
       "career_url": "https://www.vlerick.com/en/about-vlerick/careers/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-26",
@@ -271,8 +271,8 @@
       "career_url": "https://www.audencia.com/en/join-us",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-27",
@@ -282,7 +282,7 @@
       "career_url": "https://www.clsbe.lisboa.ucp.pt/faculty-and-research/faculty-recruitment",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-28",
@@ -292,7 +292,7 @@
       "career_url": "https://neoma-bs.com/about-neoma/join-us/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-29",
@@ -302,8 +302,8 @@
       "career_url": "https://jobs.cranfield.ac.uk/",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-30",
@@ -313,7 +313,7 @@
       "career_url": "https://www.eada.edu/en/about-eada/work-us",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-31",
@@ -323,8 +323,8 @@
       "career_url": "https://www.frankfurt-school.de/en/about/careers",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-32",
@@ -334,7 +334,7 @@
       "career_url": "https://kedge.edu/recruitment",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-33",
@@ -344,7 +344,7 @@
       "career_url": "https://www.eur.nl/en/working-erasmus-university/vacancies",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-34",
@@ -353,8 +353,8 @@
       "country": "United Kingdom",
       "career_url": "https://www.citystgeorges.ac.uk/about/working-at-city",
       "scope": "FT Europe top 50",
-      "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-19",
       "last_fetched": "2026-10-12"
     },
     {
@@ -365,8 +365,8 @@
       "career_url": "https://www.polimi.it/en/faculty-and-researchers/calls-and-competitions",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-36",
@@ -376,8 +376,8 @@
       "career_url": "https://www.jobs.manchester.ac.uk/",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-37",
@@ -386,8 +386,9 @@
       "country": "United Kingdom",
       "career_url": "https://jobs.reading.ac.uk/",
       "scope": "FT Europe top 50",
-      "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-38",
@@ -397,7 +398,7 @@
       "career_url": "https://sigarra.up.pt/up/en/WEB_BASE.GERA_PAGINA?p_pagina=121271",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-39",
@@ -406,8 +407,9 @@
       "country": "United Kingdom",
       "career_url": "https://www.imperial.ac.uk/jobs/",
       "scope": "FT Europe top 50",
-      "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "feed_status": "fetched (limited HTML scan)",
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-40",
@@ -417,7 +419,7 @@
       "career_url": "https://www.bi.edu/about-bi/vacancies/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-41",
@@ -427,8 +429,8 @@
       "career_url": "https://www.wu.ac.at/en/careers/careers-at-wu",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-42",
@@ -438,7 +440,7 @@
       "career_url": "https://www.kozminski.edu.pl/en/careers",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-43",
@@ -448,8 +450,8 @@
       "career_url": "https://www.tcd.ie/hr/vacancies/",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-44",
@@ -459,7 +461,7 @@
       "career_url": "https://www.iscte-iul.pt/conteudos/iscte/working-at-iscte/1458/jobs",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-45",
@@ -469,8 +471,8 @@
       "career_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-46",
@@ -480,8 +482,8 @@
       "career_url": "https://www.aalto.fi/en/open-positions",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-47",
@@ -491,8 +493,8 @@
       "career_url": "https://www.ieseg.fr/en/faculty-and-research/recruitment/",
       "scope": "FT Europe top 50",
       "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
-      "last_fetched": "2026-10-12"
+      "last_attempted": "2026-10-19",
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-48",
@@ -502,7 +504,7 @@
       "career_url": "https://www.vse.cz/english/jobs/",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     },
     {
       "id": "ft2025-49",
@@ -511,8 +513,8 @@
       "country": "Netherlands",
       "career_url": "https://www.tilburguniversity.edu/about/working/vacancies",
       "scope": "FT Europe top 50",
-      "feed_status": "fetched (limited HTML scan)",
-      "last_attempted": "2026-10-12",
+      "feed_status": "failed",
+      "last_attempted": "2026-10-19",
       "last_fetched": "2026-10-12"
     },
     {
@@ -523,7 +525,7 @@
       "career_url": "https://www.luiss.edu/university/job-opportunities",
       "scope": "FT Europe top 50",
       "feed_status": "failed",
-      "last_attempted": "2026-10-12"
+      "last_attempted": "2026-10-19"
     }
   ]
 }

@@ -138,6 +138,17 @@ author roster and adds verified entries. Author or conference expansion requires
 a user instruction. It is authorized to update this repository
 and publish the two requested pages, while keeping existing personal content.
 
+New vacancy-board discoveries without employer evidence remain in the unpublished
+review queue. Employer-submitted EJM cross-posts can resolve reference-only
+provenance; a board's `confirmed_open` label alone cannot. Reference accounting
+reports public records and unpublished review candidates separately.
+
+The default `rr_blocks()` result remains strict R&R. Weekly discovery also uses
+`include_reject=True` to collect explicitly labelled Reject & Resubmit candidates
+with a separate status, using the same bounded-record and journal rules. The
+HTML parser uses lxml (covered by the source regression checks) so the fixed
+five-figure author roster can be processed without rebuilding its membership.
+
 Optional GitHub Actions secrets:
 
 - `CROSSREF_MAILTO`: contact email for Crossref's polite API pool.

@@ -25,6 +25,7 @@ from author_identity import identity_key,personal_site_links
 UA = 'TianTao-ResearchWatch/1.0'
 RR = re.compile(r'\b(?:revise[\s-]*(?:and|&)[\s-]*resubmit|R\s*&\s*R)\b', re.I)
 REJECT = re.compile(r'\breject[\s-]*(?:and|&)[\s-]*resubmit\b', re.I)
+REVISION_HTML_SIGNAL = re.compile(r'resubmit|R(?:\s|<[^>]*>)*(?:&(?:amp;|#0*38;|#x0*26;)?)(?:\s|<[^>]*>)*R',re.I)
 JOURNAL_NAMES = {'JF': 'Journal of Finance', 'JFE': 'Journal of Financial Economics',
                  'RFS': 'Review of Financial Studies', 'RF': 'Review of Finance',
                  'JFQA': 'Journal of Financial and Quantitative Analysis',
@@ -43,7 +44,7 @@ def clean(text):
     return re.sub(r'\s+', ' ', text.replace('\xad','').replace('\u200b','')).strip()
 
 def parse_html(body):
-    soup = BeautifulSoup(body, 'html.parser')
+    soup = BeautifulSoup(body, 'lxml')
     # Some faculty templates put their whole biography/research page inside nav.
     # These structural tags cannot be assumed to contain only navigation chrome.
     for tag in soup(['script','style','noscript']):
@@ -96,6 +97,17 @@ def journal_in(text):
         match=JOURNAL_PATTERNS[key].search(text)
         if match:matches.append((match.start(),-len(name),key))
     return min(matches)[2] if matches else None
+
+def revision_journal(text, decision):
+    """Bind a journal to the decision clause, not an earlier grant/award credit."""
+    after=text[decision.end():decision.end()+130]
+    if re.match(r'^[\s,;:().-]*(?:at\s+)?(?:the\s+)?Review\s+of\s+Corporate\s+Finance\s+Studies\b',after,re.I):
+        return None
+    journal=journal_in(after)
+    if journal:return journal
+    before=text[max(0,decision.start()-130):decision.start()]
+    matches=[(m.end(),code) for code,pattern in JOURNAL_PATTERNS.items() for m in pattern.finditer(before)]
+    return max(matches)[1] if matches else None
 
 def homepage_coverage(universe, homes, corpus):
     """Count linked author name groups without multiplying namesakes by affiliation."""
@@ -155,7 +167,7 @@ def author_eligibility(author, universe, conference_authors,indexes=None):
     verified=[p for p in pubs if p.get('doi')in proven]
     prior=author.get('eligibility')or{}
     preserved=next((p for p in pubs if p.get('doi')==prior.get('doi')),None)
-    publication=min(verified,key=lambda p:p['published'])if verified else preserved or (min(pubs,key=lambda p:p['published']) if pubs else None)
+    publication=preserved or (min(verified,key=lambda p:p['published']) if verified else (min(pubs,key=lambda p:p['published']) if pubs else None))
     if author.get('eligibility_status')=='conference_verified' and not author.get('eligibility'):
         publication=None
     return publication,conference
@@ -206,8 +218,11 @@ def research_links(body, base_url):
     base_parts=[part for part in base.path.split('/') if part]
     candidates=[(-2,url)for url in personal_site_links(body,base_url)if url.startswith('https://')]
     for anchor in parse_html(body).find_all('a',href=True):
-        url=urllib.parse.urljoin(base_url,anchor['href']).split('#')[0]
-        parts=urllib.parse.urlsplit(url)
+        try:
+            url=urllib.parse.urljoin(base_url,anchor['href']).split('#')[0]
+            parts=urllib.parse.urlsplit(url)
+        except ValueError:
+            continue
         label=clean(anchor.get_text(' ',strip=True))
         personal=bool(PERSONAL_SITE_LINK.fullmatch(label))
         if parts.scheme!='https' or (parts.hostname!=base.hostname and not personal):
@@ -222,10 +237,10 @@ def research_links(body, base_url):
                 candidates.append((-1 if personal else 0 if RESEARCH_LINK.search(label) else 1,url))
     return list(dict.fromkeys(url for _,url in sorted(set(candidates))))[:3]
 
-def citation_title(text):
+def citation_title(text, decision_pattern=RR):
     """Read a single explicit author/year citation without requiring a paper link."""
-    decision=RR.search(text)
-    if not decision or len(RR.findall(text))!=1 or len(text)>800:
+    decision=decision_pattern.search(text)
+    if not decision or len(decision_pattern.findall(text))!=1 or len(text)>800:
         return ''
     prefix=text[:decision.start()].strip()
     citation=re.search(r'\(\s*(?:19|20)\d\s*\d\s*\)\s*:\s*(.+)$',prefix)
@@ -233,23 +248,36 @@ def citation_title(text):
     title=(citation.group(1) if citation else dated_title.group(1) if dated_title else '').rstrip(' .,(;:')
     return title if 12<=len(title)<=240 and not journal_in(title) else ''
 
-def rr_blocks(body, url):
+def extend_personal_research_pages(author_links, results):
+    """An institution's explicit external personal site can have research tabs."""
+    extended={home:list(links) for home,links in author_links.items()}
+    for home,links in author_links.items():
+        for url in links:
+            if urllib.parse.urlsplit(url).hostname==urllib.parse.urlsplit(home).hostname:continue
+            body,error=results.get(url,('','not attempted'))
+            if not error:extended[home].extend(research_links(body,url))
+        extended[home]=list(dict.fromkeys(extended[home]))
+    return extended
+
+def rr_blocks(body, url, *, include_reject=False):
     """Only a title and status within a bounded paper block become a candidate."""
+    if not REVISION_HTML_SIGNAL.search(body):return []
     soup = parse_html(body)
+    decision_pattern=re.compile('(?:'+RR.pattern+')|(?:'+REJECT.pattern+')',re.I) if include_reject else RR
     blocks = []
     for tag in soup.find_all(['li','article','p','div','h2','h3','h4','h5']):
         if tag.name in ('li','article','p','div'):
             txt = clean(tag.get_text(' ',strip=True))
             # Google Sites puts the title and status in separate adjacent lists.
             # Only bridge a title-bearing list item to its immediate status list.
-            if not RR.search(txt) and tag.name=='li' and tag.find('a',href=True):
+            if not decision_pattern.search(txt) and tag.name=='li' and tag.find('a',href=True):
                 following=tag.find_next_sibling()
                 if following is None and tag.parent.name in ('ol','ul'):
                     following=tag.parent.find_next_sibling()
                 if following is not None:
                     extra=clean(following.get_text(' ',strip=True))
                     new_title=following.find(['h2','h3','h4']) or any(len(clean(a.get_text(' ',strip=True)))>20 and not journal_in(a.get_text(' ',strip=True)) for a in following.find_all('a',href=True))
-                    if RR.search(extra) and len(extra)<=600 and journal_in(extra) and not new_title:
+                    if decision_pattern.search(extra) and len(extra)<=600 and journal_in(extra) and not new_title:
                         txt=clean(txt+' '+extra)
             if len(txt) > 1600:
                 continue
@@ -260,8 +288,8 @@ def rr_blocks(body, url):
                 paper_links=[a for a in tag.find_all('a',href=True)
                              if re.search(r'\.pdf(?:$|\?)|ssrn\.com|/papers?/',a['href'],re.I)
                              and 12<=len(clean(a.get_text(' ',strip=True)))<=240]
-                plain_title=citation_title(txt) if tag.name=='p' and not paper_links else ''
-                if (len(paper_links)!=1 and not plain_title) or len(RR.findall(txt))!=1:
+                plain_title=citation_title(txt,decision_pattern) if tag.name=='p' and not paper_links else ''
+                if (len(paper_links)!=1 and not plain_title) or len(decision_pattern.findall(txt))!=1:
                     continue
         else:
             pieces = [tag.get_text(' ',strip=True)]
@@ -272,9 +300,9 @@ def rr_blocks(body, url):
                 if len(' '.join(pieces)) > 1600:
                     break
             txt = clean(' '.join(pieces))[:1600]
-        if not RR.search(txt) or REJECT.search(txt):
+        if not decision_pattern.search(txt) or (REJECT.search(txt) and not include_reject):
             continue
-        journal = journal_in(txt)
+        journal = revision_journal(txt,decision_pattern.search(txt))
         if not journal:
             continue
         anchor = tag.find('a', href=True)
@@ -284,7 +312,7 @@ def rr_blocks(body, url):
         # containing block; the heading supplies the paper title.
         title = clean((heading or anchor).get_text(' ',strip=True)) if (heading or anchor) else ''
         if not title and tag.name in ('p','li'):
-            title=citation_title(txt)
+            title=citation_title(txt,decision_pattern)
         title = re.sub(r'\s*\((?:joint\s+)?with\b.*$','',title,flags=re.I).strip(' \"“”.,;:')
         if heading:
             exact=next((a for a in heading.find_all('a',href=True) if normalize(a.get_text(' ',strip=True))==normalize(title)),None)
@@ -292,13 +320,16 @@ def rr_blocks(body, url):
         title = re.sub(r'^\d+[.)]?\s*','',title)
         if any(normalize(title) in {normalize(name),normalize('The '+name)} for name in JOURNAL_NAMES.values()):
             continue
-        if not title or not (12 <= len(title) <= 240) or RR.search(title) or re.match(r'^(?:with\b|joint with|working papers$|publications$|research papers$|selected research$|download paper$|most recent version$)',title,re.I):
+        if not title or not (12 <= len(title) <= 240) or RR.search(title) or re.match(r'^(?:https?://|doi:|10\.\d{4,9}/|with\b|joint with|working papers$|publications$|research papers$|selected research$|download paper$|most recent version$)',title,re.I):
             continue
-        link = urllib.parse.urljoin(url,anchor['href']) if anchor else ''
+        try:link = urllib.parse.urljoin(url,anchor['href']) if anchor else ''
+        except ValueError:link=''
         if not link.startswith('https://'):
             link = ''
-        blocks.append({'title':title,'journal':journal,'paper_url':link,'evidence_url':url,
-                       'evidence_excerpt':RR.search(txt).group(0) + ', ' + JOURNAL_NAMES[journal]})
+        candidate={'title':title,'journal':journal,'paper_url':link,'evidence_url':url,
+                   'evidence_excerpt':decision_pattern.search(txt).group(0) + ', ' + JOURNAL_NAMES[journal]}
+        if include_reject:candidate['status']='Reject & Resubmit' if REJECT.search(txt) else 'R&R'
+        blocks.append(candidate)
     return list({normalize(x['title'])+x['journal']:x for x in blocks}.values())
 
 def listed_homepages(homes, watchlist):
@@ -334,6 +365,18 @@ def listed_homepages(homes, watchlist):
                          'conference_name_keys':sorted(names)})
         known.add((normalize(seed['name']),url.rstrip('/')))
     return selected
+
+def matching_revision(candidates, paper):
+    """Only a decision extracted from this exact bounded title/journal record."""
+    return next((candidate for candidate in candidates
+                 if revision_title_key(candidate['title']) in {revision_title_key(t) for t in [paper['title']]+paper.get('title_aliases',[])}
+                 and candidate['journal']==paper['journal']),None)
+
+def revision_title_key(title):
+    """Ignore explicit link labels and citation numbering, never title words."""
+    title=re.sub(r'^\s*\[\s*\d+\s*\]\s*[\"“]?','',title)
+    title=re.sub(r'\[\s*(?:SSRN|Slides?|PDF|Paper|Download|Online appendix)\s*\]','',title,flags=re.I)
+    return normalize(title)
 
 def find_paper_block(body, title, titles):
     # Bound the excerpt at the next known paper; journal/status on a neighbouring
@@ -482,7 +525,14 @@ def main():
         for url,body,error in pool.map(safe_get,sorted(linked_urls)):
             results[url]=(body,error)
             report['sources'].append({'url':url,'result':'failed' if error else 'fetched','error':error})
-    verified_names=set()
+    author_links=extend_personal_research_pages(author_links,results)
+    personal_tabs={url for links in author_links.values() for url in links if url not in results}
+    linked_urls|=personal_tabs
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        for url,body,error in pool.map(safe_get,sorted(personal_tabs)):
+            results[url]=(body,error)
+            report['sources'].append({'url':url,'result':'failed' if error else 'fetched','error':error})
+    verified_names=set();page_candidates={}
     for author in homes:
         publication,conference=author_eligibility(author,universe,conference_authors,eligibility)
         if not author.get('approved') or not (publication or conference):
@@ -502,7 +552,8 @@ def main():
             body,error=results.get(page_url,('','not attempted'))
             if error:
                 continue
-            for candidate in rr_blocks(body,page_url):
+            if page_url not in page_candidates:page_candidates[page_url]=rr_blocks(body,page_url,include_reject=True)
+            for candidate in page_candidates[page_url]:
                 if normalize(candidate['title'])+candidate['journal'] not in existing:
                     queue.append(dict(candidate,kind='paper',source_author=author['name'],discovered_on=today,
                                       review='Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance.'))
@@ -522,20 +573,14 @@ def main():
             if error:
                 paper['last_attempted']=today
                 continue
-            titles=[p['title'] for p in rr['items'] if p.get('evidence_url')==paper['evidence_url']]
-            block=find_paper_block(body,paper['title'],titles)
-            if RR.search(block) and journal_in(block)==paper['journal'] and not REJECT.search(block):
-                paper['last_verified']=today;paper['status']='R&R'
-                paper['evidence_excerpt']=RR.search(block).group(0)+', '+JOURNAL_NAMES[paper['journal']]
-                # Resolve paper links from the exact title anchor, never guess URLs.
-                soup=parse_html(body)
-                for a in soup.find_all('a',href=True):
-                    if normalize(a.get_text(' ',strip=True))==normalize(paper['title']):
-                        link=urllib.parse.urljoin(paper['evidence_url'],a['href'])
-                        if link.startswith('https://'):paper['paper_url']=link
-                        break
+            evidence=matching_revision(page_candidates.get(paper['evidence_url'],[]),paper)
+            if evidence:
+                paper['last_verified']=today;paper['status']=evidence['status']
+                paper['evidence_excerpt']=evidence['evidence_excerpt']
+                paper['verification_status']='primary_confirmed'
+                if evidence['paper_url']:paper['paper_url']=evidence['paper_url']
             else:
-                paper['verification_status']='needs_recheck'
+                paper['verification_status']='needs_recheck' if paper.get('last_verified') else 'reference_only'
                 paper['verification']='Previously reported status; latest primary parsing incomplete'
     for job in jobs['items']:
         if 'econjobmarket.org' in job['source_url'] or 'openpostdoc.org' in job['source_url']:
@@ -601,7 +646,7 @@ def main():
     save('meta.json',meta)
     public=ROOT/'public'/'watchlists';public.mkdir(parents=True,exist_ok=True)
     for name in ['rr','postdocs','meta','schools']:
-        (public/(name+'.json')).write_text((DATA/(name+'.json')).read_text())
+        (public/(name+'.json')).write_text((DATA/(name+'.json')).read_text(encoding='utf-8'),encoding='utf-8')
     for name in ['rr','postdocs']:
         save('history/'+today+'-'+name+'.json',load(name+'.json',{}))
     print(json.dumps({k:meta[k] for k in ['articles','author_name_groups','approved_homepages','homepages_scanned_this_run','feeds_fetched','review_queue']}))

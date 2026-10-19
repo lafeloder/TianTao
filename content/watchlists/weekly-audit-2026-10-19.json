@@ -1,0 +1,1897 @@
+{
+  "checked_on": "2026-10-19",
+  "base_main_sha": "053f869c7f9455b9349a436fc662d68d176b6930",
+  "fixed_roster_sha256": "87003475db9943ba466fa748a8f18e4cfde8bf6c8b2a3bf8096064c03b27989b",
+  "scope": "Fixed saved roster only. Existing conference authors retained; no author discovery or publication corpus rebuild.",
+  "scheduled_refresh": {
+    "workflow": "watchlists-weekly.yml",
+    "configured_cron": "15 6 * * 1",
+    "workflow_state": "active",
+    "runs_found_on_2026_10_19": 0,
+    "resolution": "Completed an audited local refresh and reviewed publication because no scheduled refresh run appeared."
+  },
+  "source_acquisition": {
+    "unique_source_urls": 20631,
+    "initial_network_attempts": 20631,
+    "explicit_retry_attempts": 369,
+    "source_results": {
+      "fetched": 18586,
+      "failed": 2045
+    },
+    "prior_week_cache_reads": 0,
+    "same_week_saved_source_reparses": 18066,
+    "same_week_cache_note": "Initial network acquisition and explicit retries were made on 19 October; resumed passes reused these saved current-week snapshots. Fetched HTML is not a claim that every page contains readable R&R research.",
+    "final_review_pages_reparsed_with_latest_parser": 402,
+    "final_pass_new_network_urls": 541,
+    "final_pass_same_week_snapshot_reads": 20090
+  },
+  "roster_scan_results": {
+    "fetched": 9597,
+    "missing_url": 406,
+    "failed": 759
+  },
+  "new_papers": [
+    {
+      "id": "weekly-20261019-4d235db5c883178f",
+      "title": "Data-Driven Measures of High-Frequency Trading",
+      "journal": "JFE",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://dmurav.com/"
+    },
+    {
+      "id": "weekly-20261019-02870bd3d4d190f4",
+      "title": "Leverage and Risk-Taking in a Dynamic Model",
+      "journal": "RFS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/tobias-berg/startseite/current-research"
+    },
+    {
+      "id": "weekly-20261019-25a1377338bc5717",
+      "title": "Informed Trading under the Microscope: Evidence from 30 Years of Daily Hedge Fund Trades",
+      "journal": "JF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/site/yuehuatang/"
+    },
+    {
+      "id": "weekly-20261019-40f5935c4afea4d3",
+      "title": "Carbon Pricing and Investment",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/christian-thomann/startsida"
+    },
+    {
+      "id": "weekly-20261019-2112b8f747c1ace3",
+      "title": "Consumer Bankruptcy Audits",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.fabian-nagel.com/research"
+    },
+    {
+      "id": "weekly-20261019-e4182d94c5d6fc65",
+      "title": "Corporate Finance Through Loyalty Programs",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.danluo.net/"
+    },
+    {
+      "id": "weekly-20261019-54e03d6483062c97",
+      "title": "Lawyers Setting the Menu: The Effects of Litigation Risk on Employer-Sponsored Retirement Plans",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/michaelgropper/research"
+    },
+    {
+      "id": "weekly-20261019-b5628b2082b07ded",
+      "title": "Liquidity and Risk in OTC Markets: A Theory of Asset Pricing and Portfolio Flows",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.mahyarkargar.com/"
+    },
+    {
+      "id": "weekly-20261019-dc6d4a43197d67f6",
+      "title": "Measuring Time-Varying Disaster Risk: An Empirical Analysis of ‘Dark Matter’ in Asset Prices",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://blogs.cornell.edu/baron/"
+    },
+    {
+      "id": "weekly-20261019-545b19e598675e79",
+      "title": "Payment Firms, Cryptocurrencies, and CBDCs",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/drjankeil/research"
+    },
+    {
+      "id": "weekly-20261019-7494e5aab5b97dc2",
+      "title": "Prior-Biased Inference in Asset Prices: The Conditional Post-Earnings Announcement Drift",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.odhrainmccarthy.com/"
+    },
+    {
+      "id": "weekly-20261019-88e7c0e5b04770ea",
+      "title": "Real effects of rollover risk: evidence from hotels in crisis",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://charlesnathanson.com/working"
+    },
+    {
+      "id": "weekly-20261019-ba9d10b329e61957",
+      "title": "Soft Negotiators or Modest Builders? Why Women Earn Lower Real Estate Returns",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/laurentbach/working-papers"
+    },
+    {
+      "id": "weekly-20261019-7c9077d1be950737",
+      "title": "Stop Believing in Reserves",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/rominaruprecht/research"
+    },
+    {
+      "id": "weekly-20261019-17dc7976ba05b07b",
+      "title": "Trading Against Expert Dealers",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/mariachaderina/research"
+    },
+    {
+      "id": "weekly-20261019-1a7d3b43d9935e36",
+      "title": "Tyranny of the Personal Network: The Limits of Arm’s Length Fundraising in Venture Capital",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.sabrina-howell.com/"
+    },
+    {
+      "id": "weekly-20261019-fff73cfe04bd6cbf",
+      "title": "Aging and Housing Returns",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/natee-amorn"
+    },
+    {
+      "id": "weekly-20261019-77e03d3a7bdbad25",
+      "title": "Financializing the Professions: The Rise of Private Equity in Accounting",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://johnmbarrios.com/research"
+    },
+    {
+      "id": "weekly-20261019-a37ab07dd203d581",
+      "title": "From Competitors to Partners: Banks’ Venture Investments in Fintech",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://www.business.uconn.edu/person/xiang-zheng/"
+    },
+    {
+      "id": "weekly-20261019-c1d43b097e18c9e9",
+      "title": "Leasing as a Mitigation Channel of Capital Misallocation",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/weiweihu/research"
+    },
+    {
+      "id": "weekly-20261019-953a9c86c4dc0fbb",
+      "title": "Non-Passive Securities Lending by Passive Investors",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/udel.edu/kevin-pisciotta/home?pli=1"
+    },
+    {
+      "id": "weekly-20261019-f39f788303aeea19",
+      "title": "On the Drivers of Corporate Bond Lending",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/yanchengqiu/home"
+    },
+    {
+      "id": "weekly-20261019-31ff8c556319b511",
+      "title": "Social Collateral",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/hadnguyen/research"
+    },
+    {
+      "id": "weekly-20261019-481134fa6b90ffd0",
+      "title": "Talent-Consolidating Mergers: Labor Market Power and Innovation",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://www.sophiajingxue.com/research"
+    },
+    {
+      "id": "weekly-20261019-c38aee64b16f4c5e",
+      "title": "Comparing Capital Allocation Efficiency in Public and Private Equity Markets",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://www.alisanati.com/home"
+    },
+    {
+      "id": "weekly-20261019-a7b3dab850c35dea",
+      "title": "Equity Duration and Monetary Policy",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/ericoffner/research"
+    },
+    {
+      "id": "weekly-20261019-92e44d9ae2eac1f0",
+      "title": "New Technology and Entrepreneurship",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/tomgrmeling"
+    },
+    {
+      "id": "weekly-20261019-c1c4d52ec1176c87",
+      "title": "The Silicon Divide: High-Technology IPOs and the Widening Socioeconomic Gap",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://www.wenchuan-zhao.com/research"
+    },
+    {
+      "id": "weekly-20261019-97316ecac3f2b680",
+      "title": "What is the Role of the Options Market? Evidence from Newly Public Companies",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://www.business.uconn.edu/person/xiang-zheng/"
+    },
+    {
+      "id": "weekly-20261019-cdd62c5b59adc8f0",
+      "title": "Better Technology, Worse Motivation: Gen AI's Mediocrity Trap",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.jiegong.net/working-papers"
+    },
+    {
+      "id": "weekly-20261019-c94d864142121030",
+      "title": "Determinants and Consequences of Return to Office Policies",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/seanjflynnjr/research"
+    },
+    {
+      "id": "weekly-20261019-6f7c90e1cebf5779",
+      "title": "Determinants of bank performance: evidence from replicating portfolios",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/lorenzoburlon/research"
+    },
+    {
+      "id": "weekly-20261019-019ff77ebb03e181",
+      "title": "Disparities in Online Labor Markets",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://tristanbotelho.com/research.html"
+    },
+    {
+      "id": "weekly-20261019-1c521fe9b5c720f1",
+      "title": "Do Fintech Shadow Banks Compete with Technological Advantages? Evidence from Mortgage Lending",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.business.uconn.edu/person/xiang-zheng/"
+    },
+    {
+      "id": "weekly-20261019-f2d330617555558d",
+      "title": "Hot Off the Press: News-implied Sovereign Default Risk",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/chukwumadim/research"
+    },
+    {
+      "id": "weekly-20261019-eb8a3c67babd2a25",
+      "title": "Labor Unrest and Socially Responsible Hiring",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/zhuhaikun2018/research"
+    },
+    {
+      "id": "weekly-20261019-850d15ae21a7d5b5",
+      "title": "Political divide and partisan portfolio disagreement",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://epikulina.com/"
+    },
+    {
+      "id": "weekly-20261019-7982dab99214449c",
+      "title": "Reversal Patterns in Risk-Adjusted Anomaly Returns",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://fisher.osu.edu/people/melone.11"
+    },
+    {
+      "id": "weekly-20261019-c8993a68b7d01ede",
+      "title": "Struggles and Symphonies: does money impact creativity in the history of classical music?",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/charlesyichuwang/research"
+    },
+    {
+      "id": "weekly-20261019-92d7647b3f541cd2",
+      "title": "The Demand for (Useless) Communication",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.paulsmeets.eu/research"
+    },
+    {
+      "id": "weekly-20261019-09b99e1874b7cd54",
+      "title": "The Monetization of Innovation",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://francescazucchi.com/working-papers/"
+    },
+    {
+      "id": "weekly-20261019-015821940a2657bb",
+      "title": "The Value of Local Knowledge in Service Work",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.jiegong.net/working-papers"
+    },
+    {
+      "id": "weekly-20261019-d213718e7661d260",
+      "title": "Uncertainty, Stock Prices, and Debt Structure",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.ozdagli.org/research"
+    },
+    {
+      "id": "weekly-20261019-ace58cbb709ab739",
+      "title": "Corporate Diversification and Capital Structure",
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://cf.uni-hohenheim.de/daniel-hoang"
+    },
+    {
+      "id": "weekly-20261019-a357a4352825ce60",
+      "title": "Housing Stability and Self-employment",
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/stevencxiao/Reseach"
+    },
+    {
+      "id": "weekly-20261019-b764449413f5adfb",
+      "title": "Managing Expectations and Corporate Financial Policy",
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/alanpaulkwan/research"
+    },
+    {
+      "id": "weekly-20261019-afe6b48d76b534b3",
+      "title": "Does CFPB Oversight Crimp Credit?",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/james-vickery/research"
+    },
+    {
+      "id": "weekly-20261019-3c90f922af3c7f79",
+      "title": "Evaluating the impact of portfolio mandates",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/jackfavilukis/research"
+    },
+    {
+      "id": "weekly-20261019-3433d6f5e3da4867",
+      "title": "FinTech as a Financial Liberator",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://www.hu-jiayin.com/research"
+    },
+    {
+      "id": "weekly-20261019-a03e14d1319e9079",
+      "title": "Fund Flows and Income Risk of Fund Managers",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://finance-faculty.wharton.upenn.edu/wdou/publications/"
+    },
+    {
+      "id": "weekly-20261019-e2ebaa6cce057691",
+      "title": "How Costly is Noise? Data and Disparities in Consumer Credit",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://faculty.chicagobooth.edu/scott-nelson/research"
+    },
+    {
+      "id": "weekly-20261019-b7e2ce451fb600f5",
+      "title": "Interest Rates and Insurance Company Investment Behavior",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://www.ozdagli.org/research"
+    },
+    {
+      "id": "weekly-20261019-b8652869065f708c",
+      "title": "Moral Hazard in Experiment Design: Implications for Financing Innovation",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://www.savitars.com/research"
+    },
+    {
+      "id": "weekly-20261019-1b3d9ce77ba8ecd0",
+      "title": "Physical Climate Risk Factors and an Application to Measuring Insurers’ Climate Risk Exposure",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://hyeyoonjung.net/research/"
+    },
+    {
+      "id": "weekly-20261019-ded6389d68cf959b",
+      "title": "Risk Mitigating Versus Risk Shifting: Evidence from Banks Security Trading in Crises",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/andreapolo/cv"
+    },
+    {
+      "id": "weekly-20261019-416631a8bca72a52",
+      "title": "The Changing Landscape of Corporate Governance Disclosure: Impact on Shareholder Voting",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/jarediwilson/research"
+    },
+    {
+      "id": "weekly-20261019-1dba445b987ae047",
+      "title": "The Hidden Cost of Corporate Bond ETFs",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://www.reillyfinance.com/research"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "author-site-20261012-007",
+      "title": "Government guarantees and dynamic debt runs",
+      "old_status": "R&R",
+      "new_status": "Accepted",
+      "evidence_url": "https://sites.google.com/site/jacopomagnani/"
+    },
+    {
+      "id": "conference-4c0a0fc7916c6c4f",
+      "title": "Institutional Synergies and the Fragility of Loan Funds",
+      "old_status": "R&R",
+      "new_status": "Published",
+      "evidence_url": "https://doi.org/10.1093/rfs/hhag056"
+    },
+    {
+      "id": "author-roster-20261014-d76c9441306a",
+      "title": "Monetary Policy Through Cross-Selling Banks",
+      "old_status": "R&R",
+      "new_status": "Accepted",
+      "evidence_url": "https://www.ragnarjuelsrud.com/research.html"
+    }
+  ],
+  "strict_rr_by_journal": {
+    "JF": 98,
+    "JFE": 75,
+    "RFS": 136,
+    "RF": 58,
+    "JFQA": 60,
+    "MS": 122
+  },
+  "reject_resubmit_by_journal": {
+    "JF": 3,
+    "JFE": 1,
+    "RFS": 1,
+    "RF": 0,
+    "JFQA": 0,
+    "MS": 0
+  },
+  "strict_rr_total": 549,
+  "reject_resubmit_total": 5,
+  "visible_revision_total": 554,
+  "new_vacancy_adverts": 13,
+  "job_counts": {
+    "total": 76,
+    "active": 43,
+    "historical": 28,
+    "uncertain": 5
+  },
+  "job_status_changes": [
+    {
+      "id": "ejm-12530",
+      "old_status": "open",
+      "new_status": "closed",
+      "deadline": "2026-10-15"
+    },
+    {
+      "id": "openpostdoc-7a712706-2141-46e2-8896-4b3b34f34aa4",
+      "old_status": "open",
+      "new_status": "closed",
+      "deadline": "2026-10-15"
+    },
+    {
+      "id": "openpostdoc-4f17283b-8b8e-4fad-8af8-d4fc5c40fb6f",
+      "old_status": "open",
+      "new_status": "closed",
+      "deadline": "2026-10-18"
+    },
+    {
+      "id": "supplement-gustave-eiffel-fiizu-2026",
+      "old_status": "open",
+      "new_status": "needs recheck",
+      "deadline": "2026-11-15"
+    }
+  ],
+  "review_queue": {
+    "all_records": 370,
+    "pending_records": 157,
+    "decisions": {
+      "rejected_extraction": 81,
+      "accounted_public_record": 101,
+      "pending": 157,
+      "excluded_status_or_scope": 8,
+      "excluded_published": 21,
+      "excluded_scope": 2
+    }
+  },
+  "limitations": [
+    "Homepage URL coverage differs from successful page access and from readable research-content coverage.",
+    "Unverified or conflicting paper and vacancy candidates remain unpublished in review-queue.json.",
+    "Failed sources retain previous verified dates; 406 saved author rows still have no URL.",
+    "Crossref title-search throttling was recorded; exact journal DOI lookups, saved publication corpus and primary records were used without treating SSRN/NBER working-paper DOIs as publication."
+  ],
+  "publication_screen_exclusions": [
+    {
+      "n": 19,
+      "candidate": "Investor Tax Credits and Entrepreneurship: Evidence from U.S. States",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1111/jofi.13267",
+          "journal": "JF",
+          "title": "Investor Tax Credits and Entrepreneurship: Evidence from U.S. States",
+          "published": "2023-08-15",
+          "authors": [
+            {
+              "given": "MATTHEW",
+              "family": "DENES",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "SABRINA T.",
+              "family": "HOWELL",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "FILIPPO",
+              "family": "MEZZANOTTI",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "XINXIN",
+              "family": "WANG",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "TING",
+              "family": "XU",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "candidate": "Anatomy of a Run: The Terra Luna Crash",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1016/j.jfineco.2026.104359",
+          "journal": "JFE",
+          "title": "Anatomy of a run: The Terra Luna crash",
+          "published": "2026-10-01",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-9995-1778",
+              "authenticated-orcid": false,
+              "given": "Jiageng",
+              "family": "Liu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Igor",
+              "family": "Makarov",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Antoinette",
+              "family": "Schoar",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "candidate": "Collateral Eligibility of Corporate Debt in the Eurosystem",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1016/j.jfineco.2023.103777",
+          "journal": "JFE",
+          "title": "Collateral eligibility of corporate debt in the Eurosystem",
+          "published": "2024-03-01",
+          "authors": [
+            {
+              "given": "Loriana",
+              "family": "Pelizzon",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5353-2519",
+              "authenticated-orcid": false,
+              "given": "Max",
+              "family": "Riedel",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-0141-7636",
+              "authenticated-orcid": false,
+              "given": "Zorka",
+              "family": "Simon",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Marti G.",
+              "family": "Subrahmanyam",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "candidate": "Disappearing and Reappearing Dividends",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1016/j.jfineco.2021.06.029",
+          "journal": "JFE",
+          "title": "Disappearing and reappearing dividends",
+          "published": "2022-01-01",
+          "authors": [
+            {
+              "given": "Roni",
+              "family": "Michaely",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Amani",
+              "family": "Moin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 77,
+      "candidate": "Mortgage Prepayment, Race, and Monetary Policy",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1016/j.jfineco.2022.12.001",
+          "journal": "JFE",
+          "title": "Mortgage prepayment, race, and monetary policy",
+          "published": "2023-03-01",
+          "authors": [
+            {
+              "given": "Kristopher",
+              "family": "Gerardi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Paul S.",
+              "family": "Willen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-7808-3630",
+              "authenticated-orcid": false,
+              "given": "David Hao",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 81,
+      "candidate": "Price Ceilings, Market Structure, and Payout Policies",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1016/j.jfineco.2024.103818",
+          "journal": "JFE",
+          "title": "Price ceilings, market structure, and payout policies",
+          "published": "2024-05-01",
+          "authors": [
+            {
+              "given": "Xiongshi",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mao",
+              "family": "Ye",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Miles",
+              "family": "Zheng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 87,
+      "candidate": "Social Media as a Bank Run Catalyst",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1016/j.jfineco.2025.104218",
+          "journal": "JFE",
+          "title": "Social media as a bank run catalyst",
+          "published": "2026-02-01",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-6920-9353",
+              "authenticated-orcid": false,
+              "given": "J. Anthony",
+              "family": "Cookson",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0007-2285-1307",
+              "authenticated-orcid": false,
+              "given": "Corbin",
+              "family": "Fox",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-1773-3900",
+              "authenticated-orcid": false,
+              "given": "Javier",
+              "family": "Gil-Bazo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4970-3711",
+              "authenticated-orcid": false,
+              "given": "Juan F.",
+              "family": "Imbet",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0008-7691-6556",
+              "authenticated-orcid": false,
+              "given": "Christoph",
+              "family": "Schiller",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 130,
+      "candidate": "Asymmetric naïveté: Beliefs about self-control",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1287/mnsc.2021.01780",
+          "journal": "MS",
+          "title": "Asymmetric Naïveté: Beliefs About Self-Control",
+          "published": "2025-07-01",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-7243-1692",
+              "authenticated-orcid": false,
+              "given": "Anastassia",
+              "family": "Fedyk",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Haas School of Business. University of California Berkeley, Berkeley, California 94720"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 131,
+      "candidate": "Bank Dependence and Bank Financing in Corporate M&A",
+      "published_matches": [
+        {
+          "r": 0.966,
+          "doi": "10.1287/mnsc.2020.3947",
+          "journal": "MS",
+          "title": "Bank Dependence and Bank Financing in Corporate M&amp;A",
+          "published": "2022-03-01",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-3626-1726",
+              "authenticated-orcid": false,
+              "given": "Sheng",
+              "family": "Huang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "China Europe International Business School (CEIBS), Pudong, Shanghai 201206, China;"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8829-3589",
+              "authenticated-orcid": false,
+              "given": "Ruichang",
+              "family": "Lu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Finance, Guanghua School of Management, Peking University, Beijing 100871, China;"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4706-8128",
+              "authenticated-orcid": false,
+              "given": "Anand",
+              "family": "Srinivasan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Finance, NUS Business School, National University of Singapore, Singapore 119245"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 136,
+      "candidate": "Consumer Inferences from Product Rankings: The Role of Beliefs in Search Behavior",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1287/mnsc.2025.00761",
+          "journal": "MS",
+          "title": "Consumer Inferences from Product Rankings: The Role of Beliefs in Search Behavior",
+          "published": "2026-08-12",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-6607-0608",
+              "authenticated-orcid": false,
+              "given": "Jessica",
+              "family": "Fong",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Ross School of Business, University of Michigan, Ann Arbor, Michigan 48109"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-6375-3320",
+              "authenticated-orcid": false,
+              "given": "Olivia R.",
+              "family": "Natan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Haas School of Business, University of California, Berkeley, Berkeley, California 94720"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ranmit",
+              "family": "Pantle",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Kellogg School of Management, Northwestern University, Evanston, Illinois 60208"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 152,
+      "candidate": "Frenemies: Corporate Advertising under Common Ownership",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1287/mnsc.2021.4098",
+          "journal": "MS",
+          "title": "Frenemies: Corporate Advertising Under Common Ownership",
+          "published": "2022-06-01",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-8829-3589",
+              "authenticated-orcid": false,
+              "given": "Ruichang",
+              "family": "Lu",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Guanghua School of Management, Peking University, Beijing 100871, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3269-4003",
+              "authenticated-orcid": false,
+              "given": "Qiaowei",
+              "family": "Shen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Guanghua School of Management, Peking University, Beijing 100871, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3836-3678",
+              "authenticated-orcid": false,
+              "given": "Tenghui",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Guanghua School of Management, Peking University, Beijing 100871, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8049-3121",
+              "authenticated-orcid": false,
+              "given": "Xiaojun",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Guanghua School of Management, Peking University, Beijing 100871, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 156,
+      "candidate": "In Short Supply: Efficiency Implications of Rational Attention Allocation",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1287/mnsc.2024.07233",
+          "journal": "MS",
+          "title": "In Short Supply: Efficiency Implications of Rational Attention Allocation",
+          "published": "2026-07-14",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0009-0009-0607-0038",
+              "authenticated-orcid": false,
+              "given": "Ankit",
+              "family": "Kalda",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Kelley School of Business, Indiana University, Bloomington, Indiana 47405;"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0003-3816-2304",
+              "authenticated-orcid": false,
+              "given": "Xiaoying",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Tippie College of Business, The University of Iowa, Iowa City, Iowa 52240;"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3096-7282",
+              "authenticated-orcid": false,
+              "given": "Jan",
+              "family": "Schneemeier",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Eli Broad College of Business, Michigan State University, East Lansing, Michigan 48824"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 162,
+      "candidate": "Labor Unemployment Risk and CEO Incentive Compensation",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1287/mnsc.2023.4714",
+          "journal": "MS",
+          "title": "Labor Unemployment Risk and CEO Incentive Compensation",
+          "published": "2024-02-01",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-0552-4420",
+              "authenticated-orcid": false,
+              "given": "Andrew",
+              "family": "Ellul",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Kelley School of Business, Indiana University, Bloomington, Indiana 47405;"
+                },
+                {
+                  "name": "Center for Economic and Policy Research, London EC1V 0DX, United Kingdom;"
+                },
+                {
+                  "name": "Centre for Studies in Economics and Finance, 80126 Napoli, Italy;"
+                },
+                {
+                  "name": "European Corporate Governance Institute, 1000 Brussels, Belgium;"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2063-0299",
+              "authenticated-orcid": false,
+              "given": "Cong",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Management and Economics, CUHK Business School, The Chinese University of Hong Kong, Shenzhen 518172, China;"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2632-2289",
+              "authenticated-orcid": false,
+              "given": "Kuo",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Antai College of Economics and Management, Shanghai Jiao Tong University, Shanghai 200030, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 185,
+      "candidate": "Science and the Market for Technology",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1287/mnsc.2021.4268",
+          "journal": "MS",
+          "title": "Science and the Market for Technology",
+          "published": "2022-10-01",
+          "authors": [
+            {
+              "given": "Ashish",
+              "family": "Arora",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Fuqua School of Business, Duke University, Durham, North Carolina 27708;"
+                },
+                {
+                  "name": "National Bureau of Economic Research, Cambridge, Massachusetts 02138"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3690-3872",
+              "authenticated-orcid": false,
+              "given": "Sharon",
+              "family": "Belenzon",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Fuqua School of Business, Duke University, Durham, North Carolina 27708;"
+                },
+                {
+                  "name": "National Bureau of Economic Research, Cambridge, Massachusetts 02138"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jungkyu",
+              "family": "Suh",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Fuqua School of Business, Duke University, Durham, North Carolina 27708;"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 186,
+      "candidate": "Searching for Rewards",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1287/mnsc.2024.05203",
+          "journal": "MS",
+          "title": "Searching for Rewards",
+          "published": "2026-10-01",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-8261-0640",
+              "authenticated-orcid": false,
+              "given": "T. Tony",
+              "family": "Ke",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Chinese University of Hong Kong, Hong Kong"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8175-854X",
+              "authenticated-orcid": false,
+              "given": "Jiwoong",
+              "family": "Shin",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Yale University, New Haven, Connecticut 06520"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0006-9026-8685",
+              "authenticated-orcid": false,
+              "given": "Xu",
+              "family": "Zhu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Economics and Management, Beihang University, Beijing 100191, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 194,
+      "candidate": "Stressed Banks? Evidence from the Largest-Ever Supervisory Review",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1287/mnsc.2020.01714",
+          "journal": "MS",
+          "title": "Stressed Banks? Evidence from the Largest-Ever Supervisory Review",
+          "published": "2025-10-01",
+          "authors": [
+            {
+              "given": "Puriya",
+              "family": "Abbassi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Deutsche Bundesbank, 60325 Frankfurt am Main, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3193-0441",
+              "authenticated-orcid": false,
+              "given": "Rajkamal",
+              "family": "Iyer",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Imperial College Business School, London SW7 2AZ, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-4542-7353",
+              "authenticated-orcid": false,
+              "given": "José-Luis",
+              "family": "Peydró",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Imperial College Business School, London SW7 2AZ, United Kingdom; and Catalan Institution for Research and Advanced Studies, 08005 Barcelona, Spain"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8278-8246",
+              "authenticated-orcid": false,
+              "given": "Paul E.",
+              "family": "Soto",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Federal Reserve Board, Washington, District of Columbia 20006"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 199,
+      "candidate": "The Demand for, and Avoidance of, Information",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1287/mnsc.2021.4244",
+          "journal": "MS",
+          "title": "The Demand for, and Avoidance of, Information",
+          "published": "2022-09-01",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-3414-223X",
+              "authenticated-orcid": false,
+              "given": "Russell",
+              "family": "Golman",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Social and Decision Sciences, Carnegie Mellon University, Pittsburgh, Pennsylvania 15213;"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2790-0474",
+              "authenticated-orcid": false,
+              "given": "George",
+              "family": "Loewenstein",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Social and Decision Sciences, Carnegie Mellon University, Pittsburgh, Pennsylvania 15213;"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-4341-9659",
+              "authenticated-orcid": false,
+              "given": "Andras",
+              "family": "Molnar",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Booth School of Business, University of Chicago, Chicago, Illinois 60637"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-7560-8262",
+              "authenticated-orcid": false,
+              "given": "Silvia",
+              "family": "Saccardo",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Social and Decision Sciences, Carnegie Mellon University, Pittsburgh, Pennsylvania 15213;"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 202,
+      "candidate": "The Labor Market Consequences of Student Loan Forbearance",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1287/mnsc.2023.04047",
+          "journal": "MS",
+          "title": "The Labor Market Consequences of Student Loan Forbearance",
+          "published": "2025-11-01",
+          "authors": [
+            {
+              "given": "Naser",
+              "family": "Hamdi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Equifax Inc., Atlanta, Georgia 30309"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ankit",
+              "family": "Kalda",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Kelley School of Business, Indiana University, Bloomington, Indiana 47405"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0005-5155-8228",
+              "authenticated-orcid": false,
+              "given": "David",
+              "family": "Sovich",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Gatton College of Business and Economics, University of Kentucky, Lexington, Kentucky 40506"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 240,
+      "candidate": "Designing Securities for Scrutiny∗",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1093/rfs/hhad013",
+          "journal": "RFS",
+          "title": "Designing Securities for Scrutiny",
+          "published": "2023-02-10",
+          "authors": [
+            {
+              "given": "Brendan",
+              "family": "Daley",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Johns Hopkins University , USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Brett",
+              "family": "Green",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Olin Business School, Washington University in St. Louis , USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Victoria",
+              "family": "Vanasco",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "CREi, UPF , and BSE, Spain"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 277,
+      "candidate": "Valuing Financial Data",
+      "published_matches": [
+        {
+          "r": 1.0,
+          "doi": "10.1093/rfs/hhae034",
+          "journal": "RFS",
+          "title": "Valuing Financial Data",
+          "published": "2024-07-22",
+          "authors": [
+            {
+              "given": "Maryam",
+              "family": "Farboodi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "MIT Sloan, NBER, and CEPR ,",
+                  "place": [
+                    "United States"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Dhruv",
+              "family": "Singal",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Columbia Business School ,",
+                  "place": [
+                    "United States"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Laura",
+              "family": "Veldkamp",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Columbia Business School, NBER, and CEPR ,",
+                  "place": [
+                    "United States"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Venky",
+              "family": "Venkateswaran",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "NYU Stern School of Business and NBER ,",
+                  "place": [
+                    "United States"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "prepublication_validation": {
+    "python_regression_tests": 69,
+    "field_classification_tests": 6,
+    "data_validation": "591 papers,76 vacancies,50 schools passed",
+    "local_static_build": "passed Next.js production export; --no-lint used with shared local dependencies; clean CI installs and runs its normal build",
+    "exported_paper_count": 554,
+    "exported_job_count": 76,
+    "journal_chart_counts_match": true,
+    "fixed_roster_and_publication_conference_corpora_unchanged": true,
+    "public_xlsx_files": 0
+  }
+}

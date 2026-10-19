@@ -183,14 +183,35 @@ def merge(items,new_items,kind):
                     old['deadline']=new['deadline'] or old.get('deadline','')
                     if new['status']!='needs official confirmation':old['status']=new['status']
                     old['last_verified']=new['last_verified']
+                    if old.get('verification','').startswith('Reference-listed'):
+                        for field in ['verification','source_type','source_url']:
+                            old[field]=new[field]
             continue
         result.append(new)
     return result
+
+def stage_unverified_jobs(items, existing_ids, queue, today):
+    """New board discoveries need employer evidence before public promotion."""
+    public=[]
+    for job in items:
+        unverified=(not job.get('last_verified') or
+                    job.get('verification','').startswith('Reference-listed'))
+        if job['id'] not in existing_ids and unverified:
+            queue.append({'kind':'vacancy','title':job['title'],
+                'institution':job['institution'],'url':job['apply_url'],
+                'discovered_on':today,'reference_ids':job.get('reference_ids',[]),
+                'candidate':job,'review':'Confirm employer advert, European location, doctorate requirement, relevant economics/finance field, deadline and application status before publication.'})
+        else:
+            public.append(job)
+    queue=list({r['kind']+'|'+r.get('url',r.get('evidence_url',''))+'|'+normalize(r.get('title',r.get('name',''))):r for r in queue}.values())
+    return public,queue
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--offline',action='store_true');parser.add_argument('--jobs-only',action='store_true');args=parser.parse_args()
     sources=[('chenyang',RR_URL,lambda:parse_rr(download(RR_URL))),('openpostdoc',OP_URL,fetch_openpostdoc),('ejm',EJM_URL+'statuses?page=5',fetch_ejm)]
     papers=load('rr.json',{})['items'];jobs=load('postdocs.json',{})['items'];coverage={'papers':[],'jobs':[]}
+    existing_job_ids={job['id'] for job in jobs}
+    queue=load('review-queue.json',{'items':[]})['items']
     if args.jobs_only:
         sources=[source for source in sources if source[0]!='chenyang']
         coverage['papers']=load('meta.json',{}).get('benchmark_sources',{}).get('papers',[])
@@ -216,6 +237,17 @@ def main():
           'url':url,'total_scanned':cached.get('total_scanned',len(cached['rows'])),'in_scope':len(expected),
           'matched':len(expected-missing),'missing':len(missing),'checked_on':cached['checked_on'],'status':status,
           'note':cached.get('note','')})
+    jobs,queue=stage_unverified_jobs(jobs,existing_job_ids,queue,TODAY)
+    public_ids={i for job in jobs for i in job.get('reference_ids',[])}
+    pending_ids={i for row in queue if row.get('kind')=='vacancy' for i in row.get('reference_ids',[])}-public_ids
+    for source in coverage['jobs']:
+        prefix='openpostdoc:' if source['name']=='OpenPostdoc' else 'ejm:'
+        snapshot=load('references/'+('openpostdoc' if prefix=='openpostdoc:' else 'ejm')+'.json',{})
+        current_ids={prefix+row['id'] for row in snapshot.get('rows',[])}
+        source['public_reference_records']=len(public_ids & current_ids)
+        source['pending_review_records']=len(pending_ids & current_ids)
+        source['accounting_basis']='Matched reference records include public entries and separately retained unpublished review candidates; a complete reference snapshot is not employer verification.'
+    save('review-queue.json',{'updated_on':TODAY,'items':queue})
     for job in jobs:
         if job.get('deadline') and job['deadline']<TODAY:job['status']='closed'
     meta=load('meta.json',{});meta['benchmark_sources']=coverage
@@ -224,7 +256,7 @@ def main():
     save('rr.json',{'items':papers});save('postdocs.json',{'items':jobs});save('meta.json',meta)
     save('history/'+TODAY+'-rr.json',{'items':papers})
     save('history/'+TODAY+'-postdocs.json',{'items':jobs})
-    for name in ['rr','postdocs','meta']:(ROOT/'public'/'watchlists'/(name+'.json')).write_text((DATA/(name+'.json')).read_text())
+    for name in ['rr','postdocs','meta']:(ROOT/'public'/'watchlists'/(name+'.json')).write_text((DATA/(name+'.json')).read_text(encoding='utf-8'),encoding='utf-8')
     print(json.dumps({'papers':len(papers),'jobs':len(jobs),'coverage':coverage},ensure_ascii=False),flush=True)
 
 if __name__=='__main__':main()

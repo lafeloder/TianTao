@@ -1,0 +1,92 @@
+{
+  "checked_on": "2026-10-19",
+  "primary_reviewed": [
+    {
+      "id": "openpostdoc-16528f59-0484-4116-b182-016d6a19aa8c",
+      "source_url": "https://econjobmarket.org/positions/12804",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "openpostdoc-da4059b0-4381-4612-b83d-f5f63a6231f7",
+      "source_url": "https://econjobmarket.org/positions/12818",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "openpostdoc-f4b7efed-2d30-41c8-a101-ef03ce31e3f2",
+      "source_url": "https://econjobmarket.org/positions/12812",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "ejm-12859",
+      "source_url": "https://econjobmarket.org/positions/12859",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "ejm-12846",
+      "source_url": "https://econjobmarket.org/positions/12846",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "ejm-12849",
+      "source_url": "https://econjobmarket.org/positions/12849",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "ejm-12844",
+      "source_url": "https://econjobmarket.org/positions/12844",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "ejm-12809",
+      "source_url": "https://econjobmarket.org/positions/12809",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "openpostdoc-ba77a8ba-3363-4b46-b7bd-d7ab2d4c5017",
+      "source_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189267",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "openpostdoc-2c8ce5be-317d-4208-a033-008dba2a6935",
+      "source_url": "https://www.utu.fi/en/research/research-collegia/tias/ties/for-applicant",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "openpostdoc-dd6a95cf-6495-4ff5-9c5e-c75a52f1b4bc",
+      "source_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8419/",
+      "decision": "primary_confirmed_browser",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "cbs-backlash-2026",
+      "source_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/postdoctoral-position-class-elites-and-political-economy",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "id": "cbs-greenworlds-2026",
+      "source_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/two-post-doctoral-positions-drivers-green-capital",
+      "decision": "primary_confirmed",
+      "checked_on": "2026-10-19"
+    }
+  ],
+  "duplicate_reference_merge": {
+    "retained_id": "ejm-12859",
+    "merged_id": "openpostdoc-f889375e-b5ae-461b-9399-fd6e54f1f4e7",
+    "reason": "Same St Andrews climate/macroeconometrics advert and deadline; full EJM employer advert verified."
+  },
+  "unpublished_scope_exclusions": {
+    "openpostdoc:25f95212-d7db-4dc7-ab3f-f94579cac457": "Official UCL remit is bioprocess/chemical engineering and techno-economic life-cycle modelling, outside this economics/finance postdoc scope.",
+    "openpostdoc:edde15f3-2e3d-443b-bffd-673aebed122f": "Official York advert accepts a Masters degree and/or PhD and is an open-ended Grade 6/7 research post, not a doctorate-required postdoc."
+  }
+}
