@@ -513,9 +513,9 @@
       "country": "Netherlands",
       "career_url": "https://www.tilburguniversity.edu/about/working/vacancies",
       "scope": "FT Europe top 50",
-      "feed_status": "failed",
+      "feed_status": "fetched (limited HTML scan)",
       "last_attempted": "2026-10-19",
-      "last_fetched": "2026-10-12"
+      "last_fetched": "2026-10-19"
     },
     {
       "id": "ft2025-50",

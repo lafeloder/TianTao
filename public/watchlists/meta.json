@@ -6,7 +6,7 @@
   "author_name_groups": 8867,
   "author_identity_records": 11298,
   "approved_homepages": 8513,
-  "homepages_scanned_this_run": 9625,
+  "homepages_scanned_this_run": 9656,
   "journals": {
     "JF": {
       "status": "complete",
@@ -40,18 +40,18 @@
     }
   },
   "schools": 50,
-  "feeds_fetched": 19,
-  "review_queue": 157,
-  "schedule": "Weekly on Mondays, 06:15 UTC (configured GitHub Actions schedule; execution monitored separately)",
+  "feeds_fetched": 20,
+  "review_queue": 374,
+  "schedule": "Weekly on Mondays (GitHub Actions; activation requires repository deployment)",
   "coverage_note": "Homepage coverage is partial. Name/affiliation identities are provisional. A fetched career feed is not an exhaustive vacancy search.",
   "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
   "paper_sources_checked": 20088,
   "reference_paper_rows": 76,
   "job_counts": {
     "total": 76,
-    "active": 43,
     "historical": 28,
-    "uncertain": 5
+    "active": 40,
+    "uncertain": 8
   },
   "benchmark_sources": {
     "papers": [
@@ -76,7 +76,7 @@
         "matched": 49,
         "missing": 0,
         "checked_on": "2026-10-19",
-        "status": "Fresh complete pagination fetched 19 October; same-week snapshot reused in final reconciliation",
+        "status": "complete public pagination",
         "note": "All active and archived pages across all fields were scanned. Only European economics, finance and explicitly related postdoctoral records are included; mechanically focused jobs mislabeled Economics are excluded.",
         "public_reference_records": 46,
         "pending_review_records": 3,
@@ -90,7 +90,7 @@
         "matched": 50,
         "missing": 0,
         "checked_on": "2026-10-19",
-        "status": "Fresh complete pagination fetched 19 October; same-week snapshot reused in final reconciliation",
+        "status": "complete public pagination",
         "note": "All public status and position pages were scanned. Public EJM omits some login-only/free advertisements.",
         "public_reference_records": 50,
         "pending_review_records": 0,
@@ -120,7 +120,7 @@
     "linked_homepages": 5320,
     "homepage_percent": 96.62,
     "searched_by_name": 4670,
-    "homepages_scanned_this_run": 4939,
+    "homepages_scanned_this_run": 5000,
     "basis": "Normalized author name groups from MS publications. Publication/affiliation matches and profile-only links are reported separately; namesakes remain provisional."
   },
   "ms_rr_scan_summary": {
@@ -214,7 +214,7 @@
     "duplicate_title_variants_excluded": 1,
     "audit_file": "rof-alias-rescan-audit.json"
   },
-  "research_pages_scanned_this_run": 8180,
+  "research_pages_scanned_this_run": 8422,
   "postdocs_last_run": "2026-10-19",
   "reject_resubmit_counts_by_journal": {
     "JF": 3,

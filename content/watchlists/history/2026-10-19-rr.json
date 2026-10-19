@@ -162,7 +162,7 @@
         "Asset management"
       ],
       "evidence_excerpt": "Revise and Resubmit, Review of Financial Studies",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2024.103948",
         "journal": "JFE",
@@ -203,7 +203,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Review of Financial Studies",
       "scope": "top5",
@@ -618,7 +618,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Review of Financial Studies",
       "scope": "top5",
@@ -992,7 +992,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Journal of Finance",
       "scope": "top5",
@@ -1046,7 +1046,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Management Science",
       "scope": "top5",
@@ -1102,7 +1102,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Review of Financial Studies",
       "scope": "top5",
@@ -1427,7 +1427,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Management Science",
       "scope": "top5",
@@ -1485,7 +1485,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "reference_only",
       "evidence_excerpt": "Reference tracker lists R&R at Review of Financial Studies; current primary status unconfirmed.",
       "scope": "top5",
@@ -1557,7 +1557,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Review of Financial Studies",
       "scope": "top5",
@@ -1832,7 +1832,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Management Science",
       "scope": "top5",
@@ -2463,7 +2463,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-14",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Journal of Financial and Quantitative Analysis",
       "scope": "top5",
@@ -3565,7 +3565,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Review of Finance",
       "scope": "top5",
@@ -3792,7 +3792,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Management Science",
       "scope": "top5",
@@ -4083,7 +4083,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "R&R, Review of Financial Studies",
       "scope": "top5",
@@ -4623,7 +4623,7 @@
       "first_seen": "2026-10-12",
       "last_verified": "2026-10-12",
       "last_attempted": "2026-10-19",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "evidence_excerpt": "Reject & Resubmit, Journal of Finance",
       "scope": "top5",
@@ -4687,7 +4687,7 @@
         "published": "2021-12-01",
         "author": "Robert Czech"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -4853,7 +4853,7 @@
         "published": "2025-12-18",
         "author": "Boris Vallee"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -4954,7 +4954,7 @@
         "published": "2023-11-01",
         "author": "Karamfil Todorov"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5053,7 +5053,7 @@
         "published": "2026-04-07",
         "author": "OLIVIER WANG"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5120,7 +5120,7 @@
         "published": "2026-08-02",
         "author": "Nadya Malenko"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5186,7 +5186,7 @@
         "published": "2022-12-01",
         "author": "Gustavo S. Cortes"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5218,7 +5218,7 @@
         "published": "2022-12-01",
         "author": "Gustavo S. Cortes"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5351,7 +5351,7 @@
         "published": "2026-05-20",
         "author": "Jinfei Sheng"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5383,7 +5383,7 @@
         "published": "2026-02-01",
         "author": "N Aaron Pancost"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5621,7 +5621,7 @@
         "published": "2023-08-01",
         "author": "Alonso Villacorta"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5655,7 +5655,7 @@
         "published": "2025-09-01",
         "author": "James Brugler"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5688,7 +5688,7 @@
         "published": "2026-06-01",
         "author": "Shumiao Ouyang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5821,7 +5821,7 @@
         "published": "2026-01-08",
         "author": "Qifei Zhu"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5917,7 +5917,7 @@
         "published": "2026-06-01",
         "author": "Leo Liu"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -5982,7 +5982,7 @@
         "published": "2022-04-06",
         "author": "Adam Farago"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6046,7 +6046,7 @@
         "published": "2022-03-10",
         "author": "Xing Liu"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6110,7 +6110,7 @@
         "published": "2025-12-01",
         "author": "Michał Zator"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6142,7 +6142,7 @@
         "published": "2024-05-06",
         "author": "Arna Olafsson"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6342,7 +6342,7 @@
         "published": "2024-01-16",
         "author": "Roberto Gómez-Cram"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6374,7 +6374,7 @@
         "published": "2022-08-24",
         "author": "Johan Hombert"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6406,7 +6406,7 @@
         "published": "2026-08-01",
         "author": "Tobias Berg"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6438,7 +6438,7 @@
         "published": "2026-03-26",
         "author": "Juanita González-Uribe"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6502,7 +6502,7 @@
         "published": "2026-06-01",
         "author": "Leo Liu"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6566,7 +6566,7 @@
         "published": "2024-12-01",
         "author": "Tetiana Davydiuk"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6630,7 +6630,7 @@
         "published": "2022-10-01",
         "author": "Justin Murfin"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6662,7 +6662,7 @@
         "published": "2023-05-23",
         "author": "Yue Qiu"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6689,7 +6689,7 @@
       "topics": [],
       "evidence_excerpt": "Crafting an AI Compass: The Influence of Global AI Standards on FirmsCanayaz, Mehmet, and Zhe Wang. \"Crafting an AI Compass: The Influence of Global AI Standards on Firms.\" Working paper, 2026. Revise and resubmit, The Review of Financial Studies.AIInnovationLawAbstract, Presentations and Media MentionsAbstractWe examine how participation in global standard-setting for artificial intelligence shapes innovation and investment. Participating firms respond to AI standardization on different margins. Frontier firms patent more, particularly when AI committees connect them to the broader AI ecosystem rather than to same-industry peers. Firms outside the patenting frontier instead build absorptive capacity, expanding AI-oriented human capital in ",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6794,7 +6794,7 @@
         "published": "2025-01-30",
         "author": "Wenxi Jiang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6826,7 +6826,7 @@
         "published": "2026-01-01",
         "author": "Hong Zhang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6858,7 +6858,7 @@
         "published": "2022-10-01",
         "author": "Justin Murfin"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6890,7 +6890,7 @@
         "published": "2026-04-21",
         "author": "Hanbin Yang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6922,7 +6922,7 @@
         "published": "2026-07-03",
         "author": "Xingtan Zhang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6954,7 +6954,7 @@
         "published": "2025-07-01",
         "author": "Jean-Marie Meier"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -6986,7 +6986,7 @@
         "published": "2026-04-03",
         "author": "DANIEL URBAN"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7083,7 +7083,7 @@
         "published": "2026-01-19",
         "author": "Shihao Yu"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7147,7 +7147,7 @@
         "published": "2026-09-01",
         "author": "Xu Lu"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7180,7 +7180,7 @@
         "published": "2025-10-01",
         "author": "Jiacui Li"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7205,7 +7205,7 @@
       "topics": [],
       "evidence_excerpt": "Estimating Credit Multipliers”, with Atif Mian and Amir Sufi. Updated. Latest version: June 2026.Revise & Resubmit, Journal of Finance. Revision submitted.Abstract: This paper introduces a new approach for estimating credit multipliers, i.e. the amplification of credit supply shocks due to general equilibrium feedback effects such as the rise in collateral value. The approach is based on comparing the within-region estimate, that captures the partial equilibrium effects, with the across-region estimate, that captures the regional general equilibrium effects fenced-in by trade or transport costs. Applying our methodology to the 2000’s housing cycle, we find a large credit multiplier that more than quadruples the partial equilibrium effect. R",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7282,7 +7282,7 @@
         "published": "2025-09-01",
         "author": "Xiaolin Huo"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7371,7 +7371,7 @@
       "topics": [],
       "evidence_excerpt": "For Better or Worse? The Economic Implications of Paid Sick Leave Mandates. Revise and Resubmit at the Journal of Financial EconomicsPresented at AFABabina, Ma, Moser, Ouimet and Zarutskie. Pay, Employment and Dynamics of Young Firms.Presented at AFA, SOLE Google SitesReport abusePage detailsPage updated Google SitesReport abuseThis site uses cookies from Google to deliver its services and to analyze traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.Learn moreGot it",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7439,7 +7439,7 @@
       "topics": [],
       "evidence_excerpt": "Fragmentation and optimal liquidity supply on decentralized exchanges. Revise and Resubmit at Review of Financial Studies. PDF DOI Publications Behnoud Bazrafshan, Marius Zoican (2026). Preferred clearing and post-trade costs. Review of Asset Pricing Studies, Forthcoming. PDF DOI Philipp Chapkovski, Mariana Khapko, Marius Zoican (2026). Trading Gamification and Investor Behavior. Management Science, 2026, 72(1): 32-56. PDF Cite Code DOI Philipp Chapkovski, Mariana Khapko, Marius Zoican (2025). Gamified Risk-Taking. Journal of Behavioral and Experimental Finance, 2025, 46 (June), 101049. PDF Cite DOI Corey Garriott, Vincent van Kervel, Marius Zoican (2025). Queuing and inventories in limit order markets. Journal of Financial Markets, 2025, 7",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7517,7 +7517,7 @@
         "published": "2022-10-08",
         "author": "BIN WEI"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7580,7 +7580,7 @@
         "published": "2024-08-21",
         "author": "Marius Zoican"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7612,7 +7612,7 @@
         "published": "2026-06-25",
         "author": "Yajun Wang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7644,7 +7644,7 @@
         "published": "2023-10-04",
         "author": "MARIUS A. K. RING"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7708,7 +7708,7 @@
         "published": "2026-03-26",
         "author": "Juanita González-Uribe"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7740,7 +7740,7 @@
         "published": "2026-07-13",
         "author": "Aazam Virani"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7772,7 +7772,7 @@
         "published": "2021-11-01",
         "author": "Anna Cieslak"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7901,7 +7901,7 @@
         "published": "2024-10-01",
         "author": "Chris Anderson"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -7997,7 +7997,7 @@
         "published": "2024-07-05",
         "author": "AMIT KUMAR"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8320,7 +8320,7 @@
         "published": "2026-07-03",
         "author": "Xingtan Zhang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8416,7 +8416,7 @@
         "published": "2025-08-01",
         "author": "Ragnar E. Juelsrud"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8490,7 +8490,7 @@
         "published": "2024-04-17",
         "author": "Charles Martineau"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8522,7 +8522,7 @@
         "published": "2026-04-01",
         "author": "George C. Nurisso"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8554,7 +8554,7 @@
         "published": "2024-01-16",
         "author": "Roberto Gómez-Cram"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8620,7 +8620,7 @@
         "published": "2025-09-01",
         "author": "Germán Sánchez Sánchez"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8684,7 +8684,7 @@
         "published": "2023-07-28",
         "author": "Sasha Indarte"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8716,7 +8716,7 @@
         "published": "2025-04-09",
         "author": "GIORGIA PIACENTINO"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8748,7 +8748,7 @@
         "published": "2026-10-01",
         "author": "Alejandro Lopez-Lira"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8812,7 +8812,7 @@
         "published": "2025-04-01",
         "author": "Oliver Levine"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8844,7 +8844,7 @@
         "published": "2025-10-06",
         "author": "PETER KOUDIJS"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8876,7 +8876,7 @@
         "published": "2026-01-22",
         "author": "Emanuele Tarantino"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8940,7 +8940,7 @@
         "published": "2025-04-09",
         "author": "GIORGIA PIACENTINO"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -8972,7 +8972,7 @@
         "published": "2026-05-15",
         "author": "Svetlana Bryzgalova"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9004,7 +9004,7 @@
         "published": "2026-04-01",
         "author": "Mehran Ebrahimian"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9036,7 +9036,7 @@
         "published": "2024-04-01",
         "author": "Jakub Hajda"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9068,7 +9068,7 @@
         "published": "2026-05-01",
         "author": "Jens Soerlie Kvaerner"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9100,7 +9100,7 @@
         "published": "2025-04-09",
         "author": "GIORGIA PIACENTINO"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9132,7 +9132,7 @@
         "published": "2024-04-17",
         "author": "Charles Martineau"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9164,7 +9164,7 @@
         "published": "2023-09-09",
         "author": "Jillian Grennan"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9260,7 +9260,7 @@
         "published": "2025-01-30",
         "author": "Wenxi Jiang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9325,7 +9325,7 @@
         "published": "2026-06-25",
         "author": "Caterina Mendicino"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9457,7 +9457,7 @@
         "published": "2025-01-23",
         "author": "Zoey Yiyuan Zhou"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9474,14 +9474,14 @@
       "journal": "JFE",
       "status": "R&R",
       "evidence_url": "https://www.ragnarjuelsrud.com/cv.html",
-      "paper_url": "",
+      "paper_url": "https://www.ragnarjuelsrud.com/papers/housing_channel.pdf",
       "ssrn_url": "",
       "source_author": "Ragnar Juelsrud",
       "first_seen": "2026-10-12",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-19",
       "source_updated": "",
       "topics": [],
-      "evidence_excerpt": "The Housing Channel of Intergenerational Wealth Persistence with Ella Getz Wold, Knut Are Aastveit, Eirik Eylands Brandsaas and Gisle James Natvik Norges Bank Working Paper 16/2023 & CEPR Discussion Paper 18888 revise and resubmit, Journal of Financial Economics The Negative Liquidity Effect of Mortgage Regulation with Knut Are Aastveit and Ella Getz Wold Norges Bank Working Paper 6/2020 & CEPR Discussion Paper 20505 revise and resubmit, American Economic Journal: Macroeconomics Granular Credit Risk with Rustam Jamilov, Sigurd Galaasen and Helene Rey NBER Working Paper 27994 & CEPR Discussion Paper 15385 revise and resubmit, American Economic Journal: Macroeconomics The Investment Channel of Monetary Policy: Evidence from Norway with Jin Ca",
+      "evidence_excerpt": "revise and resubmit, Journal of Financial Economics",
       "eligibility": {
         "doi": "10.1287/mnsc.2023.00987",
         "journal": "MS",
@@ -9490,7 +9490,7 @@
         "author": "Ragnar E. Juelsrud"
       },
       "verification": "Previously reported status; current source needs manual reconfirmation.",
-      "verification_status": "needs_recheck",
+      "verification_status": "primary_confirmed",
       "reference_ids": [],
       "source_scope": "top5",
       "eligibility_status": "conference_verified",
@@ -9563,7 +9563,7 @@
         "published": "2026-09-24",
         "author": "Mo Pourmohammadi"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -9822,7 +9822,7 @@
         "published": "2023-01-04",
         "author": "Alessandro Melone"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -10080,7 +10080,7 @@
         "published": "2026-04-21",
         "author": "Adrian Buss"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -10144,7 +10144,7 @@
         "published": "2024-12-20",
         "author": "YILIN (DAVID) YANG"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -10768,7 +10768,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Ubiquitous Comovement with Jung Hoon Lee and Morad Zekhnini R&R at Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1017/s0022109024000826",
@@ -10811,7 +10811,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Democratized Access, Preferred Allocation: Quid Pro Quo and Regulatory Scrutiny in Marketplace Lending (with Li-Ting Chiu and Brian Wolfe), Revise & Resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1111/jofi.13337",
@@ -10856,7 +10856,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Financial fragility in open-ended mutual funds: the role of liquidity management tools, with Peter Dunne, Lorenz Emter, Falko Fecht and Raffaele Giuliana [Cited in the IMF Global Financial Stability Report (October 2022)] [Deutsche Bundesbank Discussion Paper No. 36/2024] (R&R second round at Management Science)",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2024.06886",
@@ -10987,7 +10987,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "When You Get What You Want, but Not What You Need: Digital versus Traditional Resources Carraro, M., Mohadikar, M., Upadhyay, A., Wuttke, D., Siemsen, E. Revise & Resubmit at Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2022.4485",
@@ -11198,7 +11198,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Make it or break it: Corporate Bankruptcy and Management Careers (Revise and Resubmit, Management Science)",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2024.08149",
@@ -11239,7 +11239,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Shareholder Power under Political Retaliation, Revise and Resubmit, Management Science.",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2024.08186",
@@ -11411,7 +11411,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "2. \"How Private Is Private Equity? (with Niklas Huether)Revise and Resubmit at Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2023.01486",
@@ -11496,7 +11496,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Do Retail Traders Suffer from High Frequency Traders? (with Katya Malinova, Ryan Riordan) Revise and resubmit at Management Science; revision in progress, with resubmission planned for early 2027. SSRN",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1111/jofi.13337",
@@ -11539,7 +11539,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "“Rematching with Contracts under Labor Mobility Restrictions: Theory and Application.” Revise-and-resubmit, Management Science (with Umut Dur, Robert G. Hammond). [December 2025 draft]",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2022.00930",
@@ -11584,7 +11584,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Guilbeault, Doug, Austin van Loon, Katharina Lix, Amir Goldberg, and Sameer Srivastava. “Cognitive Diversity Promotes Social Learning—But Only When Cognitive Differences Are Obscured”, Revise and Resubmit at Management Science. (check out the working paper here)",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2022.00895",
@@ -11627,7 +11627,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Working papers:1. Zhang, C., Chen, J., Raghunathan, S. Supplier-Side Mechanism Design for Platforms in a Sharing Economy when Supplier Cost Is Private. Management Science (under 3rd round revise and resubmit) https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5049092 2. Zhang, C., Jiang, Z. Compete or Complement? Generative AI’s Dual Role in the Sharing Economy. MIS Quarterly (under 2nd round revise and resubmit)3. Zhang, C., Jiang, Z. Competing Through GAI: The Role of Exclusive Partnerships. ",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2022.4302",
@@ -11672,7 +11672,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Generative AI and the Nature of Work - HBS Version, NBER Version (w/ Sam Boysel, Frank Nagle, Sida Peng, and Kevin Xu) - R&R at Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2024.04908",
@@ -11714,7 +11714,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Ekaterina Astashkina and Simone Marinesi (2023), All-or-Nothing vs Keep-It-All: Comparing Campaign Designs in Rewards-Based Crowdfunding Platforms, R&R at Management Science.",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2021.04129",
@@ -11801,7 +11801,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Offsetable Derivative Exposures and Investor Risk Assessment (with Jed Neilson, Philip Wang, and Chris Williams), R & R at Management Science.",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2023.4831",
@@ -11845,7 +11845,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Jia, Y., Li, J., Zhang, H., and Zhao, J. \"Timing the Factor Zoo via Deep Visualization\". First version: July 2025; This version: December 2025 PDF Revise & Resubmit: Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1017/s0022109025102123",
@@ -11893,7 +11893,7 @@
       ],
       "evidence_excerpt": "Subjective Expectations and Financial Intermediation ... JFE, R&R",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -11930,7 +11930,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -12003,7 +12003,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -12040,7 +12040,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2021.07.009",
@@ -12153,7 +12153,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -12191,7 +12191,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -12269,7 +12269,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -12339,7 +12339,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -12376,7 +12376,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -12414,7 +12414,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -12567,7 +12567,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial Economics",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2023.01581",
@@ -12830,7 +12830,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial and Quantitative Analysis",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -12946,7 +12946,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial and Quantitative Analysis",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -12982,7 +12982,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial and Quantitative Analysis",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1111/jofi.13372",
@@ -13064,7 +13064,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial and Quantitative Analysis",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2026.104238",
@@ -13107,7 +13107,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial and Quantitative Analysis",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2026.104238",
@@ -13223,7 +13223,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial and Quantitative Analysis",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2025.104107",
@@ -13265,7 +13265,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -13344,7 +13344,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2025.104219",
@@ -13385,7 +13385,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -13670,7 +13670,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2020.3895",
@@ -13713,7 +13713,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1093/rfs/hhag002",
@@ -13756,7 +13756,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2023.103721",
@@ -13842,7 +13842,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -14002,7 +14002,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -14040,7 +14040,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -14239,7 +14239,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -14275,7 +14275,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2024.06997",
@@ -14361,7 +14361,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2026.104309",
@@ -14441,7 +14441,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -14682,7 +14682,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1287/mnsc.2023.01006",
@@ -15027,7 +15027,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1093/rfs/hhaf108",
@@ -15190,7 +15190,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -15335,7 +15335,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1093/rfs/hhae078",
@@ -15378,7 +15378,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -15453,7 +15453,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1111/jofi.13297",
@@ -15531,7 +15531,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2024.103786",
@@ -15574,7 +15574,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial Economics",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1017/s0022109025102123",
@@ -15617,7 +15617,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial and Quantitative Analysis",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -15655,7 +15655,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1111/jofi.70093",
@@ -15698,7 +15698,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -15771,7 +15771,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1017/s0022109022001259",
@@ -15814,7 +15814,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1093/rfs/hhaf067",
@@ -15858,7 +15858,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -15894,7 +15894,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2025.104108",
@@ -15938,7 +15938,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2025.104108",
@@ -16073,7 +16073,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2026.104308",
@@ -16116,7 +16116,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2026.104308",
@@ -16159,7 +16159,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial Economics",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -16195,7 +16195,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2025.104140",
@@ -16239,7 +16239,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -16276,7 +16276,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial Economics",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -16311,7 +16311,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": null,
       "conference_eligibility": {
@@ -16348,7 +16348,7 @@
       "source_updated": "",
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2024.103790",
@@ -16444,7 +16444,7 @@
         "published": "2026-04-03",
         "author": "YoungJun Song"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -16606,7 +16606,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -16684,7 +16684,7 @@
         "published": "2025-08-12",
         "author": "Vasso Ioannidou"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -16728,7 +16728,7 @@
         "published": "2024-04-17",
         "author": "Tom G Meling"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -16886,7 +16886,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial Economics",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -16922,7 +16922,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial Economics",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -16997,7 +16997,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial and Quantitative Analysis",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17107,7 +17107,7 @@
         "published": "2024-08-01",
         "author": "Elyas Fermand"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17175,7 +17175,7 @@
         "published": "2024-04-17",
         "author": "Charles Martineau"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17209,7 +17209,7 @@
         "published": "2024-04-17",
         "author": "Charles Martineau"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17244,7 +17244,7 @@
         "published": "2024-11-01",
         "author": "Thomas Jungbauer"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17279,7 +17279,7 @@
         "published": "2026-07-01",
         "author": "Prasanna Parasurama"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17500,7 +17500,7 @@
         "published": "2024-03-01",
         "author": "Joon Woo Bae"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17537,7 +17537,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17610,7 +17610,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17697,7 +17697,7 @@
         "published": "2026-07-01",
         "author": "Jan Starmans"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17735,7 +17735,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17819,7 +17819,7 @@
         "published": "2026-05-06",
         "author": "Sylvain Catherine"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -17931,7 +17931,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18096,7 +18096,7 @@
         "published": "2022-03-01",
         "author": "Valeri Sokolovski"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18143,7 +18143,7 @@
         "published": "2026-08-03",
         "author": "Tianyue Ruan"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18188,7 +18188,7 @@
         "published": "2026-05-15",
         "author": "Peter Pham"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18222,7 +18222,7 @@
         "published": "2023-01-16",
         "author": "Alejandro Bernales"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18321,7 +18321,7 @@
         "published": "2023-06-19",
         "author": "Marcelo Ortiz"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18489,7 +18489,7 @@
         "published": "2023-06-13",
         "author": "Chanik Jo"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18533,7 +18533,7 @@
         "published": "2026-03-24",
         "author": "Xi Weng"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18567,7 +18567,7 @@
         "published": "2022-10-14",
         "author": "Simon Rottke"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18671,7 +18671,7 @@
         "published": "2026-07-01",
         "author": "Alvin Chen"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18716,7 +18716,7 @@
         "published": "2025-11-12",
         "author": "Zacharias Sautner"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18754,7 +18754,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18797,7 +18797,7 @@
         "published": "2023-08-01",
         "author": "Ambar La Forgia"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18919,7 +18919,7 @@
         "published": "2026-05-01",
         "author": "Katrin Tinn"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -18998,7 +18998,7 @@
         "published": "2025-11-12",
         "author": "Zacharias Sautner"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19120,7 +19120,7 @@
         "published": "2025-01-20",
         "author": "Hong Ru"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19255,7 +19255,7 @@
         "published": "2025-12-14",
         "author": "Ioana Neamţu"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19300,7 +19300,7 @@
         "published": "2025-12-14",
         "author": "Ioana Neamţu"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19344,7 +19344,7 @@
         "published": "2025-09-01",
         "author": "James Brugler"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19389,7 +19389,7 @@
         "published": "2025-11-12",
         "author": "Zacharias Sautner"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19517,7 +19517,7 @@
         "published": "2024-08-21",
         "author": "LI AN"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19553,7 +19553,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19779,7 +19779,7 @@
         "published": "2023-03-02",
         "author": "Minmo Gahng"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19825,7 +19825,7 @@
         "published": "2024-06-01",
         "author": "Jacopo Ponticelli"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19869,7 +19869,7 @@
         "published": "2025-02-17",
         "author": "AZI BEN‐REPHAEL"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19958,7 +19958,7 @@
         "published": "2025-06-01",
         "author": "Chengsi Zhang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -19985,7 +19985,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20021,7 +20021,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Financial Studies",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20058,7 +20058,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Financial Economics",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20102,7 +20102,7 @@
         "published": "2026-09-01",
         "author": "Julian Terstegge"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20146,7 +20146,7 @@
         "published": "2026-04-21",
         "author": "Xing Huang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20191,7 +20191,7 @@
         "published": "2026-04-21",
         "author": "Xing Huang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20236,7 +20236,7 @@
         "published": "2026-04-21",
         "author": "Xing Huang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20317,7 +20317,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Management Science",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20362,7 +20362,7 @@
         "published": "2022-06-22",
         "author": "Tim Liu"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20451,7 +20451,7 @@
         "published": "2026-08-31",
         "author": "Ziang Li"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20495,7 +20495,7 @@
         "published": "2022-09-01",
         "author": "Louis Yang"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20536,7 +20536,7 @@
         "published": "2026-05-01",
         "author": "John Gathergood"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20563,7 +20563,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Review of Finance",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20608,7 +20608,7 @@
         "published": "2023-09-01",
         "author": "Sattar A. Mansi"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20643,7 +20643,7 @@
         "published": "2022-03-01",
         "author": "Gabriel Y. Weintraub"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20677,7 +20677,7 @@
         "published": "2022-10-06",
         "author": "Steven D. Baker"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20703,8 +20703,8 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
       "eligibility": null,
-      "verification": "author research page or public CV, refreshed primary evidence",
-      "verification_status": "primary_confirmed",
+      "verification": "Previously reported status; latest primary parsing incomplete",
+      "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
       "eligibility_status": "conference_verified",
@@ -20746,8 +20746,8 @@
         "published": "2026-04-01",
         "author": "Aleksandra Joanna Kacperczyk"
       },
-      "verification": "author research page or public CV, refreshed primary evidence",
-      "verification_status": "primary_confirmed",
+      "verification": "Previously reported status; latest primary parsing incomplete",
+      "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
       "eligibility_status": "verified",
@@ -20781,8 +20781,8 @@
         "published": "2026-04-01",
         "author": "Aleksandra Joanna Kacperczyk"
       },
-      "verification": "author research page or public CV, refreshed primary evidence",
-      "verification_status": "primary_confirmed",
+      "verification": "Previously reported status; latest primary parsing incomplete",
+      "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
       "eligibility_status": "verified",
@@ -20817,8 +20817,8 @@
         "published": "2024-08-01",
         "author": "K. C. John Wei"
       },
-      "verification": "author research page or public CV, refreshed primary evidence",
-      "verification_status": "primary_confirmed",
+      "verification": "Previously reported status; latest primary parsing incomplete",
+      "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
       "eligibility_status": "verified",
@@ -20851,8 +20851,8 @@
         "published": "2024-08-01",
         "author": "K. C. John Wei"
       },
-      "verification": "author research page or public CV, refreshed primary evidence",
-      "verification_status": "primary_confirmed",
+      "verification": "Previously reported status; latest primary parsing incomplete",
+      "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
       "eligibility_status": "verified",
@@ -20885,7 +20885,7 @@
         "published": "2024-07-01",
         "author": "Bradford Lynch-Levy"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20919,7 +20919,7 @@
         "published": "2025-12-29",
         "author": "Alexander F. Wagner"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -20958,7 +20958,7 @@
       "topics": [],
       "evidence_excerpt": "Revise and resubmit, Journal of Finance",
       "eligibility": null,
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -21002,7 +21002,7 @@
         "published": "2025-11-12",
         "author": "Zacharias Sautner"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -21046,7 +21046,7 @@
         "published": "2025-02-01",
         "author": "Yohanes E. Riyanto"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -21090,7 +21090,7 @@
         "published": "2025-07-01",
         "author": "Wanxue Dong"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -21125,7 +21125,7 @@
         "published": "2026-05-18",
         "author": "Zifeng Zhao"
       },
-      "verification": "Previously reported status; current source needs manual reconfirmation.",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "verification_status": "needs_recheck",
       "reference_ids": [],
       "source_scope": "top5",
@@ -21366,7 +21366,7 @@
       "evidence_url": "https://dmurav.com/",
       "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4826698",
       "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4826698",
-      "evidence_excerpt": "Reject & Resubmit at Journal of Financial Economics",
+      "evidence_excerpt": "Reject & Resubmit, Journal of Financial Economics",
       "bounded_record": "A single li contains the exact linked title, all three coauthors, and its own decision.",
       "id": "weekly-20261019-4d235db5c883178f",
       "source_scope": "top5",
@@ -21408,8 +21408,8 @@
       "last_attempted": "2026-10-19",
       "source_updated": "",
       "topics": [],
-      "verification_status": "primary_confirmed",
-      "verification": "Exact title, complete author list and own explicit decision individually checked on the current primary page; saved tracked-journal corpus and any conflicting newer publication information screened.",
+      "verification_status": "needs_recheck",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "eligibility": {
         "doi": "10.1016/j.jfineco.2026.104308",
         "journal": "JFE",
@@ -21604,7 +21604,7 @@
         "journal": "JF",
         "title": "Wealth and Insurance Choices: Evidence from U.S. Households",
         "published": "2025-01-30",
-        "author": "Michael J. Gropper"
+        "author": "MICHAEL J. GROPPER"
       },
       "reference_ids": [],
       "eligibility_status": "verified"
@@ -21637,8 +21637,8 @@
       "last_attempted": "2026-10-19",
       "source_updated": "",
       "topics": [],
-      "verification_status": "primary_confirmed",
-      "verification": "Exact title, complete author list and own explicit decision individually checked on the current primary page; saved tracked-journal corpus and any conflicting newer publication information screened.",
+      "verification_status": "needs_recheck",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "eligibility": {
         "doi": "10.1111/jofi.70068",
         "journal": "JF",
@@ -22041,8 +22041,8 @@
       "last_attempted": "2026-10-19",
       "source_updated": "",
       "topics": [],
-      "verification_status": "primary_confirmed",
-      "verification": "Exact title, complete author list and own explicit decision individually checked on the current primary page; saved tracked-journal corpus and any conflicting newer publication information screened.",
+      "verification_status": "needs_recheck",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "eligibility": null,
       "reference_ids": [],
       "eligibility_status": "conference_verified",
@@ -22412,7 +22412,7 @@
         "journal": "JF",
         "title": "Broadband Internet and the Stock Market Investments of Individual Investors",
         "published": "2024-04-17",
-        "author": "Tom G. Meling"
+        "author": "Tom G Meling"
       },
       "reference_ids": [],
       "eligibility_status": "verified"
@@ -22442,8 +22442,8 @@
       "last_attempted": "2026-10-19",
       "source_updated": "",
       "topics": [],
-      "verification_status": "primary_confirmed",
-      "verification": "Exact title, complete author list and own explicit decision individually checked on the current primary page; saved tracked-journal corpus and any conflicting newer publication information screened.",
+      "verification_status": "needs_recheck",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "eligibility": null,
       "reference_ids": [],
       "eligibility_status": "conference_verified",
@@ -22721,8 +22721,8 @@
       "last_attempted": "2026-10-19",
       "source_updated": "",
       "topics": [],
-      "verification_status": "primary_confirmed",
-      "verification": "Exact title, complete author list and own explicit decision individually checked on the current primary page; saved tracked-journal corpus and any conflicting newer publication information screened.",
+      "verification_status": "needs_recheck",
+      "verification": "Previously reported status; latest primary parsing incomplete",
       "eligibility": {
         "doi": "10.1017/s0022109024000930",
         "journal": "JFQA",
@@ -23113,11 +23113,11 @@
       "verification_status": "primary_confirmed",
       "verification": "Exact title, complete author list and own explicit decision individually checked on the current primary page; saved tracked-journal corpus and any conflicting newer publication information screened.",
       "eligibility": {
-        "doi": "10.1093/rfs/hhac017",
-        "journal": "RFS",
-        "title": "Do Wall Street Landlords Undermine Renters’ Welfare?",
-        "published": "2022-03-18",
-        "author": "Steven Chong Xiao"
+        "doi": "10.1017/s0022109022001302",
+        "journal": "JFQA",
+        "title": "The Market for Corporate Control as a Limit to Short Arbitrage",
+        "published": "2022-11-24",
+        "author": "Steven C. Xiao"
       },
       "reference_ids": [],
       "eligibility_status": "verified"
@@ -23156,7 +23156,7 @@
         "journal": "JF",
         "title": "Institutional Investor Attention",
         "published": "2026-01-16",
-        "author": "Alan Kwan"
+        "author": "ALAN KWAN"
       },
       "reference_ids": [],
       "eligibility_status": "verified"
@@ -23518,7 +23518,7 @@
         "journal": "JF",
         "title": "Hedger of Last Resort: Evidence from Brazilian FX Interventions, Local Credit, and Global Financial Cycles",
         "published": "2026-05-22",
-        "author": "Andrea Polo"
+        "author": "ANDREA POLO"
       },
       "reference_ids": [],
       "eligibility_status": "verified"
