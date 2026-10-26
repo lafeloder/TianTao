@@ -14,6 +14,7 @@ import urllib.parse
 import urllib.request
 from bs4 import BeautifulSoup
 from bootstrap import ROOT, DATA, load, save, normalize
+from refresh import merge_review_queue
 from public_benchmarks import screen_openpostdoc, screen_ejm, parse_ejm_html
 
 TODAY=dt.date.today().isoformat()
@@ -195,7 +196,8 @@ def stage_unverified_jobs(items, existing_ids, queue, today):
     public=[]
     for job in items:
         unverified=(not job.get('last_verified') or
-                    job.get('verification','').startswith('Reference-listed'))
+                    job.get('verification','').startswith('Reference-listed') or
+                    job.get('verification')=='Employer-published EJM advertisement')
         if job['id'] not in existing_ids and unverified:
             queue.append({'kind':'vacancy','title':job['title'],
                 'institution':job['institution'],'url':job['apply_url'],
@@ -203,7 +205,7 @@ def stage_unverified_jobs(items, existing_ids, queue, today):
                 'candidate':job,'review':'Confirm employer advert, European location, doctorate requirement, relevant economics/finance field, deadline and application status before publication.'})
         else:
             public.append(job)
-    queue=list({r['kind']+'|'+r.get('url',r.get('evidence_url',''))+'|'+normalize(r.get('title',r.get('name',''))):r for r in queue}.values())
+    queue=merge_review_queue(queue)
     return public,queue
 
 def main():

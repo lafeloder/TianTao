@@ -213,3 +213,9 @@ page, public recruitment PDF, public LinkedIn or a second board for jobs. Never
 let a generic fetch or listing-page deadline silently remove or misdate records.
 The source snapshots and public-page screening logic are factual metadata;
 full job adverts and paper abstracts are not republished.
+
+### Weekly review state (26 October 2026)
+
+- Repeated scans preserve completed candidate reviews when the title, source, journal and decision are unchanged; changed decisions return to review.
+- Newly discovered EJM records remain unpublished until their full employer advert has been individually checked. Structured provider metadata alone does not confirm postdoctoral scope.
+- Working-paper identifiers and title aliases establish identity; they do not establish journal publication. Incorrect adjacent-paper links are removed when primary records identify the correct paper.

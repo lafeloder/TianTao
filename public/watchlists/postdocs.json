@@ -23,7 +23,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=5#position12530",
       "apply_url": "https://econjobmarket.org/positions/12530",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -54,6 +54,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=6#position12530",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=7#position12530",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -91,11 +96,11 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/7a712706-2141-46e2-8896-4b3b34f34aa4",
-          "checked_on": "2026-10-12",
-          "reported_status": "confirmed_open"
+          "checked_on": "2026-10-26",
+          "reported_status": "closed"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "openpostdoc-4f17283b-8b8e-4fad-8af8-d4fc5c40fb6f",
@@ -135,7 +140,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "openpostdoc-fa64d717-f2ad-4fd9-95b2-852782e5ab19",
@@ -151,7 +156,7 @@
       ],
       "fit": "Stochastic methods and AI applied to economics, finance, energy and insurance; requires a doctorate in a relevant mathematics discipline.",
       "deadline": "2026-10-22",
-      "status": "open",
+      "status": "closed",
       "duration": "3 years; a fourth year may be considered",
       "start": "No later than 2027-01-31",
       "salary": "NOK 595,000–690,000 gross per year",
@@ -174,7 +179,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "supplement-rwi-70200-09-26",
@@ -204,7 +209,7 @@
       "search_status": "Accepting applications",
       "reference_ids": [],
       "source_reports": [],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "ejm-12724",
@@ -226,7 +231,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=2#position12724",
       "apply_url": "https://econjobmarket.org/positions/12724",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -245,6 +250,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=2#position12724",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=3#position12724",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -270,7 +280,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=1#position12741",
       "apply_url": "https://econjobmarket.org/positions/12741",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -289,7 +299,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/3fe95cf8-9882-4e8f-8219-bddca7db79eb",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -300,7 +310,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/positions?page=1#position12741",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -324,7 +334,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=4#position12781",
       "apply_url": "https://econjobmarket.org/positions/12781",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -355,6 +365,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=5#position12781",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=6#position12781",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -381,7 +396,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=4#position12665",
       "apply_url": "https://econjobmarket.org/positions/12665",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -400,7 +415,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/ea870929-caba-426e-9c6c-55dc24e480e2",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -411,7 +426,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=5#position12665",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -435,7 +450,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=3#position12806",
       "apply_url": "https://econjobmarket.org/positions/12806",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -459,13 +474,13 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/19381721-69e7-4a71-b3cf-c2cc51e7757a",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=4#position12806",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -491,7 +506,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=3#position12552",
       "apply_url": "https://econjobmarket.org/positions/12552",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -510,7 +525,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/4305deec-9ac1-4453-b181-123e534adc6a",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -522,6 +537,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=4#position12552",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=5#position12552",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -546,7 +566,7 @@
       "source_url": "https://employment.ku.dk/all-vacancies/?show=167779",
       "apply_url": "https://employment.ku.dk/all-vacancies/?show=167779",
       "source_type": "Official website",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": "Adjacent financial mathematics / insurance / financial economics positions. The benchmark feed omitted the actual 15 November deadline.",
@@ -558,11 +578,11 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/516d9299-887b-4948-b1db-cb0d1a3be57a",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "supplement-gustave-eiffel-fiizu-2026",
@@ -593,7 +613,7 @@
       "search_status": "Accepting applications",
       "reference_ids": [],
       "source_reports": [],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "ejm-12699",
@@ -615,7 +635,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=3#position12699",
       "apply_url": "https://econjobmarket.org/positions/12699",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -634,7 +654,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/6c797e62-5387-4a15-83d1-416eecedad23",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -646,6 +666,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=4#position12699",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=5#position12699",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -670,7 +695,7 @@
       "source_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=188853",
       "apply_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=188853",
       "source_type": "Official website",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": " Official vacancy 188853: LLMs, AI and Financial Economics; 2 appointments. Deadline 19 November 2026, 12:00 UK time.",
@@ -682,12 +707,12 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/d270ba6e-0e4d-44bd-a8e8-5a9b7c379260",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         }
       ],
       "deadline_at": "2026-11-19T12:00:00+00:00",
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "openpostdoc-ed499b97-ce7f-413d-9132-0af159b1e794",
@@ -709,7 +734,7 @@
       "source_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=188851",
       "apply_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=188851",
       "source_type": "Official website",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": " Official vacancy 188851: Asset Pricing and Portfolio Theory; 2 appointments. Deadline 19 November 2026, 12:00 UK time.",
@@ -721,12 +746,12 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/ed499b97-ce7f-413d-9132-0af159b1e794",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         }
       ],
       "deadline_at": "2026-11-19T12:00:00+00:00",
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "ejm-12692",
@@ -750,7 +775,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=3#position12692",
       "apply_url": "https://econjobmarket.org/positions/12692",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -769,7 +794,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/df692623-75e4-45dc-9187-c13f259601c7",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -781,6 +806,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=4#position12692",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=5#position12692",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -804,7 +834,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=3#position12628",
       "apply_url": "https://econjobmarket.org/positions/12628",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -823,7 +853,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/a93a370b-d0a2-46b9-8fa5-5fedc25d31b3",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -835,6 +865,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=4#position12628",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=5#position12628",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -858,7 +893,7 @@
       "source_url": "https://www.uni-hannover.de/en/jobs/8794/",
       "apply_url": "https://econjobmarket.org/positions/12803",
       "source_type": "Official website",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": "",
@@ -882,16 +917,16 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/32e58a0c-0b04-4514-961d-4bdc89cafe7d",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=4#position12803",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "ejm-12786",
@@ -913,7 +948,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=2#position12786",
       "apply_url": "https://econjobmarket.org/positions/12786",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -937,13 +972,13 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/b5d65a4b-8dd5-42d6-b1b9-d08b1cc628d6",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=3#position12786",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -967,7 +1002,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=3#position12634",
       "apply_url": "https://econjobmarket.org/positions/12634",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -995,7 +1030,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=4#position12634",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1019,7 +1054,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=3#position12764",
       "apply_url": "https://econjobmarket.org/positions/12764",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -1038,7 +1073,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/7bb4482b-b027-4848-bc69-cb9301421673",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -1049,7 +1084,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=4#position12764",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1074,7 +1109,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=2#position12727",
       "apply_url": "https://econjobmarket.org/positions/12727",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -1093,7 +1128,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/a82d25bc-fb72-4ec3-b5a2-a8cd6ac12c6d",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -1104,7 +1139,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=3#position12727",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1128,7 +1163,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=2#position12730",
       "apply_url": "https://econjobmarket.org/positions/12730",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -1147,7 +1182,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/f195a7d2-9799-465d-a6bb-ee113aa9167c",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -1158,7 +1193,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=3#position12730",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1182,7 +1217,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=2#position12729",
       "apply_url": "https://econjobmarket.org/positions/12729",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -1201,7 +1236,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/137c5291-3ea8-4e80-a3bb-869399d05ec7",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -1212,7 +1247,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=3#position12729",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1236,7 +1271,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=2#position12732",
       "apply_url": "https://econjobmarket.org/positions/12732",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -1255,7 +1290,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/b9cd6acd-6c13-452a-a46a-1a16fad0d0da",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -1266,7 +1301,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=3#position12732",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1290,7 +1325,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=2#position12725",
       "apply_url": "https://econjobmarket.org/positions/12725",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -1309,7 +1344,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/4b520271-0604-4183-b9cb-5fd92275586f",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -1320,7 +1355,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=3#position12725",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1345,7 +1380,7 @@
       "source_url": "https://www.cam.ac.uk/jobs/janeway-institute-postdoctoral-research-fellowship-research-assistant-or-research-associate-fixed-jh50885",
       "apply_url": "https://www.cam.ac.uk/jobs/janeway-institute-postdoctoral-research-fellowship-research-assistant-or-research-associate-fixed-jh50885",
       "source_type": "Official website",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": "",
@@ -1357,11 +1392,11 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/055db4a4-d883-494b-9f63-0dc0d6a574dc",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "ejm-12485",
@@ -1384,7 +1419,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=2#position12485",
       "apply_url": "https://econjobmarket.org/positions/12485",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -1403,13 +1438,18 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/f10a2bfa-e8c8-4ca8-9e75-7bc12ba0462a",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=2#position12485",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=3#position12485",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1433,7 +1473,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=2#position12734",
       "apply_url": "https://econjobmarket.org/positions/12734",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "Scholarship, not employment; check benefits and tax conditions.",
@@ -1452,13 +1492,13 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/400dc990-80f1-40f4-8431-1387a6d5ebb3",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=2#position12734",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1482,7 +1522,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=1#position12700",
       "apply_url": "https://econjobmarket.org/positions/12700",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "Postdoctoral hosting route depends on separately won competitive funding; the same ad also advertises an Assistant Professor position.",
@@ -1501,13 +1541,13 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/9157df26-93b4-47a5-ad85-67c48aa2d79c",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/positions?page=1#position12700",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1531,7 +1571,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=1#position12765",
       "apply_url": "https://econjobmarket.org/positions/12765",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -1550,12 +1590,12 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/positions?page=1#position12765",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         },
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/84b2a0aa-9f5d-4b6d-8961-d4e38d3cbfe9",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         }
       ]
@@ -1580,7 +1620,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=1#position12798",
       "apply_url": "https://econjobmarket.org/positions/12798",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -1599,13 +1639,13 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/38016369-4357-43a5-b75c-2225a0858874",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/positions?page=1#position12798",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1623,14 +1663,14 @@
       ],
       "fit": "Quantitative finance research with applied machine learning at the Swissquote Chair; projects tailored to the successful candidate.",
       "deadline": "",
-      "status": "deadline unknown",
+      "status": "closed",
       "duration": "Not stated",
       "start": "Not stated",
       "salary": "Not stated",
       "source_url": "https://careers.epfl.ch/job/Lausanne-Postdoc-Position-in-Quantitative-Finance-at-EPFL/1164712155/",
       "apply_url": "https://careers.epfl.ch/job/Lausanne-Postdoc-Position-in-Quantitative-Finance-at-EPFL/1164712155/",
       "source_type": "Official website",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": "",
@@ -1642,11 +1682,11 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/38dd0fea-3635-4a74-9a2c-e15ea852bc33",
-          "checked_on": "2026-10-19",
-          "reported_status": "confirmed_open"
+          "checked_on": "2026-10-26",
+          "reported_status": "closed"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "openpostdoc-dbf3d06d-81e5-44ae-b3bf-531854efc179",
@@ -1663,14 +1703,14 @@
       ],
       "fit": "Research on the employment impacts and political economy of decarbonization, using labour surveys, text methods and policy evaluation.",
       "deadline": "",
-      "status": "deadline unknown",
+      "status": "closed",
       "duration": "1 year",
       "start": "2026-11-01",
       "salary": "Not stated",
       "source_url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-position-at-PASU-lab-1/1165525455/",
       "apply_url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-position-at-PASU-lab-1/1165525455/",
       "source_type": "Official website",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": "",
@@ -1682,11 +1722,11 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/dbf3d06d-81e5-44ae-b3bf-531854efc179",
-          "checked_on": "2026-10-19",
-          "reported_status": "confirmed_open"
+          "checked_on": "2026-10-26",
+          "reported_status": "closed"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "ejm-12498",
@@ -1845,7 +1885,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=5#position12473",
       "apply_url": "https://econjobmarket.org/positions/12473",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "Ad mixes a 24-month funded position with MSCA hosting opportunities; the employer no longer accepts applications.",
@@ -1869,6 +1909,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=6#position12473",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=7#position12473",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1934,7 +1979,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=6#position12504",
       "apply_url": "https://econjobmarket.org/positions/12504",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -1958,6 +2003,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=7#position12504",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=8#position12504",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -1983,7 +2033,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=5#position12477",
       "apply_url": "https://econjobmarket.org/positions/12477",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2007,6 +2057,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=6#position12477",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=7#position12477",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2030,7 +2085,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=6#position12525",
       "apply_url": "https://econjobmarket.org/positions/12525",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2054,6 +2109,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=7#position12525",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=8#position12525",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2077,7 +2137,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=6#position12526",
       "apply_url": "https://econjobmarket.org/positions/12526",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2101,6 +2161,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=7#position12526",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=8#position12526",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2124,7 +2189,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=6#position12500",
       "apply_url": "https://econjobmarket.org/positions/12500",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2148,6 +2213,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=7#position12500",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=8#position12500",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2172,7 +2242,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=6#position12517",
       "apply_url": "https://econjobmarket.org/positions/12517",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2196,6 +2266,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=7#position12517",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=8#position12517",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2219,7 +2294,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=6#position12531",
       "apply_url": "https://econjobmarket.org/positions/12531",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2243,6 +2318,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=7#position12531",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=8#position12531",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2266,7 +2346,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=5#position12509",
       "apply_url": "https://econjobmarket.org/positions/12509",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2289,7 +2369,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=7#position12509",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2313,7 +2393,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=6#position12508",
       "apply_url": "https://econjobmarket.org/positions/12508",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2337,6 +2417,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=7#position12508",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=8#position12508",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2360,7 +2445,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=6#position12332",
       "apply_url": "https://econjobmarket.org/positions/12332",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2384,6 +2469,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=7#position12332",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=8#position12332",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2408,7 +2498,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=5#position12542",
       "apply_url": "https://econjobmarket.org/positions/12542",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2431,7 +2521,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=7#position12542",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2468,7 +2558,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/622b286f-81b7-498f-8dee-fd71f865a98b",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "closed"
         }
       ]
@@ -2506,7 +2596,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/1b739281-3ac8-4cd7-be27-d25507cc2651",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "closed"
         }
       ]
@@ -2531,7 +2621,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=5#position12551",
       "apply_url": "https://econjobmarket.org/positions/12551",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2551,13 +2641,13 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/38b9430e-88b3-410f-aa9f-8e6d0016f64d",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "closed"
         },
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/ceb328d5-5f67-4ae9-8436-01573cfad4e3",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "closed"
         },
         {
@@ -2569,6 +2659,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=6#position12551",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=7#position12551",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2605,7 +2700,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/d67a07ce-1b78-499d-8085-445f9fed4d3a",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "closed"
         }
       ]
@@ -2630,7 +2725,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=5#position12543",
       "apply_url": "https://econjobmarket.org/positions/12543",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2650,13 +2745,13 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/1aeae9f0-c82e-47b4-b017-6ecff2f48681",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "closed"
         },
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/68c6c82b-8888-414f-acc3-700eefb996ec",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
@@ -2668,6 +2763,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=6#position12543",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=7#position12543",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2692,7 +2792,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=5#position12611",
       "apply_url": "https://econjobmarket.org/positions/12611",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2716,6 +2816,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=6#position12611",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=7#position12611",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2752,7 +2857,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/229ab673-5832-4a0e-bd8a-ff7fd7b7101b",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "closed"
         }
       ]
@@ -2777,7 +2882,7 @@
       "source_url": "https://econjobmarket.org/statuses?page=5#position12513",
       "apply_url": "https://econjobmarket.org/positions/12513",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-12",
       "verification": "Verified employer-submitted EJM advertisement and recruiter status",
       "notes": "",
@@ -2796,7 +2901,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/cd7b3a23-a933-44bf-bb37-52fa61bdfb3c",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "closed"
         },
         {
@@ -2808,6 +2913,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=6#position12513",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=7#position12513",
+          "checked_on": "2026-10-26"
         }
       ]
     },
@@ -2844,7 +2954,7 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/bf5d299b-4c59-4480-9192-843d858c8a7c",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "closed"
         }
       ]
@@ -2862,7 +2972,7 @@
       ],
       "fit": "Related field: corporate networks, accounting and textual data; Department of Organization.",
       "deadline": "2026-10-21",
-      "status": "open",
+      "status": "closed",
       "duration": "1 year",
       "start": "Not specified",
       "salary": "Collective agreement; amount not stated",
@@ -2871,7 +2981,7 @@
       "source_type": "Official website",
       "last_verified": "2026-10-19",
       "notes": "Requires experience with corporate network data. This is an adjacent corporate research role.",
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-26",
       "verification": "Official source checked; availability labelled separately",
       "reference_ids": []
     },
@@ -2897,9 +3007,9 @@
       "source_url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-researcher-finance",
       "apply_url": "https://apply.interfolio.com/181107",
       "source_type": "Official website",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "notes": "The official advertisement remains available. Its closing date and whether applications are still accepted could not be confirmed.",
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-26",
       "verification": "Official source checked; availability labelled separately",
       "reference_ids": []
     },
@@ -2923,9 +3033,9 @@
       "source_url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-fellowship-cfet",
       "apply_url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-fellowship-cfet",
       "source_type": "Official website",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "notes": "No teaching duties. R/Python and empirical panel-data experience required; ML/AI experience is an asset. Closing date is not stated.",
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-26",
       "verification": "Official source checked; availability labelled separately",
       "reference_ids": []
     },
@@ -2952,7 +3062,7 @@
       "source_url": "https://econjobmarket.org/positions/12804",
       "apply_url": "https://www.unimi.it/en/node/55230",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Full employer-submitted EJM advert checked: European location, doctorate requirement, research field, application deadline and accepting-applications status.",
       "notes": "Official university application is mandatory; the advert specifies 12:00 noon Central European Time on 30 October 2026.",
@@ -2970,7 +3080,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=6#position12804",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ],
       "last_attempted": "2026-10-19"
@@ -2997,7 +3107,7 @@
       "source_url": "https://econjobmarket.org/positions/12818",
       "apply_url": "https://econjobmarket.org/positions/12818",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Full employer-submitted EJM advert checked: European location, doctorate requirement, research field, application deadline and accepting-applications status.",
       "notes": "",
@@ -3009,13 +3119,18 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/da4059b0-4381-4612-b83d-f5f63a6231f7",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=4#position12818",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=5#position12818",
+          "checked_on": "2026-10-26"
         }
       ],
       "last_attempted": "2026-10-19"
@@ -3042,7 +3157,7 @@
       "source_url": "https://econjobmarket.org/positions/12812",
       "apply_url": "https://econjobmarket.org/positions/12812",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Full employer-submitted EJM advert checked: European location, doctorate requirement, research field, application deadline and accepting-applications status.",
       "notes": "",
@@ -3054,13 +3169,18 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/f4b7efed-2d30-41c8-a101-ef03ce31e3f2",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         },
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=3#position12812",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=4#position12812",
+          "checked_on": "2026-10-26"
         }
       ],
       "last_attempted": "2026-10-19"
@@ -3087,13 +3207,14 @@
       "source_url": "https://econjobmarket.org/positions/12859",
       "apply_url": "https://econjobmarket.org/positions/12859",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Full employer-submitted EJM advert checked: European location, doctorate requirement, research field, application deadline and accepting-applications status.",
       "search_status": "(12859) Post-Doctoral Research Fellow in Climate- and Macroeconometrics St Andrews, United Kingdom. Starts 2027-03-01. D",
       "notes": "",
       "reference_ids": [
         "ejm:12859",
+        "openpostdoc:aace78e0-f8a4-46b2-88c1-49e178094d15",
         "openpostdoc:f889375e-b5ae-461b-9399-fd6e54f1f4e7"
       ],
       "source_reports": [
@@ -3107,6 +3228,17 @@
           "url": "https://www.openpostdoc.org/position/f889375e-b5ae-461b-9399-fd6e54f1f4e7",
           "checked_on": "2026-10-19",
           "reported_status": "confirmed_open"
+        },
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/aace78e0-f8a4-46b2-88c1-49e178094d15",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=3#position12859",
+          "checked_on": "2026-10-26"
         }
       ],
       "last_attempted": "2026-10-19"
@@ -3133,7 +3265,7 @@
       "source_url": "https://econjobmarket.org/positions/12846",
       "apply_url": "https://econjobmarket.org/positions/12846",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Full employer-submitted EJM advert checked: European location, doctorate requirement, research field, application deadline and accepting-applications status.",
       "search_status": "Duration: 3 years Accepting applications",
@@ -3146,6 +3278,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=3#position12846",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=4#position12846",
+          "checked_on": "2026-10-26"
         }
       ],
       "last_attempted": "2026-10-19"
@@ -3173,7 +3310,7 @@
       "source_url": "https://econjobmarket.org/positions/12849",
       "apply_url": "https://econjobmarket.org/positions/12849",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Full employer-submitted EJM advert checked: European location, doctorate requirement, research field, application deadline and accepting-applications status.",
       "search_status": "Duration: 3 years Accepting applications",
@@ -3185,7 +3322,7 @@
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=4#position12849",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
         }
       ],
       "last_attempted": "2026-10-19"
@@ -3211,19 +3348,26 @@
       "source_url": "https://econjobmarket.org/positions/12844",
       "apply_url": "https://econjobmarket.org/positions/12844",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Full employer-submitted EJM advert checked: European location, doctorate requirement, research field, application deadline and accepting-applications status.",
       "search_status": "(12844) Postdoctoral Researcher (f/m/d) for the ifo Center for International Economics Munich, Germany. Starts 2027-10-0",
       "notes": "",
       "reference_ids": [
-        "ejm:12844"
+        "ejm:12844",
+        "openpostdoc:dd9c1642-b5b5-4448-a119-eeb2da8addc7"
       ],
       "source_reports": [
         {
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/positions?page=1#position12844",
-          "checked_on": "2026-10-19"
+          "checked_on": "2026-10-26"
+        },
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/dd9c1642-b5b5-4448-a119-eeb2da8addc7",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
         }
       ],
       "last_attempted": "2026-10-19"
@@ -3251,7 +3395,7 @@
       "source_url": "https://econjobmarket.org/positions/12809",
       "apply_url": "https://econjobmarket.org/positions/12809",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Full employer-submitted EJM advert checked: European location, doctorate requirement, research field, application deadline and accepting-applications status.",
       "search_status": "Duration: 2 years Accepting applications",
@@ -3264,6 +3408,11 @@
           "name": "Econ Job Market",
           "url": "https://econjobmarket.org/statuses?page=5#position12809",
           "checked_on": "2026-10-19"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=6#position12809",
+          "checked_on": "2026-10-26"
         }
       ],
       "last_attempted": "2026-10-19"
@@ -3290,7 +3439,7 @@
       "source_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189267",
       "apply_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189267",
       "source_type": "University vacancy",
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Official Oxford vacancy 189267: PhD/DPhil requirement, economics research, 18-month contract and closing date checked.",
       "notes": "Applications close at 12:00 noon UK time on 9 November 2026.",
@@ -3301,11 +3450,11 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/ba77a8ba-3363-4b46-b7bd-d7ab2d4c5017",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "openpostdoc-2c8ce5be-317d-4208-a033-008dba2a6935",
@@ -3343,7 +3492,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "openpostdoc-dd6a95cf-6495-4ff5-9c5e-c75a52f1b4bc",
@@ -3377,11 +3526,11 @@
         {
           "name": "OpenPostdoc",
           "url": "https://www.openpostdoc.org/position/dd6a95cf-6495-4ff5-9c5e-c75a52f1b4bc",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-26",
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-26"
     },
     {
       "id": "cbs-backlash-2026",
@@ -3405,8 +3554,8 @@
       "source_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/postdoctoral-position-class-elites-and-political-economy",
       "apply_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/postdoctoral-position-class-elites-and-political-economy",
       "source_type": "University vacancy",
-      "last_verified": "2026-10-19",
-      "last_attempted": "2026-10-19",
+      "last_verified": "2026-10-26",
+      "last_attempted": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Official CBS individual advert checked: doctoral qualification, Copenhagen location, research remit, application route and closing date.",
       "notes": "Related field: political economy, explicitly identified rather than classified as core banking/finance.",
@@ -3435,13 +3584,415 @@
       "source_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/two-post-doctoral-positions-drivers-green-capital",
       "apply_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/two-post-doctoral-positions-drivers-green-capital",
       "source_type": "University vacancy",
-      "last_verified": "2026-10-19",
-      "last_attempted": "2026-10-19",
+      "last_verified": "2026-10-26",
+      "last_attempted": "2026-10-26",
       "first_seen": "2026-10-19",
       "verification": "Official CBS individual advert checked: doctoral qualification, Copenhagen location, research remit, application route and closing date.",
       "notes": "Related field: political economy, explicitly identified rather than classified as core banking/finance.",
       "reference_ids": [],
       "source_reports": []
+    },
+    {
+      "id": "openpostdoc-f6523113-eaab-4161-880d-789ac4a7b277",
+      "title": "Postdoctoral position in Environmental and Energy Economics",
+      "institution": "University of Barcelona School of Economics / IEB",
+      "country": "Spain",
+      "city": "Barcelona",
+      "rank": null,
+      "scope": "Additional European institution",
+      "topics": [
+        "Environmental economics",
+        "Energy economics",
+        "Behavioral economics"
+      ],
+      "fit": "Economics",
+      "deadline": "2026-12-03",
+      "status": "open",
+      "duration": "3 years",
+      "start": "September 2027; earlier start possible",
+      "salary": "Not stated",
+      "source_url": "https://econjobmarket.org/positions/12876",
+      "apply_url": "https://econjobmarket.org/positions/12876",
+      "source_type": "Econ Job Market employer advert",
+      "last_verified": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "verification": "Full employer advert individually checked: European location, doctorate qualification, economics field, accepting-applications status, deadline and required application route.",
+      "notes": "Official employer advert requires a doctorate; apply through EJM by 3 December 2026.",
+      "reference_ids": [
+        "ejm:12876",
+        "openpostdoc:f6523113-eaab-4161-880d-789ac4a7b277"
+      ],
+      "source_reports": [
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/f6523113-eaab-4161-880d-789ac4a7b277",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=3#position12876",
+          "checked_on": "2026-10-26"
+        }
+      ],
+      "last_attempted": "2026-10-26"
+    },
+    {
+      "id": "openpostdoc-3a4115cb-671f-423f-a0f3-c8949a9536b0",
+      "title": "Postdoctoral positions in Labour Economics",
+      "institution": "Norwegian School of Economics (NHH)",
+      "country": "Norway",
+      "city": "Bergen",
+      "rank": null,
+      "scope": "Additional European institution",
+      "topics": [
+        "Labor",
+        "Applied microeconomics",
+        "Public economics"
+      ],
+      "fit": "Economics",
+      "deadline": "2026-12-01",
+      "status": "open",
+      "duration": "3 years",
+      "start": "2027-08-15",
+      "salary": "Not stated",
+      "source_url": "https://econjobmarket.org/positions/12894",
+      "apply_url": "https://econjobmarket.org/positions/12894",
+      "source_type": "Econ Job Market employer advert",
+      "last_verified": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "verification": "Full employer advert individually checked: European location, doctorate qualification, economics field, accepting-applications status, deadline and required application route.",
+      "notes": "One employer advert for two postdoctoral appointments: labor productivity and labor-market structures/worker well-being. Counted as one advert.",
+      "reference_ids": [
+        "ejm:12894",
+        "openpostdoc:3a4115cb-671f-423f-a0f3-c8949a9536b0"
+      ],
+      "source_reports": [
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/3a4115cb-671f-423f-a0f3-c8949a9536b0",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=3#position12894",
+          "checked_on": "2026-10-26"
+        }
+      ],
+      "last_attempted": "2026-10-26"
+    },
+    {
+      "id": "openpostdoc-979bb48a-5001-4806-84b9-a277657e7e59",
+      "title": "Postdoctoral position in Behavioral and Experimental Economics",
+      "institution": "Norwegian School of Economics (NHH)",
+      "country": "Norway",
+      "city": "Bergen",
+      "rank": null,
+      "scope": "Additional European institution",
+      "topics": [
+        "Behavioral economics",
+        "Experimental economics",
+        "Public economics"
+      ],
+      "fit": "Economics",
+      "deadline": "2026-12-01",
+      "status": "open",
+      "duration": "3 years",
+      "start": "2027-08-15",
+      "salary": "Not stated",
+      "source_url": "https://econjobmarket.org/positions/12895",
+      "apply_url": "https://econjobmarket.org/positions/12895",
+      "source_type": "Econ Job Market employer advert",
+      "last_verified": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "verification": "Full employer advert individually checked: European location, doctorate qualification, economics field, accepting-applications status, deadline and required application route.",
+      "notes": "Dates and application status need confirmation on the employer posting.",
+      "reference_ids": [
+        "ejm:12895",
+        "openpostdoc:979bb48a-5001-4806-84b9-a277657e7e59"
+      ],
+      "source_reports": [
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/979bb48a-5001-4806-84b9-a277657e7e59",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=4#position12895",
+          "checked_on": "2026-10-26"
+        }
+      ],
+      "last_attempted": "2026-10-26"
+    },
+    {
+      "id": "openpostdoc-00869174-def1-4e23-9927-1eb3ec62f600",
+      "title": "Up to a 6-Year Postdoc with Tenure Option (f/m/d, 100%) Social Insurance",
+      "institution": "ZEW – Leibniz Centre for European Economic Research",
+      "country": "Germany",
+      "city": "Mannheim",
+      "rank": null,
+      "scope": "Additional European institution",
+      "topics": [
+        "Labor",
+        "Social insurance",
+        "Health economics"
+      ],
+      "fit": "Social Science",
+      "deadline": "2026-11-30",
+      "status": "open",
+      "duration": "2 years initially; possible 3+1 year extensions",
+      "start": "Flexible; doctorate required by September 2027",
+      "salary": "TV-L EG 13",
+      "source_url": "https://econjobmarket.org/positions/12891",
+      "apply_url": "https://jobs.zew.de/jobposting/75c03c1192cc8edd8ae60334976887f36e4baaa00",
+      "source_type": "Econ Job Market employer advert",
+      "last_verified": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "verification": "Full employer advert individually checked: European location, doctorate qualification, economics field, accepting-applications status, deadline and required application route.",
+      "notes": "Submit application materials through the official ZEW form; EJM handles reference letters only.",
+      "reference_ids": [
+        "ejm:12891",
+        "openpostdoc:00869174-def1-4e23-9927-1eb3ec62f600"
+      ],
+      "source_reports": [
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/00869174-def1-4e23-9927-1eb3ec62f600",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=4#position12891",
+          "checked_on": "2026-10-26"
+        }
+      ],
+      "last_attempted": "2026-10-26"
+    },
+    {
+      "id": "openpostdoc-ea314678-b02e-4adb-9dae-eb3c440f2f9e",
+      "title": "Postdoctoral position in health economics, Uppsala University",
+      "institution": "Uppsala University, Centre for Health Economic Research",
+      "country": "Sweden",
+      "city": "Uppsala",
+      "rank": null,
+      "scope": "Additional European institution",
+      "topics": [
+        "Health economics",
+        "Applied microeconomics",
+        "Public economics"
+      ],
+      "fit": "Economics",
+      "deadline": "2026-11-27",
+      "status": "open",
+      "duration": "2 years",
+      "start": "No later than September 2027",
+      "salary": "Not stated",
+      "source_url": "https://econjobmarket.org/positions/12909",
+      "apply_url": "https://econjobmarket.org/positions/12909",
+      "source_type": "Econ Job Market employer advert",
+      "last_verified": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "verification": "Full employer advert individually checked: European location, doctorate qualification, economics field, accepting-applications status, deadline and required application route.",
+      "notes": "Dates and application status need confirmation on the employer posting.",
+      "reference_ids": [
+        "ejm:12909",
+        "openpostdoc:ea314678-b02e-4adb-9dae-eb3c440f2f9e"
+      ],
+      "source_reports": [
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/ea314678-b02e-4adb-9dae-eb3c440f2f9e",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=4#position12909",
+          "checked_on": "2026-10-26"
+        }
+      ],
+      "last_attempted": "2026-10-26"
+    },
+    {
+      "id": "openpostdoc-057172a5-df98-4e5b-ba88-6f41f3e88bf0",
+      "title": "Postdoctoral Researcher (f/m/d) in Applied Microeconomics",
+      "institution": "University of Tübingen",
+      "country": "Germany",
+      "city": "Tübingen",
+      "rank": null,
+      "scope": "Additional European institution",
+      "topics": [
+        "Labor",
+        "Development economics",
+        "Political economy",
+        "Machine learning"
+      ],
+      "fit": "Economics",
+      "deadline": "2026-11-15",
+      "status": "open",
+      "duration": "3 years; extension may be possible",
+      "start": "May 2027; flexible",
+      "salary": "TV-L E13, full time",
+      "source_url": "https://econjobmarket.org/positions/12911",
+      "apply_url": "https://econjobmarket.org/positions/12911",
+      "source_type": "Econ Job Market employer advert",
+      "last_verified": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "verification": "Full employer advert individually checked: European location, doctorate qualification, economics field, accepting-applications status, deadline and required application route.",
+      "notes": "Dates and application status need confirmation on the employer posting.",
+      "reference_ids": [
+        "ejm:12911",
+        "openpostdoc:057172a5-df98-4e5b-ba88-6f41f3e88bf0"
+      ],
+      "source_reports": [
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/057172a5-df98-4e5b-ba88-6f41f3e88bf0",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=5#position12911",
+          "checked_on": "2026-10-26"
+        }
+      ],
+      "last_attempted": "2026-10-26"
+    },
+    {
+      "id": "openpostdoc-b496b556-7593-4eec-8c02-e9c9d88a92ec",
+      "title": "Postdoctoral Researcher with Option for a Permanent Contract (f/m/d, 100%)",
+      "institution": "ZEW – Leibniz Centre for European Economic Research",
+      "country": "Germany",
+      "city": "Mannheim",
+      "rank": null,
+      "scope": "Additional European institution",
+      "topics": [
+        "Health economics",
+        "Applied microeconomics",
+        "Public economics"
+      ],
+      "fit": "Economics",
+      "deadline": "2026-11-20",
+      "status": "open",
+      "duration": "2 years initially; possible 3+1 year extensions",
+      "start": "Flexible",
+      "salary": "German public-sector pay scale",
+      "source_url": "https://econjobmarket.org/positions/12889",
+      "apply_url": "https://jobs.zew.de/jobposting/183058348e49caf24c919e027f013e6221e388490",
+      "source_type": "Econ Job Market employer advert",
+      "last_verified": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "verification": "Full employer advert individually checked: European location, doctorate qualification, economics field, accepting-applications status, deadline and required application route.",
+      "notes": "Application through the official ZEW form; EJM accepts recommendation letters. Completed or nearly completed economics PhD required.",
+      "reference_ids": [
+        "ejm:12889",
+        "openpostdoc:b496b556-7593-4eec-8c02-e9c9d88a92ec"
+      ],
+      "source_reports": [
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/b496b556-7593-4eec-8c02-e9c9d88a92ec",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=5#position12889",
+          "checked_on": "2026-10-26"
+        }
+      ],
+      "last_attempted": "2026-10-26"
+    },
+    {
+      "id": "openpostdoc-8ffc7455-d491-4e8d-912a-835432ab29ac",
+      "title": "Postdoctoral Fellow: Crime and Justice",
+      "institution": "Institute for Fiscal Studies",
+      "country": "United Kingdom",
+      "city": "London",
+      "rank": null,
+      "scope": "Additional European institution",
+      "topics": [
+        "Applied microeconomics",
+        "Law and economics",
+        "Public economics",
+        "Labor"
+      ],
+      "fit": "Economics",
+      "deadline": "2026-11-15",
+      "status": "open",
+      "duration": "3 years",
+      "start": "2027-10-01",
+      "salary": "GBP 52,407 at 2026 rates; 2027 uplift applies",
+      "source_url": "https://econjobmarket.org/positions/12873",
+      "apply_url": "https://econjobmarket.org/positions/12873",
+      "source_type": "Econ Job Market employer advert",
+      "last_verified": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "verification": "Full employer advert individually checked: European location, doctorate qualification, economics field, accepting-applications status, deadline and required application route.",
+      "notes": "The full official advert explicitly states a three-year postdoc; this takes precedence over its generic continuing/permanent metadata field.",
+      "reference_ids": [
+        "ejm:12873",
+        "openpostdoc:8ffc7455-d491-4e8d-912a-835432ab29ac"
+      ],
+      "source_reports": [
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/8ffc7455-d491-4e8d-912a-835432ab29ac",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
+        },
+        {
+          "name": "Econ Job Market",
+          "url": "https://econjobmarket.org/statuses?page=5#position12873",
+          "checked_on": "2026-10-26"
+        }
+      ],
+      "last_attempted": "2026-10-26"
+    },
+    {
+      "id": "openpostdoc-177eef43-e441-412e-a658-c3dcf4ae2e4a",
+      "title": "Post Doctoral Research Associate in the Economics of Technological Change",
+      "institution": "University of Oxford",
+      "country": "United Kingdom",
+      "city": "Oxford",
+      "rank": null,
+      "scope": "Additional European institution",
+      "topics": [
+        "Innovation economics",
+        "Technological change",
+        "AI",
+        "Climate economics"
+      ],
+      "fit": "Economics",
+      "deadline": "2026-11-27",
+      "status": "open",
+      "duration": "2 years",
+      "start": "Not stated",
+      "salary": "GBP 39,424–47,779 annually",
+      "source_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189392",
+      "apply_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189392",
+      "source_type": "University vacancy",
+      "last_verified": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "verification": "Official Oxford vacancy 189392 checked: completed/nearly completed PhD, economics of innovation, two-year contract, Oxford location and application closing time.",
+      "notes": "Closes at 12:00 noon UK time on 27 November 2026. Distinct from Oxford GENTALENT advert 12846.",
+      "reference_ids": [
+        "openpostdoc:177eef43-e441-412e-a658-c3dcf4ae2e4a"
+      ],
+      "source_reports": [
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/177eef43-e441-412e-a658-c3dcf4ae2e4a",
+          "checked_on": "2026-10-26",
+          "reported_status": "confirmed_open"
+        }
+      ],
+      "last_attempted": "2026-10-26"
     }
   ]
 }

@@ -1,0 +1,738 @@
+{
+  "checked_on": "2026-10-26",
+  "base_main_sha": "218481dd5f56051dbebe68c7c427504bf6ca2825",
+  "fixed_roster_sha256": "87003475db9943ba466fa748a8f18e4cfde8bf6c8b2a3bf8096064c03b27989b",
+  "scope": "Fixed 10,762 saved author rows; prior conference authors retained. No author, conference or publication-corpus expansion.",
+  "scheduled_refresh": {
+    "configured_cron": "15 6 * * 1",
+    "workflow_state": "active",
+    "latest_observed_run": "2026-10-19T13:24:48Z",
+    "current_week_run_observed": false,
+    "action": "Completed an audited local weekly refresh."
+  },
+  "acquisition": {
+    "network_unique_urls": 20678,
+    "network_attempts": 20678,
+    "results": {
+      "fetched": 18891,
+      "failed": 1787
+    },
+    "same_week_body_snapshot_reads": 0,
+    "prior_week_body_cache_reads": 0,
+    "saved_source_reparses_for_review": 10515,
+    "basis": "All source acquisition is dated 26 October 2026. Parsing a saved current-week source is not another visit. Successful fetches do not prove complete readable research content."
+  },
+  "roster_preferred_url_results": {
+    "fetched": 9633,
+    "missing_url": 406,
+    "failed": 723
+  },
+  "new_papers": [
+    {
+      "id": "weekly-20261026-915b7348f9d27f10",
+      "title": "Reaching for Yield in Decentralized Financial Markets",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://patrickaugustin.ca/working-papers/"
+    },
+    {
+      "id": "weekly-20261026-5862c02ee46151ab",
+      "title": "Risk and Illiquidity Premia in the Cross Section of OTC Assets",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/semihusluweb/research"
+    },
+    {
+      "id": "weekly-20261026-0e49cc7936d8f4e7",
+      "title": "Competition with Multi-Dimensional Prices: Theory and Evidence from U.S. Mortgage Markets",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.adamjorring.com/research"
+    },
+    {
+      "id": "weekly-20261026-bacbcd5eadcb49c3",
+      "title": "The Geopolitics of Industrial Policy: Evidence from Export Credits",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/adrienmatray/workingpapers"
+    },
+    {
+      "id": "weekly-20261026-97d5dc00ba3216da",
+      "title": "Tracing Banks’ Credit Allocation to their Profits",
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/adrienmatray/workingpapers"
+    },
+    {
+      "id": "weekly-20261026-a3e51703bd82069c",
+      "title": "Do Lenders Price Diesel Risk? Evidence from Dieselgate and Low-Emission Zones in Captive vs. Independent Banks",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/alessandro-scopelliti/research"
+    },
+    {
+      "id": "weekly-20261026-23013b5913597ee8",
+      "title": "Short Interest in Bonds and Aggregate Stock Returns",
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://www.arsenygorbenko.com/research"
+    },
+    {
+      "id": "weekly-20261026-b70b7c7482fad295",
+      "title": "Corporate Valuation: An Empirical Comparison of Discounting Methods",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/dthesmar/working-papers"
+    },
+    {
+      "id": "weekly-20261026-5b468b6188fab839",
+      "title": "Does a VC’s Commitment Lead to Improved Investment Outcomes? Evidence From Climate Startups",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://www.jasonzein.com/working-papers"
+    },
+    {
+      "id": "weekly-20261026-cf160f735da28bd4",
+      "title": "Access to Financing and Racial Pay Gap inside Firms",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/qiping-xu/home"
+    },
+    {
+      "id": "weekly-20261026-32f1d5d97c4a5ce6",
+      "title": "Time-Series Efficient Factors",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/sehsani/research"
+    },
+    {
+      "id": "weekly-20261026-3ac7cf2c2925f1eb",
+      "title": "Risk-Adjusting the Returns to Private Debt Funds",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://www.thomas-flanagan.com/research"
+    },
+    {
+      "id": "weekly-20261026-683dea570c38e709",
+      "title": "Sectoral Dynamics of Safe Assets in Advanced Economies",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/vicovanasco/research"
+    },
+    {
+      "id": "weekly-20261026-1c48b91c616ce619",
+      "title": "Reserve Asset Competition and the Global Fiscal Cycle",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/profjiang/research"
+    },
+    {
+      "id": "weekly-20261026-30f2409e7fa84a83",
+      "title": "The Subjective Risk and Return Expectations of Institutional Investors",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/johnathan-a-loudis/working-papers"
+    },
+    {
+      "id": "weekly-20261026-3ff3819031fc2a7c",
+      "title": "The Forecasting Proficiency Test: A General Use Assessment of Forecasting Ability",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://ezrakarger.com/research"
+    },
+    {
+      "id": "weekly-20261026-c3994d068337272b",
+      "title": "Identifying Agglomeration Spillovers: Evidence from Grocery Store Openings",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/fqian/research"
+    },
+    {
+      "id": "weekly-20261026-5e4ce51139d6fefa",
+      "title": "Bitcoin Microstructure and the Kimchi Premium",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/site/kyoungjinchoiecon/research-w"
+    },
+    {
+      "id": "weekly-20261026-a2825f3343d0675b",
+      "title": "Financial Constraints and Optimal Regulatory Disclosures",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/nicolas-inostroza/research"
+    },
+    {
+      "id": "weekly-20261026-0ab47ba1183cd1e2",
+      "title": "Why do financially unconstrained individuals respond to higher credit limits?",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.shashwatalok.com/research"
+    },
+    {
+      "id": "weekly-20261026-097eab249de0abf5",
+      "title": "Native-Immigrant Entrepreneurial Synergies",
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/timothymcquade/research"
+    },
+    {
+      "id": "weekly-20261026-fc57d411c5dff805",
+      "title": "Does Home-Sharing Boost Evictions? Evidence from Florida Sales Tax Crackdowns on Airbnb",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://jdsmith65.github.io/"
+    },
+    {
+      "id": "weekly-20261026-a294aca1bed54fc9",
+      "title": "Where Collateral Sleeps",
+      "journal": "JF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://chaseross.com"
+    },
+    {
+      "id": "weekly-20261026-f624523c2a5d412c",
+      "title": "The Economics of Financial Scams: Evidence from Initial Coin Offerings",
+      "journal": "JFQA",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/profwei/research"
+    },
+    {
+      "id": "weekly-20261026-0270d104d7e184fa",
+      "title": "Dynamic Equity Slope",
+      "journal": "JFE",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://francescazucchi.com/working-papers/"
+    },
+    {
+      "id": "weekly-20261026-9ce11caa61a25aaa",
+      "title": "Securities Losses and Bank Collateral Channel of Monetary Transmission",
+      "journal": "JF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/martinajasova/"
+    },
+    {
+      "id": "weekly-20261026-daac04991c5d2c51",
+      "title": "Disappearing Discounts: Hedge Fund Activism in Conglomerates",
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/site/sehoonkimfinance/"
+    },
+    {
+      "id": "weekly-20261026-78f410d9321b7079",
+      "title": "Stock-Oil Comovement: A Present-Value Approach",
+      "journal": "JFE",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/alessandro-melone/research"
+    },
+    {
+      "id": "weekly-20261026-2f29684ec3217914",
+      "title": "Habit with Noisy Consumption",
+      "journal": "JFE",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/alessandro-melone/research"
+    },
+    {
+      "id": "weekly-20261026-ed724be92e208507",
+      "title": "Underlying Valuation Uncertainty, Strategic ETF Creation and Pricing Efficiency",
+      "journal": "JFE",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/jinming-xue/research"
+    },
+    {
+      "id": "weekly-20261026-61cc2d1c40467774",
+      "title": "Buy the Rumor, Sell the News: Liquidity Provision by Bond Funds Following Corporate News Events",
+      "journal": "JFQA",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/jinming-xue/research"
+    },
+    {
+      "id": "weekly-20261026-484a1184e12ed82c",
+      "title": "Competition and Executive Compensation: Evidence from Pharmaceutical Breakthrough Designations",
+      "journal": "JF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.biz.uiowa.edu/faculty/jgarfinkel/"
+    },
+    {
+      "id": "weekly-20261026-af789d5e5059644b",
+      "title": "Corporate Debt, Boom-Bust Cycles, and Financial Crises",
+      "journal": "JF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.karstenmueller.com/cv.html"
+    },
+    {
+      "id": "weekly-20261026-9be75650c3467b27",
+      "title": "Gender, performance, and promotion in the labor market for commercial bankers",
+      "journal": "JF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/marcoceccarelli/home"
+    },
+    {
+      "id": "weekly-20261026-ea73c42256cb86c1",
+      "title": "Angels and Demons: The Negative Effect of Employees' Angel Investments on Corporate Innovation",
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/santanu-kundu/home"
+    },
+    {
+      "id": "weekly-20261026-f3479c788240a38f",
+      "title": "From Tweets to Transactions: High-Frequency Inflation Expectations, Consumption, and Stock Returns",
+      "journal": "JFQA",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/noralamersdorf/research"
+    },
+    {
+      "id": "weekly-20261026-c338ad01336fcfb6",
+      "title": "Securities Lending and Information Acquisition",
+      "journal": "RF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.pedrosaffi.com/research.html"
+    },
+    {
+      "id": "weekly-20261026-32dfb010e998d59d",
+      "title": "Shareholder-Creditor Conflicts and Limits to Arbitrage: Evidence From the Equity Lending Market",
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.pedrosaffi.com/research.html"
+    },
+    {
+      "id": "weekly-20261026-e23016a6900faa40",
+      "title": "Human Frictions in the Transmission of Economic Policy",
+      "journal": "JF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://cf.uni-hohenheim.de/daniel-hoang"
+    },
+    {
+      "id": "weekly-20261026-8056c10b2f2b3ddc",
+      "title": "Does Early Pain Management Pay Off? Evidence on Utilization, Costs, and Surgeries",
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.christopherjchen.com/research.html"
+    },
+    {
+      "id": "weekly-20261026-f0a13b6b5112deae",
+      "title": "Spatially Targeted LTV Policies and Collateral Values",
+      "journal": "JF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.cameronlapoint.com/research"
+    },
+    {
+      "id": "weekly-20261026-4f08a090d591276f",
+      "title": "Climate Impact and Entrepreneurial Finance",
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://claudiorizzi.github.io/"
+    },
+    {
+      "id": "weekly-20261026-b8122327474cb7af",
+      "title": "Nominal Rigidities, Earnings Manipulation, and Securities Regulation",
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.li-xuenan-erica.com/"
+    },
+    {
+      "id": "weekly-20261026-90c1e63d49cef49d",
+      "title": "Collateralized Debt Networks with Lender Default",
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/site/jinwookbchang/home"
+    },
+    {
+      "id": "weekly-20261026-57944f14b3e85183",
+      "title": "Institutional Asset Pricing with Segmentation and Household Heterogeneity",
+      "journal": "JF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/site/jonathanedgarpayne/cv-and-research-experience"
+    },
+    {
+      "id": "weekly-20261026-bce05620fef71512",
+      "title": "Entrepreneurs' Diversification and Labor Income Risk",
+      "journal": "JF",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.valentinarutigliano.com/"
+    },
+    {
+      "id": "weekly-20261026-c11aa6646768ce08",
+      "title": "Climate Risk Beliefs and Long-Horizon Portfolio Choice: Combining Insights from Theory and Empirics",
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/view/xanderhut/home"
+    },
+    {
+      "id": "weekly-20261026-9db0f9d0ce0e55f3",
+      "title": "Mutual Funds, ETFs, and the Impact of Investor Flows on Fund Performance",
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.xijinhuang.com/home"
+    },
+    {
+      "id": "weekly-20261026-8439b392f5a476c1",
+      "title": "Inference with Cluster Imbalance: The Case of State Corporate Laws",
+      "journal": "RFS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://allenanhu.github.io/"
+    },
+    {
+      "id": "weekly-20261026-fb372e2ed4893697",
+      "title": "Contagion Effects of the Silicon Valley Bank Run",
+      "journal": "JFE",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://paulgp.com/papers.html"
+    },
+    {
+      "id": "weekly-20261026-bf4a2d502ed42619",
+      "title": "The Business of City Hall",
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://faculty.marshall.usc.edu/Kenneth-Ahern/"
+    },
+    {
+      "id": "weekly-20261026-c6aa182f23ef4741",
+      "title": "What Drives Expected Stock Returns? Long-Run Risk and Endogenous Leverage",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://adelpheekponon.com/research/"
+    },
+    {
+      "id": "weekly-20261026-713be01cfbcef9c5",
+      "title": "A Credit Risk Explanation of the Correlation between Corporate Bonds and Stocks",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://alexandrejeanneret.net"
+    },
+    {
+      "id": "weekly-20261026-3419d9857897d953",
+      "title": "How Do Public and Private Firms Respond to Monetary Policy Shocks?",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://www.alisanati.com/home"
+    },
+    {
+      "id": "weekly-20261026-f12e022410336059",
+      "title": "Patent Disclosure and Reliance on External Financing",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://bowen.finance/research/"
+    },
+    {
+      "id": "weekly-20261026-2bb4d3d528f41fd3",
+      "title": "The Good, the Bad and the Ordinary: Estimating Agent Value-Added using Real Estate Transactions",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://lilyshenai.github.io/research/"
+    },
+    {
+      "id": "weekly-20261026-d5c57d1408df6bcb",
+      "title": "The Value of Mortgage Choice: Payment Structure and Contract Length",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://michaelboutros.com/"
+    },
+    {
+      "id": "weekly-20261026-d755d868d3a7dfe4",
+      "title": "Discount Window Stigma after the Global Financial Crisis",
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/olivierarmantier"
+    },
+    {
+      "id": "weekly-20261026-be00aa4e34e44697",
+      "title": "What Work Does Generative AI Do?",
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/blandin/research"
+    },
+    {
+      "id": "weekly-20261026-db83d6f3e86bd926",
+      "title": "Dissecting Misreactions in Earnings Expectations: Evidence from Analyst Reports",
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://www.shikunke.com/research-papers"
+    },
+    {
+      "id": "weekly-20261026-c131d78cad5efc49",
+      "title": "Shared Spaces, Shared Reputations: Investment Adviser Misconduct and Affiliated Bank Branches",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://www.jaejinlee.net/"
+    },
+    {
+      "id": "weekly-20261026-09fa0b513a1599af",
+      "title": "Family Networks and First-Time Bank Loans: Evidence from Peru",
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/miguel-angel-carpio/research"
+    },
+    {
+      "id": "weekly-20261026-de30dd1eb1f70c58",
+      "title": "Management Control in Hierarchies",
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://business.uic.edu/profiles/martin-melissa/"
+    }
+  ],
+  "paper_status_changes": [
+    {
+      "id": "chenyang-010",
+      "title": "Conflicting Fiduciary Duties and Fire Sales of VC-backed Start-ups",
+      "previous_status": "R&R",
+      "new_status": "Accepted",
+      "evidence_url": "https://www.bo-bian.com/research"
+    },
+    {
+      "id": "chenyang-034",
+      "title": "The Road to Negative Futures Prices Is Paved with Financialization",
+      "previous_status": "R&R",
+      "new_status": "Accepted",
+      "evidence_url": "https://sites.google.com/site/hongjunyanhomepage"
+    },
+    {
+      "id": "ms-3b8d6e7afd245d4e",
+      "title": "Banking on Technology: Bank Technology Adoption and Its Effects",
+      "previous_status": "R&R",
+      "new_status": "Accepted",
+      "evidence_url": "https://www.sheilajiangfinance.com/"
+    },
+    {
+      "id": "conference-e8712d5cddd89e61",
+      "title": "Large Funds and Corporate Bond Market Fragility",
+      "previous_status": "R&R",
+      "new_status": "Accepted",
+      "evidence_url": "https://sites.google.com/view/mengqiao-du"
+    },
+    {
+      "id": "author-roster-20261014-02c71c2f9953",
+      "title": "Why Don't Most Mutual Funds Short Sell",
+      "previous_status": "R&R",
+      "new_status": "Accepted",
+      "evidence_url": "https://sites.google.com/site/lianfinancesite/research"
+    },
+    {
+      "id": "weekly-20261019-c38aee64b16f4c5e",
+      "title": "Comparing Capital Allocation Efficiency in Public and Private Equity Markets",
+      "previous_status": "R&R",
+      "new_status": "Accepted",
+      "evidence_url": "https://www.alisanati.com/home"
+    }
+  ],
+  "complete_author_list_corrections": [
+    {
+      "id": "author-site-expanded-20261012-036",
+      "title": "Do Consumers Care About ESG? Evidence from Barcode-Level Sales Data",
+      "old_authors": [
+        "Jean-Marie Meier"
+      ],
+      "complete_authors": [
+        "Jean-Marie Meier",
+        "Henri Servaes",
+        "Jiaying Wei",
+        "Steven Chong Xiao"
+      ]
+    },
+    {
+      "id": "author-site-expanded-20261012-085",
+      "title": "Prediction Market Accuracy: Crowd Wisdom or Informed Minority?",
+      "old_authors": [
+        "Roberto Gómez-Cram"
+      ],
+      "complete_authors": [
+        "Roberto Gómez-Cram",
+        "Yunhan Guo",
+        "Theis Ingerslev Jensen",
+        "Howard Kung"
+      ]
+    },
+    {
+      "id": "author-site-expanded-20261012-123",
+      "title": "The Tradeoff between Discrete Pricing and Discrete Quantities: Evidence from U.S.-listed Firms",
+      "old_authors": [
+        "Mao Ye"
+      ],
+      "complete_authors": [
+        "Sida Li",
+        "Mao Ye"
+      ]
+    },
+    {
+      "id": "author-site-expanded-20261012-109",
+      "title": "The Foreign Liabilities Channel of Bank Capital Requirements",
+      "old_authors": [
+        "Caterina Mendicino"
+      ],
+      "complete_authors": [
+        "Luigi Falasconi",
+        "Pablo Herrero",
+        "Caterina Mendicino",
+        "Dominik Supera"
+      ]
+    }
+  ],
+  "paper_link_correction": {
+    "id": "author-site-expanded-20261012-008",
+    "removed_wrong_ssrn": "5040447",
+    "correct_paper_url": "https://drive.google.com/file/d/1p2vkEdCa3jVJKu7ni-FV7s1N7idqjAZR/view?usp=sharing"
+  },
+  "new_employer_verified_adverts": [
+    {
+      "id": "openpostdoc-f6523113-eaab-4161-880d-789ac4a7b277",
+      "url": "https://econjobmarket.org/positions/12876",
+      "checked_on": "2026-10-26",
+      "deadline": "2026-12-03"
+    },
+    {
+      "id": "openpostdoc-3a4115cb-671f-423f-a0f3-c8949a9536b0",
+      "url": "https://econjobmarket.org/positions/12894",
+      "checked_on": "2026-10-26",
+      "deadline": "2026-12-01"
+    },
+    {
+      "id": "openpostdoc-979bb48a-5001-4806-84b9-a277657e7e59",
+      "url": "https://econjobmarket.org/positions/12895",
+      "checked_on": "2026-10-26",
+      "deadline": "2026-12-01"
+    },
+    {
+      "id": "openpostdoc-00869174-def1-4e23-9927-1eb3ec62f600",
+      "url": "https://econjobmarket.org/positions/12891",
+      "checked_on": "2026-10-26",
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "openpostdoc-ea314678-b02e-4adb-9dae-eb3c440f2f9e",
+      "url": "https://econjobmarket.org/positions/12909",
+      "checked_on": "2026-10-26",
+      "deadline": "2026-11-27"
+    },
+    {
+      "id": "openpostdoc-057172a5-df98-4e5b-ba88-6f41f3e88bf0",
+      "url": "https://econjobmarket.org/positions/12911",
+      "checked_on": "2026-10-26",
+      "deadline": "2026-11-15"
+    },
+    {
+      "id": "openpostdoc-b496b556-7593-4eec-8c02-e9c9d88a92ec",
+      "url": "https://econjobmarket.org/positions/12889",
+      "checked_on": "2026-10-26",
+      "deadline": "2026-11-20"
+    },
+    {
+      "id": "openpostdoc-8ffc7455-d491-4e8d-912a-835432ab29ac",
+      "url": "https://econjobmarket.org/positions/12873",
+      "checked_on": "2026-10-26",
+      "deadline": "2026-11-15"
+    },
+    {
+      "id": "openpostdoc-177eef43-e441-412e-a658-c3dcf4ae2e4a",
+      "url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189392",
+      "checked_on": "2026-10-26",
+      "deadline": "2026-11-27"
+    }
+  ],
+  "held_vacancy_reasons": {
+    "ejm:12871": "A junior research-group leader appointment is not confirmed as a standard postdoctoral role; retain outside the public postdoc list pending scope review.",
+    "ejm:12874": "Permanent Research Economist role; no explicitly postdoctoral appointment in the advert. Retain as an unpublished scope exclusion.",
+    "openpostdoc:6702895b-1daa-48b3-b939-2606921e8cd4": "Official Ghent advert requires a PhD but closed on 16 October 2026 at 23:59 Brussels time; the reference board is stale. Do not add as an open vacancy."
+  },
+  "job_status_changes": [
+    {
+      "id": "openpostdoc-fa64d717-f2ad-4fd9-95b2-852782e5ab19",
+      "title": "Postdoctoral Research Fellow in Stochastic Analysis and Computational Methods",
+      "previous_status": "open",
+      "new_status": "closed",
+      "deadline": "2026-10-22"
+    },
+    {
+      "id": "openpostdoc-38dd0fea-3635-4a74-9a2c-e15ea852bc33",
+      "title": "Postdoc Position in Quantitative Finance at EPFL",
+      "previous_status": "deadline unknown",
+      "new_status": "closed",
+      "deadline": ""
+    },
+    {
+      "id": "openpostdoc-dbf3d06d-81e5-44ae-b3bf-531854efc179",
+      "title": "Postdoctoral position at PASU lab 1",
+      "previous_status": "deadline unknown",
+      "new_status": "closed",
+      "deadline": ""
+    },
+    {
+      "id": "cbs-clone-2026",
+      "title": "Postdoc in corporate networks and computational social science",
+      "previous_status": "open",
+      "new_status": "closed",
+      "deadline": "2026-10-21"
+    }
+  ],
+  "strict_rr_counts": {
+    "JF": 101,
+    "JFE": 80,
+    "RFS": 142,
+    "RF": 59,
+    "JFQA": 65,
+    "MS": 130
+  },
+  "reject_resubmit_counts": {
+    "JF": 12,
+    "JFE": 6,
+    "RFS": 2,
+    "RF": 1,
+    "JFQA": 3,
+    "MS": 10
+  },
+  "strict_rr_total": 577,
+  "reject_resubmit_total": 34,
+  "visible_papers": 611,
+  "jobs": {
+    "total": 85,
+    "active": 47,
+    "historical": 32,
+    "uncertain": 6
+  },
+  "review_queue": {
+    "all_records": 408,
+    "pending_records": 105,
+    "decisions": {
+      "rejected_extraction": 92,
+      "accounted_public_record": 173,
+      "pending": 105,
+      "excluded_status_or_scope": 11,
+      "excluded_published": 22,
+      "excluded_scope": 2,
+      "excluded_scope_or_expired": 3
+    }
+  },
+  "provider_acquisition": [
+    {
+      "name": "openpostdoc",
+      "checked_on": "2026-10-26",
+      "result": "fresh_network_complete_pagination",
+      "rows": 56,
+      "total_scanned": 3506,
+      "pages": 36
+    },
+    {
+      "name": "ejm",
+      "checked_on": "2026-10-26",
+      "result": "fresh_network_complete_pagination",
+      "rows": 58,
+      "total_scanned": 380,
+      "pages": 14
+    }
+  ],
+  "limitations": [
+    "Missing and failed author URLs remain recorded; URL-discovery coverage is distinct from successful retrieval and readable research-content coverage.",
+    "Some Crossref working-paper queries were throttled; retained failures were supplemented with current author pages, complete primary working-paper author lists and saved publication metadata.",
+    "Conflicting title variants remain aliases; old Crossref titles do not overwrite current primary records.",
+    "Unconfirmed records, unrelated fields and already-expired new adverts remain unpublished."
+  ],
+  "prepublication_validation": {
+    "python_regression_tests": 72,
+    "field_classification_tests": 6,
+    "data_validation": "654 papers,85 vacancies,50 schools passed",
+    "local_static_build": "Next.js production export passed; --no-lint with shared local dependencies; clean GitHub CI runs its full normal build",
+    "exported_paper_count": 611,
+    "exported_job_count": 85,
+    "journal_chart_counts_match": true,
+    "fixed_roster_and_publication_conference_corpora_unchanged": true,
+    "public_xlsx_files": 0
+  }
+}

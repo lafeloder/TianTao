@@ -77,7 +77,7 @@ class BenchmarkTests(unittest.TestCase):
     def test_employer_verified_new_job_is_public_and_existing_records_remain(self):
         old={'id':'old','title':'Earlier advert','last_verified':''}
         verified={'id':'new','title':'Postdoc','last_verified':'2026-10-19',
-                  'verification':'Employer-published EJM advertisement'}
+                  'verification':'Full employer advert individually checked: doctorate, Europe, field and deadline.'}
         public,queue=stage_unverified_jobs([old,verified],{'old'},[],'2026-10-19')
         self.assertEqual(public,[old,verified])
         self.assertEqual(queue,[])
@@ -93,5 +93,11 @@ class BenchmarkTests(unittest.TestCase):
         merged=merge([old],[new],'jobs')[0]
         self.assertEqual(merged['verification'],new['verification'])
         self.assertEqual(merged['source_url'],new['source_url'])
+
+    def test_new_ejm_metadata_alone_does_not_promote_unreviewed_role(self):
+        row={'id':'ejm-12871','title':'Junior Research Group Leader','institution':'LMU','apply_url':'https://employer.example/job','last_verified':'2026-10-26','verification':'Employer-published EJM advertisement','reference_ids':['ejm:12871']}
+        public,queue=stage_unverified_jobs([row],set(),[],'2026-10-26')
+        self.assertEqual(public,[])
+        self.assertEqual(queue[0]['reference_ids'],['ejm:12871'])
 
 if __name__=='__main__':unittest.main()

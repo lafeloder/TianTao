@@ -478,6 +478,19 @@ def discover_homepages(universe, already, limit, state, covered_names=None):
                 pass
     return candidates
 
+def merge_review_queue(rows):
+    """Preserve an individual review unless the paper's decision/journal changes."""
+    result={}
+    for row in rows:
+        key=row['kind']+'|'+row.get('url',row.get('evidence_url',''))+'|'+normalize(row.get('title',row.get('name','')))
+        prior=result.get(key,{})
+        same_decision=(prior.get('journal')==row.get('journal') and prior.get('status','R&R')==row.get('status','R&R'))
+        if prior.get('review_decision') and same_decision and not row.get('review_decision'):
+            review={k:v for k,v in prior.items() if k in ['review_decision','reviewed_on','review','public_id','publication_doi']}
+            row={**row,**review}
+        result[key]=row
+    return list(result.values())
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--as-of',default=dt.date.today().isoformat())
@@ -621,7 +634,7 @@ def main():
         queue.extend(discover_homepages(universe,{a['url'] for a in homes},args.discover_limit,state,
                                           {normalize(a['name']) for a in homes if a.get('approved')}))
     # Keep stable historical identities; retain failed-source evidence dates.
-    queue=list({x['kind']+'|'+x.get('url',x.get('evidence_url',''))+'|'+normalize(x.get('title',x.get('name',''))):x for x in queue}.values())
+    queue=merge_review_queue(queue)
     save('rr.json',rr);save('postdocs.json',jobs);save('homepages.json',{'authors':homes})
     save('schools.json',schools);save('discovery-state.json',state)
     save('review-queue.json',{'updated_on':today,'items':queue});save('run-report.json',report)

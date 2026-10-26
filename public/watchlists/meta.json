@@ -1,12 +1,12 @@
 {
-  "last_run": "2026-10-19",
+  "last_run": "2026-10-26",
   "publication_window_start": "2021-10-13",
   "publication_window_end": "2026-10-13",
   "articles": 4947,
   "author_name_groups": 8867,
   "author_identity_records": 11298,
   "approved_homepages": 8513,
-  "homepages_scanned_this_run": 9656,
+  "homepages_scanned_this_run": 9664,
   "journals": {
     "JF": {
       "status": "complete",
@@ -40,18 +40,18 @@
     }
   },
   "schools": 50,
-  "feeds_fetched": 20,
-  "review_queue": 374,
-  "schedule": "Weekly on Mondays (GitHub Actions; activation requires repository deployment)",
+  "feeds_fetched": 21,
+  "review_queue": 105,
+  "schedule": "Weekly on Mondays at 06:15 UTC; workflow execution checked separately",
   "coverage_note": "Homepage coverage is partial. Name/affiliation identities are provisional. A fetched career feed is not an exhaustive vacancy search.",
   "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
   "paper_sources_checked": 20088,
   "reference_paper_rows": 76,
   "job_counts": {
-    "total": 76,
-    "historical": 28,
-    "active": 40,
-    "uncertain": 8
+    "total": 85,
+    "active": 47,
+    "historical": 32,
+    "uncertain": 6
   },
   "benchmark_sources": {
     "papers": [
@@ -71,29 +71,29 @@
       {
         "name": "OpenPostdoc",
         "url": "https://www.openpostdoc.org/board",
-        "total_scanned": 3399,
-        "in_scope": 49,
-        "matched": 49,
+        "total_scanned": 3506,
+        "in_scope": 56,
+        "matched": 56,
         "missing": 0,
-        "checked_on": "2026-10-19",
-        "status": "complete public pagination",
+        "checked_on": "2026-10-26",
+        "status": "Fresh complete pagination acquired 26 October; current-week snapshot reused during final reconciliation",
         "note": "All active and archived pages across all fields were scanned. Only European economics, finance and explicitly related postdoctoral records are included; mechanically focused jobs mislabeled Economics are excluded.",
-        "public_reference_records": 46,
-        "pending_review_records": 3,
+        "public_reference_records": 52,
+        "pending_review_records": 4,
         "accounting_basis": "Matched reference records include public entries and separately retained unpublished review candidates; a complete reference snapshot is not employer verification."
       },
       {
         "name": "Econ Job Market",
         "url": "https://econjobmarket.org/statuses?page=5",
-        "total_scanned": 338,
-        "in_scope": 50,
-        "matched": 50,
+        "total_scanned": 380,
+        "in_scope": 58,
+        "matched": 58,
         "missing": 0,
-        "checked_on": "2026-10-19",
-        "status": "complete public pagination",
+        "checked_on": "2026-10-26",
+        "status": "Fresh complete pagination acquired 26 October; current-week snapshot reused during final reconciliation",
         "note": "All public status and position pages were scanned. Public EJM omits some login-only/free advertisements.",
-        "public_reference_records": 50,
-        "pending_review_records": 0,
+        "public_reference_records": 56,
+        "pending_review_records": 2,
         "accounting_basis": "Matched reference records include public entries and separately retained unpublished review candidates; a complete reference snapshot is not employer verification."
       }
     ]
@@ -120,7 +120,7 @@
     "linked_homepages": 5320,
     "homepage_percent": 96.62,
     "searched_by_name": 4670,
-    "homepages_scanned_this_run": 5000,
+    "homepages_scanned_this_run": 4956,
     "basis": "Normalized author name groups from MS publications. Publication/affiliation matches and profile-only links are reported separately; namesakes remain provisional."
   },
   "ms_rr_scan_summary": {
@@ -133,12 +133,12 @@
     "candidate_count": 73
   },
   "rr_counts_by_journal": {
-    "JF": 98,
-    "JFE": 75,
-    "RFS": 136,
-    "RF": 58,
-    "JFQA": 60,
-    "MS": 122
+    "JF": 101,
+    "JFE": 80,
+    "RFS": 142,
+    "RF": 59,
+    "JFQA": 65,
+    "MS": 130
   },
   "finance_top5_author_homepage_coverage": {
     "linked_authors": 4074,
@@ -146,7 +146,7 @@
     "percent": 94.72,
     "basis": "Normalized author name groups with publications in JF, JFE, RFS, JFQA or RF; homepage eligibility must match a publication in those journals."
   },
-  "rr_last_run": "2026-10-19",
+  "rr_last_run": "2026-10-26",
   "conference_author_homepage_coverage": {
     "checked_on": "2026-10-14",
     "scope_years": [
@@ -186,11 +186,11 @@
     "coverage_percent": 96.2275,
     "coverage_basis": "Original fixed 10,762 author rows; personal websites preferred, with dedicated institution profiles as fallback. URL discovery and successful R&R content scanning are separate measures.",
     "saved_on": "2026-10-14",
-    "last_attempted": "2026-10-19",
+    "last_attempted": "2026-10-26",
     "preferred_url_scan_results": {
-      "fetched": 9597,
+      "fetched": 9633,
       "missing_url": 406,
-      "failed": 759
+      "failed": 723
     }
   },
   "author_website_audit": {
@@ -214,14 +214,14 @@
     "duplicate_title_variants_excluded": 1,
     "audit_file": "rof-alias-rescan-audit.json"
   },
-  "research_pages_scanned_this_run": 8422,
-  "postdocs_last_run": "2026-10-19",
+  "research_pages_scanned_this_run": 8376,
+  "postdocs_last_run": "2026-10-26",
   "reject_resubmit_counts_by_journal": {
-    "JF": 3,
-    "JFE": 1,
-    "RFS": 1,
-    "RF": 0,
-    "JFQA": 0,
-    "MS": 0
+    "JF": 12,
+    "JFE": 6,
+    "RFS": 2,
+    "RF": 1,
+    "JFQA": 3,
+    "MS": 10
   }
 }

@@ -1,9 +1,22 @@
 import datetime as dt
 import unittest
 from bootstrap import publication_date
-from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility, listed_homepages, matching_revision, extend_personal_research_pages
+from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility, listed_homepages, matching_revision, extend_personal_research_pages, merge_review_queue
 
 class EvidenceTests(unittest.TestCase):
+    def test_refresh_preserves_completed_review_of_unchanged_candidate(self):
+        old={'kind':'paper','title':'A Named Paper','journal':'RF','status':'R&R','evidence_url':'https://author.example/','review_decision':'excluded_published','publication_doi':'10.1/journal','review':'Actual published article checked.'}
+        fresh={k:v for k,v in old.items()if k not in ['review_decision','publication_doi','review']}
+        fresh['review']='Confirm status'
+        merged=merge_review_queue([old,fresh])[0]
+        self.assertEqual(merged['review_decision'],'excluded_published')
+        self.assertEqual(merged['publication_doi'],'10.1/journal')
+
+    def test_changed_decision_requires_fresh_review(self):
+        old={'kind':'paper','title':'A Named Paper','journal':'RF','status':'R&R','evidence_url':'https://author.example/','review_decision':'accounted_public_record'}
+        fresh={**old,'journal':'JF'};fresh.pop('review_decision')
+        self.assertNotIn('review_decision',merge_review_queue([old,fresh])[0])
+
     def test_grant_credit_is_not_the_decision_journal(self):
         body='<p><a href="/paper.pdf">Diversity and Access in Academic Finance Seminars</a>. Winner of the AFFECT/JFE Grant. Revise &amp; Resubmit at Review of Corporate Finance Studies.</p>'
         self.assertEqual(rr_blocks(body,'https://author.example/'),[])
