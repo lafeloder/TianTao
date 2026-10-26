@@ -2605,10 +2605,7 @@
       "kind": "paper",
       "source_author": "Tobias Berg",
       "discovered_on": "2026-10-26",
-      "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
-      "review_decision": "rejected_extraction",
-      "public_id": "weekly-20261019-02870bd3d4d190f4",
-      "reviewed_on": "2026-10-26"
+      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
     },
     {
       "title": "New Technology and Entrepreneurship",

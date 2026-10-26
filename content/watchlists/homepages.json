@@ -430,7 +430,7 @@
       },
       "identity_evidence_url": "https://sites.google.com/view/linshen",
       "last_scanned": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26"
     },
     {
@@ -446,7 +446,7 @@
       },
       "identity_evidence_url": "https://sites.google.com/view/liramota/research",
       "last_scanned": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "conference_name_keys": [
         "liramota"
@@ -964,7 +964,7 @@
         "published": "2025-07-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -1102,7 +1102,7 @@
         "published": "2022-03-25"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -3885,7 +3885,7 @@
         "published": "2022-01-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -4710,7 +4710,7 @@
         "published": "2025-10-06"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -5388,7 +5388,7 @@
         "published": "2025-04-08"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -5893,7 +5893,7 @@
         "published": "2021-11-05"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -5969,7 +5969,7 @@
         "published": "2026-09-29"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -6837,7 +6837,7 @@
         "published": "2022-11-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "janbena"
@@ -6975,7 +6975,7 @@
         "published": "2023-04-17"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -7839,7 +7839,7 @@
         "published": "2024-06-28"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -7983,7 +7983,7 @@
         "published": "2024-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -8015,7 +8015,7 @@
         "published": "2022-11-02"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "justinhungnguyen"
@@ -8279,7 +8279,7 @@
         "published": "2024-04-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -8295,7 +8295,7 @@
         "published": "2024-08-23"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -8959,7 +8959,7 @@
         "published": "2025-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -9005,7 +9005,7 @@
         "published": "2024-10-20"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "luliu"
@@ -9095,7 +9095,7 @@
         "published": "2023-05-02"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -9159,7 +9159,7 @@
         "published": "2024-11-20"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -9175,7 +9175,7 @@
         "published": "2026-03-25"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -9191,7 +9191,7 @@
         "published": "2025-10-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "luciosarno"
@@ -9281,7 +9281,7 @@
         "published": "2024-11-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -9523,7 +9523,7 @@
         "published": "2024-02-23"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -9735,7 +9735,7 @@
         "published": "2026-08-21"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -10161,7 +10161,7 @@
         "published": "2024-10-22"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "mattialandoni"
@@ -10269,7 +10269,7 @@
         "published": "2023-10-06"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "mengqiaodu"
@@ -10689,7 +10689,7 @@
         "published": "2025-12-04"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -10827,7 +10827,7 @@
         "published": "2026-01-27"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -11057,8 +11057,8 @@
         "published": "2024-10-26"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-12"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Olivier Darmouni",
@@ -12485,7 +12485,7 @@
         "published": "2025-09-12"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -14014,7 +14014,7 @@
         "published": "2024-11-14"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -16454,7 +16454,7 @@
         "title": "The trade imbalance network and currency returns",
         "published": "2025-10-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_eligibility": {
@@ -17117,7 +17117,7 @@
         "title": "Common Factors in Equity Option Returns",
         "published": "2025-10-11"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -17225,7 +17225,7 @@
         "title": "Nonstandard Errors",
         "published": "2024-04-17"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -17992,7 +17992,7 @@
         "title": "Judge Ideology and Corporate Tax Planning",
         "published": "2026-01-30"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -21229,7 +21229,7 @@
         "title": "Private equity for pension plans? Evaluating private equity performance from an investor’s perspective",
         "published": "2026-10-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -22643,9 +22643,9 @@
         "title": "Order Exposure in High-Frequency Markets",
         "published": "2025-09-12"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Bige Kahraman",
@@ -23835,7 +23835,7 @@
         "title": "Why is dollar debt Cheaper? Evidence from Peru",
         "published": "2023-06-01"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
       "conference_name_keys": [
         "bryangutierrez"
@@ -23851,7 +23851,7 @@
         "author": "Bryan Gutierrez"
       },
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Bryan Hardy",
@@ -26945,9 +26945,9 @@
         "title": "Directors: Older and Wiser, or Too Old to Govern?",
         "published": "2023-10-18"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Constantin Charles",
@@ -28777,7 +28777,7 @@
         "title": "Remotely Productive: The Efficacy of Remote Work for Executives",
         "published": "2026-01-25"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -30135,7 +30135,7 @@
         "title": "Nonstandard Errors",
         "published": "2024-04-17"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -30562,7 +30562,7 @@
         "title": "Equity Premium Predictability over the Business Cycle",
         "published": "2025-09-02"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -32469,7 +32469,7 @@
         "title": "A Bayesian Stochastic Discount Factor for the Cross-Section of Individual Equity Options",
         "published": "2025-10-06"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -33847,7 +33847,7 @@
         "title": "Irrational Beliefs May Drive the Disposition Effect: Evidence from Financial Professionals",
         "published": "2025-09-05"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -35020,9 +35020,9 @@
         "title": "The Effect of Organization Capital on the Cost of Bank Loans",
         "published": "2022-10-17"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Haitao Mo",
@@ -35296,7 +35296,7 @@
         "title": "Money Market Disconnect",
         "published": "2023-04-03"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -35943,7 +35943,7 @@
         "title": "A Quantitative Model of Dynamic Moral Hazard",
         "published": "2022-08-25"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -38847,7 +38847,7 @@
         "title": "Gambling away stability: Sports betting’s impact on vulnerable households",
         "published": "2026-09-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -39465,7 +39465,7 @@
         "title": "Monetary policy transmission in segmented markets",
         "published": "2024-01-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -39668,7 +39668,7 @@
         "title": "How Important is Affiliation Between Mutual Funds and Distributors for Fund Flows?",
         "published": "2021-12-20"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -39883,7 +39883,7 @@
         "title": "Mutual Fund Flows and the Supply of Capital in Municipal Financing",
         "published": "2026-05-09"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -41682,7 +41682,7 @@
         "title": "Who Clears the Market When Passive Investors Trade?",
         "published": "2026-04-03"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -42082,7 +42082,7 @@
         "title": "Shattered housing",
         "published": "2024-06-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -42130,7 +42130,7 @@
         "title": "Banking on Competition: The Spillover Effects of Bank Entry into Microfinance",
         "published": "2025-08-12"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -42377,7 +42377,7 @@
         "title": "Do Social Networks Facilitate Informed Option Trading? Evidence from Alumni Reunion Networks",
         "published": "2021-11-15"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -42503,7 +42503,7 @@
         "title": "Asset Overhang and Technological Change",
         "published": "2026-03-13"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -42712,7 +42712,7 @@
         "title": "Investor Behavior at the 52-Week High",
         "published": "2022-12-27"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -42744,9 +42744,9 @@
         "title": "Is It all Noise? The Microstructure Implications of Corporate Recurring Advertisements",
         "published": "2025-04-25"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Joshua Mollner",
@@ -43363,7 +43363,7 @@
         "title": "Carbon VIX: Carbon price uncertainty and decarbonization investments",
         "published": "2026-09-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -43423,7 +43423,7 @@
         "title": "Estimating and testing investment-based asset pricing models",
         "published": "2024-12-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -43483,7 +43483,7 @@
         "title": "Nonstandard Errors",
         "published": "2024-04-17"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -43499,7 +43499,7 @@
         "title": "Causal effects of closing businesses in a pandemic",
         "published": "2024-04-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -43515,7 +43515,7 @@
         "title": "Richer earnings dynamics, consumption and portfolio choice over the life cycle",
         "published": "2026-02-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -43653,7 +43653,7 @@
         "title": "Weak Identification of Long Memory with Implications for Volatility Modeling",
         "published": "2025-04-03"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -43745,7 +43745,7 @@
         "title": "Blockchain Currency Markets",
         "published": "2026-04-13"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -44065,7 +44065,7 @@
         "title": "Asset pricing on earnings announcement days",
         "published": "2022-06-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -44231,7 +44231,7 @@
         "title": "The big bang: Stock market capitalization in the long run",
         "published": "2022-08-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -44277,7 +44277,7 @@
         "title": "Corporate Culture Messaging and National Politics",
         "published": "2025-10-09"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -44399,7 +44399,7 @@
         "title": "The Role of Taxes in the Rise of ETFs",
         "published": "2025-07-07"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -44415,7 +44415,7 @@
         "title": "Leverage Is a Double‐Edged Sword",
         "published": "2024-02-15"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -45197,7 +45197,7 @@
         "title": "Separating equilibria, underpricing and security design",
         "published": "2022-09-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -45925,7 +45925,7 @@
         "title": "The Global Impact of Brexit Uncertainty",
         "published": "2023-11-30"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -45941,7 +45941,7 @@
         "title": "Global factor premiums",
         "published": "2021-12-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -46017,7 +46017,7 @@
         "title": "Securing Debt in the Knowledge Economy: Evidence from Intellectual Property Registers",
         "published": "2026-06-26"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -46232,7 +46232,7 @@
         "title": "CEO Political Ideology and Voluntary Forward-Looking Disclosure",
         "published": "2023-09-12"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -46565,7 +46565,7 @@
         "title": "Initial Margin Requirements and Market Efficiency",
         "published": "2023-08-31"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -46823,7 +46823,7 @@
         "title": "The start matters: time-varying investor demand, hedge fund inceptions, and performance",
         "published": "2023-09-20"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -46839,7 +46839,7 @@
         "title": "The True Colors of Money: Racial Representation and Asset Management",
         "published": "2026-04-21"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -46885,7 +46885,7 @@
         "title": "Optimal Forbearance of Bank Resolution",
         "published": "2023-08-30"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -46961,7 +46961,7 @@
         "title": "Peer Versus Pure Benchmarks in the Compensation of Mutual Fund Managers",
         "published": "2023-11-06"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -47622,7 +47622,7 @@
         "title": "Nonstandard Errors",
         "published": "2024-04-17"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -47684,7 +47684,7 @@
         "title": "Green tilts",
         "published": "2025-12-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -47870,7 +47870,7 @@
         "title": "When Two Become One: Foreign Capital and Household Credit Expansion",
         "published": "2025-12-30"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -47886,7 +47886,7 @@
         "title": "Financial education affects financial knowledge and downstream behaviors",
         "published": "2022-08-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -47902,7 +47902,7 @@
         "title": "Trust and delegated investing: a Money Doctors experiment",
         "published": "2024-09-10"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -48134,7 +48134,7 @@
         "title": "A Tale of Two Cities: Mainland Chinese Buyers in the Hong Kong Housing Market",
         "published": "2023-03-13"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -48380,7 +48380,7 @@
         "title": "Impact of Corporate Subsidies on Borrowing Costs of Local Governments: Evidence from Municipal Bonds",
         "published": "2023-05-15"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -48703,7 +48703,7 @@
         "title": "Low Carbon Mutual Funds",
         "published": "2023-04-04"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -48903,7 +48903,7 @@
         "title": "On the Capital Market Consequences of Big Data: Evidence from Outer Space",
         "published": "2024-04-05"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -48935,7 +48935,7 @@
         "title": "Nonstandard Errors",
         "published": "2024-04-17"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -49647,7 +49647,7 @@
         "title": "Stress tests by an informed regulator",
         "published": "2026-06-15"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -49677,7 +49677,7 @@
         "title": "Financial advice and retirement savings",
         "published": "2026-06-20"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -49799,7 +49799,7 @@
         "title": "Limited attention and dynamically distorted beliefs",
         "published": "2026-07-14"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -49939,7 +49939,7 @@
         "title": "Glass box machine learning and corporate bond returns",
         "published": "2026-07-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -50259,7 +50259,7 @@
         "title": "Housing Consumption and Investment: Evidence from Shared Equity Mortgages",
         "published": "2021-11-10"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -50522,7 +50522,7 @@
         "title": "The Portfolio‐Driven Disposition Effect",
         "published": "2024-08-21"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -50832,7 +50832,7 @@
         "title": "Baby Booms and Asset Booms: Demographic Change and the Housing Market",
         "published": "2025-08-14"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -50986,7 +50986,7 @@
         "title": "Financial Advisors and Investors’ Bias",
         "published": "2025-10-27"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -51108,9 +51108,9 @@
         "title": "Firm Resiliency: The Role of Spillovers",
         "published": "2025-01-23"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
-      "last_scanned": "2026-10-19",
+      "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "meghanaayyagari"
       ],
@@ -51321,7 +51321,7 @@
         "title": "Firm financing through insider stock pledges",
         "published": "2023-09-27"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -51429,7 +51429,7 @@
         "title": "Get the Money Somehow: The Effect of Missing Performance Goals on Insider Trading",
         "published": "2026-06-05"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -51592,7 +51592,7 @@
         "title": "Personal Bankruptcy Protection and Household Debt",
         "published": "2026-08-12"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -51608,7 +51608,7 @@
         "title": "Insensitive Investors",
         "published": "2024-06-18"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -51932,7 +51932,7 @@
         "title": "New Frontiers in Household Finance",
         "published": "2026-04-16"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -51962,7 +51962,7 @@
         "title": "Investor learning about monetary-policy transmission and the stock market",
         "published": "2025-11-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -51994,7 +51994,7 @@
         "title": "Wealth and Insurance Choices: Evidence from U.S. Households",
         "published": "2025-01-30"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -52751,7 +52751,7 @@
         "title": "Dynamic Trading with Realization Utility",
         "published": "2026-02-01"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -52862,7 +52862,7 @@
         "title": "Currency Carry, Momentum, and Global Interest Rate Volatility",
         "published": "2023-12-27"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -53002,7 +53002,7 @@
         "title": "International Arbitrage Premia",
         "published": "2026-08-06"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -53172,7 +53172,7 @@
         "title": "The Epidemiology of Financial Constraints and Corporate Investment",
         "published": "2025-04-07"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -53324,7 +53324,7 @@
         "title": "Competition and Innovation Revisited: A Project-Level View",
         "published": "2024-11-13"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -53370,7 +53370,7 @@
         "title": "Banking on Competition: The Spillover Effects of Bank Entry into Microfinance",
         "published": "2025-08-12"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -53581,7 +53581,7 @@
         "title": "Incentivizing Investors for a Greener Economy",
         "published": "2024-04-16"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -53629,7 +53629,7 @@
         "title": "Do Mutual Funds Walk the Talk? Evidence from Fund Risk Disclosure",
         "published": "2026-05-20"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -53971,7 +53971,7 @@
         "title": "Incentivizing Effort and Informing Investment: The Dual Role of Stock Prices",
         "published": "2026-03-27"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -54017,7 +54017,7 @@
         "title": "Steering a Ship in Illiquid Waters: Active Management of Passive Funds",
         "published": "2025-05-19"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -56652,9 +56652,9 @@
         "title": "The Effects of Open Banking on FinTech Firms’ Dynamics and Funding Structure",
         "published": "2026-07-07"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Pedro Matos",
@@ -57036,7 +57036,7 @@
         "title": "The Financial Premium",
         "published": "2026-10-08"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -68420,7 +68420,7 @@
         "title": "Measuring Firm Complexity",
         "published": "2023-05-15"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -69149,9 +69149,9 @@
         "title": "Public Attention to Gender Equality and Board Gender Diversity",
         "published": "2022-04-19"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Travis Chow",
@@ -71236,9 +71236,9 @@
         "title": "When Uncle Sam introduced Main Street to Wall Street: Liberty Bonds and the transformation of American finance",
         "published": "2022-07-01"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Wenhao Yang",
@@ -71298,9 +71298,9 @@
         "title": "Fractional Trading",
         "published": "2024-03-19"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Wenxi Jiang",
@@ -71420,7 +71420,7 @@
         "title": "Attribute misreporting and appraisal bias",
         "published": "2024-06-28"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -72385,7 +72385,7 @@
         "title": "The Informational Role of Ownership Networks in Bank Lending",
         "published": "2022-01-31"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26"
     },
@@ -75750,7 +75750,7 @@
         "title": "Appointing Charity Directors in Response to ESG Incidents",
         "published": "2026-06-08"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -76406,9 +76406,9 @@
         "title": "Currency Carry Trade by Trucks: The Curious Case of China’s Massive Imports from Itself",
         "published": "2022-03-17"
       },
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "last_attempted": "2026-10-26",
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Zhichuan F. Li",
@@ -84101,7 +84101,7 @@
         "published": "2024-04-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -84209,7 +84209,7 @@
         "published": "2026-01-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -88046,8 +88046,8 @@
         "published": "2025-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Giorgio Zanarone",
@@ -90574,7 +90574,7 @@
         "published": "2026-04-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -91017,7 +91017,7 @@
         "published": "2023-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -92963,7 +92963,7 @@
         "published": "2024-01-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -93481,7 +93481,7 @@
         "published": "2022-09-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "joytianjiaotong"
@@ -93513,8 +93513,8 @@
         "published": "2025-11-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Juan D. Moreno-Ternero",
@@ -93883,7 +93883,7 @@
         "published": "2022-07-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -93973,7 +93973,7 @@
         "published": "2025-08-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -94873,7 +94873,7 @@
         "published": "2024-02-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -95243,7 +95243,7 @@
         "published": "2022-03-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -95297,7 +95297,7 @@
         "published": "2022-02-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -95333,7 +95333,7 @@
         "published": "2026-02-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -95459,7 +95459,7 @@
         "published": "2025-10-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -95567,7 +95567,7 @@
         "published": "2022-09-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -95639,7 +95639,7 @@
         "published": "2024-04-03"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -95711,7 +95711,7 @@
         "published": "2024-02-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -96171,7 +96171,7 @@
         "published": "2025-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -96225,7 +96225,7 @@
         "published": "2025-08-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "lisaliu"
@@ -96343,8 +96343,8 @@
         "published": "2025-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-13"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Longyuan Du",
@@ -96487,7 +96487,7 @@
         "published": "2024-01-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -96505,7 +96505,7 @@
         "published": "2022-05-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -97041,7 +97041,7 @@
         "published": "2023-09-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -97059,7 +97059,7 @@
         "published": "2024-11-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -97113,7 +97113,7 @@
         "published": "2025-03-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -97167,7 +97167,7 @@
         "published": "2022-04-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -97203,7 +97203,7 @@
         "published": "2023-04-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -97239,7 +97239,7 @@
         "published": "2023-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -97311,7 +97311,7 @@
         "published": "2024-03-29"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -97653,7 +97653,7 @@
         "published": "2026-09-16"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -97851,7 +97851,7 @@
         "published": "2022-07-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -98876,7 +98876,7 @@
         "published": "2023-12-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "michaelbarnett"
@@ -99238,7 +99238,7 @@
         "published": "2026-03-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "micheledathan"
@@ -99306,7 +99306,7 @@
         "published": "2025-11-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -99324,7 +99324,7 @@
         "published": "2022-05-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -99460,7 +99460,7 @@
         "published": "2025-09-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -99550,7 +99550,7 @@
         "published": "2023-11-03"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "mingyang"
@@ -99582,7 +99582,7 @@
         "published": "2022-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -99654,7 +99654,7 @@
         "published": "2025-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -99776,7 +99776,7 @@
         "published": "2023-12-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -99794,7 +99794,7 @@
         "published": "2026-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -100123,7 +100123,7 @@
         "published": "2026-10-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "mortengrindaker"
@@ -100205,7 +100205,7 @@
         "published": "2025-07-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -100475,7 +100475,7 @@
         "published": "2025-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -100619,7 +100619,7 @@
         "published": "2024-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -102021,8 +102021,8 @@
         "published": "2022-05-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Paola Profeta",
@@ -102355,7 +102355,7 @@
         "published": "2022-12-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -104984,7 +104984,7 @@
         "published": "2022-08-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -105200,7 +105200,7 @@
         "published": "2022-09-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -105930,7 +105930,7 @@
         "published": "2023-03-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -107580,7 +107580,7 @@
         "published": "2024-01-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -110460,7 +110460,7 @@
         "published": "2025-02-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -111586,7 +111586,7 @@
         "published": "2025-10-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -113836,7 +113836,7 @@
         "published": "2024-05-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -114612,7 +114612,7 @@
         "published": "2022-12-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "zhaoli"
@@ -118690,7 +118690,7 @@
         "published": "2026-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "howardjones"
@@ -119960,7 +119960,7 @@
         "published": "2023-09-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "juanpalacios"
@@ -120316,7 +120316,7 @@
         "published": "2022-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -120528,7 +120528,7 @@
         "published": "2026-01-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -120636,7 +120636,7 @@
         "published": "2025-10-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -120852,7 +120852,7 @@
         "published": "2026-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -121538,7 +121538,7 @@
         "published": "2026-10-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -121934,7 +121934,7 @@
         "published": "2026-02-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -125921,7 +125921,7 @@
         "published": "2025-12-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "page_readable": true,
       "last_scanned": "2026-10-26"
     },
@@ -126021,9 +126021,9 @@
         "published": "2026-08-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Alina Lerman",
@@ -126101,9 +126101,9 @@
         "published": "2026-08-24"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Andreas Barth",
@@ -126195,9 +126195,9 @@
         "published": "2026-05-05"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Angelos Tsoukalas",
@@ -126455,7 +126455,7 @@
         "published": "2026-07-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "page_readable": true,
       "last_scanned": "2026-10-26"
     },
@@ -126729,7 +126729,7 @@
         "published": "2024-08-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "page_readable": false,
       "last_scanned": "2026-10-26"
     },
@@ -127272,9 +127272,9 @@
         "published": "2026-01-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Dennis Huisman",
@@ -127906,9 +127906,9 @@
         "published": "2026-01-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Gediminas Adomavicius",
@@ -128502,7 +128502,7 @@
         "published": "2026-08-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "page_readable": true,
       "last_scanned": "2026-10-26"
     },
@@ -129419,9 +129419,9 @@
         "published": "2026-10-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Karen Xie",
@@ -129813,9 +129813,9 @@
         "published": "2026-06-12"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19",
+      "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "leonardoiacovone"
       ],
@@ -130061,7 +130061,7 @@
         "published": "2026-08-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "page_readable": true,
       "last_scanned": "2026-10-26"
     },
@@ -130141,9 +130141,9 @@
         "published": "2025-05-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Marcelo Olivares",
@@ -130815,9 +130815,9 @@
         "published": "2024-04-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Nelson Lind",
@@ -131103,7 +131103,7 @@
         "published": "2022-05-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "page_readable": false,
       "last_scanned": "2026-10-26"
     },
@@ -131203,9 +131203,9 @@
         "published": "2025-04-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Qiao Liu",
@@ -131323,9 +131323,9 @@
         "published": "2024-04-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": true,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Ravi Singh",
@@ -131871,9 +131871,9 @@
         "published": "2025-11-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Stefan Feuerriegel",
@@ -132745,9 +132745,9 @@
         "published": "2024-10-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19",
+      "last_scanned": "2026-10-26",
       "conference_name_keys": [
         "xiaocen"
       ],
@@ -133597,9 +133597,9 @@
         "published": "2024-04-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Yuchen Sun",
@@ -134715,7 +134715,7 @@
         "published": "2023-10-04"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -135082,7 +135082,7 @@
         "published": "2022-11-02"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -135153,7 +135153,7 @@
         "published": "2026-07-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "conference_name_keys": [
         "sebastianbell"
       ],
@@ -135556,9 +135556,9 @@
         "published": "2025-02-10"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
+      "scan_status": "scanned",
       "page_readable": false,
-      "last_scanned": "2026-10-19"
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Antonio Guarino",
@@ -138123,7 +138123,7 @@
         "published": "2026-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -138199,7 +138199,7 @@
         "published": "2022-08-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -139033,7 +139033,7 @@
         "published": "2026-02-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -139071,7 +139071,7 @@
         "published": "2026-01-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -139242,7 +139242,7 @@
         "published": "2025-07-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -140316,7 +140316,7 @@
         "published": "2026-04-03"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -140984,7 +140984,7 @@
         "published": "2024-11-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "page_readable": true,
       "last_scanned": "2026-10-26"
     },
@@ -141318,7 +141318,7 @@
         "published": "2026-01-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "page_readable": true,
       "last_scanned": "2026-10-26"
     },
@@ -141378,7 +141378,7 @@
         "published": "2024-03-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "page_readable": true,
       "last_scanned": "2026-10-26"
     },
@@ -141762,7 +141762,7 @@
         "published": "2024-05-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -142123,7 +142123,7 @@
         "published": "2024-02-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -142389,7 +142389,7 @@
         "published": "2025-11-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -143065,7 +143065,7 @@
         "published": "2021-12-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -143219,7 +143219,7 @@
         "published": "2025-03-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -144294,7 +144294,7 @@
         "published": "2025-10-09"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -145210,8 +145210,8 @@
         "published": "2024-06-01"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Victor Richmond R. Jose",
@@ -147230,7 +147230,7 @@
       "identity_evidence_url": "https://atagade.com/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -147516,8 +147516,8 @@
       "identity_evidence_url": "https://czadamj.github.io/",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Adelina Barbalau",
@@ -147782,7 +147782,7 @@
       "identity_evidence_url": "https://www.khemkaaditya.com/research/",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -147808,7 +147808,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/yigit-atilgan",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -148225,7 +148225,7 @@
       "identity_evidence_url": "https://qinglinouyang.com/",
       "conference_identity_method": "author-named link on verified coauthor research page; target identifies author",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -148303,7 +148303,7 @@
       "identity_evidence_url": "https://www.grad.ubc.ca/researcher/24578-chen",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -148566,7 +148566,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/alejandro-casado",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -148697,7 +148697,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/alessandro-fontana",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -149093,7 +149093,7 @@
       "conference_identity_method": "dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -149120,7 +149120,7 @@
       "identity_evidence_url": "https://alexchinco.com/",
       "conference_identity_method": "author-named link on verified coauthor research page; target identifies author",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -150030,8 +150030,8 @@
       "identity_evidence_url": "https://sites.google.com/view/ali-lazrak",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Ali Moin",
@@ -150186,8 +150186,8 @@
       "identity_evidence_url": "https://www.unibocconi.it/en/Alireza%20Aghaee%20Shahrbabaki",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Alireza Tahbaz-Salehi",
@@ -150773,7 +150773,7 @@
       "identity_evidence_url": "https://www.andreaandolfatto.com/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -150877,7 +150877,7 @@
       "identity_evidence_url": "https://sites.google.com/view/andreafabianiweb",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -151189,7 +151189,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/andrei-simonov",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -152100,7 +152100,7 @@
       "identity_evidence_url": "https://www.anthonyzdrojewski.com/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -152568,7 +152568,7 @@
       "identity_evidence_url": "https://araratgocmen.com/",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -152594,7 +152594,7 @@
       "identity_evidence_url": "https://www.arascanipek.com/startseite",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -153893,7 +153893,7 @@
       "identity_evidence_url": "https://www.beniverson.org/Iverson_CV.pdf",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -154416,7 +154416,7 @@
       "identity_evidence_url": "https://sites.google.com/view/bernardomendes",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -154469,7 +154469,7 @@
       "identity_evidence_url": "https://voxdev.org/bernardus-van-doornik",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -154963,7 +154963,7 @@
       "identity_evidence_url": "https://www.hse.ru/en/org/persons/312263",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -155592,7 +155592,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/chotibhak-jotikasthira",
       "conference_identity_method": "author-named link on verified coauthor research page; target identifies author",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -155958,7 +155958,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/carol-bertaut",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -156139,7 +156139,7 @@
       "identity_evidence_url": "https://ideas.repec.org/f/pli1211.html",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -156480,7 +156480,7 @@
       "identity_evidence_url": "https://www.chiaralattanzio.com/",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -156715,7 +156715,7 @@
       "identity_evidence_url": "https://sites.google.com/site/pabjotikasthira/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -156767,7 +156767,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/christian-bittner",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -157238,7 +157238,7 @@
       "identity_evidence_url": "https://www.christopheboehm.com/research",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -158200,7 +158200,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/ryo-ogawa",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -158409,7 +158409,7 @@
       "identity_evidence_url": "https://citec.repec.org/p/p/ppa895.html",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -159162,7 +159162,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/dan-greenwald",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -159344,7 +159344,7 @@
       "identity_evidence_url": "https://www.danielbuncic.com/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -159760,8 +159760,8 @@
       "identity_evidence_url": "https://www.lpens.ens.psl.eu/institut-philippe-meyer/junior-research-chair/dario-villamaina/?lang=en",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Darwin Choi",
@@ -161951,7 +161951,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/dong-huang",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -162315,8 +162315,8 @@
       "conference_identity_method": "indexed dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Eduard Yelagin",
@@ -162832,7 +162832,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/elena-perazzi",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -163300,7 +163300,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/elwyn-davies",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -163589,7 +163589,7 @@
       "identity_evidence_url": "https://www.emilverner.com/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -163694,7 +163694,7 @@
       "identity_evidence_url": "https://citec.repec.org/p/r/pro820.html",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -164268,7 +164268,7 @@
       "identity_evidence_url": "https://www.eur.nl/en/people/eva-mulder",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -164346,7 +164346,7 @@
       "identity_evidence_url": "https://www.sabanciuniv.edu/rehber/KisiselBilgilerCV.php?dil=Eng&sicil=2127",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -164607,8 +164607,8 @@
       "conference_identity_method": "indexed dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Fanny Cartellier",
@@ -165049,7 +165049,7 @@
       "identity_evidence_url": "https://www.nber.org/people/fmartini",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -165623,8 +165623,8 @@
       "identity_evidence_url": "https://www.fotig.com/",
       "conference_identity_method": "author-named link on verified coauthor research page; target identifies author",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Foti Grigoris",
@@ -165911,8 +165911,8 @@
       "conference_identity_method": "indexed dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Franck Moraux",
@@ -167130,7 +167130,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/giovanni-cespa",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -167913,7 +167913,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/guanmin-liao",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -168826,7 +168826,7 @@
       "identity_evidence_url": "https://hanqing-tian.github.io/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -168983,8 +168983,8 @@
       "identity_evidence_url": "https://carlsonschool.umn.edu/faculty/haolin-wu",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Hao Ma",
@@ -169690,7 +169690,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/hideaki-miyajima",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -169923,7 +169923,7 @@
       "identity_evidence_url": "https://researchportalplus.anu.edu.au/en/persons/hongyi-xu/",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -170336,7 +170336,7 @@
       "identity_evidence_url": "https://sites.google.com/view/huijun-wang/home",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -170710,7 +170710,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/iliriana-shala",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -171717,7 +171717,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/james-hodson",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -172028,7 +172028,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/niklas-reinhardt",
       "conference_identity_method": "author-named link on verified coauthor research page; target identifies author",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -172186,7 +172186,7 @@
       "identity_evidence_url": "https://www.su.se/english/profiles/j/jpelt",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -173257,7 +173257,7 @@
       "identity_evidence_url": "https://jiakaichen.github.io/",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -173585,7 +173585,7 @@
       "identity_evidence_url": "https://ifs.swufe.edu.cn/info/1042/1391.htm",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -174439,7 +174439,7 @@
       "conference_identity_method": "dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -175869,7 +175869,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/joseph-hall",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -175999,7 +175999,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/joshua-mollner",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -176102,7 +176102,7 @@
       "identity_evidence_url": "https://sites.google.com/view/judith-bohnenkamp/home",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -176364,7 +176364,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/julien-weber",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -176416,7 +176416,7 @@
       "identity_evidence_url": "https://sites.google.com/view/chiyangtsou/home",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -176859,7 +176859,7 @@
       "identity_evidence_url": "https://ideas.repec.org/f/pma265.html",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -176963,7 +176963,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/kai-lu",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -177533,7 +177533,7 @@
       "identity_evidence_url": "https://sites.google.com/view/kieranplarkin",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -177560,7 +177560,7 @@
       "conference_identity_method": "dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -177976,7 +177976,7 @@
       "identity_evidence_url": "https://sites.google.com/view/kliu/publications",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -178002,7 +178002,7 @@
       "identity_evidence_url": "https://ideas.repec.org/f/pri363.html",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -178030,7 +178030,7 @@
       "conference_identity_method": "dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -178500,7 +178500,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/laura-bottazzi",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -178733,7 +178733,7 @@
       "identity_evidence_url": "https://www.nber.org/people/lea_borchert",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -179070,7 +179070,7 @@
       "identity_evidence_url": "https://www.escavador.com/sobre/633512/leonardo-soriano-de-alencar",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -179515,7 +179515,7 @@
       "identity_evidence_url": "https://sites.google.com/view/lindadu",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -179541,7 +179541,7 @@
       "identity_evidence_url": "https://sites.google.com/view/lindadu",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -179619,7 +179619,7 @@
       "identity_evidence_url": "https://sites.google.com/view/linglingwang/home",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -179715,7 +179715,7 @@
       "identity_evidence_url": "https://sites.google.com/view/lisa-desimone/home",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -179794,7 +179794,7 @@
       "identity_evidence_url": "https://www.eur.nl/people/lisa-knauer",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -179847,7 +179847,7 @@
       "conference_identity_method": "dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -179899,7 +179899,7 @@
       "identity_evidence_url": "https://lishuz.github.io/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -180424,7 +180424,7 @@
       "identity_evidence_url": "https://sites.google.com/view/lucagalati",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -180631,7 +180631,7 @@
       "identity_evidence_url": "https://sites.google.com/view/luigifalasconi/home",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -180918,7 +180918,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/luofeng-zhou",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -181238,7 +181238,7 @@
       "identity_evidence_url": "https://mallickhossain.com/",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -181264,7 +181264,7 @@
       "identity_evidence_url": "https://sites.google.com/view/mamdouhmedhat/home",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -181396,7 +181396,7 @@
       "identity_evidence_url": "https://sites.google.com/view/mansoor-shekarian",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -181762,7 +181762,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/marcus-hober",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -181814,7 +181814,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/margaret-underwood",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -181891,7 +181891,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/maria-cecilia-bustamante",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -181995,7 +181995,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/maria-loumioti",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -182074,7 +182074,7 @@
       "identity_evidence_url": "https://cepr.org/about/people/mariano-croce",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -182257,7 +182257,7 @@
       "identity_evidence_url": "https://bebee.com/gb/people/mariol-jonuzaj",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -182493,7 +182493,7 @@
       "conference_identity_method": "dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -182727,7 +182727,7 @@
       "identity_evidence_url": "https://sites.google.com/view/martinaragoneses",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -182936,7 +182936,7 @@
       "identity_evidence_url": "https://www.banque-france.fr/fr/martin-saillard",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -183220,7 +183220,7 @@
       "identity_evidence_url": "https://www.banque-france.fr/fr/mathias-le",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -183246,7 +183246,7 @@
       "identity_evidence_url": "https://www.banque-france.fr/fr/mathias-le",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -183272,7 +183272,7 @@
       "identity_evidence_url": "https://sites.google.com/view/mathis-moerke/research",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -183795,7 +183795,7 @@
       "identity_evidence_url": "https://ideas.repec.org/f/pka1463.html",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -183977,7 +183977,7 @@
       "identity_evidence_url": "https://sites.google.com/view/maximesauzet/research",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -184428,7 +184428,7 @@
       "identity_evidence_url": "https://sites.google.com/view/meghana-ayyagari",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -184480,7 +184480,7 @@
       "identity_evidence_url": "https://sites.google.com/view/khorram/home",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -185602,7 +185602,7 @@
       "identity_evidence_url": "https://ideas.repec.org/f/plo505.html",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -185654,7 +185654,7 @@
       "identity_evidence_url": "https://sites.google.com/view/michelle-chang/home",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -185785,7 +185785,7 @@
       "identity_evidence_url": "https://ideas.repec.org/f/pca799.html",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -185811,7 +185811,7 @@
       "identity_evidence_url": "https://sites.google.com/view/miguel-sarmiento/inicio",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -185916,7 +185916,7 @@
       "conference_identity_method": "dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -185942,7 +185942,7 @@
       "identity_evidence_url": "https://ideas.repec.org/f/pme965.html",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -186245,8 +186245,8 @@
       "conference_identity_method": "indexed dedicated primary author biography; full name and academic finance role",
       "conference_identity_caveat": "name-based match; conference institution may differ after a move",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Mingxin Xu",
@@ -186428,7 +186428,7 @@
       "identity_evidence_url": "https://kubs-msphd.github.io/accounting.html",
       "conference_identity_method": "author-named link on verified coauthor research page; target identifies author",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -186924,7 +186924,7 @@
       "identity_evidence_url": "https://sites.google.com/view/mojtabahayati/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -186950,7 +186950,7 @@
       "identity_evidence_url": "https://sites.google.com/view/mojtabahayati/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -186976,7 +186976,7 @@
       "identity_evidence_url": "https://sites.google.com/view/mojtabahayati/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -187210,8 +187210,8 @@
       "identity_evidence_url": "https://research.com/u/murray-z-frank",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Naide Ye",
@@ -187279,7 +187279,7 @@
       "identity_evidence_url": "https://sites.google.com/view/nan-ma",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -187305,7 +187305,7 @@
       "identity_evidence_url": "https://sites.google.com/view/nanyuchen/home/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -187331,7 +187331,7 @@
       "identity_evidence_url": "https://sites.google.com/view/nanyuchen/home/",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -190713,7 +190713,7 @@
       "identity_evidence_url": "https://aaltodoc.aalto.fi/bitstreams/858a9dff-43d3-4604-9bed-ae4d37abfc66/download",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -191729,7 +191729,7 @@
       "identity_evidence_url": "https://pooyamolavi.com/",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -196190,8 +196190,8 @@
       "identity_evidence_url": "https://www.jchs.harvard.edu/sean-lee-0",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Sebastian Di Tella",
@@ -196764,7 +196764,7 @@
       "identity_evidence_url": "http://myweb.sabanciuniv.edu/simsir/files/2023/06/SerifSimsir_CV_June2023.pdf",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -196790,7 +196790,7 @@
       "identity_evidence_url": "https://ideas.repec.org/f/ple1274.html",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -197094,8 +197094,8 @@
       "identity_evidence_url": "https://jobs.phdproject.org/profiles/6867036-shawn-simpson",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Sheisha Kulkarni",
@@ -198817,7 +198817,7 @@
       "identity_evidence_url": "https://www.banque-france.fr/fr/sophie-guilloux-nefussi",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -199025,7 +199025,7 @@
       "identity_evidence_url": "https://ouri.rice.edu/people/stefan-huber",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -199700,8 +199700,8 @@
       "identity_evidence_url": "https://www.stevekaplaninc.com/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-14"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Steven Heston",
@@ -201075,7 +201075,7 @@
       "identity_evidence_url": "https://nadn.org/thomas-cauthorn",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -201205,7 +201205,7 @@
       "identity_evidence_url": "https://thomasgraeber.com/",
       "conference_identity_method": "conference paper title match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -202625,7 +202625,7 @@
       "identity_evidence_url": "https://www.banque-france.fr/fr/tristan-jourde",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -203015,8 +203015,8 @@
       "identity_evidence_url": "https://www.valentinarutigliano.com/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Valentin Luz",
@@ -203645,8 +203645,8 @@
       "identity_evidence_url": "https://business.gwu.edu/vineet-bhagwat",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Vinh Tran",
@@ -203697,7 +203697,7 @@
       "identity_evidence_url": "https://violasalvestrini.weebly.com/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -204120,8 +204120,8 @@
       "identity_evidence_url": "https://expertwitnessprofiler.com/expert-witness/Walter-Torous/1516069",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Walter N. Torous",
@@ -206141,7 +206141,7 @@
       "identity_evidence_url": "https://people.njit.edu/profile/xtao",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -206972,7 +206972,7 @@
       "identity_evidence_url": "https://sites.google.com/view/lianalifinance/home/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -209271,7 +209271,7 @@
       "identity_evidence_url": "https://www.yufengyaofinance.com/",
       "conference_identity_method": "indexed dedicated author profile; name, institution and research field corroborated",
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -210994,8 +210994,8 @@
       "identity_evidence_url": "https://sites.google.com/view/zhenyugao/",
       "conference_identity_method": "author name and conference institution match",
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-14"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Zhibo Zhang",
@@ -212836,8 +212836,8 @@
         "albertskyle"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "ALBERT SHEEN",
@@ -213500,7 +213500,7 @@
         "alexiswegerich"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -214154,7 +214154,7 @@
         "andrealamorgese"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -215140,7 +215140,7 @@
         "arshyafeizi"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -215433,8 +215433,8 @@
         "program_status": "scheduled"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Aydın Alptekinoğlu",
@@ -217112,8 +217112,8 @@
         "buqugao"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Byoung G. Park",
@@ -217252,7 +217252,7 @@
         "caihongxu"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -218112,7 +218112,7 @@
         "doctoral_session": true
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -218554,7 +218554,7 @@
         "chenyusophiamao"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -218926,7 +218926,7 @@
         "christianekneer"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -219012,8 +219012,8 @@
         "christophbaldauf"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "CHRISTOPHE DESAGRE",
@@ -221714,7 +221714,7 @@
         "didierlaussel"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -222635,7 +222635,7 @@
         "doctoral_session": false
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -222807,8 +222807,8 @@
         "edwardmcfowland"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Edward T. Kim",
@@ -223981,7 +223981,7 @@
         "ericnowak"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -224009,7 +224009,7 @@
         "ericskoog"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -224436,7 +224436,7 @@
         "fabianwobbeking"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -224838,7 +224838,7 @@
         "felipecaro"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -226242,7 +226242,7 @@
         "georgijalekseev"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -226944,7 +226944,7 @@
         "gregorbaurle"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -227425,7 +227425,7 @@
         "guylakan"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -227730,7 +227730,7 @@
         "haiyueyu"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -228850,8 +228850,8 @@
         "hiroakisakaguchi"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Hoang Nguyen",
@@ -229628,7 +229628,7 @@
         "iliasamarin"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -231095,8 +231095,8 @@
         "jeanfrancoisbegin"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Jean-Pascal Gond",
@@ -231378,7 +231378,7 @@
         "jeffreyweston"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -231728,8 +231728,8 @@
         "jerryluukkonen"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Jesica Torres",
@@ -231820,7 +231820,7 @@
         "jessecbockstedt"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -232321,8 +232321,8 @@
         "doctoral_session": false
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Jianxing Wei",
@@ -232349,8 +232349,8 @@
         "jianxingwei"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Jianying Qiu",
@@ -232962,7 +232962,7 @@
         "doctoral_session": true
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -233967,7 +233967,7 @@
         "jorgewhansen"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -233995,7 +233995,7 @@
         "josealopez"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -234334,7 +234334,7 @@
         "joshuaataylor"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -234505,7 +234505,7 @@
         "joshuatwilde"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -234588,8 +234588,8 @@
         "joseyague"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "João Quariguasi Frota Neto",
@@ -234817,7 +234817,7 @@
         "doctoral_session": false
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -235446,7 +235446,7 @@
         "kaileiye"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -235538,7 +235538,7 @@
         "kallerinne"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -235566,7 +235566,7 @@
         "kamcchan"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -236414,8 +236414,8 @@
         "kentlwomack"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Kent Wang",
@@ -237968,7 +237968,7 @@
         "lesliedjuranovik"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -238177,8 +238177,8 @@
         "lijunma"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Lin Jia",
@@ -238304,7 +238304,7 @@
         "title": "Shocked by Bank Funding Shocks: Evidence from Consumer Credit Cards",
         "published": "2023-05-08"
       },
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_attempted": "2026-10-26",
       "last_scanned": "2026-10-26",
       "conference_name_keys": [
@@ -238356,7 +238356,7 @@
         "lingyizheng"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -238916,7 +238916,7 @@
         "doctoral_session": false
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -239031,7 +239031,7 @@
         "lukasaltermatt"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -239436,7 +239436,7 @@
         "doctoral_session": false
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -239464,7 +239464,7 @@
         "manfredkremer"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -239579,7 +239579,7 @@
         "marcobecht"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -240527,7 +240527,7 @@
         "program_status": "scheduled"
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -240754,7 +240754,7 @@
         "matthewbillett"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -241259,7 +241259,7 @@
         "mehdihfarahani"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -242656,8 +242656,8 @@
         "doctoral_session": false
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Mohan Sun",
@@ -245227,7 +245227,7 @@
         "patrickbehr"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -246669,8 +246669,8 @@
         "qiancao"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Qian Franklin",
@@ -247990,7 +247990,7 @@
         "doctoral_session": true
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -249477,7 +249477,7 @@
         "rubenlobel"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -249649,8 +249649,8 @@
         "russelljfunk"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Ryan Banerjee",
@@ -250442,7 +250442,7 @@
         "sarajonsson"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -251026,8 +251026,8 @@
         "doctoral_session": false
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Sean Hundtofte",
@@ -251349,8 +251349,8 @@
         "senayagca"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Seo Ha Kim",
@@ -251397,7 +251397,7 @@
         "seongjoonkoo"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -251663,8 +251663,8 @@
         "seyedmahyarmayarsefidgaran"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Shane G. Henderson",
@@ -252241,8 +252241,8 @@
         "shutian"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Shuang Jin",
@@ -253545,8 +253545,8 @@
         "stefanovaccari"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Stelios Arvanitis",
@@ -253949,7 +253949,7 @@
         "stevenlheston"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -254437,7 +254437,7 @@
         "ttonyke"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -254876,8 +254876,8 @@
         "doctoral_session": false
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Theodore E. Christensen",
@@ -255390,8 +255390,8 @@
         "thanhnguyen"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Tiago Pires",
@@ -258819,7 +258819,7 @@
         "doctoral_session": false
       },
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -260598,8 +260598,8 @@
         "yichunchadho"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "YiChun Miriam Liu",
@@ -261473,8 +261473,8 @@
         "yuanlubai"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Yuanqing (Lorna) Zhong",
@@ -262271,7 +262271,7 @@
         "zjaywang"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     },
     {
@@ -262737,8 +262737,8 @@
         "zhibingli"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Zhiguo He",
@@ -263147,8 +263147,8 @@
         "zuyuefu"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "failed",
-      "last_scanned": "2026-10-19"
+      "scan_status": "scanned",
+      "last_scanned": "2026-10-26"
     },
     {
       "name": "Çelim Yıldızhan",
@@ -263203,7 +263203,7 @@
         "ysteindaljord"
       ],
       "last_attempted": "2026-10-26",
-      "scan_status": "scanned",
+      "scan_status": "failed",
       "last_scanned": "2026-10-26"
     }
   ]

@@ -166,7 +166,7 @@
       "country": "France",
       "career_url": "https://www.skema.edu/en/careers",
       "scope": "FT Europe top 50",
-      "feed_status": "fetched (limited HTML scan)",
+      "feed_status": "failed",
       "last_attempted": "2026-10-26",
       "last_fetched": "2026-10-26"
     },
