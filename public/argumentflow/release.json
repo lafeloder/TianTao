@@ -1,0 +1,10 @@
+{
+  "version": "2026-10-27-research-map-flags-v1",
+  "features": [
+    "full-manuscript",
+    "progressive-research-map",
+    "bounded-paragraph-index",
+    "coherence-diagnostics",
+    "propagated-flags"
+  ]
+}
