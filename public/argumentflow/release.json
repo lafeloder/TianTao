@@ -1,10 +1,14 @@
 {
-  "version": "2026-10-27-research-map-flags-v1",
+  "version": "2026-10-28-qje-prepared-demo-v1",
   "features": [
     "full-manuscript",
     "progressive-research-map",
     "bounded-paragraph-index",
     "coherence-diagnostics",
-    "propagated-flags"
+    "propagated-flags",
+    "qje-open-access-full-text",
+    "48-prepared-checkpoints",
+    "filterable-exportable-flag-directory",
+    "api-paused"
   ]
 }

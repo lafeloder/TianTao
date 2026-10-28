@@ -1,0 +1,2170 @@
+{
+  "version": "qje-generative-ai-at-work-20261028",
+  "title": "Generative AI at Work",
+  "doi": "10.1093/qje/qjae044",
+  "provenance": "Prepared interpretive demo analysis. No model API was called. Not an author-validated review or quantitative replication. Flags are tentative reading checkpoints; addressed means the article already discusses the concern.",
+  "flags": [
+    {
+      "id": "F01",
+      "title": "Carry the single-setting boundary into the headline result",
+      "kind": "scope_shift",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-abstract-003",
+        "quote": "Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 15% on average"
+      },
+      "related": [
+        {
+          "blockId": "gaw-i-012",
+          "quote": "We emphasize that these findings capture medium-run effects in a single firm."
+        },
+        {
+          "blockId": "gaw-viii-003",
+          "quote": "our findings apply for a particular AI tool, used in a single firm, in a single occupation, and should not be generalized across all occupations and AI systems."
+        }
+      ],
+      "explanation": "The abstract reports a compact average. It should be read as an estimate for this tool, occupation, firm, and outcome rather than a general 15% effect of generative AI. The article explicitly supplies these boundaries later.",
+      "suggestion": "Keep the setting and outcome attached whenever the 15% result is reused in a summary or map.",
+      "category": "constructs",
+      "resolutionNote": "Explicitly bounded in the Introduction and Conclusion; this is an addressed scope checkpoint, not a flaw in the estimate."
+    },
+    {
+      "id": "F02",
+      "title": "Separate heterogeneous gains from proof of knowledge transfer",
+      "kind": "logic_gap",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-i-003",
+        "quote": "indicating that generative AI systems may be capable of capturing and disseminating the behaviors of the most productive agents."
+      },
+      "related": [
+        {
+          "blockId": "gaw-iii-014",
+          "quote": "Our AI firm also up-weights the value of training chats if the chat was conducted by a top performer when training the AI."
+        },
+        {
+          "blockId": "gaw-vi-046",
+          "quote": "As a result, this analysis is only suggestive."
+        }
+      ],
+      "explanation": "Larger gains for initially weaker workers are consistent with dissemination of expert behavior, but this pattern alone does not identify that channel. The modal wording is appropriate; the map should preserve it rather than turn the proposed mechanism into an established mediator.",
+      "suggestion": "Label the dissemination link as a proposed interpretation, with training design, outages, and communication analyses as distinct supporting evidence.",
+      "category": "support"
+    },
+    {
+      "id": "F03",
+      "title": "Keep the small resolution-rate change separate from precise speed effects",
+      "kind": "overclaim",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-i-008",
+        "quote": "a small increase in the share of chats that are successfully resolved."
+      },
+      "related": [
+        {
+          "blockId": "gaw-v-034",
+          "quote": "Table III, column (3) indicates a small, 1.3 percentage point increase in chat RRs. This effect is economically modest and insignificant given a high baseline RR of 82%."
+        }
+      ],
+      "explanation": "The decomposition lists all three components, but readers could infer that each component is estimated with comparable certainty. The main results explicitly state that the average resolution-rate increase is statistically insignificant.",
+      "suggestion": "In a compact summary, mark the resolution-rate component as a small, statistically imprecise estimate rather than one of three equally established improvements.",
+      "category": "support",
+      "resolutionNote": "Section V.A explicitly describes the small resolution-rate increase as insignificant and distinguishes it from the precise efficiency gains."
+    },
+    {
+      "id": "F04",
+      "title": "Keep measured skill and job tenure as separate constructs",
+      "kind": "construct_shift",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-i-009",
+        "quote": "Less skilled and less experienced workers improve significantly across all productivity measures"
+      },
+      "related": [
+        {
+          "blockId": "gaw-v-044",
+          "quote": "We measure an agent's “skill” using an index incorporating three key performance indicators: call-handling speed, issue RRs, and customer satisfaction."
+        },
+        {
+          "blockId": "gaw-v-055",
+          "quote": "our skill regressions control for experience and vice versa."
+        }
+      ],
+      "explanation": "Skill and experience are presented together in the headline, but they are different empirical constructs. Here skill is a recent within-company performance rank; tenure is months of work experience. Neither should be silently substituted for education, innate ability, or occupational skill.",
+      "suggestion": "Use separate skill and tenure branches and attach their operational definitions to the relevant heterogeneity findings.",
+      "category": "constructs",
+      "resolutionNote": "Section V defines the index and explicitly separates the two dimensions in the regressions."
+    },
+    {
+      "id": "F05",
+      "title": "The mechanism overview carries several different argumentative jobs",
+      "kind": "role_mismatch",
+      "severity": "attention",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-i-010",
+        "quote": "Third, we investigate the mechanism underlying our main findings."
+      },
+      "related": [
+        {
+          "blockId": "gaw-i-010",
+          "quote": "We also find that experience with AI recommendations can lead to durable learning."
+        },
+        {
+          "blockId": "gaw-i-010",
+          "quote": "We further analyze the text of agents’ chats and provide evidence that access to AI improves their English-language fluency"
+        }
+      ],
+      "explanation": "This paragraph moves from adherence to learning, topic rarity, English fluency, and communication convergence. These are related but distinct questions, with different outcomes and evidence strengths. A single mechanism node would conceal that structure and make a coauthor's reading hard to compare.",
+      "suggestion": "Keep the opening as an overview, then divide its map into learning, human–AI complementarity, and communication changes. Make adherence an engagement measure, not another proved mechanism.",
+      "category": "role"
+    },
+    {
+      "id": "F06",
+      "title": "Adherence–return association is not randomized adherence",
+      "kind": "logic_gap",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-i-010",
+        "quote": "Agents who follow AI recommendations more closely see larger gains in productivity"
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-009",
+          "quote": "this relationship could also be driven by other factors: selection (agents who choose to adhere are more productive for other reasons) or selection on gains (agents who follow recommendations are those with the greatest returns)."
+        }
+      ],
+      "explanation": "Following more suggestions is a worker choice. A positive association with returns does not by itself identify the effect of following an additional suggestion: agents can select into adherence because of ability or expected gains. The detailed mechanism section explicitly raises both alternatives.",
+      "suggestion": "Preserve an association label on the adherence link and link readers to the selection caveat before discussing engagement as a learning channel.",
+      "category": "support",
+      "resolutionNote": "The alternative explanations are explicitly acknowledged in Section VI.A; this is an addressed interpretive boundary."
+    },
+    {
+      "id": "F07",
+      "title": "Requests for a supervisor are a proxy for customer confidence",
+      "kind": "construct_shift",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-i-011",
+        "quote": "Customers are also less likely to question agents’ competence by asking to speak to a supervisor."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vii-024",
+          "quote": "we lack data on actual escalations"
+        },
+        {
+          "blockId": "gaw-vii-024",
+          "quote": "requests are a better measure of customer confidence in an agent's competence or authority."
+        }
+      ],
+      "explanation": "The observed outcome is a request to speak to a manager. Interpreting fewer requests as greater confidence is plausible, but competence is not directly assessed and actual escalations are not observed. Requests may also depend on politeness, expectations, or the perceived usefulness of escalation.",
+      "suggestion": "Name the observed request outcome first; keep customer confidence as its interpretation and avoid mapping it as measured competence.",
+      "category": "constructs"
+    },
+    {
+      "id": "F08",
+      "title": "Turnover evidence carries a stronger selection caveat",
+      "kind": "overclaim",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-i-011",
+        "quote": "these changes come alongside a decrease in worker attrition, which is driven by the retention of newer workers."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vii-030",
+          "quote": "These results should be taken with more caution relative to our main results because attrition occurs once per worker, and therefore we are unable to include agent fixed effects."
+        },
+        {
+          "blockId": "gaw-vii-030",
+          "quote": "Our results may overstate the effect of AI access on attrition"
+        }
+      ],
+      "explanation": "The summary appropriately says the outcomes occur alongside one another. A diagram could nevertheless imply that improved customer treatment causes retention or that the attrition estimate has the same identification as productivity. Section VII explicitly cautions against that reading.",
+      "suggestion": "Show attrition as a separate, cautiously interpreted outcome; do not draw a confirmed customer-treatment-to-retention causal arrow.",
+      "category": "support",
+      "resolutionNote": "Section VII.C supplies the differential identification caveat and the selection example."
+    },
+    {
+      "id": "F09",
+      "title": "Long-run model deterioration is a conjectured feedback loop",
+      "kind": "overclaim",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-i-013",
+        "quote": "future iterations of the AI model may be less effective in solving new problems."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-013",
+          "quote": "However, in the short run, our analysis finds no evidence that the model is declining in quality over our sample period."
+        }
+      ],
+      "explanation": "The proposed loss of expert contributions is a forward-looking concern, not an observed decline in model quality. The article later reports no evidence of a decline within the sample. Retaining the word may is essential to an honest argument map.",
+      "suggestion": "Use a dashed conjecture link from expert-input changes to future model quality, with the observed in-sample result as a separate qualification.",
+      "category": "support",
+      "resolutionNote": "The detailed analysis explicitly separates the long-run conjecture from the absence of in-sample deterioration."
+    },
+    {
+      "id": "F10",
+      "title": "Longer-term is relative to laboratory tasks, not an equilibrium horizon",
+      "kind": "transition",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-i-018",
+        "quote": "new evidence of longer-term effects in a real-world workplace"
+      },
+      "related": [
+        {
+          "blockId": "gaw-i-017",
+          "quote": "Our work is closely related to several other studies examining the effects of generative AI in lab-like settings."
+        },
+        {
+          "blockId": "gaw-viii-004",
+          "quote": "we report partial equilibrium short- to medium-run effects of AI deployment."
+        }
+      ],
+      "explanation": "The contribution statement uses longer-term after discussing short, task-based experiments. Elsewhere the article calls its own estimates short- to medium-run and rules out longer-run equilibrium conclusions. Without the comparison, collaborators may attach different time horizons to the contribution.",
+      "suggestion": "Read longer-term relative to the laboratory studies just discussed, and keep medium-run workplace effects separate from unobserved equilibrium adjustments.",
+      "category": "role",
+      "resolutionNote": "The surrounding literature comparison and the Conclusion make the relative time horizon clear."
+    },
+    {
+      "id": "F11",
+      "title": "Fine-tuning can mitigate errors without guaranteeing their elimination",
+      "kind": "overclaim",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-ii-008",
+        "quote": "Fine-tuning can help eliminate factually incorrect or inappropriate responses"
+      },
+      "related": [
+        {
+          "blockId": "gaw-ii-013",
+          "quote": "generative AI tools face significant challenges in real-world applications."
+        },
+        {
+          "blockId": "gaw-iii-016",
+          "quote": "Giving the agent final authority reduces the likelihood that customers receive off-topic or incorrect responses."
+        }
+      ],
+      "explanation": "The phrase can help is qualified, but eliminate can still be read as a guarantee in a technical summary. The subsequent discussion emphasizes unpredictable false information, and the deployed design relies on human discretion and abstention rather than asserting error-free output.",
+      "suggestion": "Summarize this as mitigating or reducing unwanted output. Keep residual model error and human review visible in the system-design branch.",
+      "category": "support"
+    },
+    {
+      "id": "F12",
+      "title": "Within-job compression does not establish economy-wide inequality effects",
+      "kind": "scope_shift",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-ii-012",
+        "quote": "the potential to significantly alter the established relationships among technology, labor productivity, and economic inequality"
+      },
+      "related": [
+        {
+          "blockId": "gaw-i-012",
+          "quote": "our data do not allow us to observe changes in wages, overall labor demand, or the skill composition of workers hired at the firm."
+        }
+      ],
+      "explanation": "This paragraph motivates both substitution and augmentation and then moves to economic inequality. The study estimates worker performance within one occupation, not changes in wages, employment, or between-occupation inequality. The article explicitly treats those broader outcomes as beyond its data.",
+      "suggestion": "Keep inequality in the motivation or implications branch. Link the empirical contribution to within-job productivity heterogeneity and show the separate equilibrium boundary.",
+      "category": "constructs",
+      "resolutionNote": "The Introduction explicitly identifies the missing labor-market outcomes; the paper does not claim to estimate inequality."
+    },
+    {
+      "id": "F13",
+      "title": "Firm performance metrics and the research productivity outcome differ",
+      "kind": "construct_shift",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-iii-010",
+        "quote": "Our firm measures productivity using three metrics"
+      },
+      "related": [
+        {
+          "blockId": "gaw-iv-024",
+          "quote": "Our primary productivity measure is resolutions per hour (RPH)"
+        },
+        {
+          "blockId": "gaw-v-035",
+          "quote": "AI assistance increases productivity without negatively affecting resolution rates and surveyed customer satisfaction."
+        }
+      ],
+      "explanation": "This paragraph uses productivity broadly for speed, resolution, and satisfaction. The empirical analysis then defines a specific primary output-per-hour measure and treats customer satisfaction separately. A coauthor could otherwise read the 15% gain as an improvement in all three firm metrics.",
+      "suggestion": "Separate the firm's performance dashboard from the research outcome RPH. Keep NPS as a distinct quality outcome, not part of the 15% estimand.",
+      "category": "constructs"
+    },
+    {
+      "id": "F14",
+      "title": "Individual tasks do not by themselves rule out learning spillovers",
+      "kind": "logic_gap",
+      "severity": "attention",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-iii-011",
+        "quote": "Agents work individually, and the quality of their output does not directly affect others."
+      },
+      "related": [
+        {
+          "blockId": "gaw-iii-011",
+          "quote": "Once a week, managers hold one-on-one feedback sessions with each agent."
+        },
+        {
+          "blockId": "gaw-iv-007",
+          "quote": "In the same team and same office, individuals would be on-boarded to AI assistance at different times."
+        }
+      ],
+      "explanation": "The statement addresses direct production interdependence. It does not establish that untreated teammates cannot learn from treated workers, share suggestions, or receive changed managerial coaching. Such spillovers matter when individual adoption provides the comparison and coworkers share managers.",
+      "suggestion": "Distinguish direct task independence from no treatment spillovers. Explain which channels are plausible here and how they affect interpretation of the individual-adoption comparison.",
+      "category": "support"
+    },
+    {
+      "id": "F15",
+      "title": "The design makes expert transfer plausible but does not isolate its contribution",
+      "kind": "logic_gap",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-iii-014",
+        "quote": "Explicitly training the AI model on text from top performers helps the AI system to pick up on these subtleties in behavior and tone."
+      },
+      "related": [
+        {
+          "blockId": "gaw-iii-014",
+          "quote": "Our AI firm also up-weights the value of training chats if the chat was conducted by a top performer when training the AI."
+        },
+        {
+          "blockId": "gaw-v-048",
+          "quote": "These results are consistent with the idea that generative AI tools may function by exposing lower-skill workers to the best practices of higher-skill workers."
+        }
+      ],
+      "explanation": "Up-weighting top-performer conversations is a documented design choice that makes expert-behavior transfer plausible. The study does not compare the same tool with and without that up-weighting, so this component's separate contribution is not identified by the overall rollout effect.",
+      "suggestion": "Label this as a design-based rationale. Distinguish what the system was trained to do from which mechanism the observational deployment can isolate.",
+      "category": "support"
+    },
+    {
+      "id": "F16",
+      "title": "Human discretion is a safeguard rationale, not a measured error-rate reduction",
+      "kind": "unsupported_claim",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-iii-016",
+        "quote": "Giving the agent final authority reduces the likelihood that customers receive off-topic or incorrect responses."
+      },
+      "related": [
+        {
+          "blockId": "gaw-iii-016",
+          "quote": "the agent, who has full discretion over which, if any, AI suggestions to accept."
+        },
+        {
+          "blockId": "gaw-vi-013",
+          "quote": "some agents may be overrelying on AI recommendations beyond what is optimal in the long run."
+        }
+      ],
+      "explanation": "Keeping agents in control is an important system safeguard. The passage gives its intended rationale but does not report an experimental comparison of incorrect-response rates with versus without that discretion. Later results also allow that some workers overrely on suggestions.",
+      "suggestion": "Describe discretion as intended to reduce inappropriate output, and distinguish that rationale from a directly measured reduction in model errors.",
+      "category": "support"
+    },
+    {
+      "id": "F17",
+      "title": "The pilot RCT is distinct from the main staggered rollout",
+      "kind": "unclear_reference",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-iv-003",
+        "quote": "AI assistance was introduced after a randomized control trial (RCT) involving a small number of agents."
+      },
+      "related": [
+        {
+          "blockId": "gaw-iv-006",
+          "quote": "Managers at each office oversaw the selection and allocation of agents to training sessions."
+        },
+        {
+          "blockId": "gaw-v-037",
+          "quote": "we do not have information on the control-group workers that were part of the experiment, so we compare our treated group to all remaining untreated agents."
+        }
+      ],
+      "explanation": "The mention of an RCT can lead a reader to label the main 5,172-agent study randomized. The main analysis instead uses capacity-constrained, manager-scheduled staggered adoption. Even the pilot analysis available to the authors lacks the original randomized control-group records.",
+      "suggestion": "Keep separate design nodes: pilot trial, available pilot comparison, and main staggered rollout. Label the main identification as difference-in-differences.",
+      "category": "constructs",
+      "resolutionNote": "The rollout description and Section V.A.1 disclose the distinction and the pilot-data limitation."
+    },
+    {
+      "id": "F18",
+      "title": "Capacity constraints alone do not make individual adoption timing random",
+      "kind": "logic_gap",
+      "severity": "attention",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-iv-006",
+        "quote": "Managers at each office oversaw the selection and allocation of agents to training sessions."
+      },
+      "related": [
+        {
+          "blockId": "gaw-iv-035",
+          "quote": "consistent assuming parallel trends, no anticipatory behavior, and cohort-specific treatment effects that follow the same dynamic profile."
+        },
+        {
+          "blockId": "gaw-v-039",
+          "quote": "If managers allocated AI access to stronger workers first, our OLS results could overstate the effects of AI."
+        }
+      ],
+      "explanation": "Budget and trainer availability explain why rollout was staggered, but managers still selected its individual timing. The article recognizes potential selection and reports event studies, alternative estimators, and a team-based instrument. These are evidence to assess, not proof that assignment was randomized.",
+      "suggestion": "Connect the managerial-selection fact to the identification checks rather than drawing a direct constraints-to-exogeneity arrow. Retain parallel-trends and instrument assumptions in the map.",
+      "category": "support",
+      "resolutionNote": "Selection is explicitly discussed and robustness evidence is supplied. Addressed means the issue is engaged in the text, not that all identifying assumptions have been proven."
+    },
+    {
+      "id": "F19",
+      "title": "Causal language depends on the stated identifying assumptions",
+      "kind": "logic_gap",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-iv-031",
+        "quote": "We isolate the causal impact of access to AI recommendations using a standard difference-in-differences regression:"
+      },
+      "related": [
+        {
+          "blockId": "gaw-iv-034",
+          "quote": "two-way fixed effects regressions deliver consistent estimates only with strong assumptions"
+        },
+        {
+          "blockId": "gaw-iv-035",
+          "quote": "consistent assuming parallel trends, no anticipatory behavior, and cohort-specific treatment effects that follow the same dynamic profile."
+        }
+      ],
+      "explanation": "The causal interpretation depends on the comparison design and its assumptions, not on including fixed effects alone. The later estimator discussion explicitly states parallel trends, no anticipation, and a treatment-effect restriction. These assumptions should travel with the causal result.",
+      "suggestion": "Attach an assumptions node to the causal-effect node and route readers to the event-study and robustness passages before summarizing the result as causal.",
+      "category": "support",
+      "resolutionNote": "The assumptions and staggered-adoption concerns are explicitly supplied in the next paragraphs."
+    },
+    {
+      "id": "F20",
+      "title": "The primary productivity outcome uses the subset with quality data",
+      "kind": "scope_shift",
+      "severity": "attention",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-iv-025",
+        "quote": "we only observe our omnibus productivity measure—resolutions per hour—for this smaller subset of agents with call-quality outcomes."
+      },
+      "related": [
+        {
+          "blockId": "gaw-iv-009",
+          "quote": "3 million chats by 5,172 agents."
+        },
+        {
+          "blockId": "gaw-v-011",
+          "quote": "Observations | 13,192 | 12,295 | 12,295"
+        },
+        {
+          "blockId": "gaw-v-027",
+          "quote": "Observations | 21,839 | 21,839 | 12,295 | 12,541"
+        }
+      ],
+      "explanation": "The headline sample describes all observed agents, whereas the RPH estimate uses fewer observations because resolution-quality data are not consistently collected by subcontractors. Speed outcomes have broader coverage. Comparisons across outcome columns therefore need their different analysis samples kept visible.",
+      "suggestion": "Add an analysis-sample branch under each outcome, and avoid describing the RPH coefficient as estimated on every observed chat or all 5,172 agents.",
+      "category": "constructs"
+    },
+    {
+      "id": "F21",
+      "title": "Equal agent-month weighting answers a specific average-effect question",
+      "kind": "scope_shift",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-iv-033",
+        "quote": "we weight each agent-month equally"
+      },
+      "related": [
+        {
+          "blockId": "gaw-v-040",
+          "quote": "we weight agent-month observations by the number of customer chats that a worker conducts. Reweighting generates similar results to our main, equally weighted specifications."
+        }
+      ],
+      "explanation": "The main estimate averages observed agent-months rather than weighting every chat or worker equally over the entire period. Those are different summaries when workloads and observed employment duration vary. The paper explicitly reports a chat-weighted robustness analysis.",
+      "suggestion": "Label the main unit and weighting in the method branch, and keep the chat-weighted robustness result as a separate supporting check.",
+      "category": "constructs",
+      "resolutionNote": "The paper reports similar results under the stated alternative weighting; the main estimand still retains its own weighting definition."
+    },
+    {
+      "id": "F22",
+      "title": "The raw-comparison paragraph labels resolved chats as CPH",
+      "kind": "unclear_reference",
+      "severity": "check",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-iv-028",
+        "quote": "never-treated agents resolve an average of 1.7 CPH, whereas posttreatment agents resolve 2.5 CPH."
+      },
+      "related": [
+        {
+          "blockId": "gaw-iv-021",
+          "quote": "Resolutions per hour | 2.1 | 1.7 | 2 | 2.5"
+        },
+        {
+          "blockId": "gaw-iv-024",
+          "quote": "the number of chats an agent handles per hour, which accounts for multitasking (CPH)"
+        }
+      ],
+      "explanation": "This paragraph says it is discussing the primary resolutions-per-hour outcome, and Table I places 1.7 and 2.5 in the resolutions-per-hour row. Elsewhere CPH denotes all chats handled per hour, irrespective of resolution. The shorthand can blur two outcomes even though the numbers are traceable.",
+      "suggestion": "Use RPH or resolved chats per hour for this comparison, reserving CPH for the separate chats-per-hour measure. Verify labels against the corresponding figure and table.",
+      "category": "constructs"
+    },
+    {
+      "id": "F23",
+      "title": "No detected quality decline is not the same as an equivalence test",
+      "kind": "overclaim",
+      "severity": "attention",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-v-035",
+        "quote": "on average, AI assistance increases productivity without negatively affecting resolution rates and surveyed customer satisfaction."
+      },
+      "related": [
+        {
+          "blockId": "gaw-v-034",
+          "quote": "This effect is economically modest and insignificant given a high baseline RR of 82%."
+        },
+        {
+          "blockId": "gaw-v-047",
+          "quote": "small but statistically significant decreases in RRs and customer satisfaction"
+        }
+      ],
+      "explanation": "The average estimates do not detect a deterioration, but a statistically insignificant coefficient does not by itself establish equivalence or rule out a substantively relevant decline. The high-skill subgroup also has a different quality pattern. This is a question about the strength and scope of the summary, rather than a claim that quality fell on average.",
+      "suggestion": "Describe the average results as showing no detected decline, retain the subgroup qualification, and use confidence intervals or a stated equivalence margin if the intended claim is that meaningful harm is ruled out.",
+      "category": "support"
+    },
+    {
+      "id": "F24",
+      "title": "Pilot randomization does not carry through to the observed comparison",
+      "kind": "scope_shift",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-v-037",
+        "quote": "Analysis of the randomized control trial, in Online Appendix Table A.I, shows similar effects on productivity as in our main sample."
+      },
+      "related": [
+        {
+          "blockId": "gaw-v-037",
+          "quote": "we do not have information on the control-group workers that were part of the experiment, so we compare our treated group to all remaining untreated agents."
+        }
+      ],
+      "explanation": "A reader seeing the RCT label might assume that the reported contrast uses both arms of the randomized pilot. The paper explicitly says that the original control arm is unavailable and uses a broader untreated comparison. Thus this check is already answered in the paragraph; the label should be read together with that restriction.",
+      "suggestion": "When summarizing or mapping this robustness check, label it pilot-treatment-cohort evidence with a broader untreated comparison, and link the explicit comparison-group limitation.",
+      "category": "constructs",
+      "resolutionNote": "The same paragraph discloses the missing original control group and states the actual comparison. The demo records this as an addressed interpretation risk, not an undisclosed design flaw."
+    },
+    {
+      "id": "F25",
+      "title": "What rules out team-level changes affecting the IV outcomes directly?",
+      "kind": "logic_gap",
+      "severity": "attention",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-v-039",
+        "quote": "we instrument an individual agent's AI adoption date with the first adoption date of the worker's company, office location, and team."
+      },
+      "related": [
+        {
+          "blockId": "gaw-v-039",
+          "quote": "During the rollout process, managers decided which agents to on-board onto the AI system and scheduled when their training would occur."
+        },
+        {
+          "blockId": "gaw-v-039",
+          "quote": "However, resolutions increase by 0.55 CPH, compared with 0.30 in our main finding."
+        }
+      ],
+      "explanation": "The IV addresses one source of individual adoption selection, but its interpretation also requires that the timing used as an instrument not affect performance through concurrent team-level changes or spillovers. The appendix reports the first stage and 2SLS estimates; those estimates alone do not establish the exclusion restriction. The larger RPH estimate makes the identifying contrast worth tracing.",
+      "suggestion": "State the exclusion argument alongside the IV result and distinguish the IV population or timing margin from the main estimate. Identify any available evidence on concurrent team training, workflow changes, or spillovers.",
+      "category": "support"
+    },
+    {
+      "id": "F26",
+      "title": "The skill label denotes a relative performance index",
+      "kind": "construct_shift",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-v-044",
+        "quote": "We measure an agent's “skill” using an index incorporating three key performance indicators: call-handling speed, issue RRs, and customer satisfaction."
+      },
+      "related": [
+        {
+          "blockId": "gaw-v-044",
+          "quote": "we compute an agent's ranking within its employer company-month for each component productivity measure and then average these rankings into a single index."
+        },
+        {
+          "blockId": "gaw-v-045",
+          "quote": "measured in the month before AI access."
+        }
+      ],
+      "explanation": "Skill here is an explicitly defined, employer-relative performance proxy smoothed over recent months. It is not education, general cognitive ability, or an independently observed stock of transferable skill. Cross-firm ranks and the mixture of speed and quality can also hide distinct performance profiles. The published definition is clear; the risk arises when later labels are read more broadly.",
+      "suggestion": "Keep the operational label visible in the map: pretreatment performance-index quintile. Treat wider claims about skill-biased technology as interpretations bounded by that definition.",
+      "category": "constructs"
+    },
+    {
+      "id": "F27",
+      "title": "Heterogeneous gains are compatible with best-practice transfer, not a direct test",
+      "kind": "logic_gap",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-v-048",
+        "quote": "These results are consistent with the idea that generative AI tools may function by exposing lower-skill workers to the best practices of higher-skill workers."
+      },
+      "related": [
+        {
+          "blockId": "gaw-v-047",
+          "quote": "For the highest-skilled workers, we find mixed results"
+        },
+        {
+          "blockId": "gaw-vi-046",
+          "quote": "As a result, this analysis is only suggestive."
+        }
+      ],
+      "explanation": "The authors appropriately use consistent-with language. Larger gains among lower-performing workers do not uniquely distinguish best-practice transfer from other channels such as easier information retrieval, scripted language, or different baseline constraints. Later textual convergence provides suggestive support but is itself qualified.",
+      "suggestion": "Draw this edge as a proposed mechanism supported by multiple patterns, rather than as a directly isolated mediator. Link the textual-convergence caveat when presenting the best-practice interpretation.",
+      "category": "support"
+    },
+    {
+      "id": "F28",
+      "title": "The mean-reversion diagnostic does not establish causal attribution alone",
+      "kind": "overclaim",
+      "severity": "check",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-v-049",
+        "quote": "with no strong evidence of mean reversion, suggesting that productivity gains are attributable to AI assistance."
+      },
+      "related": [
+        {
+          "blockId": "gaw-v-045",
+          "quote": "We find that the productivity effect of AI assistance is most pronounced for workers in the lowest skill quintile"
+        },
+        {
+          "blockId": "gaw-v-040",
+          "quote": "We show similar results using alternative estimators and at different levels of clustering and weighting."
+        }
+      ],
+      "explanation": "The raw-curve diagnostic is relevant to one alternative explanation for the skill gradient. Absence of the predicted convergence pattern is not, by itself, sufficient to assign the gains to AI; that attribution depends on the broader rollout design and identifying assumptions. The issue is the inferential step in the concluding clause, not a claim that the diagnostic is absent.",
+      "suggestion": "Separate the two statements: the plotted pattern does not support the proposed mean-reversion explanation; the causal interpretation relies on the main design and its robustness checks.",
+      "category": "support"
+    },
+    {
+      "id": "F29",
+      "title": "Faster assisted ramp-up and durable unaided learning are distinct claims",
+      "kind": "transition",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-v-060",
+        "quote": "These findings demonstrate that AI assistance not only accelerates ramp-up for new workers but also increases the rate at which even experienced workers improve in their roles."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-015",
+          "quote": "whether these improvements in productivity and changes in communication patterns reflect durable changes in the human capital of workers or simply their growing reliance on AI assistance."
+        },
+        {
+          "blockId": "gaw-vi-020",
+          "quote": "Because AI outages are rare, our estimates are noisy and could reflect differences in the types of chats that are seen during outage periods than during non-outage periods."
+        }
+      ],
+      "explanation": "The experience curves describe performance while workers can use AI, so they cannot alone distinguish assisted performance from lasting human-capital gains. Section VI.B explicitly asks that question and adds outage evidence, while stating the limitations of that evidence. The manuscript therefore supplies the missing distinction in a later section.",
+      "suggestion": "Connect the experience-curve node to the worker-learning question and the qualified outage evidence. Avoid assigning unaided learning to the experience curves alone.",
+      "category": "role",
+      "resolutionNote": "Section VI.B explicitly separates durable learning from reliance and studies outages. Its noisy, potentially composition-sensitive evidence should accompany the learning interpretation."
+    },
+    {
+      "id": "F30",
+      "title": "Adherence groups are chosen after access, not randomly assigned",
+      "kind": "logic_gap",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-vi-008",
+        "quote": "for agents in the highest quintile, the estimated impact is over twice as high, close to 25%."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-004",
+          "quote": "we classify each treated agent into a quintile based on their level of adherence during their first month using the AI tool."
+        },
+        {
+          "blockId": "gaw-vi-009",
+          "quote": "selection (agents who choose to adhere are more productive for other reasons) or selection on gains (agents who follow recommendations are those with the greatest returns)."
+        }
+      ],
+      "explanation": "The gradient is informative about heterogeneity among users, but first-month adherence is a post-access behavior. It is not a randomized dose. The authors explicitly acknowledge both selection and selection on gains immediately afterward. This check is included to preserve that qualification when the result is summarized.",
+      "suggestion": "Show an association edge between adherence and larger gains, and retain the linked selection caveat rather than interpreting the difference between quintiles as the causal effect of raising adherence.",
+      "category": "support",
+      "resolutionNote": "The next paragraph names the relevant selection mechanisms. The concern is addressed as a limitation of interpretation; the paper does not claim randomized adherence."
+    },
+    {
+      "id": "F31",
+      "title": "Rising adherence need not eliminate time-varying selection",
+      "kind": "logic_gap",
+      "severity": "check",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-vi-009",
+        "quote": "If our results were driven purely by selection, we would expect workers with low adherence to continue having low adherence, since it was optimal for them to do so."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-010",
+          "quote": "The initially least compliant agents increase their compliance over time"
+        },
+        {
+          "blockId": "gaw-vi-012",
+          "quote": "suggesting that increases in adherence over time are not driven exclusively by less adherent agents leaving."
+        }
+      ],
+      "explanation": "The prediction uses a relatively stable form of selection. Workers may change adherence because they learn which suggestions fit their tasks, the model changes, or their task mix changes. Within-agent checks address compositional exit, but do not by themselves remove these time-varying explanations. Rising adherence is useful evidence of changing behavior, with a narrower identifying role.",
+      "suggestion": "Make the stable-selection assumption explicit and present adherence dynamics as evidence consistent with updating or perceived value, rather than as a general rejection of selection-based accounts.",
+      "category": "support"
+    },
+    {
+      "id": "F32",
+      "title": "Future training-data erosion is a conjecture, not an observed model decline",
+      "kind": "scope_shift",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-vi-013",
+        "quote": "High AI adherence in the present may then reduce the quality or diversity of solutions used for AI training in the future."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-013",
+          "quote": "However, in the short run, our analysis finds no evidence that the model is declining in quality over our sample period."
+        },
+        {
+          "blockId": "gaw-vi-013",
+          "quote": "had similar first-month treatment effects as those who received access to an earlier version of the model."
+        }
+      ],
+      "explanation": "The paragraph moves from observed adherence and subgroup quality patterns to a possible feedback loop affecting future training data. The manuscript marks this as a possibility and explicitly distinguishes it from the observed short-run model pattern. A map should retain both the conjecture and its temporal boundary.",
+      "suggestion": "Label the training-data feedback edge as a future possibility. Link the no-observed-short-run-decline passage, and avoid displaying it as a demonstrated deterioration in the AI system.",
+      "category": "constructs",
+      "resolutionNote": "The same paragraph explicitly reports no evidence of model quality decline over the sample and provides a later-cohort comparison. The future feedback claim remains conjectural."
+    },
+    {
+      "id": "F33",
+      "title": "The outage analysis switches from resolved output to chat duration",
+      "kind": "transition",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-vi-018",
+        "quote": "our main outcome measure is chat duration."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-018",
+          "quote": "Because we do not have information on chat resolution at this level of granularity"
+        },
+        {
+          "blockId": "gaw-v-003",
+          "quote": "our primary measure of productivity, RPH"
+        }
+      ],
+      "explanation": "The main result is resolutions per agent-hour at the agent-month level; the outage test uses duration for individual chats. Faster conversations during outages need not imply unchanged resolution quality or the same omnibus productivity gain. The paper explicitly states the measurement reason for the switch, so this is an addressed navigation and interpretation check.",
+      "suggestion": "Mark the outcome and unit on both nodes and retain the data-availability reason for changing measures. Phrase outage findings as faster chat handling unless additional quality evidence is available.",
+      "category": "role",
+      "resolutionNote": "The outcome switch and unavailable chat-level resolution data are explicitly stated in Section VI.B. The demo should preserve that boundary in summaries of worker learning."
+    },
+    {
+      "id": "F34",
+      "title": "An outage window need not mean every included worker lost recommendations",
+      "kind": "scope_shift",
+      "severity": "attention",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-vi-020",
+        "quote": "even during outage periods when the AI system is not working, AI-exposed agents continue to handle calls faster"
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-016",
+          "quote": "the system fails to provide recommendations to some (but not necessarily all) workers."
+        },
+        {
+          "blockId": "gaw-vi-017",
+          "quote": "the share of chats without AI recommendations is typically 30% to 40%"
+        }
+      ],
+      "explanation": "The outage description allows partial failures and notes that ordinary chats can receive no suggestions. A clock-time outage window is therefore not automatically identical to verified absence of recommendations for every analyzed chat. The learning interpretation depends on how affected conversations are identified, beyond simply occurring during a large outage.",
+      "suggestion": "Clarify whether the outage sample includes all chats in recorded windows or only chats with verified loss of recommendations, and show a sensitivity check or limitation for any residual access.",
+      "category": "constructs"
+    },
+    {
+      "id": "F35",
+      "title": "Persistent speed gains during rare outages are suggestive learning evidence",
+      "kind": "overclaim",
+      "severity": "attention",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-vi-020",
+        "quote": "If an outage occurs after three months of exposure to AI recommendations, workers handle the chat faster—even though they are not receiving direct AI assistance in either case."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-020",
+          "quote": "our estimates are noisy and could reflect differences in the types of chats that are seen during outage periods than during non-outage periods."
+        },
+        {
+          "blockId": "gaw-vi-015",
+          "quote": "durable changes in the human capital of workers"
+        }
+      ],
+      "explanation": "This pattern is consistent with learning that persists without direct assistance. However, the paragraph acknowledges noisy estimates and different chat composition, and the outcome is speed rather than a direct skill test or resolved output. The outage table also merits inspecting before treating the time profile as a clean learning curve. This is a calibrated interpretation question, not a dismissal of the evidence.",
+      "suggestion": "Use suggestive evidence of retained chat-handling gains, link the acknowledged composition and precision limits, and distinguish durable human-capital interpretation from the measured duration result.",
+      "category": "support"
+    },
+    {
+      "id": "F36",
+      "title": "Engaging with suggestions and observing responses is not an isolated mediator",
+      "kind": "logic_gap",
+      "severity": "check",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-vi-024",
+        "quote": "These findings suggest that workers learn more by actively engaging with AI suggestions and observing firsthand how customers respond."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-023",
+          "quote": "workers with high initial adherence to AI recommendations experience significant and rapid declines in chat processing times, even during outages"
+        },
+        {
+          "blockId": "gaw-vi-009",
+          "quote": "selection on gains (agents who follow recommendations are those with the greatest returns)."
+        }
+      ],
+      "explanation": "Outage heterogeneity by initial adherence is consistent with learning through active experimentation, but adherence is chosen and observing customer responses is not separately varied. Receptiveness, task fit, or other differences could contribute to the contrast. The proposed learning channel should remain separate from the directly estimated subgroup pattern.",
+      "suggestion": "Draw a tentative mechanism edge from engagement to learning and retain the adherence-selection qualification. State which part is measured and which part is the proposed explanation.",
+      "category": "support"
+    },
+    {
+      "id": "F37",
+      "title": "Routine is operationalized through topic frequency, not task difficulty",
+      "kind": "construct_shift",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-vi-028",
+        "quote": "To evaluate the impact of AI assistance based on the frequency of customer inquiries, we categorize conversations into four distinct groups."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-026",
+          "quote": "We examine how the effect of AI assistance varies between more and less routine customer problems."
+        },
+        {
+          "blockId": "gaw-vi-029",
+          "quote": "the greatest effect on workers’ ability to handle problems that are moderately rare."
+        }
+      ],
+      "explanation": "The operational contrast is topic-frequency bins based on LLM classifications, with human validation described in the appendix. Rarity is not identical to technical complexity, predictability, or individual novelty. The grouping is useful, but the routine/nonroutine language can invite a broader task-difficulty interpretation than the measure establishes.",
+      "suggestion": "Label the nodes by overall topic frequency and agent-specific topic frequency. Preserve the validation link and describe routine as an operational shorthand rather than a direct difficulty assessment.",
+      "category": "constructs"
+    },
+    {
+      "id": "F38",
+      "title": "Overall topic frequency is a proxy for the model’s training exposure",
+      "kind": "construct_shift",
+      "severity": "check",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-vi-034",
+        "quote": "holding constant the AI model's exposure to a problem"
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-034",
+          "quote": "controlling for the overall frequency of a problem."
+        },
+        {
+          "blockId": "gaw-vi-033",
+          "quote": "The AI system is likely to have enough training data to assess these problems"
+        }
+      ],
+      "explanation": "The regression holds observed overall topic frequency constant. That can proxy the abundance of relevant examples, but it is not itself a direct observation of training-set coverage, example quality, or model competence. The stronger wording about holding model exposure constant is therefore an interpretive step that deserves a visible qualification.",
+      "suggestion": "Describe the controlled quantity as overall observed topic frequency, used as a proxy for training exposure. Keep the human-experience interpretation tentative unless training exposure is directly measured.",
+      "category": "constructs"
+    },
+    {
+      "id": "F39",
+      "title": "Higher fluency of assisted messages need not be an independent language-skill gain",
+      "kind": "construct_shift",
+      "severity": "attention",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-vi-039",
+        "quote": "AI access leads to large improvements in both comprehensibility and native fluency."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-038",
+          "quote": "We use Gemini to score agents’ text in each conversation along these two dimensions."
+        },
+        {
+          "blockId": "gaw-vi-004",
+          "quote": "they either directly copy the AI's proposed text or manually enter highly similar content."
+        }
+      ],
+      "explanation": "The scores concern the messages produced while agents have access to AI, including copied or closely followed suggestions. They demonstrate an improvement in assisted text output, but do not alone establish that agents acquired language proficiency they could reproduce unaided. The appendix validates scoring against humans; that validation does not resolve the output-versus-skill distinction.",
+      "suggestion": "Name the outcome comprehensibility and native-like style of assisted messages. Separate this result from unaided language learning, or link an appropriate no-assistance test if making that stronger claim.",
+      "category": "constructs"
+    },
+    {
+      "id": "F40",
+      "title": "Native-like American English and understandable English are distinct constructs",
+      "kind": "construct_shift",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-vi-038",
+        "quote": "native fluency focuses on whether the text was likely to have been produced by a native speaker of American English."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-038",
+          "quote": "Filipino agents often use the greeting “to have a blessed day,” which is grammatically correct, but not a common greeting in the United States."
+        },
+        {
+          "blockId": "gaw-vi-038",
+          "quote": "The comprehensibility score assesses whether the agent produces text that is cogent and easy to understand"
+        }
+      ],
+      "explanation": "The article carefully distinguishes comprehensibility from conformity to native American English. The second score includes dialect and cultural conventions, so a higher score should not automatically be described as objectively better English or improved customer understanding. Human validation supports the stated rating task, rather than equating the two constructs.",
+      "suggestion": "Keep both measures separate in the map and in summaries: comprehensibility versus native-like American English style. Avoid collapsing them into a single general language-ability indicator.",
+      "category": "constructs"
+    },
+    {
+      "id": "F41",
+      "title": "Textual convergence is not a direct measure of tacit-skill transfer",
+      "kind": "construct_shift",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-vi-045",
+        "quote": "it represents a substantial narrowing of language gaps"
+      },
+      "related": [
+        {
+          "blockId": "gaw-vi-046",
+          "quote": "changes in agent text can reflect many factors that are not directly related to a worker's style or tacit skills, such as changes in conversation topics driven by customers."
+        },
+        {
+          "blockId": "gaw-vi-046",
+          "quote": "As a result, this analysis is only suggestive."
+        }
+      ],
+      "explanation": "Embedding similarity can reflect shared content, topics, templates, or style. Its increase is compatible with knowledge transfer but is not a direct observation of tacit skill. The authors explicitly state this limitation in the next paragraph, making it an addressed interpretation risk that should travel with the result.",
+      "suggestion": "Show the measured relation as greater semantic similarity between groups. Keep tacit-skill transfer as a tentative explanation and attach the published topic-composition caveat.",
+      "category": "constructs",
+      "resolutionNote": "Section VI.D explicitly names topic-driven changes and labels the analysis suggestive. The demo should retain that qualification wherever it links convergence to knowledge transfer."
+    },
+    {
+      "id": "F42",
+      "title": "Customer-text sentiment is a bounded proxy for the experience of work",
+      "kind": "construct_shift",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-vii-021",
+        "quote": "may improve agents’ demonstrated social skills and have a positive emotional effect on customers."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vii-005",
+          "quote": "we capture the affective nature of both agent and customer text, using sentiment analysis"
+        },
+        {
+          "blockId": "gaw-vii-027",
+          "quote": "Although we cannot directly observe all these factors"
+        }
+      ],
+      "explanation": "Improved customer sentiment is relevant to the interaction agents experience, but it is measured from text. It does not directly observe customer emotion, agent stress, burnout, or job satisfaction. The proposed empathetic-response channel is plausible and the authors use may, while the broader experience-of-work framing should remain tied to the observed proxies.",
+      "suggestion": "Keep a measured customer-text sentiment node separate from proposed emotional or wellbeing effects. State the link to worker experience as an interpretation supported by the interaction data, rather than a direct wellbeing measure.",
+      "category": "constructs"
+    },
+    {
+      "id": "F43",
+      "title": "Does no detectable agent-sentiment effect mean statistically or practically small?",
+      "kind": "unclear_reference",
+      "severity": "check",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-vii-006",
+        "quote": "we see no detectable effect for agent sentiment"
+      },
+      "related": [
+        {
+          "blockId": "gaw-vii-006",
+          "quote": "agent sentiments increase by only 0.02 points or about 1% of a standard deviation."
+        },
+        {
+          "blockId": "gaw-vii-012",
+          "quote": "Post AI × Ever treated | 0.177*** | 0.0198*** | −0.00875***"
+        }
+      ],
+      "explanation": "The prose says no detectable effect, while Table IV reports a positive agent-sentiment coefficient marked statistically significant. The intended distinction may be that the effect is practically tiny or difficult to discern in the event-study plot. This is a request to clarify that distinction, not evidence of a substantive reversal.",
+      "suggestion": "Use little economically meaningful change if that is the intended claim, and distinguish the event-study visual pattern from the statistically significant but small average coefficient.",
+      "category": "role"
+    },
+    {
+      "id": "F44",
+      "title": "Fewer requests for a manager are not observed reductions in actual escalations",
+      "kind": "scope_shift",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-vii-025",
+        "quote": "an almost 25% decline in customer requests to speak to a manager."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vii-024",
+          "quote": "We focus on requests for escalation rather than actual escalations because we lack data on actual escalations"
+        },
+        {
+          "blockId": "gaw-vii-024",
+          "quote": "requests are a better measure of customer confidence in an agent's competence or authority."
+        }
+      ],
+      "explanation": "The measured event is a customer request in a transcript. It is neither the actual transfer of a case nor direct observation of managerial workload or customer confidence. The paper explicitly distinguishes requests from actual escalations, so the scope issue is already addressed and should be retained in any workflow summary.",
+      "suggestion": "Label the outcome customer requests for a manager. Keep confidence as a proxy interpretation and avoid turning this result into a measured reduction in supervisor workload.",
+      "category": "constructs",
+      "resolutionNote": "Section VII.B explicitly states that actual escalation data are unavailable and defines the request outcome. The map should carry that scope restriction."
+    },
+    {
+      "id": "F45",
+      "title": "Observed attrition cannot isolate voluntary quitting or job satisfaction",
+      "kind": "construct_shift",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-vii-027",
+        "quote": "we can analyze turnover patterns as a broad measure of how workers respond to AI implementation."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vii-027",
+          "quote": "Although we cannot directly observe all these factors"
+        },
+        {
+          "blockId": "gaw-vii-029",
+          "quote": "access to AI assistance is associated with the strongest reductions in attrition among newer agents"
+        }
+      ],
+      "explanation": "The paper uses turnover as a broad response measure rather than a direct job-satisfaction measure. Appendix J.C.5 additionally states that voluntary and involuntary separations are indistinguishable. A retention pattern therefore cannot isolate reduced burnout, greater satisfaction, or employee choice, even before considering adoption selection.",
+      "suggestion": "Describe the outcome as all-cause observed attrition. Keep satisfaction, stress, and voluntary retention as possible channels, and link the appendix statement about indistinguishable separation types.",
+      "category": "constructs"
+    },
+    {
+      "id": "F46",
+      "title": "The attrition result has a different identification limit from the main outcomes",
+      "kind": "logic_gap",
+      "severity": "check",
+      "status": "addressed",
+      "target": {
+        "blockId": "gaw-vii-029",
+        "quote": "translates into a 40% decrease relative to a baseline attrition rate in this group of 25%."
+      },
+      "related": [
+        {
+          "blockId": "gaw-vii-028",
+          "quote": "We drop observations for treated agents before treatment because they do not experience attrition by construction"
+        },
+        {
+          "blockId": "gaw-vii-030",
+          "quote": "Our results may overstate the effect of AI access on attrition if, for example, the firm is more likely to give AI access to agents deemed more likely to stay."
+        }
+      ],
+      "explanation": "This large relative difference is an association with a different design from the repeated productivity outcomes: pre-treatment treated observations are omitted and agent fixed effects are not included. The authors explicitly identify differential selection into access as a remaining concern. The caution belongs with the numerical result rather than only in a distant limitations node.",
+      "suggestion": "Label the retention estimate associational and keep the explicit adoption-selection caveat attached. Distinguish this evidence from the main productivity estimates when summarizing the paper.",
+      "category": "support",
+      "resolutionNote": "The next paragraph explicitly explains the lack of agent fixed effects and a concrete upward-bias scenario. The conclusion also uses associated with for turnover."
+    },
+    {
+      "id": "F47",
+      "title": "The constant-output worker-hours calculation is not a forecast of job loss",
+      "kind": "scope_shift",
+      "severity": "check",
+      "status": "interpretation",
+      "target": {
+        "blockId": "gaw-viii-005",
+        "quote": "the firm could field the same number of customer-support issues with 12% fewer worker-hours."
+      },
+      "related": [
+        {
+          "blockId": "gaw-viii-005",
+          "quote": "we are not able to observe longer-run equilibrium responses."
+        },
+        {
+          "blockId": "gaw-viii-005",
+          "quote": "resulting in increased labor demand"
+        }
+      ],
+      "explanation": "The calculation holds the number of support issues fixed and converts productivity into an input requirement. It is not an observed employment change or an equilibrium prediction. Demand responses, task changes, and new work can move employment in either direction; the surrounding paragraph explicitly describes those possibilities.",
+      "suggestion": "Show the 12% figure as a constant-output counterfactual in worker-hours. Keep labor-demand scenarios as alternatives and avoid relabeling the figure as jobs lost.",
+      "category": "constructs"
+    },
+    {
+      "id": "F48",
+      "title": "Code availability should be distinguished from access to the underlying firm data",
+      "kind": "unclear_reference",
+      "severity": "check",
+      "status": "open",
+      "target": {
+        "blockId": "gaw-data-availability-002",
+        "quote": "Code replicating tables and figures from this article is available in the Harvard Dataverse"
+      },
+      "related": [
+        {
+          "blockId": "gaw-references-028",
+          "quote": "Replication Data for: ‘Generative AI at Work’"
+        }
+      ],
+      "explanation": "The statement explicitly promises replication code and links a repository whose citation contains Replication Data. From the article statement alone, a reader cannot tell which underlying firm data, derived outputs, or access conditions are included. This flag asks for a reproducibility boundary; it does not assert that the data are unavailable or that the repository lacks documentation.",
+      "suggestion": "Link the repository documentation and specify what can be reproduced with public files, what inputs require separate permission, and whether derived or synthetic inputs are supplied. Verify the repository before making a stronger availability claim.",
+      "category": "role"
+    }
+  ],
+  "annotations": [
+    {
+      "blockId": "gaw-abstract-003",
+      "role": "summary",
+      "summary": "Summarizes the staggered deployment, 15% average productivity gain, heterogeneous quality effects, learning evidence, topic complementarity, and customer interactions."
+    },
+    {
+      "blockId": "gaw-i-002",
+      "role": "motivation",
+      "summary": "Motivates real-world evaluation: strong laboratory performance may not survive unfamiliar tasks, organizational resistance, and misleading output."
+    },
+    {
+      "blockId": "gaw-i-003",
+      "role": "contribution",
+      "summary": "States the workplace deployment result and introduces expert-behavior dissemination as a possible interpretation of larger gains for weaker workers."
+    },
+    {
+      "blockId": "gaw-i-004",
+      "role": "background",
+      "summary": "Contrasts rule-based computing with workplace activities that are difficult to codify."
+    },
+    {
+      "blockId": "gaw-i-005",
+      "role": "theoretical_rationale",
+      "summary": "Explains learning from examples and develops why models trained on heterogeneous workers could disproportionately benefit lower performers."
+    },
+    {
+      "blockId": "gaw-i-006",
+      "role": "setting",
+      "summary": "Introduces the firm, 5,172-agent staggered deployment, GPT-3-based suggestions, and agents’ discretion to ignore or edit them."
+    },
+    {
+      "blockId": "gaw-i-007",
+      "role": "roadmap",
+      "summary": "Introduces four sets of findings."
+    },
+    {
+      "blockId": "gaw-i-008",
+      "role": "finding",
+      "summary": "Summarizes the 15% productivity gain and its speed, multitasking, and resolution-rate components."
+    },
+    {
+      "blockId": "gaw-i-009",
+      "role": "finding",
+      "summary": "Summarizes heterogeneity by skill and tenure, faster novice ramp-up, and small quality losses for top performers."
+    },
+    {
+      "blockId": "gaw-i-010",
+      "role": "mechanism_overview",
+      "summary": "Bundles adherence, outage-based learning, topic rarity, English fluency, and suggestive convergence in communication patterns."
+    },
+    {
+      "blockId": "gaw-i-011",
+      "role": "finding",
+      "summary": "Summarizes improved customer-message tone, fewer supervisor requests, and lower attrition among newer workers."
+    },
+    {
+      "blockId": "gaw-i-012",
+      "role": "qualification",
+      "summary": "Bounds the results to medium-run effects in one firm and distinguishes them from unobserved wages, employment, and equilibrium adjustments."
+    },
+    {
+      "blockId": "gaw-i-013",
+      "role": "implication",
+      "summary": "Raises a conjectured long-run feedback concern: greater expert adherence could reduce original inputs for future model training."
+    },
+    {
+      "blockId": "gaw-i-014",
+      "role": "literature_positioning",
+      "summary": "Places the study in the literature on technology, productivity, work organization, and skill-biased effects."
+    },
+    {
+      "blockId": "gaw-i-015",
+      "role": "literature_gap",
+      "summary": "Reviews mixed firm-level AI evidence and highlights selection into adoption as a challenge for causal inference."
+    },
+    {
+      "blockId": "gaw-i-016",
+      "role": "literature_positioning",
+      "summary": "Reviews mixed human–AI decision evidence and motivates studying how augmentation performs in practice."
+    },
+    {
+      "blockId": "gaw-i-017",
+      "role": "literature_positioning",
+      "summary": "Compares the workplace study to generative-AI task experiments and their often larger gains for lower performers."
+    },
+    {
+      "blockId": "gaw-i-018",
+      "role": "contribution",
+      "summary": "States the added contribution of workplace exposure over time, learning patterns, customer outcomes, and work experience."
+    },
+    {
+      "blockId": "gaw-ii-003",
+      "role": "definition",
+      "summary": "Defines generative AI and LLMs, sketches next-token training, and notes applications to other sequential data."
+    },
+    {
+      "blockId": "gaw-ii-004",
+      "role": "roadmap",
+      "summary": "Introduces four drivers of generative-AI improvement: scale, architecture, unlabeled pretraining, and training refinements."
+    },
+    {
+      "blockId": "gaw-ii-005",
+      "role": "background",
+      "summary": "Describes scaling relationships and reports GPT-3/GPT-4 training-size and cost figures from cited sources."
+    },
+    {
+      "blockId": "gaw-ii-006",
+      "role": "background",
+      "summary": "Explains positional encoding and self-attention as architectural tools for learning contextual and long-range relationships."
+    },
+    {
+      "blockId": "gaw-ii-007",
+      "role": "background",
+      "summary": "Explains how unlabeled text provides abundant examples for learning language patterns before task-specific adaptation."
+    },
+    {
+      "blockId": "gaw-ii-008",
+      "role": "background",
+      "summary": "Explains fine-tuning for factuality, tone, and application-specific priorities using labeled feedback."
+    },
+    {
+      "blockId": "gaw-ii-009",
+      "role": "transition",
+      "summary": "Links the technical advances to benchmark performance, preparing the move to their economic consequences."
+    },
+    {
+      "blockId": "gaw-ii-011",
+      "role": "theoretical_background",
+      "summary": "Summarizes how earlier computerization affected routine tasks, complementary skills, wage inequality, and organization."
+    },
+    {
+      "blockId": "gaw-ii-012",
+      "role": "theoretical_rationale",
+      "summary": "Explains generative AI’s potential for tacit tasks and competing substitution or augmentation paths with broader distributional implications."
+    },
+    {
+      "blockId": "gaw-ii-013",
+      "role": "qualification",
+      "summary": "Sets out real-world reliability problems and challenges in combining human judgment with AI suggestions."
+    },
+    {
+      "blockId": "gaw-ii-014",
+      "role": "qualification",
+      "summary": "Notes that organizational complements and process redesign can limit practical gains, reinforcing the need for workplace evidence."
+    },
+    {
+      "blockId": "gaw-iii-003",
+      "role": "setting_motivation",
+      "summary": "Introduces customer service as an early adoption setting with consequential interactions and wide productivity dispersion."
+    },
+    {
+      "blockId": "gaw-iii-004",
+      "role": "setting_motivation",
+      "summary": "Uses industry turnover and training-cost estimates to motivate support for novice agents and managerial coaching."
+    },
+    {
+      "blockId": "gaw-iii-005",
+      "role": "mechanism_rationale",
+      "summary": "Describes diagnostic behaviors of top performers and why firms seek AI tools that transmit those practices."
+    },
+    {
+      "blockId": "gaw-iii-006",
+      "role": "technical_fit",
+      "summary": "Explains why digitized diagnostic and emotional conversations provide useful training examples for generative support tools."
+    },
+    {
+      "blockId": "gaw-iii-008",
+      "role": "setting",
+      "summary": "Distinguishes the AI provider from the client data firm and describes agents, outsourcing, geography, and customers."
+    },
+    {
+      "blockId": "gaw-iii-009",
+      "role": "institutional_detail",
+      "summary": "Describes availability-based chat assignment, complex technical questions, and limited customer sorting within the studied segment."
+    },
+    {
+      "blockId": "gaw-iii-010",
+      "role": "measurement",
+      "summary": "Defines the firm’s speed, resolution, and satisfaction dashboard and its broad performance concept."
+    },
+    {
+      "blockId": "gaw-iii-011",
+      "role": "institutional_detail",
+      "summary": "Describes shared managers, weekly coaching, and individually conducted production."
+    },
+    {
+      "blockId": "gaw-iii-012",
+      "role": "incentives",
+      "summary": "Describes hourly pay and performance bonuses while acknowledging that individual compensation data are unavailable."
+    },
+    {
+      "blockId": "gaw-iii-014",
+      "role": "system_design",
+      "summary": "Describes GPT-3 fine-tuning, outcome labels, expert-chat up-weighting, and additional training for empathy and professionalism."
+    },
+    {
+      "blockId": "gaw-iii-015",
+      "role": "system_design",
+      "summary": "Explains the system’s response suggestions and documentation links using the appendix interface example."
+    },
+    {
+      "blockId": "gaw-iii-016",
+      "role": "system_boundary",
+      "summary": "Explains agent discretion and system abstention when training data are insufficient."
+    },
+    {
+      "blockId": "gaw-iv-003",
+      "role": "design",
+      "summary": "Introduces the pilot trial and capacity-constrained rollout timing across sites."
+    },
+    {
+      "blockId": "gaw-iv-004",
+      "role": "design",
+      "summary": "Explains onboarding sessions and trainer/time-zone capacity constraints behind staggered access."
+    },
+    {
+      "blockId": "gaw-iv-005",
+      "role": "design",
+      "summary": "Describes budget limits, replacement of departing AI users, and resulting variation in adoption."
+    },
+    {
+      "blockId": "gaw-iv-006",
+      "role": "assignment",
+      "summary": "Documents managers’ role in selecting training timing and the lack of ongoing AI-specific training."
+    },
+    {
+      "blockId": "gaw-iv-007",
+      "role": "identification",
+      "summary": "Describes within-team individual adoption variation and points to team-level instrumental-variable checks."
+    },
+    {
+      "blockId": "gaw-iv-009",
+      "role": "sample",
+      "summary": "Defines treatment groups and describes the scale, geography, and agent identifiers available in the data."
+    },
+    {
+      "blockId": "gaw-iv-024",
+      "role": "measurement",
+      "summary": "Defines agent-month outcomes, primary resolutions per hour, its components, and additional text-derived measures."
+    },
+    {
+      "blockId": "gaw-iv-025",
+      "role": "sample_qualification",
+      "summary": "Explains incomplete subcontractor quality measures, the smaller RPH sample, and active-period observation rules."
+    },
+    {
+      "blockId": "gaw-iv-026",
+      "role": "descriptive_evidence",
+      "summary": "Introduces raw outcome distributions showing stronger post-treatment performance and little satisfaction difference."
+    },
+    {
+      "blockId": "gaw-iv-028",
+      "role": "descriptive_evidence",
+      "summary": "Compares raw pre/post/never-treated performance while acknowledging preexisting selection into treatment."
+    },
+    {
+      "blockId": "gaw-iv-029",
+      "role": "transition",
+      "summary": "Cautions that raw differences are confounded and motivates the empirical strategy."
+    },
+    {
+      "blockId": "gaw-iv-031",
+      "role": "method",
+      "summary": "Introduces the difference-in-differences regression for the effect of AI access."
+    },
+    {
+      "blockId": "gaw-iv-033",
+      "role": "method",
+      "summary": "Defines the treatment indicator, outcomes, fixed effects, tenure controls, weighting, and clustering."
+    },
+    {
+      "blockId": "gaw-iv-034",
+      "role": "identification_qualification",
+      "summary": "Explains why staggered-adoption two-way fixed effects may be biased under heterogeneous treatment effects."
+    },
+    {
+      "blockId": "gaw-iv-035",
+      "role": "robustness",
+      "summary": "Introduces the interaction-weighted estimator, states identifying assumptions, and previews alternative estimators and design checks."
+    },
+    {
+      "blockId": "gaw-v-003",
+      "role": "finding",
+      "summary": "Reports the main RPH estimate and shows how agent and tenure controls reduce the estimate to the preferred 15.2% gain."
+    },
+    {
+      "blockId": "gaw-v-019",
+      "role": "finding",
+      "summary": "Uses an interaction-weighted event study to describe the timing and persistence of the productivity increase."
+    },
+    {
+      "blockId": "gaw-v-021",
+      "role": "finding",
+      "summary": "Decomposes productivity-related gains into shorter chats and higher chat throughput, with multitasking as an interpretation."
+    },
+    {
+      "blockId": "gaw-v-034",
+      "role": "qualification",
+      "summary": "Reports small average resolution and satisfaction estimates and interprets them as no average quality sacrifice."
+    },
+    {
+      "blockId": "gaw-v-035",
+      "role": "finding",
+      "summary": "Summarizes event studies for secondary outcomes and connects efficiency gains to the absence of a detected average quality decline."
+    },
+    {
+      "blockId": "gaw-v-037",
+      "role": "robustness",
+      "summary": "Examines the randomized pilot treatment cohort, while disclosing that its original randomized controls cannot be observed."
+    },
+    {
+      "blockId": "gaw-v-039",
+      "role": "robustness",
+      "summary": "Uses group-level rollout timing as an instrument for individual adoption and compares IV estimates with the main specification."
+    },
+    {
+      "blockId": "gaw-v-040",
+      "role": "robustness",
+      "summary": "Reports robustness across staggered-adoption estimators, clustering choices, and observation weighting."
+    },
+    {
+      "blockId": "gaw-v-042",
+      "role": "background",
+      "summary": "Motivates distributional heterogeneity by contrasting generative AI with earlier forms of information technology."
+    },
+    {
+      "blockId": "gaw-v-044",
+      "role": "method",
+      "summary": "Defines worker skill through a smoothed employer-relative index combining speed, resolution, and satisfaction rankings."
+    },
+    {
+      "blockId": "gaw-v-045",
+      "role": "finding",
+      "summary": "Finds the largest RPH gains for the lowest pretreatment performance quintile and no significant gain for the highest."
+    },
+    {
+      "blockId": "gaw-v-047",
+      "role": "finding",
+      "summary": "Shows broad gains for low-skill agents but mixed results and small quality declines for top performers."
+    },
+    {
+      "blockId": "gaw-v-048",
+      "role": "mechanism",
+      "summary": "Interprets heterogeneous gains as compatible with sharing best practices and raises possible distraction or effort channels for top agents."
+    },
+    {
+      "blockId": "gaw-v-049",
+      "role": "robustness",
+      "summary": "Considers mean reversion as an alternative explanation and uses raw skill-group trajectories as a diagnostic."
+    },
+    {
+      "blockId": "gaw-v-051",
+      "role": "method",
+      "summary": "Defines tenure-at-adoption groups and explains controls intended to distinguish experience from measured skill."
+    },
+    {
+      "blockId": "gaw-v-052",
+      "role": "finding",
+      "summary": "Reports a declining treatment-gain gradient by tenure, with the newest agents gaining most in RPH."
+    },
+    {
+      "blockId": "gaw-v-054",
+      "role": "finding",
+      "summary": "Reports efficiency and quality gains for new agents and more mixed outcomes for the most experienced."
+    },
+    {
+      "blockId": "gaw-v-055",
+      "role": "conclusion",
+      "summary": "Synthesizes the separate skill and tenure analyses as showing larger benefits for novices and lower-performing agents."
+    },
+    {
+      "blockId": "gaw-v-057",
+      "role": "method",
+      "summary": "Defines three adoption-timing cohorts used to compare productivity development over job tenure."
+    },
+    {
+      "blockId": "gaw-v-059",
+      "role": "finding",
+      "summary": "Compares always-treated and never-treated trajectories, suggesting faster assisted ramp-up."
+    },
+    {
+      "blockId": "gaw-v-060",
+      "role": "finding",
+      "summary": "Uses workers receiving access in month five to illustrate a steeper performance trajectory following adoption."
+    },
+    {
+      "blockId": "gaw-v-061",
+      "role": "implication",
+      "summary": "Extends the experience-curve pattern to other outcomes and discusses possible implications for training and prior experience."
+    },
+    {
+      "blockId": "gaw-vi-002",
+      "role": "roadmap",
+      "summary": "Introduces adherence, learning, language, and communication analyses as evidence on mechanisms behind the main results."
+    },
+    {
+      "blockId": "gaw-vi-004",
+      "role": "method",
+      "summary": "Defines suggestion adherence, its conditional denominator, and the first-month grouping used for heterogeneity."
+    },
+    {
+      "blockId": "gaw-vi-005",
+      "role": "finding",
+      "summary": "Describes substantial variation and frequent nonuse of AI recommendations, including within organizational units."
+    },
+    {
+      "blockId": "gaw-vi-007",
+      "role": "method",
+      "summary": "Explains how initial-adherence quintiles are used to estimate different gains from AI access."
+    },
+    {
+      "blockId": "gaw-vi-008",
+      "role": "finding",
+      "summary": "Reports a positive adherence-return gradient, strongest for handling time and throughput."
+    },
+    {
+      "blockId": "gaw-vi-009",
+      "role": "qualification",
+      "summary": "Acknowledges selection and selection on gains, then proposes adherence dynamics as evidence about perceived value."
+    },
+    {
+      "blockId": "gaw-vi-010",
+      "role": "finding",
+      "summary": "Shows that initially low-adherence agents increasingly follow recommendations while high-adherence rates remain stable."
+    },
+    {
+      "blockId": "gaw-vi-011",
+      "role": "finding",
+      "summary": "Reports lower initial adherence among senior agents followed by convergence across tenure groups."
+    },
+    {
+      "blockId": "gaw-vi-012",
+      "role": "robustness",
+      "summary": "Shows increasing adherence across skill groups and checks that compositional exit does not fully explain the pattern."
+    },
+    {
+      "blockId": "gaw-vi-013",
+      "role": "qualification",
+      "summary": "Contrasts growing perceived value with possible overreliance and future training-data erosion, while noting no observed short-run model decline."
+    },
+    {
+      "blockId": "gaw-vi-015",
+      "role": "research_question",
+      "summary": "Separates durable human-capital learning from reliance on an available tool and motivates an unaided-performance test."
+    },
+    {
+      "blockId": "gaw-vi-016",
+      "role": "method",
+      "summary": "Describes recorded technical outages and the potentially partial loss of recommendations across workers."
+    },
+    {
+      "blockId": "gaw-vi-017",
+      "role": "measurement",
+      "summary": "Illustrates a documented outage using spikes in the share of chats receiving no AI suggestions."
+    },
+    {
+      "blockId": "gaw-vi-018",
+      "role": "method",
+      "summary": "Explains the chat-level duration outcome and reports faster handling during normal post-adoption operation."
+    },
+    {
+      "blockId": "gaw-vi-020",
+      "role": "finding",
+      "summary": "Finds retained speed gains during outages that increase with prior AI exposure, while acknowledging noisy estimates and chat-composition differences."
+    },
+    {
+      "blockId": "gaw-vi-021",
+      "role": "implication",
+      "summary": "Contrasts intermittent managerial coaching with continuous actionable AI suggestions as a possible training benefit."
+    },
+    {
+      "blockId": "gaw-vi-022",
+      "role": "mechanism",
+      "summary": "Motivates learning through trying suggestions and observing customer responses before comparing adherence groups."
+    },
+    {
+      "blockId": "gaw-vi-023",
+      "role": "finding",
+      "summary": "Reports outage speed gains among high-initial-adherence workers but little corresponding improvement among low-adherence workers."
+    },
+    {
+      "blockId": "gaw-vi-024",
+      "role": "mechanism",
+      "summary": "Interprets the adherence-outage pattern as consistent with learning through active engagement and discusses training applications."
+    },
+    {
+      "blockId": "gaw-vi-026",
+      "role": "method",
+      "summary": "Introduces topic-frequency heterogeneity and Gemini-based topic classification with linked human validation."
+    },
+    {
+      "blockId": "gaw-vi-027",
+      "role": "finding",
+      "summary": "Describes a skewed topic distribution with a few common issues and a long tail of less common conversations."
+    },
+    {
+      "blockId": "gaw-vi-028",
+      "role": "method",
+      "summary": "Constructs four topic-frequency groups and estimates differences in chat duration effects."
+    },
+    {
+      "blockId": "gaw-vi-029",
+      "role": "finding",
+      "summary": "Reports the largest duration reductions for moderately rare topics and notes missing suggestions when training data are insufficient."
+    },
+    {
+      "blockId": "gaw-vi-031",
+      "role": "background",
+      "summary": "Explains why more abundant training data can improve standalone model quality and motivate a routine-topic prediction."
+    },
+    {
+      "blockId": "gaw-vi-032",
+      "role": "mechanism",
+      "summary": "Argues that complementary value depends on model capability relative to workers’ existing knowledge rather than model quality alone."
+    },
+    {
+      "blockId": "gaw-vi-033",
+      "role": "mechanism",
+      "summary": "Interprets the non-monotonic topic pattern through both human familiarity and AI training coverage."
+    },
+    {
+      "blockId": "gaw-vi-034",
+      "role": "finding",
+      "summary": "Finds larger effects for topics less familiar to each agent after controlling for overall topic frequency."
+    },
+    {
+      "blockId": "gaw-vi-037",
+      "role": "background",
+      "summary": "Motivates language quality as relevant to U.S. customer support and describes the largely Philippines-based workforce."
+    },
+    {
+      "blockId": "gaw-vi-038",
+      "role": "measurement",
+      "summary": "Separately defines comprehensibility and native-like American English style, scored by Gemini with appendix validation."
+    },
+    {
+      "blockId": "gaw-vi-039",
+      "role": "finding",
+      "summary": "Reports higher assisted-message language scores, with larger improvements for Philippines-based workers."
+    },
+    {
+      "blockId": "gaw-vi-042",
+      "role": "method",
+      "summary": "Motivates embedding-based analysis of changes in communication beyond narrow language-quality measures."
+    },
+    {
+      "blockId": "gaw-vi-043",
+      "role": "measurement",
+      "summary": "Defines comparison to each worker’s pre-adoption text using cosine similarity of semantic embeddings."
+    },
+    {
+      "blockId": "gaw-vi-044",
+      "role": "finding",
+      "summary": "Reports larger post-adoption textual change for lower-skill agents than for top performers."
+    },
+    {
+      "blockId": "gaw-vi-045",
+      "role": "finding",
+      "summary": "Reports increasing semantic similarity between high- and low-skill agents after adoption."
+    },
+    {
+      "blockId": "gaw-vi-046",
+      "role": "qualification",
+      "summary": "Interprets convergence tentatively and notes that topic changes can affect embeddings without revealing tacit-skill transfer."
+    },
+    {
+      "blockId": "gaw-vii-003",
+      "role": "background",
+      "summary": "Motivates work-experience outcomes through emotional labor, abuse, burnout, and attrition in contact centers."
+    },
+    {
+      "blockId": "gaw-vii-004",
+      "role": "mechanism",
+      "summary": "Sets out competing predictions for AI’s effect on customer treatment of agents."
+    },
+    {
+      "blockId": "gaw-vii-005",
+      "role": "measurement",
+      "summary": "Defines separate customer and agent text-sentiment scores and their aggregation to the agent-month level."
+    },
+    {
+      "blockId": "gaw-vii-006",
+      "role": "finding",
+      "summary": "Reports substantial customer-sentiment improvement and a much smaller agent-sentiment change."
+    },
+    {
+      "blockId": "gaw-vii-021",
+      "role": "mechanism",
+      "summary": "Describes heterogeneous customer-sentiment improvements and proposes empathetic-response and social-skill interpretations."
+    },
+    {
+      "blockId": "gaw-vii-023",
+      "role": "background",
+      "summary": "Introduces managerial escalation as a feature of customer-service organization and perceived agent competence."
+    },
+    {
+      "blockId": "gaw-vii-024",
+      "role": "measurement",
+      "summary": "Defines customer requests for managers and distinguishes them from unavailable data on actual escalations."
+    },
+    {
+      "blockId": "gaw-vii-025",
+      "role": "finding",
+      "summary": "Reports fewer customer requests for managers, with noisy heterogeneity favoring less experienced or lower-skilled agents."
+    },
+    {
+      "blockId": "gaw-vii-027",
+      "role": "measurement",
+      "summary": "Motivates turnover as a broad observable worker response while noting that stress and satisfaction are not directly observed."
+    },
+    {
+      "blockId": "gaw-vii-028",
+      "role": "method",
+      "summary": "Explains the attrition comparison, equal-tenure adjustment, and exclusion of future-treated pre-treatment observations."
+    },
+    {
+      "blockId": "gaw-vii-029",
+      "role": "finding",
+      "summary": "Reports the largest attrition reduction among newer agents and reductions across skill groups without a clear gradient."
+    },
+    {
+      "blockId": "gaw-vii-030",
+      "role": "qualification",
+      "summary": "Warns that attrition estimates lack agent fixed effects and may reflect selective access for workers likely to remain."
+    },
+    {
+      "blockId": "gaw-viii-002",
+      "role": "conclusion",
+      "summary": "Synthesizes average productivity, heterogeneous gains, learning evidence, interaction outcomes, and associated turnover reductions."
+    },
+    {
+      "blockId": "gaw-viii-003",
+      "role": "qualification",
+      "summary": "Limits generalization to the studied tool, firm, occupation, and stable environment, noting possible negative effects elsewhere."
+    },
+    {
+      "blockId": "gaw-viii-004",
+      "role": "qualification",
+      "summary": "Distinguishes medium-run productivity from compensation effects and raises a possible performance-target ratchet."
+    },
+    {
+      "blockId": "gaw-viii-005",
+      "role": "implication",
+      "summary": "Discusses unobserved equilibrium labor-demand responses, a constant-output hours calculation, demand expansion, and new tasks."
+    },
+    {
+      "blockId": "gaw-viii-006",
+      "role": "implication",
+      "summary": "Extends productivity to workers’ contributions to AI training data and proposes future incentive questions."
+    },
+    {
+      "blockId": "gaw-data-availability-002",
+      "role": "data_availability",
+      "summary": "Links the replication-code repository for the article’s tables and figures."
+    }
+  ],
+  "connections": [
+    {
+      "sourceBlockId": "gaw-i-002",
+      "targetBlockId": "gaw-i-006",
+      "relation": "introduces",
+      "explanation": "The gap between laboratory performance and workplace reliability motivates the real-world deployment setting."
+    },
+    {
+      "sourceBlockId": "gaw-i-005",
+      "targetBlockId": "gaw-i-003",
+      "relation": "supports",
+      "explanation": "Learning from heterogeneous workers makes expert-behavior dissemination plausible, without alone proving the empirical channel."
+    },
+    {
+      "sourceBlockId": "gaw-i-008",
+      "targetBlockId": "gaw-i-009",
+      "relation": "elaborates",
+      "explanation": "The average productivity result is unpacked into different effects by measured skill and tenure."
+    },
+    {
+      "sourceBlockId": "gaw-i-010",
+      "targetBlockId": "gaw-i-003",
+      "relation": "supports",
+      "explanation": "The mechanism overview presents additional evidence relevant to the proposed expert-transfer interpretation."
+    },
+    {
+      "sourceBlockId": "gaw-i-012",
+      "targetBlockId": "gaw-i-008",
+      "relation": "qualifies",
+      "explanation": "The average productivity gain is limited to a single-firm medium-run setting rather than aggregate labor-market effects."
+    },
+    {
+      "sourceBlockId": "gaw-i-013",
+      "targetBlockId": "gaw-i-009",
+      "relation": "elaborates",
+      "explanation": "Small quality losses for top performers motivate a conjecture about future expert inputs and model training."
+    },
+    {
+      "sourceBlockId": "gaw-i-017",
+      "targetBlockId": "gaw-i-018",
+      "relation": "concludes",
+      "explanation": "The laboratory-study comparison leads to the contribution of observing real workplace dynamics over time."
+    },
+    {
+      "sourceBlockId": "gaw-ii-013",
+      "targetBlockId": "gaw-ii-012",
+      "relation": "qualifies",
+      "explanation": "Hallucinations and human–AI coordination problems qualify the potential benefits of tacit-task automation."
+    },
+    {
+      "sourceBlockId": "gaw-iii-005",
+      "targetBlockId": "gaw-iii-014",
+      "relation": "introduces",
+      "explanation": "The description of expert diagnostic practices motivates expert-chat up-weighting in system design."
+    },
+    {
+      "sourceBlockId": "gaw-iii-016",
+      "targetBlockId": "gaw-iii-015",
+      "relation": "qualifies",
+      "explanation": "Response and documentation suggestions remain discretionary and may not be supplied for every topic."
+    },
+    {
+      "sourceBlockId": "gaw-iv-004",
+      "targetBlockId": "gaw-iv-007",
+      "relation": "supports",
+      "explanation": "Training capacity limits help explain individually staggered onboarding within offices and teams."
+    },
+    {
+      "sourceBlockId": "gaw-iv-025",
+      "targetBlockId": "gaw-iv-024",
+      "relation": "qualifies",
+      "explanation": "Incomplete quality data restrict which observations can support the primary productivity outcome."
+    },
+    {
+      "sourceBlockId": "gaw-iv-029",
+      "targetBlockId": "gaw-iv-028",
+      "relation": "qualifies",
+      "explanation": "The paper explicitly prevents raw treated/untreated differences from being read as causal estimates."
+    },
+    {
+      "sourceBlockId": "gaw-iv-034",
+      "targetBlockId": "gaw-iv-033",
+      "relation": "qualifies",
+      "explanation": "Treatment-effect heterogeneity complicates interpretation of a standard fixed-effects rollout regression."
+    },
+    {
+      "sourceBlockId": "gaw-iv-035",
+      "targetBlockId": "gaw-iv-034",
+      "relation": "elaborates",
+      "explanation": "The robust-estimator strategy responds to the staggered-adoption concern and supplies its own assumptions."
+    },
+    {
+      "sourceBlockId": "gaw-v-003",
+      "targetBlockId": "gaw-v-019",
+      "relation": "supports",
+      "explanation": "The event study adds timing and persistence evidence to the preferred average RPH estimate."
+    },
+    {
+      "sourceBlockId": "gaw-v-021",
+      "targetBlockId": "gaw-v-034",
+      "relation": "qualifies",
+      "explanation": "Quality outcomes qualify the efficiency gains, separating faster handling from successful resolution and satisfaction."
+    },
+    {
+      "sourceBlockId": "gaw-v-003",
+      "targetBlockId": "gaw-v-040",
+      "relation": "supports",
+      "explanation": "Alternative estimators, clustering, and weighting examine robustness of the main productivity result."
+    },
+    {
+      "sourceBlockId": "gaw-v-044",
+      "targetBlockId": "gaw-v-045",
+      "relation": "depends_on",
+      "explanation": "The heterogeneous result depends on the explicitly defined pretreatment performance-index measure of skill."
+    },
+    {
+      "sourceBlockId": "gaw-v-047",
+      "targetBlockId": "gaw-v-048",
+      "relation": "elaborates",
+      "explanation": "Subgroup quality patterns motivate possible best-practice and distraction mechanisms without isolating them."
+    },
+    {
+      "sourceBlockId": "gaw-v-049",
+      "targetBlockId": "gaw-v-045",
+      "relation": "qualifies",
+      "explanation": "The mean-reversion diagnostic evaluates one alternative account of the measured skill gradient."
+    },
+    {
+      "sourceBlockId": "gaw-v-060",
+      "targetBlockId": "gaw-vi-015",
+      "relation": "introduces",
+      "explanation": "Assisted experience curves motivate a separate question about durable learning versus ongoing tool reliance."
+    },
+    {
+      "sourceBlockId": "gaw-vi-004",
+      "targetBlockId": "gaw-vi-008",
+      "relation": "depends_on",
+      "explanation": "The adherence-return gradient uses first-month chosen adherence groups and a conditional suggestion denominator."
+    },
+    {
+      "sourceBlockId": "gaw-vi-009",
+      "targetBlockId": "gaw-vi-008",
+      "relation": "qualifies",
+      "explanation": "Explicit selection and selection-on-gains concerns limit a causal dose interpretation of adherence differences."
+    },
+    {
+      "sourceBlockId": "gaw-vi-012",
+      "targetBlockId": "gaw-vi-013",
+      "relation": "supports",
+      "explanation": "Within-agent adherence changes support changing user behavior but allow both perceived value and overreliance interpretations."
+    },
+    {
+      "sourceBlockId": "gaw-vi-015",
+      "targetBlockId": "gaw-vi-020",
+      "relation": "supports",
+      "explanation": "Outage performance supplies suggestive evidence relevant to retained performance without direct assistance."
+    },
+    {
+      "sourceBlockId": "gaw-vi-016",
+      "targetBlockId": "gaw-vi-020",
+      "relation": "qualifies",
+      "explanation": "Partial outages and the identification of affected chats matter to the no-assistance interpretation."
+    },
+    {
+      "sourceBlockId": "gaw-vi-023",
+      "targetBlockId": "gaw-vi-024",
+      "relation": "supports",
+      "explanation": "Outage heterogeneity by initial adherence motivates the proposed active-engagement learning channel."
+    },
+    {
+      "sourceBlockId": "gaw-vi-029",
+      "targetBlockId": "gaw-vi-032",
+      "relation": "supports",
+      "explanation": "The non-monotonic topic-frequency pattern motivates a relative-capability interpretation of complementary AI value."
+    },
+    {
+      "sourceBlockId": "gaw-vi-034",
+      "targetBlockId": "gaw-vi-033",
+      "relation": "elaborates",
+      "explanation": "Agent-specific familiarity adds evidence distinguishing human exposure from overall topic frequency."
+    },
+    {
+      "sourceBlockId": "gaw-vi-038",
+      "targetBlockId": "gaw-vi-039",
+      "relation": "depends_on",
+      "explanation": "The language result depends on separately defined comprehensibility and native-like American English scoring tasks."
+    },
+    {
+      "sourceBlockId": "gaw-vi-046",
+      "targetBlockId": "gaw-vi-045",
+      "relation": "qualifies",
+      "explanation": "The published topic-composition caveat limits interpreting greater text similarity as tacit-skill transfer."
+    },
+    {
+      "sourceBlockId": "gaw-vii-024",
+      "targetBlockId": "gaw-vii-025",
+      "relation": "depends_on",
+      "explanation": "The escalation result measures customer requests for a manager, rather than actual transfers or supervisor workload."
+    },
+    {
+      "sourceBlockId": "gaw-vii-030",
+      "targetBlockId": "gaw-vii-029",
+      "relation": "qualifies",
+      "explanation": "Selective access and the lack of agent fixed effects limit causal interpretation of the attrition association."
+    },
+    {
+      "sourceBlockId": "gaw-viii-005",
+      "targetBlockId": "gaw-viii-002",
+      "relation": "qualifies",
+      "explanation": "Unobserved equilibrium responses limit extrapolation from individual productivity gains to aggregate employment."
+    }
+  ],
+  "sectionAnalysis": [
+    {
+      "sectionId": "gaw-front-heading",
+      "section": "Abstract",
+      "summary": "A compressed results overview links the average workplace productivity gain to heterogeneity, learning, task rarity, and customer interactions.",
+      "argumentativeRole": "State setting, headline estimate, and breadth of outcomes.",
+      "coreChain": [
+        "Staggered workplace deployment",
+        "15% average resolutions-per-hour gain",
+        "Heterogeneity and supporting mechanism evidence",
+        "Customer-interaction outcomes"
+      ],
+      "readingChecks": [
+        "Retain the single-setting boundary.",
+        "Do not equate a proposed mechanism with its causal identification."
+      ]
+    },
+    {
+      "sectionId": "gaw-i-heading",
+      "section": "I. Introduction",
+      "summary": "The Introduction moves from uncertainty about real-world generative AI to a specific deployment, four finding groups, bounded implications, and the literature contribution.",
+      "argumentativeRole": "Motivate the research question, preview evidence, and locate the contribution.",
+      "coreChain": [
+        "Laboratory evidence leaves workplace uncertainty",
+        "Learning from examples could disseminate expert behavior",
+        "Observed gains differ across skill and tenure",
+        "Mechanism and customer outcomes extend the contribution",
+        "Single-firm medium-run limits remain explicit"
+      ],
+      "readingChecks": [
+        "The mechanism preview is unusually dense and benefits from several summary nodes.",
+        "Preserve distinctions among adherence association, outage evidence, and communication proxies.",
+        "Keep attrition and long-run training concerns separately qualified."
+      ]
+    },
+    {
+      "sectionId": "gaw-ii-heading",
+      "section": "II. Generative AI and Large Language Models",
+      "summary": "Technical background explains why LLMs may perform tacit tasks, then contrasts possible substitution and augmentation with reliability and organizational limits.",
+      "argumentativeRole": "Provide technical and economic rationale rather than estimate effects.",
+      "coreChain": [
+        "Scale, architecture, pretraining, and fine-tuning",
+        "Capacity to handle tacit and nonroutine work",
+        "Potential changes in substitution and augmentation",
+        "Reliability and organizational complements condition effects"
+      ],
+      "readingChecks": [
+        "Keep technical capability distinct from realized workplace value.",
+        "Do not treat error mitigation as an error-free guarantee.",
+        "Economy-wide inequality is motivation, not an estimated outcome."
+      ]
+    },
+    {
+      "sectionId": "gaw-iii-heading",
+      "section": "III. Our Setting: LLMs for Customer Support",
+      "summary": "The setting supplies a practical channel for expertise transfer: heterogeneous agents handle complex digitized chats and receive discretionary response and documentation suggestions.",
+      "argumentativeRole": "Explain institutions, system design, metrics, and the proposed channel.",
+      "coreChain": [
+        "Complex support and costly novice ramp-up",
+        "Digitized expert behavior provides training material",
+        "Fine-tuned tool supplies responses and documentation",
+        "Agents retain discretion and tool can abstain"
+      ],
+      "readingChecks": [
+        "Firm performance metrics are broader than the primary research outcome.",
+        "Expert-chat training supports plausibility but does not isolate the channel.",
+        "Individual production does not itself exclude coworker or managerial spillovers."
+      ]
+    },
+    {
+      "sectionId": "gaw-iv-heading",
+      "section": "IV. Deployment, Data, and Empirical Strategy",
+      "summary": "Training and budget constraints generate staggered access, while managerial selection and incomplete quality coverage motivate careful identification and sample interpretation.",
+      "argumentativeRole": "Connect institutional rollout to data construction, estimand, assumptions, and robustness checks.",
+      "coreChain": [
+        "Capacity-constrained manager-scheduled adoption",
+        "Agent-month outcomes with different data coverage",
+        "Difference-in-differences identification",
+        "Explicit staggered-adoption assumptions and robust estimators"
+      ],
+      "readingChecks": [
+        "Separate the pilot RCT from the main nonrandom rollout.",
+        "Keep selection and parallel-trends assumptions visible.",
+        "State which analysis sample and weighting support each outcome.",
+        "Use RPH and CPH consistently."
+      ]
+    },
+    {
+      "sectionId": "v",
+      "title": "Main results: measured gains and heterogeneous returns",
+      "summary": "The preferred design estimates an approximately 15% RPH gain, then decomposes efficiency and quality, examines robustness, and contrasts skill and tenure groups. The interpretation needs to preserve relative performance-index definitions, subgroup quality losses, and the distinction between assisted ramp-up and unaided learning.",
+      "keyBlockIds": [
+        "gaw-v-003",
+        "gaw-v-034",
+        "gaw-v-044",
+        "gaw-v-047",
+        "gaw-v-060"
+      ]
+    },
+    {
+      "sectionId": "vi",
+      "title": "Mechanisms: convergent evidence with different inferential limits",
+      "summary": "Adherence, outage handling, topic heterogeneity, language scores, and embeddings supply complementary evidence. They do not identify a single mediator. Selection into adherence, rare and partial outages, changes in outcomes and units, frequency proxies, and assisted-text measurement must remain visible. Several limitations are already explicitly acknowledged.",
+      "keyBlockIds": [
+        "gaw-vi-009",
+        "gaw-vi-016",
+        "gaw-vi-020",
+        "gaw-vi-034",
+        "gaw-vi-038",
+        "gaw-vi-046"
+      ]
+    },
+    {
+      "sectionId": "vii",
+      "title": "Work experience: observable interaction and retention proxies",
+      "summary": "Customer-text sentiment, manager requests, and attrition move in favorable directions. These measure different constructs and use different evidence: text sentiment is not directly observed wellbeing, manager requests are not actual escalations, and all-cause attrition has a weaker identification basis. The paper expressly qualifies the attrition association.",
+      "keyBlockIds": [
+        "gaw-vii-005",
+        "gaw-vii-006",
+        "gaw-vii-024",
+        "gaw-vii-027",
+        "gaw-vii-030"
+      ]
+    },
+    {
+      "sectionId": "viii",
+      "title": "Conclusion: bounded contribution and future scenarios",
+      "summary": "The conclusion consolidates firm-specific, short- to medium-run evidence and explicitly limits external and equilibrium extrapolation. Wage effects, employment responses, training-data feedback, and incentive policies remain future questions. A constant-output worker-hours calculation should remain distinct from a job-loss forecast.",
+      "keyBlockIds": [
+        "gaw-viii-002",
+        "gaw-viii-003",
+        "gaw-viii-004",
+        "gaw-viii-005",
+        "gaw-viii-006"
+      ]
+    },
+    {
+      "sectionId": "data-availability",
+      "title": "Data availability: an explicit code link with a reproducibility question",
+      "summary": "The article links replication code. The prepared review asks readers to inspect repository documentation before inferring what underlying firm data or inputs are publicly available; no independent reproduction or empirical validation is claimed.",
+      "keyBlockIds": [
+        "gaw-data-availability-002"
+      ]
+    }
+  ]
+}

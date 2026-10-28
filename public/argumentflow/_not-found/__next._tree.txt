@@ -1,5 +1,5 @@
 :HL["/TianTao/argumentflow/_next/static/css/e07f2bf4fa519943.css","style"]
-:HL["/TianTao/argumentflow/_next/static/css/37ab3a3266d077ec.css","style"]
+:HL["/TianTao/argumentflow/_next/static/css/e2ad433750633c70.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"g3IVB6RWw3EwmuRzntLEK","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"PEQCn4ICqYjISiqZ6zRM1","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
