@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-28-qje-prepared-demo-v1",
+  "version": "2026-10-28-qje-demo-deepseek-restored-v2",
   "features": [
     "full-manuscript",
     "progressive-research-map",
@@ -9,6 +9,8 @@
     "qje-open-access-full-text",
     "48-prepared-checkpoints",
     "filterable-exportable-flag-directory",
-    "api-paused"
+    "deepseek-live-review",
+    "manual-model-requests",
+    "separate-prepared-and-live-results"
   ]
 }
