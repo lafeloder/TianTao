@@ -6,7 +6,7 @@
   "author_name_groups": 8867,
   "author_identity_records": 11298,
   "approved_homepages": 8513,
-  "homepages_scanned_this_run": 9628,
+  "homepages_scanned_this_run": 9582,
   "journals": {
     "JF": {
       "status": "complete",
@@ -40,18 +40,18 @@
     }
   },
   "schools": 50,
-  "feeds_fetched": 21,
-  "review_queue": 56,
-  "schedule": "Weekly on Mondays at 06:15 UTC; execution observed separately",
+  "feeds_fetched": 20,
+  "review_queue": 435,
+  "schedule": "Weekly on Mondays (GitHub Actions; activation requires repository deployment)",
   "coverage_note": "Homepage coverage is partial. Name/affiliation identities are provisional. A fetched career feed is not an exhaustive vacancy search.",
   "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
   "paper_sources_checked": 20088,
   "reference_paper_rows": 76,
   "job_counts": {
     "total": 100,
+    "historical": 32,
     "active": 61,
-    "historical": 34,
-    "uncertain": 5
+    "uncertain": 7
   },
   "benchmark_sources": {
     "papers": [
@@ -78,7 +78,7 @@
         "matched": 58,
         "missing": 0,
         "checked_on": "2026-11-02",
-        "status": "Fresh complete pagination with public and unpublished scope/expiry decisions separately accounted",
+        "status": "complete public pagination",
         "note": "All active and archived pages across all fields were scanned. Only European economics, finance and explicitly related postdoctoral records are included; mechanically focused jobs mislabeled Economics are excluded.",
         "public_reference_records": 57,
         "pending_review_records": 1,
@@ -87,12 +87,12 @@
       {
         "name": "Econ Job Market",
         "url": "https://econjobmarket.org/statuses?page=5",
-        "total_scanned": 411,
+        "total_scanned": 412,
         "in_scope": 70,
         "matched": 70,
         "missing": 0,
         "checked_on": "2026-11-02",
-        "status": "Fresh complete pagination with public and unpublished scope/expiry decisions separately accounted",
+        "status": "complete public pagination",
         "note": "All public status and position pages were scanned. Public EJM omits some login-only/free advertisements.",
         "public_reference_records": 69,
         "pending_review_records": 1,
@@ -122,7 +122,7 @@
     "linked_homepages": 5320,
     "homepage_percent": 96.62,
     "searched_by_name": 4670,
-    "homepages_scanned_this_run": 4938,
+    "homepages_scanned_this_run": 4971,
     "basis": "Normalized author name groups from MS publications. Publication/affiliation matches and profile-only links are reported separately; namesakes remain provisional."
   },
   "ms_rr_scan_summary": {
@@ -216,7 +216,7 @@
     "duplicate_title_variants_excluded": 1,
     "audit_file": "rof-alias-rescan-audit.json"
   },
-  "research_pages_scanned_this_run": 8314,
+  "research_pages_scanned_this_run": 8274,
   "postdocs_last_run": "2026-11-02",
   "reject_resubmit_counts_by_journal": {
     "JF": 15,

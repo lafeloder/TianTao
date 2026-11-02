@@ -95,8 +95,7 @@
       "url": "https://www.frankfurt-school.de/about/careers/postdoctoral-fellowship-cfet",
       "rank": 31,
       "discovered_on": "2026-11-02",
-      "review": "Official finance/economics PhD fellowship, Germany and two-year contract confirmed. No deadline on employer page; designated Interfolio application state could not be read. Keep pending until currently accepting applications is confirmed.",
-      "last_attempted": "2026-11-02"
+      "review": "Verify field, employer, Europe location, deadline, postdoctoral qualification and application status."
     },
     {
       "kind": "vacancy",
@@ -2661,9 +2660,7 @@
       "kind": "paper",
       "source_author": "Tobias Berg",
       "discovered_on": "2026-11-02",
-      "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
-      "review_decision": "rejected_extraction",
-      "reviewed_on": "2026-11-02"
+      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
     },
     {
       "title": "New Technology and Entrepreneurship",
@@ -5862,8 +5859,12 @@
     {
       "kind": "vacancy",
       "title": "Research Economist: Crime and Justice",
-      "url": "https://econjobmarket.org/positions/12874",
       "institution": "Institute for Fiscal Studies",
+      "url": "https://econjobmarket.org/positions/12874",
+      "discovered_on": "2026-11-02",
+      "reference_ids": [
+        "ejm:12874"
+      ],
       "candidate": {
         "id": "ejm-12874",
         "title": "Research Economist: Crime and Justice",
@@ -5875,46 +5876,34 @@
         "topics": [
           "General interest"
         ],
-        "fit": "Economics / finance postdoctoral research; full employer advert reviewed.",
+        "fit": "Postdoctoral Scholar • Other academic • Other nonacademic Various fields Econometrics • Labor; Demographic Economics • Law and Economics • Public Economics • Applied microeconomics",
         "deadline": "2026-11-15",
         "status": "open",
         "duration": "Continuing/permanent",
         "start": "Flexible",
         "salary": "67,000 GBP",
-        "source_url": "https://econjobmarket.org/positions/12874",
+        "source_url": "https://econjobmarket.org/statuses?page=6#position12874",
         "apply_url": "https://econjobmarket.org/positions/12874",
         "source_type": "Econ Job Market employer advert",
         "last_verified": "2026-11-02",
         "first_seen": "2026-11-02",
-        "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
+        "verification": "Employer-published EJM advertisement",
         "search_status": "Accepting applications",
-        "notes": "Full employer text reviewed; listing display-end date is not the application deadline.",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
         "reference_ids": [
           "ejm:12874"
         ],
         "source_reports": [
           {
             "name": "Econ Job Market",
-            "url": "https://econjobmarket.org/statuses?page=2&sortBy=od#position12874",
-            "checked_on": "2026-11-02"
-          },
-          {
-            "name": "Econ Job Market",
             "url": "https://econjobmarket.org/statuses?page=6#position12874",
             "checked_on": "2026-11-02"
           }
-        ],
-        "application_status": "accepting",
-        "recruitment_status": "Accepting applications",
-        "reference_checked_on": "2026-11-02",
-        "last_attempted": "2026-11-02"
+        ]
       },
-      "reference_ids": [
-        "ejm:12874"
-      ],
+      "review": "Full employer advert explicitly describes a permanent Research Economist position, not a postdoctoral fellowship; the separate IFS postdoctoral fellowship 12873 remains included.",
       "review_decision": "excluded_scope",
-      "reviewed_on": "2026-11-02",
-      "review": "Full employer advert explicitly describes a permanent Research Economist position, not a postdoctoral fellowship; the separate IFS postdoctoral fellowship 12873 remains included."
+      "reviewed_on": "2026-11-02"
     },
     {
       "kind": "vacancy",
@@ -6651,9 +6640,7 @@
       "discovered_on": "2026-11-02",
       "review": "Official employer application advert closed 30 October 2026 at 23:59 CET; do not publish this news-page discovery as a new open job.",
       "review_decision": "excluded_scope_or_expired",
-      "reviewed_on": "2026-11-02",
-      "deadline": "2026-10-30",
-      "official_advert": "https://jobs.hhs.se/en/job/stockholm/post_doc_position_at_the_center_for_migration_and_integration_at_the_stockholm_school_of_economics_sse__-973026.html"
+      "reviewed_on": "2026-11-02"
     },
     {
       "kind": "paper_link",
@@ -6663,7 +6650,99 @@
       "proposed_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3639693",
       "retained_url": "https://ssrn.com/abstract_id=3639693",
       "discovered_on": "2026-11-02",
-      "review": "Verify paper identity before replacing a previously reviewed paper URL. A neighbouring/coauthor anchor is not sufficient."
+      "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
+    },
+    {
+      "title": "ESG Incentives in Executive Compensation",
+      "journal": "RF",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4974204",
+      "evidence_url": "https://matthiasefing.com/",
+      "evidence_excerpt": "R&R, Review of Finance",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "Matthias Efing",
+      "discovered_on": "2026-11-02",
+      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+    },
+    {
+      "kind": "paper_link",
+      "title": "The Failure of Supervisory Stress Testing: Fannie Mae, Freddie Mac, and OFHEO",
+      "url": "https://sites.google.com/view/willenresearch/papers",
+      "public_id": "weekly-20261102-db8788d7775c2944",
+      "proposed_url": "https://drive.google.com/open?id=0Bz9vO1qp2OywYk45aVJpWVF6SUE",
+      "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2593492",
+      "discovered_on": "2026-11-02",
+      "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
+    },
+    {
+      "kind": "paper_link",
+      "title": "Causal Narratives",
+      "url": "https://sites.google.com/view/constantin-charles/home",
+      "public_id": "weekly-20261102-f24aef19942a7136",
+      "proposed_url": "https://www.dropbox.com/s/i0as0lisy05lzem/CharlesKendall_CausalNarratives.pdf?dl=0",
+      "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4669371",
+      "discovered_on": "2026-11-02",
+      "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
+    },
+    {
+      "kind": "paper_link",
+      "title": "'Buy Now, Pay Later': Rational Choice or Impulse Shopping?",
+      "url": "https://sites.google.com/site/drjankeil/research",
+      "public_id": "weekly-20261102-99a6b3dc6f3b5655",
+      "proposed_url": "https://dx.doi.org/10.2139/ssrn.4629415",
+      "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4629415",
+      "discovered_on": "2026-11-02",
+      "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
+    },
+    {
+      "kind": "paper_link",
+      "title": "Labor Reactions to Credit Deterioration: Evidence from LinkedIn Activity",
+      "url": "https://sites.google.com/view/jessicajeffers/research",
+      "public_id": "weekly-20261102-51522285c59ac67a",
+      "proposed_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3040393",
+      "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3456285",
+      "discovered_on": "2026-11-02",
+      "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
+    },
+    {
+      "kind": "paper_link",
+      "title": "Crowding Out Banks: Credit Substitution by Peer-to-Peer Lending",
+      "url": "https://sites.google.com/view/woongsunyoo/research",
+      "public_id": "weekly-20261102-e343c7df924dd692",
+      "proposed_url": "https://ssrn.com/abstract=3000593",
+      "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3000593",
+      "discovered_on": "2026-11-02",
+      "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
+    },
+    {
+      "kind": "paper_link",
+      "title": "The Engagement-Diversity Connection: Evidence from a Field Experiment on Spotify",
+      "url": "https://www.daveholtz.net/research",
+      "public_id": "weekly-20261102-8fbdf2d58d749393",
+      "proposed_url": "https://www.dropbox.com/s/9518bzkaeswji0z/Holtz_Spotify_Podcast_Recs.pdf?dl=0",
+      "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3555927",
+      "discovered_on": "2026-11-02",
+      "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
+    },
+    {
+      "kind": "paper_link",
+      "title": "The Anatomy of Industry Momentum",
+      "url": "https://www.peixuanyuan.com/project/",
+      "public_id": "weekly-20261102-56fea6b84bbeefa6",
+      "proposed_url": "https://www.peixuanyuan.com/project/indmom/",
+      "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6371558",
+      "discovered_on": "2026-11-02",
+      "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
+    },
+    {
+      "kind": "paper_link",
+      "title": "Stochastic Volatility and Asset Pricing Puzzles",
+      "url": "https://sites.google.com/view/timothymcquade/research",
+      "public_id": "weekly-20261102-6a7c92f45f9daadc",
+      "proposed_url": "https://drive.google.com/file/d/1wtJYZS8B7G9vLWybk61QDtowkz1sTSls/view?usp=sharing",
+      "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3222902",
+      "discovered_on": "2026-11-02",
+      "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
     }
   ]
 }
