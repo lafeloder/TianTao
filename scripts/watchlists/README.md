@@ -222,7 +222,7 @@ full job adverts and paper abstracts are not republished.
 
 ### 2 November 2026
 
-The public pages follow the current minimal layout: title, Search, lists and pagination. Source evidence, coverage and identity caveats remain in research data and the workbook. EJM display-end dates are not application deadlines; structured recruiter states are checked. Sorted unfiltered pagination is retried if the default endpoint fails. The saved workbook is version 3; the full author-site ownership and publication-universe expansion remain incomplete.
+The simplified page rewrite on this date was not authorized by the user and has been reversed. Preserve the established headers, acknowledgements, journal/field/status and country/status filters, interactive distribution charts, result counts, lists and pagination. Weekly maintenance changes data and supporting evidence only; it must not modify frontend modules. EJM display-end dates are not application deadlines; structured recruiter states are checked. Sorted unfiltered pagination is retried if the default endpoint fails.
 
 ### Weekly evidence dates (2 November 2026)
 
