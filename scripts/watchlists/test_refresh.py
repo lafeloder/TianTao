@@ -1,9 +1,26 @@
 import datetime as dt
 import unittest
 from bootstrap import publication_date
-from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility, listed_homepages, matching_revision, extend_personal_research_pages, merge_review_queue
+from refresh import rr_blocks, journal_in, extract_deadline, job_status, find_paper_block, homepage_coverage, finance_top5_homepage_coverage, research_links, ms_author_ledger, author_eligibility, listed_homepages, matching_revision, extend_personal_research_pages, merge_review_queue, reconcile_paper_link
 
 class EvidenceTests(unittest.TestCase):
+    def test_changed_parser_anchor_requires_identity_review(self):
+        paper={'id':'real','title':'The Correct Insurance Paper','evidence_url':'https://author.example/research',
+               'paper_url':'https://author.example/insurance.pdf'}
+        queue=[]
+        reconcile_paper_link(paper,{'paper_url':'https://ssrn.com/abstract=5040447'},queue,'2026-11-02')
+        self.assertEqual(paper['paper_url'],'https://author.example/insurance.pdf')
+        self.assertEqual(queue[0]['kind'],'paper_link')
+        self.assertEqual(queue[0]['proposed_url'],'https://ssrn.com/abstract=5040447')
+
+    def test_missing_paper_link_can_be_filled_without_replacing_an_identity(self):
+        paper={'id':'real','title':'A Verified Paper','evidence_url':'https://author.example/','paper_url':''}
+        queue=[]
+        reconcile_paper_link(paper,{'paper_url':'https://author.example/paper.pdf'},queue,'2026-11-02')
+        reconcile_paper_link(paper,{'paper_url':'https://author.example/paper.pdf'},queue,'2026-11-02')
+        self.assertEqual(paper['paper_url'],'https://author.example/paper.pdf')
+        self.assertEqual(queue,[])
+
     def test_refresh_preserves_completed_review_of_unchanged_candidate(self):
         old={'kind':'paper','title':'A Named Paper','journal':'RF','status':'R&R','evidence_url':'https://author.example/','review_decision':'excluded_published','publication_doi':'10.1/journal','review':'Actual published article checked.'}
         fresh={k:v for k,v in old.items()if k not in ['review_decision','publication_doi','review']}

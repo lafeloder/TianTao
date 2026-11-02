@@ -223,3 +223,13 @@ full job adverts and paper abstracts are not republished.
 ### 2 November 2026
 
 The public pages follow the current minimal layout: title, Search, lists and pagination. Source evidence, coverage and identity caveats remain in research data and the workbook. EJM display-end dates are not application deadlines; structured recruiter states are checked. Sorted unfiltered pagination is retried if the default endpoint fails. The saved workbook is version 3; the full author-site ownership and publication-universe expansion remain incomplete.
+
+### Weekly evidence dates (2 November 2026)
+
+A fresh EJM listing updates recruiter status, deadline and reference_checked_on. It does not change the last_verified date of a full employer advert or replace an individually checked application route. A generic listing page is never a bounded advert. Scope-excluded provider records remain accounted for in the review queue and the manifest's unpublished_jobs section.
+
+
+A changed parser-proposed paper URL enters a paper_link review record. Existing paper URLs survive until the new identity/link is individually verified; an empty URL can be filled. This prevents adjacent paper links and coauthor anchors from overwriting an already reviewed paper identity.
+
+
+The Top5RR page selects source_scope=top5 and revision statuses before serializing client data. Extended-journal reference records remain in research data; they are not part of the six-journal public list or totals.

@@ -491,6 +491,19 @@ def merge_review_queue(rows):
         result[key]=row
     return list(result.values())
 
+def reconcile_paper_link(paper, candidate, queue, today):
+    """A different parsed anchor cannot silently replace a reviewed paper link."""
+    proposed=candidate.get('paper_url','')
+    current=paper.get('paper_url','')
+    if not proposed or proposed==current:return
+    if not current:
+        paper['paper_url']=proposed
+        return
+    queue.append({'kind':'paper_link','title':paper['title'],'url':paper['evidence_url'],
+                  'public_id':paper['id'],'proposed_url':proposed,'retained_url':current,
+                  'discovered_on':today,
+                  'review':'Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient.'})
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--as-of',default=dt.date.today().isoformat())
@@ -591,7 +604,7 @@ def main():
                 paper['last_verified']=today;paper['status']=evidence['status']
                 paper['evidence_excerpt']=evidence['evidence_excerpt']
                 paper['verification_status']='primary_confirmed'
-                if evidence['paper_url']:paper['paper_url']=evidence['paper_url']
+                reconcile_paper_link(paper,evidence,queue,today)
             else:
                 paper['verification_status']='needs_recheck' if paper.get('last_verified') else 'reference_only'
                 paper['verification']='Previously reported status; latest primary parsing incomplete'
@@ -609,7 +622,7 @@ def main():
             # The title must occur in the page to exclude redirected generic hubs.
             identity_text=re.sub(r'\b[fmdx](?:\s*/\s*[fmdx]){1,2}\b','',text,flags=re.I)
             if normalize(job['title']) not in normalize(identity_text):
-                job['status']='needs recheck'
+                job['status']='closed' if job.get('status')=='closed' else 'needs recheck'
                 continue
             deadline=extract_deadline(text)
             if deadline:job['deadline']=deadline

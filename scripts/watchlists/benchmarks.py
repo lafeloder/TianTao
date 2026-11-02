@@ -187,7 +187,7 @@ def merge(items,new_items,kind):
                 if new['source_type']=='Econ Job Market employer advert':
                     old['deadline']=new['deadline'] or old.get('deadline','')
                     if new['status']!='needs official confirmation':old['status']=new['status']
-                    old['last_verified']=new['last_verified']
+                    old['reference_checked_on']=new['last_verified']
                     if old.get('verification','').startswith('Reference-listed'):
                         for field in ['verification','source_type','source_url']:
                             old[field]=new[field]

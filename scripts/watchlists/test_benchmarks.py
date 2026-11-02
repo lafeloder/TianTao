@@ -100,4 +100,16 @@ class BenchmarkTests(unittest.TestCase):
         self.assertEqual(public,[])
         self.assertEqual(queue[0]['reference_ids'],['ejm:12871'])
 
+    def test_fresh_listing_does_not_redate_full_employer_verification(self):
+        old={'id':'same','apply_url':'https://employer.example/form','reference_ids':['ejm:1'],
+             'source_reports':[],'deadline':'2026-11-15','status':'open',
+             'last_verified':'2026-10-26','verification':'Full employer advert individually checked.'}
+        new={'id':'same','apply_url':'https://econjobmarket.org/positions/1','reference_ids':['ejm:1'],
+             'source_reports':[],'source_type':'Econ Job Market employer advert',
+             'deadline':'2026-11-20','status':'closed','last_verified':'2026-11-02'}
+        merged=merge([old],[new],'jobs')[0]
+        self.assertEqual(merged['last_verified'],'2026-10-26')
+        self.assertEqual(merged['reference_checked_on'],'2026-11-02')
+        self.assertEqual(merged['apply_url'],'https://employer.example/form')
+        self.assertEqual((merged['deadline'],merged['status']),('2026-11-20','closed'))
 if __name__=='__main__':unittest.main()
