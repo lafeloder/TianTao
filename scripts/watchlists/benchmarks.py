@@ -93,10 +93,14 @@ def ejm_in_scope(row):
             'positionTypesAndFields':row.get('columns',['','',''])[2] if len(row.get('columns',[]))>2 else ''}
     return screen_ejm(source)[0]
 
+def download_ejm_listing(url):
+    try:return download(url)
+    except Exception:return download(url+'&sortBy=od')
+
 def fetch_ejm():
     unique={};page_count=0
     for kind in ['statuses','positions']:
-        first,total=ejm_page(download(EJM_URL+kind+'?page=1'),kind,1)
+        first,total=ejm_page(download_ejm_listing(EJM_URL+kind+'?page=1'),kind,1)
         if total>30:raise ValueError('Unexpected EJM pagination')
         for row in first:unique[row['id']]=row
         page_count+=total
@@ -138,9 +142,9 @@ def job_from_op(row,snapshot):
 def job_from_ejm(row,snapshot):
     cols=row['columns'];facts=row['facts'];head=cols[0] if cols else ''
     dates=re.findall(r'\b\d{1,2} [A-Za-z]{3} \d{4}\b',cols[3] if len(cols)>3 else '')
-    deadline=row.get('deadline') or (dt.datetime.strptime(dates[-2],'%d %b %Y').date().isoformat() if len(dates)>=3 else '')
+    deadline=row.get('deadline') or ''
     closed_words=['Reviewing applications','Scheduling interviews','Arranging flyouts','Making offers','Position filled','Search cancelled','Search completed','Interviews completed','Not accepting applications']
-    status='closed' if (deadline and deadline<TODAY) or any(word in head for word in closed_words) else 'open' if 'Accepting applications' in head else 'needs official confirmation'
+    status='closed' if (deadline and deadline<TODAY) or any(word in (head+' '+(row.get('recruitmentStatus') or '')) for word in closed_words) else 'open' if 'Accepting applications' in (head+' '+(row.get('recruitmentStatus') or '')) else 'needs official confirmation'
     country=next((c for c in sorted(EUROPE,key=len,reverse=True) if re.search(r'\b'+re.escape(c)+r'\b',facts.get('Location of job',''),re.I)),'')
     return {'id':'ejm-'+row['id'],'title':row['title'],'institution':cols[1] if len(cols)>1 else 'Institution unconfirmed',
       'country':country,'city':'','rank':None,'scope':'Additional European institution','topics':['General interest'],

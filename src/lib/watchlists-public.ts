@@ -2,7 +2,7 @@ import type { Paper, Vacancy } from '@/types/watchlists';
 import { getPaperFields } from './paper-fields';
 
 export type PaperView = Pick<Paper, 'id' | 'title' | 'authors' | 'journal' | 'status' | 'paper_url' | 'evidence_url' | 'last_verified' | 'verification_status' | 'topics'> & { ssrn_url?: string };
-export type VacancyView = Pick<Vacancy, 'id' | 'title' | 'institution' | 'city' | 'country' | 'topics' | 'deadline' | 'status' | 'apply_url' | 'duration' | 'start'>;
+export type VacancyView = Pick<Vacancy, 'id' | 'title' | 'institution' | 'city' | 'country' | 'topics' | 'deadline' | 'status' | 'apply_url' | 'duration' | 'start' | 'search_status'>;
 
 export function paperView(p: Paper & { ssrn_url?: string }): PaperView {
   return { id:p.id,title:p.title,authors:p.authors,journal:p.journal,status:p.status,
@@ -12,5 +12,5 @@ export function paperView(p: Paper & { ssrn_url?: string }): PaperView {
 }
 export function vacancyView(j: Vacancy): VacancyView {
   return { id:j.id,title:j.title,institution:j.institution,city:j.city,country:j.country,
-    topics:j.topics,deadline:j.deadline,status:j.status,apply_url:j.apply_url,duration:j.duration,start:j.start };
+    topics:j.topics,deadline:j.deadline,status:j.status,apply_url:j.apply_url,duration:j.duration,start:j.start,search_status:j.search_status };
 }

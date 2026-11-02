@@ -1,0 +1,25 @@
+import fs from 'node:fs/promises';
+import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
+const d=JSON.parse(await fs.readFile(process.argv[2],'utf8')),out=process.argv[3];
+const n=Math.max(1,...d.rows.map(r=>r.papers.length));
+const headers=['Author name','Personal website',...Array.from({length:n},(_,i)=>'RR paper '+(i+1)),...Array.from({length:n},(_,i)=>'SSRN '+(i+1)), 'Website check','R&R check','Five-year journals','Five-year articles','Publication DOI','Identity note','Website checked'];
+const data=d.rows.map(r=>[r.name,r.homepage_url,...Array.from({length:n},(_,i)=>r.papers[i] ? r.papers[i].title+(r.papers[i].status==='Reject & Resubmit'?' [Reject & Resubmit]':'') : ''),...Array.from({length:n},(_,i)=>r.papers[i]?.ssrn_url||''),r.website_status,r.rr_check,r.publication_journals,r.publication_count,r.publication_doi,r.identity_note,r.last_read?new Date(r.last_read+'T00:00:00Z'):null]);
+const w=Workbook.create(),s=w.worksheets.add('Authors');s.showGridLines=false;s.tabColor='#24374B';
+s.getRangeByIndexes(0,0,1,headers.length).values=[headers];s.getRangeByIndexes(1,0,data.length,headers.length).values=data;
+const all=s.getRangeByIndexes(0,0,data.length+1,headers.length);all.format.font={name:'Arial',size:11,color:'#1F2937'};all.format.verticalAlignment='center';all.format.rowHeight=60;all.format.wrapText=true;all.format.columnWidth=55;
+s.getRangeByIndexes(0,0,data.length+1,1).format.columnWidth=30;s.getRangeByIndexes(0,2,data.length+1,n).format.columnWidth=70;
+s.getRangeByIndexes(0,0,1,headers.length).format={fill:'#24374B',font:{name:'Arial',size:11,bold:true,color:'#FFFFFF'},rowHeight:32,horizontalAlignment:'center'};
+s.getRangeByIndexes(1,headers.length-1,data.length,1).setNumberFormat('yyyy-mm-dd');
+s.getRangeByIndexes(0,headers.indexOf('Five-year articles'),data.length+1,1).format.columnWidth=18;
+s.getRangeByIndexes(1,headers.indexOf('Five-year articles'),data.length,1).setNumberFormat('#,##0');
+s.freezePanes.freezeRows(1);s.freezePanes.freezeColumns(2);
+let end='';for(let v=headers.length;v>0;v=Math.floor((v-1)/26))end=String.fromCharCode(65+(v-1)%26)+end;
+s.tables.add('A1:'+end+(data.length+1),true,'AuthorResearch').style='TableStyleLight1';
+const notes=w.worksheets.add('Notes');notes.showGridLines=false;
+notes.getRange('A1:B9').values=[['As of',new Date(d.as_of+'T00:00:00Z')],['Roster',d.scope],['Website coverage',d.linked+' of '+d.rows.length+' rows have saved webpage links. A link is distinct from a readable research source.'],['Blank RR cells','Blank does not mean no R&R. The R&R check column records source readability.'],['Column pairing','RR paper 1 corresponds to SSRN 1, and so on. Empty SSRN cells mean no verified link recorded.'],['Decisions','Reject & Resubmit is labelled separately. Accepted and published records remain in the website history data.'],['Identity','Name aliases and provisional identity groups are retained. Different Meng Gao researchers must not be merged.'],['Publication window',d.publication_window+'; saved publication corpus, not rebuilt this week.'],['Evidence','Personal pages in column B and publication DOI columns. Detailed evidence: https://github.com/lafeloder/TianTao/tree/main/content/watchlists']];
+notes.getRange('A1:B9').format.font={name:'Arial',size:11,color:'#1F2937'};notes.getRange('A1:B9').format.rowHeight=48;notes.getRange('A1:A9').format.columnWidth=24;notes.getRange('B1:B9').format.columnWidth=105;notes.getRange('B1:B9').format.wrapText=true;notes.getRange('B1').setNumberFormat('yyyy-mm-dd');
+w.recalculate();
+console.log((await w.inspect({kind:'table',range:'Authors!A1:D5',include:'values',tableMaxRows:5,tableMaxCols:4,maxChars:1200})).ndjson);
+console.log((await w.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#NUM!|#SPILL!|#CALC!',options:{useRegex:true,maxResults:10},maxChars:500})).ndjson);
+for(const [sheetName,range,label] of [['Authors','A1:C7','authors'],['Notes','A1:B9','notes']]){const b=await w.render({sheetName,range,scale:1,format:'png'});await fs.writeFile(out.replace('.xlsx','-'+label+'.png'),new Uint8Array(await b.arrayBuffer()));}
+await (await SpreadsheetFile.exportXlsx(w)).save(out);console.log(JSON.stringify({rows:data.length,linked:d.linked,paperColumns:n,output:out}));

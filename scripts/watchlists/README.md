@@ -219,3 +219,7 @@ full job adverts and paper abstracts are not republished.
 - Repeated scans preserve completed candidate reviews when the title, source, journal and decision are unchanged; changed decisions return to review.
 - Newly discovered EJM records remain unpublished until their full employer advert has been individually checked. Structured provider metadata alone does not confirm postdoctoral scope.
 - Working-paper identifiers and title aliases establish identity; they do not establish journal publication. Incorrect adjacent-paper links are removed when primary records identify the correct paper.
+
+### 2 November 2026
+
+The public pages follow the current minimal layout: title, Search, lists and pagination. Source evidence, coverage and identity caveats remain in research data and the workbook. EJM display-end dates are not application deadlines; structured recruiter states are checked. Sorted unfiltered pagination is retried if the default endpoint fails. The saved workbook is version 3; the full author-site ownership and publication-universe expansion remain incomplete.
