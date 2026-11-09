@@ -233,3 +233,7 @@ A changed parser-proposed paper URL enters a paper_link review record. Existing 
 
 
 The Top5RR page selects source_scope=top5 and revision statuses before serializing client data. Extended-journal reference records remain in research data; they are not part of the six-journal public list or totals.
+
+### Evidence storage and partial checkpoints (9 November 2026)
+
+`homepages.json` and `run-report.json` are lossless indexes of compressed record shards in the corresponding directories. Use `bootstrap.load()` to reconstruct all records. Individual upload/review payloads remain bounded; record counts are checked on load. Interrupted retrieval is recorded as not attempted, separately from fetch failure; its previous primary dates are retained. Current employer deadlines take precedence over conflicting EJM listing dates until the employer is rechecked.

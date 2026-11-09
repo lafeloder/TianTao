@@ -40,6 +40,7 @@ jobs:
           path: |
             content/watchlists/review-queue.json
             content/watchlists/run-report.json
+            content/watchlists/run-report/
             content/watchlists/meta.json
             content/watchlists/coverage-manifest.json
       - name: Commit refreshed data

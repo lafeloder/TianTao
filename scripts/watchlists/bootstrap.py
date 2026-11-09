@@ -30,12 +30,35 @@ def load(name, default):
     p = DATA / name
     if not p.exists() and p.with_suffix(p.suffix+'.gz').exists():
         return json.loads(gzip.decompress(p.with_suffix(p.suffix+'.gz').read_bytes()))
-    return json.loads(p.read_text(encoding='utf-8')) if p.exists() else default
+    obj=json.loads(p.read_text(encoding='utf-8')) if p.exists() else default
+    if isinstance(obj,dict) and 'record_shards' in obj:
+        records=[]
+        for relative in obj['record_shards']:
+            shard=(DATA/relative).resolve()
+            if not shard.is_relative_to(DATA.resolve()):raise ValueError('Invalid shard path')
+            records.extend(json.loads(gzip.decompress(shard.read_bytes())))
+        if len(records)!=obj['record_count']:raise ValueError('Incomplete record shards')
+        return {**obj['metadata'],obj['record_key']:records}
+    return obj
 
 def save(name, obj):
     DATA.mkdir(parents=True, exist_ok=True)
     p = DATA / name
     p.parent.mkdir(parents=True, exist_ok=True)
+    if name in ['homepages.json','run-report.json']:
+        key='authors' if name=='homepages.json' else 'sources'
+        directory=DATA/p.stem;directory.mkdir(exist_ok=True)
+        parts=[]
+        for start in range(0,len(obj[key]),1000):
+            target=directory/('part-'+str(start//1000+1).zfill(3)+'.json.gz')
+            payload=json.dumps(obj[key][start:start+1000],ensure_ascii=False,separators=(',',':')).encode()
+            temp=target.with_suffix('.tmp');temp.write_bytes(gzip.compress(payload,mtime=0));temp.replace(target)
+            parts.append(str(target.relative_to(DATA)))
+        index={'record_key':key,'record_count':len(obj[key]),'record_shards':parts,'metadata':{k:v for k,v in obj.items() if k!=key}}
+        temp=p.with_suffix('.tmp');temp.write_text(json.dumps(index,indent=2)+'\n');temp.replace(p)
+        for stale in directory.glob('part-*.json.gz'):
+            if str(stale.relative_to(DATA)) not in parts:stale.unlink()
+        return
     if name in ['corpus.json','author-universe.json','ms-author-ledger.json','conference-authors.json','conference-author-ledger.json','author-watchlist.json']:
         encoded=json.dumps(obj,ensure_ascii=False,separators=(',',':')).encode()
         target=p.with_suffix(p.suffix+'.gz')

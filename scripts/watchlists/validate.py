@@ -2,6 +2,7 @@
 """Fail publication on malformed data, duplicate identities or missing evidence."""
 import datetime as dt
 from bootstrap import load
+from benchmarks import rr_key
 
 def main():
     rr=load('rr.json',{})['items'];jobs=load('postdocs.json',{})['items']
@@ -34,6 +35,19 @@ def main():
         benchmark=load('coverage-manifest.json',{}).get(kind,{})
         for name,expected in benchmark.items():
             assert set(expected)<=ids, 'Missing reference IDs: '+name
+    manifest=load('coverage-manifest.json',{})
+    queue=load('review-queue.json',{}).get('items',[])
+    reviewed_exclusions={i for q in queue if q.get('review_status')=='excluded_scope' for i in q.get('reference_ids',[])}
+    for provider in ['chenyang','openpostdoc','ejm']:
+        snapshot=load('references/'+provider+'.json',{})
+        current={rr_key(r) if provider=='chenyang' else provider+':'+r['id'] for r in snapshot['rows']}
+        public={i for r in (rr if provider=='chenyang' else jobs) for i in r.get('reference_ids',[])}
+        excluded=set(manifest.get('unpublished_jobs',{}).get(provider,[])) & current
+        assert excluded<=reviewed_exclusions, 'Unreviewed scope exclusion: '+provider
+        assert current-excluded<=public, 'Current snapshot has missing public IDs: '+provider
+        source=next(s for s in meta['benchmark_sources']['papers' if provider=='chenyang' else 'jobs'] if s['name']=={'chenyang':'Chen Yang paper status','openpostdoc':'OpenPostdoc','ejm':'Econ Job Market'}[provider])
+        assert source['in_scope']==len(current-excluded), 'Scope denominator mismatch: '+provider
+        assert source['matched']==len((current-excluded)&public), 'Coverage count masks absent IDs: '+provider
     print(f'Validated {len(rr)} papers, {len(jobs)} vacancies and {len(schools)} schools')
 
 if __name__=='__main__':main()

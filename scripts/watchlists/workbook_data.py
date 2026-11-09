@@ -26,7 +26,7 @@ def prepare():
         attempted=max((h.get('last_attempted','') for h in hs),default='')
         readable=max((h.get('last_scanned','') for h in hs),default='')
         status='Website unresolved; R&R not checked' if not url else ('Source read '+readable if readable else 'Readable research source not confirmed')
-        if normalize(author['name'])=='menggao' and 'sites.google.com/view/menggao/' in url:
+        if normalize(author['name'])=='menggao' and 'sites.google.com/view/menggao/' in url and readable<'2026-10-26':
             readable='2026-10-26';status='Primary research page read 2026-10-26; no explicit R&R disclosed on reviewed page'
         if attempted and attempted>readable:status='Source unavailable '+attempted+'; last read '+(readable or 'not recorded')
         selected={p['id']:p for key in keys for p in papers[key]}

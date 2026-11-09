@@ -153,6 +153,7 @@ def job_from_ejm(row,snapshot):
       'source_url':row.get('listing_url') or row['url'],'apply_url':row['url'],'source_type':'Econ Job Market employer advert',
       'last_verified':snapshot['checked_on'],'first_seen':TODAY,'verification':'Employer-published EJM advertisement',
       'search_status':head.split('Flexible start date.')[-1].strip()[:120],
+      'recruitment_status':row.get('recruitmentStatus') or 'Unknown',
       'notes':'Recruiter search status is separate from whether new applications are accepted.',
       'reference_ids':['ejm:'+row['id']],
       'source_reports':[{'name':'Econ Job Market','url':row.get('listing_url') or row['url'],'checked_on':snapshot['checked_on']}]}
@@ -185,8 +186,14 @@ def merge(items,new_items,kind):
                 old['source_reports']=list({r['name']+'|'+r['url']:r for r in old.get('source_reports',[])+new.get('source_reports',[])}.values())
                 if new['source_type']=='OpenPostdoc' and new.get('status')=='closed':old['status']='closed'
                 if new['source_type']=='Econ Job Market employer advert':
-                    old['deadline']=new['deadline'] or old.get('deadline','')
-                    if new['status']!='needs official confirmation':old['status']=new['status']
+                    deadline_conflicts=bool(old.get('deadline_authority')=='official_employer' and new['deadline'] and new['deadline']!=old.get('deadline'))
+                    if deadline_conflicts:
+                        old['deadline_conflict']={'listing_deadline':new['deadline'],'official_deadline':old.get('deadline',''),'checked_on':new['last_verified'],'review':'Recheck the official employer before replacing its deadline.'}
+                    else:old['deadline']=new['deadline'] or old.get('deadline','')
+                    recruiter=(new.get('recruitment_status','')+' '+new.get('search_status','')).lower()
+                    explicitly_closed=any(state in recruiter for state in ['reviewing applications','scheduling interviews','arranging flyouts','making offers','position filled','search cancelled','search completed','interviews completed','not accepting applications'])
+                    stale_deadline_closure=deadline_conflicts and new['status']=='closed' and old.get('deadline','')>=TODAY and not explicitly_closed
+                    if new['status']!='needs official confirmation' and not stale_deadline_closure:old['status']=new['status']
                     old['reference_checked_on']=new['last_verified']
                     if old.get('verification','').startswith('Reference-listed'):
                         for field in ['verification','source_type','source_url']:
