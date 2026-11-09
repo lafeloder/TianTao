@@ -1,6 +1,6 @@
 {
   "updated_on": "2026-11-09",
-  "status": "weekly_update_with_partial_author_followup",
+  "status": "weekly_update_completed_with_explicit_source_failures",
   "author_scope": {
     "membership_policy": "Fixed roster from 14 October; no author or conference expansion.",
     "saved_name_groups": 10762,
@@ -20,34 +20,47 @@
     "ssrn_columns": 5,
     "paper_author_associations": 1366,
     "saved_before_website_publication": true,
-    "all_homepages_and_rr_complete": false
+    "all_homepages_and_rr_complete": false,
+    "supplemental_rr_review_note": "Preserved upstream delivered workbook version5 and its unchanged author membership. The eight later R&R additions are website data updates; no workbook is published for download."
   },
   "source_attempts": {
     "checked_on": "2026-11-09",
-    "unique_urls_with_outcomes": 9049,
-    "fetched": 1753,
-    "failed": 7296,
-    "not_attempted_checkpoint_interrupted": 3870,
-    "complete": false,
-    "manual_primary_rereads": 4,
-    "interruption": "Automatic permission review timed out; subsequent poll could not resume the process. Successfully written same-day checkpoints were replayed, and incomplete cache files were excluded.",
-    "interpretation": "No whole-roster completion claim. Source failures and unattempted URLs keep previous primary evidence dates.",
-    "followup_failed_attempts": 40,
-    "followup_individual_profile_identity_checks": 2
+    "network_attempts": 20661,
+    "network_unique_urls": 20661,
+    "results": {
+      "fetched": 18794,
+      "failed": 1867
+    },
+    "prior_week_body_cache_reads": 0,
+    "checkpoint_complete": true,
+    "note": "Fresh complete fixed-roster acquisition using main refresh.py and its shared JOURNAL_PATTERNS. Failed sources remain failures; blank URLs remain missing. Parsed source snapshots and coauthor screens are not extra network visits, and a fetched URL is not proof of complete research content.",
+    "focus_sources": 51,
+    "focus_main_snapshots_reused": 17,
+    "additional_focus_network_visits": 34,
+    "network_count_scope": "Complete original fixed-roster acquisition plus three fresh requests for the two upstream-repaired profiles and linked CV; other focus visits and saved-snapshot reuse remain separately counted.",
+    "concurrent_roster_repair_source_rechecks": 3,
+    "preferred_url_results": {
+      "fetched": 9556,
+      "missing_url": 404,
+      "failed": 802
+    }
   },
   "completed": [
     "All three public references completely paginated again; same-scope IDs individually reconciled with zero missing. No new or removed reference IDs in this follow-up.",
     "Two previously missing individual institutional profile URLs verified with matching publisher identity; personal research sites remain unlocated.",
     "Linked outdated CV reviewed: its two apparent R&Rs confirmed published and excluded from current R&R additions.",
     "Same author workbook saved as version5 before publishing this follow-up; column order, all rows and separate Meng Gao identities retained.",
-    "EJM later-page fallback regression fixed and tested; existing site interface and menus preserved."
+    "EJM later-page fallback regression fixed and tested; existing site interface and menus preserved.",
+    "Complete supplementary known-source retrieval finished; actual failures and blank URLs remain distinct.",
+    "Eight new strict six-journal R&R records individually verified; current title aliases and working-paper identifiers deduplicated.",
+    "Both upstream profile repairs and linked outdated CV reread; no published CV paper added as current R&R."
   ],
   "remaining": [
-    "404 saved author rows still lack a webpage URL.",
-    "Full ownership/publication identity audit remains incomplete; profile-only matches and retained aliases are not blanket verification.",
-    "7296 source fetch failures require alternate-channel follow-up; 3870 requested URLs remain unattempted. Read failures retain previous actual verification dates.",
-    "Current unpublished R&R not established for the two newly linked authors; Brandon research/CV unavailable and Christopher linked CV outdated.",
-    "Rolling publication-author universe expansion not completed; corpus retains 2021-10-13 to 2026-10-13 publication window."
+    "404 fixed author rows lack a webpage URL.",
+    "1867 source requests failed; previous actual verification dates remain intact.",
+    "Full ownership/publication identity audit remains incomplete; linked URL coverage is not complete research-content coverage.",
+    "Current unpublished R&R not established for the two repaired profiles: Cline has no research/CV source and Clifford CV is outdated.",
+    "Publication corpus retains its explicitly saved five-year window; no weekly publication-author or conference universe rebuild performed."
   ],
   "resume": {
     "read": [
@@ -60,6 +73,7 @@
     "prior_checkpoint_date": "2026-10-12",
     "old_environment_error_resolved": true
   },
-  "current_run": "Same-day continuation after published Nov9 update: no new public paper/job records or status changes; two author URL repairs and source/pagination follow-up only.",
-  "followup_audit": "reviews/2026-11-09-followup.json"
+  "current_run": "Complete saved-roster acquisition, eight individually reviewed new R&R records, preserved 15 earlier new employer records, and retained upstream two-profile identity repair. No author membership or conference expansion.",
+  "followup_audit": "reviews/2026-11-09-followup.json",
+  "source_followup_checkpoint_preserved_from_commit": "aa667d0be73360bdddb09e41d7d4c7881d4271c3"
 }
