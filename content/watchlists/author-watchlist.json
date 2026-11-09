@@ -1,0 +1,26 @@
+{
+  "record_key": "authors",
+  "record_count": 10762,
+  "record_shards": [
+    "author-watchlist/part-001.json.gz",
+    "author-watchlist/part-002.json.gz",
+    "author-watchlist/part-003.json.gz",
+    "author-watchlist/part-004.json.gz",
+    "author-watchlist/part-005.json.gz",
+    "author-watchlist/part-006.json.gz",
+    "author-watchlist/part-007.json.gz",
+    "author-watchlist/part-008.json.gz",
+    "author-watchlist/part-009.json.gz",
+    "author-watchlist/part-010.json.gz",
+    "author-watchlist/part-011.json.gz"
+  ],
+  "metadata": {
+    "created_on": "2026-10-14",
+    "updated_on": "2026-11-09",
+    "update_policy": "Fixed existing author roster. Weekly scans recheck saved websites and research tabs; author and conference membership changes require user instruction.",
+    "author_rows": 10762,
+    "linked_authors": 10358,
+    "coverage_percent": 96.2461,
+    "coverage_basis": "Original fixed 10,762 author rows; personal websites preferred, with dedicated institution profiles as fallback. URL discovery and successful R&R content scanning are separate measures."
+  }
+}

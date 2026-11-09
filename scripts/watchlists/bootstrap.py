@@ -45,8 +45,8 @@ def save(name, obj):
     DATA.mkdir(parents=True, exist_ok=True)
     p = DATA / name
     p.parent.mkdir(parents=True, exist_ok=True)
-    if name in ['homepages.json','run-report.json']:
-        key='authors' if name=='homepages.json' else 'sources'
+    if name in ['homepages.json','run-report.json','author-watchlist.json']:
+        key='sources' if name=='run-report.json' else 'authors'
         directory=DATA/p.stem;directory.mkdir(exist_ok=True)
         parts=[]
         for start in range(0,len(obj[key]),1000):
@@ -56,6 +56,7 @@ def save(name, obj):
             parts.append(str(target.relative_to(DATA)))
         index={'record_key':key,'record_count':len(obj[key]),'record_shards':parts,'metadata':{k:v for k,v in obj.items() if k!=key}}
         temp=p.with_suffix('.tmp');temp.write_text(json.dumps(index,indent=2)+'\n');temp.replace(p)
+        p.with_suffix(p.suffix+'.gz').unlink(missing_ok=True)
         for stale in directory.glob('part-*.json.gz'):
             if str(stale.relative_to(DATA)) not in parts:stale.unlink()
         return

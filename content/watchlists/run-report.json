@@ -1,1 +1,26 @@
-{"record_key":"sources","record_count":12919,"record_shards":["run-report/part-001.json.gz","run-report/part-002.json.gz","run-report/part-003.json.gz","run-report/part-004.json.gz","run-report/part-005.json.gz","run-report/part-006.json.gz","run-report/part-007.json.gz","run-report/part-008.json.gz","run-report/part-009.json.gz","run-report/part-010.json.gz","run-report/part-011.json.gz","run-report/part-012.json.gz","run-report/part-013.json.gz"],"metadata":{"attempted_on":"2026-11-09","checkpoint_complete":false,"incomplete_cache_files":5,"actual_source_outcomes":9009,"source_acquisition_note":"Fresh Nov9 checkpoint reprocessed after automatic permission-review timeout interrupted further retrieval. Unfetched sources are distinct from fetch failures."}}
+{
+  "record_key": "sources",
+  "record_count": 12919,
+  "record_shards": [
+    "run-report/part-001.json.gz",
+    "run-report/part-002.json.gz",
+    "run-report/part-003.json.gz",
+    "run-report/part-004.json.gz",
+    "run-report/part-005.json.gz",
+    "run-report/part-006.json.gz",
+    "run-report/part-007.json.gz",
+    "run-report/part-008.json.gz",
+    "run-report/part-009.json.gz",
+    "run-report/part-010.json.gz",
+    "run-report/part-011.json.gz",
+    "run-report/part-012.json.gz",
+    "run-report/part-013.json.gz"
+  ],
+  "metadata": {
+    "attempted_on": "2026-11-09",
+    "checkpoint_complete": false,
+    "incomplete_cache_files": 5,
+    "actual_source_outcomes": 9049,
+    "source_acquisition_note": "Fresh Nov9 checkpoint reprocessed after automatic permission-review timeout interrupted further retrieval. Unfetched sources are distinct from fetch failures."
+  }
+}

@@ -29,6 +29,8 @@ def prepare():
         if normalize(author['name'])=='menggao' and 'sites.google.com/view/menggao/' in url and readable<'2026-10-26':
             readable='2026-10-26';status='Primary research page read 2026-10-26; no explicit R&R disclosed on reviewed page'
         if attempted and attempted>readable:status='Source unavailable '+attempted+'; last read '+(readable or 'not recorded')
+        note=next((h['rr_check_note'] for h in hs if h.get('rr_check_note')),None)
+        if note:status=note
         selected={p['id']:p for key in keys for p in papers[key]}
         pubs={doi:pub for k in keys for doi,pub in publications[k].items()}
         if normalize(author['name'])=='menggao':
@@ -43,7 +45,7 @@ def prepare():
             ps.append({'title':p['title'],'journal':p['journal'],'status':p['status'],'ssrn_url':ssrn,'last_verified':p.get('last_verified','')})
         elig=next((h['eligibility'] for h in hs if h.get('eligibility')),None)
         if normalize(author['name'])=='menggao' and pubs and not elig:elig=next(iter(pubs.values()))
-        rows.append({'name':author['name'],'homepage_url':url,'papers':ps,'website_status':'Linked personal / individual institution page' if url else 'Unresolved',
+        rows.append({'name':author['name'],'homepage_url':url,'papers':ps,'website_status':author.get('website_status') or ('Linked personal / individual institution page' if url else 'Unresolved'),
             'rr_check':status,'last_read':readable,'publication_doi':('https://doi.org/'+elig['doi']) if elig else '',
             'publication_journals':', '.join(sorted({p['journal'] for p in pubs.values()})), 'publication_count':len(pubs) if pubs else None,
             'identity_note':author.get('identity_note') or ('UConn; ORCID 0000-0001-6805-2323. Distinct from the UIBE researcher.' if normalize(author['name'])=='menggao' else 'Saved name aliases; provisional identities and profile-only matches require care.')})

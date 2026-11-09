@@ -22,7 +22,7 @@ site layout and theme. Existing About, Research, CV and Data pages are retained.
   program evidence with no invented DOI and enter the weekly homepage scan.
   The displayed Finance Top5 publication-author statistic keeps its original
   five-journal denominator. No author-pool or MS-author totals are added to the UI.
-- Weekly author membership is now fixed in `author-watchlist.json.gz`, matching
+- Weekly author membership is now fixed in `author-watchlist.json` (index plus lossless `author-watchlist/` shards), matching
   the two-column author / website workbook delivered on 14 October 2026.
   The Monday workflow uses `refresh.py --fixed-author-list --skip-discovery`;
   it does not rebuild the publication-author universe or ingest new conference
@@ -71,7 +71,7 @@ Use `bootstrap.load()` or Python's `gzip` module to inspect them.
   merging compatible aliases sharing verified individual pages. The EFA 2026
   doctoral tutorial's complete roster and SFS Asia-Pacific 2026 program are not
   publicly available; these source limits remain explicit in the ledger.
-- `author-watchlist.json.gz`: fixed author membership, supported name aliases,
+- `author-watchlist.json` (index plus lossless `author-watchlist/` shards): fixed author membership, supported name aliases,
   preferred personal / individual institution webpage and known alternatives.
   The Excel is delivered locally and is never copied into `public/`.
 - `author-website-audit.json`: URL repairs against the unchanged fixed roster,

@@ -105,7 +105,7 @@ def fetch_ejm():
         for row in first:unique[row['id']]=row
         page_count+=total
         with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-            htmls=list(pool.map(download,[EJM_URL+kind+'?page='+str(p) for p in range(2,total+1)]))
+            htmls=list(pool.map(download_ejm_listing,[EJM_URL+kind+'?page='+str(p) for p in range(2,total+1)]))
         for p,html in enumerate(htmls,2):
             for row in ejm_page(html,kind,p)[0]:
                 # Status view carries recruiter status, so retain it when both exist.

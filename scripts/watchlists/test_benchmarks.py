@@ -1,8 +1,29 @@
 import json
 import unittest
+from unittest.mock import patch
+import benchmarks
 from benchmarks import parse_rr, parse_openpostdoc, op_in_scope, merge, rr_key, normalize_paper, stage_unverified_jobs
 
 class BenchmarkTests(unittest.TestCase):
+    def test_ejm_fallback_reaches_later_pages_in_both_views(self):
+        requested=[]
+        def download(url):
+            requested.append(url)
+            if 'page=2' in url and 'sortBy=od' not in url:
+                raise RuntimeError('503 default listing unavailable')
+            return url
+        def page(html,kind,number):
+            return [{'id':kind+'-'+str(number),'title':'Postdoc'}],2
+        with patch.object(benchmarks,'download',side_effect=download), \
+             patch.object(benchmarks,'ejm_page',side_effect=page), \
+             patch.object(benchmarks,'ejm_in_scope',return_value=True):
+            result=benchmarks.fetch_ejm()
+        self.assertEqual(result['pages'],4)
+        self.assertEqual({r['id'] for r in result['rows']},
+                         {'statuses-1','statuses-2','positions-1','positions-2'})
+        for kind in ('statuses','positions'):
+            self.assertIn(benchmarks.EJM_URL+kind+'?page=2&sortBy=od',requested)
+
     def test_full_rr_array_and_date(self):
         row={'scholar':'Author One','title':'A Corporate Finance Paper','coauthors':[],'journal':'Journal of Finance','status':'Reject & Resubmit','url':'https://example.com/research'}
         page='Updated 2026-09-29<script>const data='+json.dumps([row])+';const esc=s=>s;</script>'

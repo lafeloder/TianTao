@@ -1,0 +1,74 @@
+{
+  "checked_on": "2026-11-09",
+  "scope": "Same-day follow-up: targeted ownership/publication identity verification; no claim of whole author completion.",
+  "website_repairs": [
+    {
+      "name": "Brandon N. Cline",
+      "url": "https://www.ims.msstate.edu/directory/cline",
+      "aliases": [
+        "Brandon Cline"
+      ],
+      "doi": "10.1017/s0022109022000953",
+      "title": "Insider Filing Violations and Illegal Information Delay",
+      "date": "2022-09-09",
+      "note": "Institutional identity and qualifying DOI verified 2026-11-09; research/CV source not found; R&R not checked.",
+      "identity_evidence": "Official individual MSU institute profile gives exact name, finance role and brandon.cline@msstate.edu; Cambridge JFQA qualifying paper gives the same name, affiliation and email."
+    },
+    {
+      "name": "Christopher P. Clifford",
+      "url": "https://gatton.uky.edu/people/chris-clifford",
+      "aliases": [
+        "Chris Clifford",
+        "Christopher Clifford"
+      ],
+      "doi": "10.1017/s0022109025000110",
+      "title": "Filing Agents and Information Leakage",
+      "date": "2025-03-14",
+      "note": "Institutional profile and linked CV read 2026-11-09. CV is outdated: its two apparent R&Rs are published. Current unpublished R&R not established.",
+      "identity_evidence": "Official individual Kentucky faculty profile and linked CV give chris.clifford@uky.edu and ASU Finance PhD 2008; Cambridge JFQA qualifying paper gives the same full name, affiliation and email.",
+      "cv_url": "https://gattonweb.uky.edu/Vitas/CPCL223_Vita.pdf"
+    }
+  ],
+  "unresolved_searched": [
+    "Ahmed Elnahas",
+    "Ekkehart Boehmer"
+  ],
+  "unresolved_reason": "No current owned personal/individual institutional research page established from available sources; generic listings, nonmatching namesakes and an inaccessible old personal domain were not substituted.",
+  "legacy_cv_published_exclusions": [
+    {
+      "title": "Filing Agents and Information Leakage",
+      "doi": "10.1017/S0022109025000110",
+      "status": "Published",
+      "date": "2025-03-14",
+      "publisher_url": "https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/filing-agents-and-information-leakage/2DC0ECC2930E8E19EFF353F1FFDA31A1"
+    },
+    {
+      "title": "Childhood Exposure to Misbehavior and the Culture of Financial Misconduct",
+      "doi": "10.1093/rfs/hhaf075",
+      "status": "Published",
+      "date": "2025-09-29",
+      "publisher_url": "https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaf075/8268011",
+      "authors": [
+        "Christopher P. Clifford",
+        "Jesse A. Ellis",
+        "William C. Gerken"
+      ]
+    }
+  ],
+  "additional_failed_attempts": 40,
+  "source_outcomes": {
+    "fetched": 1753,
+    "failed": 7296,
+    "not_attempted_checkpoint_interrupted": 3870
+  },
+  "reference_recheck": "Full ChenYang76, OpenPostdoc69 and EJM82 pagination repeated; no new or removed raw IDs. EJM sorted fallback was required on later pages.",
+  "research_scan_limits": {
+    "Brandon N. Cline": "Institutional identity and qualifying DOI verified 2026-11-09; research/CV source not found; R&R not checked.",
+    "Christopher P. Clifford": "Institutional profile and linked CV read 2026-11-09. CV is outdated: its two apparent R&Rs are published. Current unpublished R&R not established."
+  },
+  "validation": {
+    "python_tests": 83,
+    "field_tests": 6,
+    "reference_id_missing": 0
+  }
+}
