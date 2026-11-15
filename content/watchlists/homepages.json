@@ -2,18 +2,18 @@
   "record_key": "authors",
   "record_count": 11318,
   "record_shards": [
-    "homepages\\part-001.json.gz",
-    "homepages\\part-002.json.gz",
-    "homepages\\part-003.json.gz",
-    "homepages\\part-004.json.gz",
-    "homepages\\part-005.json.gz",
-    "homepages\\part-006.json.gz",
-    "homepages\\part-007.json.gz",
-    "homepages\\part-008.json.gz",
-    "homepages\\part-009.json.gz",
-    "homepages\\part-010.json.gz",
-    "homepages\\part-011.json.gz",
-    "homepages\\part-012.json.gz"
+    "homepages/part-001.json.gz",
+    "homepages/part-002.json.gz",
+    "homepages/part-003.json.gz",
+    "homepages/part-004.json.gz",
+    "homepages/part-005.json.gz",
+    "homepages/part-006.json.gz",
+    "homepages/part-007.json.gz",
+    "homepages/part-008.json.gz",
+    "homepages/part-009.json.gz",
+    "homepages/part-010.json.gz",
+    "homepages/part-011.json.gz",
+    "homepages/part-012.json.gz"
   ],
   "metadata": {}
 }

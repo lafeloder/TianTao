@@ -1,0 +1,408 @@
+{
+  "date": "2026-11-15",
+  "base_commit": "1c6a63cad2cfcb7e24cf130657e9de4ae24c5d05",
+  "operation": "User-authorized data-only publication of 14 reviewed strict R&R papers",
+  "original_paper_records_preserved": 697,
+  "new_papers": [
+    {
+      "id": "ten-year-20261114-fb189b4f59e1",
+      "title": "Robust Asset-Liability Management",
+      "authors": [
+        "Tjeerd de Vries",
+        "Alexis Akira Toda"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://alexisakira.github.io/publications/",
+      "evidence_excerpt": "R&R, Review of Finance",
+      "identifiers": [
+        "arxiv:2310.00553"
+      ],
+      "title_aliases": [],
+      "verification": "Current author research record and CV explicitly disclose Review of Finance R&R; source update September 2026. No matching formal journal publication found in title screening. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-5422a319e9c0",
+      "title": "Credit Reporting Relief from Natural Disasters",
+      "authors": [
+        "Benedict Guttman-Kenney"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://www.benedictgk.com/research",
+      "evidence_excerpt": "Revise & Resubmit, Management Science",
+      "identifiers": [
+        "ssrn:4601717"
+      ],
+      "title_aliases": [],
+      "verification": "Current own research page and CV explicitly disclose Management Science Revise & Resubmit; sole author confirmed by working-paper metadata and linked PDF. Earlier title includes Disaster Flags prefix. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-3a9816c6c8d3",
+      "title": "Good and Bad CEOs",
+      "authors": [
+        "Dirk Jenter",
+        "Egor Matveyev",
+        "Lukas Roth"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://mitmgmtfaculty.mit.edu/ematveyev/research/",
+      "evidence_excerpt": "R&R, Management Science",
+      "identifiers": [
+        "ssrn:4523213",
+        "doi:10.67929/ecgi-fin-935-2023",
+        "doi:10.65864/k2l1ootcje"
+      ],
+      "title_aliases": [
+        "Heterogeneous CEO Death Effects"
+      ],
+      "verification": "MIT author page explicitly discloses MS R&R under Good and Bad CEOs. May 2026 ECGI paper confirms its new title Heterogeneous CEO Death Effects and the former-title relationship. Both are one paper. Latest May 2026 ECGI and November 2026 CEPR versions are working papers, not formal journal publications; no contradictory acceptance found. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-81d97f7235e1",
+      "title": "Habit Formation and Keeping Up with the Joneses: Evidence from Micro Data",
+      "authors": [
+        "Enrichetta Ravina"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/eravina/research",
+      "evidence_excerpt": "Revise & Resubmit, Review of Financial Studies",
+      "identifiers": [
+        "ssrn:928248"
+      ],
+      "title_aliases": [],
+      "verification": "Current own research page explicitly discloses RFS Revise & Resubmit for the April 2019 paper. This is an old public disclosure, not a new 2026 decision. Correct SSRN 928248 independently verified; page link 1294189 is unresolved and is not used as the paper identifier. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-e83356e6c17b",
+      "title": "How Much Labor Do You Need to Manage Capital?",
+      "authors": [
+        "Leonard Kostovetsky",
+        "Alberto Manconi"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/leonard-kostovetsky/home",
+      "evidence_excerpt": "R&R, Review of Finance",
+      "identifiers": [
+        "ssrn:2896355"
+      ],
+      "title_aliases": [],
+      "verification": "Own individual page explicitly discloses Review of Finance R&R. Its stated last update is August 2022; retain the disclosure date rather than imply a recent decision. No formal journal publication found; coauthor 2024 CV continues to list the same working paper. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-415e5a6b01a1",
+      "title": "The Value of Information from Sell-side Analysts",
+      "authors": [
+        "Linying Lv"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://www.linyinglv.com/",
+      "evidence_excerpt": "Revise & Resubmit, Journal of Financial Economics",
+      "identifiers": [
+        "ssrn:5003916",
+        "arxiv:2411.13813"
+      ],
+      "title_aliases": [],
+      "verification": "Own bounded job-market paper record explicitly discloses JFE Revise & Resubmit; complete sole authorship confirmed by SSRN metadata and arXiv. Formal publication of the neighboring Chronologically Consistent paper is not borrowed. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-d741fc94e924",
+      "title": "Stock Market Liberalizations and Export Dynamics",
+      "authors": [
+        "Melise Jaud",
+        "Madina Kukenova",
+        "Martin Strieborny"
+      ],
+      "journal": "RF",
+      "status": "R&R",
+      "evidence_url": "https://www.martinstrieborny.com/research.html",
+      "evidence_excerpt": "REVISE AND RESUBMIT, Review of Finance",
+      "identifiers": [
+        "ssrn:3184754",
+        "ssrn:3190439",
+        "doi:10.1596/1813-9450-10307"
+      ],
+      "title_aliases": [],
+      "verification": "Own bounded working-paper record explicitly discloses Review of Finance R&R; Melise Jaud also discloses R&R. World Bank DOI is a working-paper identifier, not a journal publication. SSRN versions are deduplicated. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-6917084b29e8",
+      "title": "Valuation Fundamentals",
+      "authors": [
+        "Paul H. Décaire",
+        "John R. Graham"
+      ],
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://www.paulhdecaire.com/research.html",
+      "evidence_excerpt": "Revise & Resubmit, Journal of Finance",
+      "identifiers": [
+        "ssrn:4951338"
+      ],
+      "title_aliases": [],
+      "verification": "Fresh own research page and fresh CV both explicitly disclose JF Revise & Resubmit. Older indexed CV snippets mentioning QJE are superseded by the freshly retrieved sources. This paper is separate from the neighboring Mental Models and Financial Forecasts. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-621f60807851",
+      "title": "Effects of Financial Speculation on Households",
+      "authors": [
+        "Christian Heyerdahl-Larsen",
+        "Philipp K. Illeditsch",
+        "Petra Sinagl"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/philippilleditsch/research",
+      "evidence_excerpt": "Revise and Resubmit, Journal of Financial and Quantitative Analysis",
+      "identifiers": [
+        "ssrn:5339670"
+      ],
+      "title_aliases": [],
+      "verification": "Own bounded December 2025 paper record supplies full title, all three authors, and explicit JFQA Revise and Resubmit. Crossref match is the working-paper DOI only. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-004da75fe66f",
+      "title": "Market View: Reconciling Survey and Statistical Equity Premia",
+      "authors": [
+        "Christian Heyerdahl-Larsen",
+        "Philipp K. Illeditsch"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/philippilleditsch/research",
+      "evidence_excerpt": "Revise and Resubmit, Management Science",
+      "identifiers": [
+        "ssrn:5362306"
+      ],
+      "title_aliases": [
+        "The Market View: Reconciling Survey and Statistical Equity Premia"
+      ],
+      "verification": "Own bounded March 2026 paper record supplies both authors and explicit MS Revise and Resubmit. Preserve author-page title; HTML-encoded Crossref title with The prefix is an alias. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-jfqa-forbeses",
+      "title": "Keeping up with the Forbeses: Does Peer Recognition Promote Opportunistic Trading?",
+      "authors": [
+        "Natalya Bikmetova",
+        "Robert H. Davidson",
+        "Christo Pirinsky"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://acis.pamplin.vt.edu/content/dam/acis_pamplin_vt_edu/vita/DavidsonCV.pdf",
+      "evidence_excerpt": "Keeping up with the Forbeses: Does Peer Recognition Promote Opportunistic Trading? (with Natalya Bikmetova and Christo Pirinsky). Revise and resubmit – first round, Journal of Financial and Quantitative Analysis.",
+      "identifiers": [],
+      "title_aliases": [],
+      "verification": "Fresh university-hosted author CV explicitly discloses JFQA first-round revise and resubmit in one bounded numbered paper record. Full authors and August 2023 version verified in the official ECGI paper. No matching formal publication/acceptance found. Explicit personal domain rhdavidson.com and www variant both failed TLS hostname checks; this failure is retained and the university CV is the primary fallback. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-ms-analyst-research",
+      "title": "Does High Frequency Trading Affect Analyst Research Production?",
+      "authors": [
+        "Pawel Bilinski",
+        "Irene Karamanou",
+        "Anastasia Kopita",
+        "Marios A. Panayides"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://mariospanayides.com/publications/",
+      "evidence_excerpt": "Does High Frequency Trading Affect Analyst Research Production?, with P. Biliski, A. Kopita, and I Karamanou. Revise and Resubmit at Management Science",
+      "identifiers": [
+        "ssrn:3627459",
+        "ssrn:3597356"
+      ],
+      "title_aliases": [
+        "Does Algorithmic Trading Affect Analyst Research Production?"
+      ],
+      "verification": "Manually isolated the single paper paragraph; reject the parser's generic heading Working Papers (selected). Full author names verified by SSRN and university working-paper metadata. Alternative algorithmic-trading title and SSRN version are one paper. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-rfs-hegemony",
+      "title": "Global Hegemony and Exorbitant Privilege",
+      "authors": [
+        "Carolin E. Pflueger",
+        "Pierre Yared"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://cpflueger.github.io/carolinpflueger_repository/CPflueger_CV_20261103.pdf",
+      "evidence_excerpt": "Global Hegemony and Exorbitant Privilege, 2026, with Pierre Yared revise and resubmit Review of Financial Studies",
+      "identifiers": [
+        "ssrn:4906038",
+        "ssrn:4920095",
+        "ssrn:4922791",
+        "doi:10.3386/w32775"
+      ],
+      "title_aliases": [],
+      "verification": "November 3 2026 own CV and current coauthor page both explicitly disclose RFS R&R. NBER/SSRN records are working papers, not formal journal publications. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "working paper"
+    },
+    {
+      "id": "ten-year-20261114-ms-offshoring",
+      "title": "Accounting Service Offshoring and Reporting Quality",
+      "authors": [
+        "Fabio da Silva Soares",
+        "Jason Kim",
+        "Nemit Shroff",
+        "Felix W. Vetter"
+      ],
+      "journal": "MS",
+      "status": "R&R",
+      "evidence_url": "https://mitsloan.mit.edu/shared/ods/documents?DocID=12498&PersonID=249508",
+      "evidence_excerpt": "Accounting Service Offshoring and Reporting Quality - with Fabio da Silve Soares, Jason Kim, and Nemit Shroff (R&R at Management Science)",
+      "identifiers": [],
+      "title_aliases": [
+        "Accounting Service Offshoring and Financial Reporting Quality"
+      ],
+      "verification": "Own December 2025 CV explicitly lists the paper under working papers with MS R&R. Official PCAOB/MS September 2025 registered-report proposal program verifies all four author names and Financial Reporting title variant. Registered-report proposal; no public paper file or stable paper ID found. Do not imply a publicly downloadable completed manuscript. Fresh author evidence reread and public publication metadata screened on 2026-11-15.",
+      "document_type": "registered-report proposal"
+    }
+  ],
+  "fresh_sources": [
+    {
+      "url": "https://alexisakira.github.io/publications/",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:41.803395+00:00",
+      "sha256": "389fd25c9b1142a0980c08baf6236dd186e2a2aae57f7d978c1d5141e8d86276",
+      "kind": "author research webpage"
+    },
+    {
+      "url": "https://www.benedictgk.com/research",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:41.804038+00:00",
+      "sha256": "f2b403729492953c6dd9e14bc85192f6234c70ab064f2caff414a608a33affa1",
+      "kind": "author research webpage"
+    },
+    {
+      "url": "https://mitmgmtfaculty.mit.edu/ematveyev/research/",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:41.818117+00:00",
+      "sha256": "01e2f019cde79b00736e323df89b07d9bedf8c84abc22829cc72c23a79a19f38",
+      "kind": "author research webpage"
+    },
+    {
+      "url": "https://sites.google.com/view/eravina/research",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:41.833843+00:00",
+      "sha256": "e7fd6a44a2a5211e31e851fd975117699c48ed178787e78efc95a538a40dc2ca",
+      "kind": "author research webpage"
+    },
+    {
+      "url": "https://sites.google.com/view/leonard-kostovetsky/home",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:42.586572+00:00",
+      "sha256": "f44be4b710f69b9c5a0d85f5abff2cd73729f781e370bb3561633f480662cf38",
+      "kind": "author research webpage"
+    },
+    {
+      "url": "https://www.linyinglv.com/",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:42.601262+00:00",
+      "sha256": "39b7b5a0e9ccb4e31a9da8ec4e93d9dd1700c87447ea554c1092fce13acda0d6",
+      "kind": "author research webpage"
+    },
+    {
+      "url": "https://www.martinstrieborny.com/research.html",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:42.703775+00:00",
+      "sha256": "2f44ce051e03e8d7ee23d69631bf19d07ab865e93db0f32e87b45fefb444d8f3",
+      "kind": "author research webpage"
+    },
+    {
+      "url": "https://www.paulhdecaire.com/research.html",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:43.023872+00:00",
+      "sha256": "f1da3798397723e05af5f99cbfc5605f58567a1366b7f3c48c36e08058419b92",
+      "kind": "author research webpage"
+    },
+    {
+      "url": "https://sites.google.com/view/philippilleditsch/research",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:43.076207+00:00",
+      "sha256": "0c9b00db778ccf1f4b59d8c12cb0b27b4fd175faeb1dfa13d2e85b109bb4d03a",
+      "kind": "author research webpage"
+    },
+    {
+      "url": "https://acis.pamplin.vt.edu/content/dam/acis_pamplin_vt_edu/vita/DavidsonCV.pdf",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:43.147717+00:00",
+      "sha256": "e8b9c605d77cf5522238d59a3e2b131caa870b3305d9cc9e163844d5c2e151f8",
+      "kind": "CV PDF"
+    },
+    {
+      "url": "https://mariospanayides.com/publications/",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:43.476676+00:00",
+      "sha256": "c17f837ce48f4fd7295ec8de8b2a48ef5ec2ed39a890f18fb13bbeeaa253a135",
+      "kind": "author research webpage"
+    },
+    {
+      "url": "https://cpflueger.github.io/carolinpflueger_repository/CPflueger_CV_20261103.pdf",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:43.525096+00:00",
+      "sha256": "66b7c35cf5858892be693189cba36d1e4075be48cf87472203cd63b7bb08eaf9",
+      "kind": "CV PDF"
+    },
+    {
+      "url": "https://mitsloan.mit.edu/shared/ods/documents?DocID=12498&PersonID=249508",
+      "result": "fetched",
+      "fetched_at": "2026-11-15T00:21:43.616777+00:00",
+      "sha256": "bd26b7e0e5a24ad6b0bb96d151c93d2b28b346b6776733f47477b4b91df6591b",
+      "kind": "CV PDF"
+    }
+  ],
+  "publication_metadata_screens": 14,
+  "displayed_revision_papers": 661,
+  "strict_rr": 608,
+  "reject_and_resubmit": 53,
+  "strict_rr_by_journal": {
+    "JF": 106,
+    "JFE": 82,
+    "RFS": 149,
+    "RF": 64,
+    "JFQA": 69,
+    "MS": 138
+  },
+  "normalized_index_paths": [
+    "homepages.json",
+    "run-report.json"
+  ],
+  "path_repair_reason": "Existing 9 November weekly GitHub Actions run failed on literal homepages\\part-001.json.gz on Linux. Normalize index strings only; shard content and author membership stay unchanged.",
+  "author_denominator": 4301,
+  "postdocs_unchanged": true,
+  "frontend_unchanged": true,
+  "fixed_author_roster_unchanged": true,
+  "full_roster_rescanned": false,
+  "public_workbook_downloads_added": false,
+  "validation": {
+    "python_regressions": 83,
+    "field_tests": 6,
+    "data_validation": "711 records, 115 vacancies, 50 schools passed",
+    "production_static_export": "passed",
+    "local_lint_note": "Shared existing node_modules lacks eslint-plugin-react-hooks. Next compilation/type checks/static export completed with exit 0; deployment CI installs clean dependencies and runs the normal build.",
+    "browser_interactions": "all 14 added titles, journal/field/status filters, chart, pagination and EuropePostdocs interactions passed",
+    "frontend_files_changed": 0,
+    "original_paper_records_unchanged": 697,
+    "fixed_author_roster_unchanged": true,
+    "postdocs_unchanged": true,
+    "linux_index_paths_normalized": true,
+    "public_workbooks": 0
+  }
+}
