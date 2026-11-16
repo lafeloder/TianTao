@@ -117,7 +117,7 @@
           "reported_status": "closed"
         }
       ],
-      "last_attempted": "2026-11-09"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "openpostdoc-4f17283b-8b8e-4fad-8af8-d4fc5c40fb6f",
@@ -157,7 +157,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-11-09"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "openpostdoc-fa64d717-f2ad-4fd9-95b2-852782e5ab19",
@@ -196,7 +196,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "supplement-rwi-70200-09-26",
@@ -226,7 +226,7 @@
       "search_status": "Accepting applications",
       "reference_ids": [],
       "source_reports": [],
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-12724",
@@ -248,11 +248,11 @@
       "source_url": "https://econjobmarket.org/positions/12724",
       "apply_url": "https://econjobmarket.org/positions/12724",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
-      "search_status": "Accepting applications",
+      "search_status": "Reviewing applications",
       "reference_ids": [
         "ejm:12724"
       ],
@@ -285,7 +285,10 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "Accepting applications"
     },
     {
       "id": "ejm-12741",
@@ -309,11 +312,11 @@
       "source_url": "https://econjobmarket.org/positions/12741",
       "apply_url": "https://econjobmarket.org/positions/12741",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
-      "search_status": "Accepting applications",
+      "search_status": "Reviewing applications",
       "reference_ids": [
         "ejm:12741",
         "openpostdoc:3fe95cf8-9882-4e8f-8219-bddca7db79eb"
@@ -348,7 +351,10 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "Accepting applications"
     },
     {
       "id": "ejm-12781",
@@ -520,11 +526,11 @@
       "source_url": "https://econjobmarket.org/positions/12806",
       "apply_url": "https://econjobmarket.org/positions/12806",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
-      "search_status": "Accepting applications",
+      "search_status": "Reviewing applications",
       "reference_ids": [
         "ejm:12806",
         "openpostdoc:19381721-69e7-4a71-b3cf-c2cc51e7757a"
@@ -569,7 +575,10 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "Accepting applications"
     },
     {
       "id": "ejm-12552",
@@ -686,7 +695,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-11-09"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "supplement-gustave-eiffel-fiizu-2026",
@@ -717,7 +726,7 @@
       "search_status": "Accepting applications",
       "reference_ids": [],
       "source_reports": [],
-      "last_attempted": "2026-11-09"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-12699",
@@ -739,7 +748,7 @@
       "source_url": "https://econjobmarket.org/positions/12699",
       "apply_url": "mailto:derivate@finance.uni-frankfurt.de",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -793,7 +802,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "openpostdoc-d270ba6e-0e4d-44bd-a8e8-5a9b7c379260",
@@ -816,7 +827,7 @@
       "source_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=188853",
       "apply_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=188853",
       "source_type": "Official website",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": " Official vacancy 188853: LLMs, AI and Financial Economics; 2 appointments. Deadline 19 November 2026, 12:00 UK time.",
@@ -833,7 +844,7 @@
         }
       ],
       "deadline_at": "2026-11-19T12:00:00+00:00",
-      "last_attempted": "2026-11-09"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "openpostdoc-ed499b97-ce7f-413d-9132-0af159b1e794",
@@ -855,7 +866,7 @@
       "source_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=188851",
       "apply_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=188851",
       "source_type": "Official website",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": " Official vacancy 188851: Asset Pricing and Portfolio Theory; 2 appointments. Deadline 19 November 2026, 12:00 UK time.",
@@ -872,7 +883,7 @@
         }
       ],
       "deadline_at": "2026-11-19T12:00:00+00:00",
-      "last_attempted": "2026-11-09"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-12692",
@@ -889,14 +900,14 @@
       ],
       "fit": "Labour economics research with the director’s group at IAB, using empirical methods and rich labour-market data.",
       "deadline": "2026-11-20",
-      "status": "closed",
+      "status": "open",
       "duration": "2 years",
       "start": "Flexible",
       "salary": "Not stated",
       "source_url": "https://econjobmarket.org/positions/12692",
       "apply_url": "https://econjobmarket.org/positions/12692",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -950,7 +961,15 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_status_discrepancy": {
+        "checked_on": "2026-11-16",
+        "secondary_source": "OpenPostdoc closed label",
+        "preferred_source": "https://econjobmarket.org/positions/12692",
+        "preferred_evidence": "Current full individual employer-submitted EJM page explicitly says accepting applications, with a future application deadline. A closed board card is not substituted for the primary application state."
+      }
     },
     {
       "id": "ejm-12628",
@@ -965,14 +984,14 @@
       ],
       "fit": "Development economics research through NOVAFRICA, with experimental and geospatial research experience valued.",
       "deadline": "2026-11-20",
-      "status": "closed",
+      "status": "open",
       "duration": "2 years",
       "start": "Flexible",
       "salary": "Not stated",
       "source_url": "https://econjobmarket.org/positions/12628",
       "apply_url": "https://econjobmarket.org/positions/12628",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1021,7 +1040,15 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_status_discrepancy": {
+        "checked_on": "2026-11-16",
+        "secondary_source": "OpenPostdoc closed label",
+        "preferred_source": "https://econjobmarket.org/positions/12628",
+        "preferred_evidence": "Current full individual employer-submitted EJM page explicitly says accepting applications, with a future application deadline. A closed board card is not substituted for the primary application state."
+      }
     },
     {
       "id": "ejm-12803",
@@ -1043,7 +1070,7 @@
       "source_url": "https://econjobmarket.org/positions/12803",
       "apply_url": "https://econjobmarket.org/positions/12803",
       "source_type": "Official website",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1091,8 +1118,10 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12786",
@@ -1114,7 +1143,7 @@
       "source_url": "https://econjobmarket.org/positions/12786",
       "apply_url": "https://econjobmarket.org/positions/12786",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1158,7 +1187,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12634",
@@ -1180,7 +1211,7 @@
       "source_url": "https://econjobmarket.org/positions/12634",
       "apply_url": "https://econjobmarket.org/positions/12634",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1227,7 +1258,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12764",
@@ -1242,14 +1275,14 @@
       ],
       "fit": "ERC and other funded research fellowships in economics, including beliefs, information, markets and public policy.",
       "deadline": "2026-11-27",
-      "status": "closed",
+      "status": "open",
       "duration": "2 years",
       "start": "Flexible",
       "salary": "Not stated",
       "source_url": "https://econjobmarket.org/positions/12764",
       "apply_url": "https://econjobmarket.org/positions/12764",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1298,7 +1331,15 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_status_discrepancy": {
+        "checked_on": "2026-11-16",
+        "secondary_source": "OpenPostdoc closed label",
+        "preferred_source": "https://econjobmarket.org/positions/12764",
+        "preferred_evidence": "Current full individual employer-submitted EJM page explicitly says accepting applications, with a future application deadline. A closed board card is not substituted for the primary application state."
+      }
     },
     {
       "id": "ejm-12727",
@@ -1321,7 +1362,7 @@
       "source_url": "https://econjobmarket.org/positions/12727",
       "apply_url": "https://econjobmarket.org/positions/12727",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1365,7 +1406,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12730",
@@ -1387,7 +1430,7 @@
       "source_url": "https://econjobmarket.org/positions/12730",
       "apply_url": "https://econjobmarket.org/positions/12730",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1431,7 +1474,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12729",
@@ -1453,7 +1498,7 @@
       "source_url": "https://econjobmarket.org/positions/12729",
       "apply_url": "https://econjobmarket.org/positions/12729",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1497,7 +1542,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12732",
@@ -1519,7 +1566,7 @@
       "source_url": "https://econjobmarket.org/positions/12732",
       "apply_url": "https://econjobmarket.org/positions/12732",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1563,7 +1610,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12725",
@@ -1585,7 +1634,7 @@
       "source_url": "https://econjobmarket.org/positions/12725",
       "apply_url": "https://econjobmarket.org/positions/12725",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1629,7 +1678,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "openpostdoc-055db4a4-d883-494b-9f63-0dc0d6a574dc",
@@ -1652,7 +1703,7 @@
       "source_url": "https://www.cam.ac.uk/jobs/janeway-institute-postdoctoral-research-fellowship-research-assistant-or-research-associate-fixed-jh50885",
       "apply_url": "https://www.cam.ac.uk/jobs/janeway-institute-postdoctoral-research-fellowship-research-assistant-or-research-associate-fixed-jh50885",
       "source_type": "Official website",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": "",
@@ -1668,7 +1719,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-11-09"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-12485",
@@ -1691,7 +1742,7 @@
       "source_url": "https://econjobmarket.org/positions/12485",
       "apply_url": "https://econjobmarket.org/positions/12485",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1730,7 +1781,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12734",
@@ -1752,7 +1805,7 @@
       "source_url": "https://econjobmarket.org/positions/12734",
       "apply_url": "https://umustipendie.varbi.com/se/?jobtoken=1e3583b117de0ed7710e7317af714fe97f8e3af51",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "Scholarship, not employment; check benefits and tax conditions.",
@@ -1791,7 +1844,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12700",
@@ -1813,7 +1868,7 @@
       "source_url": "https://econjobmarket.org/positions/12700",
       "apply_url": "https://econjobmarket.org/positions/12700",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "Postdoctoral hosting route depends on separately won competitive funding; the same ad also advertises an Assistant Professor position.",
@@ -1847,7 +1902,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12765",
@@ -1869,7 +1926,7 @@
       "source_url": "https://econjobmarket.org/positions/12765",
       "apply_url": "https://econjobmarket.org/positions/12765",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1903,7 +1960,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12798",
@@ -1925,7 +1984,7 @@
       "source_url": "https://econjobmarket.org/positions/12798",
       "apply_url": "https://econjobmarket.org/positions/12798",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -1959,7 +2018,9 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "openpostdoc-38dd0fea-3635-4a74-9a2c-e15ea852bc33",
@@ -1982,7 +2043,7 @@
       "source_url": "https://careers.epfl.ch/job/Lausanne-Postdoc-Position-in-Quantitative-Finance-at-EPFL/1164712155/",
       "apply_url": "https://careers.epfl.ch/job/Lausanne-Postdoc-Position-in-Quantitative-Finance-at-EPFL/1164712155/",
       "source_type": "Official website",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
       "notes": "",
@@ -1998,7 +2059,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-11-09",
+      "last_attempted": "2026-11-16",
       "recheck_note": "Historical closed state retained: a missing/redirected title is not evidence of reopening."
     },
     {
@@ -2023,11 +2084,11 @@
       "source_url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-position-at-PASU-lab-1/1165525455/",
       "apply_url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-position-at-PASU-lab-1/1165525455/",
       "source_type": "Official website",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-12",
       "verification": "Verified employer website advertisement",
-      "notes": "",
-      "search_status": "Accepting applications on employer website",
+      "notes": "The official EPFL advert explicitly reports that the position has been filled; retained as a historical record.",
+      "search_status": "Employer states position has been filled",
       "reference_ids": [
         "openpostdoc:dbf3d06d-81e5-44ae-b3bf-531854efc179"
       ],
@@ -2039,7 +2100,7 @@
           "reported_status": "closed"
         }
       ],
-      "last_attempted": "2026-11-09",
+      "last_attempted": "2026-11-16",
       "recheck_note": "Historical closed state retained: a missing/redirected title is not evidence of reopening."
     },
     {
@@ -3550,9 +3611,10 @@
       "source_type": "Official website",
       "last_verified": "2026-10-19",
       "notes": "Requires experience with corporate network data. This is an adjacent corporate research role.",
-      "last_attempted": "2026-11-09",
+      "last_attempted": "2026-11-16",
       "verification": "Official source checked; availability labelled separately",
-      "reference_ids": []
+      "reference_ids": [],
+      "source_reports": []
     },
     {
       "id": "frankfurt-finance-2026",
@@ -3576,11 +3638,12 @@
       "source_url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-researcher-finance",
       "apply_url": "https://apply.interfolio.com/181107",
       "source_type": "Official website",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "notes": "The official advertisement remains available. Its closing date and whether applications are still accepted could not be confirmed.",
-      "last_attempted": "2026-11-09",
+      "last_attempted": "2026-11-16",
       "verification": "Official source checked; availability labelled separately",
-      "reference_ids": []
+      "reference_ids": [],
+      "source_reports": []
     },
     {
       "id": "frankfurt-cfet-2026",
@@ -3602,11 +3665,12 @@
       "source_url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-fellowship-cfet",
       "apply_url": "https://www.frankfurt-school.de/en/about/careers/postdoctoral-fellowship-cfet",
       "source_type": "Official website",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "notes": "No teaching duties. R/Python and empirical panel-data experience required; ML/AI experience is an asset. Closing date is not stated.",
-      "last_attempted": "2026-11-09",
+      "last_attempted": "2026-11-16",
       "verification": "Official source checked; availability labelled separately",
-      "reference_ids": []
+      "reference_ids": [],
+      "source_reports": []
     },
     {
       "id": "openpostdoc-16528f59-0484-4116-b182-016d6a19aa8c",
@@ -3758,7 +3822,7 @@
       "source_url": "https://econjobmarket.org/positions/12812",
       "apply_url": "https://econjobmarket.org/positions/12812",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-19",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "",
@@ -3794,8 +3858,12 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "",
+      "search_status": "Accepting applications"
     },
     {
       "id": "ejm-12859",
@@ -3819,10 +3887,10 @@
       "source_url": "https://econjobmarket.org/positions/12859",
       "apply_url": "https://www.vacancies.st-andrews.ac.uk/Vacancies/W/6154/0/475772/889/post-doctoral-research-fellow-in-climate-and-macroeconometrics-ar3355cm",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-19",
       "verification": "Individual full primary employer record reviewed; board aliases retained.",
-      "search_status": "(12859) Post-Doctoral Research Fellow in Climate- and Macroeconometrics St Andrews, United Kingdom. Starts 2027-03-01. D",
+      "search_status": "Accepting applications",
       "notes": "",
       "reference_ids": [
         "ejm:12859",
@@ -3870,9 +3938,12 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
+      "last_attempted": "2026-11-16",
       "reference_checked_on": "2026-11-16",
-      "deadline_authority": "official_employer"
+      "deadline_authority": "official_employer",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "(12859) Post-Doctoral Research Fellow in Climate- and Macroeconometrics St Andrews, United Kingdom. Starts 2027-03-01. D"
     },
     {
       "id": "ejm-12846",
@@ -3896,10 +3967,10 @@
       "source_url": "https://econjobmarket.org/positions/12846",
       "apply_url": "https://econjobmarket.org/positions/12846",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-19",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
-      "search_status": "Duration: 3 years Accepting applications",
+      "search_status": "Accepting applications",
       "notes": "",
       "reference_ids": [
         "ejm:12846"
@@ -3931,8 +4002,11 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "Duration: 3 years Accepting applications"
     },
     {
       "id": "ejm-12849",
@@ -3957,10 +4031,10 @@
       "source_url": "https://econjobmarket.org/positions/12849",
       "apply_url": "https://econjobmarket.org/positions/12849",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-19",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
-      "search_status": "Duration: 3 years Accepting applications",
+      "search_status": "Accepting applications",
       "notes": "One position is hosted by the University of Potsdam and another by WZB Berlin; the official advert offers two research associate appointments.",
       "reference_ids": [
         "ejm:12849"
@@ -3987,8 +4061,11 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "Duration: 3 years Accepting applications"
     },
     {
       "id": "ejm-12844",
@@ -4011,10 +4088,10 @@
       "source_url": "https://econjobmarket.org/positions/12844",
       "apply_url": "https://econjobmarket.org/positions/12844",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-19",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
-      "search_status": "(12844) Postdoctoral Researcher (f/m/d) for the ifo Center for International Economics Munich, Germany. Starts 2027-10-0",
+      "search_status": "Accepting applications",
       "notes": "",
       "reference_ids": [
         "ejm:12844",
@@ -4038,8 +4115,11 @@
           "checked_on": "2026-11-02"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "(12844) Postdoctoral Researcher (f/m/d) for the ifo Center for International Economics Munich, Germany. Starts 2027-10-0"
     },
     {
       "id": "ejm-12809",
@@ -4067,7 +4147,7 @@
       "last_verified": "2026-11-02",
       "first_seen": "2026-10-19",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
-      "search_status": "Duration: 2 years Accepting applications",
+      "search_status": "Accepting applications",
       "notes": "",
       "reference_ids": [
         "ejm:12809"
@@ -4100,7 +4180,8 @@
         }
       ],
       "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "source_search_status_raw": "Duration: 2 years Accepting applications"
     },
     {
       "id": "openpostdoc-ba77a8ba-3363-4b46-b7bd-d7ab2d4c5017",
@@ -4139,7 +4220,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-11-09"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "openpostdoc-2c8ce5be-317d-4208-a033-008dba2a6935",
@@ -4184,7 +4265,7 @@
           "reported_status": "closed"
         }
       ],
-      "last_attempted": "2026-11-02",
+      "last_attempted": "2026-11-16",
       "deadline_at": "2026-11-13T16:00:00+02:00",
       "reference_checked_on": "2026-11-09",
       "deadline_authority": "official_employer"
@@ -4225,7 +4306,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-11-09"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "cbs-backlash-2026",
@@ -4250,7 +4331,7 @@
       "apply_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/postdoctoral-position-class-elites-and-political-economy",
       "source_type": "University vacancy",
       "last_verified": "2026-11-02",
-      "last_attempted": "2026-11-09",
+      "last_attempted": "2026-11-16",
       "first_seen": "2026-10-19",
       "verification": "Official CBS individual advert checked: doctoral qualification, Copenhagen location, research remit, application route and closing date.",
       "notes": "Related field: political economy, explicitly identified rather than classified as core banking/finance.",
@@ -4280,7 +4361,7 @@
       "apply_url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/two-post-doctoral-positions-drivers-green-capital",
       "source_type": "University vacancy",
       "last_verified": "2026-11-02",
-      "last_attempted": "2026-11-09",
+      "last_attempted": "2026-11-16",
       "first_seen": "2026-10-19",
       "verification": "Official CBS individual advert checked: doctoral qualification, Copenhagen location, research remit, application route and closing date.",
       "notes": "Related field: political economy, explicitly identified rather than classified as core banking/finance.",
@@ -4309,7 +4390,7 @@
       "source_url": "https://econjobmarket.org/positions/12876",
       "apply_url": "https://econjobmarket.org/positions/12876",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-26",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "Official employer advert requires a doctorate; apply through EJM by 3 December 2026.",
@@ -4345,8 +4426,12 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "",
+      "search_status": "Accepting applications"
     },
     {
       "id": "openpostdoc-3a4115cb-671f-423f-a0f3-c8949a9536b0",
@@ -4370,7 +4455,7 @@
       "source_url": "https://econjobmarket.org/positions/12894",
       "apply_url": "https://econjobmarket.org/positions/12894",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-26",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "One employer advert for two postdoctoral appointments: labor productivity and labor-market structures/worker well-being. Counted as one advert.",
@@ -4406,8 +4491,12 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "",
+      "search_status": "Accepting applications"
     },
     {
       "id": "openpostdoc-979bb48a-5001-4806-84b9-a277657e7e59",
@@ -4431,7 +4520,7 @@
       "source_url": "https://econjobmarket.org/positions/12895",
       "apply_url": "https://econjobmarket.org/positions/12895",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-26",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "Dates and application status need confirmation on the employer posting.",
@@ -4462,8 +4551,12 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "",
+      "search_status": "Accepting applications"
     },
     {
       "id": "openpostdoc-00869174-def1-4e23-9927-1eb3ec62f600",
@@ -4487,7 +4580,7 @@
       "source_url": "https://econjobmarket.org/positions/12891",
       "apply_url": "https://jobs.zew.de/jobposting/75c03c1192cc8edd8ae60334976887f36e4baaa00",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-26",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "Submit application materials through the official ZEW form; EJM handles reference letters only.",
@@ -4518,8 +4611,12 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "",
+      "search_status": "Accepting applications"
     },
     {
       "id": "openpostdoc-ea314678-b02e-4adb-9dae-eb3c440f2f9e",
@@ -4543,7 +4640,7 @@
       "source_url": "https://econjobmarket.org/positions/12909",
       "apply_url": "https://econjobmarket.org/positions/12909",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-26",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "Dates and application status need confirmation on the employer posting.",
@@ -4579,8 +4676,12 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "",
+      "search_status": "Accepting applications"
     },
     {
       "id": "openpostdoc-057172a5-df98-4e5b-ba88-6f41f3e88bf0",
@@ -4605,7 +4706,7 @@
       "source_url": "https://econjobmarket.org/positions/12911",
       "apply_url": "https://econjobmarket.org/positions/12911",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-26",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "Dates and application status need confirmation on the employer posting.",
@@ -4636,8 +4737,12 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "",
+      "search_status": "Reviewing applications"
     },
     {
       "id": "openpostdoc-b496b556-7593-4eec-8c02-e9c9d88a92ec",
@@ -4661,7 +4766,7 @@
       "source_url": "https://econjobmarket.org/positions/12889",
       "apply_url": "https://jobs.zew.de/jobposting/183058348e49caf24c919e027f013e6221e388490",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-26",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "notes": "Application through the official ZEW form; EJM accepts recommendation letters. Completed or nearly completed economics PhD required.",
@@ -4692,8 +4797,12 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "last_attempted": "2026-11-02",
-      "reference_checked_on": "2026-11-16"
+      "last_attempted": "2026-11-16",
+      "reference_checked_on": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit.",
+      "source_search_status_raw": "",
+      "search_status": "Accepting applications"
     },
     {
       "id": "openpostdoc-8ffc7455-d491-4e8d-912a-835432ab29ac",
@@ -4780,7 +4889,7 @@
       "source_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189392",
       "apply_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189392",
       "source_type": "University vacancy",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-10-26",
       "verification": "Official Oxford vacancy 189392 checked: completed/nearly completed PhD, economics of innovation, two-year contract, Oxford location and application closing time.",
       "notes": "Closes at 12:00 noon UK time on 27 November 2026. Distinct from Oxford GENTALENT advert 12846.",
@@ -4795,7 +4904,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-11-09"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-12951",
@@ -4817,7 +4926,7 @@
       "source_url": "https://econjobmarket.org/positions/12951",
       "apply_url": "https://econjobmarket.org/positions/12951",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -4852,7 +4961,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12955",
@@ -4874,7 +4985,7 @@
       "source_url": "https://econjobmarket.org/positions/12955",
       "apply_url": "https://applicant.rug.nl/aanmaken-sollicitatie-incl-autorisatie-prs/sollicitatie-met-commissie?VcSn=2552",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -4909,7 +5020,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12956",
@@ -4931,7 +5044,7 @@
       "source_url": "https://econjobmarket.org/positions/12956",
       "apply_url": "mailto:jobs@fernuni.ch",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -4961,7 +5074,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12936",
@@ -4983,7 +5098,7 @@
       "source_url": "https://econjobmarket.org/positions/12936",
       "apply_url": "https://econjobmarket.org/positions/12936",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -5013,7 +5128,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12948",
@@ -5035,7 +5152,7 @@
       "source_url": "https://econjobmarket.org/positions/12948",
       "apply_url": "https://jobmarket.unibocconi.eu/?id=1014",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -5070,7 +5187,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12949",
@@ -5092,7 +5211,7 @@
       "source_url": "https://econjobmarket.org/positions/12949",
       "apply_url": "https://econjobmarket.org/positions/12949",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -5120,7 +5239,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12929",
@@ -5142,7 +5263,7 @@
       "source_url": "https://econjobmarket.org/positions/12929",
       "apply_url": "https://www.diw.de/de/diw_01.c.617346.de/karriere.html",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -5177,7 +5298,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12940",
@@ -5199,7 +5322,7 @@
       "source_url": "https://econjobmarket.org/positions/12940",
       "apply_url": "https://econjobmarket.org/positions/12940",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -5234,7 +5357,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12941",
@@ -5256,7 +5381,7 @@
       "source_url": "https://econjobmarket.org/positions/12941",
       "apply_url": "https://apply.refline.ch/673277/1395/pub/1/index.html",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -5291,7 +5416,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12928",
@@ -5313,7 +5440,7 @@
       "source_url": "https://econjobmarket.org/positions/12928",
       "apply_url": "https://jobs.zew.de/jobposting/59d305f789137a7d333cd8da49ae09925b3bcc050",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -5341,7 +5468,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12934",
@@ -5363,7 +5492,7 @@
       "source_url": "https://econjobmarket.org/positions/12934",
       "apply_url": "https://econjobmarket.org/positions/12934",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -5391,7 +5520,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12896",
@@ -5413,7 +5544,7 @@
       "source_url": "https://econjobmarket.org/positions/12896",
       "apply_url": "https://econjobmarket.org/positions/12896",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -5443,7 +5574,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12900",
@@ -5465,7 +5598,7 @@
       "source_url": "https://econjobmarket.org/positions/12900",
       "apply_url": "https://jobmarket.unibocconi.eu/?id=1006",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Current individual employer advert read: doctorate, European location and relevant field; own application deadline/status and submission route reconciled independently of listing end dates.",
       "search_status": "Accepting applications",
@@ -5500,7 +5633,9 @@
       "application_status": "accepting",
       "recruitment_status": "Accepting applications",
       "reference_checked_on": "2026-11-16",
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12871",
@@ -5572,7 +5707,7 @@
       "source_url": "https://www.jobs.ac.uk/job/DTK706/postdoctoral-research-associate-less-malnutrition",
       "apply_url": "https://www.jobs.ac.uk/job/DTK706/postdoctoral-research-associate-less-malnutrition",
       "source_type": "OpenPostdoc",
-      "last_verified": "2026-11-02",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-02",
       "verification": "Employer-authored full advertisement read via jobs.ac.uk and corroborating public mirrors; PhD in agricultural/food economics or related social sciences.",
       "notes": "19 November 2026 23:59 deadline; generic mirror closing dates superseded by full employer text.",
@@ -5587,7 +5722,7 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "last_attempted": "2026-11-02"
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-12971",
@@ -5609,7 +5744,7 @@
       "source_url": "https://econjobmarket.org/positions/12971",
       "apply_url": "mailto:jobs.wealth.postdoc@llui.org",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -5631,7 +5766,10 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12961",
@@ -5653,7 +5791,7 @@
       "source_url": "https://econjobmarket.org/positions/12961",
       "apply_url": "https://econjobmarket.org/positions/12961",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -5675,7 +5813,10 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12944",
@@ -5697,7 +5838,7 @@
       "source_url": "https://econjobmarket.org/positions/12944",
       "apply_url": "https://econjobmarket.org/positions/12944",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -5719,7 +5860,10 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12805",
@@ -5741,7 +5885,7 @@
       "source_url": "https://econjobmarket.org/positions/12805",
       "apply_url": "https://econjobmarket.org/positions/12805",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -5763,7 +5907,10 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12981",
@@ -5785,7 +5932,7 @@
       "source_url": "https://econjobmarket.org/positions/12981",
       "apply_url": "https://jobs.zew.de/jobposting/cdc3ec43a0cf2bbe09aedad0993da7c5a44f91620",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -5807,7 +5954,10 @@
           "reported_status": "confirmed_open"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12996",
@@ -5829,7 +5979,7 @@
       "source_url": "https://econjobmarket.org/positions/12996",
       "apply_url": "https://econjobmarket.org/positions/12996",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -5844,7 +5994,10 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12974",
@@ -5866,7 +6019,7 @@
       "source_url": "https://econjobmarket.org/positions/12974",
       "apply_url": "https://econjobmarket.org/positions/12974",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -5893,7 +6046,10 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12967",
@@ -5915,7 +6071,7 @@
       "source_url": "https://econjobmarket.org/positions/12967",
       "apply_url": "https://econjobmarket.org/positions/12967",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -5942,7 +6098,10 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12985",
@@ -5964,7 +6123,7 @@
       "source_url": "https://econjobmarket.org/positions/12985",
       "apply_url": "https://econjobmarket.org/positions/12985",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -5991,7 +6150,10 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12989",
@@ -6013,7 +6175,7 @@
       "source_url": "https://econjobmarket.org/positions/12989",
       "apply_url": "https://jobs.lse.ac.uk/Vacancies/W/6200/0/476733/15539/research-officer-in-income-and-or-wealth-inequalities",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -6033,7 +6195,10 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "weekly_recheck_basis": "Current-week full individual employer-advert snapshot reparsed; own title, doctorate requirement and application-state header matched. This saved-snapshot reparse is not another network visit."
     },
     {
       "id": "ejm-12968",
@@ -6098,7 +6263,7 @@
       "source_url": "https://jobs.lse.ac.uk/Vacancies/W/4278/0/476398/15539/research-officer-in-dynamics-and-or-perceptions-of-inequality",
       "apply_url": "https://jobs.lse.ac.uk/Vacancies/W/4278/0/476398/15539/research-officer-in-dynamics-and-or-perceptions-of-inequality",
       "source_type": "Econ Job Market employer advert",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full employer advert reviewed for doctorate, European location, research scope, contract and application route.",
       "search_status": "Accepting applications",
@@ -6121,7 +6286,8 @@
         "official_deadline": "2026-11-27",
         "checked_on": "2026-11-16",
         "review": "Recheck the official employer before replacing its deadline."
-      }
+      },
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "openpostdoc-74658f72-4485-4eff-9ee6-5dd5609a0d3a",
@@ -6143,7 +6309,7 @@
       "source_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189642",
       "apply_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189642",
       "source_type": "OpenPostdoc",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full primary employer record reviewed; board aliases retained.",
       "notes": "Dates and application status need confirmation on the employer posting.",
@@ -6160,7 +6326,8 @@
       ],
       "deadline_at": "2026-11-18T12:00:00+00:00",
       "reference_checked_on": "2026-11-09",
-      "deadline_authority": "official_employer"
+      "deadline_authority": "official_employer",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "openpostdoc-0ed62bac-8af3-4c20-9738-5051eecce321",
@@ -6199,7 +6366,8 @@
       ],
       "deadline_at": "2026-11-12T23:59:00+02:00",
       "reference_checked_on": "2026-11-09",
-      "deadline_authority": "official_employer"
+      "deadline_authority": "official_employer",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "openpostdoc-c595841d-6d29-46d5-8153-238c992e9310",
@@ -6221,10 +6389,10 @@
       "source_url": "https://jobs.ethz.ch/job/view/JOPG_ethz_RivSFdMbQi7mZsXLoV",
       "apply_url": "https://jobs.ethz.ch/job/view/JOPG_ethz_RivSFdMbQi7mZsXLoV",
       "source_type": "OpenPostdoc",
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-16",
       "first_seen": "2026-11-09",
       "verification": "Individual full primary employer record reviewed; board aliases retained.",
-      "notes": "Employer states review begins in December 2026 and continues while the profile is advertised. No fixed application deadline is stated; a board date is not substituted.",
+      "notes": "Employer explicitly invites online applications; review starts in December2026 and continues for as long as the job profile is advertised. No fixed closing date is stated.",
       "reference_ids": [
         "openpostdoc:c595841d-6d29-46d5-8153-238c992e9310"
       ],
@@ -6237,7 +6405,10 @@
         }
       ],
       "reference_checked_on": "2026-11-09",
-      "deadline_authority": "official_employer"
+      "deadline_authority": "official_employer",
+      "last_attempted": "2026-11-16",
+      "application_status_verified_on": "2026-11-16",
+      "search_status": "Accepting applications on employer website; rolling review"
     },
     {
       "id": "ejm-13026",
@@ -6250,10 +6421,10 @@
       "topics": [
         "General interest"
       ],
-      "fit": "Any economics field; only the explicit postdoctoral route is included.",
+      "fit": "Economics research and teaching; the postdoctoral track of a combined faculty/postdoc call.",
       "deadline": "2027-04-30",
       "status": "open",
-      "duration": "Postdoctoral initial term up to3 years; possible tenure-track conversion after year2",
+      "duration": "Up to 3 years (postdoctoral appointments)",
       "start": "2027-08-02",
       "salary": "Not stated",
       "source_url": "https://econjobmarket.org/positions/13026",
@@ -6264,7 +6435,7 @@
       "verification": "Full employer advertisement individually reviewed: Europe, doctoral qualification, explicit postdoctoral route, field, contract and application dates.",
       "search_status": "Accepting applications",
       "recruitment_status": "Unknown",
-      "notes": "Candidate must relocate to Kyiv; combined faculty advert permanent metadata does not establish a permanent postdoc.",
+      "notes": "PhD completed by August 2027. Target date 15 January 2027; final application deadline 30 April 2027. The indefinite faculty track is not presented as the postdoc contract.",
       "reference_ids": [
         "ejm:13026"
       ],
@@ -6275,7 +6446,8 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-13027",
@@ -6288,7 +6460,7 @@
       "topics": [
         "General interest"
       ],
-      "fit": "Part-time visiting research fellowship in economics, including an explicit postdoctoral scholar route.",
+      "fit": "Part-time visiting economics research fellowship; the employer explicitly includes the doctorate-required Postdoctoral Scholar category.",
       "deadline": "2027-04-30",
       "status": "open",
       "duration": "1 year",
@@ -6302,7 +6474,7 @@
       "verification": "Full employer advertisement individually reviewed: Europe, doctoral qualification, explicit postdoctoral route, field, contract and application dates.",
       "search_status": "Accepting applications",
       "recruitment_status": "Unknown",
-      "notes": "Travel to Kyiv required; target date1 February and application deadline30 April2027 are distinct.",
+      "notes": "Part-time visiting appointment requiring travel to Kyiv. Target date 1 February 2027; final deadline 30 April 2027. Three referees for junior applicants.",
       "reference_ids": [
         "ejm:13027"
       ],
@@ -6313,7 +6485,8 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-13012",
@@ -6324,23 +6497,25 @@
       "rank": null,
       "scope": "Additional European institution",
       "topics": [
-        "General interest"
+        "Banking",
+        "Finance",
+        "Macroeconomics"
       ],
-      "fit": "Open-economy macroeconomics, macro-finance and banking regulation; PhD in economics/finance.",
+      "fit": "Open-economy macroeconomics, macro-finance and banking regulation at the Chair of International Finance.",
       "deadline": "2027-01-15",
       "status": "open",
-      "duration": "1 year, renewable for one additional year",
-      "start": "June 2027",
+      "duration": "1 year, renewable for 1 additional year",
+      "start": "2027-06-01",
       "salary": "Not stated",
-      "source_url": "https://econjobmarket.org/positions/13012",
-      "apply_url": "https://econjobmarket.org/positions/13012",
+      "source_url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-Position-International-Macroeconomics-and-Finance-at-EPFL/1165774355/",
+      "apply_url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-Position-International-Macroeconomics-and-Finance-at-EPFL/1165774355/",
       "source_type": "Econ Job Market employer advert",
       "last_verified": "2026-11-16",
       "first_seen": "2026-11-16",
       "verification": "Full employer advertisement individually reviewed: Europe, doctoral qualification, explicit postdoctoral route, field, contract and application dates.",
       "search_status": "Accepting applications",
       "recruitment_status": "Accepting applications",
-      "notes": "15 January 2027 is recommended for applications; later applications may be considered until filled. EPFL bilingual adverts share reference2590 and are the same vacancy.",
+      "notes": "Recommended submission by 15 January 2027; the employer may consider later applications until filled. English/French employer pages and EJM describe the same chair, start date and postdoctoral opening.",
       "reference_ids": [
         "ejm:13012",
         "openpostdoc:1ad44786-818d-4888-9d26-e5c56af9b883",
@@ -6361,10 +6536,23 @@
           "name": "EPFL official recruitment reference2590",
           "url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-Position-in-International-Macroeconomics-and-Finance/1165774255/",
           "checked_on": "2026-11-16"
+        },
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/1ad44786-818d-4888-9d26-e5c56af9b883",
+          "checked_on": "2026-11-16",
+          "reported_status": "confirmed_open"
+        },
+        {
+          "name": "OpenPostdoc",
+          "url": "https://www.openpostdoc.org/position/d052e595-3354-4cb8-97eb-54172febffc2",
+          "checked_on": "2026-11-16",
+          "reported_status": "confirmed_open"
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "deadline_authority": "employer_EJM"
+      "deadline_authority": "employer_EJM",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-13002",
@@ -6375,14 +6563,16 @@
       "rank": null,
       "scope": "Additional European institution",
       "topics": [
+        "Finance",
+        "Macroeconomics",
         "General interest"
       ],
-      "fit": "International economics, macro-finance, development and climate; independent research with mentors.",
+      "fit": "Albert O. Hirschman postdoc cohort in international economics, finance, trade, development, climate and geoeconomics.",
       "deadline": "2026-11-30",
       "status": "open",
       "duration": "1 or 2 years",
       "start": "2027-09-01",
-      "salary": "56,000 to 79,000 EUR",
+      "salary": "EUR 56,000–79,000 gross per year (TV-L E13, 100%)",
       "source_url": "https://econjobmarket.org/positions/13002",
       "apply_url": "https://econjobmarket.org/positions/13002",
       "source_type": "Econ Job Market employer advert",
@@ -6391,7 +6581,7 @@
       "verification": "Full employer advertisement individually reviewed: Europe, doctoral qualification, explicit postdoctoral route, field, contract and application dates.",
       "search_status": "Accepting applications",
       "recruitment_status": "Accepting applications",
-      "notes": "Employer text states 30 November 2026 at 23:59 CET; display end is 30 January 2027.",
+      "notes": "PhD awarded within the preceding three years, or dissertation formally submitted by the start date with defence shortly thereafter.",
       "reference_ids": [
         "ejm:13002"
       ],
@@ -6402,7 +6592,8 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-13008",
@@ -6413,14 +6604,16 @@
       "rank": null,
       "scope": "Additional European institution",
       "topics": [
+        "Finance",
+        "Macroeconomics",
         "General interest"
       ],
-      "fit": "Quantitative economics and AI-assisted structural models, including finance and macroeconomics.",
+      "fit": "Quantitative structural economic models, AI-assisted policy analysis and independent economics research.",
       "deadline": "2026-11-30",
       "status": "open",
       "duration": "27 months",
-      "start": "2027-09-01",
-      "salary": "56,000 to 79,000 EUR",
+      "start": "Autumn 2027, negotiable",
+      "salary": "EUR 56,000–79,000 gross per year (TV-L E13, 100%)",
       "source_url": "https://econjobmarket.org/positions/13008",
       "apply_url": "https://econjobmarket.org/positions/13008",
       "source_type": "Econ Job Market employer advert",
@@ -6429,7 +6622,7 @@
       "verification": "Full employer advertisement individually reviewed: Europe, doctoral qualification, explicit postdoctoral route, field, contract and application dates.",
       "search_status": "Accepting applications",
       "recruitment_status": "Accepting applications",
-      "notes": "Employer text states 30 November at 23:59 CET; applicant needs EU citizenship or a work permit covering the contract.",
+      "notes": "Application deadline 30 November 2026, 23:59 CET according to the employer text; EJM uses a midnight UTC label. PhD completed by the contract start.",
       "reference_ids": [
         "ejm:13008"
       ],
@@ -6440,7 +6633,8 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-13024",
@@ -6451,13 +6645,15 @@
       "rank": null,
       "scope": "Additional European institution",
       "topics": [
+        "Environmental economics",
+        "Econometrics",
         "General interest"
       ],
-      "fit": "Two postdoctoral routes in environmental/agricultural economics, international trade, econometrics and insurance.",
+      "fit": "Two postdoctoral openings in environmental/agricultural economics and trade, including deforestation, land use, insurance and supply chains.",
       "deadline": "2026-12-07",
       "status": "open",
-      "duration": "Position1:1–2 years; position2:1 year with possible 2-year extension",
-      "start": "Flexible",
+      "duration": "Position 1: 1–2 years; Position 2: 1 year, potentially 2 more",
+      "start": "Spring or Summer 2027",
       "salary": "Not stated",
       "source_url": "https://econjobmarket.org/positions/13024",
       "apply_url": "https://econjobmarket.org/positions/13024",
@@ -6467,7 +6663,7 @@
       "verification": "Full employer advertisement individually reviewed: Europe, doctoral qualification, explicit postdoctoral route, field, contract and application dates.",
       "search_status": "Accepting applications",
       "recruitment_status": "Accepting applications",
-      "notes": "Review begins30 November; application deadline7 December. One employer advert includes two distinct research routes; not two duplicate adverts.",
+      "notes": "One advertisement for two positions. PhD completed by the start date. Rolling review begins 30 November 2026; final deadline 7 December 2026.",
       "reference_ids": [
         "ejm:13024"
       ],
@@ -6478,7 +6674,8 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-13009",
@@ -6489,14 +6686,16 @@
       "rank": null,
       "scope": "Additional European institution",
       "topics": [
-        "General interest"
+        "Labor",
+        "Education",
+        "Econometrics"
       ],
-      "fit": "Education economics, labor and applied microeconometrics using Norwegian administrative records.",
+      "fit": "Match effects and student assignment in education using Norwegian administrative microdata and applied microeconometrics.",
       "deadline": "2027-01-03",
       "status": "open",
       "duration": "2 years",
-      "start": "September 2027 anticipated",
-      "salary": "675,000 to 780,000 NOK",
+      "start": "2027-09-01 (anticipated)",
+      "salary": "NOK 675,000–780,000 per year",
       "source_url": "https://econjobmarket.org/positions/13009",
       "apply_url": "https://21090000.webcruiter.no/Main/Recruit/Public/5206500802?language=en&link_source_id=2000",
       "source_type": "Econ Job Market employer advert",
@@ -6505,7 +6704,7 @@
       "verification": "Full employer advertisement individually reviewed: Europe, doctoral qualification, explicit postdoctoral route, field, contract and application dates.",
       "search_status": "Accepting applications",
       "recruitment_status": "Accepting applications",
-      "notes": "Recruiter search status is separate from whether new applications are accepted.",
+      "notes": "PhD in economics or a closely related field completed by the start date. Direct employer-submitted EJM header confirms accepting applications and deadline 3 January 2027.",
       "reference_ids": [
         "ejm:13009"
       ],
@@ -6516,7 +6715,8 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-13000",
@@ -6527,13 +6727,15 @@
       "rank": null,
       "scope": "Additional European institution",
       "topics": [
+        "Environmental economics",
+        "Behavioral economics",
         "General interest"
       ],
-      "fit": "Behavioral and climate economics; empirical preferences, beliefs and uncertainty.",
+      "fit": "Behavioral and climate economics, subjective beliefs and decision-making under uncertainty at iRisk.",
       "deadline": "2026-12-18",
       "status": "open",
-      "duration": "18 months; conditional renewal",
-      "start": "January 2027 earliest",
+      "duration": "18 months, conditionally renewable",
+      "start": "January 2027 at earliest",
       "salary": "Not stated",
       "source_url": "https://econjobmarket.org/positions/13000",
       "apply_url": "https://recruitment.ieseg.fr/jobs/8466068-postdoctoral-position-in-behavioral-economics-climate-economics-and-decision-making-under?promotion=2287175-trackable-share-link-econjobmarket",
@@ -6543,7 +6745,7 @@
       "verification": "Full employer advertisement individually reviewed: Europe, doctoral qualification, explicit postdoctoral route, field, contract and application dates.",
       "search_status": "Accepting applications",
       "recruitment_status": "Accepting applications",
-      "notes": "Employer text also permits rolling applications until filled; 18 December is the advertised application date, not the 31 December display end.",
+      "notes": "EJM lists 18 December 2026; the full employer text says rolling review until filled. Applications must use the employer recruitment form.",
       "reference_ids": [
         "ejm:13000"
       ],
@@ -6554,7 +6756,8 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-13014",
@@ -6565,9 +6768,11 @@
       "rank": null,
       "scope": "Additional European institution",
       "topics": [
-        "General interest"
+        "Environmental economics",
+        "Behavioral economics",
+        "Finance"
       ],
-      "fit": "Environmental and behavioral economics; field experiments, carbon markets and information frictions.",
+      "fit": "ERC-funded environmental and behavioral economics: field experiments on carbon offsetting, air pollution and environmental markets.",
       "deadline": "2026-12-30",
       "status": "open",
       "duration": "2 years",
@@ -6581,7 +6786,7 @@
       "verification": "Full employer advertisement individually reviewed: Europe, doctoral qualification, explicit postdoctoral route, field, contract and application dates.",
       "search_status": "Accepting applications",
       "recruitment_status": "Accepting applications",
-      "notes": "Employer explicitly corrected permanent metadata to fixed-term2 years on12 November.",
+      "notes": "Doctorate required. The recruiter corrected the duration to a two-year limited contract on 12 November; official Bocconi call1029 confirms 30 December 2026.",
       "reference_ids": [
         "ejm:13014"
       ],
@@ -6592,7 +6797,8 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "ejm-12986",
@@ -6603,23 +6809,25 @@
       "rank": null,
       "scope": "Additional European institution",
       "topics": [
+        "Labor",
+        "Public / political economics",
         "General interest"
       ],
-      "fit": "All economics fields; tax systems, labor, health, public and environmental economics.",
+      "fit": "Early-career economics research in the Finnish Centre of Excellence in Tax Systems Research; all economics fields considered.",
       "deadline": "2026-12-13",
       "status": "open",
       "duration": "5 years",
-      "start": "2027-09-01",
-      "salary": "EUR3900–4200 per month typical gross",
+      "start": "2027-09-01, negotiable",
+      "salary": "EUR 3,900–4,200 gross per month (typical)",
       "source_url": "https://econjobmarket.org/positions/12986",
-      "apply_url": "https://econjobmarket.org/positions/12986",
+      "apply_url": "https://tuni.rekrytointi.com/paikat/index.php?jid=3215&key=&o=A_RJ&rspvt=buqej297t5c8oww4o8o4w4cgo0w8ck8",
       "source_type": "Econ Job Market employer advert",
       "last_verified": "2026-11-16",
       "first_seen": "2026-11-16",
       "verification": "Full employer advertisement individually reviewed: Europe, doctoral qualification, explicit postdoctoral route, field, contract and application dates.",
       "search_status": "Accepting applications",
       "recruitment_status": "Accepting applications",
-      "notes": "Employer text deadline13 December2026 at23:59 EET; PhD must be completed by30 June2027.",
+      "notes": "Economics PhD completed by 30 June 2027. Employer recruitment system confirms deadline 13 December 2026, 23:59 EET.",
       "reference_ids": [
         "ejm:12986"
       ],
@@ -6630,7 +6838,8 @@
           "checked_on": "2026-11-16"
         }
       ],
-      "reference_checked_on": "2026-11-16"
+      "reference_checked_on": "2026-11-16",
+      "last_attempted": "2026-11-16"
     },
     {
       "id": "openpostdoc-5bf7ef89-ffd7-450d-a1b3-9cf74da0e7f0",
@@ -6655,7 +6864,7 @@
       "last_verified": "2026-11-16",
       "first_seen": "2026-11-16",
       "verification": "Full official employer notice individually reviewed for location, qualification, research scope, application status and date.",
-      "notes": "Official employer page explicitly says closed;15 November2026 deadline passed. Reference board confirmed_open label superseded.",
+      "notes": "Official employer page explicitly says closed;15 November2026 deadline passed. Reference board confirmed_open label superseded. Public advert accepts postgraduate/masters training and equivalent experience, with a doctorate preferred; retained as a related historical research fellowship, not an active doctorate-only opening.",
       "reference_ids": [
         "openpostdoc:5bf7ef89-ffd7-450d-a1b3-9cf74da0e7f0"
       ],
@@ -6668,7 +6877,8 @@
         }
       ],
       "reference_checked_on": "2026-11-16",
-      "deadline_authority": "official_employer"
+      "deadline_authority": "official_employer",
+      "scope_qualification_note": "Adjacent historical fellowship; doctorate preferred rather than mandatory in the full public advert."
     },
     {
       "id": "openpostdoc-dccebfd9-07ac-4666-8ead-0a880fa13f7c",
@@ -6679,21 +6889,23 @@
       "rank": null,
       "scope": "Additional European institution",
       "topics": [
+        "Labor",
+        "Public / political economics",
         "General interest"
       ],
-      "fit": "Income inequality, poverty, social mobility and policy analysis; PhD completed or near completion.",
+      "fit": "Economic inequality, poverty, social mobility and policy analysis in the ExpPov / INET Oxford research programme.",
       "deadline": "2026-12-01",
       "status": "open",
-      "duration": "Not stated in employer landing page",
+      "duration": "Not stated",
       "start": "Not stated",
-      "salary": "GBP40178–48700 per year",
-      "source_url": "https://www.openpostdoc.org/position/dccebfd9-07ac-4666-8ead-0a880fa13f7c",
+      "salary": "GBP 40,178–48,700 per year, including Oxford weighting",
+      "source_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189751",
       "apply_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189751",
       "source_type": "OpenPostdoc",
       "last_verified": "2026-11-16",
       "first_seen": "2026-11-16",
       "verification": "Full official employer notice individually reviewed for location, qualification, research scope, application status and date.",
-      "notes": "Interviews planned for week commencing14 December2026.",
+      "notes": "Employer vacancy189751 requires a completed or nearly completed PhD/DPhil; applications close at noon UK time on 1 December 2026.",
       "reference_ids": [
         "openpostdoc:dccebfd9-07ac-4666-8ead-0a880fa13f7c"
       ],
@@ -6707,7 +6919,9 @@
       ],
       "deadline_at": "2026-12-01T12:00:00+00:00",
       "reference_checked_on": "2026-11-16",
-      "deadline_authority": "official_employer"
+      "deadline_authority": "official_employer",
+      "last_attempted": "2026-11-16",
+      "search_status": "Accepting applications"
     },
     {
       "id": "openpostdoc-1afc5c54-bbba-44ef-918a-1152cc90491a",

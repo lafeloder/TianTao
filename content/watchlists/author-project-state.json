@@ -1,6 +1,6 @@
 {
   "updated_on": "2026-11-16",
-  "status": "weekly_references_updated_author_scan_partial",
+  "status": "weekly_update_completed_with_explicit_source_failures",
   "author_scope": {
     "membership_policy": "Fixed roster from 14 October; no author or conference expansion.",
     "saved_name_groups": 10762,
@@ -25,14 +25,22 @@
   },
   "source_attempts": {
     "checked_on": "2026-11-16",
-    "complete": false,
-    "actual_source_outcomes": 404,
+    "network_attempts": 20638,
+    "network_unique_urls": 20638,
     "results": {
-      "fetched": 307,
-      "failed": 97,
-      "not_attempted_checkpoint_interrupted": 11412
+      "fetched": 18751,
+      "failed": 1887
     },
-    "note": "307 source bodies read and97 fetch failures. All other source URLs were not attempted in this partial checkpoint; prior primary dates preserved. This is not a completed whole-roster scan."
+    "prior_week_body_cache_reads": 0,
+    "same_week_snapshot_reads": 0,
+    "checkpoint_complete": true,
+    "network_count_scope": "Main fixed-roster homepage, research-tab, saved-paper, current-job and school-feed acquisition. Additional focus visits, metadata screens and complete job-reference pagination are separately audited.",
+    "note": "Every saved preferred URL was attempted and all selected source requests completed. Access failures and blank URLs remain explicit. A fetched URL does not establish complete research text, valid author ownership or absence of R&R; no expanded ten-year roster scan is claimed.",
+    "preferred_url_results": {
+      "fetched": 9534,
+      "missing_url": 404,
+      "failed": 824
+    }
   },
   "completed": [
     "All three references fully paginated:76 paper rows,4095 OpenPostdoc raw records over42 pages,469 EJM raw records over17 pages; same-scope reference-ID missing=0.",
@@ -43,9 +51,10 @@
     "Windows shard path interoperability failure fixed and regression checked."
   ],
   "remaining": [
-    "404 author rows still lack webpage URLs.",
-    "Whole-roster ownership audit and current R&R content scan remain incomplete; source failures and unattempted pages keep original verification dates.",
-    "Publication corpus still retains2021-10-13 to2026-10-13 window; rolling-author expansion not completed."
+    "404 saved author rows still have no preferred homepage.",
+    "1887 main source requests failed; no absence of R&R is inferred.",
+    "Full webpage ownership and R&R body-reading coverage are not established by URL retrieval.",
+    "The local expanded ten-year roster has not been fully rescanned."
   ],
   "resume": {
     "read": [
@@ -58,7 +67,7 @@
     "prior_checkpoint_date": "2026-10-12",
     "old_environment_error_resolved": true
   },
-  "current_run": "Fresh complete reference pagination and individual new employer review; partial author-source checkpoint only. No new public papers or paper decision changes this run.",
+  "current_run": "Full saved-roster source acquisition completed;14 new verified paper records,5 acceptance updates and3 duplicate groups reconciled. The latest upstream13 vacancy additions and minimal interface were preserved.",
   "followup_audit": "weekly-audit-2026-11-16.json",
   "source_followup_checkpoint_preserved_from_commit": "aa667d0be73360bdddb09e41d7d4c7881d4271c3",
   "previous_complete_source_attempts": {

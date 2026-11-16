@@ -23,7 +23,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Daniel Neuhann",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "rr-1",
@@ -53,7 +53,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Daniel Neuhann",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "rr-3",
@@ -68,7 +68,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Daniel Neuhann",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "rr-4",
@@ -94,7 +94,7 @@
       "institution": "Frankfurt School of Finance and Management",
       "url": "https://www.frankfurt-school.de/about/careers/postdoctoral-fellowship-cfet",
       "rank": 31,
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify field, employer, Europe location, deadline, postdoctoral qualification and application status."
     },
     {
@@ -103,7 +103,7 @@
       "institution": "Copenhagen Business School",
       "url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/postdoc-position-intellectual-history-corporate-politics",
       "rank": 45,
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify field, employer, Europe location, deadline, postdoctoral qualification and application status."
     },
     {
@@ -162,7 +162,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Winston Wei Dou",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -190,7 +190,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Hongjun Yan",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -204,7 +204,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Stephan Luck",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -218,8 +218,10 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Yao Zeng",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "SEC statement/media link, not the underlying paper title; ETF Arbitrage under Liquidity Mismatch is already public.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "Money Market Fund Reforms",
@@ -230,8 +232,10 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Yao Zeng",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "SEC rule document title, not the underlying paper. Its adjacent forthcoming label cannot establish a new R&R.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "Aggregate Risk and Lending Decisions in the Interbank Market",
@@ -242,7 +246,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Alejandro Bernales",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Journal of Money, Credit and Banking (2026); neighboring JFQA decision cannot be borrowed.",
       "review_decision": "excluded_status_or_scope",
       "reviewed_on": "2026-10-19"
@@ -256,7 +260,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Alejandro Bernales",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "author-roster-20261014-aaf7d82c3f6d",
@@ -271,7 +275,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "AMIT KUMAR",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-068",
@@ -301,7 +305,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Antoinette Schoar",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1016/j.jfineco.2026.104359",
@@ -346,7 +350,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Corbin Fox",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1016/j.jfineco.2025.104218",
@@ -375,7 +379,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Daniel Streitz",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -404,7 +408,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Filippo Curti",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-20261012-025",
@@ -539,7 +543,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jason Kotter",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "chenyang-062",
@@ -568,8 +572,11 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "JULIAN DI GIOVANNI",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Individually linked this heading, status-only label or stable identifier to its full bounded public paper record; it is not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "author-site-20261012-028"
     },
     {
       "title": "View the latest version",
@@ -580,7 +587,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Karamfil Todorov",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-20261012-009",
@@ -595,8 +602,10 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Kilian Rieder",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Conference title, not paper title. The linked research page now places The Deposit-Taker of Last Resort in accepted Review of Finance papers; saved corpus also has the related formal publication metadata.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "WORKING PAPERS (available at SSRN )",
@@ -607,7 +616,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Konstantinos E. Zachariadis",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -636,7 +645,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Mahyar Kargar",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261019-b5628b2082b07ded",
@@ -680,7 +689,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Nadya Malenko",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -708,7 +717,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Niklas Hüther",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -737,7 +746,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "PAUL S. WILLEN",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section, navigation, author or link label is not a complete verified paper title. No public addition.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-19"
@@ -751,7 +760,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "PAUL S. WILLEN",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1016/j.jfineco.2022.12.001",
@@ -766,7 +775,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "PAUL S. WILLEN",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1016/j.jfineco.2022.12.001",
@@ -826,7 +835,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Tetyana Balyuk",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "chenyang-062",
@@ -841,7 +850,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Tianyue Ruan",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -899,7 +908,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Aazam Virani",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -913,7 +922,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Adam Farago",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -957,7 +966,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Adrian Buss",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -971,7 +980,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Adrian Buss",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-132",
@@ -1045,7 +1054,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Aleksandra Rzeźnik",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -1194,7 +1203,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Amani Moin",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1016/j.jfineco.2021.06.029",
@@ -1223,7 +1232,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Anastassia Fedyk",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2021.01780",
@@ -1282,7 +1291,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Andrew Ellul",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2023.4714",
@@ -1297,7 +1306,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Anisha Ghosh",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section, navigation, author or link label is not a complete verified paper title. No public addition.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-19"
@@ -1311,7 +1320,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "ANKIT KALDA",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2023.04047",
@@ -1326,7 +1335,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "ANKIT KALDA",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2024.07233",
@@ -1370,8 +1379,11 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "BOONE BOWLES",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Individually linked this heading, status-only label or stable identifier to its full bounded public paper record; it is not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "author-site-expanded-20261012-041"
     },
     {
       "title": "Public working papers",
@@ -1382,7 +1394,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Carter Davis",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -1411,7 +1423,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Chotibhak Jotikasthira",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-20261012-004",
@@ -1455,7 +1467,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Chukwuma Dim",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261019-f2d330617555558d",
@@ -1485,8 +1497,11 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Cédric Huylebroek",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Individually linked this heading, status-only label or stable identifier to its full bounded public paper record; it is not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "weekly-20261116-415e5c6dfca8c02c"
     },
     {
       "title": "Property Tax Limitations, Covariance Risk, and Mortgage Distress",
@@ -1542,7 +1557,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Dhruv Singal",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1093/rfs/hhae034",
@@ -1557,7 +1572,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Ding Luo",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "chenyang-035",
@@ -1572,7 +1587,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Ding Luo",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261102-6852aaabbfd956f1",
@@ -1587,7 +1602,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Ding Luo",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261102-7a13ecb74e045492",
@@ -1602,7 +1617,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Egemen Eren",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read own page: this is a section heading, biographical sentence, or coauthor label rather than a paper title. Underlying real paper is already public.",
       "reviewed_on": "2026-11-09",
       "review_decision": "rejected_extraction"
@@ -1631,8 +1646,10 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Elin Molin",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Conference name, not paper title; the author links When Loss Strikes Twice to the Review of Finance publisher DOI10.1093/rof/rfag031. Do not admit a stale news R&R.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "I. Information and Asset Pricing",
@@ -1643,8 +1660,11 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Ella D.S. Patelli",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Individually linked this heading, status-only label or stable identifier to its full bounded public paper record; it is not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "author-site-expanded-20261012-076"
     },
     {
       "title": "Select Working Papers",
@@ -1655,7 +1675,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Emmanuel Yimfor",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -1669,7 +1689,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Emmanuel Yimfor",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-492a5eceb066cef3",
@@ -1699,8 +1719,11 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Erik Lie",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Individually linked this heading, status-only label or stable identifier to its full bounded public paper record; it is not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "weekly-20261026-484a1184e12ed82c"
     },
     {
       "title": "Consumer Bankruptcy Audits",
@@ -1726,7 +1749,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "GREG BUCHAK",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually matched the complete title, authors and identity to the existing public record; citation year or truncated heading is not another paper.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-09",
@@ -1741,7 +1764,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Gregory Weitzner",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -1770,7 +1793,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Han Xia",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -1784,7 +1807,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Hong Zhang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-032",
@@ -1828,7 +1851,9 @@
       "kind": "paper",
       "source_author": "Jan Keil",
       "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "review": "Selected Working Papers is a section heading. Individual paper decisions are reviewed separately.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "Payment Firms, Cryptocurrencies, and CBDCs",
@@ -1854,7 +1879,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jason Zein",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-roster-20261014-314fb6ba3a6c",
@@ -1884,7 +1909,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jennie Bai",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-09",
@@ -1914,7 +1939,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jiasun Li",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -1958,7 +1983,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jing Lu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually matched the complete primary record and paper identity to this existing public record. An old R&R report does not supersede its verified journal publication.",
       "review_decision": "excluded_published",
       "reviewed_on": "2026-11-09",
@@ -1973,7 +1998,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jing Lu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -1987,7 +2012,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jing Lu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually matched the complete primary record and paper identity to this existing public record. An old R&R report does not supersede its verified journal publication.",
       "review_decision": "excluded_published",
       "reviewed_on": "2026-11-09",
@@ -2032,7 +2057,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "JINYUAN ZHANG",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-015",
@@ -2077,7 +2102,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "João Granja",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -2119,7 +2144,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Julian Terstegge",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -2191,7 +2216,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Kristy A E Jansen",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually matched the complete title, authors and identity to the existing public record; citation year or truncated heading is not another paper.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-09",
@@ -2206,7 +2231,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Kristy A E Jansen",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually matched the complete title, authors and identity to the existing public record; citation year or truncated heading is not another paper.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-09",
@@ -2221,7 +2246,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Lezgin Ay",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-073",
@@ -2236,7 +2261,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Louis Yang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -2323,7 +2348,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Matthew Baron",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -2367,7 +2392,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Mehmet Ihsan Canayaz",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section, navigation, author or link label is not a complete verified paper title. No public addition.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-19"
@@ -2396,7 +2421,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Xiongshi Li",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1016/j.jfineco.2024.103818",
@@ -2411,8 +2436,11 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Mo Pourmohammadi",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Individually linked this heading, status-only label or stable identifier to its full bounded public paper record; it is not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "author-site-expanded-20261012-116"
     },
     {
       "title": "Review of Financial Studies (2026)",
@@ -2423,8 +2451,11 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Mo Pourmohammadi",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Individually linked this heading, status-only label or stable identifier to its full bounded public paper record; it is not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "author-site-expanded-20261012-116"
     },
     {
       "title": "The Demand for (Useless) Communication",
@@ -2450,8 +2481,11 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "PETER KOUDIJS",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Individually linked this heading, status-only label or stable identifier to its full bounded public paper record; it is not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "author-site-expanded-20261012-094"
     },
     {
       "title": "Access to Financing and Racial Pay Gap inside Firms",
@@ -2478,7 +2512,9 @@
       "kind": "paper",
       "source_author": "Renping Li",
       "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "review": "Doctoral award/conference wording, not a paper title; no R&R wording remains in the current fetched page.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "Under Review",
@@ -2489,7 +2525,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Ruizhe Jia",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -2533,7 +2569,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Siddharth Vij",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-002",
@@ -2578,7 +2614,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Steven C. Xiao",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-036",
@@ -2593,7 +2629,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "SÉBASTIEN PLANTE",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -2607,7 +2643,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Theis Ingerslev Jensen",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-085",
@@ -2622,7 +2658,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Thomas Ernst",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-0d58963aa75cdebc",
@@ -2637,7 +2673,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Thomas Ernst",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-133",
@@ -2667,7 +2703,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Tim Liu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Current source lists this paper under publications in Review of Corporate Finance Studies (2026); the JFE revision belongs to a different paper.",
       "review_decision": "excluded_status_or_scope",
       "reviewed_on": "2026-10-26"
@@ -2681,8 +2717,10 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Tobias Berg",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Generic Link to SSRN version anchor, not a paper title. Its proposed link cannot borrow a neighbouring paper decision.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "New Technology and Entrepreneurship",
@@ -2753,7 +2791,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Xiang Zheng",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -2812,7 +2850,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Alex Zhou",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -2826,7 +2864,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Xing Liu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "This title has no own R&R; the RFS decision belongs to the preceding AI/insurance paper.",
       "review_decision": "excluded_status_or_scope",
       "public_id": "author-site-expanded-20261012-008",
@@ -2841,7 +2879,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Xing Liu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "This title has no own R&R; the RFS decision belongs to the preceding AI/insurance paper.",
       "review_decision": "excluded_status_or_scope",
       "public_id": "author-site-expanded-20261012-008",
@@ -2856,7 +2894,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "XINXIN WANG",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1111/jofi.13267",
@@ -2871,8 +2909,10 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Xu Lu",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Decision label, not a title; neighbouring deposit/portfolio papers remain separate bounded records.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "Other Scholarly Works",
@@ -2883,8 +2923,11 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Yajun Wang",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Individually linked this heading, status-only label or stable identifier to its full bounded public paper record; it is not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "author-site-expanded-20261012-056"
     },
     {
       "title": "Research and Publications",
@@ -2895,7 +2938,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Yan Lu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -2909,7 +2952,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Yan Lu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Published in Journal of Financial Economics 122(3),607–624 (2016), DOI 10.1016/j.jfineco.2016.09.004.",
       "review_decision": "excluded_status_or_scope",
       "reviewed_on": "2026-10-19"
@@ -2923,7 +2966,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Yehuda Izhakian",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -2937,7 +2980,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Yongseok Kim",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-292c4b49f3b49918",
@@ -2952,7 +2995,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Yuheng Wang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section, navigation, author or link label is not a complete verified paper title. No public addition.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-19"
@@ -2980,7 +3023,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Zhenghui Ni",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section, navigation, author or link label is not a complete verified paper title. No public addition.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-19"
@@ -3009,7 +3052,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Ziang Li",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -3023,7 +3066,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Zorka Simon",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1016/j.jfineco.2023.103777",
@@ -3067,7 +3110,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Alexia Gaudeul",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "The linked Fast then slow working paper is now Fast Then Slow: Choice Revisions Drive a Decline in the Attraction Effect, Management Science, DOI10.1287/mnsc.2023.4874, published online16 August2023. Publisher title and both authors verified; old narrative R&R is superseded.",
       "review_decision": "excluded_published",
       "reviewed_on": "2026-11-09"
@@ -3095,7 +3138,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Ambar La Forgia",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section, navigation, author or link label is not a complete verified paper title. No public addition.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-19"
@@ -3109,7 +3152,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Andras Fulop",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -3137,7 +3180,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Caleb Kwon",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -3151,7 +3194,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Caleb Kwon",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -3165,7 +3208,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Caleb Kwon",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same exact SSRN4990089 as the existing paper; year suffix is not a new paper. Current own record says resubmitted after Reject and Resubmit, retained separately.",
       "reviewed_on": "2026-11-09",
       "review_decision": "accounted_public_record",
@@ -3180,7 +3223,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Chao Zhang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually matched the complete title, authors and identity to the existing public record; citation year or truncated heading is not another paper.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-09",
@@ -3210,7 +3253,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Daniel Schaefer",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -3239,7 +3282,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "David Holtz",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -3268,7 +3311,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Federica Zeni",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-129aa7c501e80601",
@@ -3283,7 +3326,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Hoa Briscoe-Tran",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "The bounded DEI flexibility item links directly to SSRN4536237. Exact SSRN/Crossref metadata and the author-deposited ECGI PDF confirm the complete title and sole author; no borrowed title/status. The distinct ESG inside-view item is accepted at MS and is not added as R&R.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261109-eeca8f1a0ffe2e4f",
@@ -3298,7 +3341,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Hoa Briscoe-Tran",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "The bounded DEI flexibility item links directly to SSRN4536237. Exact SSRN/Crossref metadata and the author-deposited ECGI PDF confirm the complete title and sole author; no borrowed title/status. The distinct ESG inside-view item is accepted at MS and is not added as R&R.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261109-eeca8f1a0ffe2e4f",
@@ -3313,7 +3356,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Hoa Briscoe-Tran",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Current own linked ESG inside-view item says Accepted at Management Science. The later news item is an older R&R announcement for SSRN3987291, An Inside View of Corporate ESG Practices. Keep separate from the JFE DEI-flexibility paper.",
       "review_decision": "excluded_status_or_scope",
       "reviewed_on": "2026-11-09"
@@ -3327,7 +3370,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Jason Sandvik",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -3341,7 +3384,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jason Sandvik",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-e32f6182958b66a1",
@@ -3385,7 +3428,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jiwoong Shin",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2024.05203",
@@ -3400,7 +3443,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Johnathan A. Loudis",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261026-30f2409e7fa84a83",
@@ -3415,7 +3458,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Joon Woo Bae",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "author-roster-20261014-d6e2f46101de",
@@ -3431,7 +3474,9 @@
       "kind": "paper",
       "source_author": "Kai Barron",
       "discovered_on": "2026-10-19",
-      "review": "Pending individual verification of complete authors, exact bounded title/decision/journal and no newer acceptance or publication. Not publicly added."
+      "review": "Section heading. The R&R belongs to an AER paper while the nearby Management Science item is published; no bounded MS R&R.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "Work in Progress",
@@ -3471,7 +3516,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Lorenzo Pandolfi",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Panetti is in the fixed roster. His own working-paper record explicitly labels MS R&R and identifies both coauthors, old title and same updated APS.pdf. Current Acabbi page and PDF first page give current title; PDF explicitly names the earlier Financial Channels title. New title is preserved rather than old Crossref search text.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261109-430512c7472f74ed",
@@ -3486,7 +3531,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Manasvini Singh",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-roster-20261014-18cca65f1144",
@@ -3515,7 +3560,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Ming Yang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -3529,7 +3574,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Morten Grindaker",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "ms-97a200c8875e2ea5",
@@ -3559,7 +3604,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Övünç Yılmaz",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261102-bcd0201addde4b8b",
@@ -3574,7 +3619,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Pantelis Loupos",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -3648,8 +3693,11 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Philippe Blaettchen",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Individually linked this heading, status-only label or stable identifier to its full bounded public paper record; it is not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "weekly-20261116-fa20859fb90f5f5a"
     },
     {
       "title": "Tipping in service systems: The role of a social norm",
@@ -3689,7 +3737,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Ruichang Lu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2020.3947",
@@ -3704,7 +3752,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Ruichang Lu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2021.4098",
@@ -3733,7 +3781,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Shilin Yuan",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -3747,7 +3795,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Shreyas Sekar",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section, navigation, author or link label is not a complete verified paper title. No public addition.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-19"
@@ -3791,8 +3839,10 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Trang Nguyen",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "Likely an alias of Biodiversity Transition Risk and Corporate Employment (same four authors); stable paper-link identity still needs confirmation. The section heading is not admitted as another paper.",
+      "reviewed_on": "2026-11-16",
+      "review_status": "needs_review"
     },
     {
       "title": "Disparities in Online Labor Markets",
@@ -3848,7 +3898,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Zhuoqiong Chen",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -3862,7 +3912,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Zifeng Zhao",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -3876,7 +3926,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Aleksi Pitkäjärvi",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -3993,7 +4043,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Sharon Belenzon",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2021.4268",
@@ -4008,7 +4058,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Simone Marinesi",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -4036,8 +4086,10 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Zachary Owen",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "The author page reports a 2018 MS R&R for Price and Assortment Optimization for Reusable Resources, but the same archived section still calls its separately published 2022 paper under revision in2018. No current coauthor confirmation is available; retain the historical disclosure pending review, without presuming acceptance or continued R&R.",
+      "reviewed_on": "2026-11-16",
+      "review_status": "needs_review"
     },
     {
       "title": "Monetary Policy Exposure of Banks and",
@@ -4048,7 +4100,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jing Wang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-c0d08c899af79950",
@@ -4063,7 +4115,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jing Wang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-c0d08c899af79950",
@@ -4079,7 +4131,9 @@
       "kind": "paper",
       "source_author": "JULIE LEI ZHU",
       "discovered_on": "2026-10-19",
-      "review": "Pending individual verification of complete authors, exact bounded title/decision/journal and no newer acceptance or publication. Not publicly added."
+      "review": "Sustainability is a heading. R&R labels belong to AER/JPE records, not the adjacent Management Science publication.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "Does Early Pain Management Pay Off? Evidence on Utilization, Costs, and Surgeries , with Buyun Li, Mohammad Zhalechian, Nicholas P. Vaughn, Henry K. Lee",
@@ -4090,7 +4144,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Christopher J. Chen",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261026-8056c10b2f2b3ddc",
@@ -4106,7 +4160,9 @@
       "kind": "paper",
       "source_author": "Fei Li",
       "discovered_on": "2026-10-19",
-      "review": "Pending individual verification of complete authors, exact bounded title/decision/journal and no newer acceptance or publication. Not publicly added."
+      "review": "Information Economics is a heading. R&R labels belong to JPE records, not the nearby Management Science item.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "Better Technology, Worse Motivation: Gen AI's Mediocrity Trap",
@@ -4147,7 +4203,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Russell Golman",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2021.4244",
@@ -4176,7 +4232,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Sida Li",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-123",
@@ -4207,7 +4263,9 @@
       "kind": "paper",
       "source_author": "Ai Jun Hou",
       "discovered_on": "2026-10-19",
-      "review": "Pending individual verification of complete authors, exact bounded title/decision/journal and no newer acceptance or publication. Not publicly added."
+      "review": "is officially in print is a publication/news fragment, not a title. The distinct Commodity Inflation Risk Premium disclosure lacks an explicit journal in its own bounded record.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
     },
     {
       "title": "Stressed Banks? Evidence from the Largest-Ever Supervisory Review",
@@ -4218,7 +4276,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Alberto Martin",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2020.01714",
@@ -4233,7 +4291,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Alberto Martin",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Official ECB author publication list and Crossref identify the newer Journal of Finance publication, Supranational Banking Supervision, Credit Supply, and Risk-Taking: European Evidence from Multi-Country Credit Registers, DOI10.1111/jofi.70091. Earlier four-author working title has since added Martina Jasova; old CREI R&R is superseded.",
       "review_decision": "excluded_published",
       "reviewed_on": "2026-11-09"
@@ -4247,7 +4305,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Alberto Martin",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1093/rfs/hhad013",
@@ -4277,7 +4335,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Benjamin Born",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section, navigation, author or link label is not a complete verified paper title. No public addition.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-19"
@@ -4306,7 +4364,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jose Diego Salas",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-d3c7cc95c215ae2a",
@@ -4351,7 +4409,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Chuck Fang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Existing or newly verified paper identity; no duplicate public addition.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-ac202835f304e00a",
@@ -4366,7 +4424,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Clara Martinez-Toledano",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "The JF R&R belongs to the next title, House Price Cycles, Wealth Inequality and Portfolio Reshuffling, not Golden Visas and Real Estate Markets.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-09"
@@ -4395,7 +4453,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Daniel Barth",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Complete own research record explicitly gives the full title, all authors and its own RFS R&R. Parser had mistaken the parenthetical former-title note for the title. SSRN3544181 matches identity and current complete title.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261109-b437e608fb1ae7c5",
@@ -4410,7 +4468,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Dexin Zhou",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -4424,7 +4482,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Dimitris Papanikolaou",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -4498,7 +4556,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jamie Coen",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Current own bounded record explicitly says Accepted, Journal of Financial Economics. RFS R&R was borrowed from a neighboring paper; do not add this record as RFS R&R.",
       "review_decision": "excluded_status_or_scope",
       "reviewed_on": "2026-11-09"
@@ -4617,7 +4675,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Kyoung Jin Choi",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-c6b579977a1508ed",
@@ -4647,7 +4705,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Luigi Falasconi",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-site-expanded-20261012-109",
@@ -4662,7 +4720,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Mehmet Ihsan Canayaz",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section, navigation, author or link label is not a complete verified paper title. No public addition.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-19"
@@ -4676,7 +4734,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Minsuk Kwak",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section, navigation, author or link label is not a complete verified paper title. No public addition.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-19"
@@ -4841,7 +4899,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Sharjil Haque",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually matched the complete title, authors and identity to the existing public record; citation year or truncated heading is not another paper.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-09",
@@ -4856,7 +4914,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Shashwat Alok",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -4885,7 +4943,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Sotirios Kokas",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -4899,7 +4957,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Sotirios Kokas",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "public_id": "author-roster-20261014-1e441ff05999",
@@ -4929,7 +4987,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Steve Irlbeck",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261026-484a1184e12ed82c",
@@ -5004,7 +5062,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Wenchuan Zhao",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read current primary paragraph; numbering, year, coauthor suffix or minor title wording differs from the same existing record.",
       "review_decision": "accounted_public_record",
       "public_id": "weekly-20261019-c1c4d52ec1176c87",
@@ -5034,7 +5092,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Xiaobo Yu",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -5063,7 +5121,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Yizheng Li",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -5135,7 +5193,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Haozhou Gong",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-roster-20261014-5de269cf1f6b",
@@ -5150,7 +5208,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Haozhou Gong",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "author-roster-20261014-5de269cf1f6b",
@@ -5210,7 +5268,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Ranmit Pantle",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1287/mnsc.2025.00761",
@@ -5225,8 +5283,10 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Serge Darolles",
-      "discovered_on": "2026-11-09",
-      "review": "Confirm title, authors, strict revise-and-resubmit wording and no newer publication/acceptance."
+      "discovered_on": "2026-11-16",
+      "review": "The report heading is not a complete paper title. Retain the historical ETF-liquidity/JF disclosure pending a full title, stable paper identifier and current author evidence; do not publish the heading as a paper.",
+      "reviewed_on": "2026-11-16",
+      "review_status": "needs_review"
     },
     {
       "title": "Dynamic Equity Slope",
@@ -5382,9 +5442,9 @@
           }
         ]
       },
-      "review": "Bioprocess engineering, techno-economic and life-cycle modelling rather than economics/finance research; unchanged scope exclusion retained.",
-      "review_decision": "excluded_scope_or_expired",
-      "reviewed_on": "2026-11-09",
+      "review": "Previously reviewed non-postdoctoral scope exclusion retained; no evidence of a distinct newly eligible position.",
+      "review_decision": "excluded_scope",
+      "reviewed_on": "2026-11-16",
       "review_status": "excluded_scope",
       "evidence_url": "https://www.ucl.ac.uk/work-at-ucl/search-ucl-jobs/details?jobId=49014"
     },
@@ -5393,12 +5453,12 @@
       "title": "Research Fellow in Health Economics",
       "institution": "University of York",
       "url": "https://www.jobs.ac.uk/job/DTH519/research-fellow-in-health-economics",
-      "discovered_on": "2026-10-26",
+      "discovered_on": "2026-11-16",
       "reference_ids": [
-        "openpostdoc:edde15f3-2e3d-443b-bffd-673aebed122f"
+        "openpostdoc:254e7465-d568-4bcb-83c1-7f9ec0aba61e"
       ],
       "candidate": {
-        "id": "openpostdoc-edde15f3-2e3d-443b-bffd-673aebed122f",
+        "id": "openpostdoc-254e7465-d568-4bcb-83c1-7f9ec0aba61e",
         "title": "Research Fellow in Health Economics",
         "institution": "University of York",
         "country": "United Kingdom",
@@ -5410,32 +5470,33 @@
         ],
         "fit": "Economics",
         "deadline": "2026-11-12",
-        "status": "needs official confirmation",
+        "status": "closed",
         "duration": "Not stated",
         "start": "Not stated",
         "salary": "Not stated",
-        "source_url": "https://www.openpostdoc.org/position/edde15f3-2e3d-443b-bffd-673aebed122f",
+        "source_url": "https://www.openpostdoc.org/position/254e7465-d568-4bcb-83c1-7f9ec0aba61e",
         "apply_url": "https://www.jobs.ac.uk/job/DTH519/research-fellow-in-health-economics",
         "source_type": "OpenPostdoc",
         "last_verified": "",
-        "first_seen": "2026-10-26",
+        "first_seen": "2026-11-16",
         "verification": "Reference-listed; employer verification pending",
         "notes": "Dates and application status need confirmation on the employer posting.",
         "reference_ids": [
-          "openpostdoc:edde15f3-2e3d-443b-bffd-673aebed122f"
+          "openpostdoc:254e7465-d568-4bcb-83c1-7f9ec0aba61e"
         ],
         "source_reports": [
           {
             "name": "OpenPostdoc",
-            "url": "https://www.openpostdoc.org/position/edde15f3-2e3d-443b-bffd-673aebed122f",
-            "checked_on": "2026-10-26",
-            "reported_status": "confirmed_open"
+            "url": "https://www.openpostdoc.org/position/254e7465-d568-4bcb-83c1-7f9ec0aba61e",
+            "checked_on": "2026-11-16",
+            "reported_status": "closed"
           }
         ]
       },
-      "review": "Official York advert accepts a Masters degree and/or PhD and is an open-ended Grade 6/7 research post, not a doctorate-required postdoc.",
+      "review": "Same York vacancy15398 previously excluded: permanent role accepting masters and/or PhD, not a doctorate-required postdoctoral appointment.",
       "review_decision": "excluded_scope",
-      "reviewed_on": "2026-10-19"
+      "reviewed_on": "2026-11-16",
+      "review_status": "excluded_scope"
     },
     {
       "title": "Does Home-Sharing Boost Evictions? Evidence from Florida Sales Tax Crackdowns on Airbnb",
@@ -5476,7 +5537,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Kenneth R. Ahern",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Exact title matches a formal journal article in the saved publication corpus.",
       "review_decision": "excluded_published",
       "publication_doi": "10.1093/rof/rfag024",
@@ -5491,7 +5552,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jeffrey Yang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "The own revision is at Strategic Management Journal, outside the six tracked journals.",
       "review_decision": "excluded_status_or_scope",
       "reviewed_on": "2026-10-26"
@@ -5624,7 +5685,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Lily Shen",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -5653,7 +5714,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Michael Boutros",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -5697,7 +5758,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Adam Blandin",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -5741,7 +5802,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Jiakai Chen",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -5755,7 +5816,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Miguel Angel Carpio",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -5769,7 +5830,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Melissa A. Martin",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Navigation, section, date or author label is not a complete paper title. The surrounding real record remains separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-10-26"
@@ -5780,7 +5841,7 @@
       "institution": "Copenhagen Business School",
       "url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/two-3-year-postdoc-positions-leadership-studies",
       "rank": 45,
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify field, employer, Europe location, deadline, postdoctoral qualification and application status."
     },
     {
@@ -5789,7 +5850,7 @@
       "institution": "Copenhagen Business School",
       "url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/postdoc-digital-work-and-procurement",
       "rank": 45,
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify field, employer, Europe location, deadline, postdoctoral qualification and application status."
     },
     {
@@ -5853,10 +5914,11 @@
           }
         ]
       },
-      "review": "Employer advert individually checked; public record retains provider IDs.",
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-16",
-      "review_status": "accounted_public_record"
+      "review_status": "public_confirmed",
+      "public_id": "openpostdoc-057172a5-df98-4e5b-ba88-6f41f3e88bf0"
     },
     {
       "kind": "vacancy",
@@ -5910,17 +5972,18 @@
           }
         ]
       },
-      "review": "Employer advert individually checked; public record retains provider IDs.",
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-16",
-      "review_status": "accounted_public_record"
+      "review_status": "public_confirmed",
+      "public_id": "openpostdoc-8ffc7455-d491-4e8d-912a-835432ab29ac"
     },
     {
       "kind": "vacancy",
       "title": "Research Economist: Crime and Justice",
       "institution": "Institute for Fiscal Studies",
       "url": "https://econjobmarket.org/positions/12874",
-      "discovered_on": "2026-11-02",
+      "discovered_on": "2026-11-16",
       "reference_ids": [
         "ejm:12874"
       ],
@@ -5937,17 +6000,18 @@
         ],
         "fit": "Postdoctoral Scholar • Other academic • Other nonacademic Various fields Econometrics • Labor; Demographic Economics • Law and Economics • Public Economics • Applied microeconomics",
         "deadline": "2026-11-15",
-        "status": "open",
+        "status": "closed",
         "duration": "Continuing/permanent",
         "start": "Flexible",
         "salary": "67,000 GBP",
-        "source_url": "https://econjobmarket.org/statuses?page=6#position12874",
+        "source_url": "https://econjobmarket.org/statuses?page=7#position12874",
         "apply_url": "https://econjobmarket.org/positions/12874",
         "source_type": "Econ Job Market employer advert",
-        "last_verified": "2026-11-02",
-        "first_seen": "2026-11-02",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
         "verification": "Employer-published EJM advertisement",
-        "search_status": "Accepting applications",
+        "search_status": "Reviewing applications",
+        "recruitment_status": "Reviewing applications",
         "notes": "Recruiter search status is separate from whether new applications are accepted.",
         "reference_ids": [
           "ejm:12874"
@@ -5955,16 +6019,15 @@
         "source_reports": [
           {
             "name": "Econ Job Market",
-            "url": "https://econjobmarket.org/statuses?page=6#position12874",
-            "checked_on": "2026-11-02"
+            "url": "https://econjobmarket.org/statuses?page=7#position12874",
+            "checked_on": "2026-11-16"
           }
         ]
       },
-      "review": "Previously individually reviewed permanent Research Economist position with no separate postdoctoral fellowship route. IFS postdoctoral advert12873 is retained.",
+      "review": "Previously reviewed permanent Research Economist role retained as a scope exclusion; 410 response today does not establish a new postdoctoral opening.",
       "review_decision": "excluded_scope",
-      "reviewed_on": "2026-11-09",
-      "review_status": "excluded_scope",
-      "evidence_url": "https://econjobmarket.org/positions/12874"
+      "reviewed_on": "2026-11-16",
+      "review_status": "excluded_scope"
     },
     {
       "kind": "vacancy",
@@ -6018,10 +6081,11 @@
           }
         ]
       },
-      "review": "Employer advert individually checked; public record retains provider IDs.",
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-16",
-      "review_status": "accounted_public_record"
+      "review_status": "public_confirmed",
+      "public_id": "openpostdoc-b496b556-7593-4eec-8c02-e9c9d88a92ec"
     },
     {
       "kind": "vacancy",
@@ -6068,10 +6132,11 @@
           }
         ]
       },
-      "review": "Employer advert individually checked; public record retains provider IDs.",
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-16",
-      "review_status": "accounted_public_record"
+      "review_status": "public_confirmed",
+      "public_id": "openpostdoc-177eef43-e441-412e-a658-c3dcf4ae2e4a"
     },
     {
       "kind": "vacancy",
@@ -6125,10 +6190,11 @@
           }
         ]
       },
-      "review": "Employer advert individually checked; public record retains provider IDs.",
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-16",
-      "review_status": "accounted_public_record"
+      "review_status": "public_confirmed",
+      "public_id": "openpostdoc-ea314678-b02e-4adb-9dae-eb3c440f2f9e"
     },
     {
       "kind": "vacancy",
@@ -6182,10 +6248,11 @@
           }
         ]
       },
-      "review": "Employer advert individually checked; public record retains provider IDs.",
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-16",
-      "review_status": "accounted_public_record"
+      "review_status": "public_confirmed",
+      "public_id": "openpostdoc-00869174-def1-4e23-9927-1eb3ec62f600"
     },
     {
       "kind": "vacancy",
@@ -6239,10 +6306,11 @@
           }
         ]
       },
-      "review": "Employer advert individually checked; public record retains provider IDs.",
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-16",
-      "review_status": "accounted_public_record"
+      "review_status": "public_confirmed",
+      "public_id": "openpostdoc-3a4115cb-671f-423f-a0f3-c8949a9536b0"
     },
     {
       "kind": "vacancy",
@@ -6296,10 +6364,11 @@
           }
         ]
       },
-      "review": "Employer advert individually checked; public record retains provider IDs.",
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-16",
-      "review_status": "accounted_public_record"
+      "review_status": "public_confirmed",
+      "public_id": "openpostdoc-979bb48a-5001-4806-84b9-a277657e7e59"
     },
     {
       "kind": "vacancy",
@@ -6353,10 +6422,11 @@
           }
         ]
       },
-      "review": "Employer advert individually checked; public record retains provider IDs.",
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-16",
-      "review_status": "accounted_public_record"
+      "review_status": "public_confirmed",
+      "public_id": "openpostdoc-f6523113-eaab-4161-880d-789ac4a7b277"
     },
     {
       "kind": "vacancy",
@@ -6452,10 +6522,11 @@
           }
         ]
       },
-      "review": "Employer advert individually checked; public record retains provider IDs.",
-      "review_decision": "excluded_scope_or_expired",
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-16",
-      "review_status": "accounted_public_record"
+      "review_status": "public_confirmed",
+      "public_id": "ejm-12871"
     },
     {
       "title": "Demand-system Asset Pricing: Theoretical Foundations [ SSRN ]",
@@ -6466,7 +6537,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Daniel Neuhann",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "rr-2",
@@ -6481,7 +6552,7 @@
       "status": "Reject & Resubmit",
       "kind": "paper",
       "source_author": "Sascha Steffen",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -6510,7 +6581,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "CIRIL BOSCH‐ROSA",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "ms-cdc3957d62b582bd",
@@ -6600,7 +6671,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "PHILIPPE VAN DER BECK",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Same individually verified title, alias or stable paper identifier. Keep one record and preserve any newer acceptance/publication.",
       "review_decision": "accounted_public_record",
       "public_id": "conference-c286b0618f054d36",
@@ -6645,7 +6716,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Dexin Zhou",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Heading, coauthor or navigation label is not a paper title. This excludes the extracted label only; underlying records and unresolved decisions remain separately reviewable.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-02"
@@ -6659,7 +6730,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Dimitris Papanikolaou",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually read own page: this is a section heading, biographical sentence, or coauthor label rather than a paper title. Underlying real paper is already public.",
       "reviewed_on": "2026-11-09",
       "review_decision": "rejected_extraction"
@@ -6700,7 +6771,7 @@
       "institution": "Stockholm School of Economics",
       "url": "https://www.hhs.se/news/vacancies/2026/vacancy-post-doc-position-at-the-center-for-migration-and-integration/",
       "rank": 19,
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Official employer application advert closed 30 October 2026 at 23:59 CET; do not publish this news-page discovery as a new open job.",
       "review_decision": "excluded_scope_or_expired",
       "reviewed_on": "2026-11-02"
@@ -6712,7 +6783,7 @@
       "public_id": "conference-ff61e2d9a9a6ff16",
       "proposed_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3639693",
       "retained_url": "https://ssrn.com/abstract_id=3639693",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
     },
     {
@@ -6737,7 +6808,7 @@
       "public_id": "weekly-20261102-db8788d7775c2944",
       "proposed_url": "https://drive.google.com/open?id=0Bz9vO1qp2OywYk45aVJpWVF6SUE",
       "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2593492",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
     },
     {
@@ -6747,7 +6818,7 @@
       "public_id": "weekly-20261102-f24aef19942a7136",
       "proposed_url": "https://www.dropbox.com/s/i0as0lisy05lzem/CharlesKendall_CausalNarratives.pdf?dl=0",
       "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4669371",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
     },
     {
@@ -6757,7 +6828,7 @@
       "public_id": "weekly-20261102-99a6b3dc6f3b5655",
       "proposed_url": "https://dx.doi.org/10.2139/ssrn.4629415",
       "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4629415",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
     },
     {
@@ -6767,7 +6838,7 @@
       "public_id": "weekly-20261102-51522285c59ac67a",
       "proposed_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3040393",
       "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3456285",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
     },
     {
@@ -6777,7 +6848,7 @@
       "public_id": "weekly-20261102-e343c7df924dd692",
       "proposed_url": "https://ssrn.com/abstract=3000593",
       "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3000593",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
     },
     {
@@ -6787,7 +6858,7 @@
       "public_id": "weekly-20261102-8fbdf2d58d749393",
       "proposed_url": "https://www.dropbox.com/s/9518bzkaeswji0z/Holtz_Spotify_Podcast_Recs.pdf?dl=0",
       "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3555927",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
     },
     {
@@ -6797,7 +6868,7 @@
       "public_id": "weekly-20261102-56fea6b84bbeefa6",
       "proposed_url": "https://www.peixuanyuan.com/project/indmom/",
       "retained_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6371558",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
     },
     {
@@ -6818,9 +6889,10 @@
         "openpostdoc:30a25e54-47e1-4774-ba1c-e859cd000f74"
       ],
       "review_status": "excluded_scope",
-      "reviewed_on": "2026-11-09",
-      "review": "Clinical evidence-synthesis and systematic-review appointment; health economics is only a desirable knowledge area. No economics/finance research requirement established by the full employer specification.",
-      "evidence_url": "https://www.jobs.gla.ac.uk/job/research-associate-in-evidence-synthesis-6057685"
+      "reviewed_on": "2026-11-16",
+      "review": "Same Glasgow vacancy210233 previously excluded: clinical evidence synthesis and systematic reviews without economics/finance research requirement.",
+      "evidence_url": "https://www.jobs.gla.ac.uk/job/research-associate-in-evidence-synthesis-6057685",
+      "review_decision": "excluded_scope"
     },
     {
       "kind": "vacancy",
@@ -6830,9 +6902,10 @@
         "openpostdoc:254e7465-d568-4bcb-83c1-7f9ec0aba61e"
       ],
       "review_status": "excluded_scope",
-      "reviewed_on": "2026-11-09",
-      "review": "Same York job15398 already excluded: open-ended Grade6/7 role accepting a Masters and/or PhD; no distinct doctorate-required postdoctoral appointment. New board identifier retained as an exclusion alias.",
-      "evidence_url": "https://jobs.york.ac.uk/vacancy/research-fellow-in-health-economics-620660.html"
+      "reviewed_on": "2026-11-16",
+      "review": "Same York vacancy15398 previously excluded: permanent role accepting masters and/or PhD, not a doctorate-required postdoctoral appointment.",
+      "evidence_url": "https://jobs.york.ac.uk/vacancy/research-fellow-in-health-economics-620660.html",
+      "review_decision": "excluded_scope"
     },
     {
       "title": "W hen Board Gender Quotas Backfire: Evidence from California's SB 826",
@@ -6903,7 +6976,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Wei Wang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Section heading and item count, not a paper. The following lawyer-judge paper is individually matched to its existing SSRN3666263 record.",
       "review_decision": "rejected_extraction",
       "reviewed_on": "2026-11-09"
@@ -6917,7 +6990,7 @@
       "status": "R&R",
       "kind": "paper",
       "source_author": "Wei Wang",
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Individually matched the complete title, authors and identity to the existing public record; citation year or truncated heading is not another paper.",
       "review_decision": "accounted_public_record",
       "reviewed_on": "2026-11-09",
@@ -6974,11 +7047,10 @@
       "institution": "Copenhagen Business School",
       "url": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/postdoc-cbs-work-life-balance-policy-citizens-policies",
       "rank": 45,
-      "discovered_on": "2026-11-09",
+      "discovered_on": "2026-11-16",
       "review": "Full official employer advert read: one-year-ten-month sociology-preferred position based on interviews and surveys about citizen work-care-life balance. No economics or finance research requirement established; do not add merely because its department includes International Economics in its name.",
       "review_decision": "excluded_scope",
-      "reviewed_on": "2026-11-09",
-      "deadline": "2026-12-07"
+      "reviewed_on": "2026-11-09"
     },
     {
       "kind": "paper",
@@ -7222,24 +7294,1287 @@
     {
       "kind": "vacancy",
       "title": "Senior Research Fellow",
+      "institution": "Economics University of Oxford",
       "url": "https://econjobmarket.org/positions/13028",
+      "discovered_on": "2026-11-16",
       "reference_ids": [
         "ejm:13028"
       ],
+      "candidate": {
+        "id": "ejm-13028",
+        "title": "Senior Research Fellow",
+        "institution": "Economics University of Oxford",
+        "country": "United Kingdom",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Other academic Any field",
+        "deadline": "2026-12-17",
+        "status": "open",
+        "duration": "Continuing/permanent",
+        "start": "Flexible",
+        "salary": "Not stated",
+        "source_url": "https://econjobmarket.org/statuses?page=4#position13028",
+        "apply_url": "https://econjobmarket.org/positions/13028",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "Accepting applications",
+        "recruitment_status": "Accepting applications",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:13028"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/statuses?page=4#position13028",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Permanent senior faculty research fellowship with potential Professor title, graduate teaching and academic administration; not a postdoctoral appointment.",
+      "review_decision": "excluded_scope",
       "review_status": "excluded_scope",
-      "reviewed_on": "2026-11-16",
-      "review": "Permanent senior research fellowship with possible professor title; no postdoctoral route in full employer advert."
+      "reviewed_on": "2026-11-16"
     },
     {
       "kind": "vacancy",
       "title": "postdoctoral researcher",
+      "institution": "Ghent University",
       "url": "https://jobs.ugent.be/job/Ghent-postdoctoral-researcher-9000/1376939557/",
+      "discovered_on": "2026-11-16",
       "reference_ids": [
         "openpostdoc:0dd192c0-0b9f-4041-8e70-dc84ea51a2d1"
       ],
+      "candidate": {
+        "id": "openpostdoc-0dd192c0-0b9f-4041-8e70-dc84ea51a2d1",
+        "title": "postdoctoral researcher",
+        "institution": "Ghent University",
+        "country": "Belgium",
+        "city": "Ghent",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Political Science",
+        "deadline": "",
+        "status": "needs official confirmation",
+        "duration": "Not stated",
+        "start": "Not stated",
+        "salary": "Not stated",
+        "source_url": "https://www.openpostdoc.org/position/0dd192c0-0b9f-4041-8e70-dc84ea51a2d1",
+        "apply_url": "https://jobs.ugent.be/job/Ghent-postdoctoral-researcher-9000/1376939557/",
+        "source_type": "OpenPostdoc",
+        "last_verified": "",
+        "first_seen": "2026-11-16",
+        "verification": "Reference-listed; employer verification pending",
+        "notes": "Dates and application status need confirmation on the employer posting.",
+        "reference_ids": [
+          "openpostdoc:0dd192c0-0b9f-4041-8e70-dc84ea51a2d1"
+        ],
+        "source_reports": [
+          {
+            "name": "OpenPostdoc",
+            "url": "https://www.openpostdoc.org/position/0dd192c0-0b9f-4041-8e70-dc84ea51a2d1",
+            "checked_on": "2026-11-16",
+            "reported_status": "confirmed_open"
+          }
+        ]
+      },
+      "review": "RETOOL project at Public Governance and Management requires political science/public administration and climate governance expertise; no economics or finance research requirement.",
+      "review_decision": "excluded_scope",
       "review_status": "excluded_scope",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "In Search of Seasonality in Intraday and Overnight Option Returns",
+      "journal": "RF",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5386128",
+      "evidence_url": "https://www.florian-weigert.com/research/",
+      "evidence_excerpt": "Revise & Resubmit, Review of Finance",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "Florian Weigert",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-eb67e2ca4368e86b",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Selected Work",
+      "journal": "RF",
+      "paper_url": "",
+      "evidence_url": "https://sites.google.com/site/drjankeil/research",
+      "evidence_excerpt": "Revise & Resubmit, Review of Finance",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "Jan Keil",
+      "discovered_on": "2026-11-16",
+      "review": "Section heading. The underlying BNPL paper is already public at Review of Finance; not an additional paper.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261102-99a6b3dc6f3b5655",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Shareholder Voice and Executive Compensation",
+      "journal": "JFE",
+      "paper_url": "https://johnwbarry.info/files/papers/shareholder_voice.pdf",
+      "evidence_url": "https://johnwbarry.info/research/",
+      "evidence_excerpt": "R&R, Journal of Financial Economics",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "John W. Barry",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-294737a21de281a2",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Wrong for rights? Short sales in the global rights issues market",
+      "journal": "JFQA",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4158978",
+      "evidence_url": "https://sites.google.com/view/peterkienpham/research-papers",
+      "evidence_excerpt": "Revise and Resubmit, Journal of Financial and Quantitative Analysis",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "Peter Pham",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-99e045909cf087d0",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "The Corporate Real Effects of CIP Deviations",
+      "journal": "JFQA",
+      "paper_url": "https://www.ragnarjuelsrud.com/papers/cip_real_effects.pdf",
+      "evidence_url": "https://www.ragnarjuelsrud.com/cv.html",
+      "evidence_excerpt": "revise and resubmit, Journal of Financial and Quantitative Analysis",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "Ragnar E. Juelsrud",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-256d9ec37805b843",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "The Corporate Real Effects of CIP Deviations",
+      "journal": "JFQA",
+      "paper_url": "https://www.ragnarjuelsrud.com/papers/cip_real_effects.pdf",
+      "evidence_url": "https://www.ragnarjuelsrud.com/research.html",
+      "evidence_excerpt": "revise and resubmit, Journal of Financial and Quantitative Analysis",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "Ragnar E. Juelsrud",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-256d9ec37805b843",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Outstanding Doctoral Paper Award at EFA 2025 (Philadelphia)",
+      "journal": "JF",
+      "paper_url": "https://easternfinance.org/best-paper-awards-of-2025/",
+      "evidence_url": "https://renpingli.com/",
+      "evidence_excerpt": "Revise & Resubmit, Journal of Finance",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "Renping Li",
+      "discovered_on": "2026-11-16",
+      "review": "Award label is not a title; independently read the complete solo-authored municipal-finance paper and its explicit JF R&R.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-51317d542fee2acb",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "The Anatomy of Mutual Fund Liquidity Creation",
+      "journal": "MS",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4019567",
+      "evidence_url": "https://www.vietdungdoan.com/",
+      "evidence_excerpt": "R&R, Management Science",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "Viet-Dung Doan",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-0fd217cb4106f59f",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Does Discretized Information Induce Misperception? Evidence from a Sports Betting Market with Yumeng Lai and Navid Neshat",
+      "journal": "JFQA",
+      "paper_url": "",
+      "evidence_url": "https://sites.google.com/view/yongseok-kim-finance/cv",
+      "evidence_excerpt": "Reject and Resubmit, Journal of Financial and Quantitative Analysis",
+      "status": "Reject & Resubmit",
+      "kind": "paper",
+      "source_author": "Yongseok Kim",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-8b9d62bb1754d831",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Individual Bankers and Information Spillovers in Concurrent IPO Underwriting",
+      "journal": "JFQA",
+      "paper_url": "https://papers.ssrn.com/abstract=5126361",
+      "evidence_url": "https://sites.google.com/view/eddie-zhao/research",
+      "evidence_excerpt": "reject & resubmit, Journal of Financial and Quantitative Analysis",
+      "status": "Reject & Resubmit",
+      "kind": "paper",
+      "source_author": "Yijia (Eddie) Zhao",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-3201261e4ef2dce1",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Resting papers",
+      "journal": "MS",
+      "paper_url": "",
+      "evidence_url": "https://kosukeuetake.github.io/kosukeuetake-site/",
+      "evidence_excerpt": "Reject and resubmit, Management Science",
+      "status": "Reject & Resubmit",
+      "kind": "paper",
+      "source_author": "Kosuke Uetake",
+      "discovered_on": "2026-11-16",
+      "review": "A section heading for inactive projects, not a title.",
+      "review_decision": "excluded_not_paper_title",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Success Breeds Success: Weight Loss Dynamics in the Presence of Short-Term and Long-Term Goals",
+      "journal": "MS",
+      "paper_url": "",
+      "evidence_url": "https://kosukeuetake.github.io/kosukeuetake-site/",
+      "evidence_excerpt": "Reject and resubmit, Management Science",
+      "status": "Reject & Resubmit",
+      "kind": "paper",
+      "source_author": "Kosuke Uetake",
+      "discovered_on": "2026-11-16",
+      "review": "The current author explicitly places this November2018 reject-and-resubmit in Resting papers. Do not promote a dormant historical project as active without current confirmation.",
+      "review_status": "needs_review",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Underwriting Optimism: Analyst Bias toward IPO Peers",
+      "journal": "JFQA",
+      "paper_url": "https://chuyizhang.com/files/papers/underwriting-optimism.pdf",
+      "evidence_url": "https://chuyizhang.com/research/",
+      "evidence_excerpt": "Revise and resubmit, Journal of Financial and Quantitative Analysis",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "Chuyi Zhang",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-650097354c5c8016",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Underwriting Optimism: Analyst Bias toward IPO Peers",
+      "journal": "JFQA",
+      "paper_url": "https://chuyizhang.com/files/papers/underwriting-optimism.pdf",
+      "evidence_url": "https://chuyizhang.com/",
+      "evidence_excerpt": "Revise and resubmit, Journal of Financial and Quantitative Analysis",
+      "status": "R&R",
+      "kind": "paper",
+      "source_author": "Chuyi Zhang",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-650097354c5c8016",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Government-Funded Green Banks: Catalysts for the Green Transition",
+      "journal": "MS",
+      "paper_url": "https://papers.ssrn.com/abstract=5174254",
+      "evidence_url": "https://claudiorizzi.github.io/index.html",
+      "evidence_excerpt": "Reject and Resubmit, Management Science",
+      "status": "Reject & Resubmit",
+      "kind": "paper",
+      "source_author": "Claudio Rizzi",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-64d59e80c148b0c2",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Emissions Reduction Potential and Early-stage Capital",
+      "journal": "MS",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5713385",
+      "evidence_url": "https://claudiorizzi.github.io/index.html",
+      "evidence_excerpt": "Reject and Resubmit, Management Science",
+      "status": "Reject & Resubmit",
+      "kind": "paper",
+      "source_author": "Claudio Rizzi",
+      "discovered_on": "2026-11-16",
+      "review": "Same SSRN5713385 and four authors; renamed existing paper, retained once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261026-4f08a090d591276f",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Government-Funded Green Banks: Catalysts for the Green Transition",
+      "journal": "MS",
+      "paper_url": "https://papers.ssrn.com/abstract=5174254",
+      "evidence_url": "https://claudiorizzi.github.io/",
+      "evidence_excerpt": "Reject and Resubmit, Management Science",
+      "status": "Reject & Resubmit",
+      "kind": "paper",
+      "source_author": "Claudio Rizzi",
+      "discovered_on": "2026-11-16",
+      "review": "Full bounded title, complete authors and explicit journal decision individually verified; published once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261116-64d59e80c148b0c2",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "title": "Emissions Reduction Potential and Early-stage Capital",
+      "journal": "MS",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5713385",
+      "evidence_url": "https://claudiorizzi.github.io/",
+      "evidence_excerpt": "Reject and Resubmit, Management Science",
+      "status": "Reject & Resubmit",
+      "kind": "paper",
+      "source_author": "Claudio Rizzi",
+      "discovered_on": "2026-11-16",
+      "review": "Same SSRN5713385 and four authors; renamed existing paper, retained once.",
+      "review_decision": "accounted_public_record",
+      "public_id": "weekly-20261026-4f08a090d591276f",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "kind": "paper_link",
+      "title": "Native-Immigrant Entrepreneurial Synergies",
+      "url": "https://sites.google.com/view/timothymcquade/research",
+      "public_id": "weekly-20261026-097eab249de0abf5",
+      "proposed_url": "https://drive.google.com/file/d/1Kx1zk6evOKxqyE1Whic51a0A9FPvzD8-/view?usp=sharing",
+      "retained_url": "https://drive.google.com/file/d/1FN0U5Uc1nhf6LUDWIOW645Hd-zpzhP0m/view?usp=sharing",
+      "discovered_on": "2026-11-16",
+      "review": "Verify paper identity before replacing an existing paper URL; a neighbouring or coauthor anchor is insufficient."
+    },
+    {
+      "kind": "vacancy",
+      "title": "Postdoctoral researcher in quantum algorithms and optimization for Life Science applications",
+      "institution": "Aalto University",
+      "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-quantum-algorithms-and-optimization-for-life-science-applications-0",
+      "rank": 46,
+      "discovered_on": "2026-11-16",
+      "review": "Verify field, employer, Europe location, deadline, postdoctoral qualification and application status."
+    },
+    {
+      "kind": "vacancy",
+      "title": "Doctoral researcher and/or Post-doctoral researcher on compound semiconductor energy converters",
+      "institution": "Aalto University",
+      "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-andor-post-doctoral-researcher-on-compound-semiconductor-energy-converters-0",
+      "rank": 46,
+      "discovered_on": "2026-11-16",
+      "review": "Verify field, employer, Europe location, deadline, postdoctoral qualification and application status."
+    },
+    {
+      "kind": "vacancy",
+      "title": "Research Fellow (Maternity Cover)",
+      "institution": "London School of Hygiene & Tropical Medicine",
+      "url": "https://www.jobs.ac.uk/job/DTN551/research-fellow-maternity-cover",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "openpostdoc:5bf7ef89-ffd7-450d-a1b3-9cf74da0e7f0"
+      ],
+      "candidate": {
+        "id": "openpostdoc-5bf7ef89-ffd7-450d-a1b3-9cf74da0e7f0",
+        "title": "Research Fellow (Maternity Cover)",
+        "institution": "London School of Hygiene & Tropical Medicine",
+        "country": "United Kingdom",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Economics",
+        "deadline": "2026-11-15",
+        "status": "closed",
+        "duration": "Not stated",
+        "start": "Not stated",
+        "salary": "Not stated",
+        "source_url": "https://www.openpostdoc.org/position/5bf7ef89-ffd7-450d-a1b3-9cf74da0e7f0",
+        "apply_url": "https://www.jobs.ac.uk/job/DTN551/research-fellow-maternity-cover",
+        "source_type": "OpenPostdoc",
+        "last_verified": "",
+        "first_seen": "2026-11-16",
+        "verification": "Reference-listed; employer verification pending",
+        "notes": "Dates and application status need confirmation on the employer posting.",
+        "reference_ids": [
+          "openpostdoc:5bf7ef89-ffd7-450d-a1b3-9cf74da0e7f0"
+        ],
+        "source_reports": [
+          {
+            "name": "OpenPostdoc",
+            "url": "https://www.openpostdoc.org/position/5bf7ef89-ffd7-450d-a1b3-9cf74da0e7f0",
+            "checked_on": "2026-11-16",
+            "reported_status": "confirmed_open"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "review_status": "public_confirmed",
       "reviewed_on": "2026-11-16",
-      "review": "Political science/public administration doctorate and climate-governance survey research; no economics/finance research requirement in full official employer advert."
+      "public_id": "openpostdoc-5bf7ef89-ffd7-450d-a1b3-9cf74da0e7f0"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Post-Doctoral Researcher in Inequality, Social Policy, and Social Mobility",
+      "institution": "University of Oxford",
+      "url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189751",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "openpostdoc:dccebfd9-07ac-4666-8ead-0a880fa13f7c"
+      ],
+      "candidate": {
+        "id": "openpostdoc-dccebfd9-07ac-4666-8ead-0a880fa13f7c",
+        "title": "Post-Doctoral Researcher in Inequality, Social Policy, and Social Mobility",
+        "institution": "University of Oxford",
+        "country": "United Kingdom",
+        "city": "Oxford",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Economics",
+        "deadline": "2026-12-01",
+        "status": "needs official confirmation",
+        "duration": "Not stated",
+        "start": "Not stated",
+        "salary": "Not stated",
+        "source_url": "https://www.openpostdoc.org/position/dccebfd9-07ac-4666-8ead-0a880fa13f7c",
+        "apply_url": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189751",
+        "source_type": "OpenPostdoc",
+        "last_verified": "",
+        "first_seen": "2026-11-16",
+        "verification": "Reference-listed; employer verification pending",
+        "notes": "Dates and application status need confirmation on the employer posting.",
+        "reference_ids": [
+          "openpostdoc:dccebfd9-07ac-4666-8ead-0a880fa13f7c"
+        ],
+        "source_reports": [
+          {
+            "name": "OpenPostdoc",
+            "url": "https://www.openpostdoc.org/position/dccebfd9-07ac-4666-8ead-0a880fa13f7c",
+            "checked_on": "2026-11-16",
+            "reported_status": "confirmed_open"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "openpostdoc-dccebfd9-07ac-4666-8ead-0a880fa13f7c",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Postdoctoral Researcher in Comparative Area Studies with a focus on Africa",
+      "institution": "Charles University",
+      "url": "https://www.jobs.ac.uk/job/DTP315/postdoctoral-researcher-in-comparative-area-studies-with-a-focus-on-africa",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "openpostdoc:1afc5c54-bbba-44ef-918a-1152cc90491a"
+      ],
+      "candidate": {
+        "id": "openpostdoc-1afc5c54-bbba-44ef-918a-1152cc90491a",
+        "title": "Postdoctoral Researcher in Comparative Area Studies with a focus on Africa",
+        "institution": "Charles University",
+        "country": "Czechia",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Social Science",
+        "deadline": "2026-12-31",
+        "status": "needs official confirmation",
+        "duration": "Not stated",
+        "start": "Not stated",
+        "salary": "Not stated",
+        "source_url": "https://www.openpostdoc.org/position/1afc5c54-bbba-44ef-918a-1152cc90491a",
+        "apply_url": "https://www.jobs.ac.uk/job/DTP315/postdoctoral-researcher-in-comparative-area-studies-with-a-focus-on-africa",
+        "source_type": "OpenPostdoc",
+        "last_verified": "",
+        "first_seen": "2026-11-16",
+        "verification": "Reference-listed; employer verification pending",
+        "notes": "Dates and application status need confirmation on the employer posting.",
+        "reference_ids": [
+          "openpostdoc:1afc5c54-bbba-44ef-918a-1152cc90491a"
+        ],
+        "source_reports": [
+          {
+            "name": "OpenPostdoc",
+            "url": "https://www.openpostdoc.org/position/1afc5c54-bbba-44ef-918a-1152cc90491a",
+            "checked_on": "2026-11-16",
+            "reported_status": "confirmed_open"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "review_status": "public_confirmed",
+      "reviewed_on": "2026-11-16",
+      "public_id": "openpostdoc-1afc5c54-bbba-44ef-918a-1152cc90491a"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Postdoctoral Position International Macroeconomics and Finance at EPFL",
+      "institution": "EPFL",
+      "url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-Position-International-Macroeconomics-and-Finance-at-EPFL/1165774355/",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "openpostdoc:1ad44786-818d-4888-9d26-e5c56af9b883"
+      ],
+      "candidate": {
+        "id": "openpostdoc-1ad44786-818d-4888-9d26-e5c56af9b883",
+        "title": "Postdoctoral Position International Macroeconomics and Finance at EPFL",
+        "institution": "EPFL",
+        "country": "Switzerland",
+        "city": "Lausanne",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Economics",
+        "deadline": "",
+        "status": "needs official confirmation",
+        "duration": "Not stated",
+        "start": "Not stated",
+        "salary": "Not stated",
+        "source_url": "https://www.openpostdoc.org/position/1ad44786-818d-4888-9d26-e5c56af9b883",
+        "apply_url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-Position-International-Macroeconomics-and-Finance-at-EPFL/1165774355/",
+        "source_type": "OpenPostdoc",
+        "last_verified": "",
+        "first_seen": "2026-11-16",
+        "verification": "Reference-listed; employer verification pending",
+        "notes": "Dates and application status need confirmation on the employer posting.",
+        "reference_ids": [
+          "openpostdoc:1ad44786-818d-4888-9d26-e5c56af9b883"
+        ],
+        "source_reports": [
+          {
+            "name": "OpenPostdoc",
+            "url": "https://www.openpostdoc.org/position/1ad44786-818d-4888-9d26-e5c56af9b883",
+            "checked_on": "2026-11-16",
+            "reported_status": "confirmed_open"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13012",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Postdoctoral Position in International Macroeconomics and Finance",
+      "institution": "EPFL",
+      "url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-Position-in-International-Macroeconomics-and-Finance/1165774255/",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "openpostdoc:d052e595-3354-4cb8-97eb-54172febffc2"
+      ],
+      "candidate": {
+        "id": "openpostdoc-d052e595-3354-4cb8-97eb-54172febffc2",
+        "title": "Postdoctoral Position in International Macroeconomics and Finance",
+        "institution": "EPFL",
+        "country": "Switzerland",
+        "city": "Lausanne",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Economics",
+        "deadline": "",
+        "status": "needs official confirmation",
+        "duration": "Not stated",
+        "start": "Not stated",
+        "salary": "Not stated",
+        "source_url": "https://www.openpostdoc.org/position/d052e595-3354-4cb8-97eb-54172febffc2",
+        "apply_url": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-Position-in-International-Macroeconomics-and-Finance/1165774255/",
+        "source_type": "OpenPostdoc",
+        "last_verified": "",
+        "first_seen": "2026-11-16",
+        "verification": "Reference-listed; employer verification pending",
+        "notes": "Dates and application status need confirmation on the employer posting.",
+        "reference_ids": [
+          "openpostdoc:d052e595-3354-4cb8-97eb-54172febffc2"
+        ],
+        "source_reports": [
+          {
+            "name": "OpenPostdoc",
+            "url": "https://www.openpostdoc.org/position/d052e595-3354-4cb8-97eb-54172febffc2",
+            "checked_on": "2026-11-16",
+            "reported_status": "confirmed_open"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13012",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Research Associate in Evidence Synthesis",
+      "institution": "University of Glasgow",
+      "url": "https://www.jobs.ac.uk/job/DTG051/research-associate-in-evidence-synthesis",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "openpostdoc:30a25e54-47e1-4774-ba1c-e859cd000f74"
+      ],
+      "candidate": {
+        "id": "openpostdoc-30a25e54-47e1-4774-ba1c-e859cd000f74",
+        "title": "Research Associate in Evidence Synthesis",
+        "institution": "University of Glasgow",
+        "country": "United Kingdom",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Medicine",
+        "deadline": "2026-11-09",
+        "status": "closed",
+        "duration": "Not stated",
+        "start": "Not stated",
+        "salary": "Not stated",
+        "source_url": "https://www.openpostdoc.org/position/30a25e54-47e1-4774-ba1c-e859cd000f74",
+        "apply_url": "https://www.jobs.ac.uk/job/DTG051/research-associate-in-evidence-synthesis",
+        "source_type": "OpenPostdoc",
+        "last_verified": "",
+        "first_seen": "2026-11-16",
+        "verification": "Reference-listed; employer verification pending",
+        "notes": "Dates and application status need confirmation on the employer posting.",
+        "reference_ids": [
+          "openpostdoc:30a25e54-47e1-4774-ba1c-e859cd000f74"
+        ],
+        "source_reports": [
+          {
+            "name": "OpenPostdoc",
+            "url": "https://www.openpostdoc.org/position/30a25e54-47e1-4774-ba1c-e859cd000f74",
+            "checked_on": "2026-11-16",
+            "reported_status": "closed"
+          }
+        ]
+      },
+      "review": "Same Glasgow vacancy210233 previously excluded: clinical evidence synthesis and systematic reviews without economics/finance research requirement.",
+      "review_decision": "excluded_scope",
+      "review_status": "excluded_scope",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Research Fellow: Biopharma Economics & Sustainability Modelling",
+      "institution": "University College London",
+      "url": "https://www.jobs.ac.uk/job/DTH703/research-fellow-biopharma-economics-and-sustainability-modelling",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "openpostdoc:25f95212-d7db-4dc7-ab3f-f94579cac457"
+      ],
+      "candidate": {
+        "id": "openpostdoc-25f95212-d7db-4dc7-ab3f-f94579cac457",
+        "title": "Research Fellow: Biopharma Economics & Sustainability Modelling",
+        "institution": "University College London",
+        "country": "United Kingdom",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Ecology & Environment",
+        "deadline": "2026-11-01",
+        "status": "closed",
+        "duration": "Not stated",
+        "start": "Not stated",
+        "salary": "Not stated",
+        "source_url": "https://www.openpostdoc.org/position/25f95212-d7db-4dc7-ab3f-f94579cac457",
+        "apply_url": "https://www.jobs.ac.uk/job/DTH703/research-fellow-biopharma-economics-and-sustainability-modelling",
+        "source_type": "OpenPostdoc",
+        "last_verified": "",
+        "first_seen": "2026-11-16",
+        "verification": "Reference-listed; employer verification pending",
+        "notes": "Dates and application status need confirmation on the employer posting.",
+        "reference_ids": [
+          "openpostdoc:25f95212-d7db-4dc7-ab3f-f94579cac457"
+        ],
+        "source_reports": [
+          {
+            "name": "OpenPostdoc",
+            "url": "https://www.openpostdoc.org/position/25f95212-d7db-4dc7-ab3f-f94579cac457",
+            "checked_on": "2026-11-16",
+            "reported_status": "closed"
+          }
+        ]
+      },
+      "review": "Previously reviewed non-postdoctoral scope exclusion retained; no evidence of a distinct newly eligible position.",
+      "review_decision": "excluded_scope",
+      "review_status": "excluded_scope",
+      "reviewed_on": "2026-11-16"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Postdoctoral Fellowships and Professorships of All Ranks",
+      "institution": "Kyiv School of Economics",
+      "url": "https://econjobmarket.org/positions/13026",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "ejm:13026"
+      ],
+      "candidate": {
+        "id": "ejm-13026",
+        "title": "Postdoctoral Fellowships and Professorships of All Ranks",
+        "institution": "Kyiv School of Economics",
+        "country": "",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Various position types Assistant Professor • Associate Professor • Full Professor • Postdoctoral Scholar Any field",
+        "deadline": "2027-04-30",
+        "status": "needs official confirmation",
+        "duration": "Continuing/permanent",
+        "start": "2027-08-02",
+        "salary": "Not stated",
+        "source_url": "https://econjobmarket.org/positions?page=1#position13026",
+        "apply_url": "https://econjobmarket.org/positions/13026",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "(13026) Postdoctoral Fellowships and Professorships of All Ranks Kyiv, Ukraine. Starts 2027-08-02.",
+        "recruitment_status": "Unknown",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:13026"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/positions?page=1#position13026",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13026",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Visiting Research Fellowships",
+      "institution": "Kyiv School of Economics",
+      "url": "https://econjobmarket.org/positions/13027",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "ejm:13027"
+      ],
+      "candidate": {
+        "id": "ejm-13027",
+        "title": "Visiting Research Fellowships",
+        "institution": "Kyiv School of Economics",
+        "country": "",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Various position types Postdoctoral Scholar • Visiting Assistant Professor • Visiting Associate Professor • Visiting Professor Any field",
+        "deadline": "2027-04-30",
+        "status": "needs official confirmation",
+        "duration": "1 year",
+        "start": "Flexible",
+        "salary": "Not stated",
+        "source_url": "https://econjobmarket.org/positions?page=1#position13027",
+        "apply_url": "https://econjobmarket.org/positions/13027",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "Duration: 1 year",
+        "recruitment_status": "Unknown",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:13027"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/positions?page=1#position13027",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13027",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Postdoctoral Position in International Macroeconomics and Finance",
+      "institution": "College of Management of Technology École Polytechnique Fédérale de Lausanne",
+      "url": "https://econjobmarket.org/positions/13012",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "ejm:13012"
+      ],
+      "candidate": {
+        "id": "ejm-13012",
+        "title": "Postdoctoral Position in International Macroeconomics and Finance",
+        "institution": "College of Management of Technology École Polytechnique Fédérale de Lausanne",
+        "country": "Switzerland",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Postdoctoral Scholar International Finance/Macro • Macroeconomics; Monetary",
+        "deadline": "2027-01-15",
+        "status": "open",
+        "duration": "1 year",
+        "start": "2027-06-01",
+        "salary": "Not stated",
+        "source_url": "https://econjobmarket.org/statuses?page=1#position13012",
+        "apply_url": "https://econjobmarket.org/positions/13012",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "(13012) Postdoctoral Position in International Macroeconomics and Finance Lausanne, Switzerland. Starts 2027-06-01. Dura",
+        "recruitment_status": "Accepting applications",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:13012"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/statuses?page=1#position13012",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13012",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Albert O. Hirschman Postdoc Program (Berlin / Kiel)",
+      "institution": "Kiel Institute for the World Economy",
+      "url": "https://econjobmarket.org/positions/13002",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "ejm:13002"
+      ],
+      "candidate": {
+        "id": "ejm-13002",
+        "title": "Albert O. Hirschman Postdoc Program (Berlin / Kiel)",
+        "institution": "Kiel Institute for the World Economy",
+        "country": "Germany",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Postdoctoral Scholar Various fields Development; Growth • Environmental; Energy; Ag. Econ • International Finance/Macro • International Trade • Macroeconomics; Monetary",
+        "deadline": "2026-11-30",
+        "status": "open",
+        "duration": "2 years",
+        "start": "2027-09-01",
+        "salary": "56,000 to 79,000 EUR",
+        "source_url": "https://econjobmarket.org/statuses?page=2#position13002",
+        "apply_url": "https://econjobmarket.org/positions/13002",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "(13002) Albert O. Hirschman Postdoc Program (Berlin / Kiel) Kiel, Germany. Starts 2027-09-01. Duration: 2 years Acceptin",
+        "recruitment_status": "Accepting applications",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:13002"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/statuses?page=2#position13002",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13002",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "PostDoc in Quantitative Economics (m/f/d) (Berlin)",
+      "institution": "Kiel Institute for the World Economy",
+      "url": "https://econjobmarket.org/positions/13008",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "ejm:13008"
+      ],
+      "candidate": {
+        "id": "ejm-13008",
+        "title": "PostDoc in Quantitative Economics (m/f/d) (Berlin)",
+        "institution": "Kiel Institute for the World Economy",
+        "country": "Germany",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Postdoctoral Scholar Various fields Environmental; Energy; Ag. Econ • International Finance/Macro • International Trade • Public Economics",
+        "deadline": "2026-11-30",
+        "status": "open",
+        "duration": "27 months",
+        "start": "2027-09-01",
+        "salary": "56,000 to 79,000 EUR",
+        "source_url": "https://econjobmarket.org/statuses?page=2#position13008",
+        "apply_url": "https://econjobmarket.org/positions/13008",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "(13008) PostDoc in Quantitative Economics (m/f/d) (Berlin) Kiel, Berlin, Germany. Starts 2027-09-01. Duration: 27 months",
+        "recruitment_status": "Accepting applications",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:13008"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/statuses?page=2#position13008",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13008",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Postdoctoral Fellowship in Environmental, Agricultural or Trade Economics",
+      "institution": "Geneva School of Economics and Management (GSEM) Université de Genève",
+      "url": "https://econjobmarket.org/positions/13024",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "ejm:13024"
+      ],
+      "candidate": {
+        "id": "ejm-13024",
+        "title": "Postdoctoral Fellowship in Environmental, Agricultural or Trade Economics",
+        "institution": "Geneva School of Economics and Management (GSEM) Université de Genève",
+        "country": "Switzerland",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Postdoctoral Scholar Various fields Econometrics • Environmental; Energy; Ag. Econ • Industrial Organization • International Trade • Insurance",
+        "deadline": "2026-12-07",
+        "status": "open",
+        "duration": "1 year",
+        "start": "Flexible",
+        "salary": "Not stated",
+        "source_url": "https://econjobmarket.org/statuses?page=3#position13024",
+        "apply_url": "https://econjobmarket.org/positions/13024",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "Duration: 1 year Accepting applications",
+        "recruitment_status": "Accepting applications",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:13024"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/statuses?page=3#position13024",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13024",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Postdoctoral Researcher in Economics of Education",
+      "institution": "Statistics Norway",
+      "url": "https://econjobmarket.org/positions/13009",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "ejm:13009"
+      ],
+      "candidate": {
+        "id": "ejm-13009",
+        "title": "Postdoctoral Researcher in Economics of Education",
+        "institution": "Statistics Norway",
+        "country": "Norway",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Postdoctoral Scholar Various fields Labor; Demographic Economics • Health; Education; Welfare • Applied microeconomics",
+        "deadline": "2027-01-03",
+        "status": "open",
+        "duration": "2 years",
+        "start": "Flexible",
+        "salary": "675,000 to 780,000 NOK",
+        "source_url": "https://econjobmarket.org/statuses?page=3#position13009",
+        "apply_url": "https://econjobmarket.org/positions/13009",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "Duration: 2 years Accepting applications",
+        "recruitment_status": "Accepting applications",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:13009"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/statuses?page=3#position13009",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13009",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Postdoc in Behavioral & Climate Economics and Decision-Making under Uncertainty",
+      "institution": "IÉSEG School of Management",
+      "url": "https://econjobmarket.org/positions/13000",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "ejm:13000"
+      ],
+      "candidate": {
+        "id": "ejm-13000",
+        "title": "Postdoc in Behavioral & Climate Economics and Decision-Making under Uncertainty",
+        "institution": "IÉSEG School of Management",
+        "country": "France",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Postdoctoral Scholar Various fields Environmental; Energy; Ag. Econ • Experimental Economics • Public Economics • Behavioral Economics • Decision Sciences",
+        "deadline": "2026-12-18",
+        "status": "open",
+        "duration": "18 months",
+        "start": "Flexible",
+        "salary": "Not stated",
+        "source_url": "https://econjobmarket.org/statuses?page=3#position13000",
+        "apply_url": "https://econjobmarket.org/positions/13000",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "Duration: 18 months Accepting applications",
+        "recruitment_status": "Accepting applications",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:13000"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/statuses?page=3#position13000",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13000",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "1 Post-Doc Researcher - GREEN Research Center - Università Bocconi",
+      "institution": "Economics Bocconi University",
+      "url": "https://econjobmarket.org/positions/13014",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "ejm:13014"
+      ],
+      "candidate": {
+        "id": "ejm-13014",
+        "title": "1 Post-Doc Researcher - GREEN Research Center - Università Bocconi",
+        "institution": "Economics Bocconi University",
+        "country": "Italy",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Postdoctoral Scholar Various fields Environmental; Energy; Ag. Econ • Finance • Behavioral Economics • Applied microeconomics",
+        "deadline": "2026-12-30",
+        "status": "open",
+        "duration": "2 years",
+        "start": "2027-05-01",
+        "salary": "Not stated",
+        "source_url": "https://econjobmarket.org/statuses?page=4#position13014",
+        "apply_url": "https://econjobmarket.org/positions/13014",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "(13014) 1 Post-Doc Researcher - GREEN Research Center - Università Bocconi Milano, Italy. Starts 2027-05-01. Duration: 2",
+        "recruitment_status": "Accepting applications",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:13014"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/statuses?page=4#position13014",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-13014",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "vacancy",
+      "title": "Postdoctoral Research Fellow in Economics",
+      "institution": "Faculty of Management and Business Tampere University",
+      "url": "https://econjobmarket.org/positions/12986",
+      "discovered_on": "2026-11-16",
+      "reference_ids": [
+        "ejm:12986"
+      ],
+      "candidate": {
+        "id": "ejm-12986",
+        "title": "Postdoctoral Research Fellow in Economics",
+        "institution": "Faculty of Management and Business Tampere University",
+        "country": "Finland",
+        "city": "",
+        "rank": null,
+        "scope": "Additional European institution",
+        "topics": [
+          "General interest"
+        ],
+        "fit": "Postdoctoral Scholar Any field",
+        "deadline": "2026-12-13",
+        "status": "open",
+        "duration": "5 years",
+        "start": "2027-09-01",
+        "salary": "Not stated",
+        "source_url": "https://econjobmarket.org/statuses?page=4#position12986",
+        "apply_url": "https://econjobmarket.org/positions/12986",
+        "source_type": "Econ Job Market employer advert",
+        "last_verified": "2026-11-16",
+        "first_seen": "2026-11-16",
+        "verification": "Employer-published EJM advertisement",
+        "search_status": "(12986) Postdoctoral Research Fellow in Economics Tampere, Finland. Starts 2027-09-01. Duration: 5 years Accepting appli",
+        "recruitment_status": "Accepting applications",
+        "notes": "Recruiter search status is separate from whether new applications are accepted.",
+        "reference_ids": [
+          "ejm:12986"
+        ],
+        "source_reports": [
+          {
+            "name": "Econ Job Market",
+            "url": "https://econjobmarket.org/statuses?page=4#position12986",
+            "checked_on": "2026-11-16"
+          }
+        ]
+      },
+      "review": "Existing verified upstream vacancy or alias retained. Related-field and qualification caveats remain explicit in the public record.",
+      "review_decision": "accounted_public_record",
+      "reviewed_on": "2026-11-16",
+      "public_id": "ejm-12986",
+      "review_status": "public_confirmed"
+    },
+    {
+      "kind": "paper",
+      "title": "Commodity Inflation Risk Premium for Commodity and Stock Market Returns",
+      "journal": "Undisclosed",
+      "status": "R&R",
+      "source_author": "Ai Jun Hou",
+      "evidence_url": "https://daisyaijun.com/",
+      "paper_url": "",
+      "discovered_on": "2026-11-16",
+      "reviewed_on": "2026-11-16",
+      "review_status": "needs_review",
+      "review": "Own bounded author-page news reports R&R, but does not identify the journal. Do not borrow Journal of Financial Economics from the adjacent published paper. Confirm the explicit journal before admission."
     }
   ]
 }

@@ -6,7 +6,7 @@
   "author_name_groups": 8867,
   "author_identity_records": 11298,
   "approved_homepages": 8515,
-  "homepages_scanned_this_run": 287,
+  "homepages_scanned_this_run": 9562,
   "journals": {
     "JF": {
       "status": "complete",
@@ -40,17 +40,17 @@
     }
   },
   "schools": 50,
-  "feeds_fetched": 0,
-  "review_queue": 460,
-  "schedule": "Weekly on Mondays (GitHub Actions; activation requires repository deployment)",
+  "feeds_fetched": 21,
+  "review_queue": 27,
+  "schedule": "Weekly on Mondays at 06:15 UTC; actual execution is audited separately",
   "coverage_note": "Homepage coverage is partial. Name/affiliation identities are provisional. A fetched career feed is not an exhaustive vacancy search.",
   "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
   "paper_sources_checked": 20088,
   "reference_paper_rows": 76,
   "job_counts": {
     "total": 128,
-    "active": 68,
-    "historical": 56,
+    "active": 71,
+    "historical": 53,
     "uncertain": 4
   },
   "benchmark_sources": {
@@ -76,31 +76,31 @@
         "name": "OpenPostdoc",
         "url": "https://www.openpostdoc.org/board",
         "total_scanned": 4095,
-        "reference_screened": 73,
         "in_scope": 69,
         "matched": 69,
         "missing": 0,
-        "scope_excluded": 4,
+        "checked_on": "2026-11-16",
+        "status": "complete public pagination",
+        "note": "All active and archived pages across all fields were scanned. Only European economics, finance and explicitly related postdoctoral records are included; mechanically focused jobs mislabeled Economics are excluded.",
         "public_reference_records": 69,
         "pending_review_records": 0,
-        "checked_on": "2026-11-16",
-        "status": "complete fresh public pagination; all same-scope IDs individually reconciled",
-        "note": "All active and archived pages across all fields were scanned. Only European economics, finance and explicitly related postdoctoral records are included; mechanically focused jobs mislabeled Economics are excluded."
+        "accounting_basis": "All current reference IDs are either individually verified public vacancy aliases or explicitly reviewed unpublished scope exclusions. Employer evidence, deadlines and acceptance state are checked separately from pagination.",
+        "scope_excluded": 4
       },
       {
         "name": "Econ Job Market",
         "url": "https://econjobmarket.org/statuses?page=5",
         "total_scanned": 469,
-        "reference_screened": 90,
         "in_scope": 88,
         "matched": 88,
         "missing": 0,
-        "scope_excluded": 2,
+        "checked_on": "2026-11-16",
+        "status": "complete public pagination",
+        "note": "All public status and position pages were scanned. Public EJM omits some login-only/free advertisements.",
         "public_reference_records": 88,
         "pending_review_records": 0,
-        "checked_on": "2026-11-16",
-        "status": "complete fresh public pagination; all same-scope IDs individually reconciled",
-        "note": "All public status and position pages were scanned. Public EJM omits some login-only/free advertisements."
+        "accounting_basis": "All current reference IDs are either individually verified public vacancy aliases or explicitly reviewed unpublished scope exclusions. Employer evidence, deadlines and acceptance state are checked separately from pagination.",
+        "scope_excluded": 2
       }
     ]
   },
@@ -126,7 +126,7 @@
     "linked_homepages": 5320,
     "homepage_percent": 96.62,
     "searched_by_name": 4670,
-    "homepages_scanned_this_run": 147,
+    "homepages_scanned_this_run": 4889,
     "basis": "Normalized author name groups from MS publications. Publication/affiliation matches and profile-only links are reported separately; namesakes remain provisional."
   },
   "ms_rr_scan_summary": {
@@ -139,11 +139,11 @@
     "candidate_count": 73
   },
   "rr_counts_by_journal": {
-    "JF": 106,
+    "JF": 104,
     "JFE": 82,
-    "RFS": 149,
-    "RF": 64,
-    "JFQA": 69,
+    "RFS": 148,
+    "RF": 65,
+    "JFQA": 71,
     "MS": 138
   },
   "finance_top5_author_homepage_coverage": {
@@ -192,11 +192,11 @@
     "coverage_percent": 96.2461,
     "coverage_basis": "Original fixed 10,762 author rows; personal websites preferred, with dedicated institution profiles as fallback. URL discovery and successful R&R content scanning are separate measures.",
     "saved_on": "2026-10-14",
-    "last_attempted": "2026-11-09",
+    "last_attempted": "2026-11-16",
     "preferred_url_scan_results": {
-      "fetched": 9556,
+      "fetched": 9534,
       "missing_url": 404,
-      "failed": 802
+      "failed": 824
     },
     "url_coverage_checked_on": "2026-11-09",
     "unresolved_urls": 404
@@ -222,20 +222,20 @@
     "duplicate_title_variants_excluded": 1,
     "audit_file": "rof-alias-rescan-audit.json"
   },
-  "research_pages_scanned_this_run": 0,
+  "research_pages_scanned_this_run": 8251,
   "postdocs_last_run": "2026-11-16",
   "reject_resubmit_counts_by_journal": {
-    "JF": 15,
+    "JF": 16,
     "JFE": 7,
     "RFS": 3,
     "RF": 2,
-    "JFQA": 5,
-    "MS": 21
+    "JFQA": 7,
+    "MS": 24
   },
-  "source_scan_complete": false,
-  "source_scan_note": "307 source bodies read and97 fetch failures. All other source URLs were not attempted in this partial checkpoint; prior primary dates preserved. This is not a completed whole-roster scan.",
+  "source_scan_complete": true,
+  "source_scan_note": "Every saved preferred URL was attempted and all selected source requests completed. Access failures and blank URLs remain explicit. A fetched URL does not establish complete research text, valid author ownership or absence of R&R; no expanded ten-year roster scan is claimed.",
   "additional_preferred_profile_pages_fetched_this_run": 2,
-  "rr_last_complete_source_scan": "2026-11-09",
+  "rr_last_complete_source_scan": "2026-11-16",
   "rr_incremental_publication": {
     "date": "2026-11-15",
     "new_strict_rr": 14,
