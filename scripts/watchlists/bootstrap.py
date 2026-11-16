@@ -34,7 +34,7 @@ def load(name, default):
     if isinstance(obj,dict) and 'record_shards' in obj:
         records=[]
         for relative in obj['record_shards']:
-            shard=(DATA/relative).resolve()
+            shard=(DATA/relative.replace('\\','/')).resolve()
             if not shard.is_relative_to(DATA.resolve()):raise ValueError('Invalid shard path')
             records.extend(json.loads(gzip.decompress(shard.read_bytes())))
         if len(records)!=obj['record_count']:raise ValueError('Incomplete record shards')
@@ -53,12 +53,12 @@ def save(name, obj):
             target=directory/('part-'+str(start//1000+1).zfill(3)+'.json.gz')
             payload=json.dumps(obj[key][start:start+1000],ensure_ascii=False,separators=(',',':')).encode()
             temp=target.with_suffix('.tmp');temp.write_bytes(gzip.compress(payload,mtime=0));temp.replace(target)
-            parts.append(str(target.relative_to(DATA)))
+            parts.append(target.relative_to(DATA).as_posix())
         index={'record_key':key,'record_count':len(obj[key]),'record_shards':parts,'metadata':{k:v for k,v in obj.items() if k!=key}}
         temp=p.with_suffix('.tmp');temp.write_text(json.dumps(index,indent=2)+'\n');temp.replace(p)
         p.with_suffix(p.suffix+'.gz').unlink(missing_ok=True)
         for stale in directory.glob('part-*.json.gz'):
-            if str(stale.relative_to(DATA)) not in parts:stale.unlink()
+            if stale.relative_to(DATA).as_posix() not in parts:stale.unlink()
         return
     if name in ['corpus.json','author-universe.json','ms-author-ledger.json','conference-authors.json','conference-author-ledger.json','author-watchlist.json']:
         encoded=json.dumps(obj,ensure_ascii=False,separators=(',',':')).encode()

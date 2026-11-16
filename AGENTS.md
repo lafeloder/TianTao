@@ -9,3 +9,5 @@ For Top5RR and EuropePostdocs weekly maintenance, the user authorizes updates to
 - If the user explicitly requests a UI correction, make only that correction and retain the latest verified watchlist data.
 
 The full watchlist interface was restored at the user's explicit request on 2 November 2026 from the version before commit `f4d2b0a48de3f7f1e8cc62ad372cd40f5ab2c95f`.
+
+On 16 November 2026 the user explicitly requested the two watchlist pages to show only their title, Search, list and pagination. Preserve that minimal watchlist interface; do not restore charts, acknowledgements, source/coverage/licensing explanations or download links. Other personal-site pages and menus remain unchanged.

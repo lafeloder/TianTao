@@ -7,6 +7,17 @@ from unittest.mock import patch
 import bootstrap
 
 class StorageTests(unittest.TestCase):
+    def test_windows_shard_index_is_readable_on_linux(self):
+        with tempfile.TemporaryDirectory() as folder, patch.object(bootstrap,'DATA',Path(folder)):
+            obj={'authors':[{'name':'Identity retained'}]}
+            bootstrap.save('homepages.json',obj)
+            p=Path(folder)/'homepages.json';index=json.loads(p.read_text())
+            index['record_shards']=[s.replace('/','\\') for s in index['record_shards']]
+            p.write_text(json.dumps(index))
+            self.assertEqual(bootstrap.load('homepages.json',{}),obj)
+            bootstrap.save('homepages.json',obj)
+            self.assertTrue(all('\\' not in s for s in json.loads(p.read_text())['record_shards']))
+
     def test_evidence_indexes_roundtrip_and_remove_obsolete_shards(self):
         with tempfile.TemporaryDirectory() as folder, patch.object(bootstrap,'DATA',Path(folder)):
             for name,key in [('homepages.json','authors'),('run-report.json','sources'),('author-watchlist.json','authors')]:

@@ -237,3 +237,7 @@ The Top5RR page selects source_scope=top5 and revision statuses before serializi
 ### Evidence storage and partial checkpoints (9 November 2026)
 
 `homepages.json` and `run-report.json` are lossless indexes of compressed record shards in the corresponding directories. Use `bootstrap.load()` to reconstruct all records. Individual upload/review payloads remain bounded; record counts are checked on load. Interrupted retrieval is recorded as not attempted, separately from fetch failure; its previous primary dates are retained. Current employer deadlines take precedence over conflicting EJM listing dates until the employer is rechecked.
+
+### 16 November 2026
+
+The latest explicit user instruction supersedes the prior full-interface restoration for the two watchlist pages: preserve title, Search, lists and pagination only. No source/coverage/licensing panels, charts or download links. Other personal pages and navigation remain intact. Shard indexes accept legacy Windows separators and always write portable POSIX paths; a regression test covers the Linux workflow failure seen on9 November.

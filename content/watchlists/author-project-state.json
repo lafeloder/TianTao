@@ -1,6 +1,6 @@
 {
-  "updated_on": "2026-11-09",
-  "status": "weekly_update_completed_with_explicit_source_failures",
+  "updated_on": "2026-11-16",
+  "status": "weekly_references_updated_author_scan_partial",
   "author_scope": {
     "membership_policy": "Fixed roster from 14 October; no author or conference expansion.",
     "saved_name_groups": 10762,
@@ -12,18 +12,56 @@
   },
   "workbook": {
     "library_file_id": "libfile_2ab0f8a976908191b02144892ce72f6e",
-    "file_id": "file_0000000010f48212b3d3d681cd9649b6",
+    "file_id": "file_00000000f62482308d884ac4ae9325a8",
     "file_name": "Top5_Authors_Websites_RR.xlsx",
-    "version": 5,
+    "version": 6,
     "author_rows": 10763,
     "rr_paper_columns": 5,
     "ssrn_columns": 5,
-    "paper_author_associations": 1366,
+    "paper_author_associations": 1393,
     "saved_before_website_publication": true,
     "all_homepages_and_rr_complete": false,
-    "supplemental_rr_review_note": "Preserved upstream delivered workbook version5 and its unchanged author membership. The eight later R&R additions are website data updates; no workbook is published for download."
+    "supplemental_rr_review_note": "Workbook version6 synchronizes all currently admitted title-matched author-paper/SSRN associations (1393); webpage ownership and full source completeness remain explicitly limited."
   },
   "source_attempts": {
+    "checked_on": "2026-11-16",
+    "complete": false,
+    "actual_source_outcomes": 404,
+    "results": {
+      "fetched": 307,
+      "failed": 97,
+      "not_attempted_checkpoint_interrupted": 11412
+    },
+    "note": "307 source bodies read and97 fetch failures. All other source URLs were not attempted in this partial checkpoint; prior primary dates preserved. This is not a completed whole-roster scan."
+  },
+  "completed": [
+    "All three references fully paginated:76 paper rows,4095 OpenPostdoc raw records over42 pages,469 EJM raw records over17 pages; same-scope reference-ID missing=0.",
+    "Thirteen new employer-reviewed adverts admitted; EPFL three source IDs merged as one reference2590 vacancy.",
+    "Twenty existing adverts closed to new applications; no inference that positions are filled.",
+    "Workbook version6 saved before website publication; current verified paper and SSRN associations synchronized.",
+    "Two watchlist pages reduced to title, Search, lists and pagination per latest explicit user instruction; other personal pages and menu unchanged.",
+    "Windows shard path interoperability failure fixed and regression checked."
+  ],
+  "remaining": [
+    "404 author rows still lack webpage URLs.",
+    "Whole-roster ownership audit and current R&R content scan remain incomplete; source failures and unattempted pages keep original verification dates.",
+    "Publication corpus still retains2021-10-13 to2026-10-13 window; rolling-author expansion not completed."
+  ],
+  "resume": {
+    "read": [
+      "scripts/watchlists/README.md",
+      "content/watchlists/author-watchlist.json",
+      "content/watchlists/weekly-audit-2026-10-26.json",
+      "content/watchlists/author-identity-resolutions.json"
+    ],
+    "rule": "Start with current GitHub main and its AGENTS.md. Preserve the user-restored complete interface. Resume source/identity gaps using actual evidence; keep two Meng Gao identities separate and preserve published/accepted decisions. Never treat blank R&R as verified none.",
+    "prior_checkpoint_date": "2026-10-12",
+    "old_environment_error_resolved": true
+  },
+  "current_run": "Fresh complete reference pagination and individual new employer review; partial author-source checkpoint only. No new public papers or paper decision changes this run.",
+  "followup_audit": "weekly-audit-2026-11-16.json",
+  "source_followup_checkpoint_preserved_from_commit": "aa667d0be73360bdddb09e41d7d4c7881d4271c3",
+  "previous_complete_source_attempts": {
     "checked_on": "2026-11-09",
     "network_attempts": 20661,
     "network_unique_urls": 20661,
@@ -44,36 +82,5 @@
       "missing_url": 404,
       "failed": 802
     }
-  },
-  "completed": [
-    "All three public references completely paginated again; same-scope IDs individually reconciled with zero missing. No new or removed reference IDs in this follow-up.",
-    "Two previously missing individual institutional profile URLs verified with matching publisher identity; personal research sites remain unlocated.",
-    "Linked outdated CV reviewed: its two apparent R&Rs confirmed published and excluded from current R&R additions.",
-    "Same author workbook saved as version5 before publishing this follow-up; column order, all rows and separate Meng Gao identities retained.",
-    "EJM later-page fallback regression fixed and tested; existing site interface and menus preserved.",
-    "Complete supplementary known-source retrieval finished; actual failures and blank URLs remain distinct.",
-    "Eight new strict six-journal R&R records individually verified; current title aliases and working-paper identifiers deduplicated.",
-    "Both upstream profile repairs and linked outdated CV reread; no published CV paper added as current R&R."
-  ],
-  "remaining": [
-    "404 fixed author rows lack a webpage URL.",
-    "1867 source requests failed; previous actual verification dates remain intact.",
-    "Full ownership/publication identity audit remains incomplete; linked URL coverage is not complete research-content coverage.",
-    "Current unpublished R&R not established for the two repaired profiles: Cline has no research/CV source and Clifford CV is outdated.",
-    "Publication corpus retains its explicitly saved five-year window; no weekly publication-author or conference universe rebuild performed."
-  ],
-  "resume": {
-    "read": [
-      "scripts/watchlists/README.md",
-      "content/watchlists/author-watchlist.json",
-      "content/watchlists/weekly-audit-2026-10-26.json",
-      "content/watchlists/author-identity-resolutions.json"
-    ],
-    "rule": "Start with current GitHub main and its AGENTS.md. Preserve the user-restored complete interface. Resume source/identity gaps using actual evidence; keep two Meng Gao identities separate and preserve published/accepted decisions. Never treat blank R&R as verified none.",
-    "prior_checkpoint_date": "2026-10-12",
-    "old_environment_error_resolved": true
-  },
-  "current_run": "Complete saved-roster acquisition, eight individually reviewed new R&R records, preserved 15 earlier new employer records, and retained upstream two-profile identity repair. No author membership or conference expansion.",
-  "followup_audit": "reviews/2026-11-09-followup.json",
-  "source_followup_checkpoint_preserved_from_commit": "aa667d0be73360bdddb09e41d7d4c7881d4271c3"
+  }
 }
