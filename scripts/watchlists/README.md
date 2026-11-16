@@ -240,4 +240,6 @@ The Top5RR page selects source_scope=top5 and revision statuses before serializi
 
 ### 16 November 2026
 
-The latest explicit user instruction supersedes the prior full-interface restoration for the two watchlist pages: preserve title, Search, lists and pagination only. No source/coverage/licensing panels, charts or download links. Other personal pages and navigation remain intact. Shard indexes accept legacy Windows separators and always write portable POSIX paths; a regression test covers the Linux workflow failure seen on9 November.
+The user reaffirmed that maintenance must preserve the full existing interface. The title/Search-only rewrite was incorrect and has been reversed. Preserve headers, acknowledgements, journal/field/status and country/status selectors, interactive distribution charts, counts, source links, lists and pagination. Keep all newer paper and vacancy data when restoring the interface. Routine updates may edit data and evidence only; the weekly workflow rejects changes outside `content/watchlists/` and `public/watchlists/`. Other personal pages and navigation remain intact.
+
+Shard indexes accept legacy Windows separators and always write portable POSIX paths; the storage regression test covers the Linux workflow failure seen on9 November. This storage fix remains independent of the interface restoration.

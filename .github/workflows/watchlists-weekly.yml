@@ -33,6 +33,22 @@ jobs:
         run: python scripts/watchlists/benchmarks.py --jobs-only
       - name: Validate public data
         run: python scripts/watchlists/validate.py
+      - name: Enforce data-only weekly updates
+        run: |
+          python - <<'PY'
+          import subprocess
+          changed = set()
+          for command in [
+              ['git', 'diff', '--name-only', 'HEAD'],
+              ['git', 'ls-files', '--others', '--exclude-standard'],
+          ]:
+              changed.update(subprocess.check_output(command, text=True).splitlines())
+          allowed = ('content/watchlists/', 'public/watchlists/')
+          unexpected = sorted(path for path in changed if not path.startswith(allowed))
+          if unexpected:
+              raise SystemExit('Weekly refresh attempted non-data changes: ' + ', '.join(unexpected))
+          print('Weekly refresh changed watchlist data only.')
+          PY
       - name: Save evidence and coverage report
         uses: actions/upload-artifact@v4
         with:
