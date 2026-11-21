@@ -8575,6 +8575,91 @@
       "reviewed_on": "2026-11-16",
       "review_status": "needs_review",
       "review": "Own bounded author-page news reports R&R, but does not identify the journal. Do not borrow Journal of Financial Economics from the adjacent published paper. Confirm the explicit journal before admission."
+    },
+    {
+      "id": "personal-b18cd0b1d331a7b9",
+      "kind": "paper",
+      "title": "Creativity without Walls: the Case of Open Innovation",
+      "journal": "JFQA",
+      "status": "Reject & Resubmit",
+      "authors": [
+        "Anahit Mkrtchyan",
+        "John Jianqiu Bai",
+        "Chi Wan",
+        "Rui Dai"
+      ],
+      "evidence_url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "evidence_excerpt": "8 . \" Creativity without Walls: the Case of Open Innovation \", 2025, with Rui Dai, Anahit Mkrtchyan, and Chi Wan ( Reject and Resubmit at Journal of Financial and Quantitative Analysis )",
+      "reason": "Explicit Reject versus Revise conflict across primary coauthor pages; keep existing status pending resolution.",
+      "review_status": "needs_review",
+      "discovered_on": "2026-11-21",
+      "reference_ids": []
+    },
+    {
+      "id": "personal-e261745650af78d9",
+      "kind": "paper",
+      "title": "Supervising Failing Banks",
+      "journal": "JF",
+      "status": "R&R",
+      "authors": [
+        "Sergio Correia",
+        "Stephan Luck",
+        "Emil Verner"
+      ],
+      "evidence_url": "https://sites.google.com/site/stephanluck/Home/research",
+      "evidence_excerpt": "Supervising Failing Banks , (with Sergio Correia and Emil Verner) [R&R at Journal of Finance ]",
+      "reason": "Previously Accepted; an older R&R page does not reactivate it.",
+      "review_status": "needs_review",
+      "discovered_on": "2026-11-21",
+      "reference_ids": []
+    },
+    {
+      "id": "personal-062d75c6d0266727",
+      "kind": "paper",
+      "title": "at Management Science",
+      "journal": "MS",
+      "status": "R&R",
+      "authors": [
+        "Jiwoong Shin"
+      ],
+      "evidence_url": "https://faculty.som.yale.edu/jiwoongshin/working-papers",
+      "evidence_excerpt": "(with Jieteng Chen and Tony Ke), revise and resubmit at Management Science",
+      "reason": "At Management Science is a detached status fragment; two actual Shin papers are recovered separately.",
+      "review_status": "needs_review",
+      "discovered_on": "2026-11-21",
+      "reference_ids": []
+    },
+    {
+      "id": "personal-1be2d8e9d9f4c64d",
+      "kind": "paper",
+      "title": "Kidney exchange in dynamic sparse heterogeneous pools",
+      "journal": "MS",
+      "status": "R&R",
+      "authors": [
+        "Itai Ashlagi"
+      ],
+      "evidence_url": "https://web.mit.edu/iashlagi/www/papers",
+      "evidence_excerpt": "Kidney exchange in dynamic sparse heterogeneous pools Patrick Jaillet Vahideh Manshadi R&R ",
+      "reason": "The preserved MIT page says R&R, but the current Stanford personal site places this 2013 paper under Old Manuscripts/Technical report; current R&R status is unresolved. Retain both sources without a new active count.",
+      "review_status": "needs_review",
+      "discovered_on": "2026-11-21",
+      "reference_ids": []
+    },
+    {
+      "id": "personal-dd6c8cf07591120d",
+      "kind": "paper",
+      "title": "（1）Unintended Labour Market Consequences of Shareholder Litigation",
+      "journal": "JFQA",
+      "status": "R&R",
+      "authors": [
+        "Wei-Fong Pan"
+      ],
+      "evidence_url": "https://www.panwf.com/research",
+      "evidence_excerpt": "（1）Unintended Labour Market Consequences of Shareholder Litigation R&R at Journal of Financial and Quantitative Analysis",
+      "reason": "Full author list not resolved on this title-only page; retain candidate without incrementing public count.",
+      "review_status": "needs_review",
+      "discovered_on": "2026-11-21",
+      "reference_ids": []
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-16",
+  "last_run": "2026-11-21",
   "publication_window_start": "2021-10-13",
   "publication_window_end": "2026-10-13",
   "articles": 4947,
@@ -41,7 +41,7 @@
   },
   "schools": 50,
   "feeds_fetched": 21,
-  "review_queue": 27,
+  "review_queue": 506,
   "schedule": "Weekly on Mondays at 06:15 UTC; actual execution is audited separately",
   "coverage_note": "Homepage coverage is partial. Name/affiliation identities are provisional. A fetched career feed is not an exhaustive vacancy search.",
   "linkedin_note": "Public LinkedIn evidence only. Automated LinkedIn crawling may be blocked; no signed-in or complete LinkedIn coverage is claimed.",
@@ -139,12 +139,12 @@
     "candidate_count": 73
   },
   "rr_counts_by_journal": {
-    "JF": 104,
-    "JFE": 82,
-    "RFS": 148,
-    "RF": 65,
-    "JFQA": 71,
-    "MS": 138
+    "JF": 109,
+    "JFE": 88,
+    "JFQA": 75,
+    "MS": 157,
+    "RF": 69,
+    "RFS": 156
   },
   "finance_top5_author_homepage_coverage": {
     "linked_authors": 4076,
@@ -152,7 +152,7 @@
     "percent": 94.77,
     "basis": "Normalized author name groups with publications in JF, JFE, RFS, JFQA or RF; homepage eligibility must match a publication in those journals."
   },
-  "rr_last_run": "2026-11-16",
+  "rr_last_run": "2026-11-21",
   "conference_author_homepage_coverage": {
     "checked_on": "2026-10-14",
     "scope_years": [
@@ -187,19 +187,29 @@
   },
   "author_update_mode": "fixed saved author watchlist; conference additions only on user request",
   "author_watchlist": {
-    "author_rows": 10762,
-    "linked_authors": 10358,
-    "coverage_percent": 96.2461,
-    "coverage_basis": "Original fixed 10,762 author rows; personal websites preferred, with dedicated institution profiles as fallback. URL discovery and successful R&R content scanning are separate measures.",
-    "saved_on": "2026-10-14",
-    "last_attempted": "2026-11-16",
-    "preferred_url_scan_results": {
-      "fetched": 9534,
-      "missing_url": 404,
-      "failed": 824
-    },
-    "url_coverage_checked_on": "2026-11-09",
-    "unresolved_urls": 404
+    "author_rows": 12294,
+    "linked_authors": 11087,
+    "coverage_percent": 90.1822,
+    "coverage_basis": "Preserved original fixed roster plus previously approved ten-year Finance supplement. URL availability, personal-site classification, author identity and successful R&R body reads are separate measures.",
+    "original_fixed_roster_rows": 10762,
+    "previously_approved_ten_year_supplement_rows": 1532,
+    "url_coverage_checked_on": "2026-11-21",
+    "unresolved_urls": 1207,
+    "previous_fixed_roster_scan": {
+      "author_rows": 10762,
+      "linked_authors": 10358,
+      "coverage_percent": 96.2461,
+      "coverage_basis": "Original fixed 10,762 author rows; personal websites preferred, with dedicated institution profiles as fallback. URL discovery and successful R&R content scanning are separate measures.",
+      "saved_on": "2026-10-14",
+      "last_attempted": "2026-11-16",
+      "preferred_url_scan_results": {
+        "fetched": 9534,
+        "missing_url": 404,
+        "failed": 824
+      },
+      "url_coverage_checked_on": "2026-11-09",
+      "unresolved_urls": 404
+    }
   },
   "author_website_audit": {
     "checked_on": "2026-10-14",
@@ -232,11 +242,151 @@
     "JFQA": 7,
     "MS": 24
   },
-  "source_scan_complete": true,
-  "source_scan_note": "Every saved preferred URL was attempted and all selected source requests completed. Access failures and blank URLs remain explicit. A fetched URL does not establish complete research text, valid author ownership or absence of R&R; no expanded ten-year roster scan is claimed.",
+  "source_scan_complete": false,
+  "source_scan_note": "Personal-first URL reconciliation and incremental primary-source checks on 21 November; cached bodies retain original dates. This is not a new full-roster R&R text-read claim. The previous complete fixed-roster attempt remains 16 November.",
   "additional_preferred_profile_pages_fetched_this_run": 2,
   "rr_last_complete_source_scan": "2026-11-16",
   "rr_incremental_publication": {
+    "date": "2026-11-21",
+    "new_strict_rr": 49,
+    "new_reject_and_resubmit": 4,
+    "net_strict_rr": 46,
+    "net_reject_and_resubmit": 4,
+    "strict_rr": 654,
+    "reject_and_resubmit": 63,
+    "displayed_revision_papers": 717,
+    "status_changes": [
+      {
+        "scope": "finance",
+        "id": "ms-529ae4594bcd1744",
+        "title": "Costly Capacity Signaling Increases Matching Efficiency: Evidence from a Field Experiment",
+        "before": "R&R",
+        "after": "Accepted",
+        "evidence_url": "https://parasurama.github.io/",
+        "reason": "Literal Management Science, Forthcoming in this paper record."
+      },
+      {
+        "scope": "finance",
+        "id": "conference-45c223213785efaf",
+        "title": "Learning about housing cost: survey evidence from the German house price boom",
+        "before": "R&R",
+        "after": "Accepted",
+        "evidence_url": "https://web.stanford.edu/~piazzesi/",
+        "reason": "Literal July 2026, conditionally accepted at Review of Financial Studies, in the author's matching paper record. Short CV title is the same paper."
+      },
+      {
+        "scope": "finance",
+        "id": "weekly-20261019-c1d43b097e18c9e9",
+        "title": "Leasing as a Mitigation Channel of Capital Misallocation",
+        "before": "R&R",
+        "after": "Accepted",
+        "evidence_url": "https://sites.google.com/site/kailiwebpage/research",
+        "reason": "Literal Journal of Financial Economics, Accepted, 2025 in matching author-page record."
+      },
+      {
+        "scope": "finance",
+        "id": "author-site-expanded-20261012-013",
+        "title": "Biodiversity Risk",
+        "before": "R&R",
+        "after": "Accepted",
+        "evidence_url": "https://stefanogiglio.org/papers/giglio-cv.pdf",
+        "reason": "Literal Review of Finance special issue, forthcoming in the matching primary CV record."
+      }
+    ],
+    "existing_scope_completions": [
+      {
+        "scope": "finance",
+        "id": "chenyang-067",
+        "title": "Do Index Funds Monitor? Revisited",
+        "change": "existing stored paper, journal explicitly confirmed as Review of Finance",
+        "previously_visible": false
+      }
+    ],
+    "author_roster_rebuilt": false,
+    "new_paper_ids": [
+      "personal-68d3d37aeae5c6cb",
+      "personal-6586219f14f6be96",
+      "personal-efe45b6666acd1a9",
+      "personal-03b7cfd4cc7171a9",
+      "personal-74c06e702038a62b",
+      "personal-70657b81fcf509ee",
+      "personal-adb928043b8b9465",
+      "personal-c6a78fa4fa773afe",
+      "personal-3a70819cb3efde95",
+      "personal-b93133a1a32cfed9",
+      "personal-73bc334990a30d75",
+      "personal-d796eacb9cab1eda",
+      "personal-64287827d5b79688",
+      "personal-32cbe4b85f24fcf7",
+      "personal-cade3bbcfa5a0b01",
+      "personal-5345442ae18f5b8b",
+      "personal-b1eea6765fe62c19",
+      "personal-3a1a6657908a7d19",
+      "personal-30789b6304fe3565",
+      "personal-b0d1fcc9d2379a60",
+      "personal-3c48eb4c63c74125",
+      "personal-0e7385163ba9eab3",
+      "personal-aa10fe407c127733",
+      "personal-869e87e511b01827",
+      "personal-95c82562989bc55a",
+      "personal-c27ab2af964e96a2",
+      "personal-bafe683a3acf4db5",
+      "personal-51a1b1d921eebb94",
+      "personal-8abdc40bdc3ba855",
+      "personal-ceb18f64b7ae9c96",
+      "personal-f65c673a1d6a4408",
+      "personal-c232db79e9483d88",
+      "personal-df517f7cc0769ece",
+      "personal-fa9b42c009d62bd5",
+      "personal-7657384fd8d5eb87",
+      "personal-4bee7bc462e4a361",
+      "personal-309ea18abd556873",
+      "personal-ed730682bceab933",
+      "personal-c6ae72e7a44df0fc",
+      "personal-55c92b1701f871a5",
+      "personal-a05fb35220aaa1ef",
+      "personal-53f1c1a146f9d085",
+      "personal-07717545f8e3d32b",
+      "personal-2188755c74e689b4",
+      "personal-5960e670bc371f43",
+      "personal-29e52513f553a1b6",
+      "personal-faaeba6c5598933c",
+      "personal-423491e46cffd76f",
+      "personal-d8b82200e93828d6",
+      "personal-f55bf64150d0d302",
+      "personal-21ec2a589a69d2f7",
+      "personal-afc9da4bf4a74019",
+      "personal-4dec18e9a9089bca"
+    ]
+  },
+  "personal_first_url_refresh": {
+    "date": "2026-11-21",
+    "preserved_author_rows": 12294,
+    "rows_with_preferred_url": 11087,
+    "personal_preferred_rows": 6585,
+    "institutional_preferred_rows": 4502,
+    "preferred_url_changes": 1188,
+    "institution_or_missing_to_personal": 638,
+    "personal_coverage_percent": 53.56,
+    "url_availability_percent": 90.18,
+    "note": "Combined source scan also checked Economics roster pages; Finance denominator stays unchanged. Failed and cached sources are not reported as fresh successful reads.",
+    "raw_preferred_url_changes": 1188,
+    "personal_priority_policy": "Fixed saved roster, personal websites first. Preserve existing MS and conference members; do not reconstruct publication/conference author universes in weekly refreshes.",
+    "rr_source_scan": {
+      "complete": true,
+      "source_records": 5310,
+      "candidate_records_not_final_papers": 636,
+      "failed_or_unread_sources": 318,
+      "parse_errors": 0,
+      "acquisition": {
+        "prior_source_body_reads": 2205,
+        "source_failed_or_not_visited": 198,
+        "source_http_requests": 704,
+        "new_sources_fetched": 674
+      }
+    }
+  },
+  "previous_incremental_publication": {
     "date": "2026-11-15",
     "new_strict_rr": 14,
     "displayed_revision_papers": 661,

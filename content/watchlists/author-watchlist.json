@@ -1,6 +1,6 @@
 {
   "record_key": "authors",
-  "record_count": 10762,
+  "record_count": 12294,
   "record_shards": [
     "author-watchlist/part-001.json.gz",
     "author-watchlist/part-002.json.gz",
@@ -12,15 +12,19 @@
     "author-watchlist/part-008.json.gz",
     "author-watchlist/part-009.json.gz",
     "author-watchlist/part-010.json.gz",
-    "author-watchlist/part-011.json.gz"
+    "author-watchlist/part-011.json.gz",
+    "author-watchlist/part-012.json.gz",
+    "author-watchlist/part-013.json.gz"
   ],
   "metadata": {
     "created_on": "2026-10-14",
-    "updated_on": "2026-11-09",
-    "update_policy": "Fixed existing author roster. Weekly scans recheck saved websites and research tabs; author and conference membership changes require user instruction.",
-    "author_rows": 10762,
-    "linked_authors": 10358,
-    "coverage_percent": 96.2461,
-    "coverage_basis": "Original fixed 10,762 author rows; personal websites preferred, with dedicated institution profiles as fallback. URL discovery and successful R&R content scanning are separate measures."
+    "updated_on": "2026-11-21",
+    "update_policy": "Fixed saved roster, personal websites first. Preserve existing MS and conference members; do not reconstruct publication/conference author universes in weekly refreshes.",
+    "author_rows": 12294,
+    "linked_authors": 11087,
+    "coverage_percent": 90.1822,
+    "coverage_basis": "Preserved original fixed roster plus previously approved ten-year Finance supplement. URL availability, personal-site classification, author identity and successful R&R body reads are separate measures.",
+    "original_fixed_roster_rows": 10762,
+    "previously_approved_ten_year_supplement_rows": 1532
   }
 }

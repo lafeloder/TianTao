@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-21",
+  "finance_comparison": {
+    "before": {
+      "strict_rr": 608,
+      "reject_and_resubmit": 59,
+      "displayed_total": 667,
+      "strict_by_journal": {
+        "JF": 104,
+        "JFE": 82,
+        "JFQA": 71,
+        "MS": 138,
+        "RF": 65,
+        "RFS": 148
+      },
+      "reject_by_journal": {
+        "JF": 16,
+        "JFE": 7,
+        "JFQA": 7,
+        "MS": 24,
+        "RF": 2,
+        "RFS": 3
+      }
+    },
+    "after": {
+      "strict_rr": 654,
+      "reject_and_resubmit": 63,
+      "displayed_total": 717,
+      "strict_by_journal": {
+        "JF": 109,
+        "JFE": 88,
+        "JFQA": 75,
+        "MS": 157,
+        "RF": 69,
+        "RFS": 156
+      },
+      "reject_by_journal": {
+        "JF": 18,
+        "JFE": 7,
+        "JFQA": 7,
+        "MS": 26,
+        "RF": 2,
+        "RFS": 3
+      }
+    },
+    "net_strict_rr": 46,
+    "net_reject_and_resubmit": 4,
+    "confirmed_new_strict_rr": 49,
+    "confirmed_new_reject_and_resubmit": 4,
+    "existing_status_changes": [
+      {
+        "scope": "finance",
+        "id": "ms-529ae4594bcd1744",
+        "title": "Costly Capacity Signaling Increases Matching Efficiency: Evidence from a Field Experiment",
+        "before": "R&R",
+        "after": "Accepted",
+        "evidence_url": "https://parasurama.github.io/",
+        "reason": "Literal Management Science, Forthcoming in this paper record."
+      },
+      {
+        "scope": "finance",
+        "id": "conference-45c223213785efaf",
+        "title": "Learning about housing cost: survey evidence from the German house price boom",
+        "before": "R&R",
+        "after": "Accepted",
+        "evidence_url": "https://web.stanford.edu/~piazzesi/",
+        "reason": "Literal July 2026, conditionally accepted at Review of Financial Studies, in the author's matching paper record. Short CV title is the same paper."
+      },
+      {
+        "scope": "finance",
+        "id": "weekly-20261019-c1d43b097e18c9e9",
+        "title": "Leasing as a Mitigation Channel of Capital Misallocation",
+        "before": "R&R",
+        "after": "Accepted",
+        "evidence_url": "https://sites.google.com/site/kailiwebpage/research",
+        "reason": "Literal Journal of Financial Economics, Accepted, 2025 in matching author-page record."
+      },
+      {
+        "scope": "finance",
+        "id": "author-site-expanded-20261012-013",
+        "title": "Biodiversity Risk",
+        "before": "R&R",
+        "after": "Accepted",
+        "evidence_url": "https://stefanogiglio.org/papers/giglio-cv.pdf",
+        "reason": "Literal Review of Finance special issue, forthcoming in the matching primary CV record."
+      }
+    ],
+    "existing_scope_completions": [
+      {
+        "scope": "finance",
+        "id": "chenyang-067",
+        "title": "Do Index Funds Monitor? Revisited",
+        "change": "existing stored paper, journal explicitly confirmed as Review of Finance",
+        "previously_visible": false
+      }
+    ]
+  },
+  "source_scan": {
+    "complete": true,
+    "source_records": 5310,
+    "candidate_records_not_final_papers": 636,
+    "failed_or_unread_sources": 318,
+    "parse_errors": 0,
+    "acquisition": {
+      "prior_source_body_reads": 2205,
+      "source_failed_or_not_visited": 198,
+      "source_http_requests": 704,
+      "new_sources_fetched": 674
+    }
+  },
+  "original_finance_author_coverage_preserved": {
+    "linked_authors": 4076,
+    "author_rows": 4301,
+    "percent": 94.77,
+    "basis": "Normalized author name groups with publications in JF, JFE, RFS, JFQA or RF; homepage eligibility must match a publication in those journals."
+  },
+  "interface_changed": false,
+  "source_date_note": "Same-day and 16 November saved source bodies were reparsed alongside fresh visits. Original timestamps and failures are retained; URL availability is not R&R text-read coverage."
+}
