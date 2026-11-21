@@ -4,6 +4,11 @@ The navigation entries follow the existing `Other` route (currently labelled
 `CV`). `Top5RR` and `EuropePostdocs` are static Next.js routes using the original
 site layout and theme. Existing About, Research, CV and Data pages are retained.
 
+`Top5RR` has separate Finance R&R and Economics R&R tabs. Finance is the default;
+`/Top5RR/?discipline=economics` opens Economics directly. Each tab preserves its
+own filters while switching. Counts, journal options and author denominators are
+kept separate. The Finance/EU components and shared watchlist styles are retained.
+
 ## Scope
 
 - Tracked journals: JF, JFE, RFS, RF, JFQA and Management Science (MS).
@@ -12,6 +17,13 @@ site layout and theme. Existing About, Research, CV and Data pages are retained.
   the extended scope. This is an explicit monitoring definition, not a claim
   of a universal top-five ranking. The data value `source_scope: top5` remains
   the legacy marker for the page's tracked six-journal set.
+- Economics tracks American Economic Review, Econometrica, Journal of Political
+  Economy, The Quarterly Journal of Economics and The Review of Economic Studies.
+  Its existing reviewed dataset uses the 20 November 2016–20 November 2026 author
+  window. Strict R&R and Reject & Resubmit are separate; Accepted/Published
+  records remain stored and are not shown as active revisions. The Finance
+  Monday refresh is unchanged; adding the Economics tab does not claim a new
+  automated Economics source scan or change Finance author membership.
 - Author eligibility: at least one retrievable journal article first published
   in the rolling five-year window in those journals. The current window and
   per-journal article counts are recorded in `meta.json`.
@@ -49,7 +61,7 @@ site layout and theme. Existing About, Research, CV and Data pages are retained.
 
 ## Data and evidence
 
-`content/watchlists/` holds the authoritative data; the four public JSON exports
+`content/watchlists/` holds the authoritative data; the public JSON exports
 live in `public/watchlists/`. The large publication and author metadata files
 are deterministic gzip JSON files to avoid repetitive multi-megabyte commits.
 Use `bootstrap.load()` or Python's `gzip` module to inspect them.
@@ -79,6 +91,11 @@ Use `bootstrap.load()` or Python's `gzip` module to inspect them.
 - `rr.json`: R&R, reject-and-resubmit and changed decision statuses kept separately. `first_seen` is our
   discovery date, not a decision date; `source_updated` is a source's own update
   label, not a guaranteed decision date.
+- `economics-rr.json`: the separately reviewed Economics paper records, journal
+  names, source evidence and original visit dates, author-URL coverage and counts.
+  The same payload is exported to `public/watchlists/economics-rr.json`.
+  Incomplete coauthor lists remain visibly flagged. URL coverage is not a claim
+  that every source's R&R text was successfully read. No author workbook is hosted.
 - `postdocs.json`: official evidence, deadlines, uncertainties and application
   links. A missing deadline is not interpreted as confirmed open recruitment.
 - `schools.json`: 50-school universe, configured recruitment feeds and their
