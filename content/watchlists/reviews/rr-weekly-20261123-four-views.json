@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-23",
+  "base_commit": "b078849e3cdde38554f9c8189aef869a72c3b224",
+  "user_authorized_new_views": true,
+  "counts": {
+    "finance": {
+      "strict_rr": 801,
+      "reject_and_resubmit": 87,
+      "displayed_total": 888,
+      "strict_by_journal": {
+        "JF": 118,
+        "JFE": 98,
+        "RFS": 180,
+        "RF": 71,
+        "JFQA": 87,
+        "MS": 247
+      },
+      "reject_by_journal": {
+        "JF": 23,
+        "JFE": 8,
+        "RFS": 3,
+        "RF": 3,
+        "JFQA": 8,
+        "MS": 42
+      }
+    },
+    "economics": {
+      "strict_rr": 670,
+      "reject_and_resubmit": 108,
+      "displayed_total": 778,
+      "strict_by_journal": {
+        "AER": 188,
+        "ECTA": 98,
+        "JPE": 147,
+        "QJE": 63,
+        "RESTUD": 174
+      },
+      "reject_by_journal": {
+        "AER": 35,
+        "ECTA": 9,
+        "JPE": 22,
+        "QJE": 29,
+        "RESTUD": 13
+      }
+    },
+    "accounting": {
+      "strict_rr": 236,
+      "reject_and_resubmit": 5,
+      "displayed_total": 241,
+      "strict_by_journal": {
+        "TAR": 72,
+        "JAR": 53,
+        "JAE": 42,
+        "CAR": 49,
+        "RAST": 14,
+        "AOS": 6
+      },
+      "reject_by_journal": {
+        "TAR": 0,
+        "JAR": 1,
+        "JAE": 3,
+        "CAR": 0,
+        "RAST": 1,
+        "AOS": 0
+      }
+    },
+    "management": {
+      "strict_rr": 434,
+      "reject_and_resubmit": 61,
+      "displayed_total": 495,
+      "strict_by_journal": {
+        "AMJ": 24,
+        "AMR": 9,
+        "ASQ": 18,
+        "OS": 57,
+        "SMJ": 79,
+        "MS": 247
+      },
+      "reject_by_journal": {
+        "AMJ": 0,
+        "AMR": 0,
+        "ASQ": 2,
+        "OS": 8,
+        "SMJ": 9,
+        "MS": 42
+      }
+    }
+  },
+  "new_MS_finance_papers": 63,
+  "MS_retirements": [
+    {
+      "id": "cross-20261122-a56cbed82444bf14",
+      "title": "GSE Restrictions, Credit Supply, and Rental Market Spillovers",
+      "before": "R&R",
+      "after": "Accepted",
+      "evidence_url": "https://sites.google.com/view/songzhang-finance/home"
+    },
+    {
+      "id": "author-roster-20261014-1ba5cb5ebe7a",
+      "title": "Financial Education and Household Financial Decisions during the Pandemic",
+      "before": "R&R",
+      "after": "Accepted",
+      "evidence_url": "https://www.newyorkfed.org/medialibrary/media/research/economists/lee/lee_cv.pdf"
+    },
+    {
+      "id": "author-roster-20261014-fc933612dcc9",
+      "title": "A ML-Based Framework towards Transparency in Experts’ Decision Performance",
+      "before": "R&R",
+      "after": "Published",
+      "evidence_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2021.03357"
+    },
+    {
+      "id": "author-roster-20261014-1db6c55d2d90",
+      "title": "The Aggregated Equity Risk Premium",
+      "before": "R&R",
+      "after": "Accepted",
+      "evidence_url": "https://sites.google.com/site/velikovmihail/home"
+    },
+    {
+      "id": "ten-year-20261114-3a9816c6c8d3",
+      "title": "Heterogeneous CEO Death Effects",
+      "before": "R&R",
+      "after": "Accepted",
+      "evidence_url": "https://apps.ualberta.ca/directory/person/lukas1"
+    },
+    {
+      "id": "conference-b85241aa8331e333",
+      "title": "Security Lending and Corporate Financing: Evidence from Bond Issuance",
+      "before": "R&R",
+      "after": "Accepted",
+      "evidence_url": "https://www.hongzhang.info/publications"
+    },
+    {
+      "id": "author-roster-20261014-0fcc439b7158",
+      "title": "Bidders’ Responses to Auction Format Change in Internet Display Advertising Auctions",
+      "before": "R&R",
+      "after": "Accepted",
+      "evidence_url": "https://sites.google.com/view/gabriel-weintraub-webpage/research/publications"
+    },
+    {
+      "id": "cross-20261122-aff1a45808b1e896",
+      "title": "Pricing and Informality: Evidence from Energy Theft in Brazil",
+      "before": "R&R",
+      "after": "Accepted",
+      "evidence_url": "https://sites.google.com/site/andretrindade"
+    }
+  ],
+  "finance_non_MS_papers_unchanged": true,
+  "economics_data_unchanged": true,
+  "europe_postdocs_unchanged": true,
+  "original_finance_author_denominator_unchanged": true,
+  "private_author_rosters_or_workbooks_added": false,
+  "pending_new_candidates_excluded": 10,
+  "legacy_identity_pairs_retained": 3,
+  "cross_journal_duplicate_held": {
+    "title": "Beliefs and the Disposition Effect",
+    "stable_id": "ssrn:3516567",
+    "preserved_canonical_id": "author-roster-20261014-e82fa1dcf8b8",
+    "preserved_journal": "Review of Finance",
+    "withheld_MS_candidate_id": "management-rr-567f8600bbe29a1036",
+    "current_primary_url": "https://sites.google.com/site/tobinhanspal/research",
+    "current_primary_quote": "Beliefs and the Disposition Effect - with Steffen Andersen, Jimmy Martinez-Correa, and Kasper Meisner Nielsen. Revise and Resubmit, Review of Finance.",
+    "historical_MS_source": "http://kaspermeisnernielsen.com/KMN_CV.pdf",
+    "reason": "Same SSRN and complete byline. Current personal research page takes priority over historical CV; do not double count across journal labels."
+  }
+}

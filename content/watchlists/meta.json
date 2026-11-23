@@ -144,7 +144,7 @@
     "RFS": 180,
     "RF": 71,
     "JFQA": 87,
-    "MS": 198
+    "MS": 247
   },
   "finance_top5_author_homepage_coverage": {
     "linked_authors": 4076,
@@ -152,7 +152,7 @@
     "percent": 94.77,
     "basis": "Normalized author name groups with publications in JF, JFE, RFS, JFQA or RF; homepage eligibility must match a publication in those journals."
   },
-  "rr_last_run": "2026-11-22",
+  "rr_last_run": "2026-11-23",
   "conference_author_homepage_coverage": {
     "checked_on": "2026-10-14",
     "scope_years": [
@@ -240,7 +240,7 @@
     "RFS": 3,
     "RF": 3,
     "JFQA": 8,
-    "MS": 36
+    "MS": 42
   },
   "source_scan_complete": false,
   "source_scan_note": "22 November cross-roster review combined fresh primary-page visits and re-parsing retained bodies with their original dates. Failed, missing and unread sources remain recorded; this release is not a claim that all roster websites were freshly read.",
@@ -643,5 +643,39 @@
     "failed": 1,
     "full_author_roster_scan": false,
     "paper_decision_changes": 0
+  },
+  "accounting_rr_last_run": "2026-11-23",
+  "accounting_rr_counts_by_journal": {
+    "TAR": 72,
+    "JAR": 53,
+    "JAE": 42,
+    "CAR": 49,
+    "RAST": 14,
+    "AOS": 6
+  },
+  "accounting_reject_resubmit_counts_by_journal": {
+    "TAR": 0,
+    "JAR": 1,
+    "JAE": 3,
+    "CAR": 0,
+    "RAST": 1,
+    "AOS": 0
+  },
+  "management_rr_last_run": "2026-11-23",
+  "management_rr_counts_by_journal": {
+    "AMJ": 24,
+    "AMR": 9,
+    "ASQ": 18,
+    "OS": 57,
+    "SMJ": 79,
+    "MS": 247
+  },
+  "management_reject_resubmit_counts_by_journal": {
+    "AMJ": 0,
+    "AMR": 0,
+    "ASQ": 2,
+    "OS": 8,
+    "SMJ": 9,
+    "MS": 42
   }
 }

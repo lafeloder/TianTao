@@ -7,11 +7,16 @@ import { paperView } from '@/lib/watchlists-public';
 import Top5RRWatch from '@/components/pages/Top5RRWatch';
 import EconomicsPaperWatch, { type EconomicsPaperView } from '@/components/pages/EconomicsPaperWatch';
 import economics from '../../../content/watchlists/economics-rr.json';
+import accounting from '../../../content/watchlists/accounting-rr.json';
+import management from '../../../content/watchlists/management-rr.json';
+import ExpandedPaperWatch from '@/components/pages/ExpandedPaperWatch';
 
-export const metadata = getPageMetadata('Top5RR', 'Top 5 R&R', 'Author-disclosed revise-and-resubmit working papers in finance and economics.');
+export const metadata = getPageMetadata('Top5RR', 'Top 5 R&R', 'Author-disclosed revise-and-resubmit working papers in finance, economics, accounting and management.');
 export default function Page() {
   const finance = <PaperWatch items={(rr.items as Paper[]).filter(p => p.source_scope === 'top5' && ['R&R', 'Reject & Resubmit', 'Invited revision'].includes(p.status)).map(paperView)} date={meta.rr_last_run || meta.last_run} authorCoverage={meta.finance_top5_author_homepage_coverage}/>;
   const economicsItems: EconomicsPaperView[] = economics.items.filter(p => ['R&R', 'Reject & Resubmit'].includes(p.status)).map(p => ({ id:p.id,title:p.title,authors:p.authors,authors_complete:p.authors_complete,journal:p.journal,status:p.status,evidence_url:p.evidence_url,paper_url:p.paper_url,ssrn_url:p.ssrn_url,last_verified:p.last_verified,field:p.field,keywords:p.keywords }));
   const economicsView = <EconomicsPaperWatch items={economicsItems} date={economics.updated_on} authorCoverage={economics.author_homepage_coverage} sourceWindow={economics.author_discovery_window}/>;
-  return <Top5RRWatch finance={finance} economics={economicsView}/>;
+  const accountingView = <ExpandedPaperWatch scope="accounting" label="Accounting" items={accounting.items} date={accounting.updated_on} journalNames={accounting.journal_names}/>;
+  const managementView = <ExpandedPaperWatch scope="management" label="Management" items={management.items} date={management.updated_on} journalNames={management.journal_names}/>;
+  return <Top5RRWatch finance={finance} economics={economicsView} accounting={accountingView} management={managementView}/>;
 }
