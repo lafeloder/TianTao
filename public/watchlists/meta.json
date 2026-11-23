@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-21",
+  "last_run": "2026-11-23",
   "publication_window_start": "2021-10-13",
   "publication_window_end": "2026-10-13",
   "articles": 4947,
@@ -48,10 +48,10 @@
   "paper_sources_checked": 20088,
   "reference_paper_rows": 76,
   "job_counts": {
-    "total": 128,
+    "total": 143,
     "active": 71,
-    "historical": 53,
-    "uncertain": 4
+    "historical": 67,
+    "uncertain": 5
   },
   "benchmark_sources": {
     "papers": [
@@ -66,7 +66,7 @@
         "scope_excluded": 0,
         "public_reference_records": 76,
         "pending_review_records": 0,
-        "checked_on": "2026-11-16",
+        "checked_on": "2026-11-23",
         "status": "complete fresh public pagination; all same-scope IDs individually reconciled",
         "note": ""
       }
@@ -75,32 +75,32 @@
       {
         "name": "OpenPostdoc",
         "url": "https://www.openpostdoc.org/board",
-        "total_scanned": 4095,
-        "in_scope": 69,
-        "matched": 69,
+        "total_scanned": 4280,
+        "reference_screened": 74,
+        "in_scope": 70,
+        "matched": 70,
         "missing": 0,
-        "checked_on": "2026-11-16",
-        "status": "complete public pagination",
-        "note": "All active and archived pages across all fields were scanned. Only European economics, finance and explicitly related postdoctoral records are included; mechanically focused jobs mislabeled Economics are excluded.",
-        "public_reference_records": 69,
+        "scope_excluded": 4,
+        "public_reference_records": 70,
         "pending_review_records": 0,
-        "accounting_basis": "All current reference IDs are either individually verified public vacancy aliases or explicitly reviewed unpublished scope exclusions. Employer evidence, deadlines and acceptance state are checked separately from pagination.",
-        "scope_excluded": 4
+        "checked_on": "2026-11-23",
+        "status": "complete fresh public pagination; all same-scope IDs individually reconciled",
+        "note": "All active and archived pages across all fields were scanned. Only European economics, finance and explicitly related postdoctoral records are included; mechanically focused jobs mislabeled Economics are excluded."
       },
       {
         "name": "Econ Job Market",
         "url": "https://econjobmarket.org/statuses?page=5",
-        "total_scanned": 469,
-        "in_scope": 88,
-        "matched": 88,
+        "total_scanned": 489,
+        "reference_screened": 100,
+        "in_scope": 97,
+        "matched": 97,
         "missing": 0,
-        "checked_on": "2026-11-16",
-        "status": "complete public pagination",
-        "note": "All public status and position pages were scanned. Public EJM omits some login-only/free advertisements.",
-        "public_reference_records": 88,
+        "scope_excluded": 3,
+        "public_reference_records": 97,
         "pending_review_records": 0,
-        "accounting_basis": "All current reference IDs are either individually verified public vacancy aliases or explicitly reviewed unpublished scope exclusions. Employer evidence, deadlines and acceptance state are checked separately from pagination.",
-        "scope_excluded": 2
+        "checked_on": "2026-11-23",
+        "status": "complete fresh public pagination; all same-scope IDs individually reconciled",
+        "note": "All public status and position pages were scanned. Public EJM omits some login-only/free advertisements."
       }
     ]
   },
@@ -233,7 +233,7 @@
     "audit_file": "rof-alias-rescan-audit.json"
   },
   "research_pages_scanned_this_run": 8251,
-  "postdocs_last_run": "2026-11-16",
+  "postdocs_last_run": "2026-11-23",
   "reject_resubmit_counts_by_journal": {
     "JF": 23,
     "JFE": 8,
@@ -635,5 +635,13 @@
     },
     "author_rosters_rebuilt": false,
     "source_note": "Fresh visits, retained failed visits and saved-source reparsing are distinguished in the private source ledger. URL availability is not R&R body-reading coverage. No new exhaustive fresh-body scan is claimed."
+  },
+  "rr_reference_primary_source_check": {
+    "checked_on": "2026-11-23",
+    "requested_unique_urls": 40,
+    "read": 39,
+    "failed": 1,
+    "full_author_roster_scan": false,
+    "paper_decision_changes": 0
   }
 }

@@ -1,84 +1,9 @@
 {
-  "checked_on": "2026-11-16",
-  "total_scanned": 4095,
-  "pages": 42,
+  "checked_on": "2026-11-23",
+  "total_scanned": 4280,
+  "pages": 44,
   "note": "All active and archived pages across all fields were scanned. Only European economics, finance and explicitly related postdoctoral records are included; mechanically focused jobs mislabeled Economics are excluded.",
   "rows": [
-    {
-      "id": "5bf7ef89-ffd7-450d-a1b3-9cf74da0e7f0",
-      "title": "Research Fellow (Maternity Cover)",
-      "institutionName": "London School of Hygiene & Tropical Medicine",
-      "country": "United Kingdom",
-      "city": null,
-      "region": "eu",
-      "primaryField": "Economics",
-      "deadlineDate": "2026-11-15",
-      "startDate": null,
-      "applyUrl": "https://www.jobs.ac.uk/job/DTN551/research-fellow-maternity-cover",
-      "sourceUrl": "https://www.jobs.ac.uk/search/postdoctoral",
-      "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-13T05:03:24.704Z"
-    },
-    {
-      "id": "74658f72-4485-4eff-9ee6-5dd5609a0d3a",
-      "title": "Postdoctoral Research Fellow in Economics",
-      "institutionName": "University of Oxford",
-      "country": "United Kingdom",
-      "city": "Oxford",
-      "region": "eu",
-      "primaryField": "Economics",
-      "deadlineDate": "2026-11-18",
-      "startDate": null,
-      "applyUrl": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189642",
-      "sourceUrl": "https://my.corehr.com/pls/uoxrecruit/erq_search_version_4.start_search_with_params?p_company=10&p_internal_external=E&p_display_in_irish=N&p_competition_type=RE&p_force_type=E",
-      "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-15T05:04:12.190Z"
-    },
-    {
-      "id": "dd9c1642-b5b5-4448-a119-eeb2da8addc7",
-      "title": "Postdoctoral Researcher (f/m/d) for the ifo Center for International Economics",
-      "institutionName": "Ifo Institute",
-      "country": "Germany",
-      "city": null,
-      "region": "eu",
-      "primaryField": "Economics",
-      "deadlineDate": "2026-11-18",
-      "startDate": null,
-      "applyUrl": "https://econjobmarket.org/positions/12844",
-      "sourceUrl": "https://econjobmarket.org/positions",
-      "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.389Z"
-    },
-    {
-      "id": "d270ba6e-0e4d-44bd-a8e8-5a9b7c379260",
-      "title": "Postdoctoral Research Assistant in Quantitative Finance",
-      "institutionName": "University of Oxford",
-      "country": "United Kingdom",
-      "city": "Oxford",
-      "region": "eu",
-      "primaryField": "Economics",
-      "deadlineDate": "2026-11-19",
-      "startDate": null,
-      "applyUrl": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=188853",
-      "sourceUrl": "https://my.corehr.com/pls/uoxrecruit/erq_search_version_4.start_search_with_params?p_company=10&p_internal_external=E&p_display_in_irish=N&p_competition_type=RE&p_force_type=E",
-      "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-15T05:04:12.316Z"
-    },
-    {
-      "id": "ed499b97-ce7f-413d-9132-0af159b1e794",
-      "title": "Postdoctoral Research Assistant in Quantitative Finance",
-      "institutionName": "University of Oxford",
-      "country": "United Kingdom",
-      "city": "Oxford",
-      "region": "eu",
-      "primaryField": "Economics",
-      "deadlineDate": "2026-11-19",
-      "startDate": null,
-      "applyUrl": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=188851",
-      "sourceUrl": "https://my.corehr.com/pls/uoxrecruit/erq_search_version_4.start_search_with_params?p_company=10&p_internal_external=E&p_display_in_irish=N&p_competition_type=RE&p_force_type=E",
-      "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-15T05:04:12.289Z"
-    },
     {
       "id": "b5d65a4b-8dd5-42d6-b1b9-d08b1cc628d6",
       "title": "Postdoctoral Researcher in Political Economy",
@@ -92,7 +17,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12786",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.100Z"
+      "scrapedAt": "2026-11-17T05:00:52.891Z"
     },
     {
       "id": "177eef43-e441-412e-a658-c3dcf4ae2e4a",
@@ -107,7 +32,7 @@
       "applyUrl": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189392",
       "sourceUrl": "https://my.corehr.com/pls/uoxrecruit/erq_search_version_4.start_search_with_params?p_company=10&p_internal_external=E&p_display_in_irish=N&p_competition_type=RE&p_force_type=E",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-15T05:04:12.609Z"
+      "scrapedAt": "2026-11-20T05:02:03.472Z"
     },
     {
       "id": "68c6c82b-8888-414f-acc3-700eefb996ec",
@@ -122,22 +47,22 @@
       "applyUrl": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189273",
       "sourceUrl": "https://my.corehr.com/pls/uoxrecruit/erq_search_version_4.start_search_with_params?p_company=10&p_internal_external=E&p_display_in_irish=N&p_competition_type=RE&p_force_type=E",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-15T05:04:12.691Z"
+      "scrapedAt": "2026-11-20T05:02:03.566Z"
     },
     {
-      "id": "00869174-def1-4e23-9927-1eb3ec62f600",
-      "title": "Up to a 6-Year Postdoc with Tenure Option (f/m/d, 100%) Social Insurance",
-      "institutionName": "ZEW - Leibniz Centre for European Economic Research",
+      "id": "3ef0d995-fb4d-46b6-893d-cd40b9cc6f53",
+      "title": "PostDoc in Quantitative Economics (m/f/d) (Berlin)",
+      "institutionName": "Kiel Institute for the World Economy",
       "country": "Germany",
       "city": null,
       "region": "eu",
-      "primaryField": "Social Science",
+      "primaryField": "Economics",
       "deadlineDate": "2026-11-30",
       "startDate": null,
-      "applyUrl": "https://econjobmarket.org/positions/12891",
+      "applyUrl": "https://econjobmarket.org/positions/13008",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.524Z"
+      "scrapedAt": "2026-11-17T05:00:52.222Z"
     },
     {
       "id": "3f3fb216-2231-454a-8d38-7856689d4a44",
@@ -152,7 +77,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12941",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.814Z"
+      "scrapedAt": "2026-11-17T05:00:52.577Z"
     },
     {
       "id": "976e07ef-21c9-4dcc-bed3-464eb75837a3",
@@ -170,19 +95,19 @@
       "scrapedAt": "2026-11-01T05:00:52.686Z"
     },
     {
-      "id": "cbac7ab4-1bdc-40d1-ae30-333f897dda2e",
-      "title": "Postdoctoral Scholar in Economics",
-      "institutionName": "University of Oslo",
-      "country": "Norway",
+      "id": "ce153352-30c3-4419-8b3e-332c8e4642dd",
+      "title": "Albert O. Hirschman Postdoc Program (Berlin / Kiel)",
+      "institutionName": "Kiel Institute for the World Economy",
+      "country": "Germany",
       "city": null,
       "region": "eu",
       "primaryField": "Economics",
       "deadlineDate": "2026-11-30",
       "startDate": null,
-      "applyUrl": "https://econjobmarket.org/positions/12985",
+      "applyUrl": "https://econjobmarket.org/positions/13002",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.504Z"
+      "scrapedAt": "2026-11-17T05:00:52.195Z"
     },
     {
       "id": "d81b7e9a-1228-40a8-8c47-9e3ea94a9905",
@@ -197,7 +122,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12896",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.462Z"
+      "scrapedAt": "2026-11-17T05:00:51.940Z"
     },
     {
       "id": "dd6a95cf-6495-4ff5-9c5e-c75a52f1b4bc",
@@ -212,52 +137,7 @@
       "applyUrl": "https://www.jobs.ac.uk/job/DTG743/postdoc-in-academic-entrepreneurship-and-innovation-ecosystems",
       "sourceUrl": "https://www.jobs.ac.uk/search/postdoctoral",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-13T05:03:24.916Z"
-    },
-    {
-      "id": "f4b7efed-2d30-41c8-a101-ef03ce31e3f2",
-      "title": "Postdoctoral Researcher in Economics",
-      "institutionName": "Università degli Studi di Padova",
-      "country": "Italy",
-      "city": null,
-      "region": "eu",
-      "primaryField": "Economics",
-      "deadlineDate": "2026-11-30",
-      "startDate": null,
-      "applyUrl": "https://econjobmarket.org/positions/12812",
-      "sourceUrl": "https://econjobmarket.org/positions",
-      "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.469Z"
-    },
-    {
-      "id": "3a4115cb-671f-423f-a0f3-c8949a9536b0",
-      "title": "Postdoctoral positions in Labour Economics",
-      "institutionName": "Norwegian School of Economics (NHH)",
-      "country": "Norway",
-      "city": null,
-      "region": "eu",
-      "primaryField": "Economics",
-      "deadlineDate": "2026-12-01",
-      "startDate": null,
-      "applyUrl": "https://econjobmarket.org/positions/12894",
-      "sourceUrl": "https://econjobmarket.org/positions",
-      "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.310Z"
-    },
-    {
-      "id": "979bb48a-5001-4806-84b9-a277657e7e59",
-      "title": "Postdoctoral position in Behavioral and Experimental Economics",
-      "institutionName": "Norwegian School of Economics (NHH)",
-      "country": "Norway",
-      "city": null,
-      "region": "eu",
-      "primaryField": "Economics",
-      "deadlineDate": "2026-12-01",
-      "startDate": null,
-      "applyUrl": "https://econjobmarket.org/positions/12895",
-      "sourceUrl": "https://econjobmarket.org/positions",
-      "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.339Z"
+      "scrapedAt": "2026-11-21T05:03:39.012Z"
     },
     {
       "id": "dccebfd9-07ac-4666-8ead-0a880fa13f7c",
@@ -272,22 +152,22 @@
       "applyUrl": "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189751",
       "sourceUrl": "https://my.corehr.com/pls/uoxrecruit/erq_search_version_4.start_search_with_params?p_company=10&p_internal_external=E&p_display_in_irish=N&p_competition_type=RE&p_force_type=E",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-15T05:04:12.876Z"
+      "scrapedAt": "2026-11-20T05:02:03.804Z"
     },
     {
-      "id": "f23e81eb-910f-4912-8717-d4095db8a88d",
-      "title": "Post-Doctoral Researcher",
-      "institutionName": "France",
-      "country": "France",
+      "id": "7c59de81-c9d6-49b3-820a-fafc3b1f9fa3",
+      "title": "Postdoctoral Research Associate",
+      "institutionName": "The University of Edinburgh",
+      "country": "United Kingdom",
       "city": null,
       "region": "eu",
-      "primaryField": "Economics",
-      "deadlineDate": "2026-12-01",
+      "primaryField": "Computer Science",
+      "deadlineDate": "2026-12-02",
       "startDate": null,
-      "applyUrl": "https://econjobmarket.org/positions/12951",
-      "sourceUrl": "https://econjobmarket.org/positions",
+      "applyUrl": "https://www.jobs.ac.uk/job/DTR503/postdoctoral-research-associate",
+      "sourceUrl": "https://www.jobs.ac.uk/search/postdoctoral",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.362Z"
+      "scrapedAt": "2026-11-21T05:03:37.429Z"
     },
     {
       "id": "94452e96-0faf-48a4-ae77-187669bc582f",
@@ -302,22 +182,22 @@
       "applyUrl": "https://econjobmarket.org/positions/12967",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.196Z"
+      "scrapedAt": "2026-11-17T05:00:52.986Z"
     },
     {
-      "id": "f6523113-eaab-4161-880d-789ac4a7b277",
-      "title": "Postdoctoral position in Environmental and Energy Economics",
-      "institutionName": "Universitat de Barcelona",
-      "country": "Spain",
+      "id": "d2bdde8c-4b71-41ce-9623-02ec5325a448",
+      "title": "Research Associate in Health Economics / Health Economic Modelling",
+      "institutionName": "University of Sheffield",
+      "country": "United Kingdom",
       "city": null,
       "region": "eu",
       "primaryField": "Economics",
       "deadlineDate": "2026-12-03",
       "startDate": null,
-      "applyUrl": "https://econjobmarket.org/positions/12876",
-      "sourceUrl": "https://econjobmarket.org/positions",
+      "applyUrl": "https://www.jobs.ac.uk/job/DTS336/research-associate-in-health-economics-health-economic-modelling",
+      "sourceUrl": "https://www.jobs.ac.uk/search/postdoctoral",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.214Z"
+      "scrapedAt": "2026-11-21T05:03:37.918Z"
     },
     {
       "id": "62ed0f2e-5317-4350-9504-f423d2467341",
@@ -332,7 +212,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12974",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.158Z"
+      "scrapedAt": "2026-11-17T05:00:52.944Z"
     },
     {
       "id": "b590406a-adf3-4992-adb0-d0260dde912e",
@@ -347,7 +227,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12961",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.575Z"
+      "scrapedAt": "2026-11-17T05:00:52.044Z"
     },
     {
       "id": "d874afb6-5690-460a-b3d6-7e794e21e22e",
@@ -362,7 +242,52 @@
       "applyUrl": "https://econjobmarket.org/positions/12981",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.086Z"
+      "scrapedAt": "2026-11-17T05:00:52.872Z"
+    },
+    {
+      "id": "95dcb5a8-b505-4599-8e19-6b16f8906587",
+      "title": "Postdoctoral Fellowship in Environmental, Agricultural or Trade Economics",
+      "institutionName": "Geneva School of Economics and Management (GSEM)",
+      "country": "Switzerland",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Economics",
+      "deadlineDate": "2026-12-07",
+      "startDate": null,
+      "applyUrl": "https://econjobmarket.org/positions/13024",
+      "sourceUrl": "https://econjobmarket.org/positions",
+      "statusKind": "confirmed_open",
+      "scrapedAt": "2026-11-17T05:00:52.318Z"
+    },
+    {
+      "id": "d1d2f747-af4e-4d5e-84e9-4625f13621a1",
+      "title": "Postdoctoral Research Fellow in Economics",
+      "institutionName": "Tampere University",
+      "country": "Finland",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Economics",
+      "deadlineDate": "2026-12-13",
+      "startDate": null,
+      "applyUrl": "https://econjobmarket.org/positions/12986",
+      "sourceUrl": "https://econjobmarket.org/positions",
+      "statusKind": "confirmed_open",
+      "scrapedAt": "2026-11-17T05:00:52.819Z"
+    },
+    {
+      "id": "0c3e085e-c9c9-46d6-89c3-5cbb31267923",
+      "title": "Research Fellow",
+      "institutionName": "Warwick Business School, The University of Warwick",
+      "country": "United Kingdom",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Computer Science",
+      "deadlineDate": "2026-12-14",
+      "startDate": null,
+      "applyUrl": "https://www.jobs.ac.uk/job/DTR124/research-fellow",
+      "sourceUrl": "https://www.jobs.ac.uk/search/postdoctoral",
+      "statusKind": "confirmed_open",
+      "scrapedAt": "2026-11-21T05:03:38.557Z"
     },
     {
       "id": "137c5291-3ea8-4e80-a3bb-869399d05ec7",
@@ -377,7 +302,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12729",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.976Z"
+      "scrapedAt": "2026-11-17T05:00:52.739Z"
     },
     {
       "id": "4b520271-0604-4183-b9cb-5fd92275586f",
@@ -392,7 +317,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12725",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.928Z"
+      "scrapedAt": "2026-11-17T05:00:52.689Z"
     },
     {
       "id": "a82d25bc-fb72-4ec3-b5a2-a8cd6ac12c6d",
@@ -407,7 +332,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12727",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.952Z"
+      "scrapedAt": "2026-11-17T05:00:52.715Z"
     },
     {
       "id": "b9cd6acd-6c13-452a-a46a-1a16fad0d0da",
@@ -422,7 +347,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12732",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.025Z"
+      "scrapedAt": "2026-11-17T05:00:52.789Z"
     },
     {
       "id": "f195a7d2-9799-465d-a6bb-ee113aa9167c",
@@ -437,7 +362,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12730",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:53.002Z"
+      "scrapedAt": "2026-11-17T05:00:52.765Z"
     },
     {
       "id": "055db4a4-d883-494b-9f63-0dc0d6a574dc",
@@ -467,7 +392,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12940",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.848Z"
+      "scrapedAt": "2026-11-17T05:00:52.609Z"
     },
     {
       "id": "6016a534-b356-4195-8497-ac2bc2b4f488",
@@ -497,7 +422,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12936",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.587Z"
+      "scrapedAt": "2026-11-17T05:00:52.082Z"
     },
     {
       "id": "a9938b9a-d2f8-409c-88f4-2d67ad337d1f",
@@ -512,7 +437,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12955",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.872Z"
+      "scrapedAt": "2026-11-17T05:00:52.632Z"
     },
     {
       "id": "aace78e0-f8a4-46b2-88c1-49e178094d15",
@@ -527,7 +452,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12859",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.901Z"
+      "scrapedAt": "2026-11-17T05:00:52.662Z"
     },
     {
       "id": "1afc5c54-bbba-44ef-918a-1152cc90491a",
@@ -545,6 +470,21 @@
       "scrapedAt": "2026-11-13T05:03:22.685Z"
     },
     {
+      "id": "37d5d6c0-75fb-4b48-a72b-bf4f40f247d2",
+      "title": "Postdoc in Behavioral & Climate Economics and Decision-Making under Uncertainty",
+      "institutionName": "IÉSEG School of Management",
+      "country": "France",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Economics",
+      "deadlineDate": "2026-12-31",
+      "startDate": null,
+      "applyUrl": "https://econjobmarket.org/positions/13000",
+      "sourceUrl": "https://econjobmarket.org/positions",
+      "statusKind": "confirmed_open",
+      "scrapedAt": "2026-11-17T05:00:52.503Z"
+    },
+    {
       "id": "f10a2bfa-e8c8-4ca8-9e75-7bc12ba0462a",
       "title": "Postdoctoral Researcher (3 Years) – Transport / Urban Economics / Data Science",
       "institutionName": "CY Cergy Paris Université",
@@ -557,7 +497,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12485",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.754Z"
+      "scrapedAt": "2026-11-17T05:00:52.466Z"
     },
     {
       "id": "4a375ca9-b52d-447e-8ce0-4c66c339cca7",
@@ -572,7 +512,22 @@
       "applyUrl": "https://econjobmarket.org/positions/12948",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.706Z"
+      "scrapedAt": "2026-11-17T05:00:52.416Z"
+    },
+    {
+      "id": "3473ef62-092b-4521-950a-735e4fd08a0f",
+      "title": "Postdoctoral Researcher in Economics of Education",
+      "institutionName": "Norway",
+      "country": "Norway",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Economics",
+      "deadlineDate": "2027-01-03",
+      "startDate": null,
+      "applyUrl": "https://econjobmarket.org/positions/13009",
+      "sourceUrl": "https://econjobmarket.org/positions",
+      "statusKind": "confirmed_open",
+      "scrapedAt": "2026-11-17T05:00:52.404Z"
     },
     {
       "id": "400dc990-80f1-40f4-8431-1387a6d5ebb3",
@@ -587,7 +542,22 @@
       "applyUrl": "https://econjobmarket.org/positions/12734",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.690Z"
+      "scrapedAt": "2026-11-17T05:00:52.372Z"
+    },
+    {
+      "id": "922d72d5-239e-4a48-b2c9-42b2b6da07ae",
+      "title": "Research Associate Algorithmic Game Theory and Theoretical Computer Science",
+      "institutionName": "University of Glasgow",
+      "country": "United Kingdom",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Computer Science",
+      "deadlineDate": "2027-01-10",
+      "startDate": null,
+      "applyUrl": "https://www.jobs.ac.uk/job/DTS221/research-associate-algorithmic-game-theory-and-theoretical-computer-science",
+      "sourceUrl": "https://www.jobs.ac.uk/search/postdoctoral",
+      "statusKind": "confirmed_open",
+      "scrapedAt": "2026-11-21T05:03:38.014Z"
     },
     {
       "id": "9157df26-93b4-47a5-ad85-67c48aa2d79c",
@@ -602,7 +572,37 @@
       "applyUrl": "https://econjobmarket.org/positions/12700",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.550Z"
+      "scrapedAt": "2026-11-17T05:00:51.997Z"
+    },
+    {
+      "id": "50c9e821-64e9-48f2-99fc-d04c5a28fce1",
+      "title": "Postdoctoral Position in International Macroeconomics and Finance",
+      "institutionName": "College of Management of Technology",
+      "country": "Switzerland",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Economics",
+      "deadlineDate": "2027-01-15",
+      "startDate": null,
+      "applyUrl": "https://econjobmarket.org/positions/13012",
+      "sourceUrl": "https://econjobmarket.org/positions",
+      "statusKind": "confirmed_open",
+      "scrapedAt": "2026-11-17T05:00:52.069Z"
+    },
+    {
+      "id": "fbf57368-3687-4edf-abda-0da2b3bad4ef",
+      "title": "Postdoctoral Researcher in Economics - Artificial Intelligence and Labour Market",
+      "institutionName": "Hanken School of Economics",
+      "country": "Finland",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Economics",
+      "deadlineDate": "2027-01-24",
+      "startDate": null,
+      "applyUrl": "https://econjobmarket.org/positions/13030",
+      "sourceUrl": "https://econjobmarket.org/positions",
+      "statusKind": "confirmed_open",
+      "scrapedAt": "2026-11-17T05:00:52.287Z"
     },
     {
       "id": "73deae48-afff-40e1-977c-dce9a35f7b74",
@@ -617,7 +617,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12805",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.629Z"
+      "scrapedAt": "2026-11-17T05:00:52.123Z"
     },
     {
       "id": "dfbfd79d-3dcb-45d4-a180-8c0f441f604d",
@@ -632,7 +632,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12956",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.661Z"
+      "scrapedAt": "2026-11-17T05:00:52.160Z"
     },
     {
       "id": "068b5ad0-c9f0-47f5-ac12-8393b6d2fc0e",
@@ -647,7 +647,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12944",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.610Z"
+      "scrapedAt": "2026-11-17T05:00:52.103Z"
     },
     {
       "id": "84b2a0aa-9f5d-4b6d-8961-d4e38d3cbfe9",
@@ -662,7 +662,22 @@
       "applyUrl": "https://econjobmarket.org/positions/12765",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.443Z"
+      "scrapedAt": "2026-11-17T05:00:51.921Z"
+    },
+    {
+      "id": "14dc5223-6e7b-4762-ac90-bc3381167470",
+      "title": "Postdoctoral position in the economics of information",
+      "institutionName": "Aalto University",
+      "country": "Finland",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Economics",
+      "deadlineDate": "2027-05-30",
+      "startDate": null,
+      "applyUrl": "https://econjobmarket.org/positions/13032",
+      "sourceUrl": "https://econjobmarket.org/positions",
+      "statusKind": "confirmed_open",
+      "scrapedAt": "2026-11-17T05:00:52.027Z"
     },
     {
       "id": "cece5cd1-666f-43a5-be3d-b2736054b2e6",
@@ -677,7 +692,7 @@
       "applyUrl": "https://econjobmarket.org/positions/12971",
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-09T05:00:52.319Z"
+      "scrapedAt": "2026-11-17T05:00:51.815Z"
     },
     {
       "id": "0dd192c0-0b9f-4041-8e70-dc84ea51a2d1",
@@ -692,7 +707,7 @@
       "applyUrl": "https://jobs.ugent.be/job/Ghent-postdoctoral-researcher-9000/1376939557/",
       "sourceUrl": "https://jobs.ugent.be/",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-14T05:03:09.342Z"
+      "scrapedAt": "2026-11-23T05:02:18.645Z"
     },
     {
       "id": "1ad44786-818d-4888-9d26-e5c56af9b883",
@@ -707,7 +722,7 @@
       "applyUrl": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-Position-International-Macroeconomics-and-Finance-at-EPFL/1165774355/",
       "sourceUrl": "https://careers.epfl.ch/",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-14T05:02:47.219Z"
+      "scrapedAt": "2026-11-23T05:01:58.925Z"
     },
     {
       "id": "38016369-4357-43a5-b75c-2225a0858874",
@@ -737,22 +752,7 @@
       "applyUrl": "https://careers.epfl.ch/job/Lausanne-Postdoc-Position-in-Quantitative-Finance-at-EPFL/1164712155/",
       "sourceUrl": "https://careers.epfl.ch/",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-14T05:02:47.403Z"
-    },
-    {
-      "id": "516d9299-887b-4948-b1db-cb0d1a3be57a",
-      "title": "Postdoctoral Positions in Statistics and the Mathematics of Insurance and Economics",
-      "institutionName": "University of Copenhagen",
-      "country": "Denmark",
-      "city": "Copenhagen",
-      "region": "eu",
-      "primaryField": "Mathematics",
-      "deadlineDate": null,
-      "startDate": null,
-      "applyUrl": "https://employment.ku.dk/all-vacancies/?show=167779",
-      "sourceUrl": "https://employment.ku.dk/all-vacancies/",
-      "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-14T05:03:51.032Z"
+      "scrapedAt": "2026-11-23T05:01:58.430Z"
     },
     {
       "id": "c595841d-6d29-46d5-8153-238c992e9310",
@@ -782,7 +782,7 @@
       "applyUrl": "https://careers.epfl.ch/job/Lausanne-Postdoctoral-Position-in-International-Macroeconomics-and-Finance/1165774255/",
       "sourceUrl": "https://careers.epfl.ch/",
       "statusKind": "confirmed_open",
-      "scrapedAt": "2026-11-14T05:02:47.457Z"
+      "scrapedAt": "2026-11-23T05:01:59.051Z"
     },
     {
       "id": "7bb4482b-b027-4848-bc69-cb9301421673",
@@ -830,6 +830,21 @@
       "scrapedAt": "2026-10-24T05:00:53.552Z"
     },
     {
+      "id": "dd9c1642-b5b5-4448-a119-eeb2da8addc7",
+      "title": "Postdoctoral Researcher (f/m/d) for the ifo Center for International Economics",
+      "institutionName": "Ifo Institute",
+      "country": "Germany",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Economics",
+      "deadlineDate": "2026-11-18",
+      "startDate": null,
+      "applyUrl": "https://econjobmarket.org/positions/12844",
+      "sourceUrl": "https://econjobmarket.org/positions",
+      "statusKind": "closed",
+      "scrapedAt": "2026-11-17T05:00:51.867Z"
+    },
+    {
       "id": "4305deec-9ac1-4453-b181-123e534adc6a",
       "title": "Two postdoctoral researcher positions (E13 TV-L, full-time)",
       "institutionName": "Institut für Makroökonomik und Ökonometrie",
@@ -843,6 +858,21 @@
       "sourceUrl": "https://econjobmarket.org/positions",
       "statusKind": "closed",
       "scrapedAt": "2026-10-24T05:00:53.618Z"
+    },
+    {
+      "id": "5bf7ef89-ffd7-450d-a1b3-9cf74da0e7f0",
+      "title": "Research Fellow (Maternity Cover)",
+      "institutionName": "London School of Hygiene & Tropical Medicine",
+      "country": "United Kingdom",
+      "city": null,
+      "region": "eu",
+      "primaryField": "Economics",
+      "deadlineDate": "2026-11-15",
+      "startDate": null,
+      "applyUrl": "https://www.jobs.ac.uk/job/DTN551/research-fellow-maternity-cover",
+      "sourceUrl": "https://www.jobs.ac.uk/search/postdoctoral",
+      "statusKind": "closed",
+      "scrapedAt": "2026-11-13T05:03:24.704Z"
     },
     {
       "id": "ea870929-caba-426e-9c6c-55dc24e480e2",
@@ -888,21 +918,6 @@
       "sourceUrl": "https://www.jobs.ac.uk/search/postdoctoral",
       "statusKind": "closed",
       "scrapedAt": "2026-11-05T06:59:35.492Z"
-    },
-    {
-      "id": "3fe95cf8-9882-4e8f-8219-bddca7db79eb",
-      "title": "Postdoctoral Fellow in Economics",
-      "institutionName": "Germany",
-      "country": "Germany",
-      "city": null,
-      "region": "eu",
-      "primaryField": "Economics",
-      "deadlineDate": "2026-11-10",
-      "startDate": null,
-      "applyUrl": "https://econjobmarket.org/positions/12741",
-      "sourceUrl": "https://econjobmarket.org/positions",
-      "statusKind": "closed",
-      "scrapedAt": "2026-11-09T05:00:52.341Z"
     },
     {
       "id": "30a25e54-47e1-4774-ba1c-e859cd000f74",

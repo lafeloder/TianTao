@@ -1,7 +1,7 @@
 {
-  "checked_on": "2026-11-16",
-  "total_scanned": 469,
-  "pages": 17,
+  "checked_on": "2026-11-23",
+  "total_scanned": 489,
+  "pages": 16,
   "note": "All public status and position pages were scanned. Public EJM omits some login-only/free advertisements.",
   "rows": [
     {
@@ -92,35 +92,34 @@
       "recruitmentStatus": "Unknown"
     },
     {
-      "id": "12798",
-      "title": "Postdoctoral Research Associate",
+      "id": "13039",
+      "title": "Postdoctoral Position in Economics",
       "columns": [
-        "(12798) Postdoctoral Research Associate London, United Kingdom. Starts 2027-09-06. Duration: 2 years",
-        "School of Economics and Finance Queen Mary University of London",
-        "Postdoctoral Scholar Econometrics",
-        "10 Oct 2026 31 May 2027 31 May 2027"
+        "(13039) Postdoctoral Position in Economics Toulouse, France. Flexible start date.",
+        "Toulouse School of Economics Université Toulouse Capitole",
+        "Postdoctoral Scholar Various fields Industrial Organization • Health; Education; Welfare • Applied microeconomics",
+        "19 Nov 2026 30 Jun 2027 30 Jun 2027"
       ],
       "facts": {
-        "Location of job": "Queen Mary University of London, Mile End Road, Graduate Centre, School of Economics and Finance, London, London, E1 4NS, United Kingdom",
+        "Location of job": "1 Esplanade de l'Universite, Toulouse, 31000, France",
         "Degree required": "Doctorate",
-        "Job start date": "2027-09-06",
-        "Job duration": "2 years",
-        "Salary": "39,187 to 52,790 GBP",
-        "Application deadline": "31 May 2027 midnight UTC"
+        "Job start date": "Flexible",
+        "Job duration": "Continuing/permanent",
+        "Salary": "according to TSE postdoctoral standards.",
+        "Application deadline": "30 Jun 2027 midnight UTC"
       },
-      "url": "https://econjobmarket.org/positions/12798",
-      "listing_url": "https://econjobmarket.org/positions?page=1#position12798",
+      "url": "https://econjobmarket.org/positions/13039",
+      "listing_url": "https://econjobmarket.org/positions?page=1#position13039",
       "links": [
-        "#ad-12798",
-        "https://www.qmul.ac.uk/sef/",
-        "https://www.qmul.ac.uk/",
-        "http://www.econjobmarket.org/",
-        "https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/11446-Postdoctoral-Research-Associate/en-GB",
+        "#ad-13039",
+        "https://www.tse-fr.eu/",
+        "http://www.ut-capitole.fr/",
+        "#cats-13039",
         "https://econjobmarket.org/login",
         "https://econjobmarket.org/register",
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
-      "deadline": "2027-05-31",
+      "deadline": "2027-06-30",
       "recruitmentStatus": "Unknown"
     },
     {
@@ -158,6 +157,43 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2027-01-11",
+      "recruitmentStatus": "Unknown"
+    },
+    {
+      "id": "13032",
+      "title": "Postdoctoral position in the economics of information",
+      "columns": [
+        "(13032) Postdoctoral position in the economics of information Espoo, Finland. Flexible start date. Duration: 2 years",
+        "Department of Economics Aalto University",
+        "Postdoctoral Scholar Various fields Experimental Economics • Behavioral Economics • Microeconomic theory",
+        "17 Nov 2026 1 Jan 2027 31 Jan 2027 30 May 2027"
+      ],
+      "facts": {
+        "Location of job": "Ekonominaukio 1, Espoo, 02150, Finland",
+        "Degree required": "Doctorate",
+        "Job start date": "Flexible",
+        "Job duration": "2 years"
+      },
+      "url": "https://econjobmarket.org/positions/13032",
+      "listing_url": "https://econjobmarket.org/positions?page=1#position13032",
+      "links": [
+        "#ad-13032",
+        "https://www.aalto.fi/department-of-economics",
+        "https://www.aalto.fi/",
+        "#cats-13032",
+        "http://economics.aalto.fi/en/",
+        "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-the-economics-of-information",
+        "https://www.aalto.fi/en/careers-at-aalto",
+        "mailto:daniel.hauser@aalto.fi",
+        "mailto:hanna.multisilta-gagua@aalto.fi",
+        "https://www.youtube.com/watch?v=i8zawpNMVG8",
+        "https://www.youtube.com/watch?v=5k_og_6zUJQ",
+        "https://www.youtube.com/watch?v=ZK6pDWm1_CE",
+        "https://virtualtour.aalto.fi/",
+        "https://www.dayofhappiness.net/report",
+        "https://www.aalto.fi/en/careers-at-aalto/for-international-staff"
+      ],
+      "deadline": "2027-01-31",
       "recruitmentStatus": "Unknown"
     },
     {
@@ -345,6 +381,35 @@
       "recruitmentStatus": "Unknown"
     },
     {
+      "id": "13044",
+      "title": "Postdoctoral Fellowships in Economics, History and Creativity (two positions)",
+      "columns": [
+        "(13044) Postdoctoral Fellowships in Economics, History and Creativity (two positions) Exeter, United Kingdom. Starts 2027-07-01. Duration: 36 months Accepting applications",
+        "Economics University of Exeter",
+        "Postdoctoral Scholar Any field",
+        "20 Nov 2026 15 Dec 2026 15 Jan 2027 15 Mar 2027"
+      ],
+      "facts": {
+        "Location of job": "Streatham Court, Exeter, EX4 4PU, United Kingdom",
+        "Degree required": "Doctorate",
+        "Job start date": "2027-07-01",
+        "Job duration": "36 months",
+        "Application deadline": "15 Jan 2027 midnight UTC"
+      },
+      "url": "https://econjobmarket.org/positions/13044",
+      "listing_url": "https://econjobmarket.org/statuses?page=2#position13044",
+      "links": [
+        "#ad-13044",
+        "https://business-school.exeter.ac.uk/about/departments/economics/",
+        "https://www.exeter.ac.uk/",
+        "https://econjobmarket.org/login",
+        "https://econjobmarket.org/register",
+        "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
+      ],
+      "deadline": "2027-01-15",
+      "recruitmentStatus": "Accepting applications"
+    },
+    {
       "id": "12944",
       "title": "Postdoctoral researchers in microeconomic theory",
       "columns": [
@@ -373,6 +438,34 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2027-02-28",
+      "recruitmentStatus": "Accepting applications"
+    },
+    {
+      "id": "13038",
+      "title": "Postdoctoral Position in Urban Economics",
+      "columns": [
+        "(13038) Postdoctoral Position in Urban Economics Espoo, Finland. Flexible start date. Duration: 2 years Accepting applications",
+        "Department of Economics Aalto University",
+        "Postdoctoral Scholar Urban; Rural; Regional Economics • Applied microeconomics",
+        "19 Nov 2026 15 Feb 2027 15 Feb 2027"
+      ],
+      "facts": {
+        "Location of job": "Ekonominaukio 1, Espoo, 02150, Finland",
+        "Degree required": "Doctorate",
+        "Job start date": "Flexible",
+        "Job duration": "2 years"
+      },
+      "url": "https://econjobmarket.org/positions/13038",
+      "listing_url": "https://econjobmarket.org/statuses?page=2#position13038",
+      "links": [
+        "#ad-13038",
+        "https://www.aalto.fi/department-of-economics",
+        "https://www.aalto.fi/",
+        "https://www.helsinkigse.fi/",
+        "https://www.helsinkigse.fi/groups/urban-economics",
+        "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-urban-economics"
+      ],
+      "deadline": "2027-02-15",
       "recruitmentStatus": "Accepting applications"
     },
     {
@@ -435,6 +528,37 @@
       "recruitmentStatus": "Accepting applications"
     },
     {
+      "id": "13046",
+      "title": "Postdoctoral Researcher in Trade, Land Use and Forest Economics (24 months)",
+      "columns": [
+        "(13046) Postdoctoral Researcher in Trade, Land Use and Forest Economics (24 months) Cergy, France. Starts 2027-02-01. Duration: 24 months Accepting applications",
+        "Economics Department ESSEC Business School",
+        "Postdoctoral Scholar Any field",
+        "20 Nov 2026 30 Nov 2026 31 Jan 2027 31 Jan 2027"
+      ],
+      "facts": {
+        "Location of job": "3 Av. Bernard Hirsch, 95000 Cergy, Cergy, France, 95021, France",
+        "Degree required": "Doctorate",
+        "Job start date": "2027-02-01",
+        "Job duration": "24 months",
+        "Salary": "36,000 EUR",
+        "Application deadline": "31 Jan 2027 midnight UTC"
+      },
+      "url": "https://econjobmarket.org/positions/13046",
+      "listing_url": "https://econjobmarket.org/statuses?page=3#position13046",
+      "links": [
+        "#ad-13046",
+        "https://www.essec.edu/en/pages/faculty-and-research/departments/economics/",
+        "http://www.essec.edu/en/",
+        "mailto:alain.naef@essec.edu",
+        "https://econjobmarket.org/login",
+        "https://econjobmarket.org/register",
+        "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
+      ],
+      "deadline": "2027-01-31",
+      "recruitmentStatus": "Accepting applications"
+    },
+    {
       "id": "13002",
       "title": "Albert O. Hirschman Postdoc Program (Berlin / Kiel)",
       "columns": [
@@ -452,7 +576,7 @@
         "Application deadline": "30 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/13002",
-      "listing_url": "https://econjobmarket.org/statuses?page=2#position13002",
+      "listing_url": "https://econjobmarket.org/statuses?page=3#position13002",
       "links": [
         "#ad-13002",
         "https://www.ifw-kiel.de/",
@@ -484,7 +608,7 @@
         "Application deadline": "30 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/13008",
-      "listing_url": "https://econjobmarket.org/statuses?page=2#position13008",
+      "listing_url": "https://econjobmarket.org/statuses?page=3#position13008",
       "links": [
         "#ad-13008",
         "https://www.ifw-kiel.de/",
@@ -495,6 +619,43 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-11-30",
+      "recruitmentStatus": "Accepting applications"
+    },
+    {
+      "id": "13030",
+      "title": "Postdoctoral Researcher in Economics - Artificial Intelligence and Labour Market",
+      "columns": [
+        "(13030) Postdoctoral Researcher in Economics - Artificial Intelligence and Labour Market Helsinki, Finland. Flexible start date. Duration: 2 years Accepting applications",
+        "Economics and Finance Hanken School of Economics",
+        "Postdoctoral Scholar Labor; Demographic Economics • Applied microeconomics",
+        "17 Nov 2026 24 Jan 2027 24 Jan 2027"
+      ],
+      "facts": {
+        "Location of job": "Arkadiankatu 22, Helsinki, 00101, Finland",
+        "Degree required": "Doctorate",
+        "Job start date": "Flexible",
+        "Job duration": "2 years",
+        "Salary": "48,000 to 55,000 EUR",
+        "Application deadline": "24 Jan 2027 midnight UTC"
+      },
+      "url": "https://econjobmarket.org/positions/13030",
+      "listing_url": "https://econjobmarket.org/statuses?page=3#position13030",
+      "links": [
+        "#ad-13030",
+        "https://www.hanken.fi/en/departments-and-centres/department-finance-and-economics",
+        "https://www.hanken.fi/en",
+        "https://econjobmarket.org/",
+        "mailto:humanresources@hanken.fi",
+        "mailto:aapo.stenhammar@hanken.fi",
+        "https://www.hanken.fi/en/faculty-staff/job-opportunities/job-opportunities/applications-and-selection-process",
+        "https://www.helsinkigse.fi/",
+        "https://www.hanken.fi/en/about/job-opportunities",
+        "https://econjobmarket.org/login",
+        "https://econjobmarket.org/register",
+        "https://hanken.rekrytointi.com/paikat/?o=A_A&jid=410",
+        "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
+      ],
+      "deadline": "2027-01-24",
       "recruitmentStatus": "Accepting applications"
     },
     {
@@ -666,7 +827,7 @@
         "Application deadline": "31 Dec 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12485",
-      "listing_url": "https://econjobmarket.org/statuses?page=3#position12485",
+      "listing_url": "https://econjobmarket.org/statuses?page=4#position12485",
       "links": [
         "#ad-12485",
         "https://thema.u-cergy.fr/?lang=fr",
@@ -700,7 +861,7 @@
         "Job duration": "18 months"
       },
       "url": "https://econjobmarket.org/positions/13000",
-      "listing_url": "https://econjobmarket.org/statuses?page=3#position13000",
+      "listing_url": "https://econjobmarket.org/statuses?page=4#position13000",
       "links": [
         "#ad-13000",
         "https://www.ieseg.fr/en/",
@@ -712,6 +873,37 @@
         "mailto:l.berger@ieseg.fr"
       ],
       "deadline": "2026-12-18",
+      "recruitmentStatus": "Accepting applications"
+    },
+    {
+      "id": "13037",
+      "title": "Postdoctoral Research Fellow at DEMS UniMiB: AI, Automation and Economic Growth",
+      "columns": [
+        "(13037) Postdoctoral Research Fellow at DEMS UniMiB: AI, Automation and Economic Growth Milano, Italy. Flexible start date. Duration: 2 years Accepting applications",
+        "Department of Economics, Management, and Statistics University of Milan Bicocca",
+        "Postdoctoral Scholar Various fields Development; Growth • Environmental; Energy; Ag. Econ • International Trade • Labor; Demographic Economics • Macroeconomics; Monetary",
+        "19 Nov 2026 31 Dec 2026 31 Dec 2026"
+      ],
+      "facts": {
+        "Location of job": "Piazza Ateneo Nuovo 1, Milano, 20126, Italy",
+        "Degree required": "Doctorate",
+        "Job start date": "Flexible",
+        "Job duration": "2 years",
+        "Application deadline": "31 Dec 2026 midnight UTC"
+      },
+      "url": "https://econjobmarket.org/positions/13037",
+      "listing_url": "https://econjobmarket.org/statuses?page=4#position13037",
+      "links": [
+        "#ad-13037",
+        "http://dems.unimib.it/",
+        "https://www.unimib.it/unimib-international",
+        "#cats-13037",
+        "https://dems.unimib.it/en",
+        "https://econjobmarket.org/login",
+        "https://econjobmarket.org/register",
+        "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
+      ],
+      "deadline": "2026-12-31",
       "recruitmentStatus": "Accepting applications"
     },
     {
@@ -808,13 +1000,43 @@
       "recruitmentStatus": "Accepting applications"
     },
     {
-      "id": "13028",
-      "title": "Senior Research Fellow",
+      "id": "13043",
+      "title": "Postdoctoral Position in Environmental Economics",
       "columns": [
-        "(13028) Senior Research Fellow Oxford, United Kingdom. Flexible start date. Accepting applications",
+        "(13043) Postdoctoral Position in Environmental Economics Zurich, Switzerland. Starts 2027-03-01. Duration: 2 years Accepting applications",
+        "Department of Management, Technology, and Economics ETH Zurich",
+        "Postdoctoral Scholar Environmental; Energy; Ag. Econ",
+        "20 Nov 2026 19 Dec 2026 19 Dec 2026"
+      ],
+      "facts": {
+        "Location of job": "Zurichbergsstrasse 18, Zurich, 8032, Switzerland",
+        "Degree required": "Doctorate",
+        "Job start date": "2027-03-01",
+        "Job duration": "2 years",
+        "Application deadline": "19 Dec 2026 midnight UTC"
+      },
+      "url": "https://econjobmarket.org/positions/13043",
+      "listing_url": "https://econjobmarket.org/statuses?page=4#position13043",
+      "links": [
+        "#ad-13043",
+        "https://www.mtec.ethz.ch/",
+        "https://www.ethz.ch/en.html",
+        "https://www.eepe.ethz.ch/",
+        "https://econjobmarket.org/login",
+        "https://econjobmarket.org/register",
+        "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
+      ],
+      "deadline": "2026-12-19",
+      "recruitmentStatus": "Accepting applications"
+    },
+    {
+      "id": "13034",
+      "title": "Senior Research Fellow in Economics and Data Science",
+      "columns": [
+        "(13034) Senior Research Fellow in Economics and Data Science Oxford, United Kingdom. Flexible start date. Accepting applications",
         "Economics University of Oxford",
         "Other academic Any field",
-        "16 Nov 2026 17 Dec 2026 17 Dec 2026"
+        "18 Nov 2026 17 Dec 2026 17 Dec 2026"
       ],
       "facts": {
         "Location of job": "Department of Economics, Manor Road Building, Manor Road, Oxford, OX 1 3UQ, United Kingdom",
@@ -823,13 +1045,13 @@
         "Job duration": "Continuing/permanent",
         "Application deadline": "17 Dec 2026 midnight UTC"
       },
-      "url": "https://econjobmarket.org/positions/13028",
-      "listing_url": "https://econjobmarket.org/statuses?page=4#position13028",
+      "url": "https://econjobmarket.org/positions/13034",
+      "listing_url": "https://econjobmarket.org/statuses?page=4#position13034",
       "links": [
-        "#ad-13028",
+        "#ad-13034",
         "https://www.economics.ox.ac.uk/",
         "http://www.ox.ac.uk/",
-        "https://econjobmarket.org/positions/13028",
+        "https://econjobmarket.org/positions/13034",
         "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189839",
         "mailto:personnel@economics.ox.ac.uk",
         "https://econjobmarket.org/login",
@@ -837,6 +1059,41 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-12-17",
+      "recruitmentStatus": "Accepting applications"
+    },
+    {
+      "id": "13035",
+      "title": "Postdoctoral researcher in applied microeconometrics research",
+      "columns": [
+        "(13035) Postdoctoral researcher in applied microeconometrics research Helsinki, Finland. Flexible start date. Duration: 2 years Accepting applications",
+        "Economics University of Helsinki",
+        "Postdoctoral Scholar Applied microeconomics",
+        "18 Nov 2026 15 Dec 2026 16 Dec 2026"
+      ],
+      "facts": {
+        "Location of job": "Arkadiankatu 7, Helsinki, 00014, Finland",
+        "Degree required": "Doctorate",
+        "Job start date": "Flexible",
+        "Job duration": "2 years",
+        "Salary": "46,000 to 51,000 EUR",
+        "Application deadline": "15 Dec 2026 midnight UTC"
+      },
+      "url": "https://econjobmarket.org/positions/13035",
+      "listing_url": "https://econjobmarket.org/statuses?page=4#position13035",
+      "links": [
+        "#ad-13035",
+        "https://www.helsinki.fi/en/faculty-social-sciences/research/disciplines-and-research-units/economics",
+        "https://www.helsinki.fi/en",
+        "https://helsinkigse.fi/",
+        "https://vatt.fi/en/data-room",
+        "https://www.helsinki.fi/en/about-us/careers/welcome-finland-information-arriving-staff",
+        "mailto:jukka.pirttila@helsinki.fi",
+        "mailto:roope.uusitalo@helsinki.fi",
+        "https://econjobmarket.org/login",
+        "https://econjobmarket.org/register",
+        "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
+      ],
+      "deadline": "2026-12-15",
       "recruitmentStatus": "Accepting applications"
     },
     {
@@ -1194,7 +1451,7 @@
         "Application deadline": "25 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12786",
-      "listing_url": "https://econjobmarket.org/statuses?page=4#position12786",
+      "listing_url": "https://econjobmarket.org/statuses?page=5#position12786",
       "links": [
         "#ad-12786",
         "https://www.cergic-lyon.fr/",
@@ -1206,6 +1463,36 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-11-25",
+      "recruitmentStatus": "Accepting applications"
+    },
+    {
+      "id": "13045",
+      "title": "Research Fellow (Economics)",
+      "columns": [
+        "(13045) Research Fellow (Economics) London, United Kingdom. Flexible start date. Duration: 22 months Accepting applications",
+        "Economics University of Warwick",
+        "Postdoctoral Scholar Public Economics",
+        "20 Nov 2026 6 Dec 2026 6 Dec 2026"
+      ],
+      "facts": {
+        "Location of job": "HMRC Datalab, 14 Westfield Avenue, London, E20 1HZ, United Kingdom",
+        "Degree required": "Doctorate",
+        "Job start date": "Flexible",
+        "Job duration": "22 months",
+        "Application deadline": "6 Dec 2026 midnight UTC"
+      },
+      "url": "https://econjobmarket.org/positions/13045",
+      "listing_url": "https://econjobmarket.org/statuses?page=5#position13045",
+      "links": [
+        "#ad-13045",
+        "https://warwick.ac.uk/fac/soc/economics/",
+        "https://warwick.ac.uk/",
+        "https://workwithus.warwick.ac.uk/job/COVENTRY-Research-Fellow-%28Economics%29-CV4-7AL/1458470033/",
+        "https://econjobmarket.org/login",
+        "https://econjobmarket.org/register",
+        "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
+      ],
+      "deadline": "2026-12-06",
       "recruitmentStatus": "Accepting applications"
     },
     {
@@ -1427,7 +1714,7 @@
         "Application deadline": "30 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12812",
-      "listing_url": "https://econjobmarket.org/statuses?page=5#position12812",
+      "listing_url": "https://econjobmarket.org/statuses?page=6#position12812",
       "links": [
         "#ad-12812",
         "https://www.economia.unipd.it/en/",
@@ -1458,7 +1745,7 @@
         "Application deadline": "30 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12891",
-      "listing_url": "https://econjobmarket.org/statuses?page=5#position12891",
+      "listing_url": "https://econjobmarket.org/statuses?page=6#position12891",
       "links": [
         "#ad-12891",
         "https://www.zew.eu",
@@ -1487,7 +1774,7 @@
         "Job duration": "2 years"
       },
       "url": "https://econjobmarket.org/positions/12900",
-      "listing_url": "https://econjobmarket.org/statuses?page=5#position12900",
+      "listing_url": "https://econjobmarket.org/statuses?page=6#position12900",
       "links": [
         "#ad-12900",
         "https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/Faculty+and+Research/Departments/Ettore+Bocconi+Dep+of+Economics/ETTORE+BOCCONI+DEPARTMENT+OF+ECONOMICS",
@@ -1725,7 +2012,7 @@
       "id": "12929",
       "title": "Postdoc (f/m/x)",
       "columns": [
-        "(12929) Postdoc (f/m/x) Berlin, Germany. Starts 2027-09-01. Duration: 3 years Accepting applications",
+        "(12929) Postdoc (f/m/x) Berlin, Germany. Starts 2027-09-01. Duration: 3 years Reviewing applications",
         "DIW German Institute for Economic Research (DIW)",
         "Postdoctoral Scholar Public Economics",
         "28 Oct 2026 23 Nov 2026 23 Nov 2026"
@@ -1737,20 +2024,20 @@
         "Job duration": "3 years"
       },
       "url": "https://econjobmarket.org/positions/12929",
-      "listing_url": "https://econjobmarket.org/statuses?page=6#position12929",
+      "listing_url": "https://econjobmarket.org/statuses?page=7#position12929",
       "links": [
         "#ad-12929",
         "https://www.diw.de/en",
         "https://www.diw.de/de/diw_01.c.617346.de/karriere.html"
       ],
       "deadline": "2026-11-23",
-      "recruitmentStatus": "Accepting applications"
+      "recruitmentStatus": "Reviewing applications"
     },
     {
       "id": "12803",
       "title": "Postdoctoral Researcher in Innovation Economics",
       "columns": [
-        "(12803) Postdoctoral Researcher in Innovation Economics Hannover, Germany. Flexible start date. Duration: 3 years Accepting applications",
+        "(12803) Postdoctoral Researcher in Innovation Economics Hannover, Germany. Flexible start date. Duration: 3 years Reviewing applications",
         "Economics and Management Leibniz Universität Hannover",
         "Postdoctoral Scholar Various fields Experimental Economics • Industrial Organization • Public Economics • Behavioral Economics • Microeconomic theory",
         "10 Oct 2026 22 Nov 2026 22 Nov 2026"
@@ -1763,7 +2050,7 @@
         "Application deadline": "22 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12803",
-      "listing_url": "https://econjobmarket.org/statuses?page=6#position12803",
+      "listing_url": "https://econjobmarket.org/statuses?page=7#position12803",
       "links": [
         "#ad-12803",
         "https://www.wiwi.uni-hannover.de/en/",
@@ -1776,7 +2063,7 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-11-22",
-      "recruitmentStatus": "Accepting applications"
+      "recruitmentStatus": "Reviewing applications"
     },
     {
       "id": "12806",
@@ -1796,7 +2083,7 @@
         "Application deadline": "15 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12806",
-      "listing_url": "https://econjobmarket.org/statuses?page=6#position12806",
+      "listing_url": "https://econjobmarket.org/statuses?page=7#position12806",
       "links": [
         "#ad-12806",
         "https://www.ip.mpg.de/en.html",
@@ -1811,7 +2098,7 @@
       "id": "12849",
       "title": "Several Research Associate positions",
       "columns": [
-        "(12849) Several Research Associate positions Berlin, Germany. Flexible start date. Duration: 3 years Accepting applications",
+        "(12849) Several Research Associate positions Berlin, Germany. Flexible start date. Duration: 3 years Reviewing applications",
         "Berlin School of Economics",
         "Postdoctoral Scholar Various fields Environmental; Energy; Ag. Econ • Labor; Demographic Economics • Public Economics • Any field • Urban; Rural; Regional Economics • Political Economy • Applied microeconomics",
         "16 Oct 2026 20 Nov 2026 22 Nov 2026"
@@ -1824,7 +2111,7 @@
         "Application deadline": "20 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12849",
-      "listing_url": "https://econjobmarket.org/statuses?page=6#position12849",
+      "listing_url": "https://econjobmarket.org/statuses?page=7#position12849",
       "links": [
         "#ad-12849",
         "https://berlinschoolofeconomics.de/",
@@ -1839,7 +2126,7 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-11-20",
-      "recruitmentStatus": "Accepting applications"
+      "recruitmentStatus": "Reviewing applications"
     },
     {
       "id": "12911",
@@ -1858,7 +2145,7 @@
         "Application deadline": "15 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12911",
-      "listing_url": "https://econjobmarket.org/statuses?page=6#position12911",
+      "listing_url": "https://econjobmarket.org/statuses?page=7#position12911",
       "links": [
         "#ad-12911",
         "https://uni-tuebingen.de/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/fb-wiwi/",
@@ -1875,7 +2162,7 @@
       "id": "12934",
       "title": "Postdoctoral Researcher Political, Organisational and/or Development Economics",
       "columns": [
-        "(12934) Postdoctoral Researcher Political, Organisational and/or Development Economics Rotterdam, Netherlands. Starts 2027-09-01. Duration: 3 years Accepting applications",
+        "(12934) Postdoctoral Researcher Political, Organisational and/or Development Economics Rotterdam, Netherlands. Starts 2027-09-01. Duration: 3 years Reviewing applications",
         "Economics Erasmus University Rotterdam",
         "Postdoctoral Scholar Various fields Development; Growth • Labor; Demographic Economics • Political Economy • Organizational Behavior • Applied microeconomics",
         "27 Oct 2026 22 Nov 2026 22 Nov 2026"
@@ -1889,7 +2176,7 @@
         "Application deadline": "22 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12934",
-      "listing_url": "https://econjobmarket.org/statuses?page=6#position12934",
+      "listing_url": "https://econjobmarket.org/statuses?page=7#position12934",
       "links": [
         "#ad-12934",
         "https://www.eur.nl/en/ese/department-economics",
@@ -1904,13 +2191,13 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-11-22",
-      "recruitmentStatus": "Accepting applications"
+      "recruitmentStatus": "Reviewing applications"
     },
     {
       "id": "12889",
       "title": "Postdoctoral Researcher with Option for a Permanent Contract (f/m/d, 100%)",
       "columns": [
-        "(12889) Postdoctoral Researcher with Option for a Permanent Contract (f/m/d, 100%) Mannheim, Germany. Flexible start date. Duration: 6 years Accepting applications",
+        "(12889) Postdoctoral Researcher with Option for a Permanent Contract (f/m/d, 100%) Mannheim, Germany. Flexible start date. Duration: 6 years Reviewing applications",
         "Various departments ZEW - Leibniz Centre for European Economic Research",
         "Postdoctoral Scholar Health; Education; Welfare • Management, Health Care",
         "22 Oct 2026 20 Nov 2026 21 Nov 2026"
@@ -1923,7 +2210,7 @@
         "Application deadline": "20 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12889",
-      "listing_url": "https://econjobmarket.org/statuses?page=6#position12889",
+      "listing_url": "https://econjobmarket.org/statuses?page=7#position12889",
       "links": [
         "#ad-12889",
         "https://www.zew.eu",
@@ -1934,13 +2221,13 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-11-20",
-      "recruitmentStatus": "Accepting applications"
+      "recruitmentStatus": "Reviewing applications"
     },
     {
       "id": "12628",
       "title": "Postdoctoral researcher at Nova School of Business and Economics",
       "columns": [
-        "(12628) Postdoctoral researcher at Nova School of Business and Economics Cascais, Portugal. Flexible start date. Duration: 2 years Accepting applications",
+        "(12628) Postdoctoral researcher at Nova School of Business and Economics Cascais, Portugal. Flexible start date. Duration: 2 years Reviewing applications",
         "Nova School of Business and Economics Universidade Nova de Lisboa",
         "Postdoctoral Scholar Development; Growth",
         "5 Sep 2026 20 Nov 2026 20 Nov 2026"
@@ -1953,7 +2240,7 @@
         "Application deadline": "20 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12628",
-      "listing_url": "https://econjobmarket.org/statuses?page=6#position12628",
+      "listing_url": "https://econjobmarket.org/statuses?page=7#position12628",
       "links": [
         "#ad-12628",
         "https://www2.novasbe.unl.pt/en/",
@@ -1964,13 +2251,13 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-11-20",
-      "recruitmentStatus": "Accepting applications"
+      "recruitmentStatus": "Reviewing applications"
     },
     {
       "id": "12692",
       "title": "Research Associate in Labor Economics",
       "columns": [
-        "(12692) Research Associate in Labor Economics 90478 Nürnberg, Germany. Flexible start date. Duration: 2 years Accepting applications",
+        "(12692) Research Associate in Labor Economics 90478 Nürnberg, Germany. Flexible start date. Duration: 2 years Reviewing applications",
         "Institute for Employment Research",
         "Postdoctoral Scholar Various fields Econometrics • Labor; Demographic Economics • Health; Education; Welfare • Applied microeconomics",
         "22 Sep 2026 20 Nov 2026 20 Nov 2026"
@@ -1997,13 +2284,13 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-11-20",
-      "recruitmentStatus": "Accepting applications"
+      "recruitmentStatus": "Reviewing applications"
     },
     {
       "id": "12844",
       "title": "Postdoctoral Researcher (f/m/d) for the ifo Center for International Economics",
       "columns": [
-        "(12844) Postdoctoral Researcher (f/m/d) for the ifo Center for International Economics Munich, Germany. Starts 2027-10-01. Duration: 3 years",
+        "(12844) Postdoctoral Researcher (f/m/d) for the ifo Center for International Economics Munich, Germany. Starts 2027-10-01. Duration: 3 years Reviewing applications",
         "Ifo Institute",
         "Postdoctoral Scholar International Trade",
         "16 Oct 2026 18 Nov 2026 18 Nov 2026"
@@ -2017,7 +2304,7 @@
         "Application deadline": "18 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12844",
-      "listing_url": "https://econjobmarket.org/positions?page=1#position12844",
+      "listing_url": "https://econjobmarket.org/statuses?page=7#position12844",
       "links": [
         "#ad-12844",
         "http://www.ifo.de",
@@ -2030,13 +2317,13 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-11-18",
-      "recruitmentStatus": "Unknown"
+      "recruitmentStatus": "Reviewing applications"
     },
     {
       "id": "12699",
       "title": "Postdoctoral Researcher in Finance, Asset Pricing",
       "columns": [
-        "(12699) Postdoctoral Researcher in Finance, Asset Pricing Frankfurt am Main, Germany. Starts 2027-02-01. Duration: 3 years Accepting applications",
+        "(12699) Postdoctoral Researcher in Finance, Asset Pricing Frankfurt am Main, Germany. Starts 2027-02-01. Duration: 3 years Reviewing applications",
         "Finance Goethe-Universität Frankfurt am Main",
         "Postdoctoral Scholar Finance",
         "23 Sep 2026 18 Nov 2026 18 Nov 2026"
@@ -2056,7 +2343,39 @@
         "mailto:derivate@finance.uni-frankfurt.de"
       ],
       "deadline": "2026-11-18",
-      "recruitmentStatus": "Accepting applications"
+      "recruitmentStatus": "Reviewing applications"
+    },
+    {
+      "id": "13028",
+      "title": "Senior Research Fellow",
+      "columns": [
+        "(13028) Senior Research Fellow Oxford, United Kingdom. Flexible start date. Search suspended/canceled",
+        "Economics University of Oxford",
+        "Other academic Any field",
+        "16 Nov 2026 17 Dec 2026 16 Nov 2026"
+      ],
+      "facts": {
+        "Location of job": "Department of Economics, Manor Road Building, Manor Road, Oxford, OX 1 3UQ, United Kingdom",
+        "Degree required": "Doctorate",
+        "Job start date": "Flexible",
+        "Job duration": "Continuing/permanent",
+        "Application deadline": "17 Dec 2026 midnight UTC"
+      },
+      "url": "https://econjobmarket.org/positions/13028",
+      "listing_url": "https://econjobmarket.org/statuses?page=7#position13028",
+      "links": [
+        "#ad-13028",
+        "https://www.economics.ox.ac.uk/",
+        "http://www.ox.ac.uk/",
+        "https://econjobmarket.org/positions/13028",
+        "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=189839",
+        "mailto:personnel@economics.ox.ac.uk",
+        "https://econjobmarket.org/login",
+        "https://econjobmarket.org/register",
+        "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
+      ],
+      "deadline": "2026-12-17",
+      "recruitmentStatus": "Unknown"
     },
     {
       "id": "12552",
@@ -2105,7 +2424,7 @@
         "Application deadline": "15 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12818",
-      "listing_url": "https://econjobmarket.org/statuses?page=7#position12818",
+      "listing_url": "https://econjobmarket.org/statuses?page=8#position12818",
       "links": [
         "#ad-12818",
         "https://www.vwl.uni-mannheim.de/en/",
@@ -2137,7 +2456,7 @@
         "Salary": "60,000 to 70,000 EUR"
       },
       "url": "https://econjobmarket.org/positions/12871",
-      "listing_url": "https://econjobmarket.org/statuses?page=7#position12871",
+      "listing_url": "https://econjobmarket.org/statuses?page=8#position12871",
       "links": [
         "#ad-12871",
         "https://www.isi-munich.de/en",
@@ -2165,7 +2484,7 @@
         "Application deadline": "15 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12873",
-      "listing_url": "https://econjobmarket.org/statuses?page=7#position12873",
+      "listing_url": "https://econjobmarket.org/statuses?page=8#position12873",
       "links": [
         "#ad-12873",
         "https://www.ifs.org.uk/",
@@ -2195,7 +2514,7 @@
         "Application deadline": "15 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12874",
-      "listing_url": "https://econjobmarket.org/statuses?page=7#position12874",
+      "listing_url": "https://econjobmarket.org/statuses?page=8#position12874",
       "links": [
         "#ad-12874",
         "https://www.ifs.org.uk/",
@@ -2225,7 +2544,7 @@
         "Application deadline": "15 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12665",
-      "listing_url": "https://econjobmarket.org/statuses?page=7#position12665",
+      "listing_url": "https://econjobmarket.org/statuses?page=8#position12665",
       "links": [
         "#ad-12665",
         "https://www.ifs.org.uk/",
@@ -2237,6 +2556,38 @@
       ],
       "deadline": "2026-11-15",
       "recruitmentStatus": "Reviewing applications"
+    },
+    {
+      "id": "12798",
+      "title": "Postdoctoral Research Associate",
+      "columns": [
+        "(12798) Postdoctoral Research Associate London, United Kingdom. Starts 2027-09-06. Duration: 2 years Search suspended/canceled",
+        "School of Economics and Finance Queen Mary University of London",
+        "Postdoctoral Scholar Econometrics",
+        "10 Oct 2026 31 May 2027 15 Nov 2026"
+      ],
+      "facts": {
+        "Location of job": "Queen Mary University of London, Mile End Road, Graduate Centre, School of Economics and Finance, London, London, E1 4NS, United Kingdom",
+        "Degree required": "Doctorate",
+        "Job start date": "2027-09-06",
+        "Job duration": "2 years",
+        "Salary": "39,187 to 52,790 GBP",
+        "Application deadline": "31 May 2027 midnight UTC"
+      },
+      "url": "https://econjobmarket.org/positions/12798",
+      "listing_url": "https://econjobmarket.org/statuses?page=8#position12798",
+      "links": [
+        "#ad-12798",
+        "https://www.qmul.ac.uk/sef/",
+        "https://www.qmul.ac.uk/",
+        "http://www.econjobmarket.org/",
+        "https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/11446-Postdoctoral-Research-Associate/en-GB",
+        "https://econjobmarket.org/login",
+        "https://econjobmarket.org/register",
+        "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
+      ],
+      "deadline": "2027-05-31",
+      "recruitmentStatus": "Unknown"
     },
     {
       "id": "12968",
@@ -2331,7 +2682,7 @@
       "id": "12969",
       "title": "Research Officer in Dynamics and/or Perceptions of Inequality",
       "columns": [
-        "(12969) Research Officer in Dynamics and/or Perceptions of Inequality London, United Kingdom. Flexible start date. Duration: 2 years Accepting applications",
+        "(12969) Research Officer in Dynamics and/or Perceptions of Inequality London, United Kingdom. Flexible start date. Duration: 2 years Reviewing applications",
         "International Inequalities Institute London School of Economics and Political Science",
         "Postdoctoral Scholar Any field",
         "3 Nov 2026 20 Nov 2026 4 Nov 2026"
@@ -2344,7 +2695,7 @@
         "Salary": "44,143 to 52,749 GBP"
       },
       "url": "https://econjobmarket.org/positions/12969",
-      "listing_url": "https://econjobmarket.org/statuses?page=8#position12969",
+      "listing_url": "https://econjobmarket.org/statuses?page=9#position12969",
       "links": [
         "#ad-12969",
         "https://www.lse.ac.uk/International-Inequalities",
@@ -2356,7 +2707,7 @@
         "mailto:E.Ryan@lse.ac.uk"
       ],
       "deadline": "2026-11-20",
-      "recruitmentStatus": "Accepting applications"
+      "recruitmentStatus": "Reviewing applications"
     },
     {
       "id": "12804",
@@ -2375,7 +2726,7 @@
         "Application deadline": "30 Oct 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12804",
-      "listing_url": "https://econjobmarket.org/statuses?page=8#position12804",
+      "listing_url": "https://econjobmarket.org/statuses?page=9#position12804",
       "links": [
         "#ad-12804",
         "http://eng.demm.unimi.it/ecm/home",
@@ -2510,7 +2861,7 @@
       "id": "12543",
       "title": "Postdoctoral Research Fellow",
       "columns": [
-        "(12543) Postdoctoral Research Fellow Oxford, United Kingdom. Flexible start date. Duration: 1 year Scheduling interviews",
+        "(12543) Postdoctoral Research Fellow Oxford, United Kingdom. Flexible start date. Duration: 1 year Position filled",
         "Economics University of Oxford",
         "Postdoctoral Scholar Any field",
         "15 Jul 2026 30 Sep 2026 30 Sep 2026"
@@ -2523,7 +2874,7 @@
         "Application deadline": "30 Sep 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12543",
-      "listing_url": "https://econjobmarket.org/statuses?page=9#position12543",
+      "listing_url": "https://econjobmarket.org/statuses?page=10#position12543",
       "links": [
         "#ad-12543",
         "https://www.economics.ox.ac.uk/",
@@ -2535,7 +2886,7 @@
         "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
       ],
       "deadline": "2026-09-30",
-      "recruitmentStatus": "Scheduling interviews"
+      "recruitmentStatus": "Position filled"
     },
     {
       "id": "12551",
@@ -2555,7 +2906,7 @@
         "Application deadline": "23 Sep 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12551",
-      "listing_url": "https://econjobmarket.org/statuses?page=9#position12551",
+      "listing_url": "https://econjobmarket.org/statuses?page=10#position12551",
       "links": [
         "#ad-12551",
         "https://www.economics.ox.ac.uk/",
@@ -2586,7 +2937,7 @@
         "Application deadline": "1 Nov 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12513",
-      "listing_url": "https://econjobmarket.org/statuses?page=9#position12513",
+      "listing_url": "https://econjobmarket.org/statuses?page=10#position12513",
       "links": [
         "#ad-12513",
         "https://www.ip-paris.fr/en/research/education-and-research-departments/department-economics",
@@ -2615,7 +2966,7 @@
         "Application deadline": "15 Jun 2026 midnight UTC"
       },
       "url": "https://econjobmarket.org/positions/12473",
-      "listing_url": "https://econjobmarket.org/statuses?page=9#position12473",
+      "listing_url": "https://econjobmarket.org/statuses?page=10#position12473",
       "links": [
         "#ad-12473",
         "https://www.ism.lt/en/doctoral-studies/economics/",
@@ -2644,7 +2995,7 @@
         "Job duration": "3 years"
       },
       "url": "https://econjobmarket.org/positions/12542",
-      "listing_url": "https://econjobmarket.org/statuses?page=9#position12542",
+      "listing_url": "https://econjobmarket.org/statuses?page=10#position12542",
       "links": [
         "#ad-12542",
         "https://www.business.uzh.ch/en.html",
@@ -2776,37 +3127,6 @@
       ],
       "deadline": "2026-07-22",
       "recruitmentStatus": "Position filled"
-    },
-    {
-      "id": "12517",
-      "title": "Postdoctoral Researcher on the Political Economy of Populism (Berlin office)",
-      "columns": [
-        "(12517) Postdoctoral Researcher on the Political Economy of Populism (Berlin office) Berlin, Germany. Flexible start date. Duration: 3 years Reviewing applications",
-        "Kiel Institute for the World Economy",
-        "Postdoctoral Scholar International Finance/Macro • Political Economy",
-        "15 Jun 2026 19 Jul 2026 22 Jul 2026"
-      ],
-      "facts": {
-        "Location of job": "Chausseestraße 111, Berlin, 10115, Germany",
-        "Degree required": "Doctorate",
-        "Job start date": "Flexible",
-        "Job duration": "3 years",
-        "Salary": "52,000 to 75,000 EUR",
-        "Application deadline": "19 Jul 2026 midnight UTC"
-      },
-      "url": "https://econjobmarket.org/positions/12517",
-      "listing_url": "https://econjobmarket.org/statuses?page=10#position12517",
-      "links": [
-        "#ad-12517",
-        "https://www.ifw-kiel.de/",
-        "https://www.kielinstitut.de/institute/career/equal-opportunity/",
-        "https://www.scripts-berlin.eu/about-us/Diversity/Diversity_Rules_Guidelines/index.html",
-        "https://econjobmarket.org/login",
-        "https://econjobmarket.org/register",
-        "https://en.wikipedia.org/wiki/Coordinated_Universal_Time"
-      ],
-      "deadline": "2026-07-19",
-      "recruitmentStatus": "Reviewing applications"
     }
   ],
   "scope_exclusions": [
@@ -2823,6 +3143,13 @@
       "reason": "Permanent senior research fellowship with possible professor title; no postdoctoral route in full employer advert.",
       "evidence_url": "https://econjobmarket.org/positions/13028",
       "checked_on": "2026-11-16"
+    },
+    {
+      "reference_id": "ejm:13034",
+      "title": "Senior Research Fellow in Economics and Data Science",
+      "reason": "Permanent senior research fellowship with possible professor title; no postdoctoral route in full employer advert.",
+      "evidence_url": "https://econjobmarket.org/positions/13034",
+      "checked_on": "2026-11-23"
     }
   ]
 }

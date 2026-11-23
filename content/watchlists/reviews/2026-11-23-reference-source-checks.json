@@ -1,0 +1,287 @@
+{
+  "checked_on": "2026-11-23",
+  "sources": [
+    {
+      "url": "https://sites.google.com/site/alexandrecorhay/",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/srbaker/academic-work",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/jordiblanesvidal/research",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/elenasimintzi/home",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/phongthngo/research",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/view/cameliakuhnen/research?authuser=0",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/asgerlauandersen/research",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/view/bhash/home",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://dimitris-papanikolaou.github.io/website/wp.html",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/stephanluck/Home/research",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/yaozengwebsite/",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/view/liramota/research",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.cormacodea.com/research.html",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://jiadun.weebly.com/store/c1/Featured_Products.html",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://jwzheng.wixsite.com/jiweizheng",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/view/chiyangtsou/home",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/view/zexiwang",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/view/adrienmatray/workingpapers",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/view/diogo-mendes/research",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://nancyqian.org/research-cv",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/gonzalopazpardo/",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/view/pasqualedellacorte/research/working-papers?authuser=0",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.jincheng-tong.com/research.html",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://zhiguohe.net/publications/research/",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/stefanobernberger/research?authuser=0",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/albertorossifrb/home",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.yukunliu.com/research/",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/johnbaijianqiu/research?authuser=0",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/wenxindu/research?authuser=0",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://junliweb.weebly.com/research.html",
+      "checked_on": "2026-11-23",
+      "result": "failed",
+      "error": "PermissionError"
+    },
+    {
+      "url": "https://tsoutsoura.com/research.html",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.gormley.info/research.html",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/view/xiaomenglu/home",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://faculty.chicagobooth.edu/michael-weber/research",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/hongjunyanhomepage",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.bo-bian.com/research",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.evolkova.info/",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://www.junchenphd.com/",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/site/chernenkosergey/",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    },
+    {
+      "url": "https://sites.google.com/view/linshen",
+      "checked_on": "2026-11-23",
+      "result": "fetched",
+      "error": ""
+    }
+  ],
+  "scope": "Targeted complete set of40 ChenYang listed source URLs;39 read and1permission/access failure. Not a complete author-roster scan.",
+  "decision_review": "Existing accepted/forthcoming labels for Conflicting Fiduciary Duties, Road to Negative Futures, Supervising Failing Banks and Model of Consensus were retained. Conference presentation acceptance and adjacent publication headings were not treated as journal acceptance.",
+  "blocked_source_followup": {
+    "url": "https://junliweb.weebly.com/research.html",
+    "fallbacks": [
+      "https://www.hengjieai.com/research.html",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5267354"
+    ],
+    "finding": "Coauthor lists same paper under a title variant; SSRN confirms authors and identity. Neither establishes a new current journal decision. Prior decision date retained."
+  },
+  "parser_candidate_review": [
+    {
+      "title": "Qiushi Huang",
+      "decision": "excluded_extraction_error",
+      "reason": "Coauthor profile link, not a paper title."
+    },
+    {
+      "title": "Alex Frankel",
+      "decision": "excluded_extraction_error",
+      "reason": "Coauthor profile link, not a paper title."
+    },
+    {
+      "title": "working papers/work in progress",
+      "decision": "excluded_extraction_error",
+      "reason": "Section heading, not a paper title."
+    },
+    {
+      "title": "Working paper",
+      "decision": "excluded_extraction_error",
+      "reason": "Link label, not a paper title."
+    },
+    {
+      "title": "Statement on Proposed Rules Regarding Exchange Traded Funds (ETFs)",
+      "decision": "excluded_extraction_error",
+      "reason": "SEC regulatory statement; adjacent paper status cannot be borrowed."
+    },
+    {
+      "title": "Money Market Fund Reforms",
+      "decision": "excluded_extraction_error",
+      "reason": "SEC final rule; adjacent paper status cannot be borrowed."
+    }
+  ]
+}
