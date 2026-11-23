@@ -1,9 +1,11 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { PaperView, VacancyView } from '@/lib/watchlists-public';
 import { paperFields } from '@/lib/paper-fields';
+import { buildPaperKeywords } from '@/lib/paper-keywords';
 import s from './Watchlists.module.css';
+import t from './Top5RR.module.css';
 
 const external = { target: '_blank', rel: 'noopener noreferrer' };
 const revisionStatuses = ['R&R', 'Reject & Resubmit', 'Invited revision'];
@@ -43,8 +45,10 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
   const [journal, setJournal] = useState('');
   const [field, setField] = useState('');
   const [status, setStatus] = useState('');
+  const [keyword, setKeyword] = useState('');
   const [page, setPage] = useState(1);
-  useEffect(() => setPage(1), [query, journal, field, status]);
+  useEffect(() => setPage(1), [query, journal, field, status, keyword]);
+  const keywordsByPaper = useMemo(() => buildPaperKeywords(items), [items]);
   const availableJournals = Object.keys(journalNames);
   const availableFields = paperFields.filter(value => items.some(p => p.topics.includes(value)));
   const availableStatuses = revisionStatuses.filter(value => items.some(p => p.status === value));
@@ -55,9 +59,15 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
     setJournal(journal === code && status === 'R&R' ? '' : code);
     setStatus('R&R');
   };
-  const filtered = items.filter(p => revisionStatuses.includes(p.status) &&
-    (!journal || p.journal === journal) && (!field || p.topics.includes(field)) && (!status || p.status === status) &&
-    [p.title, ...p.authors, ...p.topics, p.journal, fullJournalName(p.journal), p.status].join(' ').toLowerCase().includes(query.trim().toLowerCase()))
+  const matches = (p: PaperView, ignoreStatus = false, ignoreKeyword = false) =>
+    (!journal || p.journal === journal) && (!field || p.topics.includes(field)) && (ignoreStatus || !status || p.status === status) &&
+    (ignoreKeyword || !keyword || (keywordsByPaper.get(p.id) || []).includes(keyword)) &&
+    [p.title, ...p.authors, ...p.topics, p.journal, fullJournalName(p.journal), p.status].join(' ').toLowerCase().includes(query.trim().toLowerCase());
+  const keywordCounts: Record<string, number> = {};
+  items.filter(p => p.status === 'R&R' && matches(p, true, true)).forEach(p => (keywordsByPaper.get(p.id) || []).forEach(value => { keywordCounts[value] = (keywordCounts[value] || 0) + 1; }));
+  const rankedKeywords = Object.keys(keywordCounts).sort((a, b) => keywordCounts[b] - keywordCounts[a] || a.localeCompare(b)).slice(0, 8);
+  if (keyword && keywordCounts[keyword] && !rankedKeywords.includes(keyword)) rankedKeywords[rankedKeywords.length - 1] = keyword;
+  const filtered = items.filter(p => revisionStatuses.includes(p.status) && matches(p))
     .sort((a,b) => a.title.localeCompare(b.title));
   const currentPage = Math.min(page, Math.max(1, Math.ceil(filtered.length / 25)));
   return <main className={`${s.page} ${s.widePage}`}>
@@ -72,11 +82,17 @@ export function PaperWatch({ items, date, authorCoverage }: { items: PaperView[]
         </button>)}
       </div>
     </section>
+    <section className={s.chart} aria-labelledby="finance-keyword-heading">
+      <div className={s.chartHeading}><div><p className={s.chartKicker}>Research themes</p><h2 id="finance-keyword-heading">Keyword phrases</h2></div></div>
+      <p className={s.chartHint}>Phrases in R&amp;R paper titles. Select a phrase to filter the paper list.</p>
+      <div className={t.keywordGrid}>{rankedKeywords.map(value => <button type="button" className={t.keywordButton} key={value} data-keyword={value} aria-pressed={keyword === value} onClick={() => { setStatus('R&R'); setKeyword(keyword === value ? '' : value); }}><span>{value}</span><strong>{keywordCounts[value]}</strong></button>)}{!rankedKeywords.length && <p className={s.note}>No matching keyword phrases.</p>}</div>
+      {keyword && <div className={t.listControls}><p className={t.keywordChoice}>Keyword: {keyword}</p><button type="button" className={t.clearButton} onClick={() => setKeyword('')}>Clear keyword</button></div>}
+    </section>
     <div className={`${s.filters} ${s.paperFilters}`}>
       <Search value={query} change={setQuery} placeholder="Search papers, authors or journals"/>
       <label className={s.filter}>Journal<select value={journal} onChange={e => setJournal(e.target.value)}><option value="">All journals</option>{availableJournals.map(code => <option key={code} value={code}>{fullJournalName(code)}</option>)}</select></label>
       <label className={s.filter}>Field<select value={field} onChange={e => setField(e.target.value)}><option value="">All fields</option>{availableFields.map(value => <option key={value} value={value}>{value}</option>)}</select></label>
-      <label className={s.filter}>Status<select value={status} onChange={e => setStatus(e.target.value)}><option value="">All statuses</option>{availableStatuses.map(value => <option key={value} value={value}>{value}</option>)}</select></label>
+      <label className={s.filter}>Status<select value={status} onChange={e => { setStatus(e.target.value); setKeyword(''); }}><option value="">All statuses</option>{availableStatuses.map(value => <option key={value} value={value}>{value}</option>)}</select></label>
     </div>
     <p className={s.fieldHint}>Fields use available topic tags and title keywords; papers may span multiple fields.</p>
     <p className={s.count} role="status" aria-live="polite">{filtered.length} papers</p>
