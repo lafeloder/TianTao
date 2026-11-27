@@ -46254,6 +46254,472 @@
       "source_scope": "top5",
       "verification_status": "primary_confirmed",
       "verification": "Individually reviewed author-disclosed Management Science decision from the approved combined author watchlist."
+    },
+    {
+      "id": "excel-20261127-c2d6490d3280eedc",
+      "title": "Institutional Ownership Overstates Voting Power: The Allocation of Voting Authority",
+      "authors": [
+        "Alon Brav",
+        "Tao Li"
+      ],
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://site.warrington.ufl.edu/tao-li/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6552838",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6552838",
+      "source_author": "Tao Li",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Institutional Ownership Overstates Voting Power: The Allocation of Voting Authority Revise and Resubmit, Journal of Finance",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:31.880740+00:00",
+      "source_urls": [
+        "https://site.warrington.ufl.edu/tao-li/",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/6552838.pdf?abstractid=6552838&mirid=1"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-c2d6490d3280eedc",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Journal of Finance"
+    },
+    {
+      "id": "excel-20261127-7ea29419995d6846",
+      "title": "Regulatory Arbitrage within the Firm",
+      "authors": [
+        "Nicola Cetorelli",
+        "Shohini Kundu"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://shohinikundu.github.io/research.html",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6814642",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6814642",
+      "source_author": "Shohini Kundu",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Regulatory Arbitrage within the Firm R&R Journal of Financial Economics",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:52.914728+00:00",
+      "source_urls": [
+        "https://shohinikundu.github.io/research.html",
+        "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1196.pdf?sc_lang=en"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-7ea29419995d6846",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial Economics"
+    },
+    {
+      "id": "excel-20261127-264a5f06dd0b195e",
+      "title": "Race to Rebalance: Global Supply Chains and Labor Market Regulation",
+      "authors": [
+        "Xiaoxue Hu",
+        "Dongxu Li",
+        "Rose Liao",
+        "Angie Low",
+        "Carrie Pan"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.rutgers.edu/rose-liao/research-2/",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Rose Liao",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "“ Race to Rebalance: Global Supply Chains and Labor Market Regulation ” (With Xiaoxue Hu, Dongxu Li, Angie Low, and Carrie Pan), working paper, Rutgers University, 2025 R&R at Journal of Financial and Quantitative Analysis",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:59.723818+00:00",
+      "source_urls": [
+        "https://sites.rutgers.edu/rose-liao/research-2/",
+        "https://personal.ntu.edu.sg/aaclow/Low_CV.pdf"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-264a5f06dd0b195e",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial and Quantitative Analysis"
+    },
+    {
+      "id": "excel-20261127-03a77b2b19fdbcd8",
+      "title": "Roe v. Rates: Reproductive Healthcare and Public Financing Costs",
+      "authors": [
+        "Runjing Lu",
+        "Zihan Ye"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/zihanye/home",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4557423",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4557423",
+      "source_author": "Zihan Ye",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Roe v. Rates: Reproductive Healthcare and Public Financing Costs with Runjing Lu Revise & Resubmit at Journal of Financial and Quantitative Analysis",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:07:19.224368+00:00",
+      "source_urls": [
+        "https://sites.google.com/view/zihanye/home"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-03a77b2b19fdbcd8",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial and Quantitative Analysis"
+    },
+    {
+      "id": "excel-20261127-8919c8510cb94bd8",
+      "title": "Institutional Ownership Concentration and Informational Efficiency",
+      "authors": [
+        "Yan Xiong",
+        "Liyan Yang",
+        "Zexin Zheng"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://xiongyan2224.github.io/",
+      "paper_url": "https://xiongyan2224.github.io/papers/institutional-ownership-concentration.pdf",
+      "ssrn_url": "",
+      "source_author": "Yan Xiong",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Institutional Ownership Concentration and Informational Efficiency PDF with Liyan Yang and Zexin Zheng R&R at Review of Financial Studies",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:27.954577+00:00",
+      "source_urls": [
+        "https://xiongyan2224.github.io/",
+        "https://xiongyan2224.github.io/papers/institutional-ownership-concentration.pdf"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-8919c8510cb94bd8",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Review of Financial Studies"
+    },
+    {
+      "id": "excel-20261127-dc778df8ea937058",
+      "title": "How Does Corporate Sustainability Shape Consumption?",
+      "authors": [
+        "Joel F. Houston",
+        "Chen Lin",
+        "Hongyu Shan",
+        "Mo Shen"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/mo-shen",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4243071",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4243071",
+      "source_author": "Mo Shen",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "How Does Corporate Sustainability Shape Consumption ? (with Joel Houston, Chen Lin, and Hongyu (Derek) Shan) Revise and Resubmit , Review of Financial Studies New Zealand Finance Meeting Best Runner-Up Award 2023 Conferences: SFS Cavalcade 2023, WFA 2023 Media Coverage: Chicago Booth Review",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:46.456223+00:00",
+      "source_urls": [
+        "https://sites.google.com/view/mo-shen",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/4243071.pdf?abstractid=4243071&mirid=1&type=2"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-dc778df8ea937058",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Review of Financial Studies"
+    },
+    {
+      "id": "excel-20261127-f844c131c6f56c1a",
+      "title": "Payment Risk and Bank Lending",
+      "authors": [
+        "Ye Li",
+        "Yi Li"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://yeli-macrofinance.com/",
+      "paper_url": "https://yeli-macrofinance.com/payment_risk.pdf",
+      "ssrn_url": "",
+      "source_author": "YE LI",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Payment Risk and Bank Lending, revise and resubmit at the Journal of Financial Economics with Yi Li (2021, updated 2026), paper",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:32.628717+00:00",
+      "source_urls": [
+        "https://yeli-macrofinance.com/",
+        "https://damore-mckim.northeastern.edu/wp-content/uploads/2022/05/9_payment_lending_2022apr.pdf"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-f844c131c6f56c1a",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial Economics"
+    },
+    {
+      "id": "excel-20261127-185ff11acef15647",
+      "title": "A Network-Based Analysis of Over-the-Counter Markets",
+      "authors": [
+        "Michael Gofman"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://gofman.info/",
+      "paper_url": "https://gofman.info/JMP/MichaelGofmanJMP.pdf",
+      "ssrn_url": "",
+      "source_author": "Michael Gofman",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "A Network-Based Analysis of Over-the-Counter Markets ( R&R Review of Financial Studies )",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:27.920981+00:00",
+      "source_urls": [
+        "https://gofman.info/",
+        "https://gofman.info/JMP/MichaelGofmanJMP.pdf"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-185ff11acef15647",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Review of Financial Studies"
+    },
+    {
+      "id": "excel-20261127-32957329f655447b",
+      "title": "Monetary Policy and Firm Heterogeneity: The Role of Leverage Since the Financial Crisis",
+      "authors": [
+        "Min Fang",
+        "Aeimit Lakdawala",
+        "Timothy Moreland"
+      ],
+      "journal": "JFQA",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.minfang.info/research",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Min Fang",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "[0 8 ] Monetary Policy and Firm Heterogeneity: The Role of Leverage Since the Financial Crisis , with Aeimit Lakdawala , Timothy Moreland Journal of Financial and Quantitative Analysis, Reject & Resubmit",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:51.635239+00:00",
+      "source_urls": [
+        "https://www.minfang.info/research"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-32957329f655447b",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial and Quantitative Analysis"
+    },
+    {
+      "id": "am-websites-20261127-c0a5ab8175ad7a99",
+      "title": "Competition, Capital Market Feedback, and Earnings Management: Evidence from Economic Deregulation",
+      "authors": [
+        "Xiaoding Liu",
+        "Jongsub Lee"
+      ],
+      "journal": "JFQA",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/site/xiaodingliu1",
+      "paper_url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2348294",
+      "ssrn_url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2348294",
+      "source_author": "Xiaoding Liu",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "Competition, Capital Market Feedback, and Earnings Management: Evidence from Economic Deregulation (with Jongsub Lee) Reject and Resubmit at the Journal of Financial and Quantitative Analysis",
+      "source_original_attempted_at": "2026-11-27T01:08:20.682977+00:00",
+      "body_basis": "earlier_same_day_run_body_reparsed_for_new_author_association",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "journal_mentions": [
+          "JFQA"
+        ],
+        "basis": "same_bounded_title_decision_journal_record"
+      },
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_literal_source_excerpt": "Competition, Capital Market Feedback, and Earnings Management: Evidence from Economic Deregulation (with Jongsub Lee) Reject and Resubmit at the Journal of Financial and Quantitative Analysis",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-c0a5ab8175ad7a99",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial and Quantitative Analysis"
+    },
+    {
+      "id": "am-websites-20261127-53733772e3946a20",
+      "title": "Sequential Music Consumption Behavior",
+      "authors": [
+        "Abhishek Deshmane",
+        "Noah Askin",
+        "Khwan Kim",
+        "Yewon Kim"
+      ],
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://khwankim.github.io/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4222372",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4222372",
+      "source_author": "Khwan Kim",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "Sequential Music Consumption Behavior Abhishek Deshmane, Noah Askin, Khwan Kim & Yewon Kim Management Science Reject & resubmit SSRN Figure",
+      "source_original_attempted_at": "2026-11-27T11:16:55.759201+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "journal_mentions": [
+          "MS"
+        ],
+        "basis": "same_bounded_title_decision_journal_record"
+      },
+      "applicable_views": [
+        "finance",
+        "management"
+      ],
+      "authors_literal_source_excerpt": "Sequential Music Consumption Behavior Abhishek Deshmane, Noah Askin, Khwan Kim & Yewon Kim Management Science Reject & resubmit SSRN Figure",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-53733772e3946a20",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Management Science"
     }
   ],
   "cross_discipline_refresh": {
@@ -46285,15 +46751,15 @@
     "interpretation": "Observed public author disclosures. Initials and incomplete bylines are flagged; fresh versus dated saved-body reads remain distinct."
   },
   "counts": {
-    "strict_rr": 801,
-    "reject_and_resubmit": 87,
-    "displayed_total": 888,
+    "strict_rr": 809,
+    "reject_and_resubmit": 90,
+    "displayed_total": 899,
     "strict_by_journal": {
-      "JF": 118,
-      "JFE": 98,
-      "RFS": 180,
+      "JF": 119,
+      "JFE": 100,
+      "RFS": 183,
       "RF": 71,
-      "JFQA": 87,
+      "JFQA": 89,
       "MS": 247
     },
     "reject_by_journal": {
@@ -46301,16 +46767,38 @@
       "JFE": 8,
       "RFS": 3,
       "RF": 3,
-      "JFQA": 8,
-      "MS": 42
+      "JFQA": 10,
+      "MS": 43
     }
   },
-  "updated_on": "2026-11-23",
+  "updated_on": "2026-11-27",
   "management_science_shared_refresh": {
     "updated_on": "2026-11-23",
     "new_papers": 63,
     "retired_from_strict_rr": 8,
     "shared_with": "management",
     "canonical_ids_shared": true
+  },
+  "weekly_refresh": {
+    "reviewed_on": "2026-11-27",
+    "mode": "individually_reviewed_workbook_source_increments",
+    "new_ids": [
+      "excel-20261127-c2d6490d3280eedc",
+      "excel-20261127-7ea29419995d6846",
+      "excel-20261127-264a5f06dd0b195e",
+      "excel-20261127-03a77b2b19fdbcd8",
+      "excel-20261127-8919c8510cb94bd8",
+      "excel-20261127-dc778df8ea937058",
+      "excel-20261127-f844c131c6f56c1a",
+      "excel-20261127-185ff11acef15647",
+      "excel-20261127-32957329f655447b",
+      "am-websites-20261127-c0a5ab8175ad7a99",
+      "am-websites-20261127-53733772e3946a20"
+    ],
+    "new_strict_rr": 8,
+    "new_reject_and_resubmit": 3,
+    "complete_author_roster_scan": false,
+    "source_visit_dates_preserved": true,
+    "unresolved_candidates_excluded": true
   }
 }

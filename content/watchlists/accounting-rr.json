@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-11-23",
+  "updated_on": "2026-11-27",
   "scope": "accounting",
   "journal_names": {
     "TAR": "The Accounting Review",
@@ -9066,19 +9066,70 @@
       "applicable_views": [
         "accounting"
       ]
+    },
+    {
+      "id": "am-websites-20261127-1de928cd9fca4c7a",
+      "title": "Narrative Epidemics in the OneCoin Fraud",
+      "authors": [
+        "Alexandre Madelaine",
+        "Yves Gendron",
+        "Luc Paugam",
+        "Hervé Stolowy"
+      ],
+      "journal": "AOS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/alexmadelaine/research",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Alexandre Madelaine",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "“ Narrative Epidemics in the OneCoin Fraud ” with Y.Gendron, L.Paugam and H.Stolowy (R&R at Accounting, Organizations and Society )",
+      "source_original_attempted_at": "2026-11-27T11:17:21.790366+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "own_decision_following_clause",
+        "journals": [
+          "AOS"
+        ]
+      },
+      "applicable_views": [
+        "accounting"
+      ],
+      "authors_literal_source_excerpt": "“ Narrative Epidemics in the OneCoin Fraud ” with Y.Gendron, L.Paugam and H.Stolowy (R&R at Accounting, Organizations and Society )",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-1de928cd9fca4c7a",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Accounting, Organizations and Society",
+      "fields": [
+        "Disclosure"
+      ],
+      "keywords": []
     }
   ],
   "counts": {
-    "strict_rr": 236,
+    "strict_rr": 237,
     "reject_and_resubmit": 5,
-    "displayed_total": 241,
+    "displayed_total": 242,
     "strict_by_journal": {
       "TAR": 72,
       "JAR": 53,
       "JAE": 42,
       "CAR": 49,
       "RAST": 14,
-      "AOS": 6
+      "AOS": 7
     },
     "reject_by_journal": {
       "TAR": 0,
@@ -9091,5 +9142,17 @@
   },
   "legacy_identity_review_groups": 1,
   "source_pass_completed": true,
-  "not_an_exhaustive_editorial_total": true
+  "not_an_exhaustive_editorial_total": true,
+  "weekly_refresh": {
+    "reviewed_on": "2026-11-27",
+    "mode": "individually_reviewed_workbook_source_increments",
+    "new_ids": [
+      "am-websites-20261127-1de928cd9fca4c7a"
+    ],
+    "new_strict_rr": 1,
+    "new_reject_and_resubmit": 0,
+    "complete_author_roster_scan": false,
+    "source_visit_dates_preserved": true,
+    "unresolved_candidates_excluded": true
+  }
 }

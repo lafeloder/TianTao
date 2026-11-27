@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-11-22",
+  "updated_on": "2026-11-27",
   "author_discovery_window": {
     "start": "2016-11-20",
     "end": "2026-11-20"
@@ -18,22 +18,22 @@
     "RESTUD": "The Review of Economic Studies"
   },
   "counts": {
-    "strict_rr": 670,
-    "reject_and_resubmit": 108,
-    "displayed_total": 778,
+    "strict_rr": 672,
+    "reject_and_resubmit": 109,
+    "displayed_total": 781,
     "strict_by_journal": {
       "AER": 188,
       "ECTA": 98,
-      "JPE": 147,
+      "JPE": 148,
       "QJE": 63,
-      "RESTUD": 174
+      "RESTUD": 175
     },
     "reject_by_journal": {
       "AER": 35,
       "ECTA": 9,
       "JPE": 22,
       "QJE": 29,
-      "RESTUD": 13
+      "RESTUD": 14
     }
   },
   "classification_note": "Counts reflect bounded public disclosures found on the retained sources, after reviewed identity and stronger-status screening. They are not confidential editorial totals or a claim of exhaustive current status. Failed visits and cached source dates are retained. Title-based field/keyword tags are indicative.",
@@ -26895,6 +26895,136 @@
       ],
       "field": "Other Economics",
       "ssrn_url": ""
+    },
+    {
+      "id": "excel-20261127-5b9383a0698b6717",
+      "title": "Who Benefits from Payroll Tax Cuts? Market Power, Tax Incidence and Efficiency",
+      "authors": [
+        "Felipe Lobel"
+      ],
+      "journal": "JPE",
+      "status": "R&R",
+      "evidence_url": "https://felipelobel.com/",
+      "paper_url": "https://felipelobel.com/assets/Lobel_JMP.pdf",
+      "ssrn_url": "",
+      "source_author": "Felipe Lobel",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "applied micro theory Who Benefits from Payroll Tax Cuts? Market Power, Tax Incidence and Efficiency (JMP) Sep 2026. Revised and Resubmitted (2nd round), Journal of Political Economy Award: Best Dissertation in Public Economics (UC Berkeley) Media: O Globo",
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:28.915960+00:00",
+      "source_urls": [
+        "https://felipelobel.com/",
+        "https://felipelobel.com/assets/Lobel_JMP.pdf"
+      ],
+      "applicable_views": [
+        "economics"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-5b9383a0698b6717",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Political Economy",
+      "field": "Industrial Organization",
+      "keywords": [
+        "Market Power"
+      ]
+    },
+    {
+      "id": "excel-20261127-b917537dbb204bfa",
+      "title": "Nonhomothetic Demand Shifts and Inflation Inequality",
+      "authors": [
+        "Jacob D. Orchard"
+      ],
+      "journal": "RESTUD",
+      "status": "R&R",
+      "evidence_url": "https://jakeorchard.github.io/papers/cv_JacobOrchard.pdf",
+      "paper_url": "https://www.federalreserve.gov/econres/feds/files/2025085pap.pdf",
+      "ssrn_url": "",
+      "source_author": "Jacob D Orchard",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "“Nonhomothetic Demand Shifts and Inflation Inequality” Revise and Resubmit, Review of Economic Studies [Link]",
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:45.406655+00:00",
+      "source_urls": [
+        "https://jakeorchard.github.io/papers/cv_JacobOrchard.pdf",
+        "https://www.federalreserve.gov/econres/feds/files/2025085pap.pdf"
+      ],
+      "applicable_views": [
+        "economics"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-b917537dbb204bfa",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Review of Economic Studies",
+      "field": "Public Economics",
+      "keywords": []
+    },
+    {
+      "id": "excel-20261127-8840c622d9aba7fd",
+      "title": "Lumpy Investment, Fluctuations in Volatility, and Monetary Policy",
+      "authors": [
+        "Min Fang",
+        "Wentao Zhou"
+      ],
+      "journal": "RESTUD",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.minfang.info/research",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Min Fang",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "[ 10 ] Lumpy Investment, Fluctuations in Volatility, and Monetary Policy , with Wentao Zhou Review of Economic St udies , Reject & Resubmit",
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:51.635239+00:00",
+      "source_urls": [
+        "https://www.minfang.info/research"
+      ],
+      "applicable_views": [
+        "economics"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-8840c622d9aba7fd",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Review of Economic Studies",
+      "field": "Macroeconomics",
+      "keywords": [
+        "Monetary Policy"
+      ]
     }
   ],
   "cross_discipline_refresh": {
@@ -26922,5 +27052,19 @@
     },
     "original_finance_top5_header_author_denominator": 4301,
     "interpretation": "Observed public author disclosures. Initials and incomplete bylines are flagged; fresh versus dated saved-body reads remain distinct."
+  },
+  "weekly_refresh": {
+    "reviewed_on": "2026-11-27",
+    "mode": "individually_reviewed_workbook_source_increments",
+    "new_ids": [
+      "excel-20261127-5b9383a0698b6717",
+      "excel-20261127-b917537dbb204bfa",
+      "excel-20261127-8840c622d9aba7fd"
+    ],
+    "new_strict_rr": 2,
+    "new_reject_and_resubmit": 1,
+    "complete_author_roster_scan": false,
+    "source_visit_dates_preserved": true,
+    "unresolved_candidates_excluded": true
   }
 }

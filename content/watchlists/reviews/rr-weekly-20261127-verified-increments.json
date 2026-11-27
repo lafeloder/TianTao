@@ -1,0 +1,1153 @@
+{
+  "reviewed_on": "2026-11-27",
+  "base_main_commit": "ac598452b188b46d16bbec140d9c90c81ea19f67",
+  "new_unique_strict_rr": 21,
+  "new_unique_reject_and_resubmit": 5,
+  "new_unique_papers": 26,
+  "source_scope": "New and corrected source-address increments in two user-supplied author website workbooks. Original source visit dates retained; no claim of a complete author scan.",
+  "items": [
+    {
+      "id": "excel-20261127-c2d6490d3280eedc",
+      "title": "Institutional Ownership Overstates Voting Power: The Allocation of Voting Authority",
+      "authors": [
+        "Alon Brav",
+        "Tao Li"
+      ],
+      "journal": "JF",
+      "status": "R&R",
+      "evidence_url": "https://site.warrington.ufl.edu/tao-li/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6552838",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6552838",
+      "source_author": "Tao Li",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Institutional Ownership Overstates Voting Power: The Allocation of Voting Authority Revise and Resubmit, Journal of Finance",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:31.880740+00:00",
+      "source_urls": [
+        "https://site.warrington.ufl.edu/tao-li/",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/6552838.pdf?abstractid=6552838&mirid=1"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-c2d6490d3280eedc",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Journal of Finance"
+    },
+    {
+      "id": "excel-20261127-7ea29419995d6846",
+      "title": "Regulatory Arbitrage within the Firm",
+      "authors": [
+        "Nicola Cetorelli",
+        "Shohini Kundu"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://shohinikundu.github.io/research.html",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6814642",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6814642",
+      "source_author": "Shohini Kundu",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Regulatory Arbitrage within the Firm R&R Journal of Financial Economics",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:52.914728+00:00",
+      "source_urls": [
+        "https://shohinikundu.github.io/research.html",
+        "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1196.pdf?sc_lang=en"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-7ea29419995d6846",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial Economics"
+    },
+    {
+      "id": "excel-20261127-264a5f06dd0b195e",
+      "title": "Race to Rebalance: Global Supply Chains and Labor Market Regulation",
+      "authors": [
+        "Xiaoxue Hu",
+        "Dongxu Li",
+        "Rose Liao",
+        "Angie Low",
+        "Carrie Pan"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.rutgers.edu/rose-liao/research-2/",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Rose Liao",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "“ Race to Rebalance: Global Supply Chains and Labor Market Regulation ” (With Xiaoxue Hu, Dongxu Li, Angie Low, and Carrie Pan), working paper, Rutgers University, 2025 R&R at Journal of Financial and Quantitative Analysis",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:59.723818+00:00",
+      "source_urls": [
+        "https://sites.rutgers.edu/rose-liao/research-2/",
+        "https://personal.ntu.edu.sg/aaclow/Low_CV.pdf"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-264a5f06dd0b195e",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial and Quantitative Analysis"
+    },
+    {
+      "id": "excel-20261127-03a77b2b19fdbcd8",
+      "title": "Roe v. Rates: Reproductive Healthcare and Public Financing Costs",
+      "authors": [
+        "Runjing Lu",
+        "Zihan Ye"
+      ],
+      "journal": "JFQA",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/zihanye/home",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4557423",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4557423",
+      "source_author": "Zihan Ye",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Roe v. Rates: Reproductive Healthcare and Public Financing Costs with Runjing Lu Revise & Resubmit at Journal of Financial and Quantitative Analysis",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:07:19.224368+00:00",
+      "source_urls": [
+        "https://sites.google.com/view/zihanye/home"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-03a77b2b19fdbcd8",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial and Quantitative Analysis"
+    },
+    {
+      "id": "excel-20261127-8919c8510cb94bd8",
+      "title": "Institutional Ownership Concentration and Informational Efficiency",
+      "authors": [
+        "Yan Xiong",
+        "Liyan Yang",
+        "Zexin Zheng"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://xiongyan2224.github.io/",
+      "paper_url": "https://xiongyan2224.github.io/papers/institutional-ownership-concentration.pdf",
+      "ssrn_url": "",
+      "source_author": "Yan Xiong",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Institutional Ownership Concentration and Informational Efficiency PDF with Liyan Yang and Zexin Zheng R&R at Review of Financial Studies",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:27.954577+00:00",
+      "source_urls": [
+        "https://xiongyan2224.github.io/",
+        "https://xiongyan2224.github.io/papers/institutional-ownership-concentration.pdf"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-8919c8510cb94bd8",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Review of Financial Studies"
+    },
+    {
+      "id": "excel-20261127-dc778df8ea937058",
+      "title": "How Does Corporate Sustainability Shape Consumption?",
+      "authors": [
+        "Joel F. Houston",
+        "Chen Lin",
+        "Hongyu Shan",
+        "Mo Shen"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/mo-shen",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4243071",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4243071",
+      "source_author": "Mo Shen",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "How Does Corporate Sustainability Shape Consumption ? (with Joel Houston, Chen Lin, and Hongyu (Derek) Shan) Revise and Resubmit , Review of Financial Studies New Zealand Finance Meeting Best Runner-Up Award 2023 Conferences: SFS Cavalcade 2023, WFA 2023 Media Coverage: Chicago Booth Review",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:46.456223+00:00",
+      "source_urls": [
+        "https://sites.google.com/view/mo-shen",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/4243071.pdf?abstractid=4243071&mirid=1&type=2"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-dc778df8ea937058",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Review of Financial Studies"
+    },
+    {
+      "id": "excel-20261127-f844c131c6f56c1a",
+      "title": "Payment Risk and Bank Lending",
+      "authors": [
+        "Ye Li",
+        "Yi Li"
+      ],
+      "journal": "JFE",
+      "status": "R&R",
+      "evidence_url": "https://yeli-macrofinance.com/",
+      "paper_url": "https://yeli-macrofinance.com/payment_risk.pdf",
+      "ssrn_url": "",
+      "source_author": "YE LI",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Payment Risk and Bank Lending, revise and resubmit at the Journal of Financial Economics with Yi Li (2021, updated 2026), paper",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:32.628717+00:00",
+      "source_urls": [
+        "https://yeli-macrofinance.com/",
+        "https://damore-mckim.northeastern.edu/wp-content/uploads/2022/05/9_payment_lending_2022apr.pdf"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-f844c131c6f56c1a",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial Economics"
+    },
+    {
+      "id": "excel-20261127-185ff11acef15647",
+      "title": "A Network-Based Analysis of Over-the-Counter Markets",
+      "authors": [
+        "Michael Gofman"
+      ],
+      "journal": "RFS",
+      "status": "R&R",
+      "evidence_url": "https://gofman.info/",
+      "paper_url": "https://gofman.info/JMP/MichaelGofmanJMP.pdf",
+      "ssrn_url": "",
+      "source_author": "Michael Gofman",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "A Network-Based Analysis of Over-the-Counter Markets ( R&R Review of Financial Studies )",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:27.920981+00:00",
+      "source_urls": [
+        "https://gofman.info/",
+        "https://gofman.info/JMP/MichaelGofmanJMP.pdf"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-185ff11acef15647",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Review of Financial Studies"
+    },
+    {
+      "id": "excel-20261127-5b9383a0698b6717",
+      "title": "Who Benefits from Payroll Tax Cuts? Market Power, Tax Incidence and Efficiency",
+      "authors": [
+        "Felipe Lobel"
+      ],
+      "journal": "JPE",
+      "status": "R&R",
+      "evidence_url": "https://felipelobel.com/",
+      "paper_url": "https://felipelobel.com/assets/Lobel_JMP.pdf",
+      "ssrn_url": "",
+      "source_author": "Felipe Lobel",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "applied micro theory Who Benefits from Payroll Tax Cuts? Market Power, Tax Incidence and Efficiency (JMP) Sep 2026. Revised and Resubmitted (2nd round), Journal of Political Economy Award: Best Dissertation in Public Economics (UC Berkeley) Media: O Globo",
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:28.915960+00:00",
+      "source_urls": [
+        "https://felipelobel.com/",
+        "https://felipelobel.com/assets/Lobel_JMP.pdf"
+      ],
+      "applicable_views": [
+        "economics"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-5b9383a0698b6717",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Political Economy"
+    },
+    {
+      "id": "excel-20261127-b917537dbb204bfa",
+      "title": "Nonhomothetic Demand Shifts and Inflation Inequality",
+      "authors": [
+        "Jacob D. Orchard"
+      ],
+      "journal": "RESTUD",
+      "status": "R&R",
+      "evidence_url": "https://jakeorchard.github.io/papers/cv_JacobOrchard.pdf",
+      "paper_url": "https://www.federalreserve.gov/econres/feds/files/2025085pap.pdf",
+      "ssrn_url": "",
+      "source_author": "Jacob D Orchard",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "“Nonhomothetic Demand Shifts and Inflation Inequality” Revise and Resubmit, Review of Economic Studies [Link]",
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:45.406655+00:00",
+      "source_urls": [
+        "https://jakeorchard.github.io/papers/cv_JacobOrchard.pdf",
+        "https://www.federalreserve.gov/econres/feds/files/2025085pap.pdf"
+      ],
+      "applicable_views": [
+        "economics"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-b917537dbb204bfa",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Review of Economic Studies"
+    },
+    {
+      "id": "excel-20261127-e8617d4021b17f64",
+      "title": "Reversing the Herd: Binding Caps and the Direction of Innovation",
+      "authors": [
+        "Jane Wu"
+      ],
+      "journal": "SMJ",
+      "status": "R&R",
+      "evidence_url": "https://wujane.com/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6873962",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6873962",
+      "source_author": "Jane Wu",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Reversing the Herd: Binding Caps and the Direction of Innovation Strategic Management Journal , R&R",
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:29.449985+00:00",
+      "source_urls": [
+        "https://wujane.com/",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6873962"
+      ],
+      "applicable_views": [
+        "management"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-e8617d4021b17f64",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Strategic Management Journal"
+    },
+    {
+      "id": "excel-20261127-f6e8da900c50ef53",
+      "title": "Measuring the Frontier: How Figures of Merit Shape Innovation",
+      "authors": [
+        "Jane Wu"
+      ],
+      "journal": "OS",
+      "status": "R&R",
+      "evidence_url": "https://wujane.com/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7134502",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7134502",
+      "source_author": "Jane Wu",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "Measuring the Frontier: How Figures of Merit Shape Innovation Organization Science , R&R",
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:29.449985+00:00",
+      "source_urls": [
+        "https://wujane.com/",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7134502.pdf?abstractid=7134502&mirid=1&type=2"
+      ],
+      "applicable_views": [
+        "management"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-f6e8da900c50ef53",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Organization Science"
+    },
+    {
+      "id": "excel-20261127-32957329f655447b",
+      "title": "Monetary Policy and Firm Heterogeneity: The Role of Leverage Since the Financial Crisis",
+      "authors": [
+        "Min Fang",
+        "Aeimit Lakdawala",
+        "Timothy Moreland"
+      ],
+      "journal": "JFQA",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.minfang.info/research",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Min Fang",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "[0 8 ] Monetary Policy and Firm Heterogeneity: The Role of Leverage Since the Financial Crisis , with Aeimit Lakdawala , Timothy Moreland Journal of Financial and Quantitative Analysis, Reject & Resubmit",
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:51.635239+00:00",
+      "source_urls": [
+        "https://www.minfang.info/research"
+      ],
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-32957329f655447b",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial and Quantitative Analysis"
+    },
+    {
+      "id": "excel-20261127-8840c622d9aba7fd",
+      "title": "Lumpy Investment, Fluctuations in Volatility, and Monetary Policy",
+      "authors": [
+        "Min Fang",
+        "Wentao Zhou"
+      ],
+      "journal": "RESTUD",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://www.minfang.info/research",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Min Fang",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "evidence_excerpt": "[ 10 ] Lumpy Investment, Fluctuations in Volatility, and Monetary Policy , with Wentao Zhou Review of Economic St udies , Reject & Resubmit",
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Own bounded primary title/decision/journal read. Full authors checked against the primary page and linked paper or indexed primary author metadata. Compared with all four retained views and saved formal publication corpora; no newer terminal evidence was observed for this record in the checked sources.",
+      "source_original_attempted_at": "2026-11-27T01:06:51.635239+00:00",
+      "source_urls": [
+        "https://www.minfang.info/research"
+      ],
+      "applicable_views": [
+        "economics"
+      ],
+      "authors_verified": true,
+      "source_content_update_date_known": false,
+      "publication_api_limit": "Crossref endpoint returned an initial 400 and then 429; further queries were not attempted. Working-paper DOI/series records were not treated as journal publication.",
+      "canonical_paper_id": "excel-20261127-8840c622d9aba7fd",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "The Review of Economic Studies"
+    },
+    {
+      "id": "am-websites-20261127-1de928cd9fca4c7a",
+      "title": "Narrative Epidemics in the OneCoin Fraud",
+      "authors": [
+        "Alexandre Madelaine",
+        "Yves Gendron",
+        "Luc Paugam",
+        "Hervé Stolowy"
+      ],
+      "journal": "AOS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/alexmadelaine/research",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Alexandre Madelaine",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "“ Narrative Epidemics in the OneCoin Fraud ” with Y.Gendron, L.Paugam and H.Stolowy (R&R at Accounting, Organizations and Society )",
+      "source_original_attempted_at": "2026-11-27T11:17:21.790366+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "own_decision_following_clause",
+        "journals": [
+          "AOS"
+        ]
+      },
+      "applicable_views": [
+        "accounting"
+      ],
+      "authors_literal_source_excerpt": "“ Narrative Epidemics in the OneCoin Fraud ” with Y.Gendron, L.Paugam and H.Stolowy (R&R at Accounting, Organizations and Society )",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-1de928cd9fca4c7a",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Accounting, Organizations and Society"
+    },
+    {
+      "id": "am-websites-20261127-dc68e132d5837427",
+      "title": "Stuck in Oil? Industry Stigma and Barriers to Cross-Industry Career Mobility",
+      "authors": [
+        "Shinjae Won",
+        "Keehyuk Ra",
+        "Richard Benton"
+      ],
+      "journal": "ASQ",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/wonshinjae/",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Shinjae Won",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "Working Papers “Stuck in Oil? Industry Stigma and Barriers to Cross-Industry Career Mobility” (with Keehyuk Ra and Richard Benton) 1st round R&R at Administrative Science Quarterly",
+      "source_original_attempted_at": "2026-11-27T11:16:57.721484+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "own_decision_following_clause",
+        "journals": [
+          "ASQ"
+        ]
+      },
+      "applicable_views": [
+        "management"
+      ],
+      "authors_literal_source_excerpt": "Working Papers “Stuck in Oil? Industry Stigma and Barriers to Cross-Industry Career Mobility” (with Keehyuk Ra and Richard Benton) 1st round R&R at Administrative Science Quarterly",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-dc68e132d5837427",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Administrative Science Quarterly"
+    },
+    {
+      "id": "am-websites-20261127-eb5316bbed1e3a5f",
+      "title": "Institutional Logics in Corporate Governance: Attributing for Poor Performance and Insider versus Outsider CEO Succession, 1960-2017",
+      "authors": [
+        "Shoonchul Shin",
+        "Juyoung Lee"
+      ],
+      "journal": "ASQ",
+      "status": "R&R",
+      "evidence_url": "https://sociology.berkeley.edu/sites/default/files/user/698/shoonchul-shin-cv.pdf",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Shoonchul Shin",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "MANUSCRIPTS AND WORKING PAPERS Shin, Shoonchul and Juyoung Lee. “Institutional Logics in Corporate Governance: Attributing for Poor Performance and Insider versus Outsider CEO Succession, 1960-2017.” Revise and resubmit at Administrative Science Quarterly. Shin, Shoonchul. “Categorical Legitimation: News Media, Cognitive Market Networks, and Population Dynamics.” (draft available) Shin, Shoonchul. “Categorization, Identity Construction, and the Survival of Entrepreneurial Ventures.” (draft available) Shin, Shoonchul, Pratima (Tima) Bansal, Juyoung Lee, and Heechan Song. “Historical Contingency of Shareholder Value Ideology: Evidence from the Analyses of Executive Pay, Turnover, and Institutional Ownership in Large U.S. Companies, 1980-2017.” (stage: data analysis) Shin, Shoonchul. “Symbolic Management: Rationalizing for Poor Performance and CEO Succession.” (stage: data collection)",
+      "source_original_attempted_at": "2026-11-27T11:17:17.519745+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "own_decision_following_clause",
+        "journals": [
+          "ASQ"
+        ]
+      },
+      "applicable_views": [
+        "management"
+      ],
+      "authors_literal_source_excerpt": "MANUSCRIPTS AND WORKING PAPERS Shin, Shoonchul and Juyoung Lee. “Institutional Logics in Corporate Governance: Attributing for Poor Performance and Insider versus Outsider CEO Succession, 1960-2017.” Revise and resubmit at Administrative Science Quarterly. Shin, Shoonchul. “Categorical Legitimation: News Media, Cognitive Market Networks, and Population Dynamics.” (draft available) Shin, Shoonchul. “Categorization, Identity Construction, and the Survival of Entrepreneurial Ventures.” (draft available) Shin, Shoonchul, Pratima (Tima) Bansal, Juyoung Lee, and Heechan Song. “Historical Contingency of Shareholder Value Ideology: Evidence from the Analyses of Executive Pay, Turnover, and Institutional Ownership in Large U.S. Companies, 1980-2017.” (stage: data analysis) Shin, Shoonchul. “Symbolic Management: Rationalizing for Poor Performance and CEO Succession.” (stage: data collection)",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-eb5316bbed1e3a5f",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Administrative Science Quarterly"
+    },
+    {
+      "id": "am-websites-20261127-941c00ed1d3ec091",
+      "title": "The axiology of artificial intelligence: Understanding value inscription in AI systems",
+      "authors": [
+        "Evelyn Micelotta",
+        "Vern Glaser",
+        "Jennifer Sloan",
+        "Rodrigo Valadao"
+      ],
+      "journal": "AMR",
+      "status": "R&R",
+      "evidence_url": "https://www.uvm.edu/d10-files/documents/2025-11/Evelyn-Micelotta.pdf",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Evelyn Rita Micelotta",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "\"The axiology of artificial intelligence: Understanding value inscription in Ai systems\" (On-Going). Co-Author(s): Micelotta, Evelyn, Vern Glaser (University of Alberta), Jennifer Sloan (University of Alberta), Rodrigo Valadao (Neoma Business School) a theory paper submitted to the Special Issue on AI in Academy of Management Review. We received a revise and resubmit invitation.",
+      "source_original_attempted_at": "2026-11-27T11:17:17.466892+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "individual_manual_review_of_one_bounded_CV_paragraph",
+        "prior_automated_binding": {
+          "supported": false,
+          "basis": "same_bounded_paper_direct_journal_decision",
+          "journals": []
+        },
+        "not_borrowed_from_another_paper": true
+      },
+      "applicable_views": [
+        "management"
+      ],
+      "authors_literal_source_excerpt": "\"The axiology of artificial intelligence: Understanding value inscription in Ai systems\" (On-Going). Co-Author(s): Micelotta, Evelyn, Vern Glaser (University of Alberta), Jennifer Sloan (University of Alberta), Rodrigo Valadao (Neoma Business School) a theory paper submitted to the Special Issue on AI in Academy of Management Review. We received a revise and resubmit invitation.",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-941c00ed1d3ec091",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Academy of Management Review"
+    },
+    {
+      "id": "am-websites-20261127-7526b16150748d86",
+      "title": "Generative AI and Entrepreneurial Entry",
+      "authors": [
+        "Jiayi Bao",
+        "Bowen Lou",
+        "Hongshen Sun"
+      ],
+      "journal": "OS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/jiayibao/research",
+      "paper_url": "https://ssrn.com/abstract=5167018",
+      "ssrn_url": "https://ssrn.com/abstract=5167018",
+      "source_author": "Jiayi Bao",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "Generative AI and Entrepreneurial Entry . 2 nd Revise and Resubmit at Organization Science",
+      "source_original_attempted_at": "2026-11-27T11:17:36.718438+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "own_decision_following_clause",
+        "journals": [
+          "OS"
+        ]
+      },
+      "applicable_views": [
+        "management"
+      ],
+      "authors_literal_source_excerpt": "Generative AI and Entrepreneurial Entry . 2 nd Revise and Resubmit at Organization Science",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-7526b16150748d86",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Organization Science"
+    },
+    {
+      "id": "am-websites-20261127-5968f6dcfc98661f",
+      "title": "MNC Sociopolitical Activism in Host Countries",
+      "authors": [
+        "Fangwen Lin",
+        "Ishva Minefee",
+        "Lori Yue"
+      ],
+      "journal": "OS",
+      "status": "R&R",
+      "evidence_url": "https://sites.google.com/view/fangwenlin/research",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Fangwen Lin",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "MNC Sociopolitical Activism in Host Countries with Ishva Minefee and Lori Yue Nominee, Best Paper Prize and Best PhD Paper Prize, SMS 2025 Revise and resubmit at Organization Science",
+      "source_original_attempted_at": "2026-11-27T11:17:35.629431+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "own_decision_following_clause",
+        "journals": [
+          "OS"
+        ]
+      },
+      "applicable_views": [
+        "management"
+      ],
+      "authors_literal_source_excerpt": "MNC Sociopolitical Activism in Host Countries with Ishva Minefee and Lori Yue Nominee, Best Paper Prize and Best PhD Paper Prize, SMS 2025 Revise and resubmit at Organization Science",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-5968f6dcfc98661f",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Organization Science"
+    },
+    {
+      "id": "am-websites-20261127-0bee10ab44a81ce2",
+      "title": "Best of Both Worlds: The Advantages of Hybrid CEOs in Multi-Unit Firms",
+      "authors": [
+        "Tingyu Du",
+        "Ulya Tsolmon"
+      ],
+      "journal": "SMJ",
+      "status": "R&R",
+      "evidence_url": "https://tingyudu.com/research/",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Tingyu Du",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "Best of Both Worlds: The Advantages of Hybrid CEOs in Multi-Unit Firms Du, T., & Tsolmon, U. Revise & Resubmit at Strategic Management Journal",
+      "source_original_attempted_at": "2026-11-27T11:17:02.113406+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "own_decision_following_clause",
+        "journals": [
+          "SMJ"
+        ]
+      },
+      "applicable_views": [
+        "management"
+      ],
+      "authors_literal_source_excerpt": "Best of Both Worlds: The Advantages of Hybrid CEOs in Multi-Unit Firms Du, T., & Tsolmon, U. Revise & Resubmit at Strategic Management Journal",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "author_name_resolution": {
+        "coauthor_full_name_source": "https://www.isenberg.umass.edu/people/ulya-tsolmon",
+        "literal_source_name": "U. Tsolmon",
+        "expanded_name": "Ulya Tsolmon"
+      },
+      "canonical_paper_id": "am-websites-20261127-0bee10ab44a81ce2",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Strategic Management Journal"
+    },
+    {
+      "id": "am-websites-20261127-ce89abb6cf715561",
+      "title": "Orchestrating Innovation in Pharmaceutical Science in Low- and Middle-Income Countries after TRIPS",
+      "authors": [
+        "Michael Blomfield",
+        "Gabriel Cavalli",
+        "Anita McGahan",
+        "Keyvan Vakili"
+      ],
+      "journal": "SMJ",
+      "status": "R&R",
+      "evidence_url": "https://www.michaelblomfield.io/research-1",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Michael Blomfield",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "Orchestrating Innovation in Pharmaceutical Science in Low- and Middle-Income Countries after TRIPS, (w/ Gabriel Cavalli, Anita McGahan and Keyvan Vakili) Revise & Resubmit, Strategic Management Journal",
+      "source_original_attempted_at": "2026-11-27T11:17:01.763745+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "own_decision_following_clause",
+        "journals": [
+          "SMJ"
+        ]
+      },
+      "applicable_views": [
+        "management"
+      ],
+      "authors_literal_source_excerpt": "Orchestrating Innovation in Pharmaceutical Science in Low- and Middle-Income Countries after TRIPS, (w/ Gabriel Cavalli, Anita McGahan and Keyvan Vakili) Revise & Resubmit, Strategic Management Journal",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-ce89abb6cf715561",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Strategic Management Journal"
+    },
+    {
+      "id": "am-websites-20261127-cabd2b5bc89d4d70",
+      "title": "Crossing borders, creating unicorns: The unique impact of immigrant entrepreneurs on the entrepreneurial ecosystem",
+      "authors": [
+        "Travis Howell",
+        "Bradley E. Hendricks",
+        "Christopher B. Bingham"
+      ],
+      "journal": "SMJ",
+      "status": "R&R",
+      "evidence_url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/1970/01/CV-Bingham-Nov-25.pdf",
+      "paper_url": "",
+      "ssrn_url": "",
+      "source_author": "Chris B. Bingham",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "2. Howell, T., Hendricks, B. & Bingham, C. (2025 ). Crossing borders, creating unicorns: The unique impact of immigrant entrepreneurs on the entrepreneurial ecosystem. Revise and Resubmit at Strategic Management Journal",
+      "source_original_attempted_at": "2026-11-27T11:17:17.414941+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "own_decision_following_clause",
+        "journals": [
+          "SMJ"
+        ]
+      },
+      "applicable_views": [
+        "management"
+      ],
+      "authors_literal_source_excerpt": "2. Howell, T., Hendricks, B. & Bingham, C. (2025 ). Crossing borders, creating unicorns: The unique impact of immigrant entrepreneurs on the entrepreneurial ecosystem. Revise and Resubmit at Strategic Management Journal",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "author_name_resolution": {
+        "literal_source_names": [
+          "T. Howell",
+          "B. Hendricks",
+          "C. Bingham"
+        ],
+        "expanded_name_basis": "Existing author aliases and the full-name publisher byline for the same coauthor trio; expansion is an identity inference, not proof of paper equivalence.",
+        "publisher_reference": "https://doi.org/10.1002/smj.3006"
+      },
+      "canonical_paper_id": "am-websites-20261127-cabd2b5bc89d4d70",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Strategic Management Journal"
+    },
+    {
+      "id": "am-websites-20261127-c0a5ab8175ad7a99",
+      "title": "Competition, Capital Market Feedback, and Earnings Management: Evidence from Economic Deregulation",
+      "authors": [
+        "Xiaoding Liu",
+        "Jongsub Lee"
+      ],
+      "journal": "JFQA",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://sites.google.com/site/xiaodingliu1",
+      "paper_url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2348294",
+      "ssrn_url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2348294",
+      "source_author": "Xiaoding Liu",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "Competition, Capital Market Feedback, and Earnings Management: Evidence from Economic Deregulation (with Jongsub Lee) Reject and Resubmit at the Journal of Financial and Quantitative Analysis",
+      "source_original_attempted_at": "2026-11-27T01:08:20.682977+00:00",
+      "body_basis": "earlier_same_day_run_body_reparsed_for_new_author_association",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "journal_mentions": [
+          "JFQA"
+        ],
+        "basis": "same_bounded_title_decision_journal_record"
+      },
+      "applicable_views": [
+        "finance"
+      ],
+      "authors_literal_source_excerpt": "Competition, Capital Market Feedback, and Earnings Management: Evidence from Economic Deregulation (with Jongsub Lee) Reject and Resubmit at the Journal of Financial and Quantitative Analysis",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-c0a5ab8175ad7a99",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Journal of Financial and Quantitative Analysis"
+    },
+    {
+      "id": "am-websites-20261127-53733772e3946a20",
+      "title": "Sequential Music Consumption Behavior",
+      "authors": [
+        "Abhishek Deshmane",
+        "Noah Askin",
+        "Khwan Kim",
+        "Yewon Kim"
+      ],
+      "journal": "MS",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://khwankim.github.io/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4222372",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4222372",
+      "source_author": "Khwan Kim",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "top5",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "Sequential Music Consumption Behavior Abhishek Deshmane, Noah Askin, Khwan Kim & Yewon Kim Management Science Reject & resubmit SSRN Figure",
+      "source_original_attempted_at": "2026-11-27T11:16:55.759201+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "journal_mentions": [
+          "MS"
+        ],
+        "basis": "same_bounded_title_decision_journal_record"
+      },
+      "applicable_views": [
+        "finance",
+        "management"
+      ],
+      "authors_literal_source_excerpt": "Sequential Music Consumption Behavior Abhishek Deshmane, Noah Askin, Khwan Kim & Yewon Kim Management Science Reject & resubmit SSRN Figure",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-53733772e3946a20",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Management Science"
+    },
+    {
+      "id": "am-websites-20261127-446eb86aea87751c",
+      "title": "Digitization Effects in the Book Industry",
+      "authors": [
+        "Khwan Kim",
+        "Manav Raj"
+      ],
+      "journal": "SMJ",
+      "status": "Reject & Resubmit",
+      "evidence_url": "https://khwankim.github.io/",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4823725",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4823725",
+      "source_author": "Khwan Kim",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "last_attempted": "2026-11-27",
+      "source_updated": "",
+      "topics": [],
+      "source_scope": "combined_author_watchlist",
+      "verification_status": "primary_confirmed",
+      "verification": "Full title, all listed contributors, target journal and explicit own-paper decision individually reviewed. Existing main data and the earlier 27 November local increments are included in the comparison baseline. An AOM conference abstract is not treated as ASQ journal publication.",
+      "evidence_excerpt": "Digitization Effects in the Book Industry Khwan Kim & Manav Raj Strategic Management Journal Reject & resubmit Best Paper Award, Munich Summer Institute 2025. Best Student Paper Award, OMT Division, Academy of Management 2024, for an earlier solo-authored version. SSRN Figure",
+      "source_original_attempted_at": "2026-11-27T11:16:55.759201+00:00",
+      "body_basis": "new_weekly_source_attempt",
+      "stale_body_fallback": false,
+      "decision_binding": {
+        "supported": true,
+        "basis": "own_decision_preceding_clause",
+        "journals": [
+          "SMJ"
+        ]
+      },
+      "applicable_views": [
+        "management"
+      ],
+      "authors_literal_source_excerpt": "Digitization Effects in the Book Industry Khwan Kim & Manav Raj Strategic Management Journal Reject & resubmit Best Paper Award, Munich Summer Institute 2025. Best Student Paper Award, OMT Division, Academy of Management 2024, for an earlier solo-authored version. SSRN Figure",
+      "content_update_date_not_inferred_from_fetch_date": true,
+      "canonical_paper_id": "am-websites-20261127-446eb86aea87751c",
+      "authors_complete": true,
+      "author_order_asserted": false,
+      "reviewed_on": "2026-11-27",
+      "eligibility": null,
+      "eligibility_status": "approved_combined_author_watchlist",
+      "journal_name": "Strategic Management Journal"
+    }
+  ]
+}
